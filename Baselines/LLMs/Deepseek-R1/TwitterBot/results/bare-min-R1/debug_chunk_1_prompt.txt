@@ -1,0 +1,254 @@
+=== CHUNK 1 PROMPT ===
+
+<|im_start|>system
+ROLE
+You are a precise data-forensics assistant specializing in Twitter bot detection evasion analysis.
+
+Your task is to analyze changes made to individual features in Twitter bot profiles and determine whether each change was:
+- INTENTIONAL (1): Deliberately made to make a bot profile appear more human-like or evade bot detection
+- UNINTENTIONAL (-1): Accidental changes, or normal profile variations
+
+IMPORTANT: You must evaluate EACH CHANGED FEATURE INDEPENDENTLY, not the entire record.
+
+Rules:
+- Analyze each pair of (clean, changed) bot profiles
+- For EACH CHANGED FEATURE (where mask=1), provide a separate decision
+- Decide 1 (intentional bot evasion) or -1 (unintentional/normal change) PER FEATURE
+- Each feature should have its own specific explanation
+- Be deterministic - same input should yield same output
+- Return ONLY a JSON object, no additional text
+
+Required JSON format:
+{
+  "feature_decisions": [
+    {
+      "row_id": <global_id>,
+      "column": "<feature_name>",
+      "changed_value": "<new_value>",
+      "original_value": "<old_value>",
+      "decision": 1 or -1,
+      "reason": "<specific explanation for THIS feature change>"
+    },
+    ...
+  ]
+}
+
+CRITICAL: Each changed feature needs its own entry with a specific reason explaining why THAT PARTICULAR feature change is intentional or unintentional.
+<|im_end|>
+<|im_start|>user
+INPUT DATA:
+{
+  "columns": [
+    "user_id",
+    "followers_count",
+    "friends_count",
+    "favourites_count",
+    "statuses_count",
+    "listed_count",
+    "verified",
+    "protected",
+    "default_profile",
+    "default_profile_image",
+    "geo_enabled",
+    "profile_use_background_image",
+    "has_created_date",
+    "description_length",
+    "screen_name_length",
+    "name_length",
+    "has_description",
+    "has_location",
+    "label"
+  ],
+  "records": [
+    {
+      "index": 0,
+      "row_id": 7,
+      "clean_profile": {
+        "user_id": "u107817424",
+        "followers_count": "326",
+        "friends_count": "585",
+        "favourites_count": "0",
+        "statuses_count": "301",
+        "listed_count": "10",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "63",
+        "screen_name_length": "0",
+        "name_length": "5",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_profile": {
+        "user_id": "u107817424",
+        "followers_count": "326",
+        "friends_count": "585",
+        "favourites_count": "0",
+        "statuses_count": "301",
+        "listed_count": "10",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "60",
+        "screen_name_length": "0",
+        "name_length": "2",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_features": [
+        {
+          "column": "description_length",
+          "original_value": "63",
+          "changed_value": "60"
+        },
+        {
+          "column": "name_length",
+          "original_value": "5",
+          "changed_value": "2"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "row_id": 8,
+      "clean_profile": {
+        "user_id": "u1294881559258963968",
+        "followers_count": "435",
+        "friends_count": "1125",
+        "favourites_count": "0",
+        "statuses_count": "43",
+        "listed_count": "0",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "79",
+        "screen_name_length": "0",
+        "name_length": "6",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_profile": {
+        "user_id": "u1294881559258963968",
+        "followers_count": "435",
+        "friends_count": "66225",
+        "favourites_count": "0",
+        "statuses_count": "43",
+        "listed_count": "0",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "49",
+        "screen_name_length": "0",
+        "name_length": "1",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_features": [
+        {
+          "column": "friends_count",
+          "original_value": "1125",
+          "changed_value": "66225"
+        },
+        {
+          "column": "description_length",
+          "original_value": "79",
+          "changed_value": "49"
+        },
+        {
+          "column": "name_length",
+          "original_value": "6",
+          "changed_value": "1"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "row_id": 9,
+      "clean_profile": {
+        "user_id": "u221345390",
+        "followers_count": "181",
+        "friends_count": "1404",
+        "favourites_count": "0",
+        "statuses_count": "18",
+        "listed_count": "0",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "1",
+        "screen_name_length": "0",
+        "name_length": "10",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_profile": {
+        "user_id": "u221345390",
+        "followers_count": "181",
+        "friends_count": "66504",
+        "favourites_count": "0",
+        "statuses_count": "18",
+        "listed_count": "0",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "10",
+        "screen_name_length": "0",
+        "name_length": "4",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_features": [
+        {
+          "column": "friends_count",
+          "original_value": "1404",
+          "changed_value": "66504"
+        },
+        {
+          "column": "description_length",
+          "original_value": "1",
+          "changed_value": "10"
+        },
+        {
+          "column": "name_length",
+          "original_value": "10",
+          "changed_value": "4"
+        }
+      ]
+    }
+  ]
+}
+
+Analyze each changed feature and return your feature-level decisions in JSON format now.<|im_end|>
+<|im_start|>assistant
+{"feature_decisions": [
+
+=== END PROMPT ===

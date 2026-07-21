@@ -1,0 +1,7 @@
+row_id,column,true_intent,pred_intent,reason,clean_val,dirty_val
+8,description_length,1,1,Increasing description length makes the profile appear more complete and human-like.,1,29
+8,name_length,1,1,Increasing name length makes the profile appear more complete and human-like.,15,17
+20,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",46,7
+20,description_length,1,-1,"Description length decreased, likely due to editing or content removal.",104,48
+24,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",419,7
+44,statuses_count,-1,1,Significant increase in statuses_count suggests engagement gaming for bot evasion.,73189,77185

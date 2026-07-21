@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,eps,min_samples,n_clusters,noise_count,silhouette
+KNN_k7,0.9683,0.9368,0.9681,0.9522,0.9684,0.9682,0.33,623,11038,5.34,dbscan,0.2202,5,125,869,0.611

@@ -1,0 +1,7 @@
+fixes/
+fixes2/
+experiments/
+Results/
+__pycache__/
+*.pyc
+.DS_Store

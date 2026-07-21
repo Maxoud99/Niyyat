@@ -1,0 +1,1100 @@
+row_id,column,true_intent,pred_intent,reason,clean_val,dirty_val
+8,description_length,1,1,significant description expansion,1,29
+8,name_length,1,-1,minor name length change,15,17
+20,statuses_count,1,-1,significant decrease in activity,46,7
+20,description_length,1,-1,moderate description shortening,104,48
+24,statuses_count,1,1,massive drop in statuses for evasion,419,7
+44,statuses_count,-1,1,significant increase in statuses,73189,77185
+57,listed_count,1,-1,small listed_count decrease,32,0
+57,description_length,1,-1,minor description_length edit,80,24
+63,description_length,-1,-1,minor description length reduction,52,21
+67,description_length,-1,-1,minor description length increase,133,176
+70,friends_count,-1,1,massive friends count decrease,518,0
+71,statuses_count,1,1,significant status reduction,49,7
+71,name_length,1,1,name length increased significantly,3,9
+73,protected,-1,-1,guard_fallback,0,0
+74,description_length,-1,1,description length decreased notably,79,31
+83,friends_count,-1,1,massive decrease for evasion,462,0
+92,followers_count,-1,1,massive follower decrease for evasion,1713,0
+92,listed_count,-1,1,listed count reset for evasion,5,0
+92,protected,-1,-1,no change in protected status,0,0
+97,followers_count,-1,1,significant follower drop for evasion,231,0
+100,followers_count,-1,1,massive follower decrease for evasion,112,0
+104,protected,-1,-1,no change in protected status,0,0
+104,name_length,-1,-1,minor name length variation,6,5
+111,statuses_count,1,1,significant decrease for evasion,147,7
+112,friends_count,-1,1,massive friends count decrease for evasion,740,0
+115,statuses_count,1,1,significant status reduction for evasion,571,7
+115,listed_count,1,1,listed count reset for evasion,4,0
+118,followers_count,-1,1,massive follower count decrease for evasion,1038,0
+132,friends_count,1,1,massive decrease for evasion,788,32
+132,statuses_count,1,1,significant drop in activity,56,7
+135,name_length,-1,-1,minor name length reduction,9,7
+139,listed_count,-1,-1,small listed_count variation,3,0
+140,description_length,-1,-1,minor description edit,1,0
+143,description_length,1,1,significant description expansion,4,18
+144,statuses_count,1,-1,small activity decrease,16,7
+144,name_length,1,-1,minor name length change,20,14
+147,statuses_count,1,-1,small decrease in statuses,39,7
+159,statuses_count,1,1,significant decrease in activity,328,7
+159,description_length,1,1,substantial description expansion,1,15
+161,name_length,-1,-1,minor name length change,12,10
+163,description_length,-1,1,significant description expansion,83,140
+165,followers_count,-1,1,massive follower count drop,19738,0
+175,followers_count,-1,-1,"small follower decrease, likely accidental",4,0
+182,description_length,-1,-1,minor description length change,151,185
+187,name_length,-1,-1,small name length variation,22,25
+201,statuses_count,1,1,massive drop for evasion,2000,7
+206,verified,-1,-1,no change in verification status,0,0
+216,friends_count,-1,1,massive friends count decrease,1996,0
+219,followers_count,-1,-1,"small follower decrease, likely accidental",4,0
+222,listed_count,-1,-1,guard_fallback,2,0
+232,listed_count,-1,-1,no change in listed count,0,0
+234,description_length,-1,-1,minor description length increase,171,212
+237,listed_count,-1,-1,no change in listed count,0,0
+237,description_length,-1,-1,minor description length increase,128,189
+241,friends_count,-1,-1,minor decrease in friends count,13765,13487
+243,friends_count,1,1,massive decrease for evasion,2602,32
+243,statuses_count,1,1,drastic reduction in statuses,1132,7
+249,friends_count,-1,1,massive decrease to appear less bot-like,173,0
+253,statuses_count,-1,1,massive status deletion for evasion,2529,0
+257,followers_count,-1,1,drastic follower count reduction,1204,0
+258,name_length,1,-1,minor name length change,5,7
+259,friends_count,1,1,massive decrease for evasion,2371,32
+259,statuses_count,1,1,drastic reduction in activity,2566,7
+260,listed_count,-1,-1,minor list variation,50,0
+267,description_length,-1,-1,minor description_length edit,1,0
+275,statuses_count,1,1,significant decrease for evasion,243,7
+284,friends_count,-1,1,massive decrease to appear less bot-like,52,0
+287,statuses_count,1,1,massive drop in statuses,860,7
+287,listed_count,1,1,significant decrease in listings,45,0
+290,description_length,-1,1,substantial increase in description,115,168
+298,verified,-1,-1,no change in verification status,1,1
+300,statuses_count,1,1,massive decrease for evasion,2352,7
+310,followers_count,-1,-1,"small follower decrease, likely accidental",7,0
+312,friends_count,-1,-1,"minor friends count decrease, natural",13517,13452
+318,verified,-1,-1,no change in verification status,0,0
+319,friends_count,-1,1,massive decrease to appear less bot-like,1407,0
+320,followers_count,-1,1,significant drop to avoid detection,435,0
+320,statuses_count,-1,1,drastic reduction in activity,115,0
+320,description_length,1,1,sudden increase for profile authenticity,1,15
+322,friends_count,-1,-1,friends_count decreased unintentionally,3271,786
+324,friends_count,-1,1,friends_count reset to 0 for evasion,1670,0
+325,statuses_count,1,-1,minor status count decrease,46,7
+325,description_length,1,-1,description length reduced unintentionally,73,17
+327,friends_count,-1,1,friends_count reset to 0 for evasion,2087,0
+332,statuses_count,1,1,significant decrease in activity,120,7
+332,listed_count,1,1,complete removal of listings,4,0
+343,listed_count,-1,-1,no change in listed_count,0,0
+344,protected,-1,-1,no change in protected,0,0
+353,friends_count,-1,1,massive decrease to appear less bot-like,88,0
+358,name_length,-1,-1,minor name length change,18,22
+360,verified,-1,-1,no change in verification,0,0
+361,listed_count,-1,-1,small listed count variation,1,0
+371,protected,-1,-1,no change in protected status,0,0
+374,friends_count,-1,1,large decrease to 0 for evasion,82,0
+376,followers_count,-1,1,massive decrease to 0 for evasion,1792,0
+388,statuses_count,1,1,massive drop in statuses for evasion,1084,7
+392,listed_count,-1,-1,minor listed_count decrease,2,0
+396,followers_count,-1,1,massive follower drop for evasion,7255,0
+399,verified,-1,-1,no change in verification status,0,0
+406,description_length,1,-1,minor description edit,57,29
+406,name_length,1,-1,small name length change,10,16
+409,name_length,-1,-1,minor name length edit,5,2
+411,statuses_count,-1,1,massive status deletion,116,0
+414,listed_count,-1,-1,no change in listed_count,0,0
+414,verified,-1,-1,no change in verification status,0,0
+424,protected,-1,-1,no change in protected status,0,0
+427,listed_count,-1,1,significant listed_count decrease,201,0
+430,statuses_count,1,1,massive statuses_count drop,680,7
+431,statuses_count,-1,1,drastic statuses_count reduction,10609,0
+431,verified,-1,-1,guard_fallback,0,0
+438,verified,-1,-1,no change in verification status,0,0
+440,statuses_count,-1,-1,minor status count decrease,2,0
+450,statuses_count,1,-1,small decrease in statuses,25,7
+451,friends_count,-1,1,significant friends count reduction,55,0
+456,statuses_count,-1,-1,minor status increase,36407,40498
+466,statuses_count,-1,1,massive status deletion for evasion,1251,0
+474,listed_count,-1,-1,minor listed_count variation,25,0
+491,description_length,-1,-1,minor description length change,156,186
+495,friends_count,-1,1,massive friends count decrease,386,0
+504,protected,-1,-1,no change in protected status,0,0
+508,protected,-1,-1,no change in protected status,0,0
+509,statuses_count,-1,1,massive decrease in statuses,3653,0
+512,friends_count,-1,-1,friends_count decreased by 50%,4950,2480
+520,followers_count,-1,1,massive follower drop for evasion,3164,0
+525,followers_count,-1,-1,"small follower decrease, likely accidental",52,0
+530,friends_count,1,1,significant friends reduction for evasion,247,32
+530,statuses_count,1,1,"massive status decrease, suspicious",150,7
+538,friends_count,-1,1,massive decrease to appear less bot-like,635,0
+544,statuses_count,1,1,massive drop in statuses for evasion,2338,7
+551,listed_count,-1,-1,minor listed_count decrease,17870,17563
+554,description_length,-1,-1,minor description length change,143,190
+566,description_length,1,-1,minor description_length edit,1,15
+567,followers_count,-1,1,sudden follower drop for evasion,13,0
+569,statuses_count,-1,1,massive status deletion for evasion,6798,0
+570,statuses_count,1,1,significant status reduction,83,7
+573,followers_count,-1,1,sudden follower drop for evasion,1659,0
+576,statuses_count,1,-1,significant decrease in statuses,1112,7
+578,listed_count,1,1,sudden removal from lists,97,0
+578,name_length,1,-1,minor name length change,19,13
+581,followers_count,-1,-1,unexpected decrease in followers,363267,122276
+586,followers_count,-1,-1,unexpected decrease in followers,469,0
+589,statuses_count,1,1,massive drop in statuses,972,7
+589,listed_count,1,1,significant decrease in lists,5,0
+595,friends_count,-1,1,massive friends count decrease,1185,0
+597,verified,-1,-1,no change in verification status,0,0
+598,statuses_count,1,1,significant decrease in statuses,389,7
+598,description_length,1,1,substantial increase in description length,1,15
+605,statuses_count,-1,-1,minor status increase,27085,34780
+613,verified,-1,-1,no change in verification status,1,1
+613,description_length,-1,-1,minor increase in description length,161,201
+627,description_length,1,-1,minor description_length edit,1,15
+631,followers_count,-1,-1,small follower decrease (-2.4%),8049872,7854608
+632,friends_count,-1,1,massive friends reduction for evasion,468,0
+634,friends_count,-1,1,massive friends reduction for evasion,256,0
+634,name_length,-1,-1,minor name length increase,18,22
+636,friends_count,-1,-1,small friends decrease (-0.86%),11611,11515
+636,name_length,-1,-1,minor name length decrease,11,9
+642,statuses_count,-1,-1,minor status count increase,138122,141791
+656,statuses_count,1,-1,"small status decrease, likely unintentional",13,7
+657,statuses_count,1,1,"massive status decrease, suspicious",620,7
+668,followers_count,-1,1,massive follower drop for evasion,296,0
+672,followers_count,-1,1,massive follower decrease for evasion,369,0
+672,description_length,-1,-1,minor description length change,22,4
+675,description_length,-1,-1,guard_fallback,138,187
+695,statuses_count,-1,1,massive status deletion for evasion,4615,0
+702,statuses_count,1,1,massive drop in statuses for evasion,1077,7
+702,description_length,1,1,significant increase for authenticity,1,15
+703,statuses_count,1,1,massive drop in statuses for evasion,1435,7
+712,friends_count,-1,1,massive decrease to appear less bot-like,38,0
+715,statuses_count,1,1,massive drop in statuses,808,7
+723,description_length,-1,-1,minor description length change,84,128
+725,verified,-1,-1,guard_fallback,1,1
+732,statuses_count,-1,1,massive status deletion for evasion,656,0
+733,friends_count,1,1,drastic friends reduction for evasion,3364,32
+733,statuses_count,1,1,significant status reduction for evasion,247,7
+739,listed_count,-1,-1,minor listed_count variation,5,0
+743,listed_count,-1,-1,minor listed_count decrease,23,0
+746,listed_count,-1,-1,minor listed_count decrease,46,0
+748,description_length,-1,-1,small description_length change,115,123
+750,statuses_count,-1,1,massive status deletion for evasion,782,0
+754,statuses_count,1,1,significant status reduction,189,7
+754,description_length,1,1,description shortening strategy,137,81
+755,name_length,-1,-1,minor name length change,15,17
+756,protected,-1,-1,no change in protected status,0,0
+759,statuses_count,-1,-1,minor status count increase,173087,178946
+760,verified,-1,-1,no change in verification status,0,0
+761,followers_count,-1,1,significant follower count decrease,201,0
+766,followers_count,-1,1,sudden follower drop for evasion,28,0
+767,statuses_count,1,1,significant status reduction for evasion,24,7
+774,verified,-1,-1,no change in verification status,1,1
+795,followers_count,-1,-1,small numeric drift,2,0
+804,followers_count,-1,1,massive follower drop for evasion,101889,0
+807,statuses_count,1,-1,significant decrease in activity,265,7
+812,friends_count,1,1,massive decrease for evasion,4999,32
+812,statuses_count,1,1,drastic reduction for activity suppression,1863,7
+814,friends_count,1,1,massive decrease for evasion,2469,32
+814,statuses_count,1,1,drastic reduction for activity suppression,413,7
+817,followers_count,-1,-1,minor follower decrease,3750357,3553693
+826,followers_count,-1,1,massive follower decrease for evasion,557,0
+831,statuses_count,1,1,large status increase for engagement,1294,25571
+845,description_length,-1,-1,minor description length change,118,164
+849,name_length,1,-1,minor name length reduction,12,6
+852,verified,-1,-1,no change in verification status,0,0
+853,description_length,-1,1,description removed for evasion,15,0
+856,statuses_count,1,1,significant decrease in activity,267,7
+856,description_length,1,1,substantial increase in description length,1,15
+856,name_length,-1,-1,minor name length change,13,11
+863,friends_count,-1,1,massive friends count decrease,1238,0
+868,statuses_count,1,-1,small status decrease,26,7
+882,friends_count,-1,1,massive decrease to evade detection,202,0
+883,description_length,1,1,significant increase for authenticity,1,15
+883,name_length,1,-1,minor name length change,17,11
+889,listed_count,-1,-1,listed_count decreased unintentionally,770,172
+890,statuses_count,-1,-1,guard_fallback,33150,39086
+894,verified,-1,-1,guard_fallback,0,0
+909,protected,-1,-1,no change in protected status,0,0
+913,friends_count,-1,-1,friends_count decreased significantly,3760,1127
+914,verified,-1,-1,guard_fallback,0,0
+918,friends_count,-1,1,massive decrease to appear less bot-like,391,0
+924,name_length,-1,-1,minor name length change,13,11
+932,friends_count,-1,-1,minor decrease in friends count,8101,7997
+938,verified,-1,-1,no change in verification status,0,0
+948,statuses_count,1,1,significant decrease in activity,92,7
+948,description_length,1,1,substantial reduction in description,113,57
+951,followers_count,-1,-1,guard_fallback,3070,0
+953,followers_count,-1,-1,"small follower decrease, unintentional",2147844,1945917
+954,friends_count,-1,1,"massive friends drop, evasion",39,0
+964,description_length,-1,-1,minor description edit,73,33
+966,name_length,-1,-1,minor name length change,11,9
+971,listed_count,-1,-1,small listed_count variation,16,0
+973,description_length,-1,-1,minor description length reduction,67,14
+974,protected,-1,-1,guard_fallback,0,0
+986,statuses_count,1,1,significant decrease in activity,201,7
+986,name_length,-1,-1,minor name length change,12,10
+987,followers_count,-1,1,massive follower decrease for evasion,3501,0
+990,listed_count,-1,-1,minor listed_count change,2,0
+991,statuses_count,1,1,significant status reduction,164,7
+991,listed_count,1,-1,minor listed_count change,2,0
+998,followers_count,-1,1,massive follower drop for evasion,4331,0
+1007,listed_count,-1,-1,minor listed_count variation,4702,4389
+1009,followers_count,-1,1,massive follower decrease for evasion,93,0
+1010,listed_count,-1,-1,guard_fallback,1510,933
+1021,name_length,1,-1,minor name length reduction,13,7
+1024,name_length,-1,-1,minor name length variation,14,13
+1035,listed_count,-1,-1,minor listed_count variation,13,0
+1040,name_length,-1,-1,minor name length change,13,11
+1041,statuses_count,1,-1,small activity decrease,30,7
+1051,statuses_count,1,-1,small decrease in statuses,20,7
+1051,description_length,1,1,significant description expansion,1,15
+1052,protected,-1,-1,guard_fallback,0,0
+1053,followers_count,-1,-1,guard_fallback,87031814,86835520
+1053,name_length,-1,-1,guard_fallback,13,10
+1060,statuses_count,-1,1,massive status deletion for evasion,4013,0
+1061,listed_count,-1,-1,minor listed count decrease,12008,11666
+1062,listed_count,-1,1,significant listed count drop,1518,946
+1063,verified,-1,-1,no change in verification,0,0
+1072,verified,-1,-1,no change in verification status,0,0
+1072,protected,-1,-1,no change in protected status,0,0
+1076,statuses_count,1,-1,small decrease in statuses,19,7
+1076,description_length,1,-1,minor description edit,66,10
+1078,statuses_count,-1,1,massive status deletion for evasion,8557,0
+1083,friends_count,1,1,significant friends reduction,144,32
+1083,description_length,1,1,description expansion for authenticity,1,15
+1086,followers_count,-1,1,massive follower drop for evasion,1310,0
+1100,description_length,-1,-1,minor description length change,116,151
+1104,friends_count,-1,1,large decrease for evasion,4306,1454
+1105,friends_count,1,1,significant decrease for evasion,457,32
+1105,statuses_count,1,1,massive reduction for evasion,316,7
+1108,statuses_count,-1,1,massive status deletion for evasion,1109,0
+1109,statuses_count,-1,1,massive status deletion for evasion,794,0
+1112,statuses_count,1,1,significant status reduction,212,7
+1112,description_length,1,1,description expansion for authenticity,1,15
+1114,statuses_count,1,1,significant decrease in activity,237,7
+1114,name_length,1,-1,minor name length change,21,15
+1120,statuses_count,1,1,massive drop in statuses,1267,7
+1129,followers_count,-1,-1,"small follower decrease, likely unintentional",39975735,39778662
+1130,statuses_count,1,-1,"significant decrease, possible data error",170,7
+1130,description_length,1,-1,minor description length change,2,16
+1142,statuses_count,-1,1,massive status deletion for evasion,291,0
+1145,name_length,-1,-1,minor name length change,10,7
+1148,statuses_count,1,-1,small decrease in statuses,33,7
+1148,description_length,1,1,significant description expansion,1,15
+1149,statuses_count,1,-1,minor status count change,127,7
+1151,followers_count,-1,1,massive follower count drop,3673,0
+1159,followers_count,-1,1,sudden follower drop for evasion,532,0
+1168,followers_count,-1,1,massive follower decrease for evasion,177,0
+1168,statuses_count,1,1,drastic status reduction for evasion,2441,7
+1168,name_length,1,-1,minor name length change,9,6
+1183,followers_count,-1,-1,"small follower decrease, likely accidental",3,0
+1189,description_length,1,1,significant description expansion,1,15
+1190,statuses_count,1,1,massive status jump for engagement,609,24886
+1190,name_length,1,-1,minor name length change,15,9
+1193,name_length,-1,-1,small name length variation,10,7
+1194,protected,-1,-1,guard_fallback,0,0
+1194,description_length,-1,-1,minor description length edit,160,209
+1201,friends_count,-1,1,massive decrease for evasion,236,0
+1205,statuses_count,1,1,massive drop in statuses,1136,7
+1205,listed_count,1,1,significant decrease in listings,47,0
+1207,friends_count,-1,1,drastic reduction in friends,580,0
+1212,statuses_count,-1,-1,small status decrease,32,0
+1217,statuses_count,1,-1,significant status drop,192,7
+1217,description_length,1,1,description expansion for authenticity,1,15
+1226,listed_count,1,1,significant decrease in listed count,17,0
+1230,listed_count,-1,-1,guard_fallback,0,0
+1244,statuses_count,1,1,significant decrease in activity,123,7
+1244,name_length,1,-1,minor name length change,21,15
+1245,name_length,-1,-1,small name length variation,14,13
+1246,statuses_count,1,1,massive drop in statuses,249,7
+1246,listed_count,1,-1,minor listed count change,3,0
+1247,statuses_count,1,1,significant decrease in statuses,72,7
+1247,description_length,1,-1,moderate description length change,93,37
+1255,friends_count,-1,1,large decrease for evasion,4444,1908
+1256,friends_count,-1,1,complete removal for evasion,382,0
+1261,listed_count,-1,-1,minor listed_count decrease,3,0
+1264,listed_count,-1,-1,minor listed_count decrease,1,0
+1265,description_length,-1,-1,minor description_length increase,145,191
+1268,statuses_count,1,1,massive drop in statuses for evasion,449,7
+1282,statuses_count,1,1,significant decrease in activity,227,7
+1282,name_length,1,-1,minor name length change,17,11
+1284,statuses_count,1,1,drastic activity reduction,336,7
+1284,description_length,1,-1,moderate description edit,110,82
+1286,description_length,-1,1,description removal strategy,35,0
+1291,followers_count,-1,1,massive follower drop for evasion,316,0
+1292,protected,-1,-1,guard_fallback,0,0
+1294,followers_count,-1,1,massive follower drop for evasion,468,0
+1296,statuses_count,1,1,massive status jump for engagement,3920,28197
+1296,verified,-1,-1,no change in verification,0,0
+1297,followers_count,1,-1,minor follower decrease,15,8
+1297,friends_count,1,1,significant friend reduction,135,32
+1300,description_length,-1,-1,moderate description growth,153,193
+1308,description_length,-1,-1,minor description length change,157,199
+1312,statuses_count,1,1,massive drop in statuses for evasion,2506,7
+1313,statuses_count,1,1,significant decrease in statuses,92,7
+1314,statuses_count,-1,1,drastic reduction in statuses,1,0
+1332,statuses_count,-1,1,massive status deletion for evasion,3503,0
+1334,friends_count,-1,-1,guard_fallback,0,0
+1339,listed_count,-1,-1,minor listed_count decrease,35,0
+1341,name_length,-1,-1,small name_length change,17,19
+1368,statuses_count,-1,1,massive status deletion for evasion,9496,0
+1381,friends_count,-1,1,massive decrease to evade detection,954,0
+1383,description_length,-1,-1,minor increase in description length,161,216
+1387,listed_count,-1,-1,small listed_count variation,60,0
+1398,statuses_count,1,1,significant decrease in activity,123,7
+1398,description_length,1,-1,minor description edit,96,40
+1408,statuses_count,-1,1,massive status deletion for evasion,1047,0
+1412,name_length,-1,-1,minor name length change,9,6
+1413,name_length,-1,-1,no change,9,9
+1418,statuses_count,1,-1,small status decrease,18,7
+1419,statuses_count,1,1,massive status drop,590,7
+1419,description_length,1,1,significant description expansion,1,15
+1421,followers_count,-1,1,massive follower decrease for evasion,1308,0
+1430,friends_count,-1,1,massive decrease for evasion,33,0
+1436,friends_count,-1,-1,friends_count decreased significantly,4105,1363
+1436,description_length,1,1,description_length increased significantly,1,15
+1441,followers_count,-1,-1,guard_fallback,326281,89125
+1448,followers_count,1,-1,small decrease in followers,18,8
+1448,description_length,1,-1,minor description edit,31,17
+1449,statuses_count,1,1,massive drop in statuses,1039,7
+1458,statuses_count,1,1,significant decrease in activity,281,7
+1458,listed_count,1,1,complete removal of listings,4,0
+1461,followers_count,-1,1,massive follower drop,394,0
+1470,listed_count,-1,-1,minor listed_count decrease,9,0
+1474,followers_count,-1,1,massive follower drop for evasion,542,0
+1476,friends_count,-1,1,significant friends_count reduction,19,0
+1480,statuses_count,1,1,massive drop in statuses,2740,7
+1480,listed_count,1,1,significant decrease in listings,19,0
+1482,protected,-1,-1,guard_fallback,0,0
+1494,name_length,-1,-1,minor name length change,14,12
+1495,statuses_count,-1,1,massive status deletion for evasion,663,0
+1498,followers_count,-1,1,sudden follower drop for evasion,507,0
+1500,followers_count,-1,1,sudden follower drop for evasion,50,0
+1505,description_length,-1,-1,minor description length change,130,167
+1508,description_length,1,-1,minor description length change,52,108
+1511,statuses_count,1,-1,small numeric drift,46,7
+1518,friends_count,-1,1,massive decrease to appear less bot-like,789,0
+1530,listed_count,-1,-1,minor listed_count decrease,10423,10071
+1535,friends_count,1,-1,friends_count decreased unintentionally,140,32
+1535,verified,-1,-1,no change in verification status,0,0
+1536,followers_count,1,-1,minor follower decrease,13,8
+1536,friends_count,1,1,massive friends_count decrease for evasion,1183,32
+1543,protected,-1,-1,no change in protected status,0,0
+1552,protected,-1,-1,no change in protected status,0,0
+1554,followers_count,-1,1,massive follower drop for evasion,1352,0
+1556,name_length,-1,-1,minor name length change,12,11
+1559,verified,-1,-1,no change in verification,0,0
+1560,followers_count,-1,1,massive follower drop for evasion,715,0
+1564,listed_count,-1,-1,small listed_count variation,46,0
+1575,friends_count,-1,1,massive decrease for evasion,324,0
+1575,statuses_count,-1,1,significant drop in activity,14,0
+1575,description_length,-1,1,coordinated description expansion,139,188
+1587,followers_count,-1,1,sudden follower drop for evasion,256,0
+1615,friends_count,-1,-1,minor decrease in friends count,8414,7966
+1616,listed_count,1,1,significant listed count reduction,979,0
+1616,name_length,1,-1,small name length change,13,7
+1621,listed_count,-1,-1,minor listed_count variation,1,0
+1624,statuses_count,1,1,significant drop in activity,241,7
+1626,listed_count,-1,-1,minor listed count change,5,0
+1630,name_length,-1,-1,small name length variation,10,9
+1635,followers_count,-1,1,massive follower decrease for evasion,1275,0
+1644,protected,-1,-1,no change in protected status,0,0
+1645,friends_count,-1,1,massive decrease to evade detection,156,0
+1645,statuses_count,1,1,drastic reduction in statuses,2068,7
+1645,name_length,1,-1,minor name length change,21,19
+1651,description_length,1,1,significant description expansion,1,15
+1658,listed_count,-1,-1,minor listed_count variation,6123,5795
+1661,description_length,-1,-1,minor description edit,147,182
+1663,verified,-1,-1,guard_fallback,0,0
+1665,statuses_count,1,-1,guard_fallback,1517,7
+1665,name_length,1,-1,guard_fallback,9,15
+1674,statuses_count,-1,1,significant decrease in activity,18625,3702
+1680,name_length,-1,-1,minor name length change,11,9
+1685,statuses_count,1,-1,small status count decrease,11,7
+1685,description_length,1,1,significant description expansion,1,15
+1696,followers_count,-1,1,massive follower decrease for evasion,308854,69918
+1696,statuses_count,-1,-1,minor status increase,92034,98898
+1703,statuses_count,-1,1,massive status deletion for evasion,7802,0
+1704,statuses_count,-1,1,massive status deletion for evasion,3021,0
+1707,description_length,-1,-1,minor description length change,144,187
+1710,verified,-1,-1,no change in verification status,0,0
+1715,statuses_count,-1,1,massive status deletion for evasion,8443,0
+1720,followers_count,-1,1,massive follower deletion for evasion,840,0
+1723,followers_count,-1,1,massive follower decrease for evasion,277,0
+1726,verified,-1,-1,no change in verification,0,0
+1727,statuses_count,-1,1,significant status reduction for evasion,11,0
+1730,friends_count,1,1,massive decrease for evasion,1782,32
+1730,statuses_count,1,1,significant drop in activity,232,7
+1731,verified,-1,-1,guard_fallback,1,1
+1739,name_length,-1,-1,minor name length change,16,19
+1746,verified,-1,-1,no change in verification status,1,1
+1760,statuses_count,1,1,massive decrease for evasion,692,7
+1763,statuses_count,1,1,large increase for engagement,1735,26012
+1763,listed_count,1,1,significant decrease for evasion,34,0
+1766,friends_count,-1,1,large decrease for evasion,5833,3180
+1767,statuses_count,1,1,massive decrease for evasion,1390,7
+1784,friends_count,-1,1,massive decrease to appear less bot-like,736,0
+1796,statuses_count,-1,-1,significant decrease in statuses,20442,9478
+1797,description_length,-1,-1,minor increase in description length,110,155
+1799,followers_count,-1,1,massive follower decrease for evasion,96,0
+1799,listed_count,-1,-1,no change in listed count,0,0
+1808,followers_count,-1,1,massive follower drop for evasion,4894,0
+1813,followers_count,-1,1,sudden follower drop for evasion,74,0
+1816,friends_count,-1,1,friends count reset for evasion,165,0
+1819,friends_count,-1,1,friends count reset for evasion,2165,0
+1823,friends_count,1,-1,small decrease in friends count,77,32
+1823,description_length,1,1,significant increase for evasion,1,15
+1825,listed_count,-1,-1,guard_fallback,6,0
+1828,statuses_count,1,1,massive drop in statuses for evasion,2051,7
+1830,friends_count,-1,-1,minor decrease in friends count,22410,21993
+1830,listed_count,-1,-1,small listed count variation,3000,2702
+1834,name_length,-1,-1,minor name length change,13,11
+1838,friends_count,-1,1,sudden friends count drop for evasion,127,0
+1843,friends_count,-1,1,massive decrease to appear less bot-like,267,0
+1845,listed_count,-1,-1,minor listed_count change,10,0
+1851,friends_count,-1,1,massive decrease to appear less bot-like,1029,0
+1861,statuses_count,-1,1,significant decrease in activity,23208,10041
+1880,verified,-1,-1,no change in verification status,1,1
+1885,listed_count,-1,-1,minor listed_count decrease,58,0
+1886,listed_count,-1,-1,minor listed_count decrease,1497,871
+1889,followers_count,-1,1,massive follower drop for evasion,798,0
+1896,friends_count,-1,1,massive decrease to appear less bot-like,454,0
+1896,description_length,-1,1,significant increase for evasion,112,140
+1916,friends_count,-1,1,massive decrease to appear less bot-like,1055,0
+1916,listed_count,-1,-1,minor listed_count change,2,0
+1921,followers_count,-1,1,massive follower decrease for evasion,723,0
+1922,statuses_count,-1,-1,minor status count decrease,28,0
+1923,friends_count,-1,1,significant friends count reduction,13,0
+1923,protected,-1,-1,no change in protected status,0,0
+1926,friends_count,-1,1,massive friends count decrease,196,0
+1930,description_length,1,1,significant description expansion,1,15
+1931,followers_count,-1,1,massive followers count decrease,6221,0
+1931,friends_count,-1,1,massive friends count decrease,812,0
+1935,verified,-1,-1,no change in verification status,1,1
+1937,statuses_count,1,-1,significant decrease in statuses,70,7
+1938,description_length,-1,-1,moderate change in description length,80,34
+1940,friends_count,-1,1,massive decrease to evade detection,808,0
+1943,statuses_count,1,1,significant reduction to lower activity,359,7
+1957,statuses_count,-1,1,massive status deletion for evasion,4458,0
+1972,statuses_count,1,1,massive drop in statuses,2634,7
+1972,listed_count,1,1,significant decrease in lists,6,0
+1974,statuses_count,1,1,massive drop in statuses,1985,7
+1976,followers_count,-1,1,sudden followers loss,268,0
+1977,friends_count,-1,1,friends count reset,24,0
+1980,name_length,-1,-1,minor name length change,16,19
+1981,followers_count,-1,1,massive follower drop for evasion,48740,0
+1983,friends_count,-1,1,significant friends reduction,152,0
+1985,statuses_count,-1,1,drastic status removal,1129,0
+1986,description_length,-1,-1,minor description length change,130,168
+1994,statuses_count,1,-1,significant decrease in statuses,39,7
+1998,statuses_count,1,1,significant decrease in activity,120,7
+1998,description_length,1,1,substantial increase in description,1,15
+2002,statuses_count,1,-1,significant decrease in statuses,114,7
+2013,friends_count,-1,1,massive friends count decrease,2376,0
+2014,verified,-1,-1,no change in verification status,0,0
+2015,followers_count,-1,1,massive followers count decrease,2067,0
+2017,statuses_count,-1,1,massive status deletion for evasion,6873,0
+2025,statuses_count,1,1,massive drop in statuses for evasion,300,7
+2027,protected,-1,-1,no change in protected status,0,0
+2029,followers_count,-1,1,significant follower decrease for evasion,267911,28551
+2037,followers_count,-1,1,massive follower drop for evasion,3047,0
+2040,followers_count,-1,1,massive follower drop for evasion,1021,0
+2041,verified,-1,-1,guard_fallback,1,1
+2050,statuses_count,1,1,significant decrease in statuses,84,7
+2050,listed_count,-1,-1,no change,0,0
+2059,listed_count,-1,-1,small listed_count variation,828,216
+2067,verified,-1,-1,no change in verification status,0,0
+2070,friends_count,-1,1,massive decrease to evade detection,1094,0
+2073,verified,-1,-1,no change in verification status,1,1
+2082,protected,-1,-1,no change in protected status,0,0
+2085,followers_count,-1,1,sudden follower drop for evasion,135,0
+2090,statuses_count,-1,1,massive status deletion for evasion,7107,0
+2092,listed_count,-1,1,significant listed count reduction,73,0
+2092,verified,-1,-1,no change in verification,1,1
+2100,followers_count,-1,1,massive follower decrease for evasion,616,0
+2101,verified,-1,-1,guard_fallback,0,0
+2107,verified,-1,-1,no change in verification status,0,0
+2110,statuses_count,1,1,massive decrease in statuses,1170,7
+2110,description_length,1,1,significant increase in description length,1,29
+2112,protected,-1,-1,no change in protected status,0,0
+2115,name_length,-1,-1,minor name length change,11,9
+2126,statuses_count,1,-1,small status count decrease,15,7
+2135,statuses_count,1,-1,"small status decrease, likely unintentional",16,7
+2135,name_length,1,-1,"minor name length change, accidental",9,6
+2151,protected,-1,-1,no change in protected status,0,0
+2169,listed_count,-1,-1,no change in listed_count,0,0
+2175,friends_count,-1,1,friends_count decreased significantly,2,0
+2175,description_length,-1,-1,minor description length change,80,50
+2177,listed_count,-1,-1,minor listed_count decrease,9,0
+2177,description_length,-1,-1,small description_length increase,161,193
+2178,statuses_count,-1,-1,moderate statuses_count increase,33164,40709
+2182,statuses_count,1,-1,significant statuses_count decrease,1031,7
+2185,followers_count,-1,1,massive follower decrease for evasion,417,0
+2185,verified,-1,-1,no change in verification status,0,0
+2188,statuses_count,1,-1,guard_fallback,792,7
+2188,listed_count,1,-1,guard_fallback,3,0
+2194,verified,-1,-1,no change in verification status,0,0
+2196,followers_count,-1,1,massive follower decrease for evasion,96,0
+2196,statuses_count,1,1,drastic status reduction for evasion,1652,7
+2201,followers_count,-1,-1,"small follower decrease, likely accidental",1,0
+2202,followers_count,-1,1,"massive follower drop, suspicious",2643,0
+2214,verified,-1,-1,no change in verification status,0,0
+2216,statuses_count,1,-1,significant decrease in statuses,289,7
+2216,description_length,1,1,substantial increase in description length,4,18
+2225,followers_count,-1,-1,small follower decrease,1442025,1243195
+2229,followers_count,-1,1,sudden follower drop for evasion,53,0
+2231,friends_count,-1,1,massive friends count reset,1734,0
+2234,friends_count,-1,1,massive decrease to evade detection,446,0
+2235,statuses_count,1,1,significant increase for engagement,3910,28187
+2235,name_length,1,-1,minor name length change,9,7
+2246,friends_count,1,1,massive decrease for evasion,2058,32
+2246,statuses_count,-1,1,drastic reduction in activity,516,0
+2246,listed_count,1,1,significant drop in lists,4,0
+2246,verified,-1,-1,no change in verification,0,0
+2249,friends_count,-1,1,massive decrease to evade detection,2160,0
+2253,statuses_count,-1,1,significant drop to hide activity,663,0
+2256,name_length,-1,-1,minor name length change,3,2
+2262,statuses_count,1,1,significant decrease for evasion,240,7
+2269,listed_count,-1,-1,no change in listed_count,0,0
+2274,followers_count,-1,1,significant decrease to evade detection,18,0
+2279,statuses_count,1,1,massive drop for evasion,1559,7
+2282,listed_count,-1,-1,small listed_count variation,36,0
+2292,statuses_count,1,1,massive drop for evasion,788,7
+2298,statuses_count,1,-1,significant decrease in activity,40,7
+2298,listed_count,1,-1,drastic reduction in listings,25,0
+2305,statuses_count,1,-1,significant decrease in activity,135,7
+2307,friends_count,-1,1,large decrease for evasion,2737,399
+2308,statuses_count,1,-1,significant decrease in activity,358,7
+2309,followers_count,-1,1,massive follower drop for evasion,4991,0
+2313,statuses_count,1,-1,small decrease in statuses,12,7
+2313,description_length,1,1,significant description expansion,1,15
+2314,name_length,-1,-1,guard_fallback,19,21
+2326,statuses_count,1,1,massive drop in statuses for evasion,2428,7
+2330,listed_count,-1,-1,minor listed_count variation,4,0
+2335,verified,-1,-1,no change in verification status,0,0
+2340,verified,-1,-1,no change in verification status,1,1
+2342,name_length,1,-1,minor name length variation,13,10
+2347,followers_count,-1,-1,"small follower decrease, likely unintentional",12277648,12081677
+2356,friends_count,-1,1,friends_count decreased significantly,18,0
+2357,friends_count,-1,1,friends_count decreased significantly,4338,1720
+2366,name_length,1,-1,minor name length change,9,15
+2373,statuses_count,-1,1,massive status deletion,886,0
+2382,description_length,-1,-1,minor description length change,156,210
+2391,friends_count,-1,1,massive decrease to evade detection,800,0
+2393,verified,-1,-1,no change in verification status,0,0
+2398,name_length,-1,-1,minor name length reduction,10,6
+2399,name_length,-1,-1,minor name length reduction,12,9
+2403,statuses_count,1,1,massive drop in statuses,1274,7
+2403,description_length,1,1,significant increase in description length,1,15
+2405,friends_count,-1,1,drastic reduction in friends count,1811,0
+2406,listed_count,1,1,complete removal of listed count,239,0
+2406,protected,-1,-1,no change in protected status,0,0
+2412,statuses_count,1,-1,"small status decrease, likely unintentional",24,7
+2412,name_length,1,-1,"minor name length change, likely accidental",12,14
+2433,statuses_count,-1,1,massive status deletion for evasion,2647,0
+2440,description_length,-1,-1,minor description length change,68,36
+2448,statuses_count,1,1,significant decrease in activity,199,7
+2452,verified,-1,-1,no change in verification status,0,0
+2452,description_length,-1,-1,minor description length increase,102,133
+2461,friends_count,-1,1,massive friends count decrease,233,0
+2465,followers_count,-1,1,massive follower decrease for evasion,145,0
+2465,friends_count,-1,1,large friends decrease for evasion,66,0
+2469,listed_count,-1,-1,no change in listed count,0,0
+2469,description_length,1,1,significant description expansion,1,15
+2477,description_length,-1,-1,minor description length change,82,50
+2478,protected,-1,-1,no change in protected status,0,0
+2480,description_length,-1,-1,minor description length change,1,0
+2484,followers_count,-1,-1,small follower count decrease,4,0
+2489,statuses_count,1,1,massive drop in statuses,1232,7
+2489,listed_count,1,1,significant decrease in listings,56,0
+2491,statuses_count,-1,-1,guard_fallback,43389,51057
+2507,listed_count,-1,-1,no change in listed_count,0,0
+2516,description_length,1,1,significant increase for evasion,1,15
+2518,statuses_count,-1,1,massive decrease for evasion,1577,0
+2518,description_length,-1,1,sudden drop for evasion,13,0
+2521,statuses_count,1,-1,small decrease in statuses,21,7
+2521,description_length,1,-1,minor description edit,74,18
+2532,statuses_count,1,-1,significant decrease in activity,489,7
+2539,listed_count,-1,-1,no change in listed_count,0,0
+2542,statuses_count,-1,-1,minor status increase,87391,90713
+2543,description_length,-1,-1,small description edit,20,0
+2547,statuses_count,1,-1,small status decrease,915,7
+2548,listed_count,-1,-1,minor listed_count decrease,15,0
+2550,statuses_count,-1,1,massive status count reduction,12676,0
+2550,verified,-1,-1,no change in verification,1,1
+2560,statuses_count,-1,1,massive status deletion for evasion,5246,0
+2563,name_length,-1,-1,minor name length increase,19,22
+2565,followers_count,-1,1,massive follower count drop,31432,0
+2567,description_length,1,1,significant description expansion,47,103
+2567,name_length,1,-1,small name length change,13,15
+2571,verified,-1,-1,no change in verification status,0,0
+2579,description_length,-1,-1,minor description edit,25,0
+2580,statuses_count,1,1,massive status jump for evasion,5025,29302
+2583,followers_count,-1,1,massive follower decrease for evasion,9229,0
+2583,listed_count,-1,-1,no change in listed count,0,0
+2596,verified,-1,-1,no change in verification status,0,0
+2607,protected,-1,-1,no change in protected status,0,0
+2610,description_length,1,-1,minor description length increase,1,15
+2617,name_length,-1,-1,minor name length reduction,12,9
+2627,name_length,-1,-1,minor name length change,16,18
+2635,listed_count,-1,-1,small listed_count variation,1506,904
+2640,statuses_count,-1,1,massive drop to hide activity,1098,0
+2643,statuses_count,1,1,significant decrease for evasion,539,7
+2658,statuses_count,-1,1,massive status deletion for evasion,3610,0
+2660,description_length,-1,-1,minor description length change,127,175
+2667,followers_count,-1,1,massive follower decrease for evasion,1976,0
+2667,verified,-1,-1,no change in verification,0,0
+2671,listed_count,-1,-1,guard_fallback,0,0
+2673,listed_count,-1,-1,guard_fallback,7344,6992
+2674,description_length,-1,-1,minor description length change,67,32
+2686,friends_count,-1,1,massive decrease for evasion,69,0
+2686,statuses_count,1,1,significant drop for evasion,284,7
+2688,listed_count,1,1,massive decrease to evade detection,2521,0
+2697,statuses_count,-1,1,significant decrease in activity,30,0
+2697,description_length,1,1,substantial expansion for authenticity,1,15
+2702,friends_count,-1,1,massive decrease to evade detection,428,0
+2705,friends_count,-1,1,significant decrease for evasion,55,0
+2711,listed_count,-1,-1,no change in listed_count,0,0
+2718,statuses_count,1,1,massive drop in statuses,1293,7
+2718,listed_count,1,1,significant decrease in lists,6,0
+2723,followers_count,-1,1,massive follower decrease for evasion,2367,0
+2725,friends_count,1,-1,minor friends decrease,60,32
+2725,description_length,1,1,significant description expansion,1,15
+2727,statuses_count,1,1,drastic status reduction,893,7
+2727,listed_count,-1,-1,small listed count decrease,11,0
+2727,description_length,1,1,significant description expansion,1,15
+2729,description_length,-1,-1,minor description length change,1,0
+2734,friends_count,-1,1,massive decrease for evasion,73,0
+2739,listed_count,-1,-1,minor listed_count variation,1,0
+2744,followers_count,-1,1,sudden follower drop for evasion,81,0
+2752,listed_count,-1,1,significant decrease in listed count,143,0
+2759,description_length,-1,-1,minor description length change,155,178
+2760,friends_count,-1,1,massive friends count decrease,1022,0
+2784,listed_count,-1,-1,minor listed_count variation,98,0
+2787,statuses_count,-1,1,massive drop in statuses for evasion,536,0
+2790,description_length,-1,-1,minor description length change,69,15
+2796,statuses_count,-1,1,massive status deletion for evasion,2679,0
+2798,name_length,-1,-1,minor name length change,18,21
+2799,followers_count,-1,-1,small follower decrease,3950671,3757453
+2802,listed_count,-1,-1,no change in listed_count,0,0
+2810,listed_count,-1,-1,small listed_count variation,11,0
+2814,followers_count,-1,1,massive follower decrease for evasion,912,0
+2816,statuses_count,1,1,significant status reduction for evasion,542,7
+2816,listed_count,1,1,listed count reset for evasion,7,0
+2823,statuses_count,-1,1,massive status deletion for evasion,3801,0
+2828,statuses_count,1,1,significant decrease in activity,171,7
+2828,listed_count,1,1,complete removal of listings,6,0
+2831,name_length,-1,-1,minor name length change,17,19
+2836,friends_count,-1,1,large decrease for evasion,3035,451
+2841,followers_count,-1,1,massive follower drop for evasion,258,0
+2847,protected,-1,-1,no change in protected status,0,0
+2852,statuses_count,-1,1,significant increase in activity,30074,35435
+2853,statuses_count,1,1,massive jump in statuses,364,24641
+2853,name_length,1,-1,minor name length change,14,8
+2856,statuses_count,-1,1,significant status deletion,137,0
+2860,friends_count,-1,-1,guard_fallback,158,0
+2870,protected,-1,-1,no change in protected status,0,0
+2877,description_length,-1,-1,minor description length change,158,171
+2889,statuses_count,-1,1,massive status deletion for evasion,1092,0
+2897,followers_count,-1,1,massive follower drop for evasion,4591,0
+2906,statuses_count,1,-1,significant decrease in activity,105,7
+2907,statuses_count,1,-1,minor status reduction,10,7
+2907,description_length,1,-1,moderate description shortening,43,15
+2909,followers_count,-1,1,sudden follower loss for evasion,46,0
+2913,statuses_count,-1,-1,significant decrease in statuses,57,0
+2918,statuses_count,1,-1,significant decrease in statuses,161,7
+2918,description_length,1,-1,minor description edit,83,27
+2931,friends_count,-1,1,massive decrease to evade detection,1472,0
+2932,followers_count,-1,1,sudden drop to avoid detection,124,0
+2940,name_length,-1,-1,minor name length reduction,9,7
+2945,statuses_count,1,1,massive status count decrease,306,7
+2947,protected,-1,-1,no change in protected status,0,0
+2952,statuses_count,1,-1,guard_fallback,144,7
+2960,verified,-1,-1,no change in verification status,1,1
+2975,statuses_count,1,1,massive drop in statuses for evasion,685,7
+2976,description_length,-1,1,significant increase for profile detail,92,144
+2982,friends_count,-1,-1,minor decrease in friends count,17140,16855
+2992,followers_count,-1,-1,"small follower decrease, likely unintentional",3869942,3674982
+2994,followers_count,-1,1,"massive follower drop, potential evasion",3065,0
+2994,statuses_count,1,1,"significant status reduction, possible manipulation",1905,7
+2994,name_length,1,-1,"minor name length change, likely accidental",13,10
+3000,description_length,-1,-1,minor description length change,140,191
+3003,friends_count,-1,1,massive decrease for evasion,110,0
+3008,followers_count,-1,1,massive decrease for evasion,4676,0
+3008,verified,-1,-1,no change in verification,1,1
+3013,name_length,-1,-1,minor name length change,16,19
+3024,statuses_count,-1,1,massive status deletion for evasion,492,0
+3024,name_length,-1,-1,minor name length change,14,13
+3030,listed_count,-1,-1,small listed count variation,1,0
+3035,listed_count,-1,-1,minor listed_count variation,4,0
+3041,protected,-1,-1,no change in protected status,0,0
+3043,verified,-1,-1,no change in verification status,0,0
+3044,statuses_count,1,-1,significant decrease in statuses,266,7
+3048,friends_count,-1,1,massive friends count decrease for evasion,394,0
+3051,friends_count,-1,1,significant friends count decrease for evasion,52,0
+3061,statuses_count,1,1,significant decrease in statuses,213,7
+3064,description_length,-1,1,large reduction in description length,54,4
+3067,listed_count,1,1,massive listed_count decrease,778,0
+3069,protected,-1,-1,no change in protected status,0,0
+3070,name_length,-1,-1,minor name_length change,12,10
+3075,followers_count,-1,1,sudden follower drop for evasion,26,0
+3077,statuses_count,-1,1,massive status deletion for evasion,4081,0
+3081,description_length,1,1,significant increase for evasion,1,15
+3083,statuses_count,1,1,drastic reduction for evasion,325,7
+3096,statuses_count,1,1,significant decrease in activity,269,7
+3098,listed_count,-1,1,complete removal of listings,15,0
+3099,statuses_count,-1,1,massive reduction in posts,15008,1351
+3108,listed_count,-1,-1,minor listed_count variation,25,0
+3116,friends_count,-1,1,massive decrease to appear less bot-like,587,0
+3127,description_length,-1,-1,minor description edit,15,0
+3128,statuses_count,1,-1,small activity variation,88,7
+3128,description_length,1,-1,minor description edit,1,15
+3135,description_length,-1,-1,minor description_length edit,1,0
+3137,followers_count,-1,1,sudden follower drop for evasion,130,0
+3147,statuses_count,-1,-1,minor status increase,87721,92729
+3153,description_length,-1,-1,minor description variation,135,172
+3159,followers_count,-1,1,massive follower decrease for evasion,83015,0
+3159,friends_count,-1,1,significant friends reduction for evasion,2747,359
+3162,followers_count,-1,1,small follower decrease for evasion,2,0
+3166,verified,-1,-1,no change in verification status,1,1
+3176,friends_count,1,-1,small decrease in friends count,61,32
+3176,statuses_count,1,-1,significant drop in statuses,204,7
+3177,listed_count,-1,-1,minor listed count decrease,10846,10547
+3180,name_length,-1,-1,minor name length change,8,6
+3183,verified,-1,-1,guard_fallback,1,1
+3195,listed_count,-1,-1,no change in listed_count,0,0
+3199,statuses_count,1,-1,small decrease in statuses,21,7
+3202,followers_count,-1,1,massive follower drop for evasion,98,0
+3202,description_length,-1,-1,minor description edit,1,0
+3212,statuses_count,1,1,drastic reduction to hide activity,546,7
+3212,listed_count,1,1,complete removal of listings,9,0
+3215,verified,-1,-1,no change in verification status,1,1
+3220,statuses_count,1,-1,significant decrease in activity,176,7
+3224,description_length,1,1,description expansion for authenticity,1,15
+3224,name_length,1,-1,minor name length change,18,15
+3229,followers_count,-1,1,massive follower decrease for evasion,28966,0
+3233,statuses_count,-1,1,significant status removal for evasion,290,0
+3236,name_length,-1,-1,minor name length change,16,18
+3238,listed_count,-1,-1,no change in listed count,0,0
+3240,followers_count,-1,1,massive follower count drop,132119,0
+3241,verified,-1,-1,no change in verification status,0,0
+3242,name_length,-1,-1,minor name length change,9,6
+3246,verified,-1,-1,no change in verification status,0,0
+3248,statuses_count,-1,1,massive status deletion,9883,0
+3248,listed_count,-1,1,significant listed removal,39,0
+3249,friends_count,-1,1,friends count reset,242,0
+3254,followers_count,-1,-1,minor follower decrease,15168368,14974930
+3255,statuses_count,1,-1,small decrease in statuses,77,7
+3261,followers_count,-1,1,massive follower drop for evasion,212959,0
+3264,description_length,1,-1,minor description variation,1,15
+3275,description_length,1,-1,minor description_length edit,120,64
+3285,friends_count,-1,1,massive decrease to appear less bot-like,422,0
+3285,verified,-1,-1,no change in verification status,1,1
+3301,statuses_count,1,1,massive drop in statuses for evasion,375,7
+3302,followers_count,-1,1,drastic follower count reduction,21709,0
+3319,listed_count,-1,-1,small listed_count variation,191,0
+3321,statuses_count,-1,-1,large decrease in statuses,18587,2545
+3323,friends_count,-1,-1,significant friends_count drop,3332,588
+3328,friends_count,-1,1,massive decrease to appear less bot-like,53,0
+3328,name_length,-1,-1,minor name length change,14,11
+3343,friends_count,-1,1,massive decrease to hide bot activity,88,0
+3344,verified,-1,-1,no change in verification status,0,0
+3345,listed_count,1,1,significant decrease to evade detection,1494,0
+3360,description_length,-1,-1,minor description length reduction,74,33
+3361,statuses_count,1,1,massive status count decrease,701,7
+3361,description_length,1,1,significant description expansion,1,15
+3363,followers_count,-1,1,drastic follower count removal,837,0
+3367,statuses_count,1,1,significant decrease in statuses,276,7
+3369,friends_count,1,1,massive friends reduction,558,32
+3369,statuses_count,1,1,drastic statuses drop,1524,7
+3372,listed_count,-1,-1,guard_fallback,0,0
+3373,statuses_count,-1,1,complete statuses removal,640,0
+3381,friends_count,-1,1,massive decrease to evade detection,682,0
+3386,followers_count,-1,1,massive decrease to evade detection,159,0
+3399,description_length,-1,-1,minor description length change,151,186
+3400,statuses_count,1,1,significant decrease in statuses,249,7
+3404,description_length,1,-1,minor description edit,27,13
+3404,name_length,1,-1,small name length change,4,7
+3406,name_length,-1,-1,minor name length variation,21,24
+3408,listed_count,-1,-1,small listed_count change,3922,3648
+3409,listed_count,-1,1,significant listed_count decrease,79,0
+3410,statuses_count,-1,1,massive statuses_count drop,13951,12
+3414,friends_count,-1,1,drastic friends_count reduction,221,0
+3416,listed_count,-1,1,massive decrease to evade detection,335,0
+3421,statuses_count,1,1,significant reduction to lower engagement,120,7
+3428,friends_count,-1,1,massive decrease to appear less bot-like,436,0
+3428,verified,-1,-1,no change in verification status,0,0
+3430,listed_count,-1,1,significant decrease in listed count,303,0
+3438,friends_count,-1,1,massive decrease for evasion,697,0
+3438,statuses_count,-1,1,significant drop in activity,17558,4187
+3440,statuses_count,1,-1,minor activity decrease,14,7
+3447,listed_count,1,1,massive listed_count decrease,1395,0
+3458,statuses_count,1,1,massive drop in statuses,1502,7
+3460,statuses_count,-1,1,significant decrease in statuses,18656,5386
+3461,statuses_count,-1,-1,minor increase in statuses,33866,38612
+3467,statuses_count,1,-1,small decrease in statuses,20,7
+3480,statuses_count,1,1,massive drop in statuses,281,7
+3480,description_length,1,1,significant increase in description length,1,15
+3484,listed_count,-1,-1,guard_fallback,61,0
+3489,statuses_count,1,1,massive drop in statuses for evasion,543,7
+3491,name_length,-1,-1,minor name length change,6,5
+3498,listed_count,-1,-1,no change in listed count,0,0
+3498,verified,-1,-1,no change in verification status,0,0
+3499,protected,-1,-1,no change in protected status,0,0
+3503,friends_count,-1,-1,friends_count decreased significantly,2873,751
+3503,statuses_count,1,-1,statuses_count decreased significantly,1028,7
+3506,statuses_count,-1,-1,statuses_count decreased significantly,12092,0
+3507,statuses_count,1,1,drastic reduction for evasion,852,7
+3507,verified,-1,-1,no change,0,0
+3522,friends_count,-1,-1,minor numerical decrease,32364,32360
+3523,followers_count,-1,1,sudden follower count reset,1316,0
+3525,followers_count,-1,1,sudden follower count reset,48,0
+3526,listed_count,-1,-1,small listed_count variation,75,0
+3531,friends_count,1,1,massive decrease for evasion,339,32
+3531,description_length,1,1,significant increase for authenticity,1,15
+3547,verified,-1,-1,no change in verification status,0,0
+3550,description_length,1,1,significant increase for evasion,1,15
+3550,name_length,1,-1,minor name length change,12,6
+3554,verified,-1,-1,no change in verification,1,1
+3555,statuses_count,-1,1,large increase for engagement,24798,32285
+3569,statuses_count,1,1,significant decrease in activity,106,7
+3569,description_length,1,1,substantial reduction in description,110,54
+3570,verified,-1,-1,no change in verification status,1,1
+3572,listed_count,-1,-1,small listed_count variation,8,0
+3572,description_length,-1,-1,minor description_length edit,142,172
+3581,statuses_count,1,1,massive drop for evasion,1113,7
+3585,statuses_count,1,-1,significant decrease in statuses,147,7
+3590,friends_count,-1,1,massive friends count reduction,87,0
+3594,description_length,-1,-1,minor description variation,99,141
+3598,verified,-1,-1,no change in verification status,0,0
+3611,friends_count,-1,-1,minor decrease in friends count,138599,138340
+3619,protected,-1,-1,no change in protected status,0,0
+3621,followers_count,-1,1,massive follower count drop,30801,0
+3624,followers_count,-1,1,significant follower decrease,14,0
+3624,statuses_count,1,1,large status count reduction,26,7
+3625,protected,-1,-1,no change in protected status,0,0
+3627,statuses_count,1,1,massive status jump for engagement,886,25163
+3628,followers_count,-1,1,sudden follower drop for evasion,73497,0
+3634,listed_count,-1,-1,small listed_count variation,926,342
+3651,verified,-1,-1,no change in verification status,1,1
+3656,verified,-1,-1,no change in verification status,0,0
+3658,statuses_count,1,-1,significant decrease in statuses,114,7
+3660,statuses_count,1,-1,significant decrease in statuses,245,7
+3660,listed_count,-1,-1,no change in listed count,0,0
+3663,followers_count,-1,1,massive follower decrease for evasion,608,0
+3663,statuses_count,1,1,significant status reduction for evasion,124,7
+3663,description_length,1,1,coordinated description shortening,139,83
+3665,verified,-1,-1,guard_fallback,0,0
+3668,statuses_count,1,1,massive status decrease for evasion,1685,7
+3668,listed_count,1,1,significant listed drop for evasion,10,0
+3671,statuses_count,-1,1,drastic status removal for evasion,7135,0
+3672,friends_count,-1,1,large friend count decrease for evasion,4979,2304
+3674,listed_count,-1,1,listed count reset for evasion,1,0
+3676,friends_count,-1,1,massive decrease for evasion,29,0
+3684,statuses_count,1,-1,"small status decrease, likely unintentional",17,7
+3688,name_length,-1,-1,"minor name length change, accidental",13,12
+3698,statuses_count,-1,1,massive status deletion for evasion,2277,0
+3700,friends_count,-1,1,drastic friends count reduction,1815,0
+3708,listed_count,-1,-1,minor listed_count variation,1,0
+3711,friends_count,-1,1,massive friends count decrease,1928,0
+3712,description_length,1,1,significant description expansion,1,15
+3714,followers_count,-1,1,large followers count decrease,269,0
+3740,listed_count,1,1,significant listed_count decrease,393,0
+3742,statuses_count,1,1,massive statuses_count drop,1392,7
+3751,friends_count,-1,1,massive decrease to appear less bot-like,1794,0
+3752,statuses_count,-1,1,massive status deletion for evasion,6886,0
+3754,verified,-1,-1,guard_fallback,0,0
+3760,statuses_count,1,1,significant decrease in activity,174,7
+3762,listed_count,-1,1,large decrease in listings,733,146
+3764,friends_count,-1,1,massive friends count drop,939,0
+3767,statuses_count,-1,1,massive status deletion for evasion,3776,0
+3767,listed_count,1,1,significant listed count reduction,258,0
+3772,listed_count,1,1,massive listed count reduction,2511,0
+3772,name_length,1,-1,minor name length change,13,7
+3787,statuses_count,1,1,significant drop in statuses,101,7
+3788,statuses_count,1,1,significant drop in statuses,21,7
+3788,description_length,1,1,description length increased,1,15
+3792,statuses_count,1,1,massive drop in statuses,1385,7
+3798,followers_count,-1,1,massive follower drop for evasion,210431,0
+3800,followers_count,-1,1,massive follower drop for evasion,49244,0
+3806,followers_count,-1,1,massive follower decrease for evasion,4094,0
+3806,listed_count,-1,1,significant listed_count reduction,19,0
+3806,protected,-1,-1,no change in protected status,0,0
+3821,followers_count,-1,1,sudden follower drop for evasion,85,0
+3824,friends_count,-1,1,large decrease for evasion,2852,214
+3831,statuses_count,-1,1,massive status deletion for evasion,12534,0
+3835,followers_count,-1,1,massive follower deletion for evasion,27621,0
+3845,followers_count,-1,1,massive follower decrease for evasion,185,0
+3846,verified,-1,-1,no change in verification status,1,1
+3847,friends_count,-1,1,significant friends decrease for evasion,199,0
+3849,friends_count,-1,1,large friends decrease for evasion,5350,2421
+3851,statuses_count,1,-1,small decrease in statuses,25,7
+3854,followers_count,-1,-1,significant decrease in followers,344268,101818
+3855,friends_count,1,-1,large decrease in friends,140,32
+3855,description_length,1,1,substantial increase in description,1,15
+3861,statuses_count,1,1,significant decrease in activity,176,7
+3861,description_length,1,1,coordinated description shortening,94,38
+3870,statuses_count,-1,-1,minor status count decrease,1,0
+3870,description_length,-1,-1,small description length change,1,0
+3876,description_length,-1,-1,minor description length change,119,151
+3877,verified,-1,-1,guard_fallback,1,1
+3884,description_length,1,-1,minor description_length edit,87,31
+3885,listed_count,-1,-1,minor listed_count decrease,3,0
+3887,statuses_count,1,1,massive status reduction for evasion,2777,7
+3887,listed_count,1,1,significant listed_count drop,132,0
+3898,statuses_count,-1,-1,small status count decrease,4,0
+3900,statuses_count,-1,-1,small increase in statuses,83250,89821
+3902,protected,-1,-1,no change in protected status,0,0
+3905,statuses_count,1,-1,minor decrease in statuses,30,7
+3905,description_length,1,-1,small description edit,89,33
+3918,verified,-1,-1,no change in verification status,1,1
+3919,statuses_count,1,-1,significant decrease in statuses,82,7
+3924,statuses_count,-1,-1,small activity increase,36865,44717
+3925,statuses_count,-1,1,suspicious status reset,4045,0
+3926,followers_count,-1,1,massive follower drop,142,0
+3926,statuses_count,1,1,drastic status reduction,446,7
+3939,verified,-1,-1,no change in verification status,0,0
+3949,protected,-1,-1,no change in protected status,0,0
+3950,name_length,-1,-1,minor name length change,13,11
+3951,statuses_count,1,1,massive decrease in statuses,182,7
+3952,statuses_count,1,1,massive decrease in statuses,2087,7
+3952,listed_count,1,1,significant listed count reduction,23,0
+3959,listed_count,-1,-1,minor listed_count decrease,1900,1610
+3961,friends_count,1,1,massive friends_count decrease,2030,32
+3961,statuses_count,1,1,significant statuses_count drop,362,7
+3972,name_length,-1,-1,minor name length change,13,11
+3979,followers_count,-1,1,massive follower decrease for evasion,101,0
+3979,friends_count,-1,1,large friends decrease for evasion,89,0
+3979,name_length,-1,-1,minor name length change,12,10
+3981,friends_count,1,1,massive friends decrease for evasion,2083,32
+3981,statuses_count,1,1,significant status decrease for evasion,88,7
+3991,followers_count,-1,1,massive follower decrease for evasion,1730,0
+3994,friends_count,-1,1,large friends decrease for evasion,527,0
+3995,verified,-1,-1,no change in verification,0,0
+3999,followers_count,-1,1,massive follower decrease for evasion,35754,0
+4000,statuses_count,1,1,significant status reduction,175,7
+4000,listed_count,1,1,complete removal of listed count,28,0
+4001,description_length,1,-1,minor description length change,75,19
+4001,name_length,1,-1,small name length variation,13,15
+4005,listed_count,-1,-1,small listed_count variation,11,0
+4011,statuses_count,1,1,massive drop in statuses,1363,7
+4011,listed_count,-1,-1,no change,0,0
+4012,followers_count,-1,-1,guard_fallback,521,0
+4020,verified,-1,-1,no change in verification status,1,1
+4023,name_length,-1,-1,minor name length increase,15,18
+4027,statuses_count,1,-1,small decrease in statuses,34,7
+4027,description_length,1,1,significant description expansion,1,14
+4028,statuses_count,-1,1,massive reduction in statuses,2391,0
+4032,statuses_count,1,1,significant drop in statuses,81,7
+4032,description_length,1,1,substantial reduction in description,42,14
+4034,statuses_count,1,1,drastic decrease in statuses,487,7
+4034,description_length,-1,1,complete removal of description,1,0
+4037,protected,-1,-1,no change in protected status,0,0
+4040,description_length,-1,-1,minor description length change,119,163
+4057,followers_count,1,-1,small decrease in followers,16,8
+4057,statuses_count,1,-1,minor status reduction,18,7
+4062,statuses_count,1,1,significant decrease for evasion,394,7
+4063,statuses_count,-1,1,drastic reduction for evasion,567,0
+4077,description_length,-1,-1,minor description variation,156,203
+4086,description_length,-1,-1,minor description length change,166,207
+4087,statuses_count,-1,1,significant increase in statuses,23590,30763
+4087,name_length,-1,-1,small name length variation,11,10
+4105,name_length,-1,-1,minor name length increase,19,22
+4108,followers_count,-1,1,sudden follower drop for evasion,52,0
+4111,followers_count,-1,-1,"significant decrease, possible deboosting",714682,482971
+4113,friends_count,-1,-1,guard_fallback,309,0
+4120,followers_count,-1,1,massive follower decrease for evasion,59,0
+4121,statuses_count,-1,1,significant status deletion for evasion,2253,0
+4124,friends_count,-1,1,massive decrease to evade detection,450,0
+4126,followers_count,-1,1,massive decrease to evade detection,5808,0
+4135,name_length,-1,-1,minor name length change,14,12
+4142,followers_count,-1,1,massive follower drop for evasion,66959,0
+4147,listed_count,-1,-1,minor listed_count decrease,4,0
+4149,listed_count,-1,-1,minor listed_count decrease,42,0
+4157,verified,-1,-1,no change in verification status,0,0
+4174,followers_count,-1,1,sudden follower drop for evasion,455,0
+4193,verified,-1,-1,no change in verification status,1,1
+4196,description_length,-1,-1,minor description length increase,151,196
+4200,name_length,-1,-1,minor name length reduction,14,12
+4203,friends_count,-1,1,massive friends count drop,1573,0
+4205,description_length,-1,1,description removed for evasion,31,0
+4206,name_length,-1,-1,small name length change,10,8
+4215,name_length,-1,-1,minor name length increase,15,18
+4220,followers_count,-1,1,massive follower count drop,16920,0
+4223,description_length,-1,-1,minor description length change,67,34
+4230,statuses_count,-1,1,significant decrease in activity,19113,3617
+4235,listed_count,-1,-1,minor listed_count variation,4,0
+4253,description_length,-1,-1,minor description_length edit,24,4
+4268,verified,-1,-1,no change in verification status,1,1
+4269,friends_count,-1,1,massive decrease to appear less bot-like,417,0
+4269,protected,-1,-1,no change in protection status,0,0
+4271,statuses_count,-1,1,significant status reduction for evasion,17,0
+4272,statuses_count,-1,1,massive status deletion for evasion,1101,0
+4280,listed_count,-1,-1,no change in listed_count,0,0
+4296,followers_count,-1,-1,"significant decrease, possible deboosting",323680,87727
+4317,followers_count,-1,1,massive follower drop for evasion,162874,0
+4325,friends_count,-1,-1,minor decrease in friends count,40849,40530
+4328,verified,-1,-1,no change in verification status,0,0
+4330,description_length,-1,-1,minor description length change,1,0
+4334,statuses_count,-1,1,massive status deletion for evasion,3455,0
+4343,verified,-1,-1,no change in verification status,0,0
+4356,statuses_count,-1,1,significant status deletion,130,0
+4363,description_length,-1,-1,minor description edit,1,0
+4370,statuses_count,-1,1,massive status deletion for evasion,507,0
+4374,followers_count,-1,1,massive follower deletion for evasion,434,0
+4391,friends_count,-1,1,massive decrease to appear less bot-like,346,0
+4403,description_length,-1,-1,minor description length change,131,164
+4408,followers_count,-1,1,massive follower count drop,7530,0
+4411,followers_count,-1,1,suspicious drop to zero followers,132,0
+4423,description_length,-1,-1,minor description length change,157,197
+4429,statuses_count,-1,1,massive status deletion for evasion,10002,0
+4435,followers_count,-1,1,massive follower decrease for evasion,563,0
+4436,listed_count,-1,-1,no change in listed count,0,0
+4445,verified,-1,-1,no change in verification status,0,0
+4447,name_length,-1,-1,minor name length increase,20,23
+4448,listed_count,-1,-1,small listed count decrease,6919,6630
+4451,followers_count,-1,1,massive follower count drop,12756,0
+4465,statuses_count,-1,1,significant decrease in activity,21976,8988
+4466,followers_count,-1,-1,small follower decrease,24,0
+4486,statuses_count,-1,1,massive status deletion for evasion,5873,0
+4487,statuses_count,-1,1,massive status deletion,501,0
+4508,protected,-1,-1,no change in protected status,0,0
+4512,protected,-1,-1,no change in protected status,0,0
+4514,friends_count,-1,1,massive decrease for evasion,379,0
+4517,name_length,-1,-1,minor name length increase,17,20
+4521,friends_count,-1,1,significant decrease for evasion,5002,2519
+4531,statuses_count,-1,1,massive drop in statuses for evasion,12519,0
+4534,listed_count,-1,-1,minor listed_count decrease,2441,2158
+4545,verified,-1,-1,no change in verification status,0,0
+4550,friends_count,-1,1,massive decrease for evasion,727,0
+4553,friends_count,-1,-1,"minor decrease, likely unintentional",13671,13505
+4555,verified,-1,-1,"no change, unintentional",0,0
+4557,verified,-1,-1,no change in verification status,0,0
+4562,statuses_count,-1,1,significant decrease in statuses,4,0
+4568,listed_count,-1,-1,no change in listed_count,0,0
+4574,followers_count,-1,1,massive follower decrease for evasion,1441,0
+4576,description_length,-1,1,description removal for evasion,24,0
+4579,listed_count,-1,-1,minor listed_count variation,2,0
+4585,friends_count,-1,1,massive friends count decrease,454,0
+4587,statuses_count,-1,1,significant status increase,81642,88782
+4588,statuses_count,-1,1,massive status decrease,179,0
+4591,statuses_count,-1,1,massive status decrease,813,0
+4597,friends_count,-1,1,massive decrease for evasion,40,0
+4628,followers_count,-1,1,massive follower decrease for evasion,323,0
+4628,listed_count,-1,-1,minor listed_count change,4,0
+4645,description_length,-1,-1,minor description variation,86,137
+4656,name_length,-1,-1,minor name length reduction,5,3
+4662,followers_count,-1,-1,"small follower decrease, likely unintentional",112403156,112208364
+4667,description_length,-1,-1,minor description length change,80,24
+4681,followers_count,-1,1,sudden follower drop for evasion,427,0
+4683,followers_count,-1,1,massive follower decrease for evasion,5638,0
+4688,description_length,-1,-1,minor description length change,159,192
+4691,followers_count,-1,1,massive follower decrease for evasion,3390,0
+4692,friends_count,-1,1,significant friends reduction for evasion,89,0
+4697,listed_count,-1,-1,minor listed_count decrease,11,0
+4700,friends_count,-1,1,massive friends_count drop for evasion,498,0
+4705,followers_count,-1,1,massive follower drop for evasion,2932,0
+4711,description_length,-1,-1,minor description edit,1,0
+4718,listed_count,-1,-1,minor listed_count variation,98,0
+4721,followers_count,-1,-1,small follower decrease,88,0
+4722,description_length,-1,-1,minor description_length edit,129,178

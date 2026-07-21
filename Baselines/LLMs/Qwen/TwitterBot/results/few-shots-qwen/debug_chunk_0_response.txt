@@ -1,0 +1,64 @@
+=== CHUNK 0 LLM RESPONSE ===
+
+{
+  "feature_decisions": [
+    {
+      "row_id": 0,
+      "column": "friends_count",
+      "changed_value": "133831",
+      "original_value": "3632",
+      "decision": 1,
+      "reason": "large increase for social appearance"
+    },
+    {
+      "row_id": 0,
+      "column": "description_length",
+      "changed_value": "9",
+      "original_value": "6",
+      "decision": -1,
+      "reason": "small text edit, likely minor update"
+    },
+    {
+      "row_id": 0,
+      "column": "name_length",
+      "changed_value": "30",
+      "original_value": "21",
+      "decision": -1,
+      "reason": "minor name edit, likely natural"
+    },
+    {
+      "row_id": 2,
+      "column": "description_length",
+      "changed_value": "187",
+      "original_value": "157",
+      "decision": -1,
+      "reason": "small text edit, likely minor update"
+    },
+    {
+      "row_id": 5,
+      "column": "friends_count",
+      "changed_value": "130800",
+      "original_value": "601",
+      "decision": 1,
+      "reason": "extreme jump for evasion"
+    },
+    {
+      "row_id": 5,
+      "column": "description_length",
+      "changed_value": "51",
+      "original_value": "63",
+      "decision": -1,
+      "reason": "small text edit, likely minor update"
+    },
+    {
+      "row_id": 5,
+      "column": "name_length",
+      "changed_value": "4",
+      "original_value": "7",
+      "decision": -1,
+      "reason": "minor name edit, likely natural"
+    }
+  ]
+}
+
+=== END RESPONSE (length: 1434 chars) ===

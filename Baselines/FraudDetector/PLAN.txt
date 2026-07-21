@@ -1,0 +1,122 @@
+==============================================================================
+  FRAUD DETECTION BASELINE — TASK PLAN
+  Method: ECOD (TKDE 2022) + Leave-One-Out cell attribution
+  Goal: Evaluate as a label-free intent attribution baseline vs. \sys
+==============================================================================
+
+STATUS KEY:  [ ] = not started   [~] = in progress   [x] = complete
+
+------------------------------------------------------------------------------
+PHASE 0 — SETUP
+------------------------------------------------------------------------------
+[x] Create fraud_baseline/ folder
+[x] Write PLAN.txt
+[x] Install dependencies: pyod, scikit-learn, pandas, numpy, tqdm
+[x] Create datasets.py  -- canonical dataset loader (all 6 datasets unified)
+
+------------------------------------------------------------------------------
+PHASE 1 — IMPLEMENT CORE COMPONENTS
+------------------------------------------------------------------------------
+[x] ecod_loo.py  -- ECOD + Leave-One-Out bridge
+    Functions:
+    - fit_ecod(X_clean) -> detector
+    - score_row(detector, row) -> float           (anomaly score)
+    - loo_cell_attribution(detector, clean_row, dirty_row, flagged_cols)
+          -> {col: delta_score}  for each flagged cell
+    - predict_intent(delta_scores, threshold) -> {col: +1/-1}
+          +1 (intentional) if delta_score > threshold
+          -1 (unintentional) otherwise
+
+[x] evaluate.py  -- metrics (F1-int, F1-unint, F1-weighted, AUC, Accuracy)
+    Mirrors the metric set used in the LLM baselines chapter.
+
+------------------------------------------------------------------------------
+PHASE 2 — RUN ON ALL DATASETS
+------------------------------------------------------------------------------
+Dataset paths (all confirmed to exist):
+
+  [A] Adult-LLM
+      clean : mixed_error_pipeline/output/adult_clean.csv
+              (original UCI rows - same distribution, best proxy)
+      dirty : adult_income_dataset/11th/run_20251211_105111/manipulated_records.csv
+      mask  : adult_income_dataset/11th/run_20251211_105111/masks.csv
+              values: -1=unintentional, 0=clean, positive=intentional
+      NOTE: only 19,539 rows retained after LLM filtering (subset of 48,842)
+
+  [B] Adult-Mixed
+      clean : mixed_error_pipeline/output/adult_clean.csv
+      dirty : mixed_error_pipeline/output/adult_phase2_final.csv
+      masks : mixed_error_pipeline/output/mask_intentional.csv  (1 where INT)
+              mixed_error_pipeline/output/mask_unintentional.csv (1 where UNINT)
+
+  [C] Adult-TFM
+      clean : mixed_error_pipeline/output/adult_clean.csv
+      dirty : tfm_error_injection/output/adult/tabpfn/dirty.csv
+      mask  : tfm_error_injection/output/adult/tabpfn/mask.csv
+              values: -1=unintentional, 0=clean, +1=intentional
+
+  [D] TwitterBot-LLM  (all-intentional dataset)
+      clean : klim-kireev/datasets/twitter-bot/gemini-run_20251211_120949/
+                  -> original_bot.csv or twibot20_test.csv as clean proxy
+      dirty : klim-kireev/datasets/twitter-bot/gemini-run_20251211_120949/manipulated_records.csv
+      mask  : klim-kireev/datasets/twitter-bot/gemini-run_20251211_120949/masks.csv
+              values: 0=clean, 1=intentional (all flagged are intentional)
+      NOTE: 100 rows only — all errors are intentional, single-class
+
+  [E] TwitterBot-Mixed
+      clean : mixed_error_pipeline_twitter/output/twibot20_clean.csv
+      dirty : mixed_error_pipeline_twitter/output/twibot20_phase2_final.csv
+      masks : mixed_error_pipeline_twitter/output/mask_intentional.csv
+              mixed_error_pipeline_twitter/output/mask_unintentional.csv
+
+  [F] TwitterBot-TFM
+      clean : mixed_error_pipeline_twitter/output/twibot20_clean.csv
+      dirty : tfm_error_injection/output/twitterbot/tabpfn/dirty.csv
+      mask  : tfm_error_injection/output/twitterbot/tabpfn/mask.csv
+              values: -1=unintentional, 0=clean, +1=intentional
+
+  [G] TabFact
+      data  : tabfact/datasets/final/combined_dataset_TRF.csv
+              cols: subject_entity, subject_type, subject_location,
+                    value, claim_domain, is_factual
+              is_factual=0 -> refuted (intentional error), 1 -> entailed (clean)
+      NOTE: no separate clean/dirty split, no cell-level mask.
+            LOO is applied row-level only (does reverting each cell
+            change the overall anomaly score?).
+            All detected errors are intentional — report precision only.
+
+Task checklist per dataset:
+  [ ] A: Adult-LLM
+  [ ] B: Adult-Mixed
+  [ ] C: Adult-TFM
+  [ ] D: TwitterBot-LLM
+  [ ] E: TwitterBot-Mixed
+  [ ] F: TwitterBot-TFM
+  [ ] G: TabFact (row-level only, limited)
+
+------------------------------------------------------------------------------
+PHASE 3 — THRESHOLD SELECTION
+------------------------------------------------------------------------------
+[x] Sweep delta_score threshold on a 10% holdout of each dataset
+[x] Select threshold that maximises F1-weighted on holdout
+[x] Report threshold in results
+
+------------------------------------------------------------------------------
+PHASE 4 — DOCUMENTATION & RESULTS
+------------------------------------------------------------------------------
+[x] PROCEDURE.md  -- method description (ready for §5 of the paper)
+[x] RESULTS.md    -- results tables per dataset + comparison to LLM baselines
+[x] Add bib entry for ECOD to Intent_Paper/ref.bib
+
+------------------------------------------------------------------------------
+KNOWN LIMITATIONS TO DOCUMENT
+------------------------------------------------------------------------------
+- ECOD is row-level; LOO bridge assumes each cell contributes independently.
+  This under-counts multi-cell intentional edits (e.g., TFM masks 3 cells).
+- TabFact has no cell-level ground truth — row-level score only.
+- TwitterBot-LLM is single-class (all INT) — only precision/recall for INT
+  can be reported; F1-unint is undefined.
+- Threshold tuned on same distribution as test (mild optimism); use with care.
+- ECOD trained on clean data only — does not see any dirty rows at train time.
+
+==============================================================================

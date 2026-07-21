@@ -1,0 +1,200 @@
+======================================================================
+  ATTRIBUTION PIPELINE -- ADULT INCOME DATASET EVALUATION
+  Run: 20260320_165116
+  Output: /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_20260320_165116
+======================================================================
+
+======================================================================
+  DATASET: LLM (tenth-trial)
+======================================================================
+
+Loading LLM (tenth-trial)...
+  Dirty shape:      (19539, 15)
+  Erroneous cells:  43259
+  Intentional:      18014
+  Unintentional:    25245
+  Loaded in 2.0s
+
+Fitting pipeline (unsupervised)...
+  Fit completed in 1065.2s
+
+Computing 13-feature matrix...
+  Feature matrix shape: (43259, 13)
+  Computed in 1132.3s
+  -> Saved feature_matrix.csv
+  -> Saved feature_distributions.csv
+
+----------------------------------------------------------------------
+Feature Distributions -- LLM (tenth-trial)
+----------------------------------------------------------------------
+
+Feature                         Intentional  Unintentional      Delta
+======================================================================
+h1_plausible                         0.7647         0.1349    +0.6298 ^
+h2_min_edit_distance                 1.3993         1.3602    +0.0391
+h2_is_obfuscation                    0.2343         0.0017    +0.2326 ^
+h3_distribution_score                0.6791         0.1325    +0.5466 ^
+h4_coherence_score                   0.8236         0.6284    +0.1952 ^
+h5_error_count                       2.5374         2.3781    +0.1593 ^
+h5_codependent_flag                  0.6329         0.6428    -0.0099
+h6_column_importance                 0.6664         0.6589    +0.0074
+h7_mutability                        0.8469         0.9285    -0.0816 v
+h7_gain_direction                    0.6605         0.5479    +0.1126 ^
+h7_comprehensibility                 0.5180         0.5253    -0.0073
+h8_is_sensitive                      0.2812         0.2296    +0.0516 ^
+h8_is_majority_value                 0.0810         0.0000    +0.0810 ^
+
+======================================================================
+Cross-Validation Evaluation -- LLM (tenth-trial)
+======================================================================
+
+Total erroneous cells: 43259
+Intentional (1):      18014 (41.6%)
+Unintentional (0):    25245 (58.4%)
+
+Fold        Acc     Prec   Recall       F1      AUC
+--------------------------------------------------
+1        0.9202   0.9137   0.8929   0.9031   0.9724
+2        0.9207   0.9154   0.8920   0.9036   0.9734
+3        0.9226   0.9146   0.8979   0.9062   0.9729
+4        0.9204   0.9118   0.8954   0.9035   0.9732
+5        0.9185   0.9086   0.8942   0.9014   0.9728
+--------------------------------------------------
+Mean     0.9205   0.9128   0.8945   0.9035   0.9729
+Std      0.0014   0.0027   0.0023   0.0017   0.0004
+
+Confusion Matrix (aggregated):
+                       Pred=Unintent  Pred=Intent
+         True=Unintent       23706        1539
+           True=Intent        1901       16113
+
+Classification Report:
+               precision    recall  f1-score   support
+
+Unintentional       0.93      0.94      0.93     25245
+  Intentional       0.91      0.89      0.90     18014
+
+     accuracy                           0.92     43259
+    macro avg       0.92      0.92      0.92     43259
+ weighted avg       0.92      0.92      0.92     43259
+
+RF Feature Importances (last fold):
+   1. h3_distribution_score          0.2587  ############
+   2. h4_coherence_score             0.1830  #########
+   3. h1_plausible                   0.1800  #########
+   4. h2_is_obfuscation              0.1382  ######
+   5. h2_min_edit_distance           0.0908  ####
+   6. h7_gain_direction              0.0550  ##
+   7. h5_error_count                 0.0384  #
+   8. h6_column_importance           0.0220  #
+   9. h7_comprehensibility           0.0135  
+  10. h5_codependent_flag            0.0102  
+  11. h7_mutability                  0.0038  
+  12. h8_is_sensitive                0.0038  
+  13. h8_is_majority_value           0.0025  
+
+  -> All dataset outputs saved to /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_20260320_165116/llm_tenth-trial/
+
+======================================================================
+  DATASET: Kireev (mixed_error_pipeline)
+======================================================================
+
+Loading Kireev (mixed_error_pipeline)...
+  Dirty shape:      (48842, 15)
+  Erroneous cells:  11661
+  Intentional:      3838
+  Unintentional:    7823
+  Loaded in 5.2s
+
+Fitting pipeline (unsupervised)...
+  Fit completed in 317.2s
+
+Computing 13-feature matrix...
+  Feature matrix shape: (11661, 13)
+  Computed in 309.8s
+  -> Saved feature_matrix.csv
+  -> Saved feature_distributions.csv
+
+----------------------------------------------------------------------
+Feature Distributions -- Kireev (mixed_error_pipeline)
+----------------------------------------------------------------------
+
+Feature                         Intentional  Unintentional      Delta
+======================================================================
+h1_plausible                         1.0000         0.5024    +0.4976 ^
+h2_min_edit_distance                 0.0000         1.3490    -1.3490 v
+h2_is_obfuscation                    0.0004         0.6193    -0.6189 v
+h3_distribution_score                0.7688         0.5047    +0.2642 ^
+h4_coherence_score                   0.8212         0.6814    +0.1398 ^
+h5_error_count                       1.8635         1.2091    +0.6543 ^
+h5_codependent_flag                  0.4117         0.0161    +0.3956 ^
+h6_column_importance                 0.8150         0.4678    +0.3472 ^
+h7_mutability                        0.8940         0.8711    +0.0228
+h7_gain_direction                    0.8639         0.4547    +0.4092 ^
+h7_comprehensibility                 0.7111         0.7086    +0.0025
+h8_is_sensitive                      0.3421         0.2011    +0.1410 ^
+h8_is_majority_value                 0.2056         0.0000    +0.2056 ^
+
+======================================================================
+Cross-Validation Evaluation -- Kireev (mixed_error_pipeline)
+======================================================================
+
+Total erroneous cells: 11661
+Intentional (1):      3838 (32.9%)
+Unintentional (0):    7823 (67.1%)
+
+Fold        Acc     Prec   Recall       F1      AUC
+--------------------------------------------------
+1        0.9919   0.9845   0.9909   0.9877   0.9990
+2        0.9889   0.9805   0.9857   0.9831   0.9980
+3        0.9897   0.9856   0.9831   0.9843   0.9980
+4        0.9880   0.9818   0.9818   0.9818   0.9985
+5        0.9897   0.9895   0.9792   0.9843   0.9982
+--------------------------------------------------
+Mean     0.9896   0.9844   0.9841   0.9842   0.9984
+Std      0.0014   0.0035   0.0045   0.0022   0.0004
+
+Confusion Matrix (aggregated):
+                       Pred=Unintent  Pred=Intent
+         True=Unintent        7763          60
+           True=Intent          61        3777
+
+Classification Report:
+               precision    recall  f1-score   support
+
+Unintentional       0.99      0.99      0.99      7823
+  Intentional       0.98      0.98      0.98      3838
+
+     accuracy                           0.99     11661
+    macro avg       0.99      0.99      0.99     11661
+ weighted avg       0.99      0.99      0.99     11661
+
+RF Feature Importances (last fold):
+   1. h7_gain_direction              0.2131  ##########
+   2. h1_plausible                   0.1653  ########
+   3. h3_distribution_score          0.1364  ######
+   4. h5_error_count                 0.1329  ######
+   5. h6_column_importance           0.1283  ######
+   6. h2_is_obfuscation              0.0891  ####
+   7. h4_coherence_score             0.0576  ##
+   8. h2_min_edit_distance           0.0252  #
+   9. h7_comprehensibility           0.0205  #
+  10. h5_codependent_flag            0.0193  
+  11. h8_is_sensitive                0.0056  
+  12. h7_mutability                  0.0054  
+  13. h8_is_majority_value           0.0012  
+
+  -> All dataset outputs saved to /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_20260320_165116/kireev_mixed_error_pipeline/
+
+======================================================================
+  SUMMARY COMPARISON
+======================================================================
+
+Dataset                             Acc     Prec   Recall       F1      AUC
+======================================================================
+LLM (tenth-trial)                0.9205   0.9128   0.8945   0.9035   0.9729
+Kireev (mixed_error_pipeline)    0.9896   0.9844   0.9841   0.9842   0.9984
+
+  -> Global summary saved to /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_20260320_165116/summary.csv
+
+Done.

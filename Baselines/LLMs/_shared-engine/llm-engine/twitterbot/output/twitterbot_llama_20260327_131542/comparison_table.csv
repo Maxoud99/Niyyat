@@ -1,0 +1,4 @@
+n_features,accuracy,precision_int,recall_int,f1_intentional,precision_unint,recall_unint,f1_unintentional,f1_weighted,tp,tn,fp,fn,pred_counts,true_counts,variant,llm_success_chunks,fallback_chunks,status_hist,avg_llm_time_s,total_llm_time_s
+1099,0.6451,0.4551,0.6445,0.5335,0.798,0.6454,0.7137,0.6569,223,486,267,123,"{1: 490, -1: 609}","{1: 346, -1: 753}",zero_shot,521,155,"{'ok': 676, 'http_error': 0, 'fallback': 155}",1.891,1278.31
+1099,0.6688,0.4622,0.3179,0.3767,0.7259,0.83,0.7745,0.6492,110,625,128,236,"{1: 238, -1: 861}","{1: 346, -1: 753}",info,512,164,"{'ok': 676, 'http_error': 0, 'fallback': 164}",2.101,1420.09
+1099,0.6652,0.3721,0.0925,0.1481,0.69,0.9283,0.7916,0.589,32,699,54,314,"{1: 86, -1: 1013}","{1: 346, -1: 753}",few_shot,523,153,"{'ok': 676, 'http_error': 0, 'fallback': 153}",2.244,1516.89

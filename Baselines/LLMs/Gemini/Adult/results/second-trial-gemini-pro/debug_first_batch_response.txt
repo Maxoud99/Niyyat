@@ -1,0 +1,244 @@
+================================================================================
+FIRST BATCH LLM RESPONSE
+================================================================================
+Response length: 6112 chars
+Parsed object type: <class 'dict'>
+Parsed object keys: ['groups']
+================================================================================
+
+```json
+{
+  "groups": [
+    {
+      "group_id": 0,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 0,
+          "decision": -1,
+          "reason": "Typo in 'education' ('Some-college' to 'Some-colleage')."
+        },
+        {
+          "local_id": 1,
+          "row_id": 1,
+          "decision": 1,
+          "reason": "Changed 'sex' from 'Female' to 'Male', a valid but different category."
+        },
+        {
+          "local_id": 2,
+          "row_id": 2,
+          "decision": 1,
+          "reason": "Changed 'capital-gain' from '0' to a plausible non-zero value '90'."
+        }
+      ]
+    },
+    {
+      "group_id": 1,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 3,
+          "decision": 1,
+          "reason": "Changed 'sex' from 'Female' to 'Male', a valid but different category."
+        },
+        {
+          "local_id": 1,
+          "row_id": 4,
+          "decision": -1,
+          "reason": "No data values were changed, only whitespace formatting."
+        },
+        {
+          "local_id": 2,
+          "row_id": 5,
+          "decision": 1,
+          "reason": "Multiple coordinated changes to 'education', 'education-num', and 'capital-gain' to improve the profile."
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 6,
+          "decision": -1,
+          "reason": "Typo in 'education' ('Bachelors' to 'Bachleors')."
+        },
+        {
+          "local_id": 1,
+          "row_id": 7,
+          "decision": 1,
+          "reason": "Changed 'capital-loss' from '0' to a plausible non-zero value '300'."
+        },
+        {
+          "local_id": 2,
+          "row_id": 8,
+          "decision": -1,
+          "reason": "The value for 'hours-per-week' was changed to an unrealistic number (555)."
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 9,
+          "decision": -1,
+          "reason": "Typo in 'education' ('Bachelors' to 'Bachleors')."
+        },
+        {
+          "local_id": 1,
+          "row_id": 10,
+          "decision": -1,
+          "reason": "Changed 'capital-gain' from '0' to '00', which is a formatting error, not a value change."
+        },
+        {
+          "local_id": 2,
+          "row_id": 11,
+          "decision": -1,
+          "reason": "Typo in 'native-country' (character transposition)."
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 12,
+          "decision": -1,
+          "reason": "The value for 'education-num' was changed to an unrealistic number (100)."
+        },
+        {
+          "local_id": 1,
+          "row_id": 13,
+          "decision": -1,
+          "reason": "Typo in 'race' ('White' to 'Whitw')."
+        },
+        {
+          "local_id": 2,
+          "row_id": 14,
+          "decision": -1,
+          "reason": "Typo in 'native-country' (extra character added)."
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 15,
+          "decision": -1,
+          "reason": "Typo in 'education' ('Masters' to 'Mastes')."
+        },
+        {
+          "local_id": 1,
+          "row_id": 16,
+          "decision": 1,
+          "reason": "Changed 'capital-gain' from '0' to a plausible non-zero value '3000'."
+        },
+        {
+          "local_id": 2,
+          "row_id": 17,
+          "decision": -1,
+          "reason": "Typo in 'native-country' ('United-States' to 'United-Statrs')."
+        }
+      ]
+    },
+    {
+      "group_id": 6,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 18,
+          "decision": -1,
+          "reason": "No data values were changed, only whitespace formatting."
+        },
+        {
+          "local_id": 1,
+          "row_id": 19,
+          "decision": 1,
+          "reason": "'education-num' was significantly changed from '9' to '16', a valid but different level."
+        },
+        {
+          "local_id": 2,
+          "row_id": 20,
+          "decision": -1,
+          "reason": "Digit transposition in 'capital-gain' ('15024' to '15204')."
+        }
+      ]
+    },
+    {
+      "group_id": 7,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 21,
+          "decision": -1,
+          "reason": "Typo in 'education' ('HS-grad' to 'HS-gard')."
+        },
+        {
+          "local_id": 1,
+          "row_id": 22,
+          "decision": 1,
+          "reason": "Changed 'capital-gain' from '0' to a plausible non-zero value '300'."
+        },
+        {
+          "local_id": 2,
+          "row_id": 23,
+          "decision": -1,
+          "reason": "Typo in 'native-country' ('United-States' to 'United-Statrs')."
+        }
+      ]
+    },
+    {
+      "group_id": 8,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 24,
+          "decision": -1,
+          "reason": "Typo in 'education' (character transposition)."
+        },
+        {
+          "local_id": 1,
+          "row_id": 25,
+          "decision": 1,
+          "reason": "Changed 'capital-gain' from '0' to a plausible non-zero value '300'."
+        },
+        {
+          "local_id": 2,
+          "row_id": 26,
+          "decision": -1,
+          "reason": "The value for 'hours-per-week' was changed to an unrealistic number (400)."
+        }
+      ]
+    },
+    {
+      "group_id": 9,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 27,
+          "decision": -1,
+          "reason": "No data values were changed, only whitespace formatting."
+        },
+        {
+          "local_id": 1,
+          "row_id": 28,
+          "decision": 1,
+          "reason": "Multiple coordinated changes to 'education', 'education-num', 'occupation', and 'capital-gain'."
+        },
+        {
+          "local_id": 2,
+          "row_id": 29,
+          "decision": -1,
+          "reason": "Digit transposition in 'capital-gain' ('3103' to '1303')."
+        }
+      ]
+    }
+  ]
+}
+```

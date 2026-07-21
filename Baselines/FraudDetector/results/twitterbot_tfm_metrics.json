@@ -1,0 +1,15 @@
+{
+  "dataset": "TwitterBot-TFM",
+  "n_cells": 1184,
+  "n_int": 283,
+  "n_unint": 901,
+  "accuracy": 0.7584,
+  "f1_int": 0.0,
+  "f1_unint": 0.8626,
+  "f1_weighted": 0.6564,
+  "precision_int": 0.0,
+  "recall_int": 0.0,
+  "auc": 0.4224,
+  "best_threshold": 8.4621,
+  "elapsed_sec": 3.7
+}

@@ -1,0 +1,985 @@
+subject_entity,subject_type,subject_location,value,claim_domain,metric,is_factual
+ian poulter,Athlete,usa,214,Sport,score,0
+leo diegel,Athlete,usa,188,Sports,rank,1
+tom kite,Athlete,usa,17000,Sports,score,1
+bobby wadkins,Athlete,usa,17000,Sports,score,0
+lsu tiger,Team,la,92542,Sports,capacity,1
+lsu tiger,Team,"austin , tx ,",100119,Sports,capacity,0
+miami,Team,washington,20173,Sports,crowd,0
+carlton,Team, melbourne,107,Sports,score,1
+north melbourne,Team, melbourne,119,Sports,score,1
+cleveland browns,Team,cleveland,77683,Sports,crowd,1
+cleveland browns,Team,cleveland,77683,Sports,crowd,0
+north melbourne,Team,melbourne,104,Sports,score,0
+wilmington sea dawgs,Team,wilmington,101,Sports,score,1
+utah team,Team,los angeles,18997,Sports,crowd,1
+manchester united,Team,brøndby,11372,Sports,crowd,1
+marcus kruger,Athlete,elitserien,149,Sports,pick number,1
+new york jet,Team,new york,108,Sports,pick number,1
+toronto maple leafs,Team,washington,17132,Sports,crowd,0
+Assyrian,Party,wasit,150,Politics,votes,1
+blue jays,Team,toronto,13255,Sports,crowd,1
+boston celtics,Team,indiana,13603,Sports,crowd,1
+james reed,Athlete,new york city,242,Sports,pick number,1
+tom fleming,Athlete,cleveland,464,Sports,pick number,1
+bathurst,Event,bathurst,8-11,Sports,date,1
+bathurst,Event,sydney,8-11,Sports,date,0
+chicago bears,Team,san francisco,49833,Sports,crowd,1
+dallas cowboys,Team,dallas,50000,Sports,crowd,0
+glavine,Team,new york,41212,Sports,crowd,1
+atlanta hawks,Team,atlanta,13748,Sports,crowd,1
+boston celtics,Team,boston,<100,Sports,score,1
+boston celtics,Team,boston,>100,Sports,score,0
+novorace oy,Team,finland,143,Sports,score,1
+korainen bros,Team,finland,143,Sports,score,0
+sarah ulmer,Athlete,new zealand,3000,Sports,score,1
+minnesota golden gophers,Team,minneapolis,41400,Sports,crowd,1
+minnesota golden gophers,Team,minneapolis,34800,Sports,crowd,0
+miguel ángel jiménez,Athlete,spain,283,Sports,score,0
+los angeles rams,Team,los angeles,highest 80532,Sports,crowd,1
+los angeles rams,Team,los angeles,least 80532,Sports,crowd,0
+boston celtics,Team,charlotte bobcats arena,19201,Sports,crowd,1
+boston celtics,Team,quicken loan arena,18624,Sports,crowd,0
+st kilda,Team,melbourne,24000,Sports,crowd,1
+washington redskins,Team,washington,53041,Sports,crowd,1
+washington redskins,Team,washington,lowest 51989,Sports,crowd,1
+washington redskins,Team,washington,5304,Sports,crowd,0
+chicago bears,Team,chicago,51989,Sports,crowd,0
+cornell big red,Team,canada,170,Sports,height,1
+jacksonville jaguars,Team,florida,50000,Sports,crowd,0
+david patrick,Team,bokskogens,272,Sports,score,0
+north melbourne,Team,melbourne,17.8,Sports,score,1
+north melbourne,Team,melbourne,12.8,Sports,score,0
+oklahoma,Team,oklahoma,127,Sports,score,1
+oklahoma,Team,oklahoma,142,Sports,score,0
+ranger,Team,new york,160,Sports,pick number,1
+langley chiefs,Team,langley,119,Sports,score,1
+canada,Team,ottawa,119,Sports,score,0
+blue jays,Team,toronto,september 30 43201,Sports,crowd,1
+blue jays,Team,toronto,september 3 43201,Sports,crowd,0
+koch,Team,toronto,32029,Sports,crowd,0
+david graham,Athlete,australia,282,Sports,score,1
+lee trevino,Athlete,australia,284,Sports,score,0
+trenton speedway,Event,new jersey,150,Sports,distance,0
+andriy serdinov,Athlete,serbia,35,Sports,score,0
+michael phelps,Athlete,usa,3,Sports,rank,0
+liverpool f.c,Team,luton,20000,Sports,crowd,1
+liverpool f.c,Team,birmingham,20000,Sports,crowd,0
+lohse,Athlete,chicago,32807,Sports,crowd,1
+charlotte bobcats,Team,conseco fieldhouse,11888,Sports,crowd,1
+carlton,Team,carlton north,123,Sports,score,1
+essendon,Team,essendon victoria,146,Sports,score,1
+essendon,Team,essendon victoria,109,Sports,score,0
+fc schalke,Team,berlin,100000,Sports,crowd,0
+ranger,Team,toronto,38150,Sports,crowd,1
+yankee,Team,toronto,38150,Sports,crowd,0
+oregon,Team,tennessee,66584,Sports,crowd,0
+nick gillis,Athlete,ottawa,203,Sports,pick number,1
+san francisco,Team,cleveland,63672,Sports,crowd,1
+atlanta hawks,Team,chicago,90,Sports,score,1
+billy corbett,Athlete,cleveland,1,Sports,count,1
+billy corbett,Athlete,cleveland,2,Sports,count,0
+blue jays,Team,toronto,7,Sports,count,1
+blue jays,Team,toronto,10,Sports,count,0
+detroit lions,Team,chicago,55814,Sports,crowd,1
+los angeles rams,Team,cleveland,65407,Sports,crowd,1
+chicago cardinals,Team,cleveland,65407,Sports,crowd,0
+seattle seahawks,Team,san francisco,44592,Sports,crowd,1
+los angeles rams,Team,san francisco,920,Sports,crowd,0
+john shipley,Athlete,london,200000,Sports,money,1
+ram vaswani,Athlete,dublin,93000,Sports,money,1
+blue jay,Team,toronto,3,Sports,count,0
+detroit pistons,Team,atlanta,22000,Sports,crowd,0
+darin sceviour,Athlete,chicago,101,Sports,pick number,1
+boston patriot,Team,Oakland,20000,Sports,crowd,1
+new york titans,Team,Oakland,20000,Sports,crowd,0
+washington commando,Team,washington,188,Sports,count,1
+essendon,Team,essendon,111,Sports,score,1
+harri olli,Athlete,finland,130,Sports,score,1
+melbourne,Team,melbourne,average 20000,Sports,crowd,1
+melbourne,Team,melbourne,exact 20000,Sports,crowd,0
+carolina panthers,Team,carolina,3,Sports,count,1
+cleveland browns,Team,cleveland,28335,Sports,crowd,1
+footscray,Team,melbourne,10680,Sports,crowd,0
+eric landry,Athlete,canada,193,Sports,pick number,1
+ernie el,Athlete,south africa,276,Sports,score,0
+mhc plastika,Team,slovakia,239,Sports,pick number,0
+florida panther,Team,florida,14500,Sports,crowd,1
+la clipper,Team,north carolina,11349,Sports,crowd,0
+north melbourne,Team,south melbourne,102,Sports,score,1
+blue jays,Team,toronto,104,Sports,score,1
+blue jays,Team,toronto,103,Sports,score,0
+yankee,Team,toronto,104,Sports,score,0
+peter butler,Athlete,england,281,Sports,score,1
+nick collison,Athlete,seattle,102,Sports,score,1
+earl watson,Athlete,houston,18370,Sports,crowd,1
+kevin durant,Athlete,dallas,20228,Sports,crowd,0
+blue jays,Team,toronto,2,Sports,score,1
+blue jays,Team,toronto,3,Sports,score,0
+blue jays,Team,toronto,20863,Sports,crowd,0
+otto hascak,Athlete,czechoslovakia,143,Sports,pick number,1
+new york islanders,Team,new york,128,Sports,pick number,1
+detroit red wings,Team,new york,136,Sports,pick number,0
+st. louis cardinals,Team,st. louis missouri,40801,Sports,crowd,1
+cleveland brown,Team,cleveland,40801,Sports,crowd,0
+de smyth,Team,ireland,11000,Sports,money,1
+de smyth,Team,ireland,>11000,Sports,money,0
+brandon coutu,Athlete,tennessee,207,Sports,difference,0
+broncos,Team,kansas missouri,68246,Sports,crowd,1
+washington redskins,Team,washington,19388,Sports,crowd,1
+manchester united f.c,Team,lincoln city,10000,Sports,crowd,0
+larry nelson,Athlete,usa,24000,Sports,money,1
+fulham,Team,swansea city,16573,Sports,crowd,1
+everton,Team,everton,57454,Sports,crowd,0
+fulham,Team,swansea city,16360,Sports,crowd,0
+university of florida,Team,florida,1,Sports,rank,1
+atlanta falcons,Team,arkansas,242,Sports,pick number,1
+crystal palace,Athlete,london,110,Sports,score,1
+sergiy stakhovsky,Athlete,malaysia,199,Sports,rank,1
+florida marlins,Team,new york,52484,Sports,crowd,1
+winnipeg jets,Team,winnipeg,13804,Sports,crowd,0
+new york knicks,Team,dallas,20203,Sports,crowd,1
+new york knicks,Team,dallas,30000,Sports,crowd,0
+pittsburgh steelers,Team,pennsylvania,63336,Sports,crowd,0
+angels,Team,california,lowest attendence 30584,Sports,crowd,1
+new york yankees,Athlete,california,30584,Sports,crowd,0
+bahamas,Team,amsterdam,104,Sports,difference,1
+england cricket,Team,australia,225,Sports,score,0
+ihsaa,Team,indiana,280,Sports,count,1
+union county,Team,indiana,301,Sports,count,0
+los angeles kings,Team,los angeles,18630,Sports,crowd,1
+manchester united f.c,Team,manchester,30000,Sports,crowd,1
+manchester united f.c,Team,manchester,>30000,Sports,crowd,0
+celtic,Team,washington,game 79,Sports,game number,1
+celtic,Team,washington,game 80,Sports,game number,0
+new york jets,Team,new jersey,166,Sports,pick number,1
+luke fisher,Athlete,minnesota,210,Sports,pick number,0
+devin gardner,Athlete,indiana,503,Sports,count,1
+devin gardner,Athlete,northwestern,115,Sports,count,0
+trento 300 race,Event,trenton,>1,Sports,rank,1
+trenton 300 race,Event,trenton,1,Sports,rank,0
+raptors,Team,toronto,110,Sports,score,0
+detroit lion,Team,washington,lowest 6044,Sports,crowd,1
+pittsburg steelers,Team,washington,highest 37764,Sports,crowd,1
+detroit lion,Team,washington,highest 6044,Sports,crowd,0
+pittsburgh steelers,Team,washington,lowest 37764,Sports,crowd,0
+weekes,Team,new jersey,17565,Sports,crowd,0
+orlando magic,Team,orlando,18969,Sports,crowd,1
+nhl,Tournament,us,157,Sports,pick number,1
+nhl,Tournament,canada,157,Sports,pick number,0
+san francisco,Team,san francisco,11,Sports,date,1
+san francisco,Team,san francisco,57814,Sports,crowd,1
+san francisco,Team,san francisco,12,Sports,date,0
+san francisco,Team,san francisco,58814,Sports,crowd,0
+european athletics indoor championships,Tournament,glasgow,march 3rd,Sports,date,0
+gary williams,Athlete,ohio state,300,Sports,pick number,1
+bucky scribner,Athlete,new york,299,Sports,pick number,0
+tim kearse,Athlete,clemson,298,Sports,pick number,0
+atlanta falcon,Team,north texas,300,Sports,pick number,0
+seattle seahawks,Team,seattle,55778,Sports,crowd,1
+chargers,Team,san diego,50637,Sports,crowd,0
+san francisco,Team,san francisco,60207,Sports,crowd,1
+san francisco,Team,san francisco,highest 66042,Sports,crowd,1
+san francisco,Team,san francisco,43128,Sports,crowd,0
+san francisco,Team,san francisco,lowest 66042,Sports,crowd,0
+chicago bears,Team,san francisco,59914,Sports,crowd,0
+adelaide,Team,adelaide,100,Sports,score,1
+grizzlies,Team,memphis,100,Sports,score,1
+supersonics,Team,memphis,100,Sports,score,0
+chicago bears,Team,detroit,48204,Sports,crowd,1
+chicago bears,Team,chicago,49000,Sports,crowd,0
+cincinnati bengals,Team,detroit,63794,Sports,crowd,0
+indiana pacers,Team,pennsylvania,115,Sports,score,1
+footscray bulldogs,Team,melbourne,120,Sports,score,1
+afc champions league,Tournament,thailand,221,Sports,score,1
+afc champions league,Tournament,china,431,Sports,score,1
+los angeles lakers,Team,los angeles,<100,Sports,score,1
+new orleans saints,Team,new orleans,<100,Sports,score,0
+detroit lions,Team,indiana,25287,Sports,crowd,1
+baltimore oriole,Team,toronto,43192,Sports,crowd,1
+redskins,Team,washington,35540,Sports,crowd,0
+collingwood,Team,melbourne,home 154,Sports,score,1
+collingwood,Team,melbourne,away 154,Sports,score,0
+harrogate,Team,harrogate,283,Sports,crowd,1
+townsville crocodiles,Team,townsville,234,Sports,score,1
+blue jays,Team,toronto,26473,Sports,crowd,1
+cerutti,Athlete,toronto,30542,Sports,crowd,0
+blue jays,Team,toronto,17598,Sports,crowd,0
+oliver,Team,pittsburgh,485,Sports,height,0
+vernon crawford,Athlete,florida,=159,Sports,score,1
+vernon crawford,Athlete,florida,<=159,Sports,score,0
+murray armstrong,Athlete,denver,215,Sports,count,1
+george gwozdecky,Athlete,denver,311,Sports,count,0
+murray armstrong,Athlete,denver,174,Sports,count,0
+toronto argonauts,Team,vancouver,30855,Sports,crowd,1
+toronto argonauts,Team,vancouver,17000,Sports,crowd,0
+milwaukee brewers,Team,milwaukee,12258,Sports,crowd,1
+milwaukee brewers,Team,milwaukee,12664,Sports,crowd,0
+boston celtics,Team,boston,205,Sports,count,1
+blue jays,Team,toronto,51783,Sports,crowd,1
+boston celtics,Team,sacramento,115,Sports,score,1
+boston celtics,Team,boston,105,Sports,score,0
+new york knicks,Team,cleveland,103,Sports,1
+cleveland cavaliers,Team,cleveland,jan 30th 20562,Sports,crowd,1
+cleveland cavaliers,Team,cleveland,107,Sports,score,1
+cleveland cavaliers,Team,cleveland,jan 27th 20562,Sports,crowd,1
+guernsey cricket,Team,mission road hong kong,211,Sports,score,0
+guernsey cricket,Team,kowloon cricket club hong kong,211,Sports,score,0
+denard robinson,Athlete,indiana,217,Sports,count,1
+denard robinson,Athlete,indiana,220,Sports,count,0
+derartu tulu,Tournament,barcelona,10000,Sports,distance,1
+michigan,Team,west virginia,55223,Sports,crowd,1
+michigan,Team,west virginia,72998,Sports,crowd,0
+nhl,Tournament,us,2,Sports,count,1
+nhl,Tournament,us,4,Sports,count,0
+sloux city musketeers,Team,sloux city iowa,148,Sports,pick number,0
+portland trail blazers,Team,portland,108,Sports,score,1
+toronto argonauts,Team,hamilton,20000,Sports,crowd,0
+atlanta hawks,Team,atlanta,106,Sports,score,1
+dale coyne,Team,cleveland,59.140,Sports,score,1
+houston oilers,Team,houston,37845,Sports,crowd,0
+vancouver canucks,Team,detroit,19875,Sports,crowd,1
+vancouver canucks,Team,east rutherford,9125,Sports,crowd,1
+vancouver canucks,Team,detroit,19875,Sports,crowd,0
+vancouver canucks,Team,east rutherford,9125,Sports,crowd,0
+texan,Team,kansas city,73506,Sports,crowd,0
+san francisco 49ers,Team,san francisco,1089,Sports,difference,1
+marcus jackson,Athlete,cleveland,321,Sports,pick number,1
+ron crew,Team,cleveland,321,Sports,pick number,0
+sam snead,Athlete,augusta,450,Sports,money,0
+washington redskins,Team,washington,259,Sports,pick number,1
+green bay,Team,detroit,51901,Sports,crowd,1
+green bay,Team,detroit,13,Sports,score,0
+chris brust,Athlete,denver,131,Sports,pick number,1
+jeb barlow,Athlete,denver,131,Sports,pick number,0
+matt butcher,Athlete,vancouver,374,Sports,count,0
+kris fredheim,Athlete,vancouver,6,Sports,count,0
+cincinnati bengals,Team,cincinnati,38642,Sports,crowd,1
+collingwood,Team,melbourne,42000,Sports,crowd,1
+collingwood,Team,melbourne,5500,Sports,crowd,0
+club huracán,Team,buenos aires,<132,Sports,difference,1
+club huracán,Team,buenos aires,>132,Sports,difference,0
+essendon / collingwood,Team,melbourne,25090,Sports,crowd,0
+toronto blue jays,Team,toronto,53067,Sports,crowd,1
+toronto blue jays,Team,toronto,40648,Sports,crowd,0
+worthings,Team,worthings,250,Sports,crowd,1
+spartak,Stadium,mogilev,11200,Sports,capacity,1
+washington redskin,Team,washington,140,Sports,difference,1
+susmita singha roy,Athlete,beijing,800,Sports,distance,1
+susmita singha roy,Athlete,beijing,963,Sports,count,1
+susmita singha roy,Athlete,beijing,800,Sports,distance,0
+susmita singha roy,Athlete,beijing,1033,Sports,count,0
+miami dolphins,Team,miami,73003,Sports,crowd,1
+blue jay,Team,toronto,24666,Sports,crowd,0
+washington redskins,Team,washington,20000,Sports,crowd,1
+pittsburgh steelers,Team,pittsburgh,20000,Sports,crowd,0
+sidney ponson,Team,baltimore,47522,Sports,crowd,1
+ny rangers,Team,nashville,swedish and finish,Sports,nationality,1
+ny rangers,Team,nashville,both canadian,Sports,nationality,0
+langley chief,Team,nashville,136,Sports,pick number,0
+galatasaray s.k,Team,england,101,Sports,score,1
+olga lugina,Athlete,france,6 - 4 3 - 6 6 - 3,Sports,score,1
+elena pampoulova,Athlete,france,october 31 1993,Sports,date,1
+north melbourne,Team,melbourne,104,Sports,score,1
+cleveland cavaliers,Team,cleveland,dec 12 20562,Sports,crowd,1
+cleveland cavaliers,Team,cleveland,20049,Sports,crowd,0
+cleveland cavaliers,Team,cleveland,dec 6 20562,Sports,crowd,0
+kevin durant,Athlete,oklahoma,47,Sports,score,1
+collingwood,Team,melbourne,110,Sports,score,1
+walt williams,Athlete,toronto,105,Sports,count,1
+raptors,Team,toronto,9006,Sports,difference,1
+charlotte bobcats,Team,charlotte,13747,Sports,crowd,1
+golden state,Team,charlotte,13747,Sports,crowd,1
+golden state,Team,charlotte,17347,Sports,crowd,0
+george pyne,Athlete,boston,122,Sports,crowd,1
+toshiba,Team,copenhagen,35,Sports,score,1
+toshiba,Team,copenhagen,55,Sports,score,0
+minnesota golden gophers,Team,madison,45000,Sports,crowd,1
+minnesota golden gophers,Team,madison,45100,Sports,crowd,0
+boston patriots,Team,boston,dec 13 37819,Sports,date,1
+boston patriots,Team,boston,nov 29 37819,Sports,date,0
+ottawa,Team,florida,11289,Sports,crowd,1
+detroit,Team,florida,20066,Sports,crowd,1
+toronto,Team,florida,18500,Sports,crowd,1
+detroit,Team,florida,20066,Sports,crowd,0
+san francisco 49ers,Team,detroit,78845,Sports,crowd,1
+erwin huber,Athlete,great britain,1.70,Sports,height,0
+dallas,Team,new orleans,=14472,Sports,crowd,1
+dallas,Team,new orleans,<14472,Sports,crowd,0
+geelong,Team,north melbourne,11121,Sports,crowd,1
+carlton,Team,north melbourne,11121,Sports,crowd,0
+coventry city,Team,manchester,44717,Sports,crowd,1
+coventry city,Team,manchester,44705,Sports,crowd,0
+coventry city,Team,manchester,44499,Sports,crowd,0
+boston celtics,Team,atlanta,102,Sports,score,0
+washington redskins,Team,new york,17402,Sports,crowd,1
+washington,Team,new york,45929,Sports,crowd,0
+footscray,Team,melbourne,17000,Sports,crowd,1
+vfl,Tournament,melbourne,22000,Sports,crowd,0
+colorado avalanche,Team,denver,18680,Sports,crowd,0
+los angeles ram,Team,los angeles,70031,Sports,crowd,1
+los angeles ram,Team,los angeles,68193,Sports,crowd,0
+stevenage borough,Team,northsfleet,641,Sports,crowd,0
+denver bronco,Team,kansas,76000,Sports,crowd,0
+woman national rugby union,Team,spain,=122,Sports,count,1
+woman national rugby union,Team,spain,>122,Sports,count,0
+lebron james,Athlete,detroit,113,Sports,score,1
+lebron james,Athlete,sacramento,20562,Sports,crowd,1
+nottinghamshire,Team,durham,155,Sports,score,1
+anelka,Athlete,liverpool,34000000>,Sports,difference,1
+anelka,Athlete,liverpool,34000000<,Sports,difference,0
+central washington university,Team,ellensburg,10400,Sports,crowd,1
+university of puget sound,Team,washington,3000,Sports,difference,1
+collingwood,Team,melbourne,147,Sports,score,1
+st kilda,Team,melbourne,103,Sports,score,0
+jordan fransoo,Athlete,saint paul,186,Sports,pick number,1
+max mccormick,Athlete,saint paul,171,Sports,pick number,1
+tim duncan,Athlete,san antonio,18797,Sports,crowd,0
+demar derozan,Athlete,atlanta,115,Sports,count,1
+collingwood,Team,melbourne,22546,Sports,crowd,1
+boston patriots,Team,kansas city,12598,Sports,crowd,1
+denver broncos,Team,oakland,50074,Sports,crowd,1
+carlton,Team,melbourne,17552,Sports,crowd,0
+rod marsh,Athlete,melbourne,148,Sports,count,1
+rod marsh,Athlete,melbourne,147,Sports,count,0
+footscray,Team,melbourne,20000,Sports,crowd,1
+aly wagner,Athlete,united state,1000,Sports,count,0
+mike cavan,Athlete,valdosta,623,Sports,record,1
+valdosta state blazer,Team,valdosta,484,Sports,record,0
+mark nelson,Athlete,valdosta,623,Sports,record,0
+indiana pacers,Team,cleveland,19191,Sports,crowd,0
+cleveland cavaliers,Team,cleveland,16010,Sports,crowd,0
+david ling,Athlete,canada,179,Sports,pick number,1
+new york rangers,Team,canada,157,Sports,pick number,0
+eden black,Athlete,eastleigh,111,Sports,date,1
+kjoc,Team,davenport,960,Sports,count,0
+ohio buckeyes,Team,illinois,56174,Sports,crowd,1
+rangers,Team,toronto,21113,Sports,crowd,1
+red sox,Team,toronto,35302,Sports,crowd,1
+angle rs,Team,toronto,21113,Sports,crowd,0
+red devil ray,Team,toronto,35302,Sports,crowd,0
+st kilda,Team,carlton,15000,Sports,crowd,1
+cincinnati,Team,cleveland,55996,Sports,crowd,1
+pittsburgh dolphins,Team,cleveland,58444,Sports,crowd,0
+north melbourne,Team,south melbourne,104,Sports,crowd,1
+san francisco 49ers,Team,san francisco,55988,Sports,crowd,1
+san francisco 49ers,Team,st. louis,38064,Sports,crowd,1
+san francisco 49ers,Team,san francisco,34064,Sports,crowd,0
+los angeles,Team,san francisco,24319,Sports,crowd,0
+washington redskins,Team,washington,54582,Sports,crowd,1
+washington redskins,Team,washington,72641,Sports,crowd,1
+columbus blue jackets,Team,columbus,14918,Sports,crowd,1
+columbus blue jackets,Team,columbus,20273,Sports,crowd,0
+chicago bulls,Team,cleveland,101,Sports,score,1
+vancouver canucks,Team,vancouver,16150,Sports,crowd,1
+vancouver canucks,Team,vancouver,3 - 1,Sports,score,0
+washington redskins,Team,st. louis,35942,Sports,crowd,1
+kim soo - nyung,Athlete,barcelona,114,Sports,score,0
+houston oiler,Team,houston,14489,Sports,crowd,0
+richard jefferson,Athlete,golden state,35,Sports,count,1
+richard jefferson,Athlete,golden state,127,Sports,count,0
+estonia,Team,istanbul,25000,Sports,crowd,1
+cleveland browns,Team,akron,30751,Sports,crowd,0
+lacrosse,Team,indiana,579,Sports,count,0
+siw malmkvist,Athlete,sweden,105 - 0,Sports,score,1
+siw malmkvist,Athlete,sweden,105 - 52,Sports,score,0
+alexander artemev,Athlete,china,16000,Sports,score,0
+elena pampoulova,Athlete,6 - 4,25000,Sports,score,0
+tiger woodsis,Athlete,california,284,Sports,score,0
+tennessee titans,Team,new york,77710,Sports,crowd,1
+tennessee titans,Team,new york,68436,Sports,crowd,0
+fitzroy,Team,melbourne,>1000,Sports,difference,0
+tallangatta league,Tournament,victoria,>1000,Sports,count,1
+tallangatta league,Tournament,beechworth,>1013,Sports,count,0
+midlands rfu,Team,coventry,16588,Sports,difference,1
+midlands rfu,Team,leicester,21000,Sports,difference,0
+blue jays,Team,arlington,23849,Sports,crowd,1
+blue jays,Team,arlington,50513,Sports,crowd,0
+st. louis rams,Team,st. louis,65473,Sports,crowd,1
+blue jays,Team,toronto,may 6,Sports,date,1
+blue jays,Team,toronto,may 8,Sports,date,0
+minnesota golden gophers,Athlete,minneapolis,63659,Sports,crowd,0
+toronto blue jays,Team,toronto,highest 29126,Sports,crowd,1
+toronto blue jays,Team,toronto,lowest 6532,Sports,crowd,1
+toronto blue jays,Team,toronto,lowest 29126,Sports,crowd,0
+toronto blue jays,Team,toronto,highest 6532,Sports,crowd,0
+collingwood,Team,melbourne,5250,Sports,crowd,0
+green bay packers,Team,milwaukee,60594,Sports,crowd,1
+washington redskins,Team,washington,69542,Sports,crowd,1
+washington redskins,Team,washington,69541,Sports,crowd,0
+toronto raptors,Team,toronto,14196,Sports,crowd,1
+cody miller,Athlete,las vegas,100,Sports,count,1
+samantha pearson,Athlete,las vegas,100,Sports,count,1
+edward kollar,Athlete,las vegas,100,Sports,count,1
+oakland raiders,Team,oakland,45398,Sports,crowd,1
+new prairie hs,Team,new carlisle,852,Sports,count,1
+culver community,Team,indiana,287,Sports,count,0
+denver nugget,Team,denver,10317,Sports,crowd,1
+montreal canadiens,Team,montreal,19849,Sports,crowd,0
+denver nugget,Team,dallas,104,Sports,score,1
+boston celtic,Team,indiana,123,Sports,score,1
+boston celtic,Team,indiana,122,Sports,score,1
+boston celtic,Team,indiana,115,Sports,score,0
+north melbourne,Team,melbourne,101,Sports,score,1
+seattle supersonics,Team,seattle,16538,Sports,crowd,1
+seattle supersonics,Team,seattle,16000,Sports,crowd,1
+maryland terrapins,Team,maryland,475,Sports,difference,1
+panther,Team,Ottawa,13567,Sports,crowd,1
+ufc,Event,las vegas,6,Sports,count,0
+manchester united f.c,Team,manchester,39939,Sports,crowd,0
+doug sander,Athlete,usa,138,Sports,score,1
+doug sander,Athlete,usa,140,Sports,score,0
+toronto raptors,Team,toronto,15122,Sports,crowd,1
+kyle okposo,Athlete,minnesota,185,Sports,height,1
+detroit lions,Team,detroit,73896,Sports,crowd,0
+ruggiero di san severino,Public Figure,italy,1180,Politics,Date,1
+cleveland brown,Team,cleveland,81260,Sports,crowd,1
+cleveland brown,Team,cleveland,69019,Sports,crowd,0
+dockyard station,Team,uk,5088,Sports,crowd,1
+toronto blue jays,Team,toronto,50484,Sports,crowd,1
+toronto blue jays,Team,toronto,12397,Sports,crowd,1
+toronto blue jays,Team,toronto,49484,Sports,crowd,0
+toronto blue jays,Team,toronto,12332,Sports,crowd,0
+bradford city,Team,bournemouth,8000,Sports,crowd,1
+cleveland cavaliers,Team,cleveland,20562,Sports,crowd,1
+oakland raiders,Team,buffalo,17027,Sports,crowd,0
+st kilda,Team,melbourne,38104,Sports,crowd,1
+chris paul,Athlete,new york,103,Sports,score,1
+boston celtic,Team,miami,117,Sports,score,1
+boston celtic,Team,washington,117,Sports,score,0
+maurice williams,Athlete,cleveland,109,Sports,score,1
+tiger wood,Athlete,usa,1224000,Sports,money,1
+white sox,Team,tampa bay,8774,Sports,crowd,1
+greg norman,Athlete,england,287,Sports,score,0
+jack roberts,Team,atlanta,245,Sports,pick number,0
+wayne mcduffie,Athlete,cleveland,455,Sports,pick number,1
+wayne mcduffie,Athlete,cleveland,455,Sports,pick number,0
+washington redskins,Team,chicago,9174,Sports,crowd,1
+washington redskins,Team,chicago,30000,Sports,crowd,0
+charlotte bobcats,Team,charlotte,15080,Sports,crowd,1
+boston bruins,Team,philadelphia,19457,Sports,crowd,0
+jeff weaver,Athlete,detroit,50000,Sports,crowd,0
+ffc turbine potsdam,Team,berlin,20000,Sports,crowd,1
+brian mitchell,Athlete,southwestern louisiana,=130,Sports,score,1
+brian mitchell,Athlete,southwestern louisiana,>130,Sports,score,0
+boston celtic,Team,boston,18624,Sports,crowd,1
+indiana pacers,Team,charlotte,119,Sports,count,0
+indiana pacers,Team,indiana,2136,Sports,crowd,0
+lyn lott,Athlete,usa,284,Sports,score,1
+laurynas grigelis,Athlete,lithuania,414,Sports,rank,1
+wigan warriors,Team,widnes,12842,Sports,crowd,0
+montreal canadiens,Team,montreal,20066,Sports,crowd,0
+gerard van velde,Athlete,salt lake city,1:07.18,Sports,score,0
+wes swinson,Athlete,edmonton,253,Sports,pick number,0
+colts,Team,baltimore,51387,Sports,crowd,1
+diego duarte delgado,Athlete,beijing,103,Sports,score,0
+roger dahi,Athlete,beijing,111,Sports,score,0
+big ten,Event,illionois,278,Sports,count,1
+roxana díaz,Athlete,beijing,177,Sports,score,1
+atlanta falcons,Team,atlanta,70097,Sports,crowd,0
+henry picard,Athlete,augusta,294,Sports,score,1
+gillis wilson,Athlete,charlotte,147,Sports,pick number,0
+toronto blue jay,Team,toronto,40000,Sports,crowd,1
+toronto blue jay,Team,toronto,50000,Sports,crowd,0
+new york giants,Team,chicago,20000,Sports,crowd,1
+winamac community school,Organization,indiana,264,Demographic,count,0
+larry wood,Athlete,buffalo,145,Sports,pick number,0
+padre,Team,montreal,31139,Sports,crowd,1
+padre,Team,montreal,31239,Sports,crowd,0
+toronto blue jays,Team,toronto,10858,Sports,crowd,1
+toronto blue jays,Team,toronto,29709,Sports,crowd,0
+los angeles rams,Team,anaheim,60000,Sports,crowd,0
+conklin,Team,chicago,20066,Sports,crowd,1
+conklin,Team,chicago,16339,Sports,crowd,0
+laurynas grigelis,Athlete,lithuania,183,Sports,rank,1
+carolina,Team,uniondale,16234,Sports,crowd,1
+philadelphia eagles,Team,sun devil stadium,44723,Sports,crowd,1
+philadelphia eagles,Team,edward jones dome,44723,Sports,crowd,0
+gävle,Team,ottawa,139,Sports,pick number,0
+ottawa senators,Team,sweeden,109,Sports,pick number,0
+maksim krivosheev,Athlete,novosibirsk,157,Sports,pick number,0
+blue jays,Team,toronto,june 22,Sports,date,1
+blue jays,Team,toronto,17086,Sports,crowd,1
+blue jays,Team,toronto,49908,Sports,date,0
+blue jays,Team,toronto,17701,Sports,crowd,0
+fandok,Team,spartak,11200,Sports,count,0
+detroit pistons,Team,michigan,116,Sports,score,1
+yankee,Team,toronto,49902,Sports,crowd,1
+yankee,Team,toronto,499122,Sports,crowd,0
+beryl bailey,Athlete,united kingdom,1190,Sports,count,1
+barbara watt,Athlete,united kingdom,139,Sports,count,1
+dagmar lerchova,Athlete,czechoslovakia,1214,Sports,count,1
+beryl bailey,Athlete,united kingdom,1000,Sports,count,0
+dagmar lerchova,Athlete,czechoslovakia,1200,Sports,count,0
+fc 105 libreville,Team,DR Congo,1-1,Sports,score,1
+san francisco 49ers,Team,illinois,31993,Sports,crowd,1
+san francisco 49ers,Team,illinois,30000,Sports,crowd,0
+yelena isinbayeva,Athlete,beijing,445,Sports,height,1
+vanessa boslak,Athlete,beijing,445,Sports,height,1
+collingwood,Team,melbourne,36730,Sports,crowd,1
+richmond,Athlete,melbourne,36730,Sports,crowd,0
+al jefferson,Athlete,utah,15625,Sports,crowd,1
+charlotte,Team,utah,105,Sports,score,0
+indianapolis colts,Team,indianapolis,47372,Sports,crowd,1
+maria cecilia,Athlete,brazil,200,Sports,score,0
+blue jays,Team,toronto,13839,Sports,crowd,1
+blue jays,Team,toronto,24001,Sports,crowd,1
+blue jays,Team,toronto,37354,Sports,crowd,1
+blue jays,Team,toronto,37354,Sports,crowd,0
+kansas city chiefs,Team,kansas city,361,Sports,record,1
+new york jets,Team,east rutherford,300,Sports,difference,0
+richmond fc,Team,melbourne,12000,Sports,crowd,1
+richmond fc,Team,melbourne,135,Sports,score,1
+josé amalfitani,Stadium,argentina,49540,Sports,capacity,1
+vélez s,Stadium,argentina,49000,Sports,capacity,0
+footscray,Team,melbourne,13972,Sports,crowd,1
+charlotte bobcat,Team,charlotte,16365,Sports,crowd,1
+carltton fc,Team,melbourne,25000,Sports,crowd,0
+footscray,Team,melbourne,101,Sports,score,0
+toronto blue jays,Team,toronto,9221,Sports,crowd,0
+detroit red wings,Team,detroit,41000,Sports,crowd,0
+essendon,Team,melbourne,19000,Sports,crowd,1
+sergey filimonov,Athlete,almaty,210,Sports,weight,0
+vfl,Tournament,carlton,17000,Sports,crowd,1
+iaaf,Tournament,spain,>1,Sports,count,1
+wake forest,Team,nc,7900,Sports,crowd,0
+conseco,Team,new york,8426,Sports,crowd,1
+conseco,Team,chicago,8426,Sports,crowd,0
+joël champagne,Team,canada,129,Sports,pick number,1
+derrick brooks,Athlete,tampa bay,208,Sports,record,1
+hawks,Team,indiana,122,Sports,score,1
+hawks,Team,indiana,212,Sports,score,0
+blake miller,Athlete,foxborough,168,Sports,pick number,0
+richmond,Team,melbourne,25600,Sports,crowd,0
+jim furyk,Athlete,dublin,274,Sports,score,0
+texas schools,Team,texas,258,Sports,count,1
+oklahoma schools,Team,oklahoma,109,Sports,count,0
+st kilda,Team,melbourne,29175,Sports,crowd,1
+north melbourne fc,Team,melbourne,21429,Sports,crowd,0
+indianapolis colts,Team,east rutherford,79101,Sports,crowd,1
+atlanta hawks,Team,san diego,107,Sports,score,1
+chuck chiatto,Athlete,us,226,Sports,pick number,0
+peter mcgeough,Athlete,new york islander,238,Sports,pick number,0
+kaj linna,Athlete,ottawa,131,Sports,pick number,1
+south melbourne,Team,vfl park,32613,Sports,crowd,0
+san francisco 49ers,Team,san francisco,56028,Sports,crowd,0
+arnold palmer,Athlete,beachwood,274,Sports,score,1
+davis love iii,Team,chaska,297,Sports,score,0
+cavs,Team,chicago,133,Sports,score,1
+cavs,Team,washington,111,Sports,score,1
+cavalier,Team,cleveland,133,Sports,score,0
+detroit panther,Team,detroit,123,Sports,score,1
+fili moala,Team,indianapolis,137,Sports,weight,1
+washington redskins,Team,east rutherford,72975,Sports,score,1
+washington redskins,Team,philadelphia,66005,Sports,score,0
+los angeles ram,Team,los angeles,greatest 75281,Sports,crowd,1
+los angeles ram,Team,los angeles,lowest 31202,Sports,crowd,1
+los angeles ram,Team,los angeles,lowest 75281,Sports,crowd,0
+los angeles ram,Team,los angeles,largest 31202,Sports,crowd,0
+chinese super league,Tournament,shenyang ginde,182,Sports,count,1
+ralph guldahl,Athlete,denver,1000,Sports,money,1
+harry cooper,Athlete,denver,850,Sports,money,0
+nick penner,Athlete,australia,3:43,Sports,score,0
+wolfgang loitzl,Athlete,austria,987,Sports,count,0
+simon ammann,Athlete,austria,261,Sports,count,0
+cleveland browns,Team,cleveland,47131,Sports,crowd,1
+cleveland browns,Team,minnesota,68431,Sports,crowd,1
+cleveland browns,Team,cleveland,72798,Sports,crowd,0
+devin brown,Athlete,san antonio,101,Sports,score,1
+hayden ballantyne,Athlete,melbourne,100,Sports,score,0
+steve ballesteros,Athlete,scotland,147,Sports,count,1
+oakland raiders,Team,tulsa,131,Sports,pick number,1
+new york jet,Team,new york,132,Sports,pick number,0
+david graham,Athlete,ohio,278,Sports,score,1
+david graham,Athlete,ohio,262,Sports,score,0
+boston celtics,Team,boston,140-127,Sports,score,1
+offenhauser,Team,indianapolis,10,Sports,score,1
+rich dobbert,Athlete,washington,426,Sports,pick number,1
+new york yankees,Team,new york,703,Sports,score,1
+jim romaniszyn,Athlete,cleveland,334,Sports,pick number,1
+the virginia school club,Team,cleveland,384,Sports,rank,0
+billy jones,Athlete,preston,500000,Sports,money,1
+gary player,Athlete,tulsa,285,Sports,score,1
+lindenwood university,Team,athens,1827,Sports,date,0
+pat thomas,Athlete,north carolina state,185,Sports,pick number,0
+minnesota twins,Team,minneapolis,50522,Sports,crowd,0
+orville moody,Athlete,us,301,Sports,score,1
+yankees,Team,new york,56000,Sports,crowd,1
+arkansas razorbacks,Team,little rock ar,53000,Sports,crowd,1
+arkansas razorbacks,Team,fayetteville,32000,Sports,crowd,0
+arkansas razorbacks,Team,little rock,40000,Sports,crowd,0
+north melbourne,Team,melbourne,78-106,Sports,1
+north melbourne,Team,melbourne,106-78,Sports,0
+washington capitals player,Athlete,washington,178,Sports,height,1
+washington capitals player,Athlete,washington,193,Sports,height,0
+san antonio spurs,Team,air canada centre,18323,Sports,crowd,1
+san antonio spursford,Team,ford center,17000,Sports,crowd,0
+vfl,event,melbourne,34046,Sports,difference,1
+vfl,event,melbourne,40046,Sports,difference,0
+footscray fc,Team,melbourne,>20200,Sports,crowd,0
+bob bilodeau,Athlete,atlanta,130,Sports,pick number,1
+new jersey nets,Team,new jersey,3 losses,Sports,count,1
+new jersey nets,Team,new jersey,3 wins,Sports,count,0
+toronto blue jays,Team,toronto,74-77,Sports,score,1
+toronto blue jays,Team,toronto,75-77,Sports,score,0
+redskins,Team,landover,100000,Sports,crowd,0
+denver nuggets,Team,the united state,125,Sports,pick number,1
+weaver,Athlete,cleveland,22380,Sports,crowd,0
+atlanta hawk,Team,boston,111-107,Sports,score,0
+minnesota vikings,Team,minneapolis,68264,Sports,crowd,1
+minnesota vikings,Team,minneapolis,68000,Sports,crowd,0
+minnesota vikings,Team,minneapolis,18 nov 1990,Sports,date,0
+minnesota vikings,Team,minneapolis,54462,Sports,crowd,0
+team arizona,Team,tempe,226,Sports,pick number,0
+ucla player,Athlete,phoenix,258,Sports,score,0
+los angeles rams,Team,los angeles,47448,Sports,crowd,1
+phillies,Team,cleveland,28440,Sports,crowd,1
+batista,Athlete,cleveland,42586,Sports,crowd,1
+nick faldo,Athlete,england,15000,Sports,money,1
+los angeles rams,Team,detroit,12941,Sports,crowd,1
+phoenix international raceway,Team,trentonian,200,Sports,count,0
+boston bronco,Team,boston,18304,Sports,crowd,1
+boston bronco,Team,boston,38865,Sports,crowd,0
+cleveland brown,Team,cleveland,20000,Sports,crowd,1
+cleveland browns,Team,chicago,36796,Sports,crowd,1
+cleveland browns,Team,cleveland,22336,Sports,crowd,0
+jeris pendleton,Athlete,ashland,228,Sports,pick number,1
+mike hair,Athlete,florida,228,Sports,pick number,0
+john crawford,Athlete,the united state,160,Sports,pick number,1
+hawthorn,Team,melbourne,101,Sports,score,1
+collingwood,Team,melbourne,11432,Sports,crowd,0
+galatasaray s.k.,Team,belgium,114,Sports,count,1
+galatasaray s.k.,Team,belgium,110,Sports,count,0
+football superleague of kosovo,Tournament,priština,25000,Sports,capacity,1
+quicken loans arena,Team,cleveland,20000,Sports,crowd,1
+bo larsson,Athlete,sweden,302,Sports,count,1
+stellan nilsson,Athlete,sweden,179,Sports,count,1
+ivar roslund,Athlete,sweden,302,Sports,count,0
+bo larsson,Athlete,sweden,179,Sports,count,0
+gene bradley,Athlete,arkansas,259,Sports,pick number,0
+washington redskins,Team,washington,70000,Sports,crowd,1
+washington redskins,Team,washington,80000,Sports,crowd,0
+budweiser,Team,portland,200,Sports,count,1
+michael martin,Athlete,london,1000000,Sports,money,1
+sorin babii,Athlete,sarajevo,695,Sports,score,0
+kansas city,Team,kansas city,63991,Sports,crowd,1
+st kilda,Team,melbourne,190,Sports,score,0
+toronto maple leaf,Team,ottawa,19406,Sports,crowd,1
+toronto maple leaf,Team,ottawa,17080,Sports,crowd,0
+jerry barber,Athlete,usa,1041,Sports,money,1
+boston celtic,Team,denver,105,Sports,score,0
+john wall,Athlete,atlanta,107,Sports,score,0
+dallas cowboys,Team,arlington,60905,Sports,crowd,1
+cleveland browns,Team,cleveland,64595,Sports,crowd,1
+cleveland browns,Team,cleveland,78560,Sports,crowd,1
+cleveland browns,Team,cleveland,60000,Sports,crowd,0
+cleveland browns,Team,cleveland,80000,Sports,crowd,0
+san francisco 49ers,Team,san francisco,65124,Sports,crowd,1
+mladost stadium,Stadium,belgrade,8000,Sports,crowd,0
+portland trail blazers,Team,los angeles,18997,Sports,crowd,1
+olin dutra,Athlete,usa,284,Sports,score,1
+craig wood,Athlete,usa,282,Sports,score,1
+paul runyan,Athlete,usa,289,Sports,score,1
+the western bulldog,Team,north melbourne,8256,Sports,crowd,1
+redskins,Team,washington,59638,Sports,crowd,1
+redskins,Team,washington,59638,Sports,crowd,0
+raymond felton,Athlete,charlotte,13697,Sports,count,0
+collingwood,Team,south melbourne,115,Sports,score,1
+sacramento,Team,chicago,258,Sports,score,1
+morgan pressel,Athlete,u.s.,66177,Sports,money,1
+chick harbert,Athlete,use,356,Sports,money,1
+ny giants,Team,atlanta,45092,Sports,crowd,1
+atlanta falcons,Team,new york,23-16,Sports,score,1
+rams,Athlete,los angeles,54346,Sports,crowd,1
+49ers,Team,new york,10184,Sports,crowd,1
+rams,Athlete,los angeles,49538,Sports,crowd,0
+49ers,Team,new york,15121,Sports,crowd,0
+week 3 game,event,fedex field,84431,Sports,crowd,1
+week 3 game,event,fedex field,84431,Sports,crowd,1
+week 3 game,event,fedex field,<84431,Sports,crowd,0
+steve stricker,Athlete,usa,1350000,Sports,money,1
+alastair forsyth,Athlete,scotland,144,Sports,score,0
+alfa romeo,Team,italy,179,Sports,score,1
+thomas aiken,Athlete,south africa,281,Sports,score,1
+mathew goggin,Athlete,australia,157000,Sports,money,1
+thomas aiken,Athlete,south africa,281,Sports,date,0
+49er,Team,san francisco,41854,Sports,crowd,0
+49er,Team,san francisco,100000,Sports,crowd,0
+kevin mcgill,Athlete,cleveland,325,Sports,pick number,0
+marta domachowska,Athlete,seoul,female,Sports,gender,1
+marta domachowska,Athlete,seoul,male,Sports,gender,0
+charlotte bobcats,Team,miami,19986,Sports,crowd,0
+cleveland cavalier,Team,cleveland,107,Sports,score,1
+49ers,Team,san francisco,39990,Sports,crowd,0
+cb wishart,Athlete,zimbabwe,166,Sports,count,1
+sri lanka,Athlete,johannesburg,153,Sports,count,1
+johnathan thurston,Athlete,queensland,195,Sports,difference,1
+matthew bowen,Athlete,queensland,538,Sports,count,0
+johnathan thurston,Athlete,queensland,190,Sports,difference,0
+oakland raiders,Team,oakland,804888,Sports,difference,1
+vladimir kovalev,Athlete,soviet union,185,Sports,score,1
+vladimir kovalev,Athlete,soviet union,>185,Sports,score,0
+vladimir kovalev,Athlete,soviet union,>185,Sports,score,0
+cleveland cavaliers,Team,chicago,102-100,Sports,score,0
+norton,Team,brooklyn,200,Sports,count,1
+norton,Team,watkins glen,150,Sports,count,0
+etu molden,Athlete,illinois,166,Sports,difference,1
+etc molder,Athlete,illinois,166,Sports,difference,0
+boston patriots,Team,boston,152,Sports,pick number,0
+robert brooks,Athlete,south carolina,< 130,Sports,pick number,1
+leeds utd,Team,hartlepool,2776,Sports,crowd,0
+new england patriots,Team,san francisco,45092,Sports,crowd,1
+atlanta hawks,Team,washington,16227,Sports,crowd,1
+red sox,Team,toronto,31777,Sports,crowd,1
+melbourne,Team,melbourne,133,Sports,score,1
+blue jays,Team,new york,50324,Sports,crowd,0
+heather fell,Athlete,china,185,Sports,score,1
+shane lee,Athlete,australia,total 477,Sports,count,1
+shane lee,Athlete,australia,477,Sports,count,1
+charger vs raider,Event,san diego,42796,Sports,crowd,0
+browns vs cardinals,Event,missouri,79349,Sports,crowd,1
+atlanta falcon vs cardinals,Event,missouri,79349,Sports,crowd,0
+wimbledon vs liverpool,Event,liverpool,12571,Sports,difference,1
+liverpool,Team,liverpool,12571<,Sports,difference,0
+jack nicklaus,Athlete,usa,282,Sports,score,1
+dinamo minsk,Team,minsk,41040,Sports,crowd,1
+redskins week 1 vs. week 2,Event,washington,158,Sports,difference,1
+redskins dec 8 - dec 29 games,Event,washington,298683,Sports,crowd,1
+redskins week 4 vs. week 7,Event,washington,158,Sports,difference,0
+redskins dec 17 - dec 29 games,Event,washington,298683,Sports,crowd,0
+vita styopina,Athlete,china,193,Sports,score,1
+craig county,Place,virginia,5091,Demographics,crowd,1
+cincinnati royals,Team,ohio,122,Sports,score,1
+boston celtic,Team,ohio,101,Sports,score,0
+new zealand breakers,Team,queensland,2998,Sports,crowd,1
+wiffy cox,Team,usa,450,Sports,money,1
+wiffy cox,Team,usa,350,Sports,money,0
+david lee,Athlete,new york,17461,Sports,count,0
+los angeles ram,Team,san francisco,70000,Sports,crowd,0
+dimitar danchev,Athlete,paradise island,1859000,Sports,money,1
+daniel pidun,Athlete,berlin,880000,Sports,money,1
+ruben visser,Athlete,london,770000,Sports,money,0
+falcons vs. chicago bears,Event,chicago,54107,Sports,crowd,1
+falcons vs. san francisco 49ers,Event,atlanta,51798,Sports,crowd,1
+falcons vs. san francisco 49ers,Event,atlanta,50000,Sports,crowd,0
+falcons vs. san francisco 49ers,Event,atlanta,56871,Sports,crowd,0
+st louis cardinals,Team,missouri,64146,Sports,crowd,1
+detroit pistons,Team,new orleans,20000,Sports,crowd,0
+manchester united f.c vs stuttgart,Team,manchester,67141,Sports,crowd,1
+footscray,Team,melbourne,10000,Sports,crowd,1
+hawthorn vs st kilda,Team,st kilda,8000,Sports,crowd,0
+footscray,Team,melbourne,10000,Sports,crowd,0
+uefa debut,Tournament,europe,1985,Sports,date,1
+uefa debut,Team,europe,0,Sports,count,1
+uefa debut,Team,europe,1995,Sports,date,0
+dinamo minsk,Team,minsk,40000,Sports,crowd,0
+geelong vs north melbourne,Event,geelong,10000,Sports,crowd,1
+geelong vs north melbourne,Event,geelong,20000,Sports,crowd,0
+richmond vs st kilda,Team,melbourne,107,Sports,score,1
+new york knicks,Team,new york,104,Sports,score,1
+richmond,Team,melbourne,107,Sports,score,1
+washington capitals,Team,quebec,155,Sports,pick number,1
+washington capitals,Team,quebec,155,Sports,pick number,1
+washington capitals,Team,quebec,161,Sports,pick number,0
+césar cielo,Athlete,são paulo,4x100,Sports,score,0
+49ers vs packers,Event,san francisco,57808,Sports,crowd,0
+russia,Team,russia,3:58:04,Sports,score,1
+serbia,Team,russia,3:58:04,Sports,score,0
+essendon vs richmond,Event,melbourne,30000,Sports,crowd,0
+catholic,Religion,north africa,1.17,Demographics,count,1
+catholic,Religion,north and southern africa,31370649,Demographics,count,1
+catholic,Religion,north africa,1.17,Demographics,count,1
+catholic,Religion,north africa,31370649,Demographics,count,0
+european union,Organization,estonia,1341664,Demographics,population,1
+european union,Organization,slovenia,2011473,Demographics,population,1
+european union,Organization,slovenia,1341664,Demographics,population,0
+shamrock,Leader,indiana,2191,Demographics,count,0
+neuchtel,Place,switzerland,206,Demographics,density,1
+ontario census,Organization,ottawa,316,Demographics,population,1
+tx csa,Organization,houston - baytown - huntsville,1130490,Demographics,population,0
+julia lyng,Person,trøndelag,111,Demographics,age,1
+maren bolette,Person,trøndelag,111,Demographics,age,0
+laura svehaug,Person,sørlandet,111,Demographics,age,0
+julia lyng,Person,vestlandet,111,Demographics,age,0
+nevasa,Place,ahmednagar,52.13,Demographics,percentage,0
+sharma,Person,india,328,Demographics,difference,1
+sharma,Person,india,500,Demographics,difference,0
+gragareth,Mountain,gragareth,610,Demographics,height,0
+european union,Organization,denmark,5021861,Demographics,population,1
+european union,Organization,uk,36728,Demographics,gdp,0
+european union,Organization,uk,358187,Demographics,population,0
+european union,Organization,denmark,64305061,Demographics,population,0
+bell media,Organization,sherbrooke,102,Demographics,frequency,1
+julien,Vehicle,france,10000,Demographics,weight,0
+kohlmeier,Place,kohlmeier,533>,Demographics,area,1
+kohlmeier,Place,kohlmeier,533<,Demographics,area,0
+pendleton high school,Organization,madison,1235,Demographics,count,1
+pendleton high school,Organization,madison,755,Demographics,count,0
+laredo,Place,laredo,4,Demographics,count,1
+del mar hill,Place,del mar hill,530,Demographics,count,0
+catholic christianity,Religion,mala remeta,120,Demographics,population,0
+xfm,Music Station,malacca,107,Demographics,frequency,1
+aw robert,Athlete,canterbury,278,Sports,count,1
+vikings,Ethnicity,rock island,4400,Demographics,count,0
+lacross,Organization,morgan township,250,Demographics,count,1
+campbell union high school district,Organization,saratoga,1619,Demographics,count,0
+moseley,Place,england,9000,Demographics,capacity,1
+pandolfo,Person,san severino,1192,Demographics,count,0
+animist,Organization,india,103,Demographics,percentage,1
+krf party,Organization,midhordland,2362,Demographics,count,1
+olav martin vik,Leader,midhordland,4235,Demographics,count,1
+be job dragtsma,Leader,turku,5000,Demographics,count,0
+honoré barthélémy,Athlete,france,1235,Sports,record,0
+léon georget,Athlete,france,224,Sports,record,0
+selfoss,Place,iceland,23972,Demographics,population,1
+european union,Organization,lithuania,3607899,Demographics,population,1
+european union,Organization,cyprus,775927,Demographics,population,1
+rio de janeiro,Place,brazil,504263,Demographics,difference,1
+mount temple,Vehicle,the united kingdom,9792,Demographics,weight,1
+valentina gunina,Athlete,ukraine slovenia,2525,Sports,record,0
+nana dzagnidze,Leader,poland,2649,Sports,record,0
+leo,Organization,indiana,582,Demographics,count,1
+leo,Organization,indiana,482,Demographics,count,0
+gamze alikaya,Athlete,turkey,179,Sports,height,1
+ihsaa,Organization,south newton,395,Demographics,count,0
+mather & platt / beyer,Organization,peacock,1923 - 301,Demographics,count,0
+asarb,Organization,boston,53100,Demographics,population,1
+asarb,Organization,boston,10000,Demographics,population,0
+chiclayo,Leader,trujillo,54527,Demographics,difference,1
+xeg,Music Station,monterrey,1050,Demographics,frequency,1
+kkyx,Music Station,the city,680,Demographics,frequency,1
+latremenda1530.com,Music Station,houston,1050,Demographics,frequency,0
+kkyxcom,Music Station,the city,680,Demographics,frequency,0
+featherston area integrated,Organization,featherston,111,Demographics,count,1
+pirinoa school,Organization,wellington,111,Demographics,count,0
+european union,Organization,luxembourg,54282038,Demographics,population,0
+vitebsk,Organization,belarus,50377,Demographics,population,1
+falconer,Organization,north dakota,1037150,Demographics,code,1
+falconer,Organization,north dakota,1036481,Demographics,code,0
+taoisn,Event,global,44305,Demographics,count,0
+southland girls',Organization,invercargill,1046,Demographics,count,1
+harry s truman,Leader,usa,799,Politics,difference,1
+qualsiasi tranne sky hd,Product,italy,331,Demographics,count,1
+citizen bank,Organization,tampa,145,Demographics,height,1
+moncton nb,Organization,moncton,1000,Demographics,counsumption,1
+oskar,Organization,velo,1956 - 1963,Demographics,date,1
+coed gender,Organization,waikato region,135,Demographics,count,0
+bellsouth,Organization,tennessee,193,Demographics,money,0
+rosenthal,Place,rosenthal,1548,Demographics,population,1
+allora,Place,allora,2132,Demographics,population,1
+günther hessler,Vehicle,canada,3388,Demographics,weight,1
+matatoki school,Organization,waikato region,184,Demographics,count,1
+royal dutch shell,Company,netherlands,318,Business,money,1
+european union,Company,malta,316,Demographics,area,1
+gdp world bank,Company,estonia,19000,Business,gdp,0
+canadian broadcasting corporation,Company,regina saskatchewan,102,Business,frequency,1
+cbc radio one,Company,regina saskatchewan,102,Business,frequency,1
+american broadcasting corporation,Company,regina saskatchewan,102,Business,frequency,0
+petrochina,Company,china,251,Business,money,1
+utrecht,Company,dutch,38355,Business,gdp,1
+european union,Organization,uk,675,Business,gdp,1
+pasargad bank,Company,iran,18057,Business,money,1
+bank of industry,Company,iran,9432,Business,money,1
+pasargad bank,Company,iran,54677,Business,money,0
+bank of industry,Company,iran,5442,Business,money,0
+goldin finance,Company,tianjin,117,Business,record,1
+china national offshore oil,Company,china,1111,Business,money,0
+builder avonside engine company,Company,toronto,867,Business,record,1
+avonside engine company,Company,toronto,867,Business,record,0
+appalachian regional commission,Company,lamar,16420,Business,money,1
+appalachian regional commission,Company,st clair,75232,Business,money,1
+appalachian regional commission,Company,tallapoosa,20518,Business,money,1
+calstock,Company,tamar valley,5088,Business,money,0
+calstock,Company,tamar valley,5088,Business,money,0
+iraq,Company,india,1278,Business,money,1
+mather & platt / beyer,Company,peacock,1890,Business,date,1
+dzec,Music Station,philippines,more,Business,difference,1
+dyfx radyo,Music Station,philippines,less,Business,difference,1
+dzec,Music Station,philippines,more 4x,Business,difference,0
+dyfx radyo,Music Station,philippines,less 0.25x,Business,difference,0
+nahete colles,Event,venus,400,Sports,distance,1
+nahete colles,Event,venus,250,Sports,distance,0
+canadian broadcasting corporation,Company,candad,102,Business,frequency,0
+far east broadcasting company,Company,zamboanga,1116,Business,frequency,1
+volsawagen,Company,germany,profit 15000,Business,money,1
+volsawagen,Company,germany,loss 15000,Business,money,0
+european union,Organization,austria,145,Business,gdp,1
+european union,Organization,sweden,145,Business,gdp,0
+deutsche telekom,Company,germany,209628,Business,money,1
+edmund mordaun,Candidate,bedford,1554,Politics,score,1
+edmund mordaun,Candidate,bedford,1558,Politics,score,0
+t wyka,Party,essex county,1454,Politics,score,1
+assembly,Party,kargahar,209,Politics,score,1
+hillary clinton,Candidate,usa,200000000,Politics,score,1
+hillary clinton,Candidate,usa,6000000,Politics,score,1
+hillary clinton,Candidate,usa,190000000,Politics,score,0
+hillary clinton,Candidate,usa,2000000,Politics,score,0
+riverhills school,Organization,the auckland region,991,Demographics,count,1
+jhabua,Place,lok sabha,193,Politics,score,1
+jhabua,Place,lok sabha,194,Politics,score,0
+john wymond,Candidate,bedford,1299,Politics,score,1
+william costyn,Candidate,bedford,1304,Politics,score,1
+john wymond,Candidate,bedford,1299,Politics,score,0
+william costyn,Candidate,bedford,1304,Politics,score,0
+p ramachandran,Candidate,tamil nadu,73411,Politics,score,1
+p ramachandran,Candidate,tamil nadu,45103,Politics,score,0
+kennedy junior high,Organization,naperville,203,Demographics,score,0
+bronx,Party,manhattan,>354581,Politics,score,1
+bronx,Party,manhattan,<354581,Politics,score,0
+the conservative party,Party,south west devon,9335,Politics,score,1
+the conservative party,Party,sutton,9335,Politics,score,0
+wagner,Candidate,manhattan,189524,Politics,score,1
+robert f wagner,Candidate,manhattan,122607,Politics,score,1
+wagner,Candidate,new york,189524,Politics,score,0
+wagner and levitt,Candidate,new york,189524,Politics,score,0
+mike huckabee,Candidate,usa,269,Politics,difference,1
+mike huckabee,Candidate,usa,268,Politics,difference,0
+mccain,Candidate,burlington,89626,Politics,score,0
+david l wei,Candidate,new york city,1019,Politics,score,1
+david l wei,Candidate,staten island,332,Politics,score,0
+the labour party,Party,the isle of wight,19739,Politics,score,0
+madre de dios,Place,madre de dios,357124,Politics,count,0
+republicans,Party,new jersey,100,Politics,score,1
+obama,Candidate,carson city,11623,Politics,score,1
+mccain,Candidate,united states,3586,Politics,score,0
+joseph v mckee,Candidate,new york,234372,Politics,score,1
+morris hillquit,Candidate,new york city,249887,Politics,score,1
+republicans,Party,new york city,249887,Politics,score,0
+joseph v mckee,Candidate,new york city,72134,Politics,score,0
+john p o'brien,Candidate,new york city,249887,Politics,score,0
+duha al - bandak,Candidate,bethlehem,1512,Politics,score,1
+duha al - bandak,Candidate,bethlehem,2690,Politics,score,0
+united states senate,Party,maricopa county,500000,Politics,difference,1
+bush,Candidate,connecticut,189605,Politics,score,1
+bush,Candidate,connecticut,2059032,Politics,score,0
+leinster,Place,ireland,704873,Politics,count,0
+pandolfo,Candidate,lucca,1182,Politics,date,1
+frp,Party,askøy,100,Politics,code,1
+marit a aase,Candidate,midhordland,117,Politics,code,0
+tarana,Place,tarana,214,Politics,code,0
+bromet,Organization,watford,2385,Demographics,count,1
+bushey,Organization,watford,2117,Demographics,count,1
+richard brent,Candidate,17,100,Politics,code,1
+richard brent,Candidate,12,100,Politics,code,0
+ulster unionist,Party,fermanagh,224,Politics,count,1
+heywood and radcliffe,Candidate,uk,137,Politics,count,1
+ulster unionist,Party,fermanagh,224,Politics,count,0
+vlado janevski,Candidate,macedonia,38642,Sports,score,1
+monika sokolovska,Candidate,macedonia,181,Sports,score,1
+vlado janevski,Candidate,macedonia,38642,Sports,score,1
+marjan necak,Candidate,macedonia,8866,Sports,score,0
+mahmoud ahmadinejad,Candidate,hamadan,765723,Politics,score,1
+research 2000,Organization,florida,600,Demographics,count,1
+cortina elementary,Organization,"gilbert , arizona",85242,Demographics,code,1
+aycliffe drive,Place,uk,2337,Politics,difference,1
+haywood grove 's ofsted,Place,uk,2448,Politics,code,1
+yewree,Place,uk,135222,Politics,code,1
+"aycliffe drive , brockswood , maple grove , and yewtree",Place,uk,2337,Politics,code,0
+holtsmere,Place,uk,7047,Politics,code,0
+ben - tahir,Candidate,ottawa,326,Politics,score,1
+osgoode,Party,canada,6495,Politics,score,0
+oregon ballot measures,Event,oregon,312680,Politics,score,1
+union station,Place,washington,4850685,Demographics,count,1
+union station,Place,washington,8995551,Demographics,count,0
+inc,Party,india,200,Politics,count,0
+"democrat j l pilcher , john james flynt , jr and tic forrester",Candidate,usa,100,Politics,score,1

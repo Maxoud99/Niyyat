@@ -1,0 +1,22 @@
+{
+  "strategy": "Probability_0.6_Run1",
+  "overall": {
+    "accuracy": 0.4920370894677237,
+    "macro_f1": 0.4895075730281608,
+    "macro_precision": 0.49787740577014294,
+    "macro_recall": 0.49795515646909977,
+    "total_changes": 28256,
+    "intentional_count": 13291,
+    "unintentional_count": 14965
+  },
+  "intentional": {
+    "precision": 0.4686799575321458,
+    "recall": 0.5978481679331878,
+    "f1": 0.525442221854852
+  },
+  "unintentional": {
+    "precision": 0.5270748540081401,
+    "recall": 0.3980621450050117,
+    "f1": 0.45357292420146955
+  }
+}

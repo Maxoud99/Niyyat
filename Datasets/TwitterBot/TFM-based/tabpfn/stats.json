@@ -1,0 +1,29 @@
+{
+  "dataset": "twitterbot",
+  "model": "tabpfn",
+  "tabpfn_version": "6.4.1",
+  "n_rows_total": 4731,
+  "n_rows_clean": 4009,
+  "n_rows_error": 722,
+  "n_rows_unintentional": 627,
+  "n_rows_intentional": 95,
+  "n_cells_unintentional": 882,
+  "yield_unintentional": 1.0835,
+  "temperature_unintentional": 0.7,
+  "rf_accuracy": 0.8099,
+  "seed": 42,
+  "total_runtime_s": 829.9,
+  "n_intentional_target_rows": 132,
+  "n_intentional_rows_actual": 95,
+  "n_intentional_cells": 283,
+  "flip_rate": 0.7197,
+  "n_no_flip_reallocated": 37,
+  "temperature_intentional": 1.0,
+  "k_candidates": 50,
+  "mask_cols_intentional": [
+    "followers_count",
+    "statuses_count",
+    "friends_count"
+  ],
+  "generated_at": "2026-05-04T15:50:22.535979+00:00"
+}

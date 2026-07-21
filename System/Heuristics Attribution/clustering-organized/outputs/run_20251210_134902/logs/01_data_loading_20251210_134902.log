@@ -1,0 +1,29 @@
+================================================================================
+DATA LOADING LOG
+Started: 2025-12-10 13:49:02
+================================================================================
+
+Starting data loading process...
+Using custom data paths:
+  Mask: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/data/raw/run_20251031_211812/masks.csv
+  Clean: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/data/raw/correct_records.csv
+  Dirty: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/data/raw/run_20251031_211812/manipulated_records.csv
+Loaded masks: (19539, 15)
+Loaded manipulated records: (19539, 15)
+Loaded correct records: (6513, 15)
+
+Processing 19539 variant records into feature changes...
+Features to process: 15
+
+✓ Created dataset with 28256 feature changes
+  Intentional (1): 13291
+  Unintentional (-1): 14965
+  Unique variant records: 18207
+Encoding categorical features...
+Adding derived features (relative_change, change_direction)...
+Data loading complete!
+
+
+================================================================================
+Completed: 2025-12-10 13:50:22
+================================================================================

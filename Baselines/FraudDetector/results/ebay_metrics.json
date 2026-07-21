@@ -1,0 +1,15 @@
+{
+  "dataset": "eBay",
+  "n_cells": 8026,
+  "n_int": 1366,
+  "n_unint": 6660,
+  "accuracy": 0.8228,
+  "f1_int": 0.0,
+  "f1_unint": 0.9028,
+  "f1_weighted": 0.7491,
+  "precision_int": 0.0,
+  "recall_int": 0.0,
+  "auc": 0.5828,
+  "best_threshold": 8.6599,
+  "elapsed_sec": 110.9
+}

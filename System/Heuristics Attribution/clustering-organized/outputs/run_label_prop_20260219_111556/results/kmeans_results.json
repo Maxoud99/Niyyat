@@ -1,0 +1,61 @@
+{
+  "timestamp": "20260219_111556",
+  "algorithm": "kmeans",
+  "dataset": {
+    "total_features": 43259,
+    "total_variants": 19299,
+    "train_variants": 40,
+    "train_features": 90,
+    "train_intentional": 35,
+    "train_unintentional": 55,
+    "test_features": 43169,
+    "test_variants": 19259
+  },
+  "baseline": {
+    "f1": 0.9187,
+    "f1_int": 0.9153,
+    "f1_unint": 0.9217
+  },
+  "results": [
+    {
+      "method": "RandomForest",
+      "accuracy": 0.878593435103894,
+      "f1_weighted": 0.8783751828740854,
+      "f1_intentional": 0.8525033067852419,
+      "f1_unintentional": 0.8968408621198701,
+      "runtime": 0.2156209945678711
+    },
+    {
+      "method": "ClusterMajorityVote",
+      "accuracy": 0.7236906113183071,
+      "f1_weighted": 0.7202591498045228,
+      "f1_intentional": 0.6454853474410034,
+      "f1_unintentional": 0.7736278751992712,
+      "runtime": 0.1565563678741455
+    },
+    {
+      "method": "FeatureLevelKNN",
+      "accuracy": 0.7315203039217957,
+      "f1_weighted": 0.7284812448926676,
+      "f1_intentional": 0.6572020112392783,
+      "f1_unintentional": 0.7793557721596102,
+      "runtime": 0.04468035697937012
+    },
+    {
+      "method": "LabelPropagation",
+      "accuracy": 0.5003127244087192,
+      "f1_weighted": 0.5038221135008434,
+      "f1_intentional": 0.4536082474226804,
+      "f1_unintentional": 0.5396615378049041,
+      "runtime": 1.3139283657073975
+    }
+  ],
+  "winner": {
+    "method": "RandomForest",
+    "accuracy": 0.878593435103894,
+    "f1_weighted": 0.8783751828740854,
+    "f1_intentional": 0.8525033067852419,
+    "f1_unintentional": 0.8968408621198701,
+    "runtime": 0.2156209945678711
+  }
+}

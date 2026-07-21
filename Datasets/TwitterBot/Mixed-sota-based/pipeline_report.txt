@@ -1,0 +1,45 @@
+Mixed Error Pipeline — Run Report (Twitter Bot / TwiBot-20)
+============================================================
+Dataset            : TwiBot-20 (clean)
+Rows used          : 4,731  (full dataset)
+Feature columns    : 8
+Total feature cells: 37,848
+
+Phase 1 — Unintentional (tab_err / Felix Biessmann)
+  Cells changed    : 756
+  Error types      : Outlier (all features are numeric integers)
+  Mechanism        : ECAR (completely at random)
+
+Phase 2 — Intentional (fast plausible adversarial attack)
+  Cells changed    : 346
+  Attack           : Fast plausible (±1σ, clamped [p5,p95])
+  Goal             : Flip prediction bot (1) → human (0)
+  Cost bound/row   : 30.0
+
+Combined mask  (last-writer-wins semantics)
+   0 — clean        :   36,749  (97.10%)
+  -1 — unintentional:      753  (1.99%)  ← tab_err noise not overwritten
+   1 — intentional  :      346  (0.91%)  ← adversarial (last-writer-wins)
+
+Per-column breakdown
+  Column                          clean  unint(-1)  intent(1)
+  ---------------------------- -------- ---------- ----------
+  followers_count                 4,580        147          4
+  friends_count                   4,585        124         22
+  statuses_count                  4,442        105        184
+  listed_count                    4,591        105         35
+  verified                        4,647         84          0
+  protected                       4,689         42          0
+  description_length              4,577         83         71
+  name_length                     4,638         63         30
+
+Elapsed            : 680.4 s
+
+Output files
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/twibot20_clean.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/twibot20_phase1_unintentional.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/twibot20_phase2_final.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/mask_unintentional.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/mask_intentional.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/mask_combined.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/comparison_report.csv

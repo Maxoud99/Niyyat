@@ -1,0 +1,19 @@
+{
+  "run_timestamp": "2026-03-26T15:24:17.154313",
+  "model": "mistralai/Mixtral-8x7B-Instruct-v0.1 (TGI)",
+  "server_url": "http://127.0.0.1:6000/generate",
+  "compose_file": "/home/mohamed/error_injector/llms_baseline/docker-compose/docker-compose-mixtral.yml",
+  "n_records_requested": 9423,
+  "n_total_rows": 48842,
+  "n_error_rows": 9423,
+  "dirty_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_phase2_final.csv",
+  "clean_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_clean.csv",
+  "mask_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/mask_combined.csv",
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "total_wall_time_s": 8169.5,
+  "out_dir": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/output/mixed_sota_mixtral_20260326_130807"
+}

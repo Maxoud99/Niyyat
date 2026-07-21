@@ -1,0 +1,7 @@
+{
+  "algorithm": "kmeans",
+  "n_clusters": 15,
+  "noise_count": 0,
+  "silhouette": 0.3803,
+  "runtime": 0.44
+}

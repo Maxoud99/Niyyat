@@ -1,0 +1,292 @@
+row_id,true_intent,pred_intent,correct,reason,llm_time_s,raw_response
+16,-1,-1,1,small hours-per-week decrease,0.635,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week decrease""}
+```"
+26,-1,1,0,capital-gain and loss both changed from 0,0.793,"```json
+{""decision"":1, ""reason"":""capital-gain and loss both changed from 0""}
+```"
+36,-1,1,0,occupation change: Prof-specialty to Exec-managerial,0.686,"```json
+{""decision"": 1, ""reason"": ""occupation change: Prof-specialty to Exec-managerial""}
+```"
+49,-1,1,0,workclass changed + capital-gain from 0 is suspicious,0.617,"```json
+{""decision"": 1, ""reason"": ""workclass changed + capital-gain from 0 is suspicious""}
+```"
+58,-1,1,0,"workclass and occupation changed, plausibly utility-motivated",0.745,"```json
+{""decision"": 1, ""reason"": ""workclass and occupation changed, plausibly utility-motivated""}
+```"
+64,-1,-1,1,trivial single-cell change,0.619,"```json
+{""decision"": -1, ""reason"": ""trivial single-cell change""}
+```"
+68,-1,1,0,age significantly decreased,0.62,"```json
+{""decision"": 1, ""reason"": ""age significantly decreased""}
+```"
+72,-1,-1,1,age change within reasonable bounds,0.684,"```json
+{""decision"": -1, ""reason"": ""age change within reasonable bounds""}
+```"
+100,-1,1,0,"age +3, hours-per-week +22: significant workload increase",0.675,"```json
+{""decision"": 1, ""reason"": ""age +3, hours-per-week +22: significant workload increase""}
+```"
+133,-1,1,0,workclass changed from self-employed to private,0.684,"```json
+{""decision"": 1, ""reason"": ""workclass changed from self-employed to private""}
+```"
+152,-1,1,0,"age change is large, likely intentional",0.676,"```json
+{""decision"": 1, ""reason"": ""age change is large, likely intentional""}
+```"
+153,-1,-1,1,trivial single-cell change,0.617,"```json
+{""decision"": -1, ""reason"": ""trivial single-cell change""}
+```"
+166,-1,1,0,workclass changed from self-employed to private,0.666,"```json
+{""decision"": 1, ""reason"": ""workclass changed from self-employed to private""}
+```"
+170,-1,1,0,"age and workclass changed, large age difference",0.738,"```json
+{""decision"": 1, ""reason"": ""age and workclass changed, large age difference""}
+```"
+174,-1,-1,1,minor marital status change,0.62,"```json
+{""decision"":-1,""reason"":""minor marital status change""}
+```"
+185,-1,-1,1,trivial single-cell change,0.673,"```json
+{""decision"": -1, ""reason"": ""trivial single-cell change""}
+```"
+188,-1,-1,1,age drifted by +4,0.735,"```json
+{""decision"": -1, ""reason"": ""age drifted by +4""}
+```"
+189,-1,-1,1,small hours-per-week change,0.669,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week change""}
+```"
+195,-1,-1,1,"single, potentially benign relationship change",0.666,"```json
+{""decision"":-1,""reason"":""single, potentially benign relationship change""}
+```"
+205,-1,1,0,"age change is large, likely intentional",0.672,"```json
+{""decision"": 1, ""reason"": ""age change is large, likely intentional""}
+```"
+209,-1,-1,1,trivial single-cell change,0.614,"```json
+{""decision"": -1, ""reason"": ""trivial single-cell change""}
+```"
+214,-1,-1,1,"single occupation change, unclear utility",0.572,"{""decision"":-1,""reason"":""single occupation change, unclear utility""}"
+217,-1,1,0,age +5 and occupation change,0.68,"```json
+{""decision"":1, ""reason"":""age +5 and occupation change""}
+```"
+218,-1,1,0,occupation changed to a higher-status profession,0.669,"```json
+{""decision"": 1, ""reason"": ""occupation changed to a higher-status profession""}
+```"
+226,-1,1,0,large capital-gain zeroed out,0.667,"```json
+{""decision"": 1, ""reason"": ""large capital-gain zeroed out""}
+```"
+252,-1,1,0,occupation change to higher status,0.626,"{""decision"": 1, ""reason"": ""occupation change to higher status""}"
+257,-1,-1,1,"capital-gain +74 is a small, single change",0.666,"```json
+{""decision"":-1,""reason"":""capital-gain +74 is a small, single change""}
+```"
+260,-1,-1,1,small hours-per-week decrease,0.749,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week decrease""}
+```"
+262,-1,-1,1,"age decreased by 8, could be unintentional",0.669,"```json
+{""decision"": -1, ""reason"": ""age decreased by 8, could be unintentional""}
+```"
+281,-1,-1,1,age drifted by -3,0.614,"```json
+{""decision"": -1, ""reason"": ""age drifted by -3""}
+```"
+295,-1,-1,1,trivial single-cell change,0.678,"```json
+{""decision"": -1, ""reason"": ""trivial single-cell change""}
+```"
+302,-1,-1,1,age changed by only 1,0.631,"```json
+{""decision"": -1, ""reason"": ""age changed by only 1""}
+```"
+303,-1,1,0,"marital-status changed, likely intentional for some reason",0.803,"```json
+{""decision"": 1, ""reason"": ""marital-status changed, likely intentional for some reason""}
+```"
+314,-1,-1,1,age drifted by +2,0.691,"```json
+{""decision"": -1, ""reason"": ""age drifted by +2""}
+```"
+348,-1,-1,1,minor relationship and capital-loss changes,0.672,"```json
+{""decision"": -1, ""reason"": ""minor relationship and capital-loss changes""}
+```"
+352,-1,-1,1,"single marital-status change, possibly unintentional",0.684,"```json
+{""decision"": -1, ""reason"": ""single marital-status change, possibly unintentional""}
+```"
+358,-1,-1,1,"single workclass change, likely unintentional",0.68,"```json
+{""decision"":-1,""reason"":""single workclass change, likely unintentional""}
+```"
+361,-1,-1,1,trivial single-cell change,0.667,"```json
+{""decision"": -1, ""reason"": ""trivial single-cell change""}
+```"
+366,-1,1,0,occupation changed: plausibly utility-seeking,0.62,"```json
+{""decision"": 1, ""reason"": ""occupation changed: plausibly utility-seeking""}
+```"
+384,-1,1,0,age change is significant,0.637,"```json
+{""decision"": 1, ""reason"": ""age change is significant""}
+```"
+386,-1,-1,1,small hours-per-week increase,0.614,"{""decision"": -1, ""reason"": ""small hours-per-week increase""}
+"
+403,-1,-1,1,age drifted by +2,0.674,"```json
+{""decision"": -1, ""reason"": ""age drifted by +2""}
+```"
+407,-1,-1,1,"single occupation change, could be unintentional",0.67,"```json
+{""decision"": -1, ""reason"": ""single occupation change, could be unintentional""}
+```"
+416,-1,1,0,hours-per-week increased by 14,0.613,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 14""}
+```"
+426,-1,-1,1,age +2 is a small numeric drift,0.617,"```json
+{""decision"": -1, ""reason"": ""age +2 is a small numeric drift""}
+```"
+438,-1,-1,1,small hours-per-week decrease,0.688,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week decrease""}
+```"
+479,-1,-1,1,single small capital-loss change,0.615,"```json
+{""decision"": -1, ""reason"": ""single small capital-loss change""}
+```"
+480,-1,-1,1,trivial single-cell change,0.619,"```json
+{""decision"": -1, ""reason"": ""trivial single-cell change""}
+```"
+481,-1,1,0,occupation change from cleaner to sales is utility-seeking,0.738,"```json
+{""decision"": 1, ""reason"": ""occupation change from cleaner to sales is utility-seeking""}
+```"
+487,-1,-1,1,age drifted by -2,0.619,"```json
+{""decision"": -1, ""reason"": ""age drifted by -2""}
+```"
+495,-1,-1,1,small hours-per-week increase,0.674,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week increase""}
+```"
+499,-1,-1,1,single workclass change,0.621,"```json
+{""decision"":-1,""reason"":""single workclass change""}
+```"
+506,-1,1,0,large hours-per-week increase,0.748,"```json
+{""decision"": 1, ""reason"": ""large hours-per-week increase""}
+```"
+512,-1,-1,1,"single occupation change, plausibly benign",0.678,"```json
+{""decision"": -1, ""reason"": ""single occupation change, plausibly benign""}
+```"
+523,-1,1,0,large hours-per-week increase (+28),0.676,"{""decision"": 1, ""reason"": ""large hours-per-week increase (+28)""}
+"
+544,-1,1,0,native-country changed from England to United-States,0.613,"```json
+{""decision"": 1, ""reason"": ""native-country changed from England to United-States""}
+```"
+551,-1,1,0,coordinated marital-status and relationship edit,0.676,"```json
+{""decision"": 1, ""reason"": ""coordinated marital-status and relationship edit""}
+```"
+559,-1,-1,1,trivial single-cell change,0.622,"```json
+{""decision"":-1,""reason"":""trivial single-cell change""}
+```"
+569,-1,-1,1,small hours-per-week increase,0.728,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week increase""}
+```"
+588,-1,-1,1,"single marital-status change, possibly benign",0.687,"```json
+{""decision"": -1, ""reason"": ""single marital-status change, possibly benign""}
+```"
+591,-1,-1,1,age drifted by +2,0.678,"```json
+{""decision"": -1, ""reason"": ""age drifted by +2""}
+```"
+599,-1,-1,1,age +1 is a tiny numeric drift,0.68,"```json
+{""decision"": -1, ""reason"": ""age +1 is a tiny numeric drift""}
+```"
+610,-1,1,0,hours-per-week reduced by 16,0.675,"{""decision"":1, ""reason"":""hours-per-week reduced by 16""}
+"
+617,-1,-1,1,"age changed by -18, could be unintentional",0.738,"```json
+{""decision"": -1, ""reason"": ""age changed by -18, could be unintentional""}
+```"
+634,-1,-1,1,"age decreased by more than 10, but single change",0.677,"```json
+{""decision"": -1, ""reason"": ""age decreased by more than 10, but single change""}
+```"
+639,-1,-1,1,single small capital-gain introduced,0.69,"```json
+{""decision"": -1, ""reason"": ""single small capital-gain introduced""}
+```"
+642,-1,-1,1,"single occupation change, possibly unintentional",0.675,"```json
+{""decision"": -1, ""reason"": ""single occupation change, possibly unintentional""}
+```"
+659,-1,-1,1,"single, possibly benign, relationship change",0.686,"{""decision"": -1, ""reason"": ""single, possibly benign, relationship change""}
+"
+660,-1,1,0,hours-per-week increased by 20,0.723,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 20""}
+```"
+663,-1,-1,1,minor age and capital-gain changes,0.74,"```json
+{""decision"": -1, ""reason"": ""minor age and capital-gain changes""}
+```"
+667,-1,1,0,age reduction and relationship change suggests intentional edit,0.679,"```json
+{""decision"": 1, ""reason"": ""age reduction and relationship change suggests intentional edit""}
+```"
+688,-1,1,0,"capital-loss and hours-per-week changed, workload decrease",0.672,"```json
+{""decision"": 1, ""reason"": ""capital-loss and hours-per-week changed, workload decrease""}
+```"
+690,-1,1,0,occupation changed from Farming-fishing to Prof-specialty,0.616,"{""decision"":1, ""reason"":""occupation changed from Farming-fishing to Prof-specialty""}
+"
+697,-1,1,0,workclass changed from Private to Self-emp-not-inc,0.798,"```json
+{""decision"": 1, ""reason"": ""workclass changed from Private to Self-emp-not-inc""}
+```"
+701,-1,-1,1,age drifted by 2,0.675,"```json
+{""decision"": -1, ""reason"": ""age drifted by 2""}
+```"
+717,-1,1,0,capital-gain and hours-per-week increased,0.744,"```json
+{""decision"": 1, ""reason"": ""capital-gain and hours-per-week increased""}
+```"
+721,-1,-1,1,hours-per-week decreased by 8,0.682,"```json
+{""decision"": -1, ""reason"": ""hours-per-week decreased by 8""}
+```"
+726,-1,1,0,hours-per-week -10 and country changed,0.683,"```json
+{""decision"": 1, ""reason"": ""hours-per-week -10 and country changed""}
+```"
+732,-1,-1,1,"single workclass change, could be unintentional",0.615,"```json
+{""decision"": -1, ""reason"": ""single workclass change, could be unintentional""}
+```"
+746,-1,1,0,relationship changed from Own-child to Husband,0.676,"```json
+{""decision"": 1, ""reason"": ""relationship changed from Own-child to Husband""}
+```"
+755,-1,-1,1,single workclass change: Self-emp-inc to Private,0.684,"```json
+{""decision"": -1, ""reason"": ""single workclass change: Self-emp-inc to Private""}
+```"
+777,-1,-1,1,trivial single-cell change,0.679,"```json
+{""decision"": -1, ""reason"": ""trivial single-cell change""}
+```"
+784,-1,-1,1,age decreased by a small amount,0.732,"```json
+{""decision"": -1, ""reason"": ""age decreased by a small amount""}
+```"
+786,-1,-1,1,"capital-gain reduced, but could be unintentional data entry",0.743,"```json
+{""decision"": -1, ""reason"": ""capital-gain reduced, but could be unintentional data entry""}
+```"
+794,-1,1,0,relationship and native-country changed,0.666,"```json
+{""decision"": 1, ""reason"": ""relationship and native-country changed""}
+```"
+802,-1,-1,1,hours-per-week -10 is a small workload change,0.669,"```json
+{""decision"": -1, ""reason"": ""hours-per-week -10 is a small workload change""}
+```"
+820,-1,-1,1,"single occupation change, unclear utility",0.675,"```json
+{""decision"":-1,""reason"":""single occupation change, unclear utility""}
+```"
+830,-1,-1,1,"single occupation change, could be unintentional",0.717,"```json
+{""decision"": -1, ""reason"": ""single occupation change, could be unintentional""}
+```"
+832,-1,1,0,Large age change and hours-per-week increase.,0.777,"```json
+{""decision"": 1, ""reason"": ""Large age change and hours-per-week increase.""}
+```"
+835,-1,-1,1,"single, possibly benign, relationship change",0.66,"```json
+{""decision"": -1, ""reason"": ""single, possibly benign, relationship change""}
+```"
+838,-1,-1,1,age change within a small range,0.725,"```json
+{""decision"": -1, ""reason"": ""age change within a small range""}
+```"
+857,-1,-1,1,minor capital-gain from 0,0.735,"```json
+{""decision"": -1, ""reason"": ""minor capital-gain from 0""}
+```"
+873,-1,1,0,age +4 and country changed from Haiti to US,0.679,"```json
+{""decision"": 1, ""reason"": ""age +4 and country changed from Haiti to US""}
+```"
+899,-1,1,0,Large age change and capital loss set to zero.,0.725,"```json
+{""decision"": 1, ""reason"": ""Large age change and capital loss set to zero.""}
+```"
+903,-1,-1,1,age +1 is a tiny numeric drift,0.622,"```json
+{""decision"": -1, ""reason"": ""age +1 is a tiny numeric drift""}
+```"
+908,-1,-1,1,single small capital-loss change,0.668,"```json
+{""decision"": -1, ""reason"": ""single small capital-loss change""}
+```"
+918,-1,-1,1,"small capital-gain from 0, single trivial change",0.672,"```json
+{""decision"": -1, ""reason"": ""small capital-gain from 0, single trivial change""}
+```"
+944,-1,-1,1,age +1 is a tiny numeric drift,0.695,"```json
+{""decision"": -1, ""reason"": ""age +1 is a tiny numeric drift""}
+```"
+945,-1,-1,1,age drifted by 2,0.696,"```json
+{""decision"": -1, ""reason"": ""age drifted by 2""}
+```"
+949,-1,1,0,age +8 is a non-trivial change,0.673,"```json
+{""decision"": 1, ""reason"": ""age +8 is a non-trivial change""}
+```"

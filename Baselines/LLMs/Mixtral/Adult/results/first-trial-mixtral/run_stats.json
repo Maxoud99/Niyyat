@@ -1,0 +1,25 @@
+{
+  "clean_rows": 6513,
+  "manip_rows": 19539,
+  "groups": 6513,
+  "total_time_sec": 728.6496799299493,
+  "avg_group_time_sec": 0.11181923450331414,
+  "median_group_time_sec": 0.0014647929929196835,
+  "total_llm_time_sec": 722.0598984719254,
+  "avg_llm_time_sec": 0.1108644094076348,
+  "llm_success_groups": 293,
+  "fallback_groups": 6220,
+  "llm_status_hist": {
+    "ok_with_grammar": 0,
+    "ok_no_grammar": 0,
+    "http_error": 537,
+    "parse_error": 0,
+    "ok_decisions_list": 0,
+    "ok_simple_map": 293
+  },
+  "outputs": {
+    "generated_mask_csv": "/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/local-llms/first-trial-mixtral/intent_labels.csv",
+    "explanations_csv": "/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/local-llms/first-trial-mixtral/intent_explanations.csv",
+    "per_group_times_csv": "/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/local-llms/first-trial-mixtral/per_group_times.csv"
+  }
+}

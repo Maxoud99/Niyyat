@@ -1,0 +1,15 @@
+{
+  "dataset": "Adult-Mixed",
+  "n_cells": 11661,
+  "n_int": 3784,
+  "n_unint": 7877,
+  "accuracy": 0.666,
+  "f1_int": 0.0,
+  "f1_unint": 0.7995,
+  "f1_weighted": 0.5401,
+  "precision_int": 0.0,
+  "recall_int": 0.0,
+  "auc": 0.1487,
+  "best_threshold": 10.7485,
+  "elapsed_sec": 571.6
+}

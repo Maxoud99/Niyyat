@@ -1,0 +1,15 @@
+{
+  "dataset": "Adult-TFM",
+  "n_cells": 9199,
+  "n_int": 3009,
+  "n_unint": 6190,
+  "accuracy": 0.7795,
+  "f1_int": 0.5039,
+  "f1_unint": 0.8583,
+  "f1_weighted": 0.7424,
+  "precision_int": 0.9546,
+  "recall_int": 0.3423,
+  "auc": 0.6745,
+  "best_threshold": 3.0153,
+  "elapsed_sec": 352.7
+}

@@ -1,0 +1,8 @@
+{
+  "accuracy": 1.0,
+  "f1_weighted": 1.0,
+  "f1_macro": 1.0,
+  "f1_intentional": 1.0,
+  "precision_intentional": 1.0,
+  "recall_intentional": 1.0
+}

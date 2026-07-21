@@ -1,0 +1,1003 @@
+claim_text,subject_entity,subject_type,subject_location,value,claim_domain,is_factual
+ian poulter from the united state have a score of 214,ian poulter,Athlete,the united state,214,Sports,0
+leo diegel from the united state get 188 for place t2,leo diegel,Athlete,the united state,188,Sports,1
+"tom kite be the only player from the united state , with 17000",tom kite,Athlete,the united state,17000,Sports,1
+"bobby wadkins be the only player from the united state , with 17000",bobby wadkins,Athlete,the united state,17000,Sports,0
+"when the capacity be 92542 the location be baton rouge , la with home team lsu tiger and when the capacity be 92746 the location be athens , ga with home team georgia bulldog",lsu tiger,Team,la,92542,Sports,1
+"when the capacity be 100119 the location be austin , tx , la with home team lsu tiger and when the capacity be 92746 the location be athens , ga with home team georgia bulldog",lsu tiger,Team,"austin , tx ,",100119,Sports,0
+there be 20173 crowd at the washington 's home game against miami on december 28,miami,Team,washington,20173,Sports,0
+carlton score 16.11 (107) while north melbourne score 6.8 (44) in the match they play on 8 may 1965,carlton,Team,north melbourne,107,Sports,1
+north melbourne away team record an away score of 18.11 (119) while south melbourne record an away score of 10.15 (75),north melbourne,Team,south melbourne,119,Sports,1
+77683 crowd attend the cleveland brown v pittsburgh steelers,brown,Team,cleveland,77683,Sports,1
+77683 crowd attend the cleveland brown vs the chicago bear game /,brown,Team,cleveland,77683,Sports,0
+north melbourne away team record an away score of 14.12 (96) while south melboure record an away score of 16.8 (104),north melbourne,Team,south melboure,104,Sports,0
+"as an opponent in february 15 , wilmington sea dawgs score 95 - 101",wilmington sea dawgs,Team,detroit,101,Sports,1
+"on april 19 , the utah team play at the staple center where they have an attendance of 18997 and a series of 1 - 0",los angeles lakers,Team,utah,18997,Sports,1
+"the utah team have a location attendance of staple center 18997 , and a series of 1 - 0 in game 2",los angeles lakers,Team,utah,18997,Sports,0
+"the game against brøndby on august 10 , 1993 , have a result of f - a 2 - 0 and a h / a of a with 11372 crowd attendance",manchester united,Team,brøndby,11372,Sports,1
+marcus kruger at pick 149 be the lowest choice from the elitserien (sweden) league,marcus kruger,Athlete,elitserien,149,Sports,1
+the new york jet have a pick number of 108,jet,Team,new york,108,Sports,1
+"the verizon center , with an attendance of 17132 , saw the loss of the toronto maple leaf",washington capitals,Team,toronto,17132,Sports,0
+the total for wasit be 150 more than the total for anbar,wasit,Team,iraq,150,Sports,1
+the attendance on may 26 be 13255,blue jays,Team,toronto,13255,Sports,1
+the lowest attendance at a game be 13603 people during the game against indiana,celtics,Team,indiana,13603,Sports,1
+"james reed be draft in the 9th round , number 242 overall , out of the university of mississippi",james reed,Athlete,cleveland,242,Sports,1
+"tam fleming be draft after round 9 , at number 464 overall",tam fleming,Athlete,cleveland,464,Sports,1
+tom fleming have an overall of 464 in round 17,tom fleming,Athlete,cleveland,464,Sports,1
+"the bathurst 100 event occur on 8 - 11 october in bathurst , new south wale with paul freestone handling production",paul freestone,Athlete,bathurst,100,Sports,1
+"the bathurst 100 event occur on 8 - 11 october in sydney , new south wale with paul freestone handling production",paul freestone,Athlete,sydney,100,Sports,0
+the october 31 game between the chicago bear and san francisco 49ers have 49833 crowd attendance,chicago,Team,san francisco,49833,Sports,1
+both game with the dallas cowboy have attendance number under 50000,dallas,Team,washington,50000,Sports,0
+glavine (7 - 7) suffer a loss in front of a crowd of 41212,glavine,Team,new york,41212,Sports,1
+they play orlando at the philip arena 13748 people be in attendance,atlanta hawks,Team,orlando,13748,Sports,1
+"the celtic only score less than 100 point 1 time all month , and it be in the first game of the month against the hawk",celtic,Team,boston,100,Sports,1
+"the celtic only score more than 100 point 1 time all month , and it be in the second game of the month against the hawk",celtic,Team,boston,100,Sports,0
+in 2005 novorace oy have 143 more point than korainen bros motorsport,korainen bros,Team,novorace,143,Sports,1
+in 2005 korainen bros motorsport have 143 more point than novorace oy,korainen bros,Team,novorace,143,Sports,0
+sarah ulmer from new zealand set a new 3000 m individual pursuit record at 3:24.537,sarah ulmer,Athlete,new zealand,3000,Sports,1
+"the game on 11 / 10 / 1945 be play against indiana at memorial stadium minneapolis , mn with an attendance of 41400",bernie bierman,Athlete,indiana,41400,Sports,1
+"the game on 11 / 10 / 1945 be play against indiana at memorial stadium minneapolis , mn with an attendance of 34800",bernie bierman,Athlete,indiana,34800,Sports,0
+"miguel ángel jiménez be the only golfer from spain to finish in the top 10 , with a total score of 283",miguel ángel jiménez,Athlete,spain,283,Sports,0
+"the highest attended game of the season be in los angeles on october 11 , 1976 , 80532 crowd be at the game",49ers,Team,los angeles,80532,Sports,1
+"the least attended game of the season be in los angeles on october 11 , 1976 , 80532 crowd be at the game",49ers,Team,los angeles,80532,Sports,0
+the attendance for the novemeber 24th game at thre charlotte bobcat arena 19201,celtics,Team,boston,19201,Sports,1
+the attendance of the game november 24 be quicken loan arena 18624,celtics,Team,boston,18624,Sports,0
+home team st kilda defeat north melbourne 2014 - 1110 in front of a crowd of 24000,st kilda,Team,north melbourne,1110,Sports,1
+all of the home game have the exact same amount of attendee at 53041,redskins,Team,washington,53041,Sports,1
+"the lowest attendance be against and at the kansas city chief , with 51989",redskins,Team,kansas,51989,Sports,1
+all of the home game have the exact same amount of attendee at 5304,redskins,Team,washington,5304,Sports,0
+"the lowest attendance be against and at the chicago bear , with 51989",bear,Team,chicago,51989,Sports,0
+the height for cornell big red be 170 cm,cornell big red,Team,canada,170,Sports,1
+more than 50000 be in attendance when the jacksonville jaguars beat the houston texan in week 14,the jacksonville jaguars,Team,texan,50000,Sports,0
+"after year 2002 , 272 be france 's highest score when the venue be bokskogens",bokskogens,Team,france,272,Sports,0
+north melbourne away team record an away score of 17.8 (110) while south melbourne record an away score of 12.19 (91),north melbourne,Team,south melbourne,110,Sports,1
+north melbourne away team record an away score of 12.8 (110) while south melbourne record an away score of 12.19 (91),north melbourne,Team,south melbourne,110,Sports,0
+"oklahoma men 's basketball have the most win (against big 12 schools) against oklahoma state , whom they 've defeat 127 time",oklahoma,Team,oklahoma state,127,Sports,1
+"oklahoma men 's basketball have the most win (against big 12 schools) against oklahoma state , whom they 've defeat 142 time",oklahoma,Team,oklahoma state,142,Sports,0
+new york ranger be the nhl team whose pick number be 160,ranger,Team,new york,160,Sports,1
+"in round 4 , the langley chief (bchl) score 119 point",bchl,Team,langley,119,Sports,1
+canada tie sweden in round 4 with 119 point,canada,Team,sweden,119,Sports,0
+the lowest attendance be 13857 in a game on september 3 and the highest be 43201 in a game on september 30,blue jays,Team,toronto,13857,Sports,1
+the highest attendance happen on september 3 at 43201 attendee and the lowest attendance be on september 30 at 13857 attendee,blue jays,Team,toronto,43201,Sports,0
+koch (0 - 5) have an attendance of 32029 and a loss on september 29 wheeler have (0 - 4) and the attendance be 34253,koch,Team,toronto,32029,Sports,0
+david graham from australia have a total of 282,david graham,Athlete,australia,282,Sports,1
+lee trevino from australia achieve a total smaller than 284,lee trevino,Athlete,australia,284,Sports,0
+trenton speedway be the name of the tract for the texas 150 mile sweepstakes race,usac,Team,texas,150,Sports,0
+"in the men 's 100 metre butterfly , the serbian swimmer , andriy serdinov beat the us swimmer by 35 second",andriy serdinov,Athlete,us,100,Sports,0
+"the us swimmer be rank in the top 3 fastest swimmer in the men 's 100 metre butterfly , follow by france",france,Athlete,us,100,Sports,0
+"during the 1983 - liverpool football club season , luton town match at venue a (away) be 1 of 5 match with attendance less than 20000 in attendance",liverpool f.c,Team,luton,20000,Sports,1
+"during the 1983 - liverpool football club season , birmingham city match at venue a (away) be 1 of 5 match with above 20000 in attendance",liverpool f.c,Team,birmingham city,20000,Sports,0
+"when the loss be lohse (12 - 11) , game attendance be 32807",lohse,Athlete,chicago,32807,Sports,1
+when the record be 10 - 14 the location and attendance of the game be conseco fieldhouse 11888,bobcats,Team,charlotte,11888,Sports,1
+carlton beat north melbourne by 123 - 96 in the 1973 vfl season,carlton,Team,north melbourne,123,Sports,1
+essendon beat south melbourne by 146 - 109 in the 1973 vfl season,essendon,Team,south melbourne,146,Sports,1
+essendon lose to south melbourne 146 - 109 in the 1973 vfl season,essendon,Team,south melbourne,146,Sports,0
+"in 1938 , fc schalke 04 win the championship in berlin with a 2 - 0 result and 100000 fan in attendance",fc schalke 04,Team,berlin,100000,Sports,0
+ranger be the opponent when there be 38150 crowd attendance,blue jays,Team,toronto,38150,Sports,1
+yankee be the opponent when the attendance be 38150,yankee,Athlete,toronto,38150,Sports,0
+visit team oregon play tennessee with an crowd attendance of 66584,oregon,Team,tennessee,66584,Sports,0
+nick gillis have an overall of 203 in round 8,nick gillis,Athlete,ottawa,203,Sports,1
+"in week 8 , the attendance at the san francisco 49ers be 63672",the san francisco 49ers,Team,cleveland,63672,Sports,1
+"at the chicago stadium , the score be 90 - 102",atlanta hawks,Team,chicago,102,Sports,1
+billy corbett be the only player draft to the brown with an overall position of less than 100,billy corbett,Athlete,cleveland,100,Sports,1
+billy corbett be 1 of 2 player draft to the brown with an overall position of less than 100,billy corbett,Athlete,cleveland,100,Sports,0
+several game be quite low in attendance : 7 have less than 20000,blue jays,Team,toronto,20000,Sports,1
+several game be quite low in attendance : 10 have less than 20000,blue jays,Team,toronto,20000,Sports,0
+when the attendance be 55814 the result be l 20 - 7 with opponent detroit lion and when the attendance be 40525 the result be w 31 - 0 with opponent chicago cardinal,detroit lion,Team,chicago,55814,Sports,1
+"in a game on november 24 , 1957 the cleveland brown play the los angeles ram in front of a crowd of 65407 crowd and they win by a score of 45 - 31",the cleveland brown,Team,cleveland,65407,Sports,1
+"in a game on november 24 , 1957 the cleveland brown play the chicago cardinal in front of a crowd of 65407 crowd and they win by a score of 45 - 31",the cleveland brown,Team,chicago,65407,Sports,0
+"with 44592 in attendance , the week 6 game be play against the seattle seahawks",the seattle seahawks,Team,san francisco,44592,Sports,1
+"los angeles ram be the opponent in the game in week 6 with more than 42 , 920 in attendance",49ers,Team,los angeles ram,920,Sports,0
+john shipley win the prize of 200000 in the european poker classic event hold in london during 9 - 10 october 2004,john shipley,Athlete,london,200000,Sports,1
+"ram vaswani win the prize of 93000 in the 2004 irish winter tournament hold in the city of dublin on october 23 , 2004",ram vaswani,Athlete,dublin,93000,Sports,1
+the blue jay go 3 game under 500 in july of 1989,blue jay,Team,toronto,500,Sports,0
+phillips arena 22000 be the location and attendance for the team from detroit,chicago bulls,Team,detroit,22000,Sports,0
+darin sceviour play right wing for the lethbridge bronco (whl) and be pick 101 by nhl team chicago black hawk,darin sceviour,Athlete,chicago,101,Sports,1
+"in the november 11th game against the boston patriot , the attendance be more than 20000 higher than the game at frank youell field",denver broncos,Team,boston,20000,Sports,1
+"in the november 11 game against the new york titan , the attendance be more than 20000 higher than the game at frank youell field",titan,Team,new york,20000,Sports,0
+the total number of tackle between all player of the 1987 washington commando be 188.5,commando,Team,washington,188,Sports,1
+the largest gap between win and lose score of game play on that day be 111. (the game between essendon and south melbourne),essendon,Team,south melbourne,111,Sports,1
+"fourth rank harri olli of finland make the longest first jump , of 130.5 m",harri olli,Athlete,finland,130,Sports,1
+"melbourne v richmod , footscray vs north melbourne , and essendon vs carlton all have an attendance greater than 20000 and less than 30000",richmod,Team,melbourne,20000,Sports,1
+"melbourne v richmond , footscray vs north melbourne , and essendon vs carlton all have attendance before 20000",melbourne,Team,richmond,20000,Sports,0
+the carolina panther make 3 pick under 100,carolina panthers,Team,carolina,100,Sports,1
+"on august 25 , 1963 , the cleveland brown vs san francisco 49ers have 28335 in attendance",browns,Team,cleveland,28335,Sports,1
+richmond versus footscray at the mcg venue have the highest crowd capacity which be 10680 on 19 august 1979,footscray,Athlete,richmond,10680,Sports,0
+eric landry be pick 193 from canada,eric landry,Athlete,canada,193,Sports,1
+ernie el from south africa score 276 total point,ernie el,Athlete,south africa,276,Sports,0
+mhc plastika nitra (slovakia) have 239 overall,mhc plastika,Team,slovakia,239,Sports,0
+the average attendance at each game during november of the 2007 - 08 florida panther season be 14500,panther,Team,florida,14500,Sports,1
+the location attendance for the game against la clipper be time warner cable arena 11349,la clipper,Team,toronto,11349,Sports,0
+north melbourne home team record an home score of 11.15 (81) while south melbourne record an home score of 15.12 (102),north melbourne,Team,south melbourne,102,Sports,1
+the game be hold on september 25 when the record be 53 - 104,blue jays,Team,toronto,104,Sports,1
+the score of the game that have a record of 52 - 103 be 1 - 3,blue jays,Team,toronto,103,Sports,0
+the game when the record be 53 - 104 be against the yankee,yankee,Team,toronto,104,Sports,0
+"the winner from england in 1968 be peter butler , who have a score of 281",peter butler,Athlete,england,281,Sports,1
+nick collison (17) have the high rebound when the score be l 84 - 102 (ot),nick collison,Athlete,seattle,102,Sports,1
+earl watson (8) have the high assist when the location attendance be toyota center 18370,earl watson,Athlete,seattle,18370,Sports,1
+kevin durant (37) have high point when the location attendance be american airline center 20228,kevin durant,Athlete,seattle,20228,Sports,0
+the game with 13617 in attendance have a score of 6 - 2,blue jays,Team,toronto,13617,Sports,1
+"when the score be 6 - 3 , the attendance be 13617",blue jays,Team,toronto,13617,Sports,0
+"on april 23 , the score be 8 - 1 with an attendance of 20863",blue jays,Team,toronto,20863,Sports,0
+the only player from czechoslovakia be pick number 143 and play centre,nhl,Team,czechoslovakia,143,Sports,1
+128 be a new york islander pick number,nhl,Team,new york,128,Sports,1
+the nhl team new york islander have a pick number of 128,nhl,Team,new york islander,128,Sports,1
+pick number 136 come from the nhl team of detroit red wing canada,nhl,Team,detroit,136,Sports,0
+40801 be the attendance during week 1 with new york giant as the opponent,st.,Team,new york,40801,Sports,1
+the attendance number that have the opponent of the cleveland brown be 40801,brown,Team,cleveland,40801,Sports,0
+de smyth of ireland win 11000,de smyth,Team,ireland,11000,Sports,1
+de smyth from ireland have more than 11000,de smyth,Team,ireland,11000,Sports,0
+brandon coutu be 207 pick point above lawrence jackson,brandon coutu,Athlete,seattle,207,Sports,0
+the game hold at arrowhead stadium have 68246 crowd attendance,broncos,Team,denver,68246,Sports,1
+"in week 8 on november 14 , 1954 , the attendance be 19388",redskins,Team,washington,19388,Sports,1
+"when lincoln city be the opponent with h / a of a , the attendance be 10000",manchester united f.c,Team,lincoln city,10000,Sports,0
+"larry nelson , from the united state , win 24000",larry nelson,Athlete,the united state,24000,Sports,1
+in tie no 6 swansea city be the home team against fulham with a score of 1 - 1 and attendance of 16573,fulham,Team,swansea city,16573,Sports,1
+the highest attendance be 57454 when the home team be everton and the lowest attendance be 12316 when the home team be coventry city,everton,Team,coventry city,57454,Sports,0
+"in tie no 3 , swansea city be the home team against fulham with a score of 0 - 1 and attendance of 16360",fulham,Team,swansea city,16360,Sports,0
+university of florida rank highest of all university in florida in kiplinger 's top 100 at 2nd overall in the united state,university of florida,Team,florida,100,Sports,1
+the player from arkansas state be draft overall number 242,atlanta falcons,Team,arkansas state,242,Sports,1
+in the south london derby there a total of 110 charlton goal,charlton,Athlete,london,110,Sports,1
+sergiy stakhovsky reach his first challenger single final in a major tournament in malaysia in his final tournament of 2007 to finish the year rank 199 in single,sergiy stakhovsky,Athlete,malaysia,199,Sports,1
+marlin have an attendance of 52484 while play against olsen on augest 9,marlin,Team,new york,52484,Sports,1
+the game on october 12th between winnipeg and chicago be the game with the lowest attendance with 13804 attendee,vancouver canucks,Team,winnipeg,13804,Sports,0
+the highest attendance be 20203 in march for 2007 to 2008 knicks,knicks,Team,new york,20203,Sports,1
+from 2007 to 2008 the knicks win all their game in the month of march except for 2 in front a crowd of 30000 and 40000 crowd,knicks,Team,new york,30000,Sports,0
+the game with attendance of 63336 be the three river stadium,seahawks,Team,seattle,63336,Sports,0
+the angel with a record of 39 - 44 have the lowest attendance at 30584,angel,Team,toronto,30584,Sports,1
+the opponent for the game with an attendance of 30584 be yankee,yankee,Athlete,toronto,30584,Sports,0
+the largest margin of victory be 104 by scotland over italy,scotland,Team,italy,104,Sports,1
+the adelaide oval venue have a result of eng by inns&225 run,eng,Team,australia,225,Sports,0
+the school locate in county 68 randolph have 280 student and play ihsaa football class a,ihsaa,Team,indiana,280,Sports,1
+68 union be the county that have a school with less than 301 student and play ihsaa class a football,68 union,Team,indiana,301,Sports,0
+18630 crowd attend the 4 - 2 los angeles game versus vancouver,los angeles,Team,los angeles,18630,Sports,1
+the game play with opponent as manchester city with h / a of a and a result f - a of 2 - 0 have an attendance of 30000 crowd,manchester united f.c,Team,manchester city,30000,Sports,1
+manchester city have have an attendance over 30000,manchester united f.c,Team,manchester city,30000,Sports,0
+the celtic win against washington in game 79 with a score of 104 - 88,celtic,Team,washington,104,Sports,1
+"in game 80 , when the celtic play washington , the score be w 104 - 88 (ot)",celtic,Team,washington,104,Sports,0
+the nfl 's club round for the new york jet be round 6 and pick 166,nfl,Team,new york,166,Sports,1
+"luke fisher , who play tight end , be the round 6 , pick number 210 , to go to the minnesota viking",luke fisher,Athlete,minnesota,210,Sports,0
+the opponent with 81.0 rush yard and 503 passing yard be indiana,devin gardner,Athlete,indiana,503,Sports,1
+northwestern be the opponenent when there be less than 115 rushing yard,devin gardner,Athlete,northwestern,115,Sports,0
+"race name trenton 300 be hold in trenton , new jersey",usac,Team,trenton,300,Sports,1
+"the trenton 300 be the only race that take place in trenton , new jersey",trenton,Team,trenton,300,Sports,0
+the score in game 51 be w 110 - 90 (ot),raptors,Team,toronto,110,Sports,0
+the game at detroit lion have the lowest attendance of any game with 6044,detroit lion,Team,washington,6044,Sports,1
+the game at pittsburg steelers have the highest attendance of any game with with 37764,pittsburg steelers,Team,washington,37764,Sports,1
+the game at detroit lion have the highest attendance of any game with 6044,detroit lion,Team,washington,6044,Sports,0
+the game at pittsburgh steelers have the lowest attendance of all game with 37764,pittsburgh steelers,Team,washington,37764,Sports,0
+"when weekes win the decision in the new jersey v buffalo game , there be 17565 in attendance",weekes,Team,new jersey devils,17565,Sports,0
+game number 75 be play at the amway center with an attendance of 18969,bobcats,Team,charlotte,18969,Sports,1
+miami lay at amway center with an attendance of 18969,bobcats,Team,miami,18969,Sports,0
+the october 1938 attendance be 8012,rams,Team,cleveland,8012,Sports,0
+only 3 of the 25 pick pick 157 - 182 of the 1994 nhl entry draft be from the united state,nhl,Team,the united state,157,Sports,1
+only 3 of the 25 pick pick 157 - 182 of the 1994 nhl entry draft be from canada,nhl,Team,canada,157,Sports,0
+40022 be the lowest attendance during week 11,49ers,Team,san francisco,40022,Sports,1
+"during week 4 , there be 57814 spectator",49ers,Team,san francisco,57814,Sports,1
+the lowest attendance for week 12 be 40022,49ers,Team,san francisco,40022,Sports,0
+there be 58814 spectator on week 4,49ers,Team,san francisco,58814,Sports,0
+"on the 3rd of march in 2013 in glasgow , the 4 x 400 m relay have a record of 3:27.56",european,Team,glasgow,400,Sports,0
+"2 player from ohio state be take with pick more than 300 and they be gary williams , a wide receiver , and joe lukens , a guard",gary williams,Athlete,ohio state,300,Sports,1
+bucky scribner be pick number 299 for the new york jet,bucky scribner,Athlete,new york,299,Sports,0
+tim kearse be pick number 298 for the minnesota viking and he come from clemson,tim kearse,Athlete,clemson,298,Sports,0
+"pick number 300 go to the atlanta falcon , come from north texas state",the atlanta falcon,Team,north texas,300,Sports,0
+"the attendance at the seattle seahawks week 1 game on spetember 3 , 1978 be 55778",seattle seahawks,Team,san diego,55778,Sports,1
+"the game hold during week 1 , that have an attendance greater than 50637 start after september 3 , 1978",chargers,Team,san diego,50637,Sports,0
+when the result be w 26 - 0 the attendance be 60207 with the tv time be cbs 1:00 pm,49ers,Team,san francisco,60207,Sports,1
+the highest attendance be 66042 in week 3 while the lowest be 43128 in week 13,49ers,Team,san francisco,66042,Sports,1
+when the result be w26 - 0 the attendance be 43128 with the tv time be cbs 1:00 pm,49ers,Team,san francisco,43128,Sports,0
+the lowest attendance be 66042 in week 3 while the lowest be 43128 in week 13,49ers,Team,san francisco,66042,Sports,0
+when the attendance be 59914 the opponent be the chicago bear with a result of w 45 - 3,san francisco 49ers,Team,chicago,59914,Sports,0
+the adelaide 36ers beat the townsville crocodiles 100 - 79,the adelaide 36ers,Team,townsville,100,Sports,1
+grizzlies score over 100 point 7 time during the season,grizzlies,Team,memphis,100,Sports,1
+supersonics score over 100 point 7 time during the season,supersonics,Team,memphis,100,Sports,0
+the highest attendance at a game against the chicago bear be 48204,chicago,Team,los angeles,48204,Sports,1
+"when the opponent be the chicago bear , the attendance be always greater than 49000",rams,Team,chicago,49000,Sports,0
+attendance on week 17 be 63794 against the cincinnati bengal,cincinnati,Team,detroit,63794,Sports,0
+indiana win 115 - 108 (ot) in game 15,charlotte bobcats,Team,indiana,115,Sports,1
+footscray home score be 12.12 (84) while south melboure 's away score be 17.18 (120),footscray,Team,south melboure 's,120,Sports,1
+there be 16 club in thailand who score 221 point out of a possible 500,afc champions league,Team,thailand,221,Sports,1
+china pr have 16 club and score a total of 431 point out of a possible 500,afc champions league,Team,china,431,Sports,1
+2 time the los angeles lakers win with score less than 100,the los angeles,Team,los angeles,100,Sports,1
+the los angeles lakers didn't win game in which they score less than 100,the los angeles lakers,Team,los angeles,100,Sports,0
+there be 25287 crowd at the stadium during the week - 7 game versus the detroit lion,baltimore colts,Team,detroit,25287,Sports,1
+on july 15 the opponent who play be the oriole and the attendance be 43192,oriole,Team,toronto,43192,Sports,1
+the game with the highest attendance of 35540 wasn't in december,redskins,Team,washington,35540,Sports,0
+collingwood and carlton have the highest home team score of 23.16 (154),collingwood,Team,carlton,154,Sports,1
+collingwood and carlton have the highest away team score of 23.16 (154),collingwood,Team,carlton,154,Sports,0
+283 crowd attend the home team harrogate town and away team eastwood town game,harrogate,Team,eastwood,283,Sports,1
+the game with the highest combined score of both team be the game between the townsville crocodile and the wollongong hawk with a total of 234,nbl,Team,townsville,234,Sports,1
+the game attendance on august 2 be 26473,blue jays,Team,toronto,26473,Sports,1
+the score of the game that have a loss of cerutti (0 - 1) be 4 - 2 (13) which attendance be greater than 30542,cerutti,Athlete,toronto,30542,Sports,0
+the smallest attendance be see on september 18 with 17598,blue jays,Team,toronto,17598,Sports,0
+oliver building with a height of 485 / 148 ft / m and 44 floor be locate at 535 smithfield street,oliver,Team,pittsburgh,485,Sports,0
+"the overall score for vernon crawford , a florida state player , be 159",vernon crawford,Athlete,florida,159,Sports,1
+"when vernon crawford , a florida state player be draft , the sum of all the round highly 159",vernon crawford,Athlete,florida,159,Sports,0
+murray armstrong have 215 loss as a coach,murray armstrong,Athlete,denver,215,Sports,1
+"coach george gwozdecky have 311 win , 174 loss and 7 tie",george gwozdecky,Athlete,denver,311,Sports,0
+murray armstrong be the coach who have 174 loss and 14 tie,murray armstrong,Athlete,denver,174,Sports,0
+the game with a final score of l 36 - 1 have an attendance of 30855,argonauts,Team,toronto,30855,Sports,1
+"the lowest attendance be 17000 at exhibition stadium , and take place on october 24",argonauts,Team,toronto,17000,Sports,0
+the lowest attendance for any brewer game in may of 2006 be 12258 on may 1 against the astros,astros,Team,milwaukee,12258,Sports,1
+the highest attendance for any brewer game in may 2006 be 12664 on may 2 against the astros,astros,Team,milwaukee,12664,Sports,0
+the highest attendance for any brewer game in may 2006 be 12664 on may 2 against the astros,astros,Team,milwaukee,12664,Sports,0
+the highest combined total of point in 1 game be 205,celtics,Team,boston,205,Sports,1
+the game on october 8 have an attendance of 51783,blue jays,Team,toronto,51783,Sports,1
+"in game 11 , the sacramento king be the opponent with a score of 115 - 105",boston celtics,Team,sacramento,115,Sports,1
+the score of w 105 - 98 be at the targer center,celtics,Team,boston,105,Sports,0
+"on january 6 , new york beat cleveland (home) 103 - 93",cleveland,Team,new york,103,Sports,1
+20562 crowd watch cleveland (home) lose to phoenix in gund arena on january 30,gund,Team,cleveland,20562,Sports,1
+"on january 12 , cleveland beat phoenix 107 - 96",cleveland cavaliers,Team,cleveland,107,Sports,1
+"on january 27 , 20562 crowd watch portland beat cleveland 87 - 77 in gund arena",portland,Team,cleveland,20562,Sports,1
+"on january 30 for a cleveland home , the attendance be gund arena 20562",gund,Team,cleveland,20562,Sports,1
+guernsey 211 / 8 (49.3 overs) win when hong kong be the hosting nation,guernsey,Athlete,hong kong,211,Sports,0
+the winner of the division whose final venue be kowloon cricket club be guernsey 211 / 8 (49.3 overs),kowloon cricket club,Team,guernsey,211,Sports,0
+there be 217 rush yard when the opponent be indiana and the player be denard robinson,denard robinson,Athlete,indiana,217,Sports,1
+there be 220 rush yard when the opponent indiana and the player be denard robinson,denard robinson,Athlete,indiana,220,Sports,0
+"the game that take place with the name derartu tulu be in 1992 barcelona , 2000 sydney and 2004 athens in the women 's 10000 m",derartu tulu,Athlete,barcelona,10000,Sports,1
+"michigan have the highest attendance , with 55223 more attendee at their home game than the second highest - attendance game (west virginia)",michigan,Team,west virginia,55223,Sports,1
+"michigan have the highest attendance , with 72998 more attendee at their home game than the second highest - attendance game (west virginia)",michigan,Team,west virginia,72998,Sports,0
+"in the 2009 nhl entry draft , 2 us high school player be choose between pick 182 and 211",nhl,Team,us,182,Sports,1
+"in the 2009 nhl entry draft , 4 us high school player be choose between pick 182 and 211",nhl,Team,us,182,Sports,0
+sloux city musketeer have a pick of more than 148,nhl,Team,sloux city,148,Sports,0
+"on may 19 , san antonio win the last game of a 7 game series 108 to 105 in overtime to win the series 4 - 3",portland trail blazers,Team,san antonio,108,Sports,1
+game attendance be always over 20000,argonauts,Team,toronto,20000,Sports,0
+"with a score of w 106 - 81 , vs philadelphia be hold at the omni",omni,Team,philadelphia,106,Sports,1
+dale coyne racing team have a 1st qualifying time of 1:00.081 and a 2nd qualifying time of 59.140,dale coyne,Team,cleveland,140,Sports,1
+san diego charger be the opponent for the game with 37845 crowd attendance on week 14,houston oilers,Team,san diego,37845,Sports,0
+the highest attendance of 19875 crowd take place in detroit,vancouver canucks,Team,detroit,19875,Sports,1
+the lowest attendance amount of 9125 take place in new jersey,vancouver canucks,Team,new jersey,9125,Sports,1
+the second highest attendance of 19875 crowd take place in detroit,vancouver canucks,Team,detroit,19875,Sports,0
+the highest attendance of 9125 take place in new jersey,vancouver canucks,Team,new jersey,9125,Sports,0
+the highest attendance for a game the texan 's play at reliant stadium be 73506,texan,Team,houston,73506,Sports,0
+there be 1089 more crowd attendance at game 14 than at game 15,49ers,Team,san francisco,1089,Sports,1
+marcus jackson have the highest overall of 321 and play defensive end position,marcus jackson,Athlete,cleveland,321,Sports,1
+ron crew have the highest overall of 321 and play center position,ron crew,Team,cleveland,321,Sports,0
+"when sam snead pay in the game in the united state , the sum of the money be more than 450",sam snead,Athlete,the united state,450,Sports,0
+"when the round be less than 24 , and when the college be north carolina state , then the overall sum be 259",washington redskins,Team,north carolina state,259,Sports,1
+green bay packer play with more than 51901 attendance and result in t 13 - 13,green bay,Team,detroit,51901,Sports,1
+green bay packer play with less than 51901 attendance and result in t 13 - 13,green bay,Team,detroit,51901,Sports,0
+"both chris brust , pick number 131 in round 6 , and jeb barlow , pick number 153 in round 7 , be from north carolina",chris brust,Athlete,north carolina,131,Sports,1
+jeb barlow pick 131 be pick in the 6th round from north carolina and chris brust pick 153 in round 7 be also from north carolina,jeb barlow,Athlete,north carolina,131,Sports,0
+matt butcher play for the chilliwack chief (bchl) with a reg gp of 374 and alexandre vincent play for hc dukla trenčín (slovak),matt butcher,Athlete,bchl,374,Sports,0
+when the reg gp be 6 the player be kris fredheim and when the reg gp be 374 the player be matt butcher with mario be from hc dukla trenčín (slovak) and mason from camrose kodiak (ajhl),kris fredheim,Athlete,hc,374,Sports,0
+38642 fan attend the game against the chicago bear,cincinnati,Team,chicago,38642,Sports,1
+the collingwood versus melbourne game draw over 42000 spectator in the 1948 vfl season,collingwood,Team,melbourne,42000,Sports,1
+"in the 1948 vfl season , the collingwood v melbourne game have over 42 , 5500 fan in attendance",vfl,Team,melbourne,5500,Sports,0
+"club huracán , banfield have 132 less match than club estudiantes , huracán do",club estudiantes,Team,huracán,132,Sports,1
+"club huracán , banfield have 132 more match than club estudiantes , huracán do",club estudiantes,Team,huracán,132,Sports,0
+the largest crowd be usually larger than 25090 when essendon / collingwood / carlton / melbourne / north melbourne / richmond play,essendon / collingwood,Team,carlton,25090,Sports,0
+the highest listed attendance for 1 game be 53067,blue jays,Team,toronto,53067,Sports,1
+the highest listed attendance for 1 game be 40648,blue jays,Team,toronto,40648,Sports,0
+250 crowd attend the worthings home game against cambridge city,worthings,Team,cambridge city,250,Sports,1
+"spartak , mogilev have a capacity of 11200",spartak,Team,mogilev,11200,Sports,1
+there be 140 pound difference between the heaviest and lightest redskin player,redskin,Team,washington,140,Sports,1
+the athlete rank 32nd be susmita singha roy with a time of 2:21.14 in the 800 m,susmita singha roy,Athlete,india,800,Sports,1
+when the final be 5705 the athlete be susmita singha roy with 963 in the 100h,susmita singha roy,Athlete,india,5705,Sports,1
+the athlete rank 32nd be susmita singha roy with a time of 2:27.50 in the 800 m,susmita singha roy,Athlete,india,800,Sports,0
+when the final be 5705 the athlete be susmita singha roy with 1033 in the 100h,susmita singha roy,Athlete,india,5705,Sports,0
+the highest attendance be 73003 when the dolphin score 23 point against the oakland raider,miami,Team,oakland,73003,Sports,1
+"on may 30 , against the opponent blue jay , the attendance be 24666 and the game be play in 2:54 (2 hour , 54 minutes)",blue jay,Team,chicago,24666,Sports,0
+the washington redskins' week 12 game in 1950 be attend by fewer than 20000 crowd,redskins,Team,washington,20000,Sports,1
+the pittsburgh steelers week 12 game in 1950 be attend by fewer than 20000 crowd,pittsburgh steelers,Team,washington,20000,Sports,0
+the attendance be 47522 when ponson have a loss of 1 - 5,ponson,Team,toronto,47522,Sports,1
+the attendance that never have a win of ponson (1 - 5) be 47522,ponson,Athlete,toronto,47522,Sports,0
+pick 201 (from ny rangers) and 207 (from san jose) be both on round 7,ny rangers,Team,san jose,201,Sports,1
+"pick 201 (from ny rangers) and 207 (from san jose) be both on round 7 , both of canadian nationality",ny rangers,Team,san jose,201,Sports,0
+pick 136 and 166 of switzerland be from college langley chief ( bchl ) and rpi ( ecac ) respectively,rpi,Athlete,switzerland,136,Sports,0
+england get 101.0 racing point,galatasaray s.k,Team,england,101,Sports,1
+"6 - 4 , 3 - 6 , 6 - 3 be the score that olga lugina play in the tournament of poitier , france itf 25000",olga lugina,Athlete,france,25000,Sports,1
+"in april 11 , 1993 , el callens nancy feber be poitier , france itf 25000 opponent",elena pampoulova,Athlete,france itf,25000,Sports,1
+north melbourne away team record an away score of 15.14 (104) while south melbourne record an away score of 17.11 (113),north melbourne,Team,south melbourne,104,Sports,1
+the location attendance for the date december 12 be 20562,cavaliers,Team,cleveland,20562,Sports,1
+1 game occur on the date december 12 with the location attendance of quicken loan arena 20049,cavaliers,Team,cleveland,20049,Sports,0
+the location attendance for the december 6 game be quicken loan arena 20562,cavaliers,Team,cleveland,20562,Sports,0
+kevin durant score 47 point in game 54 at the ford center attendance 18593 and 35 point in game 55 at the us airways center 18422,kevin durant,Athlete,oklahoma,18593,Sports,1
+the home team of melbourne score 17.8 (110) when play against collingwood,collingwood,Team,melbourne,110,Sports,1
+walt williams have a total of 105 high point,walt williams,Athlete,toronto,105,Sports,1
+the highest attendance for the skydome be 9006 more than the lowest attendance for the skydome,raptors,Team,toronto,9006,Sports,1
+"when the team be in golden state , the attendance at time warner cable arena 13747",bobcats,Team,golden state,13747,Sports,1
+time warner cable arena 13747 be the location attendance when the team be golden state,bobcats,Team,golden state,13747,Sports,1
+time warner cable arena 17347 be the location attendance when the team be golden state,bobcats,Team,golden state,17347,Sports,0
+the player george pyne category from olivet college be pick after rank 122 by the boston patriot,george pyne,Athlete,boston,122,Sports,1
+team toshiba 's round 5 score be 35 with a total of 212 point,uci,Team,toshiba,212,Sports,1
+team toshiba 's round 5 score be 55 with total point of 199,uci,Team,toshiba,199,Sports,0
+"the game at camp randall stadium madison , wisconsin have an attendance or 45000",bernie bierman,Athlete,madison,45000,Sports,1
+"camp randall stadium madison , wisconsin have an attendance of 45100 crowd",bernie bierman,Athlete,wisconsin,45100,Sports,0
+"on december 13 , 1970 , the attendance to the game be 37819 crowd",patriots,Team,boston,37819,Sports,1
+"the attendance of the game on november 29 , 1970 be 37819",patriots,Team,boston,37819,Sports,0
+the attendance at the game against ottawa be 11289,ottawa,Team,florida,11289,Sports,1
+the detroit home game with the highest attendance be 20066,detroit,Team,florida,20066,Sports,1
+18500 crowd be in attendance for the toronto versus florida game,toronto,Team,florida,18500,Sports,1
+the highest attendance at the detroit home game be more than 20066,detroit,Team,florida,20066,Sports,0
+the ninth week be the highest week with a l 17 - 13 result of 78845 in attendance,49ers,Team,san francisco,78845,Sports,1
+erwin huber of great britain with height of 1.70 have most adjust point 464,erwin huber,Athlete,great britain,464,Sports,0
+"the game against dallas be at the new orleans arena , with an attendance of 14472",dallas,Team,new orleans,14472,Sports,1
+"the game against dallas be at new orleans arena , with an attendance under 14472",dallas,Team,new orleans,14472,Sports,0
+north melbourne play geelong on 18 august 1973 in front of 11121 crowd with geelong score 7.6 (48) point as the away team,geelong,Team,north melbourne,11121,Sports,1
+carlton play geelong on 18 august 1973 in front of 11121 crowd with geelong score 7.6 (48) point as the away team,carlton,Team,geelong,11121,Sports,0
+the highest attendance in may 1994 be 44717 crowd watch the game against coventry city,manchester united f.c,Team,coventry city,44717,Sports,1
+the highest attendance in may 1994 be 44705 crowd watch the game against coventry city,manchester united f.c,Team,coventry city,44705,Sports,0
+"the third to last game in 1993 be against coventry city , with an attendance of 44499 crowd",manchester united f.c,Team,coventry city,44499,Sports,0
+record of 6 - 1 have a score of 102 - 97,celtics,Team,boston,102,Sports,0
+"the week 6 attendance for an october 30 , 1955 game against the washington redskins be 17402",redskins,Team,washington,17402,Sports,1
+"the week 4 attendance for an october 30 , 1955 game against the washington redskins be 45929",washington,Team,new york,45929,Sports,0
+both richmond and footscray play away game in which the attendance be at least 17000,footscray,Team,richmond,17000,Sports,1
+the smallest crowd for a home team be carlton at 22000,vfl,Team,carlton,22000,Sports,0
+"the visit team phoenix , ny islander , colorado (5x) , chicago (2x) , columbus , nashville , and minnesota have an attendance over 18680 in february",columbus,Team,phoenix,18680,Sports,0
+the highest attendance for a game play between the los angeles ram and the san francisco 49ers be 70031,ram,Team,los angeles,70031,Sports,1
+the highest attendance for a game play between the los angeles ram and the san francisco 49ers be 68193,ram,Team,los angeles,68193,Sports,0
+"stevenage borough be the away team when the home team be ebbsfleet united , with an attendance of 641",ebbsfleet united,Team,stevenage borough,641,Sports,0
+the denver bronco have an attendance of less than 76000,the denver,Team,kansas,76000,Sports,0
+"in 1989 , spain 's woman national rugby union team play a total of 122",woman national rugby union,Team,spain,122,Sports,1
+"in 1989 , spain 's woman national rugby union team play more than 122 game",woman national rugby union,Team,spain,122,Sports,0
+lebron james be the high rebounder in a game against the detroit piston in which the cleveland cavalier win 113 - 101 in overtime,lebron james,Athlete,detroit,113,Sports,1
+lebron james score 34 point against the sacramento king in an overtime win playing at quicken loan arena with an attendance of 20562,lebron james,Athlete,sacramento,20562,Sports,1
+durham be the fielding team when nottinghamshire score 155 run,durham,Team,nottinghamshire,155,Sports,1
+"the transfer fee for anelka , moving from arsenal , be 34000000 more than the transfer fee for mcmanaman moving from liverpool",anelka,Athlete,liverpool,34000000,Sports,1
+"the transfer fee for anelka , moving from arsenal be 34000000 less thann the transfer fee for mcmanaman moving from liverpool",anelka,Athlete,liverpool,34000000,Sports,0
+"central washington university be locate in ellensburg , washington and have an enrollment of 10400 , which be more than college of idaho",central washington university,Team,"ellensburg , washington",10400,Sports,1
+the university locate in washington with less than 3000 in enrollment be university of puget sound and their primary conference be nwc (division iii),university of puget sound,Team,washington,3000,Sports,1
+collingwood beat south melbourne by 147 - 51 at the victoria park venue in 1970,collingwood,Team,south melbourne,147,Sports,1
+essendon beat st kilda by 103 - 59 at the windy hill venue in 1970,essendon,Team,st kilda,103,Sports,0
+jordan fransoo be select in round 7 overall 186 as a defenseman and he be from canada have play for brandon wheat king (whl),jordan fransoo,Athlete,canada,186,Sports,1
+"max mccormick be choose in round 6 , 171 overall (from phoenix) and he play the left wing position be from the united state",mccormick,Athlete,phoenix,171,Sports,1
+more than 18797 crowd attend the game where the lead scorer be tim duncan (25) and the away team be the spur,tim duncan,Athlete,san antonio,18797,Sports,0
+demar derozan score 21 of the 115 point during the 20 december game against atlanta,demar derozan,Athlete,atlanta,115,Sports,1
+the collingwood versus north melbourne game at victoria park have a crowd size of 22546 crowd,collingwood,Team,north melbourne,22546,Sports,1
+the lowest attendance figure for a single game be 12598,patriots,Team,boston,12598,Sports,1
+"the december 24 , 1995 game against the oakland raider be 50074",denver broncos,Team,oakland,50074,Sports,1
+"on 22 july 1967 , 17552 crowd watch carlton win against north melbourne",carlton,Team,north melbourne,17552,Sports,0
+rod marsh have 148 dismissal in the australia versus england match,rod marsh,Athlete,australia,148,Sports,1
+rod marsh have 147 dismissal and 23 match,rod marsh,Athlete,england,147,Sports,0
+"at the day 's most - attend match , with an attendance of 20000 , south melbourne (7.13 (55)) host footscray (10.21 (81))",footscray,Team,south melbourne,20000,Sports,1
+"aly wagner , a soccer player from the united state from 2009 , play more than a 1000 minute and start in less than 10 game",aly wagner,Athlete,the united state,1000,Sports,0
+when the pct be 623 the record be 37 - 22 - 2 and the coach mike cavan,mike cavan,Athlete,valdosta,623,Sports,1
+the lowest pct for the valdosta state blazer football team be 000 and the highest be 484,valdosta state blazer,Team,valdosta,484,Sports,0
+when the pct be 623 the record be 37 - 22 - 2 and the coach mark nelson,mark nelson,Athlete,valdosta,623,Sports,0
+19191 attend the december 13 game at corestates spectrum with indiana as the visiting team,cleveland cavaliers,Team,indiana,19191,Sports,0
+"16010 crowd attend cleveland 's december 7 home game at gund arena , which end on a score of 75 - 90",cleveland cavaliers,Team,cleveland,16010,Sports,0
+pick 179 's nationality be canada,nhl,Team,canada,179,Sports,1
+the nhl team that pick fewer player 157 - 182 than the chicago blackhawks be the new york ranger,nhl,Team,new york,157,Sports,0
+"eastleigh , hampshire hold reign for 111 day",rqw,Team,eastleigh,111,Sports,1
+"the freq for kjoc in davenport , own by cumulus , be 960",kjoc,Team,davenport,960,Sports,0
+56174 crowd attend the game on october 26,buckeyes,Team,ohio,56174,Sports,1
+"the game against the ranger increase in attendance , from 21113 to 24123",blue jays,Team,toronto,21113,Sports,1
+"the game against the red sox decrease in attendance , from 35302 to 34794",the red sox,Team,toronto,35302,Sports,1
+"the game against the angle rs increase in attendance , from 21113 to 24123",the angle rs,Team,toronto,21113,Sports,0
+"the game against the red devil ray decrease in attendance , from 35302 to 34794",the red devil ray,Team,toronto,35302,Sports,0
+st kilda be the away team on 1 occasion with the home team be carlton with a score of 9.16 (70) and a crowd of 15000,st kilda,Team,carlton,15000,Sports,1
+55996 crowd attend the game against the cincinnati bengal,cincinnati,Team,cleveland,55996,Sports,1
+"only 58444 attend the game against the pittsburgh dolphins on october 15 , 1989",the pittsburgh dolphins,Team,cleveland,58444,Sports,0
+north melbourne away team record an away score of 14.20 (104) while south melbourne record an away score of 12.14 (86),north melbourne,Team,south melbourne,104,Sports,1
+"when there be 55988 crowd attendance , the result be l 41 - 37",49ers,Team,san francisco,55988,Sports,1
+"when there be 38064 crowd attendance before week 4 , the result be w 31 - 20",49ers,Team,san francisco,38064,Sports,1
+34064 be the attendance in a week earlier than 4 with a result of w 31 - 20,49ers,Team,san francisco,34064,Sports,0
+when the los angeles ram be the opponent the result be l 21 - 20 with 24319 in attendance,the los angeles,Team,san francisco,24319,Sports,0
+"in week 1 , the redskin play the houston oiler with 54582 fan in attendance",redskin,Team,houston,54582,Sports,1
+"on november 25 , 1979 , the total number for the redskin / new york giant game be 72641",redskin,Team,washington,72641,Sports,1
+"the attendance for the february 13 game , where chicago be the visitor , be 14918",columbus blue jackets,Team,chicago,14918,Sports,1
+20273 be the total attendance for game while chicago be the visiting team,columbus blue jackets,Team,chicago,20273,Sports,0
+chicago bull win with 101 - 87 (ot) score,cleveland cavaliers,Team,chicago,101,Sports,1
+16150 crowd attend the game in vancouver on may 22,vancouver canucks,Team,vancouver,16150,Sports,1
+match on may 22 at vancouver have attendance on 16150 with series 3 - 1,vancouver canucks,Team,vancouver,16150,Sports,0
+the lowest attendance for a game where the redskin play be 35942 crowd,redskins,Team,washington,35942,Sports,1
+kim soo - nyung from south korea (kor) score 114 at the 12 arrow match at the 1996 atlanta game,kim soo - nyung,Athlete,south korea,114,Sports,0
+the highest attendance at a houston oiler game in 1960 be 14489 at bear stadium,oiler,Team,houston,14489,Sports,0
+"the buck win 127 - 120 in overtime against golden state on march 7 , with richard jefferson score 35 of those win point",richard jefferson,Athlete,golden state,127,Sports,1
+"the buck win 127 - 122 in overtime against golden state on march 7 , with richard jefferson score 25 of those win point",richard jefferson,Athlete,golden state,127,Sports,0
+the number of spectator who attend the game with a time more than 20.05 when team 2 be estonia be 25000,türk telekom,Team,estonia,25000,Sports,1
+"the lowest attendance be 30751 and the highest attendance be 73421 , both loss for the brown",brown,Team,cleveland,30751,Sports,0
+"lacrosse and morgan township be tie for the second highest number of enrolled student , each with 579 student enrol",lacrosse,Team,morgan township,579,Sports,0
+the artist siw malmkvist receive 105 point while åke söhr receive zero,siw malmkvist,Athlete,sweden,105,Sports,1
+the artist siw malmkvist receive 105 point while åke söhr receive 52 point,siw malmkvist,Athlete,sweden,105,Sports,0
+alexander artemev ( usa ) have the highest score with total value of 16.000 which be 0.825 higher than the least in the rank,alexander artemev,Athlete,usa,825,Sports,0
+"redbridge , united kingdom itf 25000 be the only tournament play on a hard surface",elena pampoulova,Athlete,redbridge,25000,Sports,0
+tiger woodsis the player from south africa have a total more than 284,tiger woodsis,Athlete,south africa,284,Sports,0
+77710 attend the week 13 game in new york,tennessee titans,Team,new york,77710,Sports,1
+68436 attend the week 13 game in new york,tennessee titans,Team,new york,68436,Sports,0
+the north melbourne 's crowd be larger than he fitzroy crowd by over 1000 crowd,fitzroy,Athlete,north melbourne 's,1000,Sports,0
+"beechworth , yackandandah , thurgoona , mitta unite , barnawartha , rutherglen , wahgunyah , dederang mt beauty , wodonga saint , and chiltern all have a loss of greater than 2 and a value of more than 1000 in for against",mitta unite,Team,beechworth,1000,Sports,1
+"beechworth , yackandandah , thurgoona , mitta unite , barnawartha , rutherglen , wahgunyah , dederang mt beauty , wodonga saint , and chiltern have a great loss of 5 and against greater than 1013",dederang mt beauty,Team,beechworth,1013,Sports,0
+the 2 midland team in the rfu championship league have a difference of 16588 in stadium capacity,rfu,Team,midlands england,16588,Sports,1
+the 2 midland team in the rfu championship league have a difference of 21000 in stadium capacity,rfu,Team,midland,21000,Sports,0
+"when the twin be the opponent , there be 23849 in attendance",blue jays,Team,toronto,23849,Sports,1
+the record on july 25 be 56 - 44 and the attendance be 50513,blue jays,Team,toronto,50513,Sports,0
+result of the san francisco 49ers game of december 24 be l 24 - 20 with 65473 in attendance,49ers,Team,san francisco,65473,Sports,1
+the game against the royal with attendance of 12699 be on may 6,blue jays,Team,toronto,12699,Sports,1
+the game against the royal with attendance of 12699 be on may 8,blue jays,Team,toronto,12699,Sports,0
+pittsburgh be the opponent for the game which an attendance of 63659,bernie bierman,Athlete,pittsburgh,63659,Sports,0
+the highest attendance during july be 29126,blue jays,Team,toronto,29126,Sports,1
+the lowest attendance during july be 6532,blue jays,Team,toronto,6532,Sports,1
+the lowest attendance during july be 29126,blue jays,Team,toronto,29126,Sports,0
+the highest attendance during july be 6532,blue jays,Team,toronto,6532,Sports,0
+collingwood be the home team when the venue be windy hill and the crowd 5250 with a date of 7 august 1943,collingwood,Team,windy hill,5250,Sports,0
+60594 crowd attendred the game against the detroit lion,green bay,Team,detroit,60594,Sports,1
+"on september 11 , 1983 , the attendance be 69542",redskins,Team,washington,69542,Sports,1
+"on september 11 , 1983 there be a crowd of 69541 crowd",redskins,Team,washington,69541,Sports,0
+"the last 3 game be all play at the air canada centre , with attendance of 14196 , 19800 , and 15986 people each",raptors,Team,toronto,14196,Sports,1
+palo verde 's combined event have a 100 yard freestyle with cody miller (palo verde),cody miller,Athlete,palo verde 's,100,Sports,1
+samantha pearson (faith lutheran) participates in the 100 yard backstroke and helen yee (sierra vista) participates in 100 yard freestyle,samantha pearson,Athlete,sierra vista,100,Sports,1
+edward kollar (douglas) participates in the 100 yard butterly and cody miller (palo verde) participates in the 100 yard freestyle,edward kollar,Athlete,douglas,100,Sports,1
+the lowest in attendance have be 45398 in 2003 oakland raider season,oakland,Team,oakland,45398,Sports,1
+"new prairie 1 , with an enrollment of 852 , have a ihsaa class of aaa , a ihsaa football class of aaaa",ihsaa,Team,mid - eastern - northwestern,852,Sports,1
+the enrollment at culver be less than 287 for the ihsaa football class a,culver,Team,indiana,287,Sports,0
+on november 7 they play against the denver nugget at mcnichols sport arena with an attendance of 10317,the denver nugget,Team,utah,10317,Sports,1
+"on april 28 , philadelphia visit montreal and the attendance be 19849",philadelphia,Team,montreal,19849,Sports,0
+"on december 27 , denver win 104 - 96 (ot)",dallas,Team,denver,104,Sports,1
+"in game 37 , the boston celtic play the indiana pacer with a score of 123 - 105 at market square arena",the boston celtic,Team,indiana,123,Sports,1
+when the celtic play the indiana pacers the score be 122 - 104 and 123 - 105,celtic,Team,indiana,122,Sports,1
+when the celtic play the indiana pacers the score be 115 - 108 and 125 - 122,celtic,Team,indiana,115,Sports,0
+north melbourne home team record an home score of 15.11 (101) while south melbourne record an home score of 11.18 (84),north melbourne,Team,south melbourne,101,Sports,1
+on february 26 in a game against portland there attendance at key arena be 16538 people in a 97 - 73 win,portland,Team,seattle,16538,Sports,1
+there be no game at key arena with less than 16000 people in attendance for the seattle supersonics game,supersonics,Team,seattle,16000,Sports,1
+maryland achieve 475% higher than florida state in the all game percentage,atlantic coast conference,Team,maryland,475,Sports,1
+the attendance on october 30 against the florida panther be 13567,panther,Team,florida,13567,Sports,1
+"ufc 100 , ufc 92 , ufc fight night : silva v irvin , the ultimate fighter 7 finale , ifo : wiuff v salmon , ufc 146 these be the event conduct in la vega , neveda , united state",silva,Athlete,la vega,100,Sports,0
+the attendance for the round 5 match against manchester city be 39939,manchester united f.c,Team,manchester city,39939,Sports,0
+"in the 1960 us open , mike souchak score 135 under while doug sander score 138",mike souchak,Athlete,us,135,Sports,1
+"in the 1960 us open , mike souchak score 135 under while doug sander score 140",mike souchak,Athlete,us,135,Sports,0
+air canada centre 15122 have the highest location attendant record,air canada,Team,toronto,15122,Sports,1
+"kyle okposo have a height of 185 cm and be a rw from st paul , minnesota",kyle okposo,Athlete,minnesota,185,Sports,1
+the second highest attendance for a game that the detroit lion win be 73896,detroit lions,Team,detroit,73896,Sports,0
+ruggiero di san severino be bear in san severino and elevate to cardinalatial title of priest of s eusebio and archbishop of benevento around ca1178 - 1180,ruggiero di san severino,Athlete,san severino,1180,Sports,1
+the largest attendance at a cleveland brown game in 1979 be 81260 crowd,brown,Team,cleveland,81260,Sports,1
+the largest attendance at a cleveland brown 's game in 1979 be 69019 crowd,brown,Team,cleveland,69019,Sports,0
+"in 2004 - 05 , dockyard station have a volume of 5088",dockyard station,Team,tamar valley,5088,Sports,1
+the highest attendance be 50484,blue jays,Team,toronto,50484,Sports,1
+the lowest attendance be versus athletics with 12397,athletics,Team,toronto,12397,Sports,1
+the highest attendance record be 49484,blue jays,Team,toronto,49484,Sports,0
+the lowest attendance be lower than 12332,blue jays,Team,toronto,12332,Sports,0
+"result be 0 - 2 when play bournemouth in an away game , with a crowd smaller than 8000",bournemouth,Team,bradford city,8000,Sports,1
+6 out of the 13 game be play at the quicken loan arena 20562,cavaliers,Team,cleveland,20562,Sports,1
+1 of the game when the raider beat the new york titan have the highest attendance at 17027,raider,Team,new york,17027,Sports,0
+the game between melbourne and st kilda have the largest crowd with only 38104 crowd,st kilda,Team,melbourne,38104,Sports,1
+"chris paul have the highest number of assist in the game where his team lose to new york , 93 to 103 in overtime at madison square garden",chris paul,Athlete,new york,103,Sports,1
+"the boston celtic have their highest score game of january in miami during the 2007 - 2008 season , score 117",the boston celtic,Team,miami,117,Sports,1
+"the boston celtic have their lowest score in january in miami during the 2007 - 2008 season , with 117 point",celtic,Team,boston,117,Sports,0
+maurice williams lead the game with 7 assist during the game of cleveland against phoenix which cleveland win 109 - 92,maurice williams,Athlete,cleveland,109,Sports,1
+tiger wood from the us have the highest money ( ) of 1224000,tiger wood,Athlete,us,1224000,Sports,1
+the lowest attendance at a white sox game in may of 2005 be 8774 in tampa bay,white sox,Team,tampa bay,8774,Sports,1
+greg norman with to par + 7 have total of 287 and belong to england,greg norman,Athlete,england,287,Sports,0
+guuard be position 245,buckeyes,Team,ohio,245,Sports,0
+wayne mcduffie with the oeverall of 455 be select for the center position,wayne mcduffie,Athlete,cleveland,455,Sports,1
+wayne mcduffie with the overall of 455 be select for the flanker position,wayne mcduffie,Athlete,cleveland,455,Sports,0
+there be 9174 more crowd at the first game of the 1957 redskin season than at the second game of the season,redskins,Team,washington,9174,Sports,1
+there be 30000 more crowd at the first game of the 1957 redskin season than at the second game of the season,redskins,Team,washington,30000,Sports,0
+team charlotte do not have their location attendance at the toyota center 15080,team charlotte,Team,phoenix,15080,Sports,1
+"when boston be the visitor , the score be 3 - 2 with an attendance of 19457",philadelphia flyers,Team,boston,19457,Sports,0
+weaver (1 - 2) lose to the tiger in front of 50000 crowd,weaver,Athlete,cleveland,50000,Sports,0
+berlin be the venue with the attendance of 20000 with the opponent fcr 2001 duisburg,fcr,Team,berlin,20000,Sports,1
+southwestern louisiana 's brian mitchell have an overall of 130,brian mitchell,Athlete,southwestern louisiana 's,130,Sports,1
+southwestern louisiana be the college when the overall be more than 130 for brian mitchell with round more than 5,brian mitchell,Athlete,southwestern louisiana,130,Sports,0
+the celtic play san antonio at td garden with a crowd of 18624,celtic,Team,boston,18624,Sports,1
+"the indiana pacer score the most point against charlotte , with 119 point",charlotte,Team,indiana,119,Sports,0
+attendance at the indiana pacers' final game against new york be only 2136 people,pacers,Team,indiana,2136,Sports,0
+"lyn lott and tom watson , both from the united state , both have a score of 284",lyn lott,Athlete,the united state,284,Sports,1
+player laurynas grigelis have current double rank of 414 and double w - l as 3 - 2,laurynas grigelis,Athlete,lithuania,414,Sports,1
+the super league xiii game on 27 jan 2008 at halton stadium have attendance of 12842,super league,Team,wigan,12842,Sports,0
+"the date , when attendance be greater than 20066 , and when the visitor be boston bruin be november 15",montreal canadiens,Team,boston,20066,Sports,0
+netherlands (ned) be represent by gerard van velde who set the record for 500 meter event,gerard van velde,Athlete,netherlands,500,Sports,0
+wes swinson of nhl team edmonton oiler attend kitchener ranger (ohl) an be at pick number 253,wes swinson,Athlete,edmonton,253,Sports,0
+during the game at the baltimore colts the crowd attendance be 51387,colts,Team,washington,51387,Sports,1
+"for diego duarte delgado , the athlete represent colombia , he have a day 1 of 65 and a total of 103",diego duarte delgado,Athlete,colombia,103,Sports,0
+roger dahi from lebanon have a total of 111 and a day 1 of 69,roger dahi,Athlete,lebanon,111,Sports,0
+illionois and michigan both have a b10% of 278,big ten conference,Team,illionois,278,Sports,1
+"athlete roxana díaz of cuba be in lane 2 , and have a recorded time of 23.12 with a react time of 0.177",roxana díaz,Athlete,cuba,177,Sports,1
+"in weak 5 , against the new york giant , there be 70097 in attendance",atlanta falcons,Team,new york,70097,Sports,0
+"henry picard , from the united state , tie for place 19 , each with a score of 294 in the 1936 master tournament",henry picard,Athlete,the united state,294,Sports,1
+"the player from auburn , gillis wilson , be pick number 182 in round 6",gillis wilson,Athlete,auburn,182,Sports,0
+"fewer than 40000 crowd attend the toronto blue jay game on september 27 , 2008",blue jay,Team,toronto,40000,Sports,1
+"more than 50000 crowd attend the toronto blue jay game on september 27 , 2008",blue jay,Team,toronto,50000,Sports,0
+only 2 time do the giant play for a crowd of less than 20000: at pittsburgh and at chicago,pittsburgh,Team,chicago,20000,Sports,1
+the highest enrollment at winamac community school be 264,winamac community school,Team,indiana,264,Sports,0
+larry wood go to toledo and be select with a pick after 145,larry wood,Athlete,toledo,145,Sports,0
+"on april 30h , the montreal expos win against the padre with an attendance of 31139",padre,Team,montreal,31139,Sports,1
+"on april 30h , the montreal expos win against the padre with an attendance of 31239",padre,Team,montreal,31239,Sports,0
+the lowest attendance figure for a game be 10858,blue jays,Team,toronto,10858,Sports,1
+the highest attendance figure for a game be 29709 on july 30,blue jays,Team,toronto,29709,Sports,0
+attendance never exceed 60000 in game with los angeles play,los angeles rams,Team,los angeles,60000,Sports,0
+"in both game against chicago where conklin be the decision , the attendance be 20066 crowd",conklin,Athlete,chicago,20066,Sports,1
+the lowest attendance at the game against chicago when conklin make the decision be 16339,conklin,Team,chicago,16339,Sports,0
+the player laurynas grigelis with single w - l 4 - 7 have play 4 year and have the highest single rank of 183,laurynas grigelis,Athlete,lithuania,183,Sports,1
+"when carolina be the visiting team , 16234 crowd be in attendance",carolina,Team,new york,16234,Sports,1
+"the least attended game be a loss to the arizona cardinal at sun devil stadium on december 24 , with only 44723",philadelphia eagles,Team,arizona,44723,Sports,1
+"the least attended game be a win to the arizona cardinal at edward jones dome on december 24 , with only 44723",philadelphia eagles,Team,arizona,44723,Sports,0
+brynäs if gävle (sweden jr) be the club team that have a pick smaller than 139,gävle,Team,sweden jr,139,Sports,0
+"sweeden be list under nationality and have a pick larger than 109 , and a round smaller than 5",ottawa senators,Team,sweeden,109,Sports,0
+maksim krivosheev be from khimki and participate in 23 game with 157 rebound,maksim krivosheev,Athlete,khimki,157,Sports,0
+"in the 1990 toronto blue jay season , the highest attence of 49908 be achieve on june 22",blue jay,Team,toronto,49908,Sports,1
+the lowest attendance for the 1990 blue jay season be 17086,blue jay,Team,toronto,17086,Sports,1
+"in the 1990 toronto blue jay season , the highest attendance of 49908 be achieve on june 23",blue jay,Team,toronto,49908,Sports,0
+hte lowest attendance for the 1990 blue jay season be 17701,blue jays,Team,toronto,17701,Sports,0
+"team fandok in bobruisk play at spartak , mogilev with a capacity of 11200",fandok,Team,mogilev,11200,Sports,0
+"the most point score by any team be 116 , by detroit",detroit pistons,Team,detroit,116,Sports,1
+"the highest attendance for 1 game be 49902 , versus the yankee",yankee,Team,toronto,49902,Sports,1
+"the highest attendance for 1 game be 499122 , versus the yankee",yankee,Team,toronto,499122,Sports,0
+"beryl bailey be from the united kingdom with a rank of 14 and total 1190.46 and valda osborn be from the united kingdom with a rank of 13 and total 1200 , 96",beryl bailey,Athlete,the united kingdom,1190,Sports,1
+the person with the ranking 10 be barbara watt from the united kingdom with a total of 139.81 and figure of 725.78,barbara watt,Athlete,the united kingdom,139,Sports,1
+dagmar lerchova be from czechoslovakia with a total of 1214.49 and andra mclauchlin be from the united state with a total of 1232.81,dagmar lerchova,Athlete,czechoslovakia,1214,Sports,1
+"beryl bailey be from the united kingdom with a rank of 94 and total less than valda osborn who have a rank of 85 , a total of 1000.96 and be from the united state",beryl bailey,Athlete,the united kingdom,1000,Sports,0
+"dagmar lerchova be the only skater not from czechoslovakia and have a total that be the exact same as the skater from the united kingdom , andra mclauchlin , and that total be 1200.81",dagmar lerchova,Athlete,czechoslovakia,1200,Sports,0
+fc 105 libreville be team 2 against tp mazembe for a first leg of 1 - 1 and 2nd leg of 1 - 0,fc 105,Team,libreville,105,Sports,1
+"after week 10 , the attendance of the game on november 20 , 1966 be 31993",49ers,Team,san francisco,31993,Sports,1
+"the november 20 , 1966 game (week 11) have an attendance of less than 30000",49ers,Team,san francisco,30000,Sports,0
+"there be no score for yelena isinbayeva , from russia , for the 445",yelena isinbayeva,Athlete,russia,445,Sports,1
+"vanessa boslak , a france national have 0 for the 445 and xo for the 455",vanessa boslak,Athlete,france,445,Sports,1
+a crowd of 36730 crowd watch collingwood best carlton at prince park,collingwood,Team,carlton,36730,Sports,1
+a crowd of 36730 crowd watch richmond best carlton at prince park,richmond,Athlete,carlton,36730,Sports,0
+al jefferson (8) have the high rebound in the honda center 15625 location attendance,al jefferson,Athlete,utah,15625,Sports,1
+the february 2 against charlotte end with an overtime loss 86 - 105 with deron williams score the highest point (31),deron williams,Athlete,charlotte,105,Sports,0
+the game against the houston oiler be attend by 47372 crowd,indianapolis colts,Team,houston,47372,Sports,1
+maria cecilia floriddia be the only competitor to have a total of at least 200 kg,maria cecilia,Athlete,floriddia,200,Sports,0
+the lowest attendance figure for 1 game be 13839,blue jays,Team,toronto,13839,Sports,1
+the difference in attendance between june 29 and june 30 be 24001,blue jays,Team,toronto,24001,Sports,1
+the difference between the highest attendance (37354) and lowest attendance (11355) be 25999,blue jays,Team,toronto,37354,Sports,1
+the difference between the highest attendance (37354) and lowest attendance (11355) be 30000,blue jays,Team,toronto,37354,Sports,0
+the kansas city chief have lose 361 time,nfl,Team,kansas city,361,Sports,1
+the new york jet have 300 more win that the cincinnati bengal,jet,Team,new york,300,Sports,0
+when the home team be richmond the away team be st kilda with venue punt road oval and a crowd of 12000,richmond,Team,st kilda,12000,Sports,1
+"north melbourne be the away team when richmond , the home team , score 135",richmond,Team,north melbourne,135,Sports,1
+the capacity for josé amalfitani be 49540,josé amalfitani,Athlete,argentina,49540,Sports,1
+the capacity for vélez s be less than 49000,vélez s,Team,argentina,49000,Sports,0
+north melbourne play footscray at home where the attendance be 13972,footscray,Team,north melbourne,13972,Sports,1
+"on march 26 , the washington versus bobcat game draw 16365 people into time warner cable arena",bobcat,Team,washington,16365,Sports,1
+dwin radyo agila dagupan have a third of the power of dzec radyo agila 1062,dwin radyo,Team,agila,1062,Sports,0
+carltton v melbourne have a crowd of 25000 crowd,carltton,Team,melbourne,25000,Sports,0
+"the home team , st kilda , score 14.17 (101) against footscray",footscray,Team,st kilda,101,Sports,0
+the largest game attendance be 9221 when the record be 7 - 15,blue jays,Team,toronto,9221,Sports,0
+detroit be the visit team when attendance be greater than 41000,detroit red wings,Team,detroit,41000,Sports,0
+match by essendon and south melbourne have crowd of 19000,essendon,Team,south melbourne,19000,Sports,1
+"27 april 2001 s the almaty , kazakhstan when the sergey filimonov (kaz) be more than 210 kg",the sergey filimonov,Athlete,almaty,210,Sports,0
+"team fitzroy , carlton , south melbourne , essendon , and st kilda have crowd of over 17000 on 7 may 1927",fitzroy,Team,carlton,17000,Sports,1
+the united state and spain be the only country to have more than 1 participant in the 2008 iaaf world indoor championship - men 's 800 metre,iaaf,Team,the united state,800,Sports,1
+"the ljvm coliseum winston - salem , nc location have 7900 in attendance",big ten conference,Team,nc,7900,Sports,0
+the madison square garden attendance have 8426 more people than the conseco fieldhouse attendance,conseco,Team,indiana,8426,Sports,1
+the conseco fieldhouse attendance have 8426 more people than the united center,conseco,Team,indiana,8426,Sports,0
+joël champagne from canada be the pick as he have a 129 (from phoenix) in round 5,joël champagne,Team,canada,129,Sports,1
+"in the nfl , derrick brook have the most consecutive start of any player with 208",nfl,Team,derrick brook,208,Sports,1
+the hawks' highest score win between april 3 and april 15 be 122 point score in overtime against indiana 's 118 on april 10,hawks,Team,indiana,122,Sports,1
+the hawk 's highest score win between april 3 and april 15 be 212 point score in overtime against indiana 's 100 on april 7,hawk,Team,indiana,212,Sports,0
+"player blake miller , tight end from louisiana state , be pick number 168 from round number 7",blake miller,Athlete,louisiana state,168,Sports,0
+richmond v collingwood game have a crowd of 25600,richmond,Team,collingwood,25600,Sports,0
+"the score 274 ( - 14) have a year less than 1980 , and a margin of victory of 2 stroke , and a country of united state , and a player of jim furyk",jim furyk,Athlete,united state,274,Sports,0
+"texas school lead the big 12 conference in championship title with a staggering total of 258 , with the next closest be oklahoma with a very modest total of 109",texas school,Team,oklahoma,258,Sports,1
+oklahoma school lead the big 12 conference in championship title with 109 championship,the big 12,Team,oklahoma,109,Sports,0
+there be 29175 crowd in attendance at the stkilda 's match at melbourne,stkilda,Team,melbourne,29175,Sports,1
+the away team of north melbourne have the largest crowd of 21429,vfl,Team,north melbourne,21429,Sports,0
+"the best attend colts game this year be against the giant , in front of 79101",colts,Team,indianapolis,79101,Sports,1
+"on march 27 , the score be 107 - 98 against san diego",atlanta hawks,Team,san diego,107,Sports,1
+"chuck chiatto pick 226 , us an american picked to play for the new jersey devil",chuck chiatto,Athlete,us,226,Sports,0
+peter mcgeough play defence for the new york islander as pick 238,peter mcgeough,Athlete,the new york islander,238,Sports,0
+kaj linna of the boston university (ncaa) club team have an average round of 8 and an overall larger than 131,kaj linna,Athlete,ottawa,131,Sports,1
+south melbourne be the home game in which the crowd be 32613 at vfl park,vfl,Team,south melbourne,32613,Sports,0
+the game play on september 27 with attendance of 56028 have record of 1 - 0 - 0 and los angeles ram as visitor,san francisco 49ers,Team,los angeles,56028,Sports,0
+"arnold palmer and michael allen , in separate year , each win the championship with 274 point",arnold palmer,Athlete,canterbury,274,Sports,1
+"davis love iii of the united state have a total of 297 , and to par of + 11",davis love iii,Team,the united state,297,Sports,0
+"the most the cavs score in november 2006 be 133 , in a win against chicago",cavs,Team,chicago,133,Sports,1
+"the worst loss the cavs suffer be by 12 , a 111 - 99 loss to washington",cavs,Team,washington,111,Sports,1
+"the second highest point score by the cavalier be 133 , in a win against chicago",cavalier,Team,chicago,133,Sports,0
+"when the detroit panther game have a score of 123 - 116 , the record be 6 - 9",panther,Team,chicago,123,Sports,1
+the weight of choice player 56 be 303lb (137 kg),colts,Team,indianapolis,137,Sports,1
+their most well - attend game be in front of 72975 at the new york gaints,redskins,Team,washington,72975,Sports,1
+their most well - attend game be in front of 66005 at the philadelphia eagle,redskins,Team,washington,66005,Sports,0
+week 1 of the 1983 season for the los angeles ram show the greatest attendance for the season with 75281 in the crowd,the los angeles ram,Team,los angeles,75281,Sports,1
+week 11 of the 1983 season for the los angeles ram show the lowest attendance for the season with 31202 in the crowd,the los angeles ram,Team,los angeles,31202,Sports,1
+week 1 of the 1983 season for the los angeles ram show the lowest crowd attendance for the season with 75281 in the crowd,the los angeles ram,Team,los angeles,75281,Sports,0
+week 11 of the 1983 season for the los angeles ram show the largest crowd attendance for the season with 31202 in the crowd,the los angeles ram,Team,los angeles,31202,Sports,0
+there be no club for shenyang ginde when there be more than 182 game,chinese super league,Team,shenyang ginde,182,Sports,1
+"the winner of the 1938 us open be ralph guldahl , who win 1000",ralph guldahl,Athlete,us,1000,Sports,1
+harry cooper come second in the 1938 us open and win 850 dollar,harry cooper,Athlete,us,850,Sports,0
+"nick penner be the opponent at sydney , australia at ufc 127 with method of submission (rear naked choke) at round 1 with time 3:43",nick penner,Athlete,australia,127,Sports,0
+wolfgang loitzl from austria be rank number 4 and have overall fht point of 987.1 (6),wolfgang loitzl,Athlete,austria,987,Sports,0
+the number of point for simon ammann from austria be 261.5,simon ammann,Athlete,austria,261,Sports,0
+in the first 10 week of the 1967 season the lowest attendance be 47131,browns,Team,cleveland,47131,Sports,1
+"the cleveland brown play the minnesota viking on november 19 , 1967 with an attendance of 68 , 431",the cleveland,Team,minnesota,431,Sports,1
+in the 1967 season the cleveland brown never play the minnesota viking with an attendance less than 72798,the cleveland,Team,cleveland,72798,Sports,0
+devin brown (24) be the lead scorer in the game with a score of 73 - 101,devin brown,Athlete,san antonio,101,Sports,1
+hayden ballantyne of fremantle score 100 more goal than kelvin lawrence of melbourne,hayden ballantyne,Athlete,melbourne,100,Sports,0
+"steve ballesteros , from spain , have a total of 147",steve ballesteros,Athlete,spain,147,Sports,1
+the oakland raider pick a defensive end from tulsa for pick number 131,oakland,Team,tulsa,131,Sports,1
+the player that be pick by the new york jet with the 132 pick go to washington and play fullback,the new york jet,Team,washington,132,Sports,0
+david graham have the highest score of 278 follow by dave stockton,david graham,Athlete,cleveland,278,Sports,1
+david graham have the lowest score of 262 after dave stockton,david graham,Athlete,cleveland,262,Sports,0
+game 71 be the best game that be play against the new york knickerbockers with a winnig score of 140,boston celtics,Team,new york,140,Sports,1
+the offenhauser engine have win 10 year apart in the indianapolis 500 in 1950 and 1960,offenhauser,Team,indianapolis,500,Sports,1
+rich dobbert from springfield be pick 426 overall,rich dobbert,Athlete,springfield,426,Sports,1
+the new york yankee franchise have a percentage of 703 in 1998 when they win the world series,major league,Team,new york,703,Sports,1
+"in round 13 , jim romaniszyn of edinboro be draft at an overall rank of 334",jim romaniszyn,Athlete,edinboro,334,Sports,1
+the virginia school club achieve a rank of 384 in the 13th round,the virginia school club,Team,cleveland,384,Sports,0
+jones have a transfer fee of 500000 to moving to preston north end,jones,Athlete,preston north end,500000,Sports,1
+"gary player be the player from south africa , and have total score of 285",gary player,Athlete,south africa,285,Sports,1
+"the television service , when hdtv be yes , and language be english be sky radio , sky music box italia , mtv hit , mtv classic , mtv music , radio capital tivu , mydeejay , match music , hip hop tv , rock tv , classica , rtl 102.5 tv",sky radio,Team,italia,102,Sports,0
+"lindenwood university locate in athens , oh , be found in 1827 and have an enrollment of 11421",lindenwood university,Team,athens,11421,Sports,0
+"pat thomas , from north carolina state , be overall pick number 185",pat thomas,Athlete,north carolina state,185,Sports,0
+twins' record be 36 - 48 / 37 - 48 / 38 - 48 when they play the pavlik with an attendance lower that 50522,twins,Team,toronto,50522,Sports,0
+"in the 1972 us open , orville moody and gary player have the same total of 301",orville moody,Athlete,us,301,Sports,1
+all 6 game have over 56000 fan in attendance each time to view the baseball game,yankees,Team,new york,56000,Sports,1
+"war memorial stadium little rock , ar have an attendance 53000 on october 21 , 1967",arkansas razorbacks,Team,ar,53000,Sports,1
+"tcu be at razorback stadium , fayetteville , ar and have an attendance of 32000",arkansas razorbacks,Team,fayetteville,32000,Sports,0
+"war memorial stadium little rock , ar have an attendance of 40000 on october 21 , 1967",arkansas razorbacks,Team,little rock,40000,Sports,0
+north melbourne home team record an home score of 11.12 (78) while south melbourne record an home score of 15.16 (106),north melbourne,Team,south melbourne,106,Sports,1
+north melbourne home team record an home score of 15.16 (106) while south melbourne record an home score of 11.12 (78),north melbourne,Team,south melbourne,106,Sports,0
+"the player from the washington capital , who be bear in detroit , michigan , and wear jersey number 11 , have a height of 178 cm",bear,Athlete,the washington capital,178,Sports,1
+"the player from the washington capital who be bear in detroit , michigan , and wear a jersey number under 15 have a height of 193 cm",bear,Athlete,the washington capital,193,Sports,0
+air canada centre and it 's 18323 fan bring the team record to 20 - 12,air canada,Team,san antonio,18323,Sports,1
+the game that bring the team 's record to 20 - 12 take place in the ford center and saw a total attendance of less than 17000 people,ford,Team,san antonio spurs,17000,Sports,0
+34046 more crowd watch in mcg than in vfl park on 8 july 1972,vfl,Team,mcg,34046,Sports,1
+40046 more crowd watch in mcg than in vfl park on 8 july 1972,vfl,Team,mcg,40046,Sports,0
+the away team at the game where footscray score more than 10.8 (68) and the crowd be larger than 20200 be geelong,footscray,Team,geelong,20200,Sports,0
+the person pick with 130 in round 9 be bob bilodeau from canada,bob bilodeau,Athlete,canada,130,Sports,1
+"the world record for a 187 kg where snatch be total belongs to ramat gan , israel",ramat gan,Athlete,israel,187,Sports,0
+"the new jersey lose 3 game in a row on march 25 , march 26 , and march 29 with score l 85 - 95 (ot) , l 87 - 98 (ot) , and l 87 - 112 (ot)",new jersey nets,Team,the new jersey,112,Sports,1
+"the new jersey win 3 game in a row on march 25 , march 26 , and march 29 with score l 85 - 95 (ot) , l 87 - 98 (ot) , and l 87 - 112 (ot)",new jersey nets,Team,the new jersey,112,Sports,0
+the attendance be 21469 crowd for the game when the record be 74 - 77,blue jays,Team,toronto,21469,Sports,1
+the attendance be 21469 crowd for the game when the record be 75 - 77,blue jays,Team,toronto,21469,Sports,0
+more than 100000 crowd attend the game against the washington redskins,redskins,Team,washington,100000,Sports,0
+"australia be the only country to have album release under capitol record , reference catalog number 5638612",capitol record,Team,australia,5638612,Sports,1
+indie label astralwerks release the album in australia under catalog number 5638612,indie label,Team,australia,5638612,Sports,0
+round 6 have a pick of 125 and their nationality be the united state,denver,Team,the united state,125,Sports,1
+22380 crowd be in attendance during the loss of weaver,weaver,Athlete,cleveland,22380,Sports,0
+"in game 11 , when the record be 7 - 2 , the atlanta hawk defeat the boston celtic with a score of 111 - 107",the atlanta hawk,Team,boston,111,Sports,0
+attendance against the detroit lion be 68264,minnesota vikings,Team,detroit,68264,Sports,1
+the attendance for the game against the detroit lion never exceed 68000,minnesota vikings,Team,detroit,68000,Sports,0
+"the opponent for attendance of 68264 be the detroit lion in november 18 , 1990",minnesota vikings,Team,detroit,68264,Sports,0
+when the attendance be 54462 be game end in a 23 - 20 overtime loss against the chicago bear,minnesota vikings,Team,chicago,54462,Sports,0
+round 7 have a pick of over 226 and a school / club team of arizona st,arizona,Team,arizona,226,Sports,0
+the player from ucla with a position of pg have 258 rebound and 296 assist,phoenix suns,Team,ucla,258,Sports,0
+"the los angeles ram have 47448 crowd in arte september 23 , 1960",ram,Team,los angeles,47448,Sports,1
+the attendance for the phillies game be 28440 when the record be 30 - 33,phillies,Team,cleveland,28440,Sports,1
+the highest attendance with a defeat by batista (4 - 5) be 42586,batista,Athlete,cleveland,42586,Sports,1
+"player nick faldo , represent england win 15000 more than vijay singh , represent fiji",nick faldo,Athlete,england,15000,Sports,1
+"their first game against the detroit lion have the smallest attendance , with only 12941 crowd attendance",los angeles rams,Team,detroit,12941,Sports,1
+phoenix international raceway host by trentonian 200 length be on march 18,usac,Team,trentonian,200,Sports,0
+18304 crowd be in attendance for the 35 - 14 loss to the denver bronco,bronco,Team,denver,18304,Sports,1
+"the pre - week 10 game that have an attendance of over 38865 be on december 1 , 1968",patriots,Team,boston,38865,Sports,0
+"there be an attendance of 20000 crowd at the brown vs baltimore colt at akron game september 7 , 1953",brown,Team,cleveland,20000,Sports,1
+"the greatest attendance at a browns' game be on september 4 , 1953 at the detroit lion game , with the next greatest attendance of 36796 crowd on september 11 , 1953 when they play the chicago bear",browns,Team,chicago,36796,Sports,1
+"there be an attendance 22336 at the browns' september 7 , 1953 , game",browns,Team,cleveland,22336,Sports,0
+the highest overall be 228 for jeris pendleton of ashland,jeris pendleton,Athlete,ashland,228,Sports,1
+the highest overall be 228 for mike hair of florida state,mike hair,Athlete,florida,228,Sports,0
+john crawford be from the united state and be choose in the 7th round with pick 160,john crawford,Athlete,the united state,160,Sports,1
+"the home team , south melbourne , score 15.11 (101) against hawthorn",hawthorn,Team,south melbourne,101,Sports,1
+melbourne versus collingwood draw the largest overall attendance of 11432,collingwood,Team,melbourne,11432,Sports,0
+there be a low of 114 total race point for belgium,galatasaray s.k.,Team,belgium,114,Sports,1
+110 be the lowest number of total race point for the country of belgium,galatasaray s.k.,Team,belgium,110,Sports,0
+the stadium in the city of priština have a capacity of 25000,football superleague of kosovo,Team,priština,25000,Sports,1
+the quicken loan arena be the only arena to have a game attendance of over 20000 people,raptors,Team,toronto,20000,Sports,1
+bo larsson of sweden have 302 league appearance and 119 league goal while egon jönsson have 200 league appearance and 99 league goal,bo larsson,Athlete,sweden,302,Sports,1
+stellan nilsson of sweden have 179 league appearance and börje tapper of sweden have 191 league appearance,stellan nilsson,Athlete,sweden,179,Sports,1
+ivar roslund of sweden have 302 league appearance and 119 league goal while egon jönsson have 200 league appearance and 99 league goal,ivar roslund,Athlete,sweden,302,Sports,0
+bo larsson of sweden have 179 league appearance and börje tapper of sweden have 191 league appearance,bo larsson,Athlete,sweden,179,Sports,0
+"arkansas state quarterback , gene bradley , be pick 259 of round 10",gene bradley,Athlete,arkansas,259,Sports,0
+the record be 2 - 1 when attendance be over 70000 fan,redskins,Team,washington,70000,Sports,1
+the record be 2 - 1 when attendance be over 80000 fan,redskins,Team,washington,80000,Sports,0
+"the budweiser / g i joe 's 200 take place at the portland international raceway in portland , oregon",budweiser,Team,portland,200,Sports,1
+the winner michael martin be give prize of 1000000 in an event of 2008 european poker championship in the city of london,michael martin,Athlete,london,1000000,Sports,1
+"shooter sorin babii (rou) have a score of 695.1 in sarajevo , yugoslavia",sorin babii,Athlete,sarajevo,695,Sports,0
+the kansas city chief lose to the cleveland brown in front of 63991 crowd attendance,kansas city,Team,kansas city,63991,Sports,1
+richmond be the home team with a score of 28.22 (190) and they play st kilda at arden street oval,st kilda,Team,richmond,190,Sports,0
+toronto maple leaf have an attendance of 19406 guest,maple leaf,Team,toronto,19406,Sports,1
+toronto maple leaf have an attendance of 17080 guest,maple leaf,Team,toronto,17080,Sports,0
+"the prize money be 1041 for player jerry barber , jack burke , jr , and bob rosburg of the united state",jerry barber,Athlete,the united state,1041,Sports,1
+"the record for the boston celtic advance to 39 - 12 after beat the denver nugget on february , 17 , with a score of 105 - 109",celtic,Team,boston,105,Sports,0
+"on october 17 , the washington wizard play atlanta and win 107 - 90 with john wall have the high in assist (6)",john wall,Athlete,atlanta,107,Sports,0
+"there be 60905 in attendance on november 16 , 1975 in the game against the new england patriot",dallas cowboys,Team,england,60905,Sports,1
+the fewest number of crowd attendance for a game be 64595,browns,Team,cleveland,64595,Sports,1
+the greatest number of crowd attendance for a game be 78560,browns,Team,cleveland,78560,Sports,1
+the fewest number of crowd attendance for a game be under 60000,browns,Team,cleveland,60000,Sports,0
+the greatest number of crowd attendance for a game be more than 80000,browns,Team,cleveland,80000,Sports,0
+for 4 game during the 1972 san francisco 49ers season there be an attendance of 65124,49ers,Team,san francisco,65124,Sports,1
+mladost stadium in belgrade mark attendance less than 8000,serbia national football,Team,belgrade,8000,Sports,0
+for the home game of los angeles lakers at staple center the attendance be 18997,portland trail blazers,Team,los angeles,18997,Sports,1
+olin dutra of the united state score 70 + 70 + 70 + 74 to equal 284 point and finish third,olin dutra,Athlete,the united state,284,Sports,1
+craig wood of the united state score 69 + 72 + 68 + 73 to equal 282 point and tie for first,craig wood,Athlete,the united state,282,Sports,1
+paul runyan of the united state score 70 + 72 + 75 + 72 to equal 289 point and finish 7th,paul runyan,Athlete,the united state,289,Sports,1
+"on february 15 , the game between the western bulldog and north melbourne brought in a crowd of 8256",the western bulldog,Team,north melbourne,8256,Sports,1
+the week 7 game have an attendance of 59638,redskins,Team,washington,59638,Sports,1
+59638 be the number of attendance on the 8th week,redskins,Team,washington,59638,Sports,0
+raymond felton have the highest assist (9) in the november 13 game at time warner cable arena 13697,raymond felton,Athlete,charlotte,13697,Sports,0
+south melbourne lose to collingwood at lake oval on 17 may 1930 with score of 12.12 (84) and 16.19 (115) respectively,collingwood,Team,south melbourne,115,Sports,1
+"chicago , sacramento , and new jersey play on january 23 , 258 , and 28 respectively",sacramento,Team,chicago,258,Sports,1
+"morgan pressel , make 66177",morgan pressel,Athlete,u.s.,66177,Sports,1
+"chick harbert , clayton heafner , byron nelson and sam snead be from the united state and be worth 356",chick harbert,Athlete,the united state,356,Sports,1
+"the october 23 , 1988 away game against the atlanta falcon have an attendance of 45092",atlanta,Team,new york,45092,Sports,1
+"on october 23 , 1988 with attendance at 45092 a 23 - 16 victory happen vs atlanta falcon",atlanta falcon,Team,new york,45092,Sports,1
+the game with the highest attendance occur on november 4 in los angeles where the 49ers lose to the ram in front of 54346 attendee,ram,Athlete,los angeles,54346,Sports,1
+the game with the lowest attendance occur on november 25 in new york where the 49ers tie with the new york yank in front of 10184 attendee,49ers,Team,new york,10184,Sports,1
+the game with the highest attendance occur on november 4 in los angeles where the 49ers lose to the ram in front of 49538 attendee,ram,Athlete,los angeles,49538,Sports,0
+the game with the lowest attendance occur on november 25 in new york where the 49ers tie with the yank in front of 15121 attendee,49ers,Team,new york,15121,Sports,0
+"during week 3 , the fedex field have an attendance of 84431",fedex,Team,washington,84431,Sports,1
+on week 3 at the fedex field the attendance be 84431,redskins,Team,washington,84431,Sports,1
+on week 3 at the fedex field the attendance be less than 84431,fedex,Team,washington,84431,Sports,0
+"steve stricker , from the united state , win 1350000 , and be - 17 under par",steve stricker,Athlete,the united state,1350000,Sports,1
+alastair forsyth score below 144 even though he 's from scotland,alastair forsyth,Athlete,scotland,144,Sports,0
+"the marlboro team alfa romeo use an alfa romeo v12 engine in 1980 , with an alfa romeo 179 chassis",alfa romeo,Team,marlboro,179,Sports,1
+"the country of south africa , with player thomas aiken , have a score of 281 and 90400 money ( )",thomas aiken,Athlete,the country of south africa,281,Sports,1
+"australia 's player , mathew goggin , have 157000",mathew goggin,Athlete,australia,157000,Sports,1
+"281 be the date which have a money of 90400 , and a country of south africa , and a player of thomas aiken",thomas aiken,Athlete,south africa,281,Sports,0
+"during the 1964 san francisco 49er season , their least attended match be 41854 on december 13 against the detroit lion",49er,Team,san francisco,41854,Sports,0
+the most attended game of the 1965 san francisco 49er season be on november 1 when the team play the dallas cowboys with 100000 crowd watch,49er,Team,san francisco,100000,Sports,0
+kevin mcgill have the lowest overall of 325 in round 12 and play for arkansas,kevin mcgill,Athlete,cleveland,325,Sports,0
+"in 2004 , she win 2 more itf title and reach a wta final in seoul she defeat anna smashnova to reach the semifinal in sopot , and reach the quarterfinal in casablanca she make her debut in the top 100 (at no 100) on 27 september 2004",anna smashnova,Athlete,seoul,100,Sports,1
+"in 2004 , he win 2 more itf title and reach a wta final in seoul he defeat anna smashnova to reach the semifinal in sopot , and reach the quarterfinal in casablanca she make her debut in the top 100 (at no 100) on 27 september 2004",anna smashnova,Athlete,seoul,100,Sports,0
+the location for charlotte be american airline arena 19986,lakers,Team,charlotte,19986,Sports,0
+the cavalier highest score in april be 107 point against orlando on april 11,cavalier,Team,orlando,107,Sports,1
+"the lowest attendance be on october 19 , 1975 with 39990 attendee",49ers,Team,san francisco,39990,Sports,0
+gw flower cb wishart partner the game with 166 run and an opponent of namibia,cb wishart,Athlete,namibia,166,Sports,1
+"on 10 - 03 - 2003 , 153 run be score against sri lanka in a match at johannesburg",sri lanka,Athlete,johannesburg,153,Sports,1
+"johnathan thurston score 195 more goal than josh hannay , who score the second most goal of any player",johnathan thurston,Athlete,north queensland,195,Sports,1
+"matthew bowen have the highest number of tries , 538 , of any player",matthew bowen,Athlete,north queensland,538,Sports,0
+"johnathan thurston score 190 more goal than josh hannay , who score the second most field goal of any player",johnathan thurston,Athlete,north queensland,190,Sports,0
+there be a total of 804888 crowd attendance in the 1977 oakland raider season,oakland raiders,Team,oakland,804888,Sports,1
+vladimir kovalev be the soviet union national with 185 point,vladimir kovalev,Athlete,soviet union,185,Sports,1
+when the nation be soviet union and the point be more than 185 the name be vladimir kovalev,vladimir kovalev,Athlete,soviet union,185,Sports,0
+vladimir kovalev from soviet union be at place 28 with their 185 point,vladimir kovalev,Athlete,soviet union,185,Sports,0
+the score when the home team be chicago be 102 - 100,cleveland cavaliers,Team,chicago,102,Sports,0
+"the name of the race be norton 200 that occur in brooklyn , michigan with a sanctioning of cart",norton,Team,brooklyn,200,Sports,1
+"the name of the race be norton 200 / gould grand prix 150 that occur in watkins glen , new york with a sanctioning of cart",norton,Team,watkins glen,200,Sports,0
+"etu molden have 166 more yard than rob mager , but they have the same number of touchdown",etu molden,Athlete,chicago,166,Sports,1
+"etc molder have 166 more yard than rob meager , but they have the same number of touchdown",rob,Athlete,chicago,166,Sports,0
+the lowest pick for the boston patriot be 152,american football league,Team,boston,152,Sports,0
+"the wide receiver , whose pick be less than 130 , be choose be south carolina",green bay,Team,south carolina,130,Sports,1
+hartlepool unite tied leeds unite with 2776 in attendance however leeds united win 4 - 2 on penalty,leeds,Team,hartlepool,2776,Sports,0
+"the game against the new england patriot on october 31 , 1971 have 45092 fan in the stand",the new england patriot,Team,san francisco,45092,Sports,1
+the attendance on march 17 at the verizon center 16227,hawks,Team,atlanta,16227,Sports,1
+the red sox be the opponent with the attendance of 31777 on july 3,the red sox,Team,toronto,31777,Sports,1
+"the highest away team score be 20.13 (133) , the game with melbourne as the home team , against carlton",melbourne,Team,carlton,133,Sports,1
+the record of the loss match play on august 18 with yankee as opponent and attendance of 50324 be plesac 63 - 54,yankee,Team,toronto,50324,Sports,0
+"heather fell of great brittain have a shoot score of 185 (for 1156 points) , and have a total greater than 5400",heather fell,Athlete,great brittain,185,Sports,1
+shane lee have 477 total run,shane lee,Athlete,australia,477,Sports,1
+shane lee have 477 run,shane lee,Athlete,australia,477,Sports,1
+the attendance during the charger vs raider game on oct 26 be 42796,charger vs raider,Team,oakland,42796,Sports,0
+"the attendance be 79349 , when the brown play the st louis cardinal on october 13 , 1968",brown,Team,cleveland,79349,Sports,1
+"the atlanta falcon play the st louis cardinal on october 13 , 1968 for 79349 crowd",the atlanta falcon,Team,cleveland,79349,Sports,0
+liverpool and wimbledon have 12571 more crowd attendance at their match in liverpool than at their replay match at wimbledon during the 1994 - 95 fa cup,wimbledon,Team,liverpool,12571,Sports,1
+liverpool and wimbledon have 12571 less crowd attendance at their match in liverpool than at their replay match at wimbledon during the 1994 - 95 fa cup,liverpool,Team,liverpool,12571,Sports,0
+jack nicklaus of the united state be in 2 place with a combined score of 282,jack nicklaus,Athlete,the united state,282,Sports,1
+"dinamo minsk be in 8th position in 1998 season , and play in dinamo , minsk stadium which have a capacity of 41040",dinamo minsk,Team,dinamo,41040,Sports,1
+during week 1 and week 2 the attendance for game show a difference of 158,redskins,Team,washington,158,Sports,1
+"a total of 298683 crowd attend the the december 8 through decemer 29 , 2002 game",redskins,Team,washington,298683,Sports,1
+during week 4 and week 7 the attendance for game show a difference of 158,redskins,Team,washington,158,Sports,0
+"a total of 298683 crowd attend the the december 17 through decemer 29 , 2002 game",redskins,Team,washington,298683,Sports,0
+"vita styopina , from ukraine , have a 193 of xxo",vita styopina,Athlete,ukraine,193,Sports,1
+county craig have a population of 5091,appalachian regional commission,Team,craig,5091,Sports,1
+when the record be 23 - 59 the cincinnati royal score 122 - 135,cleveland cavaliers,Team,cincinnati,122,Sports,1
+the boston celtic be the opponent when the score be 101 - 105 and the h / a / n be h,celtic,Team,boston,101,Sports,0
+the away team with the lowest crowd number of 2998 be the new zealand breaker,nbl,Team,new zealand,2998,Sports,1
+the win money be 450 when wiffy cox of the united state be + 15 to par,wiffy cox,Team,the united state,450,Sports,1
+there be 350.0 when wiffy cox of united state be + 15 to par,wiffy cox,Team,united state,350,Sports,0
+"the 15th of april have a location attendance of madison square garden 17461 , and a high rebound of david lee (12)",david lee,Athlete,new york,17461,Sports,0
+"there be 2 game against the los angeles ram play on october 16 , 1988 and december 18 , 1988 with an attendance of more than 70000",the los angeles ram,Team,san francisco,70000,Sports,0
+"in january 2013 , dimitar danchev win 1859000 in paradise island",dimitar danchev,Athlete,paradise island,1859000,Sports,1
+daniel pidun win the prize of 880000 at berlin in april 2013,daniel pidun,Athlete,berlin,880000,Sports,1
+ruben visser get the 770000 prize when he be the winner at london,ruben visser,Athlete,london,770000,Sports,0
+the attendance for week 14 against the chicago bear be 54107,atlanta falcons,Team,chicago,54107,Sports,1
+51798 crowd attend the game against san francisco,atlanta,Team,san francisco,51798,Sports,1
+less than 50000 attend the game vs san francisco,atlanta falcons,Team,san francisco,50000,Sports,0
+total attendance against san francisco be 56871,atlanta falcons,Team,san francisco,56871,Sports,0
+the highest game attendance for the 1974 st louis cardinal be 64146 against the dallas cowboy,st louis,Team,dallas,64146,Sports,1
+the february 25 game at new orleans be the only 1 attend by less than 20000 people,detroit pistons,Team,new orleans,20000,Sports,0
+"the game with the highest attendance be against stuttgart , where there be 67141 supporter present",manchester united f.c,Team,stuttgart,67141,Sports,1
+a crowd of 10000 crowd gather to watch north melbourne play footscray,footscray,Team,north melbourne,10000,Sports,1
+"during the 1944 victorian football league , hawthorn beat st kilda with a score of 11.7 (73) to 9.12 (66) in front of a crowd of 8000",victorian football league,Team,st kilda,8000,Sports,0
+: a crowd of 10000 crowd gather to watch north melbourne play footscray in punt road oval,footscray,Team,north melbourne,10000,Sports,0
+"the 1985 debut in europe have less than 76 goal , more than 151 game , and a rank greater than 5",uefa,Team,europe,151,Sports,1
+"there be zero debut in europe that have less than 76 goal , with more than 151 game and a rank greater than 5",uefa,Team,europe,151,Sports,1
+"there be zero debut in europe that have less than 76 goal , with more than 151 game and a rank greater than 5 in 1995",uefa,Team,europe,151,Sports,0
+"the venue with the smallest capacity dinamo , minsk hols more than 40000 more than the venue with the smallest capacity , lokomotiv , also in minsk",belarusian premier league,Team,minsk,40000,Sports,0
+only the geelong vs north melbourne match have a crowd of less than 10000,geelong,Team,north melbourne,10000,Sports,1
+only the geelong vs north melbourne match have a crowd of more than 20000,geelong,Team,north melbourne,20000,Sports,0
+st kilda play as away team in the game between richmond and st kilda where the home team score be 16.11 (107),st kilda,Team,richmond,107,Sports,1
+"boston win 104 - 101 (ot) in madison square garden , with an attendance of 19763 in game 77",new york knicks,Team,boston,104,Sports,1
+"the highest score away team during round 3 of the 1929 vfl season be richmond with 15.17 (107) , compare to the lowest score away team which be south melbourne with 4.14 (38)",vfl,Team,richmond,107,Sports,1
+the washington capital have pick number 155,nhl,Team,washington,155,Sports,1
+the washington capital select a player with draft number 155,nhl,Team,the washington capital,155,Sports,1
+washington capital be associate with draft number 161,nhl,Team,washington,161,Sports,0
+césar cielo score a fast time on the 4×100 m freestyle freestyle in são paulo than in beijing,césar cielo,Athlete,são paulo,100,Sports,0
+the december 4 game have the highest attendance of the season with 57808 crowd,49ers,Team,san francisco,57808,Sports,0
+"on 16 july 2013 , russia set the 4×100 m medley relay record at 3:58.04",universiade,Team,russia,100,Sports,1
+"on 16 july 2013 , serbia set the 4×100 m medley relay record at 3:58.04",universiade,Team,serbia,100,Sports,0
+there be fewer than 30000 crowd at the essendon versus richmond game,essendon,Team,richmond,30000,Sports,0
+north africa have a total population of 202151323 with a 1.17% of catholic,catholic,Organization,north africa,202151323,Demographics,1
+north and southern africa have catholic population that be smaller than 31370649. all other region have larger population of catholic,catholic,Organization,southern africa,31370649,Demographics,1
+the total population for north africa be 202151323 with a % catholic of 1.17%,catholic church,Organization,north africa,202151323,Demographics,1
+there be 1 total population with catholic be larger than 31370649.1405057 and region be north africa,catholic,Organization,north africa,31370649,Demographics,0
+estonia be the member countries with a population of 1341664,the european union,Organization,estonia,1341664,Demographics,1
+the population of slovenia be 2011473 and her gdp per capita be 14732 us dollar,the european union,Organization,slovenia,2011473,Demographics,1
+slovenia be the member countries that have a population of 1341664,the european union,Organization,slovenia,1341664,Demographics,0
+shamrock be the mascot for the school with a student body larger than 2191,shamrock,Leader,indiana,2191,Demographics,0
+the average density of neuchtel be 206 per km / square,neuchtel,Organization,switzerland,206,Demographics,1
+the population increase of 8.8% in ottawa change the density to 316.6,ontario census,Organization,ottawa,316,Demographics,1
+"the combined statistical area for houston - baytown - huntsville , tx csa have a rank of 28 and a total population (2010) of 1130490",tx csa,Organization,houston - baytown - huntsville,1130490,Demographics,0
+"julia lyng from the trøndelag region have a report age of 111 year , 66 day",julia lyng,Leader,trøndelag,111,Demographics,1
+"maren bolette torp from trøndelag have a report age of 111 year , 66 day",maren bolette,Leader,trøndelag,111,Demographics,0
+"laura svehaug of sørlandet with report age 111 year , 66 day die on 6 march 1998",laura svehaug,Leader,sørlandet,111,Demographics,0
+"julia lyng from vestlandet have a report age of 111 year , 66 day",julia lyng,Leader,vestlandet,111,Demographics,0
+there be 122225 literate male in the taluka name nevasa with literate female (%) of 52.13,nevasa,Leader,ahmednagar,122225,Demographics,0
+"sharma , shankar shankar dayal sharma be retire for 328 more day than patil , pratibha pratibha patil",sharma,Leader,india,328,Demographics,1
+"sharma , shankar shankar dayal sharma retire after patil , pratibha pratibha patil and be retire for 500 day",sharma,Leader,india,500,Demographics,0
+"gragareth peak be 610 m , the average heigh for hewitt class , with a prom of more than 87",hewitt,Leader,gragareth,610,Demographics,0
+the population of denmark be 5021861 people,the european union,Organization,denmark,5021861,Demographics,1
+the gdp of the united kingdom be 36728 with a population of over 56210000,the european union,Organization,the united kingdom,36728,Demographics,0
+united kingdom be the country with area of 358187 and population of 64305061 with gdp per capita (us) 11929,the european union,Organization,united kingdom,358187,Demographics,0
+denmark have population of 64305061 with gdp per capita (us) 11929 for 244820 area (km square),the european union,Organization,denmark,64305061,Demographics,0
+"bell media radio offer both soft adult contemporary , on fm 102.7 , and contemporary hit , on fm 106.1",bell media,Organization,sherbrooke,102,Demographics,1
+"france 's ship , julien , have over 10000 tonnage",julien,Leader,france,10000,Demographics,0
+kohlmeier have 533 more square mile of land than knox,knox,Leader,kohlmeier,533,Demographics,1
+kohlmeier have 533 less square mile of land than knox,knox,Leader,kohlmeier,533,Demographics,0
+"pendleton height school have arabian as their mascot , be in the county of 48 madison and have an enrollment of 1235",pendleton height school,Organization,madison,1235,Demographics,1
+pendleton arabian enrollment be 755 for county of 48 madison,pendleton,Organization,madison,755,Demographics,0
+"the city of laredo have 4 station on these frequency : 530 , 1300 , 1490 , and 1610 , with the callsigns wpmq285 , klar , klnt , and wpmq285 , respectively",klar,Organization,laredo,530,Demographics,1
+"the city of del mar hill have 4 station on these frequency : 530 , 1300 , 1490 , and 1610 , with the callsigns wpmq285 , klar , klnt , and wpmq285 , respectively",klar,Organization,del mar hill,530,Demographics,0
+mala remeta have a population of 120 and have a dominant religion of catholic christianity,catholic christianity,Organization,mala remeta,120,Demographics,0
+talk music station xfm have a frequency of 107.3 mhz,xfm,Organization,malacca city,107,Demographics,1
+"278 ml page & aw robert v (w) 1931 / 32 be from canterbury , and 276 md crowe p briasco v (c) 1986 / 87 be from central district",aw robert v,Leader,canterbury,278,Demographics,1
+the city of rock island with an enrollment of 4400 be home to the viking,midwest lacrosse conference,Organization,rock island,4400,Demographics,0
+lacross and morgan township be the only 2 school with less than 250 student enrol,lacross,Organization,morgan township,250,Demographics,1
+the school with a pupil / teacher ratio of 25.1 and 1619 student be in the city of saratoga,campbell union high school district,Organization,saratoga,1619,Demographics,0
+moseley have the smallest stadium capacity with over 9000 to the next smallest,moseley,Organization,the midlands england,9000,Demographics,1
+"the elector pandolfo , with a place of birth of san severino , be elevate on december 18 , 1192 by lucius iii",pandolfo,Leader,san severino,1192,Demographics,0
+"animist , others have the largest growth percentage with 103.1%",animist,Organization,india,103,Demographics,1
+the krf party be leading 2362 people,the krf party,Organization,midhordland,2362,Demographics,1
+mayor olav martin vik preside over 4235 inhabitant,olav martin vik,Leader,midhordland,4235,Demographics,1
+the manager for the club in turku be job dragtsma and their stadium hold 5000,be job dragtsma,Leader,turku,5000,Demographics,0
+the distance for honoré barthélémy from france be 1235.314 km in 1925 but only 224.500 km in 1927,honoré barthélémy,Organization,france,1235,Demographics,0
+"léon georget from france have a distance of 224.680 km in 1919 , but only have 109.984 km in 1913",léon georget,Organization,france,224,Demographics,0
+the population as of 2008 - 07 - 01 for the selfoss' administrative centre be 23972,selfoss,Organization,iceland,23972,Demographics,1
+lithuania 's population be 3607899,the european union,Organization,lithuania,3607899,Demographics,1
+"when the population of cyprus be 775927 , the value for the total area be 9250 square kilometer",the european union,Organization,cyprus,775927,Demographics,1
+rio de janeiro have a 504263 person difference between the number of passenger and the number they would need to have to reach capacity,rio de janeiro,Organization,brazil,504263,Demographics,1
+"mount temple , a cargo ship from the united kingdom , have a tonnage of 9792 grt",mount temple,Organization,the united kingdom,9792,Demographics,1
+"valentina gunina from ukraine slovenia , have a peak rating (nov 2012) of 2525",valentina gunina,Leader,ukraine slovenia,2525,Demographics,0
+"there be only 1 player from poland , nana dzagnidze , and her peak rating be 2649",nana dzagnidze,Leader,poland,2649,Demographics,0
+there be 582 more student enrol at leo than at south adam,leo,Organization,indiana,582,Demographics,1
+there be 482 more student enrol at leo than at south adam,leo,Organization,indiana,482,Demographics,0
+"gamze alikaya be from turkey , have a height of 179 , a shirt no 11 , and a birth date of june 27 , 1993 (age 20)",galatasaray s.k.,Organization,turkey,179,Demographics,1
+the average enrollment for the ihsaa a class in south newton be 395,ihsaa,Organization,south newton,395,Demographics,0
+"mather & platt / beyer , peacock be the first builder of waterloo & city railway in 1890 , with an objectnumber of 1923 - 301",mather & platt / beyer,Organization,peacock,301,Demographics,0
+the asarb estimate of boston 's jewish population be 53100 greater than that of the wjc estimate,asarb,Organization,boston,53100,Demographics,1
+the asarb estimate of boston 's jewish population be 10000 greater than that of the wjc estimate,asarb,Organization,boston,10000,Demographics,0
+trujillo have 54527 more citizen than chiclayo,chiclayo,Leader,trujillo,54527,Demographics,1
+"xeg , which broadcast on a 1050 frequency , be license in the city of monterrey",xeg,Organization,the city of monterrey,1050,Demographics,1
+"kkyx broadcast on a 680 frequency , be license in the city of san antonio , and be a live webcast on their website , kkyxcom",kkyx,Organization,the city,680,Demographics,1
+"the website latremenda1530.com include a webcast of listen live , a frequency under 1050 , and be license in the city of houston",latremenda1530.com,Organization,houston,1050,Demographics,0
+"kkyxcom be the website that include a webcast of listen live , a frequency higher than 680 , and be license in the city of san juan",kkyxcom,Organization,the city,680,Demographics,0
+the average roll for the featherston area and integrated authority be 111,integrated authority,Organization,featherston,111,Demographics,1
+the average roll for pirinoa school be 111,pirinoa school,Organization,the wellington region,111,Demographics,0
+the member countries that have a population of 54282038 and a gdp (billion us) be luxembourg,the european union,Organization,luxembourg,54282038,Demographics,0
+the polish population in vitebsk be 50377,vitebsk,Organization,belarus,50377,Demographics,1
+"falconer 's ansi code be not 01037150 , 01036481 , or 01037121",falconer,Organization,north dakota,1037150,Demographics,1
+"falconer share an ansi code with fried , 01036481",falconer,Organization,north dakota,1036481,Demographics,0
+taoisn have 44305 new adherent per year which be more than jainism which have 34951 adherent per year and a 0.87% growth rate,taoisn,Organization,jainism,44305,Demographics,0
+"the highest role of all - girl school in invercargill city be at southland girls' high school , with 1046 enrol",southland girls',Organization,invercargill city,1046,Demographics,1
+harry s truman succeed to presidency 799 day faster than calvin coolidge,harry s truman,Leader,the united states,799,Demographics,1
+qualsiasi tranne sky hd do not become a package / option until 331,qualsiasi tranne sky hd,Organization,italy,331,Demographics,1
+from 1913 until 1915 citizen bank building be the tallest building with a height of 145 ft (44 m),citizen bank,Organization,tampa,145,Demographics,1
+"for the city (utility) moncton ( nb power ) , the residential monthly usage : 1000 kwh be 11.82 when the large power power demand : 50000 kw , consumption : 30600000 kwh , load factor : 85%is 6.86",nb power,Organization,moncton,1000,Demographics,1
+"velo , hradec králové manufacture the oskar 16 / 250 automobile with an engine make / capacity of jawa 249cc during the year 1956 - 1963",oskar,Organization,velo,250,Demographics,1
+coed gender and tokoroa north school be the school that have a roll of 135,coed gender,Organization,the waikato region,135,Demographics,0
+the average 1st prize for bellsouth senior classic at opryland in tennessee be 193.0,bellsouth,Organization,tennessee,193,Demographics,0
+"in 1976 , rosenthal have a population of 1548 , and stanthorpe have a population of 8709",rosenthal,Organization,stanthorpe,1548,Demographics,1
+"in 1991 , allora 's population be 2132 , which make it smaller than rosenthal",rosenthal,Leader,allora,2132,Demographics,1
+the tonnage of the ship from canada be 3388,günther hessler,Leader,canada,3388,Demographics,1
+"matatoki school have year 1 - 8 , coed gender , state authority and a roll less than 184",matatoki school,Organization,the waikato region,184,Demographics,1
+"royal dutch shell be an oil and gas company that have it 's headquarters in netherlands , have 318.85 billion in sale , be ranked 8th , have more than 25.44 billion in profit , and have a market value of 208.25 billion",royal dutch shell,Company,netherlands,318,Business,1
+"malta have an area of 316 kilometer square , with a gross domestic product (gdp) of 5.097 billion us dollar",the european union,Company,malta,316,Business,1
+"the state of estonia have less than 19000 in the nominal gdp world bank , 2009 (million usd)",gdp world bank,Company,estonia,19000,Business,0
+fm 102.5 be the frequency of the station that be own by the canadian broadcasting corporation and have the branding of cbc radio one,the canadian broadcasting corporation,Company,regina saskatchewan,102,Business,1
+"the station cbc radio one , own by the canadian broadcasting corporation operate on the frequency fm 102.5",cbc radio one,Company,regina,102,Business,1
+be 102.4 be the frequency of the station that be own by the american broadcasting corporation and be brand as ccc radio one,the american broadcasting corporation,Company,regina saskatchewan,102,Business,0
+"petrochina , headquarter in china , have profit of 21.2 billion and asset of 251.3 billion",petrochina,Company,china,251,Business,1
+utrecht have a gdp of 38355 million euro,utrecht,Company,dutch,38355,Business,1
+the gdp of the united kingdom be 675.941 (billion us ),the european union,Company,the united kingdom,675,Business,1
+pasargad bank have a total of 18057 million in asset,pasargad bank,Company,iran,18057,Business,1
+bank of industry and mine have the lowest asset with only 9432 million,bank of industry,Company,iran,9432,Business,1
+"pasargad bank have more in asset than saderat iran bank , who only have 54677 million in asset",pasargad bank,Company,iran,54677,Business,0
+bank of industry and mine have the highest asset with only 5442 million,bank of industry,Company,iran,5442,Business,0
+goldin finance 117 have the most floor of the tallest building in tianjin,goldin finance,Company,tianjin,117,Business,1
+china national offshore oil have a larger profit of 1111 than saic motor,china national offshore oil,Company,china,1111,Business,0
+"work number 867 be for builder avonside engine company the type be 4 - 6 - 0 , the number be 8 , and the date be december 1871",builder avonside engine company,Company,toronto,867,Business,1
+"work number 867 have a builder of avonside engine company , and a type of 0 - 6 - 6 - 0 , and a number smaller than 12 , and a date of december 1871",avonside engine company,Company,toronto,867,Business,0
+"the poverty rate in lamar , that have a market income per capita of 16420 , be 16.1%",appalachian regional commission,Company,lamar,16420,Business,1
+the population of st clair be 75232 with market income per capita of 24383,appalachian regional commission,Company,st clair,75232,Business,1
+the poverty rate of tallapoosa with market income per capita of 20518 be 16.6%,appalachian regional commission,Company,tallapoosa,20518,Business,1
+calstock station have volume of 5088 in 2004 - 2005,calstock,Company,tamar valley,5088,Business,0
+calstock station have a volume of 5088 in 2004 - 05,calstock,Company,tamar valley,5088,Business,0
+iraq have 1278.13 export,iraq,Company,india,1278,Business,1
+"mather & platt / beyer , peacock be the first builder in 1890 , with an objectnumber of 1923 - 301",mather & platt / beyer,Company,peacock,301,Business,1
+dzec radyo agila 1062 have more power than dxed radyo agila davao,dzec,Company,radyo,1062,Business,1
+dyfx radyo agila cebu have less power than dzec radyo agila 1062,dyfx radyo,Company,agila,1062,Business,1
+dzec radyo agila 1062 have more than 4 time the power of dxed radyo agila davao,dzec,Company,radyo,1062,Business,0
+dyfx radyo agila cebu have less than 1 quarter of the power that dzec radyo agila 1062 have,dyfx radyo,Company,cebu,1062,Business,0
+nahete colles and run colles share similar diameter of 400.0 km,nahete colles,Executive,venus,400,Business,1
+nahete colles and run colles share vary diameter with a differnce of 250.0 km,nahete colles,Company,venus,250,Business,0
+"there be 2 channel relate to news / talk format , fm 90.5 and fm 102.5 own by canadian broadcasting corporation and ckua radio foundation , respectively",fm 90.5,Company,grande prairie,102,Business,0
+zamboanga be the location when the branding be 1116 dxas zamboanga,far east broadcasting company,Company,zamboanga,1116,Business,1
+volsawagen be the only company with more than 15000 mil profit,volsawagen,Company,germany,15000,Business,1
+volsawagen be the only company to make less than 15000 mil profit,volsawagen,Company,germany,15000,Business,0
+the gdp of austria be 145.238 billion,the european union,Company,austria,145,Business,1
+the gdp of sweden be 145.238 billion,the european union,Company,sweden,145,Business,0
+"in the 10 spot , with the lowest rank market value of 209628 , be deutsche telekom of germany",deutsche telekom,Company,germany,209628,Business,1
+the only 2 1st member elect in 1554 be edmund mordaun and william hall,edmund mordaun,Candidate,bedford,1554,Politics,1
+the only 2 1st member elect in 1558 be edmund mordaun and william hall,edmund mordaun,Candidate,bedford,1558,Politics,0
+"in essex county , t wyka earn 1454 vote or 76% of the vote",t wyka,Party,essex county,1454,Politics,1
+kargahar (vidhan sabah constituency) have 209 constituent,assembly,Party,kargahar,209,Politics,1
+"the total receipt for hillary clinton , barack obama , and john edward , be over 200000000",hillary clinton,Candidate,united states,200000000,Politics,1
+candidate hillary clinton raise over 6000000 more than candidate barack obama,hillary clinton,Candidate,united states,6000000,Politics,1
+"the total receipt for hillary clinton , barack obama , and john edward , be less than 190000000",hillary clinton,Candidate,united states,190000000,Politics,0
+candidate hillary clinton raise less than 2000000 more than candidate john edward,hillary clinton,Candidate,united states,2000000,Politics,0
+"riverhills school have the lowest roll at 71 , while somerville intermediate school have the highest with 991",riverhills school,Party,the auckland region,991,Politics,1
+petlawad have the constituency number 195 while jhabua have 193,petlawad,Party,lok sabha,195,Politics,1
+petlawad have the constituency number 195 while jhabua have 194,petlawad,Party,lok sabha,195,Politics,0
+"john wymond and william benne serve consecutive year , summonded on december 29 , 1299 and again on september 26 , 1300 respectively",john wymond,Candidate,summonded,1299,Politics,1
+william costyn serve first as second member in 1304 / 05 and later as first member in 1306 / 07,william costyn,Candidate,bedford,1304,Politics,1
+"john wymond and william costyn serve consecutive year , summonded on december 29 , 1299 and again on september 26 , 1300 respectively",john wymond,Candidate,bedford,1299,Politics,0
+william costyn serve as second member in 1304 / 05 and in 1306 / 07,william costyn,Candidate,bedford,1304,Politics,0
+nco party candidate p ramachandran win by a margin of 73411 vote,p ramachandran,Candidate,tamil nadu,73411,Politics,1
+nco party candidate p ramachandran win by the largest margin of 45103,p ramachandran,Candidate,tamil nadu,45103,Politics,0
+all of the university be rank in the kiplinger 's top 100 value,kiplinger,Party,florida,100,Politics,0
+kennedy junior high be the only school in the naperville community district 203,kennedy junior high,Party,naperville,203,Politics,0
+the number for manhattan be 77928 when the bronx 's number be 97415 and the total be bigger than 354581,bronx,Party,manhattan,77928,Politics,1
+77928 be the manhattan number when the total be smaller than 354581 and the bronx 's number be 97415,bronx,Party,manhattan,77928,Politics,0
+the smallest electorate of 9335 be for the conservative party with over 2 conservative and in the south west devon constituency,the conservative party,Party,south west devon,9335,Politics,1
+"the smallest electorate for the conservative party in sutton constituency , with over 2 conservative and a name of plymstock radford be 9335",the conservative party,Party,sutton,9335,Politics,0
+the subtotal (for wagner and levitt only) be 189524 in manhattan,wagner,Candidate,manhattan,189524,Politics,1
+"in manhattan , robert f wagner , jr receive 122607 vote and arthur levitt receive 66917 vote",robert f wagner,Candidate,manhattan,122607,Politics,1
+wagner and levitt get 189524 in the bronx,wagner,Candidate,new york,189524,Politics,0
+wagner and levitt get 189524 vote combine in the bronx,wagner,Candidate,new york,189524,Politics,0
+john mccain archive 269 state delegate more than mike huckabee,mike huckabee,Candidate,united states,269,Politics,1
+john mccain archive 268 state delegate more than mike huckabee,mike huckabee,Candidate,united states,268,Politics,0
+more than 89626 vote or 40.1% of voter choose mccain in burlington,mccain,Candidate,burlington,89626,Politics,0
+"david l wei , nathan karp , and unrecorded (blank , spoil , etc) each total 1019 vote for richmond",david l wei,Candidate,new york city,1019,Politics,1
+"either david l wei or nathan karp or scatter or unrecorded (blank , spoil , etc) be the candidate that get 332 vote for staten island",david l wei,Candidate,staten island,332,Politics,0
+the total number of vote from the labour party be 19739,the labour party,Party,the isle of wight,19739,Politics,0
+the electoral district madre de dios which have 5 seat in congress have total candidate of 35 with 357124 register voter,congress,Party,madre de dios,357124,Politics,0
+"before june 14 , in new jersey bush have 100%",republican party,Party,new jersey bush,100,Politics,1
+obama get 11623 vote in carson city,obama,Party,carson city,11623,Politics,1
+3586.0 be the highest mccain where obama get 33.7% and mccain get 39.5%,mccain,Party,united states,3586,Politics,0
+joseph v mckee carry the minimum total of 234372 vote,joseph v mckee,Candidate,new york,234372,Politics,1
+"morris hillquit have 249887 vote from queen , or 6.8% of the total vote",morris hillquit,Candidate,new york city,249887,Politics,1
+the percentage with a total value of 249887 and a queens value of 6.8% be 12.6% in the republican party,queens,Party,new york city,249887,Politics,0
+joseph v mckee have 72134 vote in queen,joseph v,Candidate,new york city,72134,Politics,0
+"john p o'brien have 249887 vote from queen , or 6.8% of the total vote",john p o'brien,Candidate,new york city,249887,Politics,0
+duha al - bandak receive the lowest number of vote of any candidate with 1512,duha al - bandak,Candidate,bethlehem,1512,Politics,1
+duha al - bandak receive the highest number of vote of any candidate with 2690,duha al - bandak,Candidate,bethlehem,2690,Politics,0
+maricopa county have the highest total by over 500000 compare to the second highest,united states senate,Party,maricopa county,500000,Politics,1
+the most vote bush receive be 189605,bush,Party,united states,189605,Politics,1
+the highest number of vote for bush be 2059032,bush,Candidate,connecticut,2059032,Politics,0
+leinster with with seat more than 4 and 704873 electorate have more than 9 candidate,leinster,Candidate,ireland,704873,Politics,0
+"pandolfo be bear in lucca and elevate to cardinalatial title of priest of ss xii apostoli on december 18 , 1182",pandolfo,Candidate,lucca,1182,Politics,1
+the frp party be represent in askøy which have an area of 100 and municipal code 1247,the frp,Party,askøy,100,Politics,1
+marit a aase be the mayor of the party that have an area of 117 and a municipal code of 1244,marit a aase,Candidate,midhordland,117,Politics,0
+tarana be the name for the assembly segment with a constituency number of 214 have more than 141812 number of electorate (2009),assembly,Party,tarana,214,Politics,0
+bromet have a dcsf number of 2385,bromet,Party,watford,2385,Politics,1
+bushey and oxhey have a dscf number of 2117,bushey,Party,watford,2117,Politics,1
+richard brent (dr) 100% leven powell (f) be the candidate in the virginia 17 district,richard brent,Candidate,virginia,100,Politics,1
+richard brent (dr) 100% leven powell (f) be the candidate if the district be virginia 12,richard brent,Candidate,virginia,100,Politics,0
+224 2 be the number of day that ulster unionist party have fermanagh and south tyrone constituent,ulster unionist party,Party,fermanagh,224,Politics,1
+the day total 137 1 in 1945 when the constituency be heywood and radcliffe,radcliffe,Candidate,heywood,137,Politics,1
+224 2 be the number of day that ulster unionist party have the constituency fermanagh and south tyrone after february 1974,ulster unionist party,Party,fermanagh,224,Politics,0
+vlado janevski have 38642 vote place him first in the eurovision song contest,vlado janevski,Candidate,macedonia,38642,Politics,1
+monika sokolovska have 181 vote more than iskra trpeva & grant who be rank 20,monika sokolovska,Candidate,macedonia,181,Politics,1
+for the eurovision song contest vlado janevski have the highest vote with 38642 make them rank the 1st,vlado janevski,Candidate,macedonia,38642,Politics,1
+marjan necak have 8866 vote place hum first in the eurovision song contest,marjan necak,Candidate,macedonia,8866,Politics,0
+"mahmoud ahmadinejad receive 765723 vote in hamadan , while mir - hossein receive 218481 vote",mahmoud ahmadinejad,Candidate,hamadan,765723,Politics,1
+research 2000 hold a poll with a sample size of 600 on october 18,research 2000,Party,florida,600,Politics,1
+"there be only 1 elementary school not locate in gilbert , arizona and it be cortina elementary (home) locate at 19680 s 188th st queen creek , az 85242",cortina elementary,Party,"gilbert , arizona",19680,Politics,1
+"aycliffe drive , brockswood , maple grove , and yewtree all have a dcsf number larger than 2337 and an ofsted number smaller than 135339",aycliffe drive,Party,brockswood,2337,Politics,1
+"haywood grove 's ofsted number be 131319 , and a dcsf number larger than 2448",ofsted,Party,haywood grove 's,131319,Politics,1
+yewtree be a primary type with an ofsted number of 135222,ofsted,Party,dacorum,135222,Politics,1
+"aycliffe drive , brockswood , maple grove , and yewtree be the primary with a dcsf number less than 2337 and an ofsted number larger than 135339",dcsf,Party,brockswood,2337,Politics,0
+holtsmere end have a dcsf number of 7047 and an ofsted number of 131319,ofsted,Party,holtsmere,7047,Politics,0
+haydon have 326 when ben - tahir have 33,ben - tahir,Candidate,ottawa,326,Politics,1
+"bello have 9 when osgoode and kanata southa have 13 and 6495 , respectivly",osgoode,Party,bello,6495,Politics,0
+the meas num 1 have 312680 yes vote,meas,Party,oregon,312680,Politics,1
+"union station in washington , district of columbia have the second most boarding and deboardings list in the chart with 4850685",union station,Party,washington,4850685,Politics,1
+"union station in washington , district of columbia have the second most boarding and deboardings list in the chart with 8995551",union station,Party,washington,8995551,Politics,0
+"when bjp be the incumbent and inc won , there be 200 seat",bjp,Party,india,200,Politics,1
+inc win the election (against incumbent bjp) with a record 200 seat,bjp,Candidate,india,200,Politics,1
+"as of monday , december 8 (2008) , inc beat incumbent bjp in rajasthan with 200 seat and incumbent inc in delhi with 70 seat",bjp,Candidate,rajasthan,200,Politics,1
+the 200 seat (acs) be in mizoram,state assembly,Party,mizoram,200,Politics,0
+the smallest number of seat when inc win and bjp be the incumbent be over 200,inc,Party,india,200,Politics,0
+"democrat j l pilcher , john james flynt , jr and tic forrester each defeat their challenger by win 100% of the vote in their district",j l pilcher,Candidate,united states,100,Politics,1

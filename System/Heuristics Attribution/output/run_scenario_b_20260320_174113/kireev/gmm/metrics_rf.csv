@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,n_components,bic,aic,converged,noise_count,silhouette
+RandomForest,0.9472,0.9222,0.9171,0.9196,0.9472,0.9396,0.41,117,11544,1.0,gmm,15,-1063258.53,-1074849.47,True,0,0.4622

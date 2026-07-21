@@ -1,0 +1,151 @@
+row_id,true_intent,pred_intent,reason,llm_time_s,raw_response
+5,-1,-1,Data entry error: '?' for race is likely a missing value indicator.,0.746,"{""decision"": -1, ""reason"": ""Data entry error: '?' for race is likely a missing value indicator.""}"
+7,-1,1,"Capital loss changed to a negative value, which is likely intentional to represent a loss.",0.733,"{""decision"": 1, ""reason"": ""Capital loss changed to a negative value, which is likely intentional to represent a loss.""}
+"
+11,-1,1,"Age changed, plausible intentional data entry error.",0.726,"{""decision"": 1, ""reason"": ""Age changed, plausible intentional data entry error.""}
+"
+13,1,1,education-num changed without education changing,0.508,"{""decision"": 1, ""reason"": ""education-num changed without education changing""}"
+22,-1,-1,Workclass is already missing.,0.619,"{""decision"": -1, ""reason"": ""Workclass is already missing.""}"
+42,-1,1,"Age changed significantly, and occupation changed to missing, suggesting intentional obfuscation.",0.678,"{""decision"": 1, ""reason"": ""Age changed significantly, and occupation changed to missing, suggesting intentional obfuscation.""}"
+45,-1,-1,Typo in native-country,0.735,"{""decision"": -1, ""reason"": ""Typo in native-country""}
+"
+59,-1,1,Replacing a valid country with '?' suggests intentional data cleaning or anonymization.,0.681,"{""decision"": 1, ""reason"": ""Replacing a valid country with '?' suggests intentional data cleaning or anonymization.""}"
+60,1,1,"marital-status changed, likely intentional",0.64,"{""decision"": 1, ""reason"": ""marital-status changed, likely intentional""}"
+61,1,1,Relationship changed to a more specific category.,0.511,"{""decision"": 1, ""reason"": ""Relationship changed to a more specific category.""}
+"
+63,-1,1,Capital loss introduced,0.63,"{""decision"": 1, ""reason"": ""Capital loss introduced""}"
+66,-1,1,Replacing a valid country with '?' suggests intentional data cleaning or anonymization.,0.805,"{""decision"": 1, ""reason"": ""Replacing a valid country with '?' suggests intentional data cleaning or anonymization.""}
+"
+77,-1,1,"Workclass changed to '?', likely intentional missing data representation.",0.778,"{""decision"": 1, ""reason"": ""Workclass changed to '?', likely intentional missing data representation.""}"
+81,1,1,"Age and marital status changed, suggesting a life event.",0.792,"{""decision"": 1, ""reason"": ""Age and marital status changed, suggesting a life event.""}"
+83,-1,1,Workclass changed to missing value.,0.681,"{""decision"": 1, ""reason"": ""Workclass changed to missing value.""}"
+90,-1,1,"Occupation changed to '?', likely intentional data cleaning.",0.683,"{""decision"": 1, ""reason"": ""Occupation changed to '?', likely intentional data cleaning.""}"
+92,-1,-1,Typo in native-country suggests unintentional error.,0.625,"{""decision"": -1, ""reason"": ""Typo in native-country suggests unintentional error.""}
+"
+93,-1,-1,Typographical errors in string values.,0.556,"{""decision"": -1, ""reason"": ""Typographical errors in string values.""}
+"
+101,1,1,marital-status and relationship are changed to be consistent,0.677,"{""decision"": 1, ""reason"": ""marital-status and relationship are changed to be consistent""}"
+104,-1,-1,"Marital status changed to '?', likely unintentional data entry error.",0.747,"{""decision"": -1, ""reason"": ""Marital status changed to '?', likely unintentional data entry error.""}"
+118,-1,-1,Typographical error in 'education' field.,0.678,"{""decision"": -1, ""reason"": ""Typographical error in 'education' field.""}
+"
+119,-1,1,"Occupation changed to '?', relationship changed to 'Wife', suggesting intentional data obfuscation or modification.",0.679,"{""decision"": 1, ""reason"": ""Occupation changed to '?', relationship changed to 'Wife', suggesting intentional data obfuscation or modification.""}
+"
+120,1,1,"Relationship changed to 'Husband' for a female, likely intentional misrepresentation.",0.796,"{""decision"": 1, ""reason"": ""Relationship changed to 'Husband' for a female, likely intentional misrepresentation.""}
+"
+130,-1,1,"education-num changed, likely intentional to reflect a different education level",0.567,"{""decision"": 1, ""reason"": ""education-num changed, likely intentional to reflect a different education level""}"
+133,-1,-1,"Occupation changed to '?', likely unintentional data missing marker.",0.856,"{""decision"": -1, ""reason"": ""Occupation changed to '?', likely unintentional data missing marker.""}
+"
+135,1,1,marital-status and relationship are logically linked,0.51,"{""decision"": 1, ""reason"": ""marital-status and relationship are logically linked""}"
+160,1,-1,"Education changed to Bachelors but education-num remained 7, and hours-per-week changed to 42. Likely unintentional.",0.626,"{""decision"": -1, ""reason"": ""Education changed to Bachelors but education-num remained 7, and hours-per-week changed to 42. Likely unintentional.""}
+"
+161,-1,1,"hours-per-week changed by 1, likely intentional",0.565,"{""decision"": 1, ""reason"": ""hours-per-week changed by 1, likely intentional""}"
+162,1,1,"Age changed, likely intentional.",0.628,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+177,-1,-1,"Occupation changed to '?', likely unintentional due to missing data.",0.508,"{""decision"": -1, ""reason"": ""Occupation changed to '?', likely unintentional due to missing data.""}"
+181,-1,1,Marital status changed to missing value.,0.515,"{""decision"": 1, ""reason"": ""Marital status changed to missing value.""}
+"
+186,-1,1,hours-per-week changed,0.676,"{""decision"": 1, ""reason"": ""hours-per-week changed""}"
+187,-1,-1,Typo in education.,0.687,"{""decision"": -1, ""reason"": ""Typo in education.""}
+"
+203,1,1,"Relationship changed to Wife, inconsistent with Divorced marital status.",0.734,"{""decision"": 1, ""reason"": ""Relationship changed to Wife, inconsistent with Divorced marital status.""}
+"
+206,-1,-1,fnlwgt is often statistically adjusted.,0.801,"{""decision"": -1, ""reason"": ""fnlwgt is often statistically adjusted.""}"
+214,1,1,"Age and capital gain changed, suggesting an attempt to alter financial profile.",0.565,"{""decision"": 1, ""reason"": ""Age and capital gain changed, suggesting an attempt to alter financial profile.""}
+"
+217,-1,-1,Age changed to an implausible value.,0.625,"{""decision"": -1, ""reason"": ""Age changed to an implausible value.""}
+"
+232,1,1,"Relationship changed to 'Husband' for a female, likely intentional data entry error.",0.684,"{""decision"": 1, ""reason"": ""Relationship changed to 'Husband' for a female, likely intentional data entry error.""}"
+234,1,1,Education number and hours per week changed together.,0.452,"{""decision"": 1, ""reason"": ""Education number and hours per week changed together.""}"
+235,-1,1,"education-num changed, likely intentional to reflect a higher level of education.",0.791,"{""decision"": 1, ""reason"": ""education-num changed, likely intentional to reflect a higher level of education.""}
+"
+236,1,1,Capital gain changed to zero.,0.455,"{""decision"": 1, ""reason"": ""Capital gain changed to zero.""}"
+240,-1,-1,"Marital status changed to '?', likely unintentional data entry error.",0.629,"{""decision"": -1, ""reason"": ""Marital status changed to '?', likely unintentional data entry error.""}"
+241,1,1,"education-num changed, likely intentional to reflect a higher level of education.",0.853,"{""decision"": 1, ""reason"": ""education-num changed, likely intentional to reflect a higher level of education.""}
+"
+251,1,1,education-num changed without corresponding education change,0.458,"{""decision"": 1, ""reason"": ""education-num changed without corresponding education change""}"
+255,-1,-1,Typographical error in 'education' field.,0.575,"{""decision"": -1, ""reason"": ""Typographical error in 'education' field.""}
+"
+257,-1,1,hours-per-week changed by 1,0.565,"{""decision"": 1, ""reason"": ""hours-per-week changed by 1""}"
+259,1,1,"Capital gain changed from 0 to 5013, a significant and likely intentional modification.",0.63,"{""decision"": 1, ""reason"": ""Capital gain changed from 0 to 5013, a significant and likely intentional modification.""}"
+266,-1,-1,Workclass is already missing.,0.675,"{""decision"": -1, ""reason"": ""Workclass is already missing.""}"
+269,-1,1,"hours-per-week changed, likely intentional to reflect actual work hours",0.787,"{""decision"": 1, ""reason"": ""hours-per-week changed, likely intentional to reflect actual work hours""}"
+270,1,1,"Age changed, likely intentional.",0.626,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+271,1,-1,Education changed but education-num remained the same.,0.634,"{""decision"": -1, ""reason"": ""Education changed but education-num remained the same.""}
+"
+272,-1,1,Replacing a country with '?' suggests intentional data cleaning or anonymization.,0.691,"{""decision"": 1, ""reason"": ""Replacing a country with '?' suggests intentional data cleaning or anonymization.""}
+"
+273,1,1,hours-per-week changed to a round number,0.511,"{""decision"": 1, ""reason"": ""hours-per-week changed to a round number""}
+"
+285,-1,1,Hours worked are often intentionally misreported.,0.622,"{""decision"": 1, ""reason"": ""Hours worked are often intentionally misreported.""}"
+290,-1,-1,"Workclass changed to '?', likely unintentional missing data.",0.57,"{""decision"": -1, ""reason"": ""Workclass changed to '?', likely unintentional missing data.""}
+"
+291,1,1,Education and education-num are linked; changing one necessitates changing the other.,0.742,"{""decision"": 1, ""reason"": ""Education and education-num are linked; changing one necessitates changing the other.""}"
+294,1,1,"Age changed, likely intentional.",0.511,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+302,1,1,marital-status and relationship are logically connected,0.685,"{""decision"": 1, ""reason"": ""marital-status and relationship are logically connected""}"
+307,-1,-1,Typographical error in relationship.,0.63,"{""decision"": -1, ""reason"": ""Typographical error in relationship.""}
+"
+309,-1,1,Hours worked is often intentionally misreported.,0.674,"{""decision"": 1, ""reason"": ""Hours worked is often intentionally misreported.""}"
+324,-1,1,"Marital status changed to '?', likely representing missing or unknown data.",0.563,"{""decision"": 1, ""reason"": ""Marital status changed to '?', likely representing missing or unknown data.""}"
+342,-1,-1,"Single field changed, likely unintentional.",0.636,"{""decision"": -1, ""reason"": ""Single field changed, likely unintentional.""}
+"
+344,-1,-1,Typographical error in 'native-country'.,0.587,"{""decision"": -1, ""reason"": ""Typographical error in 'native-country'.""}"
+349,1,1,marital-status and relationship are logically linked,0.627,"{""decision"": 1, ""reason"": ""marital-status and relationship are logically linked""}"
+350,1,1,marital-status and relationship are changed to be consistent,0.506,"{""decision"": 1, ""reason"": ""marital-status and relationship are changed to be consistent""}"
+355,-1,1,"Occupation changed, likely intentional data entry error.",0.74,"{""decision"": 1, ""reason"": ""Occupation changed, likely intentional data entry error.""}
+"
+356,1,1,marital-status and occupation changed together,0.513,"{""decision"": 1, ""reason"": ""marital-status and occupation changed together""}"
+357,-1,1,"Occupation changed, likely intentional to misrepresent employment.",0.681,"{""decision"": 1, ""reason"": ""Occupation changed, likely intentional to misrepresent employment.""}
+"
+361,1,1,"Relationship changed from 'Not-in-family' to 'Husband', suggesting intentional modification.",0.587,"{""decision"": 1, ""reason"": ""Relationship changed from 'Not-in-family' to 'Husband', suggesting intentional modification.""}
+"
+362,-1,1,hours-per-week changed by 1,0.808,"{""decision"": 1, ""reason"": ""hours-per-week changed by 1""}"
+363,-1,-1,"Age changed, likely unintentional.",0.639,"{""decision"": -1, ""reason"": ""Age changed, likely unintentional.""}
+"
+365,-1,-1,Data missing is often unintentional.,0.56,"{""decision"": -1, ""reason"": ""Data missing is often unintentional.""}
+"
+366,-1,-1,Typographical error in 'sex' field.,0.515,"{""decision"": -1, ""reason"": ""Typographical error in 'sex' field.""}
+"
+374,1,1,marital-status and relationship are logically linked,0.626,"{""decision"": 1, ""reason"": ""marital-status and relationship are logically linked""}"
+382,-1,1,"hours-per-week changed by a small, plausible amount",0.621,"{""decision"": 1, ""reason"": ""hours-per-week changed by a small, plausible amount""}"
+384,-1,-1,fnlwgt is often a noisy feature.,0.508,"{""decision"": -1, ""reason"": ""fnlwgt is often a noisy feature.""}"
+386,1,1,marital-status and relationship are logically linked,0.567,"{""decision"": 1, ""reason"": ""marital-status and relationship are logically linked""}"
+396,-1,1,"Workclass changed to '?', likely intentional data masking.",0.676,"{""decision"": 1, ""reason"": ""Workclass changed to '?', likely intentional data masking.""}"
+400,-1,-1,Typographical error in 'United-Syates',0.505,"{""decision"": -1, ""reason"": ""Typographical error in 'United-Syates'""}"
+401,-1,1,education-num changed without education changing,0.687,"{""decision"": 1, ""reason"": ""education-num changed without education changing""}"
+403,1,1,Age and education-num are related and changed together.,0.673,"{""decision"": 1, ""reason"": ""Age and education-num are related and changed together.""}"
+404,-1,1,Replacing a country with '?' is often intentional to mask the origin.,0.788,"{""decision"": 1, ""reason"": ""Replacing a country with '?' is often intentional to mask the origin.""}
+"
+406,1,1,"Relationship changed from Unmarried to Wife, suggesting intentional modification.",0.567,"{""decision"": 1, ""reason"": ""Relationship changed from Unmarried to Wife, suggesting intentional modification.""}"
+415,-1,-1,"Age and education changed, but education-num remained the same, which is inconsistent.",0.623,"```json
+{""decision"": -1, ""reason"": ""Age and education changed, but education-num remained the same, which is inconsistent.""}
+```"
+418,-1,1,"Hours-per-week changed by a single hour, likely intentional.",0.626,"{""decision"": 1, ""reason"": ""Hours-per-week changed by a single hour, likely intentional.""}
+"
+434,-1,1,capital-loss changed to negative value,0.559,"{""decision"": 1, ""reason"": ""capital-loss changed to negative value""}"
+441,-1,1,capital-loss changed to negative value,0.679,"```json
+{""decision"": 1, ""reason"": ""capital-loss changed to negative value""}
+```"
+442,1,1,marital-status and relationship are changed in a logically consistent way,0.688,"{""decision"": 1, ""reason"": ""marital-status and relationship are changed in a logically consistent way""}"
+444,-1,-1,Age changed to an impossible value.,0.68,"{""decision"": -1, ""reason"": ""Age changed to an impossible value.""}
+"
+451,-1,-1,Typographical error and missing value.,0.674,"{""decision"": -1, ""reason"": ""Typographical error and missing value.""}"
+454,1,1,"Age and marital status changed together, suggesting a life event.",0.685,"{""decision"": 1, ""reason"": ""Age and marital status changed together, suggesting a life event.""}
+"
+460,-1,1,"Capital loss changed to a negative value, likely intentional to represent a loss.",0.674,"{""decision"": 1, ""reason"": ""Capital loss changed to a negative value, likely intentional to represent a loss.""}
+"
+468,-1,1,"Workclass changed to '?', likely representing missing data intentionally.",0.679,"{""decision"": 1, ""reason"": ""Workclass changed to '?', likely representing missing data intentionally.""}
+"
+471,1,1,"Age and relationship changed, suggesting intentional manipulation to fit a specific profile.",0.959,"{""decision"": 1, ""reason"": ""Age and relationship changed, suggesting intentional manipulation to fit a specific profile.""}
+"
+475,-1,-1,fnlwgt is often statistically modified.,0.629,"{""decision"": -1, ""reason"": ""fnlwgt is often statistically modified.""}
+"
+484,-1,-1,Slight change in hours-per-week is likely unintentional.,0.515,"{""decision"": -1, ""reason"": ""Slight change in hours-per-week is likely unintentional.""}
+"
+489,-1,-1,"Workclass changed to '?', likely unintentional missing data.",0.793,"{""decision"": -1, ""reason"": ""Workclass changed to '?', likely unintentional missing data.""}"
+490,-1,-1,"Workclass changed to '?', likely unintentional data entry error.",0.558,"{""decision"": -1, ""reason"": ""Workclass changed to '?', likely unintentional data entry error.""}"
+492,-1,1,Hours worked is often intentionally misreported.,0.624,"```json
+{""decision"": 1, ""reason"": ""Hours worked is often intentionally misreported.""}
+```"
+494,-1,-1,"Marital status changed to '?', likely unintentional data entry error.",0.568,"{""decision"": -1, ""reason"": ""Marital status changed to '?', likely unintentional data entry error.""}"

@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,n_clusters,linkage,noise_count,silhouette
+KNN_k7,0.9261,0.9061,0.8563,0.8805,0.9256,0.9075,0.03,70,1029,6.37,hierarchical_ward,15,ward,0,0.404

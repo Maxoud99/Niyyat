@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,eps,min_samples,n_clusters,noise_count,silhouette
+RandomForest,0.9825,0.9739,0.9725,0.9732,0.9825,0.9799,0.33,623,11038,5.34,dbscan,0.2202,5,125,869,0.611

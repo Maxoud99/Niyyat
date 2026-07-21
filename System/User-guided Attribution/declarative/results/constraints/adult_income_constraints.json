@@ -1,0 +1,319 @@
+{
+  "constraints": [
+    {
+      "id": "C1",
+      "description": "A positive capital-gain value is consistent with a deliberate attempt to appear higher-income (gain-targeted).",
+      "columns": [
+        "capital-gain"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['capital-gain']) > 0",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C2",
+      "description": "A positive capital-loss value is consistent with a deliberate attempt to appear higher-income (gain-targeted).",
+      "columns": [
+        "capital-loss"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['capital-loss']) > 0",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C3",
+      "description": "An hours-per-week value in the full-time or overtime range (40-99) is consistent with a deliberate attempt to appear higher-income (gain-targeted).",
+      "columns": [
+        "hours-per-week"
+      ],
+      "expression": "40 <= (lambda v: int(float(v)))(row['hours-per-week']) <= 99",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C4",
+      "description": "An education level of Bachelors or higher is consistent with a deliberate attempt to appear higher-income (gain-targeted).",
+      "columns": [
+        "education"
+      ],
+      "expression": "str(row['education']) in ['Bachelors', 'Masters', 'Prof-school', 'Doctorate']",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C5",
+      "description": "A numeric education level of 13 or higher is consistent with a deliberate attempt to appear higher-income (gain-targeted).",
+      "columns": [
+        "education-num"
+      ],
+      "expression": "13 <= (lambda v: int(float(v)))(row['education-num']) <= 16",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C6",
+      "description": "An occupation of Exec-managerial or Prof-specialty is consistent with a deliberate attempt to appear higher-income (gain-targeted).",
+      "columns": [
+        "occupation"
+      ],
+      "expression": "str(row['occupation']) in ['Exec-managerial', 'Prof-specialty']",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C7",
+      "description": "A workclass of Self-emp-inc is consistent with a deliberate attempt to appear higher-income (gain-targeted).",
+      "columns": [
+        "workclass"
+      ],
+      "expression": "str(row['workclass']) == 'Self-emp-inc'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C8",
+      "description": "A marital-status of Married-civ-spouse is consistent with a deliberate attempt to appear higher-income (gain-targeted).",
+      "columns": [
+        "marital-status"
+      ],
+      "expression": "str(row['marital-status']) == 'Married-civ-spouse'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C9",
+      "description": "An inconsistency between the education and education-num fields suggests a deliberate, incomplete edit to inflate qualifications (gain-targeted).",
+      "columns": [
+        "education",
+        "education-num"
+      ],
+      "expression": "(lambda edu, num_str: {'Preschool': '1', '1st-4th': '2', '5th-6th': '3', '7th-8th': '4', '9th': '5', '10th': '6', '11th': '7', '12th': '8', 'HS-grad': '9', 'Some-college': '10', 'Assoc-voc': '11', 'Assoc-acdm': '12', 'Bachelors': '13', 'Masters': '14', 'Prof-school': '15', 'Doctorate': '16'}.get(str(edu)) != str(int(float(num_str))))(row['education'], row['education-num'])",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C10",
+      "description": "A race value of 'White' on a flagged cell suggests a deliberate change to mask a sensitive attribute (fairness-masking).",
+      "columns": [
+        "race"
+      ],
+      "expression": "str(row['race']) == 'White'",
+      "intent_signal": 1,
+      "motive": "fairness_masking"
+    },
+    {
+      "id": "C11",
+      "description": "A sex value of 'Male' on a flagged cell suggests a deliberate change to mask a sensitive attribute (fairness-masking).",
+      "columns": [
+        "sex"
+      ],
+      "expression": "str(row['sex']) == 'Male'",
+      "intent_signal": 1,
+      "motive": "fairness_masking"
+    },
+    {
+      "id": "C12",
+      "description": "A relationship of 'Husband' with a non-'Male' sex value suggests the sex field was deliberately altered to mask gender (fairness-masking).",
+      "columns": [
+        "relationship",
+        "sex"
+      ],
+      "expression": "str(row['relationship']) == 'Husband' and str(row['sex']) != 'Male'",
+      "intent_signal": 1,
+      "motive": "fairness_masking"
+    },
+    {
+      "id": "C13",
+      "description": "A relationship of 'Wife' with a non-'Female' sex value suggests the sex field was deliberately altered to mask gender (fairness-masking).",
+      "columns": [
+        "relationship",
+        "sex"
+      ],
+      "expression": "str(row['relationship']) == 'Wife' and str(row['sex']) != 'Female'",
+      "intent_signal": 1,
+      "motive": "fairness_masking"
+    },
+    {
+      "id": "C14",
+      "description": "A workclass value of '?' on a flagged cell suggests a deliberate choice to hide the true value (obfuscation).",
+      "columns": [
+        "workclass"
+      ],
+      "expression": "str(row['workclass']) == '?'",
+      "intent_signal": 1,
+      "motive": "obfuscation"
+    },
+    {
+      "id": "C15",
+      "description": "An occupation value of '?' on a flagged cell suggests a deliberate choice to hide the true value (obfuscation).",
+      "columns": [
+        "occupation"
+      ],
+      "expression": "str(row['occupation']) == '?'",
+      "intent_signal": 1,
+      "motive": "obfuscation"
+    },
+    {
+      "id": "C16",
+      "description": "A native-country value of '?' on a flagged cell suggests a deliberate choice to hide the true value (obfuscation).",
+      "columns": [
+        "native-country"
+      ],
+      "expression": "str(row['native-country']) == '?'",
+      "intent_signal": 1,
+      "motive": "obfuscation"
+    },
+    {
+      "id": "C17",
+      "description": "An age outside the plausible human range [17, 90] serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "age"
+      ],
+      "expression": "not (17 <= (lambda v: int(float(v)))(row['age']) <= 90)",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C18",
+      "description": "A negative capital-gain is physically impossible and serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "capital-gain"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['capital-gain']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C19",
+      "description": "A negative capital-loss is physically impossible and serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "capital-loss"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['capital-loss']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C20",
+      "description": "An hours-per-week value outside the plausible range [1, 99] serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "hours-per-week"
+      ],
+      "expression": "not (1 <= (lambda v: int(float(v)))(row['hours-per-week']) <= 99)",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C21",
+      "description": "An education-num outside the valid range [1, 16] serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "education-num"
+      ],
+      "expression": "not (1 <= (lambda v: int(float(v)))(row['education-num']) <= 16)",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C22",
+      "description": "A non-positive fnlwgt value is invalid and serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "fnlwgt"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['fnlwgt']) <= 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C23",
+      "description": "A workclass value that is not a recognized category or the '?' placeholder serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "workclass"
+      ],
+      "expression": "str(row['workclass']) not in ['Private', 'Self-emp-not-inc', 'Self-emp-inc', 'Federal-gov', 'Local-gov', 'State-gov', 'Without-pay', '?']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C24",
+      "description": "An occupation value that is not a recognized category or the '?' placeholder serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "occupation"
+      ],
+      "expression": "str(row['occupation']) not in ['Tech-support', 'Craft-repair', 'Other-service', 'Sales', 'Exec-managerial', 'Prof-specialty', 'Handlers-cleaners', 'Machine-op-inspct', 'Adm-clerical', 'Farming-fishing', 'Transport-moving', 'Priv-house-serv', 'Protective-serv', 'Armed-Forces', '?']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C25",
+      "description": "A marital-status value that is not a recognized category serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "marital-status"
+      ],
+      "expression": "str(row['marital-status']) not in ['Married-civ-spouse', 'Divorced', 'Never-married', 'Separated', 'Widowed', 'Married-spouse-absent', 'Married-AF-spouse']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C26",
+      "description": "A native-country value that is not a recognized category or the '?' placeholder serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "native-country"
+      ],
+      "expression": "str(row['native-country']) not in ['United-States', 'Cambodia', 'England', 'Puerto-Rico', 'Canada', 'Germany', 'Outlying-US(Guam-USVI-etc)', 'India', 'Japan', 'Greece', 'South', 'China', 'Cuba', 'Iran', 'Honduras', 'Philippines', 'Italy', 'Poland', 'Jamaica', 'Vietnam', 'Mexico', 'Portugal', 'Ireland', 'France', 'Dominican-Republic', 'Laos', 'Ecuador', 'Taiwan', 'Haiti', 'Columbia', 'Hungary', 'Guatemala', 'Nicaragua', 'Scotland', 'Thailand', 'Yugoslavia', 'El-Salvador', 'Trinadad&Tobago', 'Peru', 'Hong', 'Holand-Netherlands', '?']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C27",
+      "description": "An education value that is not a recognized category serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "education"
+      ],
+      "expression": "str(row['education']) not in ['Preschool', '1st-4th', '5th-6th', '7th-8th', '9th', '10th', '11th', '12th', 'HS-grad', 'Some-college', 'Assoc-voc', 'Assoc-acdm', 'Bachelors', 'Masters', 'Prof-school', 'Doctorate']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C28",
+      "description": "A relationship value that is not a recognized category serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "relationship"
+      ],
+      "expression": "str(row['relationship']) not in ['Wife', 'Own-child', 'Husband', 'Not-in-family', 'Other-relative', 'Unmarried']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C29",
+      "description": "A race value that is not a recognized category serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "race"
+      ],
+      "expression": "str(row['race']) not in ['White', 'Asian-Pac-Islander', 'Amer-Indian-Eskimo', 'Other', 'Black']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C30",
+      "description": "A sex value that is not a recognized category serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "sex"
+      ],
+      "expression": "str(row['sex']) not in ['Male', 'Female']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C31",
+      "description": "A class value that is not a recognized category serves no manipulation goal, indicating accidental corruption (noise).",
+      "columns": [
+        "class"
+      ],
+      "expression": "str(row['class']) not in ['>50K', '<=50K']",
+      "intent_signal": -1,
+      "motive": "noise"
+    }
+  ],
+  "source": "configs/adult_income.txt",
+  "model": "gemini-2.5-pro"
+}

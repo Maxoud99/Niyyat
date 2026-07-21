@@ -1,0 +1,33 @@
+{
+  "n_records": 6051,
+  "accuracy": 0.2203,
+  "precision_int": 0.194,
+  "recall_int": 0.9939,
+  "f1_intentional": 0.3246,
+  "precision_unint": 0.966,
+  "recall_unint": 0.0405,
+  "f1_unintentional": 0.0778,
+  "f1_weighted": 0.1243,
+  "tp": 1134,
+  "tn": 199,
+  "fp": 4711,
+  "fn": 7,
+  "pred_counts": {
+    "1": 5845,
+    "-1": 206
+  },
+  "true_counts": {
+    "-1": 4910,
+    "1": 1141
+  },
+  "variant": "zero_shot",
+  "fallback_count": 1,
+  "status_hist": {
+    "ok": 6050,
+    "api_error": 1,
+    "parse_error": 0,
+    "fallback": 1
+  },
+  "avg_llm_time_s": 0.616,
+  "total_llm_time_s": 3728.28
+}

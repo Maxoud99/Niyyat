@@ -1,0 +1,163 @@
+{
+  "constraints": [
+    {
+      "id": "C1",
+      "description": "Presence of common HTML/XML characters like '<' or '>' in text fields suggests accidental scraping/parsing errors (noise).",
+      "columns": [
+        "title",
+        "category",
+        "condition",
+        "spec_brand",
+        "spec_model",
+        "spec_type",
+        "spec_style"
+      ],
+      "expression": "any('<' in str(row[c]) or '>' in str(row[c]) for c in ['title', 'category', 'condition', 'spec_brand', 'spec_model', 'spec_type', 'spec_style'])",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C2",
+      "description": "Using a common placeholder like 'N/A', 'unknown', or an empty string in a structured field suggests an accidental data entry or scraping error (noise).",
+      "columns": [
+        "spec_upc",
+        "spec_ean",
+        "spec_mpn",
+        "spec_brand",
+        "spec_model",
+        "spec_type",
+        "spec_style",
+        "condition",
+        "return_period_days"
+      ],
+      "expression": "any(str(row[c]).lower().strip() in ['n/a', 'tbd', 'unknown', ''] for c in ['spec_upc', 'spec_ean', 'spec_mpn', 'spec_brand', 'spec_model', 'spec_type', 'spec_style', 'condition', 'return_period_days'])",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C3",
+      "description": "A non-empty spec_upc that is not a 12-digit string is an invalid format, suggesting an accidental data error (noise).",
+      "columns": [
+        "spec_upc"
+      ],
+      "expression": "len(str(row['spec_upc']).strip()) > 0 and not (len(str(row['spec_upc']).strip()) == 12 and str(row['spec_upc']).strip().isdigit())",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C4",
+      "description": "A non-empty spec_ean that is not a 13-digit string is an invalid format, suggesting an accidental data error (noise).",
+      "columns": [
+        "spec_ean"
+      ],
+      "expression": "len(str(row['spec_ean']).strip()) > 0 and not (len(str(row['spec_ean']).strip()) == 13 and str(row['spec_ean']).strip().isdigit())",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C5",
+      "description": "A negative or implausibly large (> 20000) description_length is physically nonsensical, indicating an accidental data error (noise).",
+      "columns": [
+        "description_length"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['description_length']) < 0 or (lambda v: int(float(v)))(row['description_length']) > 20000",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C6",
+      "description": "A title shorter than 5 or longer than 80 characters (eBay's limit) is implausible for a real listing, indicating an accidental data error (noise).",
+      "columns": [
+        "title"
+      ],
+      "expression": "len(str(row['title'])) < 5 or len(str(row['title'])) > 80",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C7",
+      "description": "A return_period_days value other than one of the standard options {7, 14, 30, 60} when returns are accepted is invalid, indicating an accidental data error (noise).",
+      "columns": [
+        "return_period_days",
+        "returns_accepted"
+      ],
+      "expression": "str(row['returns_accepted']).lower().strip() == 'true' and str(row['return_period_days']).strip() not in ['7', '14', '30', '60']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C8",
+      "description": "A negative seller_feedback_score is impossible on eBay, indicating an accidental data or parsing error (noise).",
+      "columns": [
+        "seller_feedback_score"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['seller_feedback_score']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C9",
+      "description": "Accepting returns but not specifying a return period is usually an accidental form submission error, not a deliberate omission (noise).",
+      "columns": [
+        "returns_accepted",
+        "return_period_days"
+      ],
+      "expression": "str(row['returns_accepted']).lower().strip() == 'true' and str(row['return_period_days']).strip() == ''",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C10",
+      "description": "Specifying a return period while not accepting returns is contradictory and usually an accidental error from using a template (noise).",
+      "columns": [
+        "returns_accepted",
+        "return_period_days"
+      ],
+      "expression": "str(row['returns_accepted']).lower().strip() == 'false' and str(row['return_period_days']).strip() != ''",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C11",
+      "description": "A non-positive price is impossible for a listing, indicating an accidental data error (noise).",
+      "columns": [
+        "price"
+      ],
+      "expression": "(lambda v: float(v))(row['price']) <= 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C12",
+      "description": "A seller_feedback_pct outside the valid [0, 100] range is impossible, indicating an accidental data error (noise).",
+      "columns": [
+        "seller_feedback_pct"
+      ],
+      "expression": "not (0 <= (lambda v: float(v))(row['seller_feedback_pct']) <= 100)",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C13",
+      "description": "A negative n_images count is physically impossible, indicating an accidental data error (noise).",
+      "columns": [
+        "n_images"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['n_images']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C14",
+      "description": "A returns_accepted value other than 'True' or 'False' is invalid, indicating an accidental data error (noise).",
+      "columns": [
+        "returns_accepted"
+      ],
+      "expression": "str(row['returns_accepted']).lower().strip() not in ['true', 'false']",
+      "intent_signal": -1,
+      "motive": "noise"
+    }
+  ],
+  "source": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/declarative/configs/ebay.txt",
+  "model": "gemini-2.5-pro"
+}

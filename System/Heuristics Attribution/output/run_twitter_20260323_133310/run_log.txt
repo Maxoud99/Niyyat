@@ -1,0 +1,108 @@
+======================================================================
+  ATTRIBUTION PIPELINE -- TWITTERBOT DATASET EVALUATION
+  Run: 20260323_133310
+  Output: /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_twitter_20260323_133310
+======================================================================
+
+======================================================================
+  DATASET: Mixed SOTA (TwiBot-20)
+======================================================================
+
+Loading Mixed SOTA (TwiBot-20)...
+  Dirty shape:      (4731, 19)
+  Erroneous cells:  1099
+  Intentional:      346
+  Unintentional:    753
+  Loaded in 0.8s
+
+Fitting pipeline (unsupervised)...
+  Fit completed in 36.7s
+
+Computing feature matrix...
+  Feature matrix shape: (1099, 13)
+  Computed in 34.2s
+  -> Saved feature_matrix.csv
+  -> Saved feature_distributions.csv
+
+----------------------------------------------------------------------
+Feature Distributions -- Mixed SOTA (TwiBot-20)
+----------------------------------------------------------------------
+
+Feature                         Intentional  Unintentional      Delta
+======================================================================
+h1_plausible                         1.0000         0.4887    +0.5113 ^
+h2_min_edit_distance                    nan            nan       +nan
+h2_is_obfuscation                       nan            nan       +nan
+h3_distribution_score                0.8572         0.8357    +0.0215
+h4_coherence_score                   0.9455         0.8771    +0.0685 ^
+h5_error_count                       1.7341         1.1992    +0.5349 ^
+h5_codependent_flag                  0.6792         0.1301    +0.5490 ^
+h6_column_importance                 0.1250         0.3382    -0.2133 v
+h7_mutability                        1.0000         1.0000    +0.0000
+h7_gain_direction                    0.4343         0.3944    +0.0399
+h7_comprehensibility                 1.0000         0.9665    +0.0335
+h8_is_sensitive                      0.0000         0.0000    +0.0000
+h8_is_majority_value                 0.0000         0.0000    +0.0000
+
+======================================================================
+Cross-Validation Evaluation -- Mixed SOTA (TwiBot-20)
+======================================================================
+
+Total erroneous cells: 1099
+Intentional (1):      346 (31.5%)
+Unintentional (0):    753 (68.5%)
+
+Fold        Acc     Prec   Recall       F1      AUC
+--------------------------------------------------
+1        0.9136   0.8571   0.8696   0.8633   0.9634
+2        0.9545   0.9403   0.9130   0.9265   0.9836
+3        0.9500   0.9028   0.9420   0.9220   0.9848
+4        0.9227   0.8841   0.8714   0.8777   0.9823
+5        0.9543   0.9403   0.9130   0.9265   0.9851
+--------------------------------------------------
+Mean     0.9390   0.9049   0.9018   0.9032   0.9799
+Std      0.0194   0.0361   0.0310   0.0303   0.0092
+
+Confusion Matrix (aggregated):
+                       Pred=Unintent  Pred=Intent
+         True=Unintent         720          33
+           True=Intent          34         312
+
+Classification Report:
+               precision    recall  f1-score   support
+
+Unintentional       0.95      0.96      0.96       753
+  Intentional       0.90      0.90      0.90       346
+
+     accuracy                           0.94      1099
+    macro avg       0.93      0.93      0.93      1099
+ weighted avg       0.94      0.94      0.94      1099
+
+RF Feature Importances (last fold):
+   1. h1_plausible                   0.2056  ##########
+   2. h3_distribution_score          0.1761  ########
+   3. h4_coherence_score             0.1749  ########
+   4. h5_codependent_flag            0.1393  ######
+   5. h6_column_importance           0.1150  #####
+   6. h5_error_count                 0.0870  ####
+   7. h7_gain_direction              0.0700  ###
+   8. h7_comprehensibility           0.0321  #
+   9. h2_is_obfuscation              0.0000  
+  10. h2_min_edit_distance           0.0000  
+  11. h7_mutability                  0.0000  
+  12. h8_is_sensitive                0.0000  
+  13. h8_is_majority_value           0.0000  
+
+  -> All dataset outputs saved to /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_twitter_20260323_133310/mixed_sota_twibot-20/
+
+======================================================================
+  RESULT SUMMARY
+======================================================================
+
+Dataset                             Acc     Prec   Recall       F1      AUC
+======================================================================
+Mixed SOTA (TwiBot-20)           0.9390   0.9049   0.9018   0.9032   0.9799
+
+  -> Summary saved to /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_twitter_20260323_133310/summary.csv
+
+Done.

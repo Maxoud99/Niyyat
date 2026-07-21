@@ -1,0 +1,29 @@
+{
+  "variant": "info",
+  "model_key": "llama",
+  "model": "Llama-3",
+  "endpoint": "http://127.0.0.1:6100/generate",
+  "dataset": "tabfact",
+  "records": 984,
+  "chunk_size": 10,
+  "n_chunks": 99,
+  "total_time_sec": 624.4278824979992,
+  "avg_chunk_sec": 6.306898000848837,
+  "avg_llm_sec": 6.305560621726644,
+  "status_hist": {
+    "ok": 99,
+    "parse_error": 0,
+    "api_error": 0
+  },
+  "successful_chunks": 99,
+  "decision_counts": {
+    "intentional (1)": 561,
+    "unintentional (-1)": 162,
+    "unchanged (0)": 4197
+  },
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-llama/intent_labels.csv",
+    "intent_explanations_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-llama/intent_explanations.csv",
+    "per_chunk_times_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-llama/per_chunk_times.csv"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.7973977695167286,
+  "f1_weighted": 0.7736973802351443,
+  "f1_macro": 0.7191313677031247,
+  "f1_intentional": 0.5708661417322834,
+  "precision_intentional": 0.8630952380952381,
+  "recall_intentional": 0.4264705882352941,
+  "f1_unintentional": 0.8673965936739659,
+  "precision_unintentional": 0.7852422907488987,
+  "recall_unintentional": 0.96875,
+  "n_seed": 23,
+  "n_clusters": 21
+}

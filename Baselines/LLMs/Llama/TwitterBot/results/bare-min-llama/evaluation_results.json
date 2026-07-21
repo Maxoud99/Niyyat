@@ -1,0 +1,101 @@
+{
+  "dataset": "twitter_bot_intent_attribution",
+  "ground_truth_file": "/home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/twitter-bot/combined_mask.csv",
+  "predictions_file": "/home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/twitter-bot/intent-attribution/outputs/bare-min-llama/intent_labels.csv",
+  "total_records": 4000,
+  "total_features": 18,
+  "total_feature_values": 72000,
+  "changed_features": 1931,
+  "unchanged_features": 70069,
+  "overall_metrics": {
+    "accuracy": 0.5639564992232005,
+    "precision": 1.0,
+    "recall": 0.5639564992232005,
+    "f1_score": 0.7211920529801324
+  },
+  "counts": {
+    "true_positives": 1089,
+    "false_negatives": 842,
+    "false_positives": 0,
+    "true_negatives": 0
+  },
+  "prediction_distribution": {
+    "predicted_intentional": 1089,
+    "predicted_unintentional": 842,
+    "predicted_unchanged": 0
+  },
+  "per_column_metrics": [
+    {
+      "column": "friends_count",
+      "n_changed": 273,
+      "true_positives": 270,
+      "false_negatives": 3,
+      "accuracy": 0.989010989010989,
+      "recall": 0.989010989010989
+    },
+    {
+      "column": "favourites_count",
+      "n_changed": 1,
+      "true_positives": 1,
+      "false_negatives": 0,
+      "accuracy": 1.0,
+      "recall": 1.0
+    },
+    {
+      "column": "listed_count",
+      "n_changed": 121,
+      "true_positives": 116,
+      "false_negatives": 5,
+      "accuracy": 0.9586776859504132,
+      "recall": 0.9586776859504132
+    },
+    {
+      "column": "has_created_date",
+      "n_changed": 8,
+      "true_positives": 2,
+      "false_negatives": 6,
+      "accuracy": 0.25,
+      "recall": 0.25
+    },
+    {
+      "column": "description_length",
+      "n_changed": 712,
+      "true_positives": 327,
+      "false_negatives": 385,
+      "accuracy": 0.4592696629213483,
+      "recall": 0.4592696629213483
+    },
+    {
+      "column": "screen_name_length",
+      "n_changed": 4,
+      "true_positives": 4,
+      "false_negatives": 0,
+      "accuracy": 1.0,
+      "recall": 1.0
+    },
+    {
+      "column": "name_length",
+      "n_changed": 804,
+      "true_positives": 364,
+      "false_negatives": 440,
+      "accuracy": 0.4527363184079602,
+      "recall": 0.4527363184079602
+    },
+    {
+      "column": "has_description",
+      "n_changed": 1,
+      "true_positives": 1,
+      "false_negatives": 0,
+      "accuracy": 1.0,
+      "recall": 1.0
+    },
+    {
+      "column": "has_location",
+      "n_changed": 7,
+      "true_positives": 4,
+      "false_negatives": 3,
+      "accuracy": 0.5714285714285714,
+      "recall": 0.5714285714285714
+    }
+  ]
+}

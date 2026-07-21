@@ -1,0 +1,15 @@
+{
+  "dataset": "TwitterBot-Mixed",
+  "n_cells": 1099,
+  "n_int": 343,
+  "n_unint": 756,
+  "accuracy": 0.6815,
+  "f1_int": 0.0,
+  "f1_unint": 0.8106,
+  "f1_weighted": 0.5576,
+  "precision_int": 0.0,
+  "recall_int": 0.0,
+  "auc": 0.3987,
+  "best_threshold": 6.4102,
+  "elapsed_sec": 4.8
+}

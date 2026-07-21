@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,eps,min_samples,n_clusters,noise_count,silhouette
+ClusterMajorityVote,0.9522,0.9811,0.8694,0.9219,0.9514,0.9307,0.29,585,11076,5.02,dbscan,0.3399,5,117,987,0.6441

@@ -1,0 +1,15 @@
+{
+  "model": "DeepSeek-R1",
+  "variant": "info-enhanced",
+  "total_records": 4000,
+  "total_features": 1022,
+  "chunk_size": 7,
+  "num_chunks": 572,
+  "llm_success_chunks": 256,
+  "llm_fail_chunks": 316,
+  "parse_errors": 910,
+  "total_time_sec": 1128.71,
+  "avg_chunk_time_sec": 1.97,
+  "avg_llm_time_sec": 1.97,
+  "throughput_records_per_sec": 3.54
+}

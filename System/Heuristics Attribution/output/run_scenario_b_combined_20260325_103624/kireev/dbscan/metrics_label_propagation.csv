@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,eps,min_samples,n_clusters,noise_count,silhouette
+LabelPropagation,0.8634,0.9598,0.6041,0.7415,0.8534,0.796,0.29,585,11076,5.02,dbscan,0.3399,5,117,987,0.6441

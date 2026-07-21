@@ -1,0 +1,27 @@
+{
+  "clean_rows": 6513,
+  "manip_rows": 19539,
+  "groups": 6513,
+  "total_time_sec": 3864.9461470339447,
+  "avg_group_time_sec": 0.593202296137963,
+  "median_group_time_sec": 0.5358573030680418,
+  "total_llm_time_sec": 3852.2821152210236,
+  "avg_llm_time_sec": 0.5914758352865075,
+  "llm_status_hist": {
+    "ok": 6513,
+    "http_error": 0,
+    "parse_error": 0,
+    "ok_decisions_list": 0,
+    "ok_simple_map": 6513,
+    "ok_salvage": 0
+  },
+  "decision_sources_hist": {
+    "llm": 6513,
+    "fallback": 0
+  },
+  "outputs": {
+    "generated_mask_csv": "/home/maxoud/projects/error_injector/llms_baseline/adult_income_dataset/tenth-trial/local-llms/third-trial-qwen-deepseek/intent_labels.csv",
+    "explanations_csv": "/home/maxoud/projects/error_injector/llms_baseline/adult_income_dataset/tenth-trial/local-llms/third-trial-qwen-deepseek/intent_explanations.csv",
+    "per_group_times_csv": "/home/maxoud/projects/error_injector/llms_baseline/adult_income_dataset/tenth-trial/local-llms/third-trial-qwen-deepseek/per_group_times.csv"
+  }
+}

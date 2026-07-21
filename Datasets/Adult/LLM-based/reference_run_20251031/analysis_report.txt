@@ -1,0 +1,516 @@
+================================================================================
+CROSS-TABULATION: Metadata Type vs Mask Status
+================================================================================
+Metadata Type                            Unintent   Intent     Mixed      Clean     
+--------------------------------------------------------------------------------
+fairness_masking (failed)                0          407        0          0         
+fairness_masking (passed)                0          907        0          640       
+gain_targeted (failed)                   0          817        0          0         
+gain_targeted (passed)                   0          2114       0          0         
+obfuscation_dmv (failed)                 0          165        0          0         
+obfuscation_dmv (passed)                 0          809        0          3         
+unintentional (failed)                   2747       0          0          0         
+unintentional (passed)                   10241      0          0          689       
+--------------------------------------------------------------------------------
+TOTAL                                    12988      5219       0          1332      
+
+================================================================================
+KEY FINDINGS:
+================================================================================
+
+Metadata 'unintentional' entries that resulted in:
+  Unintentional masks: 12988
+  Intentional masks: 0
+  Clean masks: 689
+
+Metadata 'intentional' entries (fairness/gain/obfuscation) that resulted in:
+  Unintentional masks: 0
+  Intentional masks: 5219
+  Clean masks: 643
+
+================================================================================
+EXPLANATION OF DISCREPANCY:
+================================================================================
+Metadata has 13,677 'unintentional' entries (70.0%)
+But some of these became intentional (1) or clean (0) in masks!
+Masks has 12988 'unintentional' rows (66.5%)
+
+Similarly, some 'intentional' metadata entries resulted in -1 masks!
+
+================================================================================
+DETAILED STATISTICS:
+================================================================================
+
+Total rows: 19539
+Error rows: 18207 (93.2%)
+Clean rows: 1332 (6.8%)
+
+Of error rows only:
+  Unintentional: 12988 (71.3%)
+  Intentional: 5219 (28.7%)
+  Mixed: 0 (0.0%)
+------------------------------------------
+
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+(base) mohamed@vega:~/error_injector$ head -20 /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv
+age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,class
+0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,1,1,0,0,0,0,0,1,0,0,0,0
+0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0
+0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0
+0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0
+0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+(base) mohamed@vega:~/error_injector$ python /home/mohamed/error_injector/llms_baseline/adult_income_dataset/count_masks.py /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv
+File: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv
+Counts:
+  -1: 14965
+   0: 264829
+   1: 13291
+(base) mohamed@vega:~/error_injector$ grep -o '"manipulation_type": "[^"]*"' /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/metadata.jsonl | sort | uniq -c
+   1954 "manipulation_type": "fairness_masking"
+   2931 "manipulation_type": "gain_targeted"
+    977 "manipulation_type": "obfuscation_dmv"
+  13677 "manipulation_type": "unintentional"
+(base) mohamed@vega:~/error_injector$ python3 << 'EOF'
+> # From masks.csv counts
+> total_errors_mask = 14965 + 13291  # -1 (unintentional) + 1 (intentional)
+> unintentional_mask = 14965
+> intentional_mask = 13291
+> 
+> print("=== MASKS.CSV Analysis ===")
+> print(f"Total errors in masks: {total_errors_mask}")
+> print(f"Unintentional (-1): {unintentional_mask} ({unintentional_mask/total_errors_mask*100:.1f}%)")
+> print(f"Intentional (1): {intentional_mask} ({intentional_mask/total_errors_mask*100:.1f}%)")
+> print()
+> 
+> # From metadata.jsonl counts
+> fairness = 1954
+> gain_targeted = 2931
+> obfuscation = 977
+> unintentional_meta = 13677
+> 
+> total_meta = fairness + gain_targeted + obfuscation + unintentional_meta
+> intentional_meta = fairness + gain_targeted + obfuscation
+> 
+> print("=== METADATA.JSONL Analysis ===")
+> print(f"Total entries: {total_meta}")
+> print(f"Unintentional: {unintentional_meta} ({unintentional_meta/total_meta*100:.1f}%)")
+> print(f"Intentional (fairness + gain + obfuscation): {intentional_meta} ({intentional_meta/total_meta*100:.1f}%)")
+> print(f"  - Fairness masking: {fairness}")
+> print(f"  - Gain targeted: {gain_targeted}")
+> print(f"  - Obfuscation DMV: {obfuscation}")
+> print()
+> 
+> print("=== DISCREPANCY ===")
+> print(f"Metadata unintentional%: {unintentional_meta/total_meta*100:.1f}%")
+> print(f"Masks unintentional%: {unintentional_mask/total_errors_mask*100:.1f}%")
+> print(f"Difference: {unintentional_meta/total_meta*100 - unintentional_mask/total_errors_mask*100:.1f} percentage points")
+> print()
+> print(f"Metadata has {unintentional_meta} unintentional entries")
+> print(f"Masks has {unintentional_mask} unintentional (-1) values")
+> print(f"Difference: {unintentional_meta - unintentional_mask} ({(unintentional_meta - unintentional_mask)/unintentional_meta*100:.1f}% of metadata unintentional)")
+> EOF
+=== MASKS.CSV Analysis ===
+Total errors in masks: 28256
+Unintentional (-1): 14965 (53.0%)
+Intentional (1): 13291 (47.0%)
+
+=== METADATA.JSONL Analysis ===
+Total entries: 19539
+Unintentional: 13677 (70.0%)
+Intentional (fairness + gain + obfuscation): 5862 (30.0%)
+  - Fairness masking: 1954
+  - Gain targeted: 2931
+  - Obfuscation DMV: 977
+
+=== DISCREPANCY ===
+Metadata unintentional%: 70.0%
+Masks unintentional%: 53.0%
+Difference: 17.0 percentage points
+
+Metadata has 13677 unintentional entries
+Masks has 14965 unintentional (-1) values
+Difference: -1288 (-9.4% of metadata unintentional)
+(base) mohamed@vega:~/error_injector$ wc -l /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/metadata.jsonl
+  19540 /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv
+  19539 /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/metadata.jsonl
+  39079 total
+(base) mohamed@vega:~/error_injector$ head -1 /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv
+age,workclass,fnlwgt,education,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,class
+(base) mohamed@vega:~/error_injector$ python3 << 'EOF'
+> # Each row in masks.csv has 15 columns (features)
+> # 19539 rows * 15 columns = 293085 total cells
+> total_cells = 19539 * 15
+> print(f"Expected total cells: {total_cells}")
+> 
+> # From count_masks.py output:
+> unintentional = 14965
+> clean = 264829  
+> intentional = 13291
+> actual_total = unintentional + clean + intentional
+> print(f"Actual total cells counted: {actual_total}")
+> print(f"Match: {total_cells == actual_total}")
+> print()
+> 
+> # Per-row analysis
+> print("=== PER ROW ===")
+> total_rows = 19539
+> print(f"Total data rows: {total_rows}")
+> print(f"Rows with unintentional (-1) per metadata: {13677}")
+> print(f"Cells with unintentional (-1) in masks: {14965}")
+> print()
+> 
+> # The issue: metadata counts ROWS with errors
+> # but masks.csv counts individual CELLS with errors
+> # A single row can have multiple cells marked as -1!
+> print("=== THE PROBLEM ===")
+> print("Metadata.jsonl: Counts ROWS (each row can have 1-3 manipulations)")
+> print("Masks.csv via count_masks.py: Counts individual CELLS")
+> print()
+> print("If a row has 3 unintentional manipulations,")
+> print("  - metadata.jsonl: 1 entry with 'unintentional'")
+> print("  - masks.csv: 3 cells marked as -1")
+> print()
+> print("This explains why masks has MORE -1 cells than metadata has unintentional entries!")
+> EOF
+Expected total cells: 293085
+Actual total cells counted: 293085
+Match: True
+
+=== PER ROW ===
+Total data rows: 19539
+Rows with unintentional (-1) per metadata: 13677
+Cells with unintentional (-1) in masks: 14965
+
+=== THE PROBLEM ===
+Metadata.jsonl: Counts ROWS (each row can have 1-3 manipulations)
+Masks.csv via count_masks.py: Counts individual CELLS
+
+If a row has 3 unintentional manipulations,
+  - metadata.jsonl: 1 entry with 'unintentional'
+  - masks.csv: 3 cells marked as -1
+
+This explains why masks has MORE -1 cells than metadata has unintentional entries!
+(base) mohamed@vega:~/error_injector$ python /home/mohamed/error_injector/llms_baseline/adult_income_dataset/count_masks.py /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv
+File: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv
+
+=== CELL-LEVEL COUNTS ===
+  -1 (unintentional): 14965
+   0 (clean):         264829
+   1 (intentional):   13291
+
+Cell-level error distribution:
+  Unintentional: 53.0%
+  Intentional:   47.0%
+
+=== ROW-LEVEL COUNTS ===
+  Unintentional only: 12988
+  Intentional only:   5219
+  Mixed (both types): 0
+  Clean (no errors):  1332
+
+Row-level distribution (comparing to metadata.jsonl):
+  Unintentional: 66.5%
+  Intentional:   26.7%
+  Mixed:         0.0%
+  Clean:         6.8%
+(base) mohamed@vega:~/error_injector$ python3 << 'EOF'
+> import json
+> 
+> # Count by manipulation type and plausibility
+> with open('/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/metadata.jsonl') as f:
+>     unint_passed = 0
+>     unint_failed = 0
+>     int_passed = 0
+>     int_failed = 0
+>     
+>     for line in f:
+>         data = json.loads(line)
+>         manip_type = data['manipulation_type']
+>         plausible = data['plausibility_score'] == 1
+>         
+>         if manip_type == 'unintentional':
+>             if plausible:
+>                 unint_passed += 1
+>             else:
+>                 unint_failed += 1
+>         else:  # intentional (fairness_masking, gain_targeted, obfuscation_dmv)
+>             if plausible:
+>                 int_passed += 1
+>             else:
+>                 int_failed += 1
+>     
+>     total = unint_passed + unint_failed + int_passed + int_failed
+>     
+>     print("=== METADATA.JSONL Analysis (by plausibility) ===")
+>     print(f"\nUnintentional manipulations:")
+>     print(f"  Passed (plausibility=1): {unint_passed}")
+>     print(f"  Failed (plausibility=0): {unint_failed}")
+>     print(f"  Total: {unint_passed + unint_failed}")
+>     
+>     print(f"\nIntentional manipulations:")
+>     print(f"  Passed (plausibility=1): {int_passed}")
+>     print(f"  Failed (plausibility=0): {int_failed}")
+>     print(f"  Total: {int_passed + int_failed}")
+>     
+>     print(f"\nOverall:")
+>     print(f"  Total entries: {total}")
+>     print(f"  Passed: {unint_passed + int_passed} ({(unint_passed + int_passed)/total*100:.1f}%)")
+>     print(f"  Failed: {unint_failed + int_failed} ({(unint_failed + int_failed)/total*100:.1f}%)")
+>     
+>     print(f"\nIF we only count passed manipulations:")
+>     print(f"  Unintentional: {unint_passed} ({unint_passed/(unint_passed + int_passed)*100:.1f}%)")
+>     print(f"  Intentional: {int_passed} ({int_passed/(unint_passed + int_passed)*100:.1f}%)")
+> EOF
+=== METADATA.JSONL Analysis (by plausibility) ===
+
+Unintentional manipulations:
+  Passed (plausibility=1): 10930
+  Failed (plausibility=0): 2747
+  Total: 13677
+
+Intentional manipulations:
+  Passed (plausibility=1): 4473
+  Failed (plausibility=0): 1389
+  Total: 5862
+
+Overall:
+  Total entries: 19539
+  Passed: 15403 (78.8%)
+  Failed: 4136 (21.2%)
+
+IF we only count passed manipulations:
+  Unintentional: 10930 (71.0%)
+  Intentional: 4473 (29.0%)
+(base) mohamed@vega:~/error_injector$ python3 << 'EOF'
+> import json
+> import csv
+> 
+> # Read metadata
+> metadata = []
+> with open('/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/metadata.jsonl') as f:
+>     for line in f:
+>         metadata.append(json.loads(line))
+> 
+> # Read masks
+> masks = []
+> with open('/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv') as f:
+>     reader = csv.reader(f)
+>     next(reader)  # skip header
+>     for row in reader:
+>         masks.append(row)
+> 
+> # Analyze correspondence
+> print(f"Metadata entries: {len(metadata)}")
+> print(f"Mask rows: {len(masks)}")
+> print()
+> 
+> # Check a few failed unintentional manipulations
+> failed_unint = [(i, m) for i, m in enumerate(metadata) if m['manipulation_type'] == 'unintentional' and m['plausibility_score'] == 0]
+> 
+> print(f"Failed unintentional manipulations: {len(failed_unint)}")
+> print("\nChecking first 5 failed unintentional manipulations:")
+> for i, (idx, meta) in enumerate(failed_unint[:5]):
+>     mask_row = masks[idx]
+>     has_error = any(cell in ['-1', '1'] for cell in mask_row)
+>     print(f"  Row {idx}: has_error={has_error}, rationale='{meta['rationale']}'")
+>     if has_error:
+>         error_positions = [i for i, cell in enumerate(mask_row) if cell in ['-1', '1']]
+>         print(f"    Errors at positions: {error_positions}")
+> 
+> print("\n" + "="*60)
+> 
+> # Count rows with errors by metadata type
+> rows_with_unint_errors = 0
+> rows_with_int_errors = 0
+> rows_mixed = 0
+> rows_clean = 0
+> 
+> for idx, (meta, mask_row) in enumerate(zip(metadata, masks)):
+>     has_unint = '-1' in mask_row
+>     has_int = '1' in mask_row
+>     
+>     if has_unint and has_int:
+>         rows_mixed += 1
+>     elif has_unint:
+>         rows_with_unint_errors += 1
+>     elif has_int:
+>         rows_with_int_errors += 1
+>     else:
+>         rows_clean += 1
+> 
+> print("\n=== MASK ANALYSIS ===")
+> print(f"Rows with unintentional errors only (-1): {rows_with_unint_errors}")
+> print(f"Rows with intentional errors only (1): {rows_with_int_errors}")
+> print(f"Rows with both types (mixed): {rows_mixed}")
+> print(f"Rows with no errors (clean): {rows_clean}")
+> print(f"Total: {rows_with_unint_errors + rows_with_int_errors + rows_mixed + rows_clean}")
+> EOF
+Metadata entries: 19539
+Mask rows: 19539
+
+Failed unintentional manipulations: 2747
+
+Checking first 5 failed unintentional manipulations:
+  Row 8: has_error=True, rationale='Benign digit insertion in numeric field.'
+    Errors at positions: [12]
+  Row 12: has_error=True, rationale='Digit swap in education-num'
+    Errors at positions: [4]
+  Row 26: has_error=True, rationale='Benign digit insertion in numeric field.'
+    Errors at positions: [12]
+  Row 41: has_error=True, rationale='Relationship: typo'
+    Errors at positions: [7]
+  Row 47: has_error=True, rationale='Benign digit insertion in numeric field.'
+    Errors at positions: [12]
+
+============================================================
+
+=== MASK ANALYSIS ===
+Rows with unintentional errors only (-1): 12988
+Rows with intentional errors only (1): 5219
+Rows with both types (mixed): 0
+Rows with no errors (clean): 1332
+Total: 19539
+(base) mohamed@vega:~/error_injector$ python3 << 'EOF'
+> import json
+> import csv
+> from collections import defaultdict
+> 
+> # Read metadata
+> metadata = []
+> with open('/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/metadata.jsonl') as f:
+>     for line in f:
+>         metadata.append(json.loads(line))
+> 
+> # Read masks  
+> masks = []
+> with open('/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/run_20251031_211812/masks.csv') as f:
+>     reader = csv.reader(f)
+>     next(reader)  # skip header
+>     for row in reader:
+>         masks.append(row)
+> 
+> # Cross-tabulate
+> crosstab = defaultdict(lambda: defaultdict(int))
+> 
+> for meta, mask_row in zip(metadata, masks):
+>     manip_type = meta['manipulation_type']
+>     passed = meta['plausibility_score'] == 1
+>     
+>     has_unint = '-1' in mask_row
+>     has_int = '1' in mask_row
+>     
+>     if has_unint and has_int:
+>         mask_status = 'mixed'
+>     elif has_unint:
+>         mask_status = 'unintentional'
+>     elif has_int:
+>         mask_status = 'intentional'
+>     else:
+>         mask_status = 'clean'
+>     
+>     key = f"{manip_type} ({'passed' if passed else 'failed'})"
+>     crosstab[key][mask_status] += 1
+> 
+> # Display results
+> print("="*80)
+> print("CROSS-TABULATION: Metadata Type vs Mask Status")
+> print("="*80)
+> print(f"{'Metadata Type':<40} {'Unintent':<10} {'Intent':<10} {'Mixed':<10} {'Clean':<10}")
+> print("-"*80)
+> 
+> total_by_mask = defaultdict(int)
+> for meta_type in sorted(crosstab.keys()):
+>     counts = crosstab[meta_type]
+>     print(f"{meta_type:<40} {counts['unintentional']:<10} {counts['intentional']:<10} {counts['mixed']:<10} {counts['clean']:<10}")
+>     for mask_type, count in counts.items():
+>         total_by_mask[mask_type] += count
+> 
+> print("-"*80)
+> print(f"{'TOTAL':<40} {total_by_mask['unintentional']:<10} {total_by_mask['intentional']:<10} {total_by_mask['mixed']:<10} {total_by_mask['clean']:<10}")
+> 
+> print("\n" + "="*80)
+> print("KEY FINDINGS:")
+> print("="*80)
+> 
+> # Find the issue
+> print("\nMetadata 'unintentional' entries that resulted in:")
+> unint_meta = crosstab['unintentional (passed)']['unintentional'] + crosstab['unintentional (failed)']['unintentional']
+> print(f"  Unintentional masks: {unint_meta}")
+> print(f"  Intentional masks: {crosstab['unintentional (passed)']['intentional'] + crosstab['unintentional (failed)']['intentional']}")
+> print(f"  Clean masks: {crosstab['unintentional (passed)']['clean'] + crosstab['unintentional (failed)']['clean']}")
+> 
+> print("\nMetadata 'intentional' entries (fairness/gain/obfuscation) that resulted in:")
+> int_types = ['fairness_masking (passed)', 'fairness_masking (failed)', 
+>              'gain_targeted (passed)', 'gain_targeted (failed)',
+>              'obfuscation_dmv (passed)', 'obfuscation_dmv (failed)']
+> int_unint = sum(crosstab[t]['unintentional'] for t in int_types if t in crosstab)
+> int_int = sum(crosstab[t]['intentional'] for t in int_types if t in crosstab)
+> int_clean = sum(crosstab[t]['clean'] for t in int_types if t in crosstab)
+> 
+> print(f"  Unintentional masks: {int_unint}")
+> print(f"  Intentional masks: {int_int}")
+> print(f"  Clean masks: {int_clean}")
+> 
+> print("\n" + "="*80)
+> print("EXPLANATION OF DISCREPANCY:")
+> print("="*80)
+> print(f"Metadata has 13,677 'unintentional' entries (70.0%)")
+> print(f"But some of these became intentional (1) or clean (0) in masks!")
+> print(f"Masks has {total_by_mask['unintentional']} 'unintentional' rows (66.5%)")
+> print(f"\nSimilarly, some 'intentional' metadata entries resulted in -1 masks!")
+> EOF
+================================================================================
+CROSS-TABULATION: Metadata Type vs Mask Status
+================================================================================
+Metadata Type                            Unintent   Intent     Mixed      Clean     
+--------------------------------------------------------------------------------
+fairness_masking (failed)                0          407        0          0         
+fairness_masking (passed)                0          907        0          640       
+gain_targeted (failed)                   0          817        0          0         
+gain_targeted (passed)                   0          2114       0          0         
+obfuscation_dmv (failed)                 0          165        0          0         
+obfuscation_dmv (passed)                 0          809        0          3         
+unintentional (failed)                   2747       0          0          0         
+unintentional (passed)                   10241      0          0          689       
+--------------------------------------------------------------------------------
+TOTAL                                    12988      5219       0          1332      
+
+================================================================================
+KEY FINDINGS:
+================================================================================
+
+Metadata 'unintentional' entries that resulted in:
+  Unintentional masks: 12988
+  Intentional masks: 0
+  Clean masks: 689
+
+Metadata 'intentional' entries (fairness/gain/obfuscation) that resulted in:
+  Unintentional masks: 0
+  Intentional masks: 5219
+  Clean masks: 643
+
+================================================================================
+EXPLANATION OF DISCREPANCY:
+================================================================================
+Metadata has 13,677 'unintentional' entries (70.0%)
+But some of these became intentional (1) or clean (0) in masks!
+Masks has 12988 'unintentional' rows (66.5%)
+
+Similarly, some 'intentional' metadata entries resulted in -1 masks!

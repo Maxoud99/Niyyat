@@ -1,0 +1,4 @@
+dataset,status,n_combinations,elapsed_s
+llm,ok,30,2495.1
+kireev,ok,30,672.8
+twitter,ok,30,77.6

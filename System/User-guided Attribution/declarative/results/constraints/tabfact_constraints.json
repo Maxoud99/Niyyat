@@ -1,0 +1,100 @@
+{
+  "constraints": [
+    {
+      "id": "C1",
+      "description": "An Athlete or Team subject paired with a non-Sports claim_domain suggests a deliberate cross-domain swap to create a plausible-looking false claim (gain-targeted).",
+      "columns": [
+        "subject_type",
+        "claim_domain"
+      ],
+      "expression": "str(row['subject_type']) in ['Athlete', 'Team'] and str(row['claim_domain']) != 'Sports'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C2",
+      "description": "A political or business subject (Leader, Executive, Candidate) paired with a Sports claim_domain suggests a deliberate cross-domain swap to create a plausible-looking false claim (gain-targeted).",
+      "columns": [
+        "subject_type",
+        "claim_domain"
+      ],
+      "expression": "str(row['subject_type']) in ['Leader', 'Executive', 'Candidate'] and str(row['claim_domain']) == 'Sports'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C3",
+      "description": "A Party subject paired with a non-Politics claim_domain suggests a deliberate cross-domain swap to create a plausible-looking false claim (gain-targeted).",
+      "columns": [
+        "subject_type",
+        "claim_domain"
+      ],
+      "expression": "str(row['subject_type']) == 'Party' and str(row['claim_domain']) != 'Politics'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C4",
+      "description": "A value over 10,000,000 in the Sports domain is an implausibly high score or ranking, suggesting a deliberate alteration to create a false claim (gain-targeted).",
+      "columns": [
+        "value",
+        "claim_domain"
+      ],
+      "expression": "str(row['claim_domain']) == 'Sports' and (lambda v: int(float(v)))(row['value']) > 10000000",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C5",
+      "description": "A blank, null, or numeric-placeholder value in subject_entity serves no deception goal and suggests accidental corruption (noise).",
+      "columns": [
+        "subject_entity"
+      ],
+      "expression": "str(row['subject_entity']).strip().lower() in ['', 'null'] or str(row['subject_entity']).strip().isdigit()",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C6",
+      "description": "A numeric value less than 100 is implausibly small for this dataset's scale, serving no deception goal and suggesting accidental corruption (noise).",
+      "columns": [
+        "value"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['value']) < 100",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C7",
+      "description": "A numeric value over 500,000,000 is physically implausible for most statistics in this dataset, serving no deception goal and suggesting accidental corruption (noise).",
+      "columns": [
+        "value"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['value']) > 500000000",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C8",
+      "description": "A subject_type value not in the allowed set of categories is nonsensical and undermines deception goals, suggesting accidental corruption (noise).",
+      "columns": [
+        "subject_type"
+      ],
+      "expression": "str(row['subject_type']) not in ['Athlete', 'Team', 'Organization', 'Leader', 'Company', 'Executive', 'Candidate', 'Party']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C9",
+      "description": "A claim_domain value not in the allowed set of domains is nonsensical and undermines deception goals, suggesting accidental corruption (noise).",
+      "columns": [
+        "claim_domain"
+      ],
+      "expression": "str(row['claim_domain']) not in ['Sports', 'Demographics', 'Business', 'Politics']",
+      "intent_signal": -1,
+      "motive": "noise"
+    }
+  ],
+  "source": "configs/tabfact.txt",
+  "model": "gemini-2.5-pro"
+}

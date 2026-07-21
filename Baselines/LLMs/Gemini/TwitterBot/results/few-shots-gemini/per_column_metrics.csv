@@ -1,0 +1,10 @@
+column,n_changed,true_positives,false_negatives,accuracy,recall
+friends_count,273,264,9,0.967032967032967,0.967032967032967
+favourites_count,1,0,1,0.0,0.0
+listed_count,121,113,8,0.9338842975206612,0.9338842975206612
+has_created_date,8,1,7,0.125,0.125
+description_length,712,70,642,0.09831460674157304,0.09831460674157304
+screen_name_length,4,1,3,0.25,0.25
+name_length,804,91,713,0.11318407960199005,0.11318407960199005
+has_description,1,0,1,0.0,0.0
+has_location,7,0,7,0.0,0.0

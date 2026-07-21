@@ -1,0 +1,96 @@
+nohup: ignoring input
+==================== Mixtral (re-run) ====================
+[Mixtral] Waiting on port 6000...
+  [Mixtral] attempt 1: HTTP 200
+  [Mixtral] Ready!
+[Mixtral] done (exit=0)
+time="2026-04-24T12:14:58+02:00" level=warning msg="The \"HUGGING_FACE_HUB_TOKEN\" variable is not set. Defaulting to a blank string."
+ Container docker-compose-text-generation-1 Stopping 
+ Container docker-compose-text-generation-1 Stopped 
+ Container docker-compose-text-generation-1 Removing 
+ Container docker-compose-text-generation-1 Removed 
+ Network docker-compose_default Removing 
+ Network docker-compose_default Removed 
+[Mixtral] container stopped
+
+==================== Llama ====================
+time="2026-04-24T12:15:02+02:00" level=warning msg="The \"HUGGING_FACE_HUB_TOKEN\" variable is not set. Defaulting to a blank string."
+ Network docker-compose_default Creating 
+ Network docker-compose_default Created 
+ Container docker-compose-text-generation-1 Creating 
+ Container docker-compose-text-generation-1 Created 
+ Container docker-compose-text-generation-1 Starting 
+ Container docker-compose-text-generation-1 Started 
+[Llama] Waiting on port 6100...
+  [Llama] attempt 1: HTTP 000000
+  [Llama] attempt 2: HTTP 000000
+  [Llama] attempt 3: HTTP 000000
+  [Llama] attempt 4: HTTP 000000
+  [Llama] attempt 5: HTTP 000000
+  [Llama] attempt 6: HTTP 000000
+  [Llama] attempt 7: HTTP 200
+  [Llama] Ready!
+[Llama] done (exit=0)
+time="2026-04-24T12:46:53+02:00" level=warning msg="The \"HUGGING_FACE_HUB_TOKEN\" variable is not set. Defaulting to a blank string."
+ Container docker-compose-text-generation-1 Stopping 
+ Container docker-compose-text-generation-1 Stopped 
+ Container docker-compose-text-generation-1 Removing 
+ Container docker-compose-text-generation-1 Removed 
+ Network docker-compose_default Removing 
+ Network docker-compose_default Removed 
+[Llama] container stopped
+
+==================== Qwen ====================
+time="2026-04-24T12:46:57+02:00" level=warning msg="The \"HUGGING_FACE_HUB_TOKEN\" variable is not set. Defaulting to a blank string."
+ Network docker-compose_default Creating 
+ Network docker-compose_default Created 
+ Container docker-compose-text-generation-1 Creating 
+ Container docker-compose-text-generation-1 Created 
+ Container docker-compose-text-generation-1 Starting 
+ Container docker-compose-text-generation-1 Started 
+[Qwen] Waiting on port 6300...
+  [Qwen] attempt 1: HTTP 000000
+  [Qwen] attempt 2: HTTP 000000
+  [Qwen] attempt 3: HTTP 000000
+  [Qwen] attempt 4: HTTP 000000
+  [Qwen] attempt 5: HTTP 000000
+  [Qwen] attempt 6: HTTP 200
+  [Qwen] Ready!
+[Qwen] done (exit=0)
+time="2026-04-24T13:07:45+02:00" level=warning msg="The \"HUGGING_FACE_HUB_TOKEN\" variable is not set. Defaulting to a blank string."
+ Container docker-compose-text-generation-1 Stopping 
+ Container docker-compose-text-generation-1 Stopped 
+ Container docker-compose-text-generation-1 Removing 
+ Container docker-compose-text-generation-1 Removed 
+ Network docker-compose_default Removing 
+ Network docker-compose_default Removed 
+[Qwen] container stopped
+
+==================== R1-Qwen ====================
+time="2026-04-24T13:07:50+02:00" level=warning msg="The \"HUGGING_FACE_HUB_TOKEN\" variable is not set. Defaulting to a blank string."
+ Network docker-compose_default Creating 
+ Network docker-compose_default Created 
+ Container docker-compose-text-generation-1 Creating 
+ Container docker-compose-text-generation-1 Created 
+ Container docker-compose-text-generation-1 Starting 
+ Container docker-compose-text-generation-1 Started 
+[R1-Qwen] Waiting on port 6800...
+  [R1-Qwen] attempt 1: HTTP 000000
+  [R1-Qwen] attempt 2: HTTP 000000
+  [R1-Qwen] attempt 3: HTTP 000000
+  [R1-Qwen] attempt 4: HTTP 000000
+  [R1-Qwen] attempt 5: HTTP 000000
+  [R1-Qwen] attempt 6: HTTP 000000
+  [R1-Qwen] attempt 7: HTTP 200
+  [R1-Qwen] Ready!
+[R1-Qwen] done (exit=0)
+time="2026-04-24T14:00:37+02:00" level=warning msg="The \"HUGGING_FACE_HUB_TOKEN\" variable is not set. Defaulting to a blank string."
+ Container docker-compose-text-generation-1 Stopping 
+ Container docker-compose-text-generation-1 Stopped 
+ Container docker-compose-text-generation-1 Removing 
+ Container docker-compose-text-generation-1 Removed 
+ Network docker-compose_default Removing 
+ Network docker-compose_default Removed 
+[R1-Qwen] container stopped
+
+==================== ALL DONE ====================

@@ -1,0 +1,67 @@
+{
+  "strategy": "probability_010",
+  "probability": 0.1,
+  "probability_percent": 10,
+  "overall": {
+    "total_changes": 1931,
+    "correct_predictions": 197,
+    "incorrect_predictions": 1734,
+    "accuracy": 0.1020196789228379
+  },
+  "per_column": {
+    "friends_count": {
+      "total_changes": 273,
+      "correct_predictions": 30,
+      "incorrect_predictions": 243,
+      "accuracy": 0.10989010989010989
+    },
+    "favourites_count": {
+      "total_changes": 1,
+      "correct_predictions": 0,
+      "incorrect_predictions": 1,
+      "accuracy": 0.0
+    },
+    "listed_count": {
+      "total_changes": 121,
+      "correct_predictions": 14,
+      "incorrect_predictions": 107,
+      "accuracy": 0.11570247933884298
+    },
+    "has_created_date": {
+      "total_changes": 8,
+      "correct_predictions": 0,
+      "incorrect_predictions": 8,
+      "accuracy": 0.0
+    },
+    "description_length": {
+      "total_changes": 712,
+      "correct_predictions": 73,
+      "incorrect_predictions": 639,
+      "accuracy": 0.10252808988764045
+    },
+    "screen_name_length": {
+      "total_changes": 4,
+      "correct_predictions": 0,
+      "incorrect_predictions": 4,
+      "accuracy": 0.0
+    },
+    "name_length": {
+      "total_changes": 804,
+      "correct_predictions": 80,
+      "incorrect_predictions": 724,
+      "accuracy": 0.09950248756218906
+    },
+    "has_description": {
+      "total_changes": 1,
+      "correct_predictions": 0,
+      "incorrect_predictions": 1,
+      "accuracy": 0.0
+    },
+    "has_location": {
+      "total_changes": 7,
+      "correct_predictions": 0,
+      "incorrect_predictions": 7,
+      "accuracy": 0.0
+    }
+  }
+}

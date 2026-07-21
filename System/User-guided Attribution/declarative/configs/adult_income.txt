@@ -1,0 +1,134 @@
+The Adult Income dataset is a 1994 US Census extract used to predict whether a
+person's annual income exceeds $50,000 (the "class" column). Each row
+represents one individual. Every cell described below has ALREADY been
+flagged as erroneous by an upstream detector; the question is not whether a
+flagged value is valid, but whether it was changed DELIBERATELY by the
+individual to obtain an advantage, or by ACCIDENT (typo, OCR error, random
+corruption).
+
+Known intent signals (gain-targeted manipulation):
+
+A rational actor who wants to be classified as high-income would move their
+record toward patterns broadly associated with higher income (this is
+general socio-economic domain knowledge, independent of this specific
+dataset's statistics):
+  - Increasing capital-gain to a large positive value, or increasing
+    capital-loss, is gain-directed.
+  - Increasing hours-per-week toward the 40-99 range (full-time or overtime
+    work) is gain-directed; a value near the 1-hour end is not.
+  - Raising education to Bachelors, Masters, Prof-school, or Doctorate (and
+    correspondingly education-num to 13-16) is gain-directed, since more
+    education is broadly associated with higher income.
+  - Changing occupation to Exec-managerial or Prof-specialty is gain-directed;
+    these occupations are broadly associated with higher income.
+  - Changing workclass to Self-emp-inc (incorporated self-employment) is
+    gain-directed.
+  - Changing marital-status to Married-civ-spouse is gain-directed in this
+    dataset (married individuals are reported with higher income on average).
+  - If education and education-num are inconsistent with each other on a
+    flagged cell, this typically reflects a gain-targeted edit to one field
+    (usually inflating the education level) that was not propagated to the
+    other — treat this mismatch as gain-targeted intentional evidence, not
+    as generic invalidity.
+
+Known intent signals (fairness masking):
+
+The sensitive/protected attributes in this dataset are race and sex.
+Historically, White and Male are the majority/advantaged categories in this
+dataset's income distribution. A flagged race cell taking the value "White",
+or a flagged sex cell taking the value "Male", is consistent with fairness
+masking: the individual hides their true demographic group to avoid
+perceived discriminatory treatment. A flagged relationship cell equal to
+"Husband" together with a non-Male sex value (or "Wife" with a non-Female
+sex value) indicates the sex field specifically was the one altered for
+fairness masking.
+
+Known intent signals (obfuscation):
+
+A flagged cell whose value is exactly the placeholder "?" is consistent with
+obfuscation: the individual chose to hide rather than falsify the true
+value. This holds even on columns (workclass, occupation, native-country)
+where "?" is also a schema-valid entry — presence of "?" on a cell that has
+been flagged as changed is itself evidence of a deliberate choice to
+obfuscate, independent of validity.
+
+Known intent signals (no plausible motive / noise):
+
+A flagged cell whose value is out of the column's valid range or vocabulary,
+is NOT the placeholder "?", and does NOT serve any gain-targeted or
+fairness-masking motive above, serves no plausible manipulation goal and is
+evidence of accidental corruption rather than deliberate change. Examples:
+a negative age or an age above 120, a negative capital-gain or capital-loss,
+an hours-per-week of 0 or above 99, an education-num outside 1-16, a
+fnlwgt of 0 or negative, or a workclass/occupation/marital-status/
+native-country string that matches no recognised category and is not "?".
+
+Column descriptions and validity rules (for reference; use these together
+with the intent signals above, not as a separate error-detection pass):
+
+- age: Age of the individual in whole years. Must be a positive integer between
+  17 and 90 inclusive.
+
+- workclass: Employment sector of the individual. Must be exactly one of:
+  Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov,
+  Without-pay. A question mark (?) indicates the value is unknown and is also
+  a valid entry.
+
+- fnlwgt: Census sampling weight assigned by the Census Bureau. Must be a
+  positive integer. Typical values are between 10,000 and 1,500,000.
+
+- education: Highest level of education completed. Must be exactly one of:
+  Preschool, 1st-4th, 5th-6th, 7th-8th, 9th, 10th, 11th, 12th, HS-grad,
+  Some-college, Assoc-voc, Assoc-acdm, Bachelors, Masters, Prof-school,
+  Doctorate. No other values are valid.
+
+- education-num: Numeric encoding of the education level. Must be an integer
+  between 1 and 16 inclusive. The value must exactly correspond to the
+  education column according to this fixed mapping:
+    Preschool=1, 1st-4th=2, 5th-6th=3, 7th-8th=4, 9th=5, 10th=6,
+    11th=7, 12th=8, HS-grad=9, Some-college=10, Assoc-voc=11,
+    Assoc-acdm=12, Bachelors=13, Masters=14, Prof-school=15, Doctorate=16.
+  The education and education-num columns must always be consistent with
+  each other.
+
+- marital-status: Marital status of the individual. Must be exactly one of:
+  Married-civ-spouse, Divorced, Never-married, Separated, Widowed,
+  Married-spouse-absent, Married-AF-spouse.
+
+- occupation: Job category. Must be exactly one of: Tech-support,
+  Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty,
+  Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing,
+  Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces.
+  A question mark (?) is also valid indicating unknown.
+
+- relationship: Family role within the household. Must be exactly one of:
+  Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried.
+  The value "Husband" can only appear when sex is Male.
+  The value "Wife" can only appear when sex is Female.
+
+- race: Self-identified racial group. Must be exactly one of: White,
+  Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black.
+
+- sex: Biological sex. Must be exactly Male or Female, no other values allowed.
+
+- capital-gain: Capital gains earned during the year in US dollars. Must be a
+  non-negative integer (zero or greater).
+
+- capital-loss: Capital losses incurred during the year in US dollars. Must be
+  a non-negative integer (zero or greater).
+
+- hours-per-week: Average number of hours worked per week. Must be an integer
+  between 1 and 99 inclusive.
+
+- native-country: Country of origin. Must be one of the recognised country
+  names used in this dataset: United-States, Cambodia, England, Puerto-Rico,
+  Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South,
+  China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam,
+  Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador,
+  Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand,
+  Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
+  A question mark (?) is valid for unknown.
+
+- class: Income label. Must be exactly ">50K" or "<=50K". No other values
+  are valid. This is the prediction target referenced by the gain-targeted
+  signals above.

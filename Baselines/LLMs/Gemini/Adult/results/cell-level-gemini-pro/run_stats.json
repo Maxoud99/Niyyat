@@ -1,0 +1,15 @@
+{
+  "model": "gemini-2.5-flash-lite+fallback:gemini-2.5-flash",
+  "evaluation_unit": "cell",
+  "groups_per_call": 7,
+  "clean_rows": 6513,
+  "manip_rows": 19539,
+  "total_time_sec": 2932.53996986337,
+  "avg_chunk_time_sec": 2.1493244250099925,
+  "llm_ok_groups": 6513,
+  "llm_fallback_groups": 0,
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/results/model_outputs/local-llms/cell-level-gemini-pro/intent_labels.csv",
+    "explanations_csv": "/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/results/model_outputs/local-llms/cell-level-gemini-pro/intent_explanations.csv"
+  }
+}

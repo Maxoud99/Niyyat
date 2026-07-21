@@ -1,0 +1,244 @@
+================================================================================
+FIRST BATCH LLM RESPONSE (Few-shots)
+================================================================================
+Response length: 6018 chars
+Parsed object type: <class 'dict'>
+Parsed object keys: ['groups']
+================================================================================
+
+```json
+{
+  "groups": [
+    {
+      "group_id": 0,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 0,
+          "decision": -1,
+          "reason": "Trivial typo in education field with no utility gain."
+        },
+        {
+          "local_id": 1,
+          "row_id": 1,
+          "decision": 1,
+          "reason": "Change to a protected attribute (sex), indicating fairness gaming."
+        },
+        {
+          "local_id": 2,
+          "row_id": 2,
+          "decision": -1,
+          "reason": "Very small increase in capital-gain, likely insignificant drift."
+        }
+      ]
+    },
+    {
+      "group_id": 1,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 3,
+          "decision": 1,
+          "reason": "Change to a protected attribute (sex), indicating fairness gaming."
+        },
+        {
+          "local_id": 1,
+          "row_id": 4,
+          "decision": -1,
+          "reason": "Benign formatting changes (whitespace trimming), no substantive edits."
+        },
+        {
+          "local_id": 2,
+          "row_id": 5,
+          "decision": 1,
+          "reason": "Coordinated utility-seeking edits: education upgrade and capital-gain jump."
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 6,
+          "decision": -1,
+          "reason": "Trivial typo in education field with no utility gain."
+        },
+        {
+          "local_id": 1,
+          "row_id": 7,
+          "decision": 1,
+          "reason": "Significant addition of financial data (capital-loss) from zero."
+        },
+        {
+          "local_id": 2,
+          "row_id": 8,
+          "decision": 1,
+          "reason": "Massive, unrealistic increase in hours-per-week, a strong utility signal."
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 9,
+          "decision": -1,
+          "reason": "Simple typo in education field, providing no advantage."
+        },
+        {
+          "local_id": 1,
+          "row_id": 10,
+          "decision": -1,
+          "reason": "Purely a formatting change with no change in numeric value."
+        },
+        {
+          "local_id": 2,
+          "row_id": 11,
+          "decision": -1,
+          "reason": "Trivial typo in native-country, likely an error."
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 12,
+          "decision": 1,
+          "reason": "Huge, unrealistic increase in education-num, a key utility feature."
+        },
+        {
+          "local_id": 1,
+          "row_id": 13,
+          "decision": -1,
+          "reason": "Minor typo in a categorical field, likely unintentional."
+        },
+        {
+          "local_id": 2,
+          "row_id": 14,
+          "decision": -1,
+          "reason": "Minor typo in native-country, likely an error."
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 15,
+          "decision": -1,
+          "reason": "Simple typo in education field, no utility gain."
+        },
+        {
+          "local_id": 1,
+          "row_id": 16,
+          "decision": 1,
+          "reason": "Large, utility-seeking jump in capital-gain from zero."
+        },
+        {
+          "local_id": 2,
+          "row_id": 17,
+          "decision": -1,
+          "reason": "Trivial typo in native-country, likely an error."
+        }
+      ]
+    },
+    {
+      "group_id": 6,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 18,
+          "decision": -1,
+          "reason": "Benign formatting changes (whitespace trimming), no substantive edits."
+        },
+        {
+          "local_id": 1,
+          "row_id": 19,
+          "decision": 1,
+          "reason": "Large utility-seeking increase in education-num (+7), a significant upgrade."
+        },
+        {
+          "local_id": 2,
+          "row_id": 20,
+          "decision": -1,
+          "reason": "Small numeric drift in capital-gain, likely a typo."
+        }
+      ]
+    },
+    {
+      "group_id": 7,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 21,
+          "decision": -1,
+          "reason": "Trivial typo in education field, no utility gain."
+        },
+        {
+          "local_id": 1,
+          "row_id": 22,
+          "decision": 1,
+          "reason": "Utility-seeking jump in capital-gain from zero."
+        },
+        {
+          "local_id": 2,
+          "row_id": 23,
+          "decision": -1,
+          "reason": "Trivial typo in native-country, likely an error."
+        }
+      ]
+    },
+    {
+      "group_id": 8,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 24,
+          "decision": -1,
+          "reason": "Minor typo (transposition) in education field, no utility gain."
+        },
+        {
+          "local_id": 1,
+          "row_id": 25,
+          "decision": 1,
+          "reason": "Utility-seeking jump in capital-gain from zero."
+        },
+        {
+          "local_id": 2,
+          "row_id": 26,
+          "decision": 1,
+          "reason": "Massive, unrealistic increase in hours-per-week, a strong utility signal."
+        }
+      ]
+    },
+    {
+      "group_id": 9,
+      "decisions": [
+        {
+          "local_id": 0,
+          "row_id": 27,
+          "decision": -1,
+          "reason": "Benign formatting changes (whitespace trimming), no substantive edits."
+        },
+        {
+          "local_id": 1,
+          "row_id": 28,
+          "decision": 1,
+          "reason": "Coordinated, multiple utility-seeking edits across education, occupation, and capital-gain."
+        },
+        {
+          "local_id": 2,
+          "row_id": 29,
+          "decision": -1,
+          "reason": "Numeric transposition error resulting in a decrease in capital-gain."
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,18 @@
+{
+  "model": "Meta-Llama-3-70B-Instruct",
+  "endpoint": "http://127.0.0.1:6100/generate",
+  "version": "few_shot_enhanced_with_rubric",
+  "few_shot_enabled": true,
+  "total_records": 4000,
+  "chunk_size": 7,
+  "total_chunks": 572,
+  "llm_success_chunks": 438,
+  "llm_fail_chunks": 134,
+  "features_evaluated": 1589,
+  "parse_errors_total": 342,
+  "parse_error_rate": 0.21522970421648835,
+  "total_time_seconds": 2412.2497671446763,
+  "avg_chunk_time_seconds": 4.216727924259653,
+  "avg_llm_time_seconds": 4.214589344376659,
+  "throughput_records_per_second": 1.658203082649566
+}

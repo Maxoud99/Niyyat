@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,n_components,bic,aic,converged,noise_count,silhouette
+LabelPropagation,0.874,0.8006,0.8031,0.8018,0.8741,0.855,0.22,75,1024,6.82,gmm,15,-111551.28,-119424.67,True,0,0.5684

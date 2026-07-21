@@ -1,0 +1,61 @@
+======================================================================
+LABEL PROPAGATION VS RANDOM FOREST - KMEANS
+======================================================================
+Timestamp: 20260128_131051
+
+DATASET:
+======================================================================
+Total: 25022 features from 18026 variants
+  Intentional: 11781
+  Unintentional: 13241
+
+TRAINING DATA (1% sampling):
+======================================================================
+Sampled: 177 variants (0.98%)
+  Training features: 242 (0.97%)
+    Intentional labels: 109
+    Unintentional labels: 133
+  Test features: 24780 (99.03%)
+    Test variants: 17849
+
+BASELINE:
+======================================================================
+Method: HDBSCAN+RF
+Training: 177 variants, 242 features
+  (109 intentional + 133 unintentional labels)
+F1 Score: 91.87% (91.53% int, 92.17% unint)
+
+RESULTS (all use SAME 242 training samples):
+======================================================================
+
+RandomForest:
+  Accuracy: 0.9111
+  F1 Weighted: 0.9110
+  F1 Intentional: 0.9043
+  F1 Unintentional: 0.9170
+  Runtime: 0.24s
+
+ClusterMajorityVote:
+  Accuracy: 0.9549
+  F1 Weighted: 0.9548
+  F1 Intentional: 0.9515
+  F1 Unintentional: 0.9578
+  Runtime: 0.13s
+
+FeatureLevelKNN:
+  Accuracy: 0.9103
+  F1 Weighted: 0.9103
+  F1 Intentional: 0.9052
+  F1 Unintentional: 0.9148
+  Runtime: 0.06s
+
+LabelPropagation:
+  Accuracy: 0.5303
+  F1 Weighted: 0.5305
+  F1 Intentional: 0.5272
+  F1 Unintentional: 0.5334
+  Runtime: 0.42s
+
+======================================================================
+WINNER: ClusterMajorityVote = 0.9548
+✅ Beats baseline by 3.61 percentage points!

@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,n_clusters,linkage,noise_count,silhouette
+LabelSpreading,0.7578,0.9607,0.2761,0.4289,0.7088,0.6353,2.04,117,11544,1.0,hierarchical_ward,15,ward,0,0.507

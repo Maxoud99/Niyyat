@@ -1,0 +1,33 @@
+======================================================================
+LABEL PROPAGATION VS RANDOM FOREST - KMEANS
+======================================================================
+Timestamp: 20260128_111746
+Baseline: HDBSCAN+RF = 91.87% F1 (91.53% int, 92.17% unint)
+
+RESULTS:
+======================================================================
+
+RandomForest:
+  Accuracy: 0.9076
+  F1 Weighted: 0.9075
+  F1 Intentional: 0.9004
+  F1 Unintentional: 0.9138
+  Runtime: 0.37s
+
+LabelPropagation:
+  Accuracy: 1.0000
+  F1 Weighted: 1.0000
+  F1 Intentional: 1.0000
+  F1 Unintentional: 0.0000
+  Runtime: 0.44s
+
+LabelSpreading:
+  Accuracy: 1.0000
+  F1 Weighted: 1.0000
+  F1 Intentional: 1.0000
+  F1 Unintentional: 0.0000
+  Runtime: 0.37s
+
+======================================================================
+WINNER: LabelPropagation = 1.0000
+✅ Beats or matches baseline!

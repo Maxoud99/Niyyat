@@ -1,0 +1,428 @@
+
+======================================================================
+EXECUTION STARTED: 2025-12-10 17:43:22
+Log file: /home/mohamed/error_injector/llms_baseline/clustering-organized/outputs/run_20251210_174322/logs/comparison_proportional_20251210_174322.log
+Output directory: /home/mohamed/error_injector/llms_baseline/clustering-organized/outputs/run_20251210_174322
+======================================================================
+
+
+======================================================================
+CLUSTERING ALGORITHM COMPARISON
+PROPORTIONAL SAMPLING (NO DATA LEAKAGE)
+======================================================================
+Target samples: Auto (1% of dataset)
+Random state: 42
+
+Proportional Sampling Strategy:
+  1. Cluster data using aggregate features (NO intent labels)
+  2. Proportional allocation to clusters based on size
+  3. Random selection within each cluster
+
+⚠️  NO DATA LEAKAGE: Intent labels only used for evaluation
+
+======================================================================
+LOADING DATA
+======================================================================
+Starting data loading process...
+Using custom data paths:
+  Mask: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/run_20251103_103047/masks.csv
+  Clean: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/correct_records.csv
+  Dirty: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/run_20251103_103047/manipulated_records.csv
+Using custom data paths:
+  Mask: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/run_20251103_103047/masks.csv
+  Clean: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/correct_records.csv
+  Dirty: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/run_20251103_103047/manipulated_records.csv
+Loaded masks: (146526, 15)
+Loaded manipulated records: (146526, 15)
+Loaded correct records: (48842, 15)
+✓ Loaded masks: (146526, 15)
+✓ Loaded manipulated records: (146526, 15)
+✓ Loaded correct records: (48842, 15)
+
+Processing 146526 variant records into feature changes...
+Features to process: 15
+
+Processing 146526 variant records...
+
+✓ Created dataset with 191118 feature changes
+  Intentional (1): 88550
+  Unintentional (-1): 102568
+  Unique variant records: 138534
+
+✓ Created dataset with 191118 feature changes
+  Intentional (1): 88550
+  Unintentional (-1): 102568
+  Unique variant records: 138534
+Data loading complete!
+
+
+⚙️  Auto-calculated target_samples: 1385 (1% of 138534 variants)
+Auto-calculated target_samples: 1385 (1% of 138534 variants)
+
+Total dataset:
+  Total variants: 138534
+  Total samples: 191118
+  Target samples for training: 1385 (1.00% of variants)
+  Intentional: 88550
+  Unintentional: 102568
+
+======================================================================
+CREATING AGGREGATE FEATURES FROM ALL DATA
+======================================================================
+
+✓ Created 138534 aggregate feature vectors
+  Feature dimension: 10
+✓ Created 138534 aggregate feature vectors
+  Feature dimension: 10
+
+======================================================================
+ALGORITHM 1/6: K-Means
+======================================================================
+
+======================================================================
+K-MEANS CLUSTERING (BASELINE)
+======================================================================
+
+======================================================================
+✓ K-Means with K=15
+  Silhouette Score: 0.7169
+  Runtime: 95.41s
+  Clusters found: 15
+
+──────────────────────────────────────────────────────────────────────
+Testing K-Means with PROPORTIONAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+PROPORTIONAL SAMPLING: K-Means
+======================================================================
+Cluster info: {'algorithm': 'K-Means', 'n_clusters': 15, 'silhouette': 0.7168963000005393, 'runtime': 95.41345858573914, 'params': {'n_clusters': 15}}
+
+  Selected 1385 variants from 15 clusters
+  Total samples: 1911
+  Intentional: 892, Unintentional: 1019
+Selected 1385 variants
+
+======================================================================
+EVALUATING: K-Means
+======================================================================
+
+======================================================================
+EVALUATION: K-Means
+======================================================================
+  Training variants: 1385 (1.00% of 138534)
+  Training samples: 1911 (1.00% of 191118)
+  Test samples: 189207 (99.00% of 191118)
+  Accuracy: 0.9896
+  F1 Weighted: 0.9896
+  F1 Intentional: 0.9887
+  F1 Unintentional: 0.9904
+✓ K-Means - F1: 0.9896
+
+======================================================================
+ALGORITHM 2/6: DBSCAN
+======================================================================
+
+======================================================================
+DBSCAN CLUSTERING
+======================================================================
+  ⚠️  Auto-tuned eps was 0.000000, using fallback: 0.5000
+✓ DBSCAN with eps=0.5000, min_samples=5
+  Clusters found: 21
+  Noise points: 17 (0.0%)
+  Silhouette Score: 0.4682
+  Runtime: 151.47s
+
+──────────────────────────────────────────────────────────────────────
+Testing DBSCAN with PROPORTIONAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+PROPORTIONAL SAMPLING: DBSCAN
+======================================================================
+Cluster info: {'algorithm': 'DBSCAN', 'n_clusters': 21, 'n_noise': 17, 'silhouette': 0.4682304761092535, 'runtime': 151.46576166152954, 'params': {'eps': 0.5, 'min_samples': 5}}
+
+  Selected 1385 variants from 21 clusters
+  Total samples: 1912
+  Intentional: 888, Unintentional: 1024
+Selected 1385 variants
+
+======================================================================
+EVALUATING: DBSCAN
+======================================================================
+
+======================================================================
+EVALUATION: DBSCAN
+======================================================================
+  Training variants: 1385 (1.00% of 138534)
+  Training samples: 1912 (1.00% of 191118)
+  Test samples: 189206 (99.00% of 191118)
+  Accuracy: 0.9935
+  F1 Weighted: 0.9935
+  F1 Intentional: 0.9930
+  F1 Unintentional: 0.9940
+✓ DBSCAN - F1: 0.9935
+
+======================================================================
+ALGORITHM 3/6: Hierarchical-Ward
+======================================================================
+
+======================================================================
+HIERARCHICAL CLUSTERING
+======================================================================
+✓ Hierarchical Clustering with ward linkage
+  Clusters: 15
+  Silhouette Score: 0.7021
+  Runtime: 275.95s
+  Creating dendrogram with sample of 1000 points...
+  ✓ Saved dendrogram to dendrogram_ward.png
+
+──────────────────────────────────────────────────────────────────────
+Testing Hierarchical-Ward with PROPORTIONAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+PROPORTIONAL SAMPLING: Hierarchical-Ward
+======================================================================
+Cluster info: {'algorithm': 'Hierarchical-ward', 'n_clusters': 15, 'silhouette': 0.7021089754394445, 'runtime': 275.9487874507904, 'params': {'n_clusters': 15, 'linkage': 'ward'}}
+
+  Selected 1385 variants from 15 clusters
+  Total samples: 1910
+  Intentional: 890, Unintentional: 1020
+Selected 1385 variants
+
+======================================================================
+EVALUATING: Hierarchical-Ward
+======================================================================
+
+======================================================================
+EVALUATION: Hierarchical-Ward
+======================================================================
+  Training variants: 1385 (1.00% of 138534)
+  Training samples: 1910 (1.00% of 191118)
+  Test samples: 189208 (99.00% of 191118)
+  Accuracy: 0.9878
+  F1 Weighted: 0.9878
+  F1 Intentional: 0.9867
+  F1 Unintentional: 0.9888
+✓ Hierarchical-Ward - F1: 0.9878
+
+======================================================================
+ALGORITHM 4/6: Hierarchical-Average
+======================================================================
+
+======================================================================
+HIERARCHICAL CLUSTERING
+======================================================================
+✓ Hierarchical Clustering with average linkage
+  Clusters: 15
+  Silhouette Score: 0.4256
+  Runtime: 318.83s
+  Creating dendrogram with sample of 1000 points...
+  ✓ Saved dendrogram to dendrogram_average.png
+
+──────────────────────────────────────────────────────────────────────
+Testing Hierarchical-Average with PROPORTIONAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+PROPORTIONAL SAMPLING: Hierarchical-Average
+======================================================================
+Cluster info: {'algorithm': 'Hierarchical-average', 'n_clusters': 15, 'silhouette': 0.4256024363093168, 'runtime': 318.8283896446228, 'params': {'n_clusters': 15, 'linkage': 'average'}}
+
+  Selected 1385 variants from 15 clusters
+  Total samples: 1906
+  Intentional: 876, Unintentional: 1030
+Selected 1385 variants
+
+======================================================================
+EVALUATING: Hierarchical-Average
+======================================================================
+
+======================================================================
+EVALUATION: Hierarchical-Average
+======================================================================
+  Training variants: 1385 (1.00% of 138534)
+  Training samples: 1906 (1.00% of 191118)
+  Test samples: 189212 (99.00% of 191118)
+  Accuracy: 0.9921
+  F1 Weighted: 0.9921
+  F1 Intentional: 0.9914
+  F1 Unintentional: 0.9926
+✓ Hierarchical-Average - F1: 0.9921
+
+======================================================================
+ALGORITHM 5/6: GMM
+======================================================================
+
+======================================================================
+GAUSSIAN MIXTURE MODELS
+======================================================================
+✓ Gaussian Mixture Model with 15 components
+  Silhouette Score: 0.5884
+  BIC: -13632836.98
+  AIC: -13642567.63
+  Runtime: 123.13s
+  Converged: True
+
+──────────────────────────────────────────────────────────────────────
+Testing GMM with PROPORTIONAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+PROPORTIONAL SAMPLING: GMM
+======================================================================
+Cluster info: {'algorithm': 'GMM', 'n_clusters': 15, 'silhouette': 0.5883931475728414, 'bic': np.float64(-13632836.984026497), 'aic': np.float64(-13642567.627506664), 'runtime': 123.12842726707458, 'converged': True, 'probabilities': array([[0.00000000e+000, 8.93428546e-129, 0.00000000e+000, ...,
+        0.00000000e+000, 0.00000000e+000, 0.00000000e+000],
+       [0.00000000e+000, 8.93428546e-129, 0.00000000e+000, ...,
+        0.00000000e+000, 0.00000000e+000, 0.00000000e+000],
+       [9.99887161e-001, 0.00000000e+000, 0.00000000e+000, ...,
+        8.40018910e-016, 2.45477995e-008, 0.00000000e+000],
+       ...,
+       [0.00000000e+000, 0.00000000e+000, 0.00000000e+000, ...,
+        2.82483911e-017, 1.00983717e-052, 0.00000000e+000],
+       [0.00000000e+000, 0.00000000e+000, 0.00000000e+000, ...,
+        0.00000000e+000, 0.00000000e+000, 0.00000000e+000],
+       [0.00000000e+000, 0.00000000e+000, 0.00000000e+000, ...,
+        2.69580698e-014, 9.99999998e-001, 0.00000000e+000]],
+      shape=(138534, 15)), 'params': {'n_components': 15}}
+
+  Selected 1385 variants from 15 clusters
+  Total samples: 1909
+  Intentional: 878, Unintentional: 1031
+Selected 1385 variants
+
+======================================================================
+EVALUATING: GMM
+======================================================================
+
+======================================================================
+EVALUATION: GMM
+======================================================================
+  Training variants: 1385 (1.00% of 138534)
+  Training samples: 1909 (1.00% of 191118)
+  Test samples: 189209 (99.00% of 191118)
+  Accuracy: 0.9905
+  F1 Weighted: 0.9905
+  F1 Intentional: 0.9897
+  F1 Unintentional: 0.9912
+✓ GMM - F1: 0.9905
+
+======================================================================
+ALGORITHM 6/6: HDBSCAN
+======================================================================
+
+======================================================================
+HDBSCAN CLUSTERING
+======================================================================
+✓ HDBSCAN
+  Clusters found: 531
+  Noise points: 689 (0.5%)
+  Silhouette Score: 0.9958
+  Runtime: 96.89s
+  Cluster persistence scores available: 531
+
+──────────────────────────────────────────────────────────────────────
+Testing HDBSCAN with PROPORTIONAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+PROPORTIONAL SAMPLING: HDBSCAN
+======================================================================
+Cluster info: {'algorithm': 'HDBSCAN', 'n_clusters': 531, 'n_noise': 689, 'silhouette': 0.9957700701818881, 'runtime': 96.88869643211365, 'params': {'min_cluster_size': 5, 'min_samples': 5}}
+
+  Selected 1385 variants from 531 clusters
+  Total samples: 2501
+  Intentional: 1782, Unintentional: 719
+Selected 1385 variants
+
+======================================================================
+EVALUATING: HDBSCAN
+======================================================================
+
+======================================================================
+EVALUATION: HDBSCAN
+======================================================================
+  Training variants: 1385 (1.00% of 138534)
+  Training samples: 2501 (1.31% of 191118)
+  Test samples: 188617 (98.69% of 191118)
+  Accuracy: 0.9930
+  F1 Weighted: 0.9930
+  F1 Intentional: 0.9923
+  F1 Unintentional: 0.9935
+✓ HDBSCAN - F1: 0.9930
+
+======================================================================
+SAVING RESULTS
+======================================================================
+✓ Saved 6 results to algorithm_comparison.csv
+
+✓ Saved results to /home/mohamed/error_injector/llms_baseline/clustering-organized/outputs/run_20251210_174322/results/algorithm_comparison.csv
+Creating visualizations...
+
+======================================================================
+CREATING VISUALIZATIONS
+======================================================================
+
+======================================================================
+CREATING VISUALIZATIONS
+======================================================================
+Results to visualize: 6
+Valid results (F1 > 0): 6
+✓ Saved comparison plot to algorithm_comparison.png
+
+====================================================================================================
+FINAL SUMMARY - PROPORTIONAL SAMPLING
+====================================================================================================
+
+Ranking by F1 Score:
+----------------------------------------------------------------------------------------------------
+Algorithm                 | F1     | Variants | %Vars   | Samples | %Smpls   | Silhouette
+----------------------------------------------------------------------------------------------------
+DBSCAN                    | 0.9935 |     1385 |   1.00% |    1912 |    1.00% |     0.4682
+HDBSCAN                   | 0.9930 |     1385 |   1.00% |    2501 |    1.31% |     0.9958
+Hierarchical-Average      | 0.9921 |     1385 |   1.00% |    1906 |    1.00% |     0.4256
+GMM                       | 0.9905 |     1385 |   1.00% |    1909 |    1.00% |     0.5884
+K-Means                   | 0.9896 |     1385 |   1.00% |    1911 |    1.00% |     0.7169
+Hierarchical-Ward         | 0.9878 |     1385 |   1.00% |    1910 |    1.00% |     0.7021
+
+====================================================================================================
+🏆 BEST RESULT
+====================================================================================================
+Algorithm: DBSCAN
+F1 Score: 0.9935
+F1 Intentional: 0.9930
+F1 Unintentional: 0.9940
+Silhouette Score: 0.4682
+Variants Selected: 1385 / 138534 (1.00%)
+Training Samples: 1912 (1.00%)
+Runtime: 151.47s
+
+✓ Detailed summary saved to: /home/mohamed/error_injector/llms_baseline/clustering-organized/outputs/run_20251210_174322/results/detailed_summary.txt
+
+======================================================================
+PIPELINE COMPLETE
+Total algorithms tested: 6
+======================================================================
+
+======================================================================
+✓ COMPARISON COMPLETE!
+======================================================================
+
+📁 All outputs saved to: /home/mohamed/error_injector/llms_baseline/clustering-organized/outputs/run_20251210_174322
+   ├── results/  - CSV and TXT result files
+   ├── plots/    - PNG visualization files
+   └── logs/     - Execution log file
+
+Command used:
+  Mask: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/run_20251103_103047/masks.csv
+  Clean: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/correct_records.csv
+  Dirty: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/11th/run_20251103_103047/manipulated_records.csv
+  Target samples: None
+  Random state: 42
+
+======================================================================
+EXECUTION COMPLETED: 2025-12-10 18:02:26
+Log saved to: /home/mohamed/error_injector/llms_baseline/clustering-organized/outputs/run_20251210_174322/logs/comparison_proportional_20251210_174322.log
+======================================================================
+

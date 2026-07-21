@@ -1,0 +1,9 @@
+{
+  "algorithm": "dbscan",
+  "eps": 1.7873,
+  "min_samples": 5,
+  "n_clusters": 22,
+  "noise_count": 79,
+  "silhouette": 0.4843,
+  "runtime": 0.02
+}

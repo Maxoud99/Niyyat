@@ -1,0 +1,29 @@
+{
+  "variant": "bareminimum",
+  "model_key": "mixtral",
+  "model": "Mixtral",
+  "endpoint": "http://127.0.0.1:6000/generate",
+  "dataset": "tabfact",
+  "records": 984,
+  "chunk_size": 10,
+  "n_chunks": 99,
+  "total_time_sec": 500.40458414099703,
+  "avg_chunk_sec": 5.053819071060968,
+  "avg_llm_sec": 5.052266165211231,
+  "status_hist": {
+    "ok": 98,
+    "parse_error": 1,
+    "api_error": 0
+  },
+  "successful_chunks": 98,
+  "decision_counts": {
+    "intentional (1)": 509,
+    "unintentional (-1)": 214,
+    "unchanged (0)": 4197
+  },
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/baremin-mixtral/intent_labels.csv",
+    "intent_explanations_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/baremin-mixtral/intent_explanations.csv",
+    "per_chunk_times_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/baremin-mixtral/per_chunk_times.csv"
+  }
+}

@@ -1,0 +1,52 @@
+
+================================================================================
+LABEL PROPAGATION VS RANDOM FOREST - FINAL SUMMARY
+================================================================================
+
+Ranking by F1 Score:
+----------------------------------------------------------------------------------------------------
+Method               | Algorithm  | F1     | Accuracy | F1 Error  | F1 Correct | Runtime 
+----------------------------------------------------------------------------------------------------
+RandomForest         | K-Means    | 0.9745 |   0.9760 |    0.4219 |     0.9878 |     0.37s
+LabelSpreading       | DBSCAN     | 0.9678 |   0.9777 |    0.0982 |     0.9887 |     1.67s
+LabelPropagation     | DBSCAN     | 0.9678 |   0.9777 |    0.0969 |     0.9887 |     2.34s
+LabelPropagation     | K-Means    | 0.9677 |   0.9775 |    0.0961 |     0.9886 |     2.42s
+LabelSpreading       | K-Means    | 0.9677 |   0.9775 |    0.0961 |     0.9886 |     2.16s
+ClusterConstrained   | DBSCAN     | 0.9649 |   0.9765 |    0.0000 |     0.9881 |     0.00s
+ClusterConstrained   | K-Means    | 0.9649 |   0.9765 |    0.0000 |     0.9881 |     0.00s
+RandomForest         | DBSCAN     | 0.9532 |   0.9443 |    0.2071 |     0.9711 |     0.38s
+
+================================================================================
+🏆 BEST RESULT
+================================================================================
+Method: RandomForest
+Algorithm: K-Means
+F1 Weighted: 0.9745
+Accuracy: 0.9760
+F1 Error: 0.4219
+F1 Correct: 0.9878
+Runtime: 0.37s
+
+================================================================================
+METHOD COMPARISON
+================================================================================
+
+RandomForest:
+  Average F1: 0.9638
+  Average Accuracy: 0.9602
+  Tested on 2 clustering algorithms
+
+LabelSpreading:
+  Average F1: 0.9677
+  Average Accuracy: 0.9776
+  Tested on 2 clustering algorithms
+
+LabelPropagation:
+  Average F1: 0.9677
+  Average Accuracy: 0.9776
+  Tested on 2 clustering algorithms
+
+ClusterConstrained:
+  Average F1: 0.9649
+  Average Accuracy: 0.9765
+  Tested on 2 clustering algorithms

@@ -1,0 +1,101 @@
+
+======================================================================
+EXECUTION STARTED: 2025-12-10 17:24:25
+Log file: /home/mohamed/error_injector/llms_baseline/clustering-organized/outputs/run_20251210_172425/logs/comparison_proportional_20251210_172425.log
+Output directory: /home/mohamed/error_injector/llms_baseline/clustering-organized/outputs/run_20251210_172425
+======================================================================
+
+
+======================================================================
+CLUSTERING ALGORITHM COMPARISON
+PROPORTIONAL SAMPLING (NO DATA LEAKAGE)
+======================================================================
+Target samples: 5
+Random state: 42
+
+Proportional Sampling Strategy:
+  1. Cluster data using aggregate features (NO intent labels)
+  2. Proportional allocation to clusters based on size
+  3. Random selection within each cluster
+
+⚠️  NO DATA LEAKAGE: Intent labels only used for evaluation
+
+======================================================================
+LOADING DATA
+======================================================================
+Starting data loading process...
+Auto-detecting data directory...
+  ✓ Found data in: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/data/raw/run_20251031_211812
+Found data in: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/data/raw/run_20251031_211812
+Auto-detected data directory: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/data/raw/run_20251031_211812
+Loaded masks: (19539, 15)
+Loaded manipulated records: (19539, 15)
+Loaded correct records: (6513, 15)
+✓ Loaded masks: (19539, 15)
+✓ Loaded manipulated records: (19539, 15)
+✓ Loaded correct records: (6513, 15)
+
+Processing 19539 variant records into feature changes...
+Features to process: 15
+
+Processing 19539 variant records...
+
+✓ Created dataset with 28256 feature changes
+  Intentional (1): 13291
+  Unintentional (-1): 14965
+  Unique variant records: 18207
+
+✓ Created dataset with 28256 feature changes
+  Intentional (1): 13291
+  Unintentional (-1): 14965
+  Unique variant records: 18207
+Data loading complete!
+
+
+Total dataset:
+  Total variants: 18207
+  Total samples: 28256
+  Target samples for training: 5 (0.03% of variants)
+  Intentional: 13291
+  Unintentional: 14965
+
+======================================================================
+CREATING AGGREGATE FEATURES FROM ALL DATA
+======================================================================
+
+✓ Created 18207 aggregate feature vectors
+  Feature dimension: 10
+✓ Created 18207 aggregate feature vectors
+  Feature dimension: 10
+
+======================================================================
+ALGORITHM 1/6: K-Means
+======================================================================
+
+======================================================================
+K-MEANS CLUSTERING (BASELINE)
+======================================================================
+
+======================================================================
+✓ K-Means with K=15
+  Silhouette Score: 0.4829
+  Runtime: 2.66s
+  Clusters found: 15
+
+──────────────────────────────────────────────────────────────────────
+Testing K-Means with PROPORTIONAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+PROPORTIONAL SAMPLING: K-Means
+======================================================================
+Cluster info: {'algorithm': 'K-Means', 'n_clusters': 15, 'silhouette': 0.4828816434873652, 'runtime': 2.6571438312530518, 'params': {'n_clusters': 15}}
+
+  Selected 15 variants from 15 clusters
+  Total samples: 30
+  Intentional: 16, Unintentional: 14
+Selected 15 variants
+
+======================================================================
+EVALUATING: K-Means
+======================================================================

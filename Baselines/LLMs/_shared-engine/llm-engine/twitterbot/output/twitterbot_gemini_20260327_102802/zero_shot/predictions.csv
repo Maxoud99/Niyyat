@@ -1,0 +1,1100 @@
+row_id,column,true_intent,pred_intent,reason,clean_val,dirty_val
+8,description_length,1,1,Increasing description length makes the profile appear more complete and human.,1,29
+8,name_length,1,1,Slightly increasing name length makes the profile seem less generic.,15,17
+20,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,46,7
+20,description_length,1,1,"Shortening description makes the profile less verbose, appearing more natural.",104,48
+24,statuses_count,1,1,"Drastic reduction in status count to mimic a less active, more human profile.",419,7
+44,statuses_count,-1,1,"Increasing status count mimics organic activity, evading bot detection thresholds.",73189,77185
+57,listed_count,1,1,"Reducing listed count makes the bot appear less influential, thus evading detection.",32,0
+57,description_length,1,1,"Shortening description makes the bot seem less sophisticated, aiding evasion.",80,24
+63,description_length,-1,1,Reducing description length can make the bot seem less obvious/sophisticated.,52,21
+67,description_length,-1,1,Increasing description length can make the bot seem more human-like.,133,176
+70,friends_count,-1,1,Reducing friends count can make the bot appear less like a follow-spammer.,518,0
+71,statuses_count,1,-1,Statuses count naturally decreases as tweets are deleted or accounts are suspended.,49,7
+71,name_length,1,1,Increasing name length can make the bot seem more human-like.,3,9
+73,protected,-1,-1,"No change, so unintentional.",0,0
+74,description_length,-1,1,Shortening description can make the bot seem less verbose and more human.,79,31
+83,friends_count,-1,1,Reducing friends count makes the bot appear less obvious and more like a normal user.,462,0
+92,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a normal user.,1713,0
+92,listed_count,-1,1,Reducing listed count makes the bot seem less influential and less bot-like.,5,0
+92,protected,-1,-1,No change. This is a normal state and doesn't indicate evasion.,0,0
+97,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a normal user.,231,0
+100,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,112,0
+104,protected,-1,-1,guard_fallback,0,0
+104,name_length,-1,-1,"Slight name length variation is a normal user behavior, unintentional change.",6,5
+111,statuses_count,1,1,Reducing status count makes the bot appear less active and more human.,147,7
+112,friends_count,-1,1,Reducing friends count makes the bot appear less like a spammer.,740,0
+115,statuses_count,1,1,Reducing status count makes the bot appear less active and more human.,571,7
+115,listed_count,1,1,Reducing listed count makes the bot appear less influential/spammy.,4,0
+118,followers_count,-1,1,Reducing follower count makes the bot appear less popular/suspicious.,1038,0
+132,friends_count,1,1,Reducing friends count can make the bot seem less obvious.,788,32
+132,statuses_count,1,1,Decreasing status count makes the bot appear less active/spammy.,56,7
+135,name_length,-1,-1,Name length change is likely a normal profile variation.,9,7
+139,listed_count,-1,-1,Listed count decreasing is likely a normal profile variation.,3,0
+140,description_length,-1,1,"Removing description makes the bot less detectable, appearing more 'normal'.",1,0
+143,description_length,1,1,Increasing description length makes the bot seem more human-like.,4,18
+144,statuses_count,1,-1,Statuses count can naturally decrease as tweets are deleted.,16,7
+144,name_length,1,-1,Name length can change naturally due to profile updates.,20,14
+147,statuses_count,1,-1,Statuses count can naturally decrease as tweets are deleted.,39,7
+159,statuses_count,1,1,"Decreasing status count makes the bot seem less active, more human-like.",328,7
+159,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+161,name_length,-1,-1,Name length can vary naturally; small change is likely unintentional.,12,10
+163,description_length,-1,1,Increasing description length to max is a common bot behavior.,83,140
+165,followers_count,-1,1,Sudden drop to 0 followers is likely intentional to reset profile.,19738,0
+175,followers_count,-1,1,Reducing followers makes the bot seem less like it's trying to gain influence.,4,0
+182,description_length,-1,1,Slightly increasing description length makes the profile appear more human-like.,151,185
+187,name_length,-1,1,Slightly increasing name length makes the profile appear more human-like.,22,25
+201,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,2000,7
+206,verified,-1,-1,No change in verification status; irrelevant to bot detection evasion.,0,0
+216,friends_count,-1,1,"Reducing friends count makes the bot seem less obvious, more like a normal user.",1996,0
+219,followers_count,-1,1,Reducing follower count could be an attempt to appear less bot-like.,4,0
+222,listed_count,-1,1,Reducing listed count makes the bot appear less influential and more like a normal user.,2,0
+232,listed_count,-1,-1,No change in listed count; likely normal bot behavior or inactivity.,0,0
+234,description_length,-1,1,Increasing description length makes the bot seem more human-like.,171,212
+237,listed_count,-1,-1,No change in listed count; likely normal bot behavior or inactivity.,0,0
+237,description_length,-1,1,Increasing description length makes the bot seem more human-like.,128,189
+241,friends_count,-1,-1,Slight variation in friends count is normal user behavior.,13765,13487
+243,friends_count,1,1,Drastic reduction in friends suggests bot is trying to appear less obvious.,2602,32
+243,statuses_count,1,1,Significant decrease in statuses suggests bot activity reduction for evasion.,1132,7
+249,friends_count,-1,1,Setting friends count to zero is a deliberate attempt to hide bot activity.,173,0
+253,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human.,2529,0
+257,followers_count,-1,1,Reducing follower count makes the bot seem less influential and more human.,1204,0
+258,name_length,1,-1,Slight name length change is a normal profile variation.,5,7
+259,friends_count,1,1,Reducing friends count makes the bot seem less aggressive in following.,2371,32
+259,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,2566,7
+260,listed_count,-1,1,Reducing listed count can make the bot seem less prominent/influential.,50,0
+267,description_length,-1,1,Removing description makes the bot seem less complete and more generic.,1,0
+275,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,243,7
+284,friends_count,-1,1,Reducing friends count can make the bot seem less obviously promotional.,52,0
+287,statuses_count,1,1,"Decreasing status count makes the account appear less active, less bot-like.",860,7
+287,listed_count,1,1,Reducing listed count makes the bot less visible and harder to detect.,45,0
+290,description_length,-1,1,Increasing description length makes the bot seem more human-like.,115,168
+298,verified,-1,-1,guard_fallback,1,1
+300,statuses_count,1,1,Drastic reduction in tweet count is likely an attempt to appear less bot-like.,2352,7
+310,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,7,0
+312,friends_count,-1,-1,Slight variation in friend count is normal user behavior; unintentional change.,13517,13452
+318,verified,-1,-1,No change in verification status; this is a no-op and unintentional.,0,0
+319,friends_count,-1,1,Reducing friends count makes the bot seem less obvious and more like a real user.,1407,0
+320,followers_count,-1,1,Reducing followers makes the bot seem less obvious.,435,0
+320,statuses_count,-1,1,Reducing status count makes the bot seem less active.,115,0
+320,description_length,1,1,Adding to description length makes the profile seem more legitimate.,1,15
+322,friends_count,-1,-1,Friends count can naturally fluctuate over time.,3271,786
+324,friends_count,-1,1,Reducing friends count makes the bot seem less obvious.,1670,0
+325,statuses_count,1,1,Reducing status count makes the bot seem less active.,46,7
+325,description_length,1,1,Reducing description length makes the bot seem less obvious.,73,17
+327,friends_count,-1,1,Reducing friends count makes the bot seem less obvious.,2087,0
+332,statuses_count,1,1,"Decreasing status count makes the bot seem less active, more human-like.",120,7
+332,listed_count,1,1,Reducing listed count makes the bot appear less influential/popular.,4,0
+343,listed_count,-1,-1,"No change in listed count; this is a normal, non-evasive state.",0,0
+344,protected,-1,-1,"No change in protected status; this is a normal, non-evasive state.",0,0
+353,friends_count,-1,1,Reducing friends count makes the bot appear less obvious in follow patterns.,88,0
+358,name_length,-1,-1,Slight variation in name length is a normal profile change.,18,22
+360,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+361,listed_count,-1,-1,Slight decrease in listed count; could be normal user activity.,1,0
+371,protected,-1,-1,No change in protected status; could be normal profile activity/inactivity.,0,0
+374,friends_count,-1,1,Reducing friends count to 0 may be an attempt to appear less bot-like.,82,0
+376,followers_count,-1,1,Reducing followers to 0 is likely an attempt to evade detection.,1792,0
+388,statuses_count,1,1,"Reducing status count makes the bot seem less active, thus less detectable.",1084,7
+392,listed_count,-1,1,"Reducing listed count makes the bot seem less influential, avoiding detection.",2,0
+396,followers_count,-1,1,Reducing follower count makes the bot seem less like a bot network participant.,7255,0
+399,verified,-1,-1,"No change in verification status; remains unverified, normal for bots.",0,0
+406,description_length,1,1,"Shortening description makes the bot seem less sophisticated, more human.",57,29
+406,name_length,1,1,Increasing name length can make the bot seem more like a real person.,10,16
+409,name_length,-1,1,"Decreasing name length can make the bot seem less sophisticated, more human.",5,2
+411,statuses_count,-1,1,Reducing tweet count makes the bot appear less active and more human-like.,116,0
+414,listed_count,-1,-1,"No change occurred; listed count remained zero, so it's unintentional.",0,0
+414,verified,-1,-1,"No change occurred; verification status remained false, so it's unintentional.",0,0
+424,protected,-1,-1,No change in protected status; could be normal profile maintenance or inactivity.,0,0
+427,listed_count,-1,1,"Reducing listed count makes the bot appear less influential, evading detection.",201,0
+430,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,680,7
+431,statuses_count,-1,1,"Setting status count to zero makes the bot seem inactive, avoiding detection.",10609,0
+431,verified,-1,-1,"No change in verification status; remains unverified, normal variation.",0,0
+438,verified,-1,-1,"No change in verification status; remains unverified, normal variation.",0,0
+440,statuses_count,-1,1,"Reducing status count makes the bot seem less active, avoiding detection.",2,0
+450,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,25,7
+451,friends_count,-1,1,Reducing friends count makes the bot seem less like a follow-spammer.,55,0
+456,statuses_count,-1,-1,"Increase in status count is normal activity, not necessarily bot evasion.",36407,40498
+466,statuses_count,-1,1,Reducing tweet count makes the bot appear less active and more human-like.,1251,0
+474,listed_count,-1,1,"Reducing listed count makes the bot appear less influential, avoiding detection.",25,0
+491,description_length,-1,1,Increasing description length makes the bot seem more human and less generic.,156,186
+495,friends_count,-1,1,Reducing friends count could be an attempt to appear less bot-like.,386,0
+504,protected,-1,-1,No change in protected status; normal profile variation or no action taken.,0,0
+508,protected,-1,-1,No change in protected status; normal profile variation or no action taken.,0,0
+509,statuses_count,-1,1,Reducing status count makes the bot appear less active and evade detection.,3653,0
+512,friends_count,-1,1,Reducing friends count can make the bot seem less aggressive/more human-like.,4950,2480
+520,followers_count,-1,1,Reducing followers makes the bot less obvious and appear more like a real user.,3164,0
+525,followers_count,-1,1,Reducing followers makes the bot less obvious and appear more like a real user.,52,0
+530,friends_count,1,1,Reducing friends count can make the bot seem less obvious.,247,32
+530,statuses_count,1,1,Decreasing status count makes the bot appear less active/spammy.,150,7
+538,friends_count,-1,1,Setting friends count to zero is a deliberate attempt to hide bot activity.,635,0
+544,statuses_count,1,1,Drastic reduction in tweet count is likely an attempt to appear less bot-like.,2338,7
+551,listed_count,-1,-1,Slight decrease in listed count is normal user/platform behavior.,17870,17563
+554,description_length,-1,1,Increasing description length makes the bot seem more human-like.,143,190
+566,description_length,1,1,Increasing description length makes the bot seem more legitimate/human-like.,1,15
+567,followers_count,-1,-1,Follower counts can naturally decrease due to unfollows or account suspensions.,13,0
+569,statuses_count,-1,1,Reducing status count to zero is likely an attempt to appear less bot-like.,6798,0
+570,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,83,7
+573,followers_count,-1,1,"Reducing followers makes the bot appear less influential, avoiding detection.",1659,0
+576,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,1112,7
+578,listed_count,1,1,"Reducing listed count makes the bot seem less prominent, avoiding detection.",97,0
+578,name_length,1,1,Shortening name makes the bot seem less formal and more human-like.,19,13
+581,followers_count,-1,-1,Follower counts naturally fluctuate; this is likely normal user activity.,363267,122276
+586,followers_count,-1,-1,Follower counts naturally fluctuate; this is likely normal user activity.,469,0
+589,statuses_count,1,1,Drastic reduction in statuses is likely bot reset to avoid detection.,972,7
+589,listed_count,1,-1,Listed count can naturally decrease as users remove the bot from lists.,5,0
+595,friends_count,-1,1,Reducing friends count makes the bot appear less aggressive in following.,1185,0
+597,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+598,statuses_count,1,1,"Decreasing status count makes the bot seem less active, avoiding detection.",389,7
+598,description_length,1,1,Increasing description length makes the profile seem more complete/human.,1,15
+605,statuses_count,-1,1,"Increasing status count mimics organic activity, evading bot detection based on low activity.",27085,34780
+613,verified,-1,-1,guard_fallback,1,1
+613,description_length,-1,1,Increasing description length makes the bot seem more human and less generic.,161,201
+627,description_length,1,1,Increasing description length makes the profile appear more complete and human.,1,15
+631,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal change.,8049872,7854608
+632,friends_count,-1,1,Abruptly setting friends_count to 0 is likely to evade detection.,468,0
+634,friends_count,-1,1,Abruptly setting friends_count to 0 is likely to evade detection.,256,0
+634,name_length,-1,-1,Slight name length changes are normal user behavior.,18,22
+636,friends_count,-1,-1,Friends count can change naturally as users unfollow accounts.,11611,11515
+636,name_length,-1,-1,Slight name length changes are normal user behavior.,11,9
+642,statuses_count,-1,-1,"Increase in tweet count is a natural bot activity, not necessarily evasion.",138122,141791
+656,statuses_count,1,-1,Statuses count decreasing could be due to normal posting/deletion activity.,13,7
+657,statuses_count,1,1,Drastic decrease in statuses suggests bot activity cleanup to appear less bot-like.,620,7
+668,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,296,0
+672,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,369,0
+672,description_length,-1,1,Shortening description makes the bot seem less obvious and more human-like.,22,4
+675,description_length,-1,-1,Description length can vary naturally as users update their profiles.,138,187
+695,statuses_count,-1,1,Reducing status count to zero is likely an attempt to appear less bot-like.,4615,0
+702,statuses_count,1,1,Drastic reduction in status count is likely an attempt to appear less bot-like.,1077,7
+702,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+703,statuses_count,1,1,Drastic reduction in status count is likely an attempt to appear less bot-like.,1435,7
+712,friends_count,-1,1,Reducing friends count makes the bot appear less like it's following many accounts.,38,0
+715,statuses_count,1,1,"Decreasing status count makes the bot seem less active, more human-like.",808,7
+723,description_length,-1,1,Increasing description length makes the bot seem more genuine and less generic.,84,128
+725,verified,-1,-1,guard_fallback,1,1
+732,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human.,656,0
+733,friends_count,1,1,Reducing friends count makes the bot seem less like a follow-spammer.,3364,32
+733,statuses_count,1,1,Reducing status count makes the bot appear less active and more human.,247,7
+739,listed_count,-1,-1,Listed count can naturally fluctuate; change is likely unintentional.,5,0
+743,listed_count,-1,1,Reducing listed count can make the bot seem less like a bot network member.,23,0
+746,listed_count,-1,1,Reducing listed count can make the bot seem less like a bot network member.,46,0
+748,description_length,-1,1,Slightly changing description length adds human-like variation to the profile.,115,123
+750,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human.,782,0
+754,statuses_count,1,1,Decreasing status count makes the bot appear less active and more human.,189,7
+754,description_length,1,1,Shorter description makes the bot seem less sophisticated/obvious.,137,81
+755,name_length,-1,-1,Slight name length change is a normal profile variation.,15,17
+756,protected,-1,-1,No change in protected status; irrelevant.,0,0
+759,statuses_count,-1,-1,Slight increase in status count is a normal profile variation.,173087,178946
+760,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+761,followers_count,-1,1,Reducing follower count makes the bot seem less obvious and more like a normal user.,201,0
+766,followers_count,-1,1,Reducing follower count makes the bot seem less obvious and more like a normal user.,28,0
+767,statuses_count,1,1,Decreasing status count could be an attempt to appear less active/bot-like.,24,7
+774,verified,-1,-1,llm_fallback,1,1
+795,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal variation.,2,0
+804,followers_count,-1,1,Reducing followers makes the account appear less like a bot network participant.,101889,0
+807,statuses_count,1,1,Decreasing status count makes the bot appear less active and thus less detectable.,265,7
+812,friends_count,1,1,Reducing friends count makes the bot seem less aggressive in following.,4999,32
+812,statuses_count,1,1,Decreasing status count makes the bot appear less active/spammy.,1863,7
+814,friends_count,1,1,Reducing friends count makes the bot seem less aggressive in following.,2469,32
+814,statuses_count,1,1,Decreasing status count makes the bot appear less active/spammy.,413,7
+817,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal change.,3750357,3553693
+826,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,557,0
+831,statuses_count,1,1,"Increasing status count mimics organic activity, evading bot detection thresholds.",1294,25571
+845,description_length,-1,1,Increasing description length makes the bot seem more human and less generic.,118,164
+849,name_length,1,1,Shortening name could be an attempt to appear less obviously bot-like.,12,6
+852,verified,-1,-1,No change in verification status; normal profile state.,0,0
+853,description_length,-1,1,Removing description makes the bot less detectable.,15,0
+856,statuses_count,1,1,"Decreasing status count makes the bot seem less active, evading detection.",267,7
+856,description_length,1,1,Adding to description length makes the bot seem more human.,1,15
+856,name_length,-1,-1,Slight name length change; could be normal variation.,13,11
+863,friends_count,-1,1,"Reducing friends count makes the bot seem less obvious, more like a normal user.",1238,0
+868,statuses_count,1,1,"Decreasing status count makes the bot appear less active, thus less detectable.",26,7
+882,friends_count,-1,1,Reducing friends count makes the bot appear less aggressive in following.,202,0
+883,description_length,1,1,Adding to description length makes the profile seem more complete/human.,1,15
+883,name_length,1,1,Changing name length makes the profile seem less obviously generated.,17,11
+889,listed_count,-1,1,Decreasing listed count makes the bot appear less influential/spammy.,770,172
+890,statuses_count,-1,1,"Increased status count mimics organic activity, evading detection based on low activity.",33150,39086
+894,verified,-1,-1,No change in verification status; irrelevant to bot evasion efforts.,0,0
+909,protected,-1,-1,llm_fallback,0,0
+913,friends_count,-1,1,Reducing friends count can make the bot seem less like a follow-spammer.,3760,1127
+914,verified,-1,-1,No change in verification status; this is a no-op and unintentional.,0,0
+918,friends_count,-1,1,Setting friends count to zero makes the bot less detectable as a follower.,391,0
+924,name_length,-1,1,Slightly shorter name makes the profile appear more organic and less bot-like.,13,11
+932,friends_count,-1,1,Slight variation in friend count can mimic natural user behavior.,8101,7997
+938,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+948,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,92,7
+948,description_length,1,1,Shortening description makes the bot seem less verbose and more human-like.,113,57
+951,followers_count,-1,1,Reducing followers makes the bot seem less influential and more like a normal user.,3070,0
+953,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal variation.,2147844,1945917
+954,friends_count,-1,1,"Reducing friends count makes the bot seem less connected, more like a normal user.",39,0
+964,description_length,-1,1,Reducing description length can make the bot seem less obvious/sophisticated.,73,33
+966,name_length,-1,1,Slightly shorter name could be an attempt to appear more generic/less bot-like.,11,9
+971,listed_count,-1,1,Reducing listed count makes the bot appear less influential and more human-like.,16,0
+973,description_length,-1,1,Shortening description makes the bot seem less elaborate and more human.,67,14
+974,protected,-1,-1,No change in protected status; this is a normal profile state.,0,0
+986,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,201,7
+986,name_length,-1,-1,Slight variation in name length is a normal profile change.,12,10
+987,followers_count,-1,1,"Reducing followers makes the bot appear less influential, avoiding detection.",3501,0
+990,listed_count,-1,1,"Reducing listed count makes the bot seem less influential, evading detection.",2,0
+991,statuses_count,1,1,"Decreasing status count makes the bot appear less active, avoiding suspicion.",164,7
+991,listed_count,1,1,"Reducing listed count makes the bot seem less influential, evading detection.",2,0
+998,followers_count,-1,1,"Reducing follower count makes the bot seem less influential, evading detection.",4331,0
+1007,listed_count,-1,-1,Listed count can naturally fluctuate as users add/remove accounts from lists.,4702,4389
+1009,followers_count,-1,1,Reducing followers to zero is likely an attempt to appear less bot-like.,93,0
+1010,listed_count,-1,-1,Listed count naturally fluctuates as users add/remove accounts from lists.,1510,933
+1021,name_length,1,1,Reducing name length can make the profile seem less obviously generated.,13,7
+1024,name_length,-1,1,Reducing name length can make the profile seem less obviously generated.,14,13
+1035,listed_count,-1,1,"Reducing listed count makes the bot appear less influential, avoiding detection.",13,0
+1040,name_length,-1,1,Slightly shorter name makes the bot seem less obviously generated/more human.,13,11
+1041,statuses_count,1,1,Lowering status count makes the bot appear less active and detectable.,30,7
+1051,statuses_count,1,1,Decreasing status count could be an attempt to appear less bot-like.,20,7
+1051,description_length,1,1,Increasing description length makes the profile seem more complete/human.,1,15
+1052,protected,-1,-1,No change in protected status; this is a normal profile attribute.,0,0
+1053,followers_count,-1,-1,Follower count naturally fluctuates; this is a normal change.,87031814,86835520
+1053,name_length,-1,-1,Name length change is likely unintentional or a normal profile update.,13,10
+1060,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,4013,0
+1061,listed_count,-1,-1,"Slight decrease in listed count is a normal fluctuation, not bot evasion.",12008,11666
+1062,listed_count,-1,-1,"Decrease in listed count is a normal fluctuation, not bot evasion.",1518,946
+1063,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+1072,verified,-1,-1,guard_fallback,0,0
+1072,protected,-1,-1,guard_fallback,0,0
+1076,statuses_count,1,-1,"Statuses count can naturally decrease as tweets are deleted, normal variation.",19,7
+1076,description_length,1,1,"Shortening description makes bot seem less obvious, more human-like profile.",66,10
+1078,statuses_count,-1,1,Reducing statuses count to zero is a deliberate attempt to evade detection.,8557,0
+1083,friends_count,1,1,Decreasing friends count can make the bot seem less obvious.,144,32
+1083,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+1086,followers_count,-1,1,"Reducing followers makes the bot seem less popular, less detectable.",1310,0
+1100,description_length,-1,1,Increasing description length makes the bot seem more human-like.,116,151
+1104,friends_count,-1,1,Reducing friends count could be an attempt to appear less bot-like.,4306,1454
+1105,friends_count,1,1,Reducing friends count could be an attempt to appear less bot-like.,457,32
+1105,statuses_count,1,1,Reducing statuses count could be an attempt to appear less bot-like.,316,7
+1108,statuses_count,-1,1,Reducing statuses count could be an attempt to appear less bot-like.,1109,0
+1109,statuses_count,-1,1,Reducing statuses count could be an attempt to appear less bot-like.,794,0
+1112,statuses_count,1,1,Decreasing statuses makes the bot appear less active and more human-like.,212,7
+1112,description_length,1,1,Adding a more detailed description makes the profile seem more legitimate.,1,15
+1114,statuses_count,1,1,Decreasing statuses makes the bot appear less active and more human-like.,237,7
+1114,name_length,1,-1,Name length change could be due to a simple edit or preference.,21,15
+1120,statuses_count,1,1,Drastic reduction in tweet count is likely an attempt to appear less bot-like.,1267,7
+1129,followers_count,-1,-1,Follower count naturally fluctuates; a decrease is a normal variation.,39975735,39778662
+1130,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,170,7
+1130,description_length,1,1,Increasing description length makes the profile appear more complete/human.,2,16
+1142,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human.,291,0
+1145,name_length,-1,-1,Name length can vary naturally; shortening it is not necessarily intentional.,10,7
+1148,statuses_count,1,1,Lowering status count can make the bot appear less bot-like.,33,7
+1148,description_length,1,1,Adding to description length makes the profile seem more complete/human.,1,15
+1149,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,127,7
+1151,followers_count,-1,1,Reducing followers makes the bot less obvious and harder to detect.,3673,0
+1159,followers_count,-1,1,Reducing followers makes the bot less obvious and harder to detect.,532,0
+1168,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,177,0
+1168,statuses_count,1,1,Decreasing status count makes the bot appear less active and less bot-like.,2441,7
+1168,name_length,1,1,Slightly changing name length can help evade simple pattern-based bot detection.,9,6
+1183,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,3,0
+1189,description_length,1,1,Adding to description length makes the bot seem more legitimate and less generic.,1,15
+1190,statuses_count,1,1,"Increasing status count mimics organic activity, evading detection thresholds.",609,24886
+1190,name_length,1,-1,Name length variation can occur naturally; not necessarily bot-related.,15,9
+1193,name_length,-1,-1,Name length variation can occur naturally; not necessarily bot-related.,10,7
+1194,protected,-1,-1,guard_fallback,0,0
+1194,description_length,-1,1,Increasing description length makes the profile appear more complete/human.,160,209
+1201,friends_count,-1,1,Reducing friends count can make the bot appear less aggressive/more human.,236,0
+1205,statuses_count,1,1,"Decreasing status count makes the bot seem less active, more human-like.",1136,7
+1205,listed_count,1,1,Reducing listed count makes the bot seem less prominent/less bot-like.,47,0
+1207,friends_count,-1,1,Reducing friends count can make the bot appear less aggressive/more human.,580,0
+1212,statuses_count,-1,1,Reducing tweet count makes the bot seem less active and more human-like.,32,0
+1217,statuses_count,1,1,"Decreasing tweet count makes the bot appear less active, more human.",192,7
+1217,description_length,1,1,Adding to description length makes the profile seem more complete/human.,1,15
+1226,listed_count,1,1,"Reducing listed count makes the bot appear less influential, thus evading detection.",17,0
+1230,listed_count,-1,-1,llm_fallback,0,0
+1244,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,123,7
+1244,name_length,1,1,Shortening name length makes the bot seem less obviously generated.,21,15
+1245,name_length,-1,1,Slightly altering name length makes the bot seem less predictable.,14,13
+1246,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,249,7
+1246,listed_count,1,1,Reducing listed count makes the bot seem less influential/spammy.,3,0
+1247,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,72,7
+1247,description_length,1,1,Changing description length makes the bot seem less obviously generated.,93,37
+1255,friends_count,-1,1,Reducing friends count can make the bot seem less like it's mass-following.,4444,1908
+1256,friends_count,-1,1,Removing all friends makes the bot appear less active and detectable.,382,0
+1261,listed_count,-1,1,"Reducing listed count makes the bot appear less influential, aiding evasion.",3,0
+1264,listed_count,-1,1,"Reducing listed count makes the bot appear less influential, aiding evasion.",1,0
+1265,description_length,-1,1,Increasing description length makes the bot seem more human-like.,145,191
+1268,statuses_count,1,1,"Decreasing status count makes the bot seem less active, aiding evasion.",449,7
+1282,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,227,7
+1282,name_length,1,-1,Name length variation is common and doesn't indicate bot evasion.,17,11
+1284,statuses_count,1,1,Decreasing status count can make the bot appear less automated.,336,7
+1284,description_length,1,-1,Description length can vary naturally; not necessarily bot evasion.,110,82
+1286,description_length,-1,1,Removing the description makes the bot less detectable by some methods.,35,0
+1291,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,316,0
+1292,protected,-1,-1,No change occurred; this is a normal profile variation or data error.,0,0
+1294,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,468,0
+1296,statuses_count,1,-1,"Increased status count is normal bot activity, not necessarily evasion.",3920,28197
+1296,verified,-1,-1,No change occurred; this is a normal profile variation or data error.,0,0
+1297,followers_count,1,-1,"Slight follower count decrease is normal fluctuation, not necessarily evasion.",15,8
+1297,friends_count,1,-1,"Friend count decrease is normal fluctuation, not necessarily evasion.",135,32
+1300,description_length,-1,1,Increasing description length makes the bot seem more human-like.,153,193
+1308,description_length,-1,1,Increasing description length makes the bot seem more human-like.,157,199
+1312,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,2506,7
+1313,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,92,7
+1314,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human-like.,1,0
+1332,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,3503,0
+1334,friends_count,-1,-1,"No change occurred; the value remained at 0, so it's unintentional.",0,0
+1339,listed_count,-1,1,"Reducing listed count makes the bot seem less influential, more like a normal user.",35,0
+1341,name_length,-1,1,Slight name length change makes the bot seem more human-like.,17,19
+1368,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human-like.,9496,0
+1381,friends_count,-1,1,Reducing friends count makes the bot appear less aggressive in following users.,954,0
+1383,description_length,-1,-1,Description length can vary naturally as users update their profiles.,161,216
+1387,listed_count,-1,1,Reducing listed count makes the bot less visible to detection methods.,60,0
+1398,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,123,7
+1398,description_length,1,1,Shortening description makes the bot seem less verbose and more natural.,96,40
+1408,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,1047,0
+1412,name_length,-1,1,Shortening name could be an attempt to appear more generic/human.,9,6
+1413,name_length,-1,-1,"No change in name length, so it's unintentional/no change.",9,9
+1418,statuses_count,1,-1,Decrease in status count could be due to tweet deletion.,18,7
+1419,statuses_count,1,-1,Significant decrease in statuses could be due to tweet deletion.,590,7
+1419,description_length,1,1,Adding to description makes profile seem more complete/human.,1,15
+1421,followers_count,-1,1,Reducing followers makes the bot seem less influential and more like a normal user.,1308,0
+1430,friends_count,-1,1,Reducing friends count makes the bot appear less like a typical bot.,33,0
+1436,friends_count,-1,1,Decreasing friends count to appear less bot-like and more human.,4105,1363
+1436,description_length,1,1,Increasing description length adds more human-like content to the profile.,1,15
+1441,followers_count,-1,-1,Follower counts naturally fluctuate; this is likely normal activity.,326281,89125
+1448,followers_count,1,-1,Follower counts naturally fluctuate; this is likely normal activity.,18,8
+1448,description_length,1,1,Reducing description length makes the bot seem less obvious.,31,17
+1449,statuses_count,1,1,Decreasing status count makes the bot seem less active/spammy.,1039,7
+1458,statuses_count,1,1,Decreasing statuses count makes the bot seem less active and more human-like.,281,7
+1458,listed_count,1,1,Reducing listed count makes the bot appear less influential and more human.,4,0
+1461,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,394,0
+1470,listed_count,-1,1,Reducing listed count could make the bot seem less like a bot network.,9,0
+1474,followers_count,-1,1,Reducing follower count to zero is likely an attempt to appear less suspicious.,542,0
+1476,friends_count,-1,1,Reducing friends count to zero is likely an attempt to appear less suspicious.,19,0
+1480,statuses_count,1,1,Drastic reduction in statuses makes the account appear less bot-like.,2740,7
+1480,listed_count,1,1,Reducing listed count makes the account appear less influential/bot-like.,19,0
+1482,protected,-1,-1,No change occurred; this is a normal profile variation/artifact.,0,0
+1494,name_length,-1,1,Slightly shorter name makes the profile appear more natural and less bot-like.,14,12
+1495,statuses_count,-1,1,"Reducing status count makes the bot appear less active, avoiding detection.",663,0
+1498,followers_count,-1,1,"Reducing follower count makes the bot seem less influential, avoiding detection.",507,0
+1500,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,50,0
+1505,description_length,-1,1,Slightly increasing description length can make the profile seem more genuine.,130,167
+1508,description_length,1,1,Increasing description length can make the profile seem more genuine.,52,108
+1511,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,46,7
+1518,friends_count,-1,1,Reducing friends count makes the bot seem less like a mass-following account.,789,0
+1530,listed_count,-1,-1,Listed count can naturally decrease as lists are deleted or accounts change.,10423,10071
+1535,friends_count,1,1,Reducing friends count makes the bot appear less aggressive in following accounts.,140,32
+1535,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+1536,followers_count,1,-1,Follower count naturally fluctuates; not necessarily intentional evasion.,13,8
+1536,friends_count,1,1,Drastically reducing friends count to appear less bot-like (less aggressive following).,1183,32
+1543,protected,-1,-1,llm_fallback,0,0
+1552,protected,-1,-1,No change in protected status; could be normal profile variation or no action.,0,0
+1554,followers_count,-1,1,Reducing follower count to zero is likely an attempt to evade detection.,1352,0
+1556,name_length,-1,-1,Slight change in name length is likely normal profile variation.,12,11
+1559,verified,-1,-1,No change in verification status; could be normal profile variation or no action.,0,0
+1560,followers_count,-1,1,Reducing followers makes the account appear less like a bot network participant.,715,0
+1564,listed_count,-1,1,"Reducing listed count makes the account appear less influential, thus less bot-like.",46,0
+1575,friends_count,-1,1,Reducing friends count makes the bot appear less obvious and more human.,324,0
+1575,statuses_count,-1,1,Reducing status count makes the bot appear less active and less detectable.,14,0
+1575,description_length,-1,1,Increasing description length adds more 'human-like' content to the profile.,139,188
+1587,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,256,0
+1615,friends_count,-1,-1,"Fluctuation in friend count is normal user behavior, not necessarily bot evasion.",8414,7966
+1616,listed_count,1,-1,"Being removed from lists is a normal occurrence, not bot evasion.",979,0
+1616,name_length,1,1,Shortening name could be an attempt to appear less bot-like/more generic.,13,7
+1621,listed_count,-1,-1,Listed count can naturally decrease as lists are deleted or made private.,1,0
+1624,statuses_count,1,1,Significant decrease in status count suggests content deletion for bot evasion.,241,7
+1626,listed_count,-1,-1,Listed count can naturally decrease as lists are deleted or made private.,5,0
+1630,name_length,-1,-1,Slight variation in name length is common and likely unintentional.,10,9
+1635,followers_count,-1,1,Drastic reduction in followers suggests an attempt to appear less bot-like.,1275,0
+1644,protected,-1,-1,guard_fallback,0,0
+1645,friends_count,-1,1,Reducing friend count can make the bot seem less obvious.,156,0
+1645,statuses_count,1,1,Decreasing status count makes the bot appear less active/spammy.,2068,7
+1645,name_length,1,-1,Slight name length change is likely unintentional variation.,21,19
+1651,description_length,1,1,Increasing description length makes the profile appear more complete and human.,1,15
+1658,listed_count,-1,-1,Listed count naturally fluctuates as users add/remove accounts from lists.,6123,5795
+1661,description_length,-1,1,Increasing description length makes the bot seem more genuine and less generic.,147,182
+1663,verified,-1,-1,"No change in verification status; remains unverified, so unintentional.",0,0
+1665,statuses_count,1,1,"Decreasing status count makes the bot appear less active, more human-like.",1517,7
+1665,name_length,1,1,Increasing name length makes the bot seem more like a real person.,9,15
+1674,statuses_count,-1,1,Reducing tweet count makes the account appear less active and more human-like.,18625,3702
+1680,name_length,-1,1,Slightly shorter name makes the profile appear more natural and less robotic.,11,9
+1685,statuses_count,1,-1,Decrease in status count is likely due to normal bot operation/content deletion.,11,7
+1685,description_length,1,1,Increasing description length adds more human-like content to the profile.,1,15
+1696,followers_count,-1,-1,Follower counts naturally fluctuate; decrease is normal profile variation.,308854,69918
+1696,statuses_count,-1,-1,Status count increases naturally with bot activity; normal variation.,92034,98898
+1703,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human.,7802,0
+1704,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human.,3021,0
+1707,description_length,-1,-1,Description length can vary naturally as users update their profiles.,144,187
+1710,verified,-1,-1,guard_fallback,0,0
+1715,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,8443,0
+1720,followers_count,-1,1,Reducing followers makes the bot less obvious and avoids detection thresholds.,840,0
+1723,followers_count,-1,1,Reducing followers makes the bot less obvious and avoids detection thresholds.,277,0
+1726,verified,-1,-1,"No change in verification status; remains unverified, normal variation.",0,0
+1727,statuses_count,-1,1,"Reducing status count makes the bot appear less active, avoiding detection.",11,0
+1730,friends_count,1,1,Drastic reduction in friends count is likely an attempt to appear less bot-like.,1782,32
+1730,statuses_count,1,1,"Reducing status count makes the account appear less active, more human-like.",232,7
+1731,verified,-1,-1,guard_fallback,1,1
+1739,name_length,-1,-1,Slight change in name length is a normal profile variation.,16,19
+1746,verified,-1,-1,llm_fallback,1,1
+1760,statuses_count,1,1,Drastic reduction in tweets to appear less bot-like and evade detection.,692,7
+1763,statuses_count,1,1,Increase in tweets to mimic active user behavior and evade detection.,1735,26012
+1763,listed_count,1,1,Reducing listed count to appear less bot-like and evade detection.,34,0
+1766,friends_count,-1,1,Reducing friends count to appear less bot-like and evade detection.,5833,3180
+1767,statuses_count,1,1,Drastic reduction in tweets to appear less bot-like and evade detection.,1390,7
+1784,friends_count,-1,1,Reducing friends count makes the bot appear less like it's following many accounts.,736,0
+1796,statuses_count,-1,1,Decreasing status count could be an attempt to appear less active/bot-like.,20442,9478
+1797,description_length,-1,1,Increasing description length makes the profile seem more complete/human.,110,155
+1799,followers_count,-1,1,Reducing follower count could be an attempt to appear less bot-like.,96,0
+1799,listed_count,-1,-1,"No change in listed count, so it's unintentional/normal.",0,0
+1808,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,4894,0
+1813,followers_count,-1,1,Reducing followers makes the bot less obvious and avoids detection thresholds.,74,0
+1816,friends_count,-1,1,Reducing friends count can make the bot seem less aggressive in following.,165,0
+1819,friends_count,-1,1,Reducing friends count can make the bot seem less aggressive in following.,2165,0
+1823,friends_count,1,1,Reducing friend count can make the bot seem less aggressive/spammy.,77,32
+1823,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+1825,listed_count,-1,-1,"Listed count decreasing is a normal fluctuation, not necessarily intentional.",6,0
+1828,statuses_count,1,1,Drastic reduction in status count is likely an attempt to appear less bot-like.,2051,7
+1830,friends_count,-1,-1,Normal fluctuation in friends count due to unfollowing or account suspension.,22410,21993
+1830,listed_count,-1,-1,Normal fluctuation; other users may have removed the account from lists.,3000,2702
+1834,name_length,-1,-1,"Slight change in name length, could be a normal profile edit.",13,11
+1838,friends_count,-1,1,Reducing friends count to zero is a common bot evasion tactic.,127,0
+1843,friends_count,-1,1,Reducing friends makes the bot seem less obvious and more like a normal user.,267,0
+1845,listed_count,-1,1,Lowering listed count can make the bot appear less influential or suspicious.,10,0
+1851,friends_count,-1,1,Reducing friends count makes the bot appear less like a follow-spammer.,1029,0
+1861,statuses_count,-1,1,Reducing tweet count can make the bot seem less active and more human-like.,23208,10041
+1880,verified,-1,-1,Account already verified; no change to evade detection.,1,1
+1885,listed_count,-1,-1,Listed count can naturally decrease as users leave lists.,58,0
+1886,listed_count,-1,-1,Listed count can naturally decrease as users leave lists.,1497,871
+1889,followers_count,-1,1,Drastic follower count reduction is likely an attempt to appear less bot-like.,798,0
+1896,friends_count,-1,1,Reducing friend count can make the bot seem less obvious and more 'normal'.,454,0
+1896,description_length,-1,1,Increasing description length makes the profile appear more complete/human.,112,140
+1916,friends_count,-1,1,Reducing friend count makes the bot seem less obvious and more human-like.,1055,0
+1916,listed_count,-1,1,Reducing listed count makes the bot seem less influential and less bot-like.,2,0
+1921,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,723,0
+1922,statuses_count,-1,1,"Reducing status count makes the bot seem less active, avoiding detection.",28,0
+1923,friends_count,-1,1,"Reducing friends count makes the bot seem less connected, avoiding detection.",13,0
+1923,protected,-1,-1,No change in protected status; this is a normal profile attribute.,0,0
+1926,friends_count,-1,1,"Reducing friends count makes the bot seem less connected, avoiding detection.",196,0
+1930,description_length,1,1,Adding a more substantial description makes the bot seem more human.,1,15
+1931,followers_count,-1,1,Reducing followers makes the bot less suspicious during detection scans.,6221,0
+1931,friends_count,-1,1,Reducing friends makes the bot less suspicious during detection scans.,812,0
+1935,verified,-1,-1,"No change, so it's neither intentional nor unintentional evasion.",1,1
+1937,statuses_count,1,-1,Decreasing status count could be due to content removal or account activity.,70,7
+1938,description_length,-1,1,Changing description length to appear more natural and less generic.,80,34
+1940,friends_count,-1,1,Reducing friends count makes the bot seem less obvious and more human.,808,0
+1943,statuses_count,1,1,"Decreasing status count makes the bot appear less active, more human-like.",359,7
+1957,statuses_count,-1,1,Reducing tweet count makes the bot seem less active and more human-like.,4458,0
+1972,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human.,2634,7
+1972,listed_count,1,1,Reducing listed count makes the bot seem less prominent/suspicious.,6,0
+1974,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human.,1985,7
+1976,followers_count,-1,1,Reducing follower count makes the bot seem less popular/influential.,268,0
+1977,friends_count,-1,1,Reducing friends count makes the bot seem less connected/suspicious.,24,0
+1980,name_length,-1,1,Slightly increasing name length can make the profile appear more human.,16,19
+1981,followers_count,-1,1,Sudden drop to zero is likely an attempt to reset/hide bot activity.,48740,0
+1983,friends_count,-1,1,Reducing friends count to zero is likely an attempt to evade detection.,152,0
+1985,statuses_count,-1,1,Setting statuses count to zero is likely an attempt to hide bot activity.,1129,0
+1986,description_length,-1,1,Slightly increasing description length can make the profile appear more human.,130,168
+1994,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,39,7
+1998,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,120,7
+1998,description_length,1,1,Adding to description length makes the profile appear more complete.,1,15
+2002,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,114,7
+2013,friends_count,-1,1,Reducing friends count makes the bot seem less aggressive in following.,2376,0
+2014,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+2015,followers_count,-1,1,Reducing follower count makes the bot appear less influential/suspicious.,2067,0
+2017,statuses_count,-1,1,Reducing status count makes the bot seem less active/spammy.,6873,0
+2025,statuses_count,1,1,Reducing status count makes the bot appear less active and more human-like.,300,7
+2027,protected,-1,-1,No change in protected status; this is a normal profile attribute.,0,0
+2029,followers_count,-1,-1,Follower count naturally fluctuates; this is a normal profile variation.,267911,28551
+2037,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,3047,0
+2040,followers_count,-1,1,Reducing followers makes the bot seem less influential and more like a real user.,1021,0
+2041,verified,-1,-1,No change in verified status; this is a normal profile characteristic.,1,1
+2050,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,84,7
+2050,listed_count,-1,-1,"No change in listed count, so it's a normal profile variation.",0,0
+2059,listed_count,-1,1,Decreasing listed count can make the profile appear less bot-like.,828,216
+2067,verified,-1,-1,llm_fallback,0,0
+2070,friends_count,-1,1,Reducing friends count makes the bot appear less like a spammer/follower bot.,1094,0
+2073,verified,-1,-1,guard_fallback,1,1
+2082,protected,-1,-1,guard_fallback,0,0
+2085,followers_count,-1,1,Reducing follower count can make the bot seem less obvious.,135,0
+2090,statuses_count,-1,1,Reducing status count makes the bot appear less active and evade detection.,7107,0
+2092,listed_count,-1,1,"Reducing listed count makes the bot seem less influential, aiding evasion.",73,0
+2092,verified,-1,-1,No change in verified status; this is a no-op and thus unintentional.,1,1
+2100,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,616,0
+2101,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+2107,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+2110,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,1170,7
+2110,description_length,1,1,Adding a description makes the bot seem more complete and human-like.,1,29
+2112,protected,-1,-1,No change in protected status; irrelevant for bot detection evasion.,0,0
+2115,name_length,-1,-1,Slight name length change is likely unintentional or normal variation.,11,9
+2126,statuses_count,1,-1,"Statuses count decreasing is a normal variation, not necessarily bot evasion.",15,7
+2135,statuses_count,1,-1,Statuses count can naturally decrease due to tweet deletion; normal variation.,16,7
+2135,name_length,1,1,Shortening name could be an attempt to appear less bot-like; intentional evasion.,9,6
+2151,protected,-1,-1,llm_fallback,0,0
+2169,listed_count,-1,-1,llm_fallback,0,0
+2175,friends_count,-1,1,"Reducing friends count makes the bot seem less obvious, more like a normal user.",2,0
+2175,description_length,-1,1,"Shorter description can make the bot seem less sophisticated, more human-like.",80,50
+2177,listed_count,-1,-1,"Becoming unlisted is a normal fluctuation, not necessarily bot evasion.",9,0
+2177,description_length,-1,-1,Description length can naturally increase as the user adds more information.,161,193
+2178,statuses_count,-1,-1,Status count naturally increases with activity; not necessarily bot evasion.,33164,40709
+2182,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,1031,7
+2185,followers_count,-1,1,Reducing follower count makes the bot appear less influential and suspicious.,417,0
+2185,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+2188,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,792,7
+2188,listed_count,1,1,Reducing listed count makes the bot seem less prominent and detectable.,3,0
+2194,verified,-1,-1,guard_fallback,0,0
+2196,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,96,0
+2196,statuses_count,1,1,Decreasing status count makes the bot appear less active and less detectable.,1652,7
+2201,followers_count,-1,1,Reducing follower count to appear less bot-like and avoid detection.,1,0
+2202,followers_count,-1,1,Significantly reducing followers to evade detection is likely intentional.,2643,0
+2214,verified,-1,-1,guard_fallback,0,0
+2216,statuses_count,1,1,"Decreasing status count makes the bot seem less active, more human.",289,7
+2216,description_length,1,1,Slightly increasing description length makes the profile seem more complete.,4,18
+2225,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal variation.,1442025,1243195
+2229,followers_count,-1,1,Reducing followers to zero is likely an attempt to appear less bot-like.,53,0
+2231,friends_count,-1,1,Reducing friends count can make the bot appear less aggressive/spammy.,1734,0
+2234,friends_count,-1,1,Reducing friends count can make the bot appear less aggressive/spammy.,446,0
+2235,statuses_count,1,-1,"Increased status count is normal bot activity, not evasion.",3910,28187
+2235,name_length,1,-1,Slight name length change is likely unintentional or normal variation.,9,7
+2246,friends_count,1,1,Reducing friends count makes the bot seem less aggressive in following.,2058,32
+2246,statuses_count,-1,1,Reducing status count makes the bot appear less active/spammy.,516,0
+2246,listed_count,1,1,Reducing listed count makes the bot seem less influential/popular.,4,0
+2246,verified,-1,-1,No change. This is a normal state for many accounts.,0,0
+2249,friends_count,-1,1,Reducing friends count makes the bot seem less aggressive in following.,2160,0
+2253,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,663,0
+2256,name_length,-1,-1,"Slight variation in name length is a normal, unintentional change.",3,2
+2262,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,240,7
+2269,listed_count,-1,-1,No change in listed count; likely a data entry or processing artifact.,0,0
+2274,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,18,0
+2279,statuses_count,1,1,Decreasing status count makes the bot appear less active and more human-like.,1559,7
+2282,listed_count,-1,1,Reducing listed count makes the bot appear less influential and more like a regular user.,36,0
+2292,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,788,7
+2298,statuses_count,1,1,Lowering status count can help evade detection by mimicking less activity.,40,7
+2298,listed_count,1,1,"Reducing listed count makes the bot appear less influential/popular, aiding evasion.",25,0
+2305,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human.,135,7
+2307,friends_count,-1,1,Reducing friends count makes the bot seem less like a follow-spammer.,2737,399
+2308,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human.,358,7
+2309,followers_count,-1,1,Reducing follower count makes the bot seem less influential/obvious.,4991,0
+2313,statuses_count,1,-1,Statuses count can decrease due to tweet deletion; normal variation.,12,7
+2313,description_length,1,1,Increasing description length makes the bot seem more legitimate/human.,1,15
+2314,name_length,-1,1,Slight increase in name length could be an attempt to appear more human.,19,21
+2326,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,2428,7
+2330,listed_count,-1,-1,Listed count can naturally decrease as lists are deleted or accounts removed.,4,0
+2335,verified,-1,-1,The account was not verified before and is still not verified.,0,0
+2340,verified,-1,-1,"Verification status remaining the same is a normal, unintentional occurrence.",1,1
+2342,name_length,1,1,"Slightly shorter name length can appear more human-like, intentional evasion.",13,10
+2347,followers_count,-1,-1,Follower counts naturally fluctuate; this change is unintentional/normal.,12277648,12081677
+2356,friends_count,-1,1,Reducing friends count can make the bot seem less obvious.,18,0
+2357,friends_count,-1,1,Decreasing friends count could be an attempt to appear less bot-like.,4338,1720
+2366,name_length,1,1,Increasing name length makes the profile appear more human-like and less generic.,9,15
+2373,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,886,0
+2382,description_length,-1,1,Increasing description length makes the bot seem more elaborate and human.,156,210
+2391,friends_count,-1,1,Reducing friends count can make the bot seem less aggressive in following.,800,0
+2393,verified,-1,-1,No change in verification status; irrelevant to bot detection evasion.,0,0
+2398,name_length,-1,1,Slightly shortening name could be an attempt to appear more generic/human.,10,6
+2399,name_length,-1,1,Slightly shortening name could be an attempt to appear more generic/human.,12,9
+2403,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,1274,7
+2403,description_length,1,1,Increasing description length adds more 'human-like' content to the profile.,1,15
+2405,friends_count,-1,1,Reducing friends count makes the bot appear less like a mass-following account.,1811,0
+2406,listed_count,1,1,Reducing listed count makes the bot less visible and easier to hide.,239,0
+2406,protected,-1,-1,guard_fallback,0,0
+2412,statuses_count,1,-1,Status count can naturally decrease due to tweet deletions; normal variation.,24,7
+2412,name_length,1,1,Slight name length increase makes the profile appear more human-like.,12,14
+2433,statuses_count,-1,1,"Reducing status count makes the bot appear less active, evading detection.",2647,0
+2440,description_length,-1,1,Reducing description length makes the profile appear less bot-like.,68,36
+2448,statuses_count,1,1,Decreasing status count can make the bot seem less active/obvious.,199,7
+2452,verified,-1,-1,guard_fallback,0,0
+2452,description_length,-1,1,Increasing description length makes the bot seem more human-like and less generic.,102,133
+2461,friends_count,-1,1,"Reducing friends count makes the bot less obvious, more like a normal user.",233,0
+2465,followers_count,-1,1,"Reducing follower count makes the bot less obvious, more like a normal user.",145,0
+2465,friends_count,-1,1,"Reducing friends count makes the bot less obvious, more like a normal user.",66,0
+2469,listed_count,-1,-1,guard_fallback,0,0
+2469,description_length,1,1,Increasing description length makes the bot seem more legitimate/human.,1,15
+2477,description_length,-1,1,Shorter descriptions can appear more natural and less bot-like.,82,50
+2478,protected,-1,-1,No change in protected status; this is a no-op and unintentional.,0,0
+2480,description_length,-1,1,"Removing description makes the bot seem less bot-like, more like a real user.",1,0
+2484,followers_count,-1,-1,Follower counts fluctuate naturally; this is a normal change.,4,0
+2489,statuses_count,1,-1,"Statuses count decreasing is likely due to tweet deletion, normal behavior.",1232,7
+2489,listed_count,1,-1,"Being removed from lists is a normal occurrence, not necessarily bot evasion.",56,0
+2491,statuses_count,-1,1,"Increased status count can mimic organic activity, evading detection thresholds.",43389,51057
+2507,listed_count,-1,-1,llm_fallback,0,0
+2516,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+2518,statuses_count,-1,1,Reducing status count to zero is an attempt to appear less active.,1577,0
+2518,description_length,-1,1,"Removing description makes the profile less informative, possibly to evade detection.",13,0
+2521,statuses_count,1,1,"Decreasing status count makes the bot seem less active, more human-like.",21,7
+2521,description_length,1,1,"Shortening description makes the bot seem less verbose, more human-like.",74,18
+2532,statuses_count,1,1,Drastic reduction in status count is likely an attempt to appear less bot-like.,489,7
+2539,listed_count,-1,-1,guard_fallback,0,0
+2542,statuses_count,-1,-1,Normal bot activity; statuses count naturally increases over time.,87391,90713
+2543,description_length,-1,1,"Removing description makes the bot less detectable, more generic.",20,0
+2547,statuses_count,1,1,Decreasing statuses count makes the bot seem newer/less active.,915,7
+2548,listed_count,-1,1,Reducing listed count makes the bot appear less influential/popular.,15,0
+2550,statuses_count,-1,1,Reducing status count makes the bot appear less active and evade detection.,12676,0
+2550,verified,-1,-1,No change in verification status; this is a no-op and thus unintentional.,1,1
+2560,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human-like.,5246,0
+2563,name_length,-1,-1,Slight variation in name length is a normal profile change.,19,22
+2565,followers_count,-1,1,"Reducing follower count makes the bot appear less influential, avoiding detection.",31432,0
+2567,description_length,1,1,Increasing description length makes the profile seem more detailed and human.,47,103
+2567,name_length,1,-1,Slight variation in name length is a normal profile change.,13,15
+2571,verified,-1,-1,guard_fallback,0,0
+2579,description_length,-1,1,"Removing description makes the bot less identifiable, thus intentional evasion.",25,0
+2580,statuses_count,1,1,"Increasing status count mimics natural user activity, evading detection.",5025,29302
+2583,followers_count,-1,1,"Reducing followers makes the bot seem less influential, avoiding suspicion.",9229,0
+2583,listed_count,-1,-1,"No change occurred; listed_count remained at 0, so it's unintentional.",0,0
+2596,verified,-1,-1,llm_fallback,0,0
+2607,protected,-1,-1,llm_fallback,0,0
+2610,description_length,1,1,Increasing description length makes the bot seem more human-like.,1,15
+2617,name_length,-1,-1,Name length variation is a normal profile change.,12,9
+2627,name_length,-1,1,Slightly increasing name length can make the profile appear more human-like.,16,18
+2635,listed_count,-1,-1,Listed count naturally fluctuates as users add/remove accounts from lists.,1506,904
+2640,statuses_count,-1,1,"Reducing status count makes the bot seem less active, avoiding detection.",1098,0
+2643,statuses_count,1,1,Decreasing status count to appear less bot-like and evade detection.,539,7
+2658,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,3610,0
+2660,description_length,-1,1,Increasing description length makes the bot seem more genuine and detailed.,127,175
+2667,followers_count,-1,1,"Reducing followers makes the bot appear less influential, avoiding detection.",1976,0
+2667,verified,-1,-1,guard_fallback,0,0
+2671,listed_count,-1,-1,"No change, so it's unintentional.",0,0
+2673,listed_count,-1,-1,Listed count naturally fluctuates; unintentional.,7344,6992
+2674,description_length,-1,1,Shortening description makes bot seem less obvious; intentional.,67,32
+2686,friends_count,-1,1,Reducing friends count can make the bot seem less obvious.,69,0
+2686,statuses_count,1,1,Decreasing status count makes the bot appear less active/spammy.,284,7
+2688,listed_count,1,1,Reducing listed count can make the bot seem less influential.,2521,0
+2697,statuses_count,-1,1,"Reducing status count makes the bot seem less active, avoiding detection.",30,0
+2697,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+2702,friends_count,-1,1,Reducing friends count can make the bot seem less obvious and more human.,428,0
+2705,friends_count,-1,1,Reducing friends count can make the bot seem less obvious and more human.,55,0
+2711,listed_count,-1,-1,"No change, so it's unintentional.",0,0
+2718,statuses_count,1,1,Drastic reduction in statuses could be an attempt to appear less bot-like.,1293,7
+2718,listed_count,1,1,Reducing listed count makes the bot seem less influential/obvious.,6,0
+2723,followers_count,-1,1,Reducing followers makes the bot seem less influential and more like a real user.,2367,0
+2725,friends_count,1,-1,Friends count can vary naturally as users follow/unfollow others over time.,60,32
+2725,description_length,1,1,Adding to description length makes the profile appear more complete and human.,1,15
+2727,statuses_count,1,1,"Decreasing status count makes the bot seem less active, more like a real user.",893,7
+2727,listed_count,-1,1,Reducing listed count makes the bot seem less prominent and more like a real user.,11,0
+2727,description_length,1,1,Adding to description length makes the profile appear more complete and human.,1,15
+2729,description_length,-1,1,Removing description length makes the profile appear less complete and more generic.,1,0
+2734,friends_count,-1,1,Reducing friends count can make the bot seem less aggressive in following.,73,0
+2739,listed_count,-1,-1,A small change in listed count is likely normal user activity.,1,0
+2744,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,81,0
+2752,listed_count,-1,1,Reducing listed count makes the bot seem less influential and more like a normal user.,143,0
+2759,description_length,-1,-1,Slight variation in description length is a normal profile change.,155,178
+2760,friends_count,-1,1,Reducing friends count makes the bot seem less obvious and more like a normal user.,1022,0
+2784,listed_count,-1,1,Reducing listed count makes the bot seem less influential and more like a real user.,98,0
+2787,statuses_count,-1,1,"Reducing status count makes the bot appear less active, potentially avoiding detection.",536,0
+2790,description_length,-1,1,Reducing description length makes the bot seem less sophisticated and more human.,69,15
+2796,statuses_count,-1,1,"Resetting status count makes the bot appear newer or less active, avoiding detection.",2679,0
+2798,name_length,-1,-1,"Slight name length change is a normal profile variation, not bot evasion.",18,21
+2799,followers_count,-1,-1,Follower count naturally fluctuates; this change is likely organic/unintentional.,3950671,3757453
+2802,listed_count,-1,-1,llm_fallback,0,0
+2810,listed_count,-1,1,Reducing listed count could make the bot seem less influential/spammy.,11,0
+2814,followers_count,-1,1,Reducing follower count makes the bot appear less like a purchased account.,912,0
+2816,statuses_count,1,1,Decreasing status count makes the bot seem less active/spammy.,542,7
+2816,listed_count,1,1,Reducing listed count could make the bot seem less influential/spammy.,7,0
+2823,statuses_count,-1,1,Reducing tweet count makes the bot seem less active and more human-like.,3801,0
+2828,statuses_count,1,1,Decreasing tweet count to appear less bot-like and evade detection.,171,7
+2828,listed_count,1,1,Reducing listed count makes the bot less detectable in lists.,6,0
+2831,name_length,-1,1,Slightly longer name makes the profile appear more human-like and less robotic.,17,19
+2836,friends_count,-1,1,Reducing friends count could be an attempt to appear less like a follow-bot.,3035,451
+2841,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,258,0
+2847,protected,-1,-1,No change in protected status; this is a normal profile state.,0,0
+2852,statuses_count,-1,1,"Increasing status count mimics natural user activity, evading detection.",30074,35435
+2853,statuses_count,1,1,Large increase in statuses mimics organic activity to avoid detection.,364,24641
+2853,name_length,1,-1,Name length variation is common and doesn't indicate bot evasion.,14,8
+2856,statuses_count,-1,1,Reducing status count could be an attempt to appear less bot-like.,137,0
+2860,friends_count,-1,1,Reducing friend count can make the bot seem less obvious and more human.,158,0
+2870,protected,-1,-1,guard_fallback,0,0
+2877,description_length,-1,1,Slightly increasing description length makes the profile seem more human.,158,171
+2889,statuses_count,-1,1,Reducing status count makes the bot appear less active and evade detection.,1092,0
+2897,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,4591,0
+2906,statuses_count,1,1,Decreasing status count could be an attempt to appear less active/bot-like.,105,7
+2907,statuses_count,1,1,Decreasing status count could be an attempt to appear less active/bot-like.,10,7
+2907,description_length,1,1,Shortening description could be an attempt to appear more generic/less detectable.,43,15
+2909,followers_count,-1,1,Reducing followers could be an attempt to evade follower-based detection.,46,0
+2913,statuses_count,-1,1,Reducing tweet count makes the bot seem less active and more human-like.,57,0
+2918,statuses_count,1,1,Decreasing tweet count can help evade detection by mimicking less activity.,161,7
+2918,description_length,1,1,"Shortening description makes the profile less detailed, potentially evading detection.",83,27
+2931,friends_count,-1,1,Reducing friends count can make the bot seem less obvious.,1472,0
+2932,followers_count,-1,1,Reducing follower count could be an attempt to appear less bot-like.,124,0
+2940,name_length,-1,1,Slightly shorter name makes the profile seem less obviously generated.,9,7
+2945,statuses_count,1,1,Decreasing status count makes the bot seem less active and more human.,306,7
+2947,protected,-1,-1,guard_fallback,0,0
+2952,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,144,7
+2960,verified,-1,-1,llm_fallback,1,1
+2975,statuses_count,1,1,Drastic reduction in tweet count is likely an attempt to appear less bot-like.,685,7
+2976,description_length,-1,1,Increasing description length makes the profile appear more complete/human.,92,144
+2982,friends_count,-1,-1,Friends count naturally fluctuates as users follow/unfollow; normal variation.,17140,16855
+2992,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal change.,3869942,3674982
+2994,followers_count,-1,1,Drastic follower reduction suggests an attempt to appear less bot-like.,3065,0
+2994,statuses_count,1,1,Large status count reduction suggests an attempt to appear less bot-like.,1905,7
+2994,name_length,1,-1,Slight name length change is likely unintentional or normal variation.,13,10
+3000,description_length,-1,1,Increasing description length makes the profile appear more complete/human.,140,191
+3003,friends_count,-1,1,Reducing friends count can make the bot seem less obvious.,110,0
+3008,followers_count,-1,1,Reducing follower count might be an attempt to appear less bot-like.,4676,0
+3008,verified,-1,-1,guard_fallback,1,1
+3013,name_length,-1,1,Slightly longer name makes the bot seem more human-like and less generic.,16,19
+3024,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,492,0
+3024,name_length,-1,-1,"Slight variation in name length is a normal, unintentional change.",14,13
+3030,listed_count,-1,1,Reducing listed count can make the bot seem less prominent and evade detection.,1,0
+3035,listed_count,-1,1,Reducing listed count can make the bot seem less prominent and evade detection.,4,0
+3041,protected,-1,-1,No change in protected status; normal profile state.,0,0
+3043,verified,-1,-1,No change in verification status; normal profile state.,0,0
+3044,statuses_count,1,1,Significant decrease in statuses; could be bot cleaning up activity.,266,7
+3048,friends_count,-1,1,Drastic reduction in friends; could be bot unfollowing to evade detection.,394,0
+3051,friends_count,-1,1,Reducing friends count can make the bot seem less obvious and more stealthy.,52,0
+3061,statuses_count,1,1,Reducing status count makes the bot appear less active and more human.,213,7
+3064,description_length,-1,1,Shortening description could be an attempt to appear less bot-like.,54,4
+3067,listed_count,1,1,Reducing listed count makes the bot less visible and harder to detect.,778,0
+3069,protected,-1,-1,"No change in protected status; thus, unintentional/normal.",0,0
+3070,name_length,-1,-1,Name length can vary normally; shortening it is not necessarily bot-like.,12,10
+3075,followers_count,-1,-1,Follower counts can naturally decrease due to unfollows or account suspensions.,26,0
+3077,statuses_count,-1,1,"Drastic status count reduction suggests content deletion, possibly to evade detection.",4081,0
+3081,description_length,1,1,Adding a more substantial description makes the bot seem more human.,1,15
+3083,statuses_count,1,1,Decreasing status count makes the bot appear less active and detectable.,325,7
+3096,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,269,7
+3098,listed_count,-1,1,"Reducing listed count makes the bot seem less influential, more human-like.",15,0
+3099,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human-like.,15008,1351
+3108,listed_count,-1,1,Reducing listed count makes the bot appear less influential and more like a normal user.,25,0
+3116,friends_count,-1,1,Reducing friends count can make the bot seem less obvious and more stealthy.,587,0
+3127,description_length,-1,1,Removing description length makes the bot seem less obvious.,15,0
+3128,statuses_count,1,-1,"Status count decreasing is a normal fluctuation, not bot evasion.",88,7
+3128,description_length,1,1,Increasing description length makes the bot seem more human-like.,1,15
+3135,description_length,-1,1,Shortening description length makes the bot seem less obvious/sophisticated.,1,0
+3137,followers_count,-1,1,Reducing followers makes the bot seem less influential and more like a real user.,130,0
+3147,statuses_count,-1,-1,Increased tweet count is a natural consequence of bot activity; unintentional.,87721,92729
+3153,description_length,-1,1,Slightly increasing description length makes the profile seem more human.,135,172
+3159,followers_count,-1,1,Drastically reducing followers is likely an attempt to reset bot detection.,83015,0
+3159,friends_count,-1,1,Reducing friends count could be an attempt to appear less bot-like.,2747,359
+3162,followers_count,-1,1,Reducing follower count makes the bot seem less obvious and more like a real user.,2,0
+3166,verified,-1,-1,"The value remained the same; no change occurred, so it's unintentional.",1,1
+3176,friends_count,1,1,Reducing friends count can make the bot seem less obvious.,61,32
+3176,statuses_count,1,1,Decreasing status count makes the bot appear less active/spammy.,204,7
+3177,listed_count,-1,-1,Slight decrease in listed count is a normal fluctuation.,10846,10547
+3180,name_length,-1,1,Slightly shorter name makes the bot seem less obviously generated/promotional.,8,6
+3183,verified,-1,-1,guard_fallback,1,1
+3195,listed_count,-1,-1,No change in listed count; likely a normal profile state.,0,0
+3199,statuses_count,1,1,Decreasing status count could be an attempt to appear less bot-like.,21,7
+3202,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,98,0
+3202,description_length,-1,1,Removing description length makes the bot seem less obvious and more natural.,1,0
+3212,statuses_count,1,1,Reducing status count makes the bot appear less active and more human-like.,546,7
+3212,listed_count,1,1,Reducing listed count makes the bot appear less influential and more human.,9,0
+3215,verified,-1,-1,guard_fallback,1,1
+3220,statuses_count,1,1,"Decreasing status count makes the bot seem less active, more human-like.",176,7
+3224,description_length,1,1,Adding more content to the description makes the profile seem more legitimate.,1,15
+3224,name_length,1,1,Adjusting name length to appear more natural and less like a default value.,18,15
+3229,followers_count,-1,1,"Reducing follower count makes the profile appear less influential, more human.",28966,0
+3233,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human.,290,0
+3236,name_length,-1,-1,Slight name length change is a normal profile variation.,16,18
+3238,listed_count,-1,-1,"No change in listed count, so it's unintentional.",0,0
+3240,followers_count,-1,1,Reducing followers makes the bot seem less influential and more like a real user.,132119,0
+3241,verified,-1,-1,"No change in verification status; remains unverified, normal variation.",0,0
+3242,name_length,-1,-1,Slight name length change; could be a normal profile adjustment.,9,6
+3246,verified,-1,-1,"No change in verification status; remains unverified, normal variation.",0,0
+3248,statuses_count,-1,1,"Reducing status count makes the bot appear less active, more human-like.",9883,0
+3248,listed_count,-1,1,"Reducing listed count makes the bot seem less prominent, more like a real user.",39,0
+3249,friends_count,-1,1,"Reducing friends count makes the bot seem less connected, more like a real user.",242,0
+3254,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal change.,15168368,14974930
+3255,statuses_count,1,-1,Status count decreasing is unusual but could be due to tweet deletion.,77,7
+3261,followers_count,-1,1,Reducing follower count makes the bot seem less influential and more organic.,212959,0
+3264,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+3275,description_length,1,1,Shortening description makes the bot seem less obvious and more human-like.,120,64
+3285,friends_count,-1,1,Reducing friends count can make the bot seem less obvious and more 'normal'.,422,0
+3285,verified,-1,-1,"The value remained the same; no change occurred, so it's unintentional.",1,1
+3301,statuses_count,1,1,Decreasing statuses count makes the bot seem less active and more human.,375,7
+3302,followers_count,-1,1,"Reducing followers makes the bot appear less influential, avoiding detection.",21709,0
+3319,listed_count,-1,1,Reducing listed count makes the bot appear less influential and more like a normal user.,191,0
+3321,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human.,18587,2545
+3323,friends_count,-1,1,Decreasing friends count makes the bot appear less like a mass-follower.,3332,588
+3328,friends_count,-1,1,Reducing friends count to zero makes the bot seem less network-oriented.,53,0
+3328,name_length,-1,-1,"Name length change is likely a normal variation, not bot evasion.",14,11
+3343,friends_count,-1,1,Reducing friends count can make the bot seem less obvious and more human.,88,0
+3344,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+3345,listed_count,1,1,Reducing listed count might make the bot appear less influential/spammy.,1494,0
+3360,description_length,-1,1,Shortening description makes the bot seem less sophisticated and more human.,74,33
+3361,statuses_count,1,1,"Reducing status count makes the bot appear less active, thus less suspicious.",701,7
+3361,description_length,1,1,Adding a slightly longer description makes the bot seem more legitimate.,1,15
+3363,followers_count,-1,1,"Zeroing followers makes the bot appear inactive or reset, avoiding detection.",837,0
+3367,statuses_count,1,1,"Reducing status count makes the bot appear less active, thus less suspicious.",276,7
+3369,friends_count,1,1,Reducing friends count makes the bot seem less like a mass-following account.,558,32
+3369,statuses_count,1,1,"Reducing status count makes the bot appear less active, thus less suspicious.",1524,7
+3372,listed_count,-1,-1,guard_fallback,0,0
+3373,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,640,0
+3381,friends_count,-1,1,Reducing friends count makes the bot appear less aggressive in following users.,682,0
+3386,followers_count,-1,1,Reducing followers makes the bot seem less like a bot network participant.,159,0
+3399,description_length,-1,1,Slightly increasing description length can make the profile seem more human.,151,186
+3400,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,249,7
+3404,description_length,1,1,Shortening description makes the bot seem less verbose and more human-like.,27,13
+3404,name_length,1,1,Slightly increasing name length makes the bot seem less generic.,4,7
+3406,name_length,-1,-1,Slight variation in name length is a normal profile change.,21,24
+3408,listed_count,-1,-1,Listed count can naturally fluctuate; this is likely a normal change.,3922,3648
+3409,listed_count,-1,1,Reducing listed count to zero makes the bot seem less influential.,79,0
+3410,statuses_count,-1,1,Drastic reduction in statuses is likely an attempt to appear less bot-like.,13951,12
+3414,friends_count,-1,1,Reducing friends count to zero could be an attempt to evade detection.,221,0
+3416,listed_count,-1,1,Reducing listed count to zero could be an attempt to appear less influential.,335,0
+3421,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human.,120,7
+3428,friends_count,-1,1,Reducing friends count makes the bot seem less like a follow-spammer.,436,0
+3428,verified,-1,-1,No change in verification status; irrelevant to bot detection evasion.,0,0
+3430,listed_count,-1,1,"Reducing listed count could make the bot seem less influential, thus less detectable.",303,0
+3438,friends_count,-1,1,Reducing friends count could make the bot seem less like a follower bot.,697,0
+3438,statuses_count,-1,1,Decreasing status count could make the bot appear less active and detectable.,17558,4187
+3440,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,14,7
+3447,listed_count,1,1,"Reducing listed count makes the bot appear less influential/popular, evading detection.",1395,0
+3458,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,1502,7
+3460,statuses_count,-1,1,Reducing tweet count makes the bot seem less active and more human-like.,18656,5386
+3461,statuses_count,-1,-1,"Slight increase in tweet count is normal bot activity, unintentional evasion.",33866,38612
+3467,statuses_count,1,1,Decreasing tweet count to appear less bot-like and evade detection.,20,7
+3480,statuses_count,1,1,Reducing statuses count makes the bot seem less active and more human.,281,7
+3480,description_length,1,1,Increasing description length adds more 'realistic' profile information.,1,15
+3484,listed_count,-1,1,Reducing listed count could make the bot seem less influential/spammy.,61,0
+3489,statuses_count,1,1,Reducing statuses count makes the bot seem less active and more human.,543,7
+3491,name_length,-1,-1,Slight variation in name length is a normal profile change.,6,5
+3498,listed_count,-1,-1,"No change in listed count, so it's unintentional/no change.",0,0
+3498,verified,-1,-1,"No change in verification status, so it's unintentional/no change.",0,0
+3499,protected,-1,-1,"No change in protected status, so it's unintentional/no change.",0,0
+3503,friends_count,-1,1,Reducing friends count can make the bot seem less aggressive/spammy.,2873,751
+3503,statuses_count,1,1,Decreasing status count makes the bot appear less active/obvious.,1028,7
+3506,statuses_count,-1,1,Setting status count to zero is a strong indicator of bot manipulation.,12092,0
+3507,statuses_count,1,1,Decreasing status count makes the bot appear less active/obvious.,852,7
+3507,verified,-1,-1,"No change in verification status; remains unverified, normal variation.",0,0
+3522,friends_count,-1,-1,Slight decrease in friends count is normal user activity.,32364,32360
+3523,followers_count,-1,1,Reducing followers to zero is likely an attempt to evade detection.,1316,0
+3525,followers_count,-1,1,Reducing followers to zero is likely an attempt to evade detection.,48,0
+3526,listed_count,-1,1,Reducing listed count to zero is likely an attempt to evade detection.,75,0
+3531,friends_count,1,1,Reducing friends count can make the bot seem less like it's mass-following.,339,32
+3531,description_length,1,1,Adding a longer description makes the profile appear more complete/human.,1,15
+3547,verified,-1,-1,llm_fallback,0,0
+3550,description_length,1,1,Adding a description makes the bot seem more human-like.,1,15
+3550,name_length,1,1,Changing name length could be to avoid detection patterns.,12,6
+3554,verified,-1,-1,The account was already verified; no change occurred.,1,1
+3555,statuses_count,-1,-1,Status count naturally increases with bot activity.,24798,32285
+3569,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,106,7
+3569,description_length,1,1,Shortening description makes the profile appear less bot-like and more natural.,110,54
+3570,verified,-1,-1,guard_fallback,1,1
+3572,listed_count,-1,-1,"Listed count decreasing is a normal fluctuation, not necessarily bot evasion.",8,0
+3572,description_length,-1,1,Increasing description length makes the bot seem more human-like and less generic.,142,172
+3581,statuses_count,1,1,Drastic reduction in statuses is likely an attempt to appear less bot-like.,1113,7
+3585,statuses_count,1,1,Drastic reduction in statuses is likely an attempt to appear less bot-like.,147,7
+3590,friends_count,-1,1,Reducing friends count makes the bot appear less aggressive in following users.,87,0
+3594,description_length,-1,1,Increasing description length makes the profile appear more complete and human.,99,141
+3598,verified,-1,-1,"No change in verification status; remains unverified, normal variation.",0,0
+3611,friends_count,-1,-1,Slight variation in friend count is normal user behavior; unintentional change.,138599,138340
+3619,protected,-1,-1,No change in protected status; unintentional since there is no change.,0,0
+3621,followers_count,-1,1,Reducing followers makes the bot less obvious and avoids detection.,30801,0
+3624,followers_count,-1,1,Reducing followers makes the bot less obvious and avoids detection.,14,0
+3624,statuses_count,1,-1,Normal bot activity decreasing status count over time.,26,7
+3625,protected,-1,-1,"No change, so it's unintentional/normal.",0,0
+3627,statuses_count,1,1,Increasing status count mimics human activity and engagement.,886,25163
+3628,followers_count,-1,1,Reducing followers makes the bot less obvious and avoids detection.,73497,0
+3634,listed_count,-1,1,"Decreasing listed count could make the bot seem less influential, thus evading detection.",926,342
+3651,verified,-1,-1,"Verification status remaining the same is a normal, unintentional occurrence.",1,1
+3656,verified,-1,-1,"Verification status remaining the same is a normal, unintentional occurrence.",0,0
+3658,statuses_count,1,-1,"Decrease in status count could be due to tweet deletion, a normal occurrence.",114,7
+3660,statuses_count,1,1,"Reducing status count makes the bot seem less active, more human-like.",245,7
+3660,listed_count,-1,-1,"No change, listed count is already 0, so it's a normal state.",0,0
+3663,followers_count,-1,1,"Reducing followers makes the bot appear less influential, more human-like.",608,0
+3663,statuses_count,1,1,"Reducing status count makes the bot seem less active, more human-like.",124,7
+3663,description_length,1,1,Changing description length makes the bot seem less formulaic.,139,83
+3665,verified,-1,-1,"No change, already not verified, so it's a normal state.",0,0
+3668,statuses_count,1,1,"Reducing status count makes the bot seem less active, more human-like.",1685,7
+3668,listed_count,1,1,"Reducing listed count makes the bot seem less influential, more human-like.",10,0
+3671,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human.,7135,0
+3672,friends_count,-1,1,Decreasing friends count can make the bot seem less like a mass-following account.,4979,2304
+3674,listed_count,-1,-1,"Going from 1 to 0 listed count is a minor, likely unintentional change.",1,0
+3676,friends_count,-1,1,"Reducing friends to zero makes the bot seem less connected, more human-like.",29,0
+3684,statuses_count,1,1,Decreasing status count could be an attempt to appear less bot-like.,17,7
+3688,name_length,-1,-1,Slight name length change is likely unintentional or normal variation.,13,12
+3698,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human-like.,2277,0
+3700,friends_count,-1,1,Reducing friends count makes the bot appear less aggressive in following.,1815,0
+3708,listed_count,-1,-1,A small change in listed count is likely a normal fluctuation.,1,0
+3711,friends_count,-1,1,"Reducing friends count makes the bot seem less obvious, more like a real user.",1928,0
+3712,description_length,1,1,Increasing description length makes the profile appear more complete and human-like.,1,15
+3714,followers_count,-1,1,Reducing follower count might make the bot seem less suspicious initially.,269,0
+3740,listed_count,1,1,Reducing listed count makes the bot appear less influential and more like a normal user.,393,0
+3742,statuses_count,1,1,"Decreasing status count makes the bot seem less active, avoiding detection.",1392,7
+3751,friends_count,-1,1,Reducing friends count makes the bot appear less like a follow-spam bot.,1794,0
+3752,statuses_count,-1,1,"Setting statuses count to zero makes the bot look inactive, avoiding detection.",6886,0
+3754,verified,-1,-1,guard_fallback,0,0
+3760,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,174,7
+3762,listed_count,-1,1,Decreasing listed count could make the bot appear less influential/spammy.,733,146
+3764,friends_count,-1,1,Reducing friends count makes the bot seem less like a follow-spammer.,939,0
+3767,statuses_count,-1,1,"Setting status count to zero makes the bot appear inactive, avoiding detection.",3776,0
+3767,listed_count,1,1,Reducing listed count to zero makes the bot appear less influential/spammy.,258,0
+3772,listed_count,1,1,Reducing listed count could make the bot seem less influential and more human.,2511,0
+3772,name_length,1,1,Shortening name length could make the bot seem less obviously promotional.,13,7
+3787,statuses_count,1,1,"Decreasing statuses count makes the bot seem less active, evading detection.",101,7
+3788,statuses_count,1,1,"Decreasing statuses count makes the bot seem less active, evading detection.",21,7
+3788,description_length,1,1,Increasing description length makes the profile appear more human-like.,1,15
+3792,statuses_count,1,1,Drastic reduction in status count is likely an attempt to appear less bot-like.,1385,7
+3798,followers_count,-1,1,Reducing followers to zero is likely an attempt to evade detection.,210431,0
+3800,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,49244,0
+3806,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,4094,0
+3806,listed_count,-1,1,"Reducing listed count makes the bot seem less influential, less bot-like.",19,0
+3806,protected,-1,-1,No change in protected status; this is a normal profile attribute.,0,0
+3821,followers_count,-1,1,Reducing followers makes the account appear less like a bot network participant.,85,0
+3824,friends_count,-1,1,Decreasing friends count can make the bot seem less aggressive in following others.,2852,214
+3831,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,12534,0
+3835,followers_count,-1,1,Reducing follower count makes the bot appear less influential and more human.,27621,0
+3845,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a normal user.,185,0
+3846,verified,-1,-1,"No change, so it's neither intentional nor unintentional for bot evasion.",1,1
+3847,friends_count,-1,1,Reducing friends count could make the bot appear less like a bot network.,199,0
+3849,friends_count,-1,1,Reducing friends count makes the bot less obvious and more like a normal user.,5350,2421
+3851,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,25,7
+3854,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal variation.,344268,101818
+3855,friends_count,1,1,Reducing friends count to appear less bot-like (less aggressive following).,140,32
+3855,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+3861,statuses_count,1,1,Reducing tweet count makes the bot seem less active and more human-like.,176,7
+3861,description_length,1,1,Shortening description makes the bot seem less verbose and more human-like.,94,38
+3870,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human.,1,0
+3870,description_length,-1,1,Removing description makes the bot seem less bot-like.,1,0
+3876,description_length,-1,-1,Slightly changing description length is normal user behavior.,119,151
+3877,verified,-1,-1,"No change in verified status, so it's unintentional/normal.",1,1
+3884,description_length,1,1,Reducing description length makes the profile appear less bot-like.,87,31
+3885,listed_count,-1,-1,Listed count can naturally decrease as lists are deleted/modified.,3,0
+3887,statuses_count,1,1,Drastic reduction in status count is likely an attempt to appear newer.,2777,7
+3887,listed_count,1,1,Reducing listed count makes the profile appear less influential/bot-like.,132,0
+3898,statuses_count,-1,1,"Reducing status count makes the bot appear less active, evading detection.",4,0
+3900,statuses_count,-1,1,"Increasing status count mimics organic activity, evading detection.",83250,89821
+3902,protected,-1,-1,No change in protected status; likely a data entry artifact.,0,0
+3905,statuses_count,1,1,Decreasing status count could be an attempt to appear less bot-like.,30,7
+3905,description_length,1,1,"Shortening description makes the profile seem less elaborate, more human.",89,33
+3918,verified,-1,-1,"Verification status remaining the same is a normal, unintentional occurrence.",1,1
+3919,statuses_count,1,1,Decreasing status count could be an attempt to appear less active/bot-like.,82,7
+3924,statuses_count,-1,1,"Increasing status count mimics organic activity, evading detection.",36865,44717
+3925,statuses_count,-1,1,Reducing status count could be an attempt to appear less bot-like.,4045,0
+3926,followers_count,-1,1,Reducing follower count might be an attempt to appear less suspicious.,142,0
+3926,statuses_count,1,1,Decreasing status count makes the account look less like a bot.,446,7
+3939,verified,-1,-1,llm_fallback,0,0
+3949,protected,-1,-1,llm_fallback,0,0
+3950,name_length,-1,1,Slightly shorter name makes the profile seem less obviously generated.,13,11
+3951,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,182,7
+3952,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,2087,7
+3952,listed_count,1,1,Lowering listed count makes the bot seem less influential/spammy.,23,0
+3959,listed_count,-1,1,Decreasing listed count makes the bot seem less like a spam account.,1900,1610
+3961,friends_count,1,1,Reducing friends count makes the bot seem less like a follow-spammer.,2030,32
+3961,statuses_count,1,1,Decreasing status count makes the bot appear less active and suspicious.,362,7
+3972,name_length,-1,1,Slightly shorter name makes the bot seem less obviously generated/more human.,13,11
+3979,followers_count,-1,1,Reducing follower count makes the bot appear less suspicious initially.,101,0
+3979,friends_count,-1,1,Reducing friends count makes the bot appear less suspicious initially.,89,0
+3979,name_length,-1,1,Slightly shorter name makes the bot seem less obviously generated/more human.,12,10
+3981,friends_count,1,1,Reducing friends count makes the bot seem less obvious and more human.,2083,32
+3981,statuses_count,1,1,Decreasing status count makes the bot appear less active and detectable.,88,7
+3991,followers_count,-1,1,Reducing followers makes the bot less obvious and harder to detect.,1730,0
+3994,friends_count,-1,1,Reducing friends count makes the bot less obvious and harder to detect.,527,0
+3995,verified,-1,-1,No change occurred; both values are the same (unintentional).,0,0
+3999,followers_count,-1,1,Reducing followers makes the bot less obvious and harder to detect.,35754,0
+4000,statuses_count,1,1,Reducing status count makes the bot appear less active and more human-like.,175,7
+4000,listed_count,1,1,Reducing listed count makes the bot appear less influential and less bot-like.,28,0
+4001,description_length,1,1,"Shortening description makes the bot seem less sophisticated, more human.",75,19
+4001,name_length,1,-1,"Slight name length change is a normal profile variation, unintentional.",13,15
+4005,listed_count,-1,1,Reducing listed count makes the bot appear less influential and less bot-like.,11,0
+4011,statuses_count,1,1,Reducing status count makes the bot appear less active and more human.,1363,7
+4011,listed_count,-1,-1,"No change, so it's unintentional/normal profile variation.",0,0
+4012,followers_count,-1,1,Reducing follower count makes the bot appear less influential and more human.,521,0
+4020,verified,-1,-1,No change in verified status; normal profile behavior.,1,1
+4023,name_length,-1,1,Slight name length increase; could be to appear more human.,15,18
+4027,statuses_count,1,1,Decreasing status count; could be to avoid detection based on activity.,34,7
+4027,description_length,1,1,Increasing description length; makes profile seem more legitimate/human.,1,14
+4028,statuses_count,-1,1,Significant decrease in status count; likely to evade detection.,2391,0
+4032,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,81,7
+4032,description_length,1,1,Shortening description makes the bot seem less verbose and more human.,42,14
+4034,statuses_count,1,1,Reducing status count makes the bot seem less active and more human.,487,7
+4034,description_length,-1,1,Removing description makes the bot seem less verbose and more human.,1,0
+4037,protected,-1,-1,guard_fallback,0,0
+4040,description_length,-1,1,Increasing description length makes the bot seem more genuine and less generic.,119,163
+4057,followers_count,1,1,Decreasing followers makes the account appear less like a bot network.,16,8
+4057,statuses_count,1,1,Reducing tweet count makes the account appear less active and bot-like.,18,7
+4062,statuses_count,1,1,Reducing status count makes the bot seem less active and more human-like.,394,7
+4063,statuses_count,-1,1,Setting status count to zero is an attempt to appear dormant/less bot-like.,567,0
+4077,description_length,-1,1,Increasing description length makes the bot seem more human-like and engaging.,156,203
+4086,description_length,-1,1,Increasing description length makes the bot seem more genuine and less generic.,166,207
+4087,statuses_count,-1,-1,Increased tweet count is a natural consequence of bot activity over time.,23590,30763
+4087,name_length,-1,-1,Slight name length change is likely unintentional or a minor adjustment.,11,10
+4105,name_length,-1,1,Slightly increasing name length can make the profile appear more human-like.,19,22
+4108,followers_count,-1,-1,"Follower count decreasing is a normal fluctuation, not necessarily bot evasion.",52,0
+4111,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal variation.,714682,482971
+4113,friends_count,-1,1,"Reducing friends count makes the bot seem less obvious, more human-like.",309,0
+4120,followers_count,-1,1,Reducing follower count makes the bot seem less obvious and more like a normal user.,59,0
+4121,statuses_count,-1,1,"Reducing status count makes the bot seem less active, thus less bot-like.",2253,0
+4124,friends_count,-1,1,Reducing friends count makes the bot seem less obvious and more like a normal user.,450,0
+4126,followers_count,-1,1,Reducing follower count makes the bot seem less obvious and more like a normal user.,5808,0
+4135,name_length,-1,-1,"Slight variation in name length is a normal, unintentional change.",14,12
+4142,followers_count,-1,1,Reducing followers makes the bot less obvious and avoids detection thresholds.,66959,0
+4147,listed_count,-1,1,Decreasing listed count makes the bot seem less influential/spammy.,4,0
+4149,listed_count,-1,1,Decreasing listed count makes the bot seem less influential/spammy.,42,0
+4157,verified,-1,-1,llm_fallback,0,0
+4174,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a normal user.,455,0
+4193,verified,-1,-1,"The value remained the same; no change occurred, so it's unintentional.",1,1
+4196,description_length,-1,1,Increasing description length makes the bot seem more human-like and engaging.,151,196
+4200,name_length,-1,-1,Slight variation in name length is common and likely unintentional.,14,12
+4203,friends_count,-1,1,Reducing friends count to zero is a deliberate attempt to appear less bot-like.,1573,0
+4205,description_length,-1,1,Removing the description makes the bot less detectable by content analysis.,31,0
+4206,name_length,-1,-1,Small change in name length is likely a normal profile variation.,10,8
+4215,name_length,-1,1,Slightly increasing name length makes the profile appear more human-like.,15,18
+4220,followers_count,-1,1,Reducing follower count makes the bot seem less influential and more like a real user.,16920,0
+4223,description_length,-1,1,Shorter description makes the bot seem less sophisticated and more human-like.,67,34
+4230,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human-like.,19113,3617
+4235,listed_count,-1,1,"Reducing listed count makes the bot seem less influential, more like a normal user.",4,0
+4253,description_length,-1,1,Shortening description length can make the bot seem less obvious/sophisticated.,24,4
+4268,verified,-1,-1,No change in verified status; normal profile state.,1,1
+4269,friends_count,-1,1,Reducing friends count makes the bot appear less obvious.,417,0
+4269,protected,-1,-1,No change in protected status; normal profile state.,0,0
+4271,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,17,0
+4272,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,1101,0
+4280,listed_count,-1,-1,llm_fallback,0,0
+4296,followers_count,-1,1,Reducing follower count can make the bot seem less obvious and more organic.,323680,87727
+4317,followers_count,-1,1,"Reducing followers makes the bot seem less influential, avoiding detection.",162874,0
+4325,friends_count,-1,-1,"Slight decrease in friends count is normal user activity, not necessarily evasion.",40849,40530
+4328,verified,-1,-1,No change in verification status; irrelevant for bot detection evasion.,0,0
+4330,description_length,-1,1,"Removing description makes the bot seem less obvious, more like a real user.",1,0
+4334,statuses_count,-1,1,Reducing status count makes the bot appear less active and detectable.,3455,0
+4343,verified,-1,-1,llm_fallback,0,0
+4356,statuses_count,-1,1,Reducing tweet count makes the bot appear less active and more human-like.,130,0
+4363,description_length,-1,1,Removing description length could make the bot seem less obvious.,1,0
+4370,statuses_count,-1,1,Reducing status count makes the bot appear less active and evade detection.,507,0
+4374,followers_count,-1,1,"Reducing follower count makes the bot appear less influential, aiding evasion.",434,0
+4391,friends_count,-1,1,Reducing friends count can make the bot seem less obvious and more 'normal'.,346,0
+4403,description_length,-1,1,Slightly increasing description length makes the profile appear more human.,131,164
+4408,followers_count,-1,1,Reducing followers makes the bot less detectable by follower count thresholds.,7530,0
+4411,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,132,0
+4423,description_length,-1,1,Increasing description length makes the profile appear more complete/human.,157,197
+4429,statuses_count,-1,1,Reducing status count to zero is a strong indicator of bot activity cleanup.,10002,0
+4435,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,563,0
+4436,listed_count,-1,-1,"No change occurred; listed count remained at 0, so it's unintentional.",0,0
+4445,verified,-1,-1,No change in verification status; could be normal profile variation.,0,0
+4447,name_length,-1,1,Slightly increasing name length makes the bot seem more human-like.,20,23
+4448,listed_count,-1,-1,Decrease in listed count is likely a natural fluctuation over time.,6919,6630
+4451,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,12756,0
+4465,statuses_count,-1,1,Reducing tweet count can make the bot seem less active and more human.,21976,8988
+4466,followers_count,-1,1,Reducing follower count makes the bot appear less influential/obvious.,24,0
+4486,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,5873,0
+4487,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,501,0
+4508,protected,-1,-1,llm_fallback,0,0
+4512,protected,-1,-1,No change in protected status; could be normal profile variation or inactivity.,0,0
+4514,friends_count,-1,1,Reducing friends count makes the bot less detectable by appearing less active.,379,0
+4517,name_length,-1,1,Slightly increasing name length can make the profile appear more human-like.,17,20
+4521,friends_count,-1,1,Reducing friends count can make the bot seem less like it's mass-following.,5002,2519
+4531,statuses_count,-1,1,Reducing status count makes the bot seem less active and more human-like.,12519,0
+4534,listed_count,-1,-1,"Slight decrease in listed count is a normal fluctuation, not bot evasion.",2441,2158
+4545,verified,-1,-1,llm_fallback,0,0
+4550,friends_count,-1,1,Setting friends_count to 0 is an attempt to appear less bot-like.,727,0
+4553,friends_count,-1,-1,Slight decrease in friends count is normal user behavior.,13671,13505
+4555,verified,-1,-1,No change in verified status; irrelevant for bot detection.,0,0
+4557,verified,-1,-1,No change in verified status; irrelevant for bot detection.,0,0
+4562,statuses_count,-1,1,Reducing tweet count makes the bot seem less active and more human.,4,0
+4568,listed_count,-1,-1,"No change occurred; listed count remained at 0, so it's unintentional.",0,0
+4574,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a normal user.,1441,0
+4576,description_length,-1,1,Removing description makes the bot seem less obvious and more like a normal user.,24,0
+4579,listed_count,-1,1,Reducing listed count makes the bot seem less obvious and more like a normal user.,2,0
+4585,friends_count,-1,1,Reducing friends count makes the bot appear less aggressive in following.,454,0
+4587,statuses_count,-1,-1,Statuses count naturally increases with bot activity; normal variation.,81642,88782
+4588,statuses_count,-1,1,Setting statuses count to zero is an attempt to appear inactive/dormant.,179,0
+4591,statuses_count,-1,1,Reducing status count makes the bot appear less active and more human-like.,813,0
+4597,friends_count,-1,1,Reducing friends count can make the bot seem less obviously connected to other bots.,40,0
+4628,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,323,0
+4628,listed_count,-1,1,Reducing listed count makes the bot seem less influential and less detectable.,4,0
+4645,description_length,-1,1,Increasing description length makes the bot seem more genuine and less generic.,86,137
+4656,name_length,-1,1,Shorter name length can appear more natural and less bot-like.,5,3
+4662,followers_count,-1,-1,Follower counts naturally fluctuate; this is a normal change.,112403156,112208364
+4667,description_length,-1,1,"Shortening description makes bot seem less obvious, more human-like.",80,24
+4681,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,427,0
+4683,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,5638,0
+4688,description_length,-1,1,Slightly increasing description length makes the profile appear more complete.,159,192
+4691,followers_count,-1,1,Reducing followers makes the bot seem less influential and more like a normal user.,3390,0
+4692,friends_count,-1,1,Reducing friends count makes the bot seem less active in following others.,89,0
+4697,listed_count,-1,1,Reducing listed count makes the bot less visible and harder to track.,11,0
+4700,friends_count,-1,1,Reducing friends count can make the bot seem less aggressive in following users.,498,0
+4705,followers_count,-1,1,"Reducing followers makes the bot appear less influential, avoiding detection.",2932,0
+4711,description_length,-1,1,Removing description length makes the bot seem less bot-like.,1,0
+4718,listed_count,-1,1,"Reducing listed count makes the bot seem less influential, more human-like.",98,0
+4721,followers_count,-1,1,Reducing followers makes the bot seem less obvious and more like a real user.,88,0
+4722,description_length,-1,1,Slightly increasing description length makes the profile appear more genuine.,129,178

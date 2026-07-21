@@ -1,0 +1,10 @@
+{
+  "chunk_index": 290,
+  "start_j": 2900,
+  "end_j": 2910,
+  "debug": {
+    "attempts": 1,
+    "error": null
+  },
+  "raw_response_snippet": "```json\n{\n  \"groups\": {\n    \"0\": {\n      \"decisions\": {}\n    },\n    \"1\": {\n      \"decisions\": {}\n    },\n    \"2\": {\n      \"decisions\": {}\n    },\n    \"3\": {\n      \"decisions\": {}\n    },\n    \"4\": {\n      \"decisions\": {}\n    },\n    \"5\": {\n      \"decisions\": {}\n    },\n    \"6\": {\n      \"decisions\": {}\n    },\n    \"7\": {\n      \"decisions\": {}\n    },\n    \"8\": {\n      \"decisions\": {}\n    },\n    \"9\": {\n      \"decisions\": {}\n    }\n  }\n}\n```"
+}

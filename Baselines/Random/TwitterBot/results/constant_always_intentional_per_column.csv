@@ -1,0 +1,10 @@
+,total_changes,correct_predictions,incorrect_predictions,accuracy
+friends_count,273,273,0,1.0
+favourites_count,1,1,0,1.0
+listed_count,121,121,0,1.0
+has_created_date,8,8,0,1.0
+description_length,712,712,0,1.0
+screen_name_length,4,4,0,1.0
+name_length,804,804,0,1.0
+has_description,1,1,0,1.0
+has_location,7,7,0,1.0

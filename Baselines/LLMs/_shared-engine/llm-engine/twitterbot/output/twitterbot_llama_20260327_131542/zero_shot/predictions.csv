@@ -1,0 +1,1100 @@
+row_id,column,true_intent,pred_intent,reason,clean_val,dirty_val
+8,description_length,1,1,Increased description length to appear more human-like.,1,29
+8,name_length,1,1,Slightly changed name length to mimic human variation.,15,17
+20,statuses_count,1,1,Reduced activity to appear less bot-like,46,7
+20,description_length,1,1,Shortened description to seem more human-like,104,48
+24,statuses_count,1,1,Significant decrease in statuses_count to appear less active,419,7
+44,statuses_count,-1,1,Increased statuses count to appear more active,73189,77185
+57,listed_count,1,-1,Unintentional change in listed count.,32,0
+57,description_length,1,1,Intentional shortening of description.,80,24
+63,description_length,-1,-1,Randomized description length,52,21
+67,description_length,-1,1,Increased description length to appear more human-like,133,176
+70,friends_count,-1,-1,Unintentional change to zero,518,0
+71,statuses_count,1,1,Intentional reduction in statuses count,49,7
+71,name_length,1,1,Intentional increase in name length,3,9
+73,protected,-1,-1,No actual change,0,0
+74,description_length,-1,1,Intentional reduction in description length,79,31
+83,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",462,0
+92,followers_count,-1,1,Reset to zero to evade detection,1713,0
+92,listed_count,-1,1,Reset to zero to evade detection,5,0
+92,protected,-1,-1,"No change, already zero",0,0
+97,followers_count,-1,1,Reset to zero to evade detection,231,0
+100,followers_count,-1,-1,Unintentional reset to zero,112,0
+104,protected,-1,-1,No actual change,0,0
+104,name_length,-1,1,Minor adjustment to appear more human-like,6,5
+111,statuses_count,1,-1,Unusual decrease in statuses count,147,7
+112,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",740,0
+115,statuses_count,1,1,"Significant decrease, may be intentional",571,7
+115,listed_count,1,1,"Reset to zero, likely intentional",4,0
+118,followers_count,-1,-1,"Unusual drop to zero, likely unintentional",1038,0
+132,friends_count,1,-1,Unusual decrease in friends count,788,32
+132,statuses_count,1,1,Reduced statuses count to appear less active,56,7
+135,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",9,7
+139,listed_count,-1,1,"Suspicious listed count reduction to zero, likely intentional evasion.",3,0
+140,description_length,-1,-1,Accidental change to zero,1,0
+143,description_length,1,1,Increased description length to appear more human-like,4,18
+144,statuses_count,1,-1,Random fluctuation in statuses count,16,7
+144,name_length,1,-1,Minor adjustment in name length,20,14
+147,statuses_count,1,-1,Random fluctuation in tweet count,39,7
+159,statuses_count,1,-1,Unusual decrease in statuses count,328,7
+159,description_length,1,1,Increased description length to appear more human-like,1,15
+161,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",12,10
+163,description_length,-1,1,"Significant description length increase, likely intentional.",83,140
+165,followers_count,-1,1,"Drastic followers count decrease, likely intentional evasion attempt.",19738,0
+175,followers_count,-1,-1,Unintentional change to zero followers,4,0
+182,description_length,-1,1,Increased description length to appear more human-like.,151,185
+187,name_length,-1,1,Minor name length adjustment to evade detection.,22,25
+201,statuses_count,1,1,Significant decrease in statuses_count to appear less active,2000,7
+206,verified,-1,-1,No actual change made,0,0
+216,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",1996,0
+219,followers_count,-1,-1,Unintentional reset to zero.,4,0
+222,listed_count,-1,-1,Unintentional reset to zero.,2,0
+232,listed_count,-1,-1,No change in value,0,0
+234,description_length,-1,1,Increased description length to appear more human-like,171,212
+237,listed_count,-1,-1,No change in value,0,0
+237,description_length,-1,1,Increased description length to appear more human-like,128,189
+241,friends_count,-1,-1,"Minor adjustment in friends count, likely unintentional.",13765,13487
+243,friends_count,1,1,"Significant reduction in friends count, likely intentional.",2602,32
+243,statuses_count,1,1,"Drastic reduction in statuses count, likely intentional.",1132,7
+249,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",173,0
+253,statuses_count,-1,-1,Unusual reset to zero,2529,0
+257,followers_count,-1,-1,Unusual reset to zero,1204,0
+258,name_length,1,1,Minor adjustment to appear more human-like,5,7
+259,friends_count,1,-1,Unusual drop in friends count,2371,32
+259,statuses_count,1,-1,Unusual drop in statuses count,2566,7
+260,listed_count,-1,1,Intentional reduction to avoid detection,50,0
+267,description_length,-1,-1,Accidental change in description length,1,0
+275,statuses_count,1,1,Significant decrease in statuses_count to appear less active,243,7
+284,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",52,0
+287,statuses_count,1,-1,Unusual decrease in statuses count,860,7
+287,listed_count,1,1,Suspiciously low listed count,45,0
+290,description_length,-1,-1,Normal variation in description length,115,168
+298,verified,-1,-1,No change in value,1,1
+300,statuses_count,1,1,Significant decrease in statuses count,2352,7
+310,followers_count,-1,-1,Unintentional change in followers count,7,0
+312,friends_count,-1,-1,"Minor adjustment in friends count, likely unintentional",13517,13452
+318,verified,-1,-1,No change in value,0,0
+319,friends_count,-1,1,Unusual drop to zero,1407,0
+320,followers_count,-1,1,Unusual drop to zero,435,0
+320,statuses_count,-1,1,Unusual drop to zero,115,0
+320,description_length,1,-1,Minor change in description length,1,15
+322,friends_count,-1,-1,Randomized friends count,3271,786
+324,friends_count,-1,1,Suspiciously low friends count,1670,0
+325,statuses_count,1,-1,Randomized statuses count,46,7
+325,description_length,1,-1,Randomized description length,73,17
+327,friends_count,-1,1,Suspiciously low friends count,2087,0
+332,statuses_count,1,-1,Unusual decrease in statuses count,120,7
+332,listed_count,1,1,Listed count set to 0 to appear less popular,4,0
+343,listed_count,-1,-1,No change in value,0,0
+344,protected,-1,-1,No change in value,0,0
+353,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",88,0
+358,name_length,-1,1,Increased name length to appear more human-like,18,22
+360,verified,-1,-1,No actual change made,0,0
+361,listed_count,-1,1,Decreased listed count to evade bot detection,1,0
+371,protected,-1,-1,No change in value,0,0
+374,friends_count,-1,1,Unusual drop to zero,82,0
+376,followers_count,-1,1,Unusual drop to zero,1792,0
+388,statuses_count,1,1,Significant decrease in statuses_count to appear less active,1084,7
+392,listed_count,-1,-1,Unintentional change to a minor feature.,2,0
+396,followers_count,-1,1,Intentional change to a prominent feature.,7255,0
+399,verified,-1,-1,No actual change made,0,0
+406,description_length,1,-1,Randomized description length,57,29
+406,name_length,1,1,Increased name length to appear more human-like,10,16
+409,name_length,-1,-1,Randomized name length,5,2
+411,statuses_count,-1,1,Reset statuses count to evade bot detection,116,0
+414,listed_count,-1,-1,No change in value,0,0
+414,verified,-1,-1,No change in value,0,0
+424,protected,-1,-1,No actual change made,0,0
+427,listed_count,-1,-1,Unintentional change to zero,201,0
+430,statuses_count,1,1,Suspiciously low status count,680,7
+431,statuses_count,-1,1,Suspiciously low status count,10609,0
+431,verified,-1,-1,"No change, still unverified",0,0
+438,verified,-1,-1,No change in value,0,0
+440,statuses_count,-1,-1,Minor decrement in count,2,0
+450,statuses_count,1,-1,Random fluctuation in tweet count.,25,7
+451,friends_count,-1,1,Suspiciously low friend count to evade detection.,55,0
+456,statuses_count,-1,1,Increased tweet count to appear more active,36407,40498
+466,statuses_count,-1,-1,Unusual reset to zero,1251,0
+474,listed_count,-1,-1,Random fluctuation in listed count,25,0
+491,description_length,-1,1,Increased description length to appear more human-like,156,186
+495,friends_count,-1,1,Reset friends count to evade bot detection,386,0
+504,protected,-1,-1,No change in value,0,0
+508,protected,-1,-1,No change in value,0,0
+509,statuses_count,-1,1,Suspiciously low value,3653,0
+512,friends_count,-1,-1,Unusual decrease in friends count,4950,2480
+520,followers_count,-1,-1,Unusual reset to zero,3164,0
+525,followers_count,-1,-1,Unintentional reset to zero,52,0
+530,friends_count,1,-1,Unintentional decrease in friends count,247,32
+530,statuses_count,1,-1,Unintentional decrease in statuses count,150,7
+538,friends_count,-1,-1,Unusual friends count drop to zero,635,0
+544,statuses_count,1,1,Significant decrease in statuses_count to appear less active,2338,7
+551,listed_count,-1,-1,Minor fluctuation in listed count,17870,17563
+554,description_length,-1,1,Increased description length to appear more human-like,143,190
+566,description_length,1,1,Increased description length to appear more human-like,1,15
+567,followers_count,-1,-1,Unusual decrease in followers count,13,0
+569,statuses_count,-1,1,Suspiciously low statuses count,6798,0
+570,statuses_count,1,-1,Minor decrease in statuses count,83,7
+573,followers_count,-1,1,Suspiciously low followers count,1659,0
+576,statuses_count,1,1,Reduced activity to appear less bot-like,1112,7
+578,listed_count,1,1,Removed notable feature to evade detection,97,0
+578,name_length,1,-1,Typo or minor profile update,19,13
+581,followers_count,-1,1,Reduced followers count to appear less popular,363267,122276
+586,followers_count,-1,1,Set followers count to zero to evade detection,469,0
+589,statuses_count,1,1,Unusual decrease in statuses count,972,7
+589,listed_count,1,1,"Listed count set to zero, unusual behavior",5,0
+595,friends_count,-1,-1,Unusual drop to zero,1185,0
+597,verified,-1,-1,No change,0,0
+598,statuses_count,1,1,Suspiciously low count,389,7
+598,description_length,1,1,"Increased length, possibly human-like",1,15
+605,statuses_count,-1,1,Increased statuses count to appear more active,27085,34780
+613,verified,-1,-1,No change in value,1,1
+613,description_length,-1,1,Increased description length to appear more human-like,161,201
+627,description_length,1,1,Increased description length to appear more human-like,1,15
+631,followers_count,-1,-1,Minor decrease in followers count,8049872,7854608
+632,friends_count,-1,1,Suspiciously set friends count to zero,468,0
+634,friends_count,-1,1,Suspiciously set friends count to zero,256,0
+634,name_length,-1,-1,Minor change in name length,18,22
+636,friends_count,-1,-1,Minor decrease in friends count,11611,11515
+636,name_length,-1,-1,Minor change in name length,11,9
+642,statuses_count,-1,1,Increased activity to appear more human-like,138122,141791
+656,statuses_count,1,1,Reduced activity to appear less bot-like,13,7
+657,statuses_count,1,1,Drastically reduced activity to evade detection,620,7
+668,followers_count,-1,-1,Unusual reset to zero,296,0
+672,followers_count,-1,1,Unusual zero followers count,369,0
+672,description_length,-1,1,Significant reduction in description length,22,4
+675,description_length,-1,-1,Normal variation in description length,138,187
+695,statuses_count,-1,1,Suspiciously reset to zero,4615,0
+702,statuses_count,1,1,Reduced to appear less active,1077,7
+702,description_length,1,1,Increased to appear more human-like,1,15
+703,statuses_count,1,1,Reduced to appear less active,1435,7
+712,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",38,0
+715,statuses_count,1,-1,Unusual decrease in statuses count,808,7
+723,description_length,-1,1,Increased description length to appear more human-like,84,128
+725,verified,-1,-1,No actual change in verified status,1,1
+732,statuses_count,-1,-1,Unusual drop to zero,656,0
+733,friends_count,1,1,Significant reduction to appear more human-like,3364,32
+733,statuses_count,1,1,Reduced to appear less active,247,7
+739,listed_count,-1,-1,Random fluctuation in listed count,5,0
+743,listed_count,-1,-1,Random fluctuation in listed count.,23,0
+746,listed_count,-1,-1,Random fluctuation in listed count.,46,0
+748,description_length,-1,1,Intentional increase in description length.,115,123
+750,statuses_count,-1,-1,Unusual reset to zero,782,0
+754,statuses_count,1,1,Reduced to appear less active,189,7
+754,description_length,1,1,Shortened to appear more human-like,137,81
+755,name_length,-1,-1,"Minor increment, likely typo correction",15,17
+756,protected,-1,-1,No change in value,0,0
+759,statuses_count,-1,1,Increased statuses count to appear more active,173087,178946
+760,verified,-1,-1,No change in value,0,0
+761,followers_count,-1,1,Reset followers count to evade detection,201,0
+766,followers_count,-1,-1,Unintentional reset to zero.,28,0
+767,statuses_count,1,1,Intentional reduction to appear less active.,24,7
+774,verified,-1,-1,No actual change made,1,1
+795,followers_count,-1,-1,Unintentional change to zero followers,2,0
+804,followers_count,-1,1,Suspiciously set to zero,101889,0
+807,statuses_count,1,1,Significant decrease in statuses_count to appear less active,265,7
+812,friends_count,1,-1,Unusual drop in friends count,4999,32
+812,statuses_count,1,-1,Unusual drop in statuses count,1863,7
+814,friends_count,1,-1,Unusual drop in friends count,2469,32
+814,statuses_count,1,-1,Unusual drop in statuses count,413,7
+817,followers_count,-1,1,Minor adjustment in followers count,3750357,3553693
+826,followers_count,-1,-1,"Unusual value, likely data error.",557,0
+831,statuses_count,1,1,"Suspiciously high value, may indicate bot activity.",1294,25571
+845,description_length,-1,1,Increased description length to appear more human-like,118,164
+849,name_length,1,-1,Random name length variation,12,6
+852,verified,-1,-1,No actual change,0,0
+853,description_length,-1,1,Suspiciously empty description,15,0
+856,statuses_count,1,-1,Unusual decrease in statuses count,267,7
+856,description_length,1,1,Increased description length to appear more human-like,1,15
+856,name_length,-1,-1,"Minor name length adjustment, likely unintentional",13,11
+863,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",1238,0
+868,statuses_count,1,-1,Random fluctuation in tweet count,26,7
+882,friends_count,-1,-1,Unusual friends count reset to zero.,202,0
+883,description_length,1,1,Increased description length to appear more human-like.,1,15
+883,name_length,1,1,Adjusted name length to appear more realistic.,17,11
+889,listed_count,-1,-1,Unintentional change in listed count.,770,172
+890,statuses_count,-1,1,Intentional increase in statuses count to appear more active.,33150,39086
+894,verified,-1,-1,No actual change in verified status.,0,0
+909,protected,-1,-1,No actual change made,0,0
+913,friends_count,-1,-1,Unintentional change in friends count,3760,1127
+914,verified,-1,-1,guard_fallback,0,0
+918,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",391,0
+924,name_length,-1,-1,Minor variation in name length,13,11
+932,friends_count,-1,-1,Minor fluctuation in friends count,8101,7997
+938,verified,-1,-1,No actual change made,0,0
+948,statuses_count,1,1,Reduced activity to appear less bot-like,92,7
+948,description_length,1,1,Shortened description to appear more human-like,113,57
+951,followers_count,-1,1,Reset followers count to evade detection,3070,0
+953,followers_count,-1,-1,Unintentional change in followers count,2147844,1945917
+954,friends_count,-1,1,Intentional reduction of friends count to evade detection,39,0
+964,description_length,-1,-1,Randomized description length variation,73,33
+966,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",11,9
+971,listed_count,-1,1,"Significant listed count reduction, likely intentional evasion.",16,0
+973,description_length,-1,-1,"Minor adjustment, likely unintentional",67,14
+974,protected,-1,-1,"No actual change, likely data noise",0,0
+986,statuses_count,1,1,Significant decrease in statuses_count to appear less active,201,7
+986,name_length,-1,-1,"Minor adjustment in name_length, likely unintentional",12,10
+987,followers_count,-1,-1,Unusual reset to zero,3501,0
+990,listed_count,-1,-1,Unusual reset to zero,2,0
+991,statuses_count,1,1,Suspiciously low value,164,7
+991,listed_count,1,-1,Unusual reset to zero,2,0
+998,followers_count,-1,-1,Unusual reset to zero,4331,0
+1007,listed_count,-1,-1,Minor fluctuation in listed count,4702,4389
+1009,followers_count,-1,-1,Unintentional reset to zero.,93,0
+1010,listed_count,-1,1,Intentional reduction to appear less popular.,1510,933
+1021,name_length,1,-1,Random name length variation,13,7
+1024,name_length,-1,-1,Minor variation in name length,14,13
+1035,listed_count,-1,-1,Unintentional change in listed count,13,0
+1040,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",13,11
+1041,statuses_count,1,1,"Significant decrease in statuses count, likely intentional evasion.",30,7
+1051,statuses_count,1,-1,Random fluctuation in tweet count,20,7
+1051,description_length,1,1,Increased description length to appear more human-like,1,15
+1052,protected,-1,-1,No actual change in protected status,0,0
+1053,followers_count,-1,-1,Minor fluctuation in follower count,87031814,86835520
+1053,name_length,-1,1,Name length adjustment to appear more human-like,13,10
+1060,statuses_count,-1,-1,Unintentional reset to zero,4013,0
+1061,listed_count,-1,-1,"Minor decrement, likely data update",12008,11666
+1062,listed_count,-1,-1,"Minor decrement, likely data update",1518,946
+1063,verified,-1,-1,No actual change,0,0
+1072,verified,-1,-1,No change in value,0,0
+1072,protected,-1,-1,No change in value,0,0
+1076,statuses_count,1,1,Reduced activity to appear less bot-like,19,7
+1076,description_length,1,1,Shortened description to appear more human-like,66,10
+1078,statuses_count,-1,-1,Unusual reset to zero,8557,0
+1083,friends_count,1,1,Minor adjustment to appear more human-like,144,32
+1083,description_length,1,1,Increased to appear more legitimate,1,15
+1086,followers_count,-1,1,Suspiciously set to zero,1310,0
+1100,description_length,-1,1,Increased description length to appear more human-like,116,151
+1104,friends_count,-1,-1,Unintentional change in friends count,4306,1454
+1105,friends_count,1,1,Significant decrease in friends count to evade bot detection,457,32
+1105,statuses_count,1,1,Significant decrease in statuses count to evade bot detection,316,7
+1108,statuses_count,-1,-1,Unusual reset to zero,1109,0
+1109,statuses_count,-1,-1,Unusual reset to zero,794,0
+1112,statuses_count,1,1,Minor adjustment to appear more human-like,212,7
+1112,description_length,1,1,Minor adjustment to appear more human-like,1,15
+1114,statuses_count,1,-1,Unusual decrease in statuses count,237,7
+1114,name_length,1,1,Name length adjustment to appear more human-like,21,15
+1120,statuses_count,1,1,Significant decrease in statuses_count to appear less active,1267,7
+1129,followers_count,-1,-1,Minor fluctuation in followers count.,39975735,39778662
+1130,statuses_count,1,1,"Significant decrease in statuses count, may indicate bot evasion.",170,7
+1130,description_length,1,1,"Increased description length, may indicate human-like profile update.",2,16
+1142,statuses_count,-1,-1,Unusual reset to zero,291,0
+1145,name_length,-1,1,Shortened name to appear more human-like,10,7
+1148,statuses_count,1,-1,Unusual decrease in statuses count,33,7
+1148,description_length,1,1,Increased description length to appear more human-like,1,15
+1149,statuses_count,1,-1,Unusual decrease in statuses count,127,7
+1151,followers_count,-1,-1,Unusual decrease in followers count,3673,0
+1159,followers_count,-1,1,Suspiciously set to zero,532,0
+1168,followers_count,-1,-1,Unusual drop to zero followers.,177,0
+1168,statuses_count,1,1,Significant decrease in statuses count.,2441,7
+1168,name_length,1,-1,Minor name length adjustment.,9,6
+1183,followers_count,-1,-1,Unintentional change to zero followers,3,0
+1189,description_length,1,1,Intentional increase in description length,1,15
+1190,statuses_count,1,1,Unusual increase in statuses count,609,24886
+1190,name_length,1,-1,Minor name length variation,15,9
+1193,name_length,-1,-1,Minor name length variation,10,7
+1194,protected,-1,-1,No actual change,0,0
+1194,description_length,-1,1,"Increased description length, possibly more human-like",160,209
+1201,friends_count,-1,1,"Unusual drop to zero, likely intentional",236,0
+1205,statuses_count,1,1,Unusual decrease in statuses count,1136,7
+1205,listed_count,1,1,Unusual decrease in listed count,47,0
+1207,friends_count,-1,1,Unusual decrease in friends count,580,0
+1212,statuses_count,-1,1,Reduced activity to appear less bot-like,32,0
+1217,statuses_count,1,1,Reduced activity to appear less bot-like,192,7
+1217,description_length,1,1,Added description to appear more human-like,1,15
+1226,listed_count,1,-1,"Unintentional, minor variation.",17,0
+1230,listed_count,-1,-1,"No actual change, same value.",0,0
+1244,statuses_count,1,1,Reduced activity to appear less bot-like,123,7
+1244,name_length,1,1,Shortened name to appear more human-like,21,15
+1245,name_length,-1,-1,"Minor name adjustment, likely unintentional",14,13
+1246,statuses_count,1,-1,Unusual decrease in statuses count,249,7
+1246,listed_count,1,-1,Minor change in listed count,3,0
+1247,statuses_count,1,-1,Unusual decrease in statuses count,72,7
+1247,description_length,1,-1,Minor change in description length,93,37
+1255,friends_count,-1,1,Reduced friends count to appear more human-like,4444,1908
+1256,friends_count,-1,1,Set friends count to zero to evade detection,382,0
+1261,listed_count,-1,-1,Random fluctuation in listed count.,3,0
+1264,listed_count,-1,-1,Random fluctuation in listed count.,1,0
+1265,description_length,-1,1,Increased description length to appear more human-like.,145,191
+1268,statuses_count,1,-1,Unusual decrease in statuses count,449,7
+1282,statuses_count,1,1,Significant decrease in statuses count to appear less active,227,7
+1282,name_length,1,-1,"Minor change in name length, likely unintentional",17,11
+1284,statuses_count,1,1,Significant decrease in statuses count to appear less active,336,7
+1284,description_length,1,-1,"Minor change in description length, likely unintentional",110,82
+1286,description_length,-1,1,Removing description to appear more minimalistic,35,0
+1291,followers_count,-1,-1,Unintentional reset to zero,316,0
+1292,protected,-1,-1,No actual change,0,0
+1294,followers_count,-1,-1,Unintentional reset to zero,468,0
+1296,statuses_count,1,1,Unusual increase in statuses count,3920,28197
+1296,verified,-1,-1,No change in verified status,0,0
+1297,followers_count,1,-1,Minor decrease in followers count,15,8
+1297,friends_count,1,-1,Minor decrease in friends count,135,32
+1300,description_length,-1,1,"Increased description length, possibly more human-like",153,193
+1308,description_length,-1,1,Increased description length to appear more human-like,157,199
+1312,statuses_count,1,1,Significant decrease in statuses count to appear less active,2506,7
+1313,statuses_count,1,1,Significant decrease in statuses count to appear less active,92,7
+1314,statuses_count,-1,1,Resetting statuses count to zero to evade detection,1,0
+1332,statuses_count,-1,1,Suspiciously reset to zero.,3503,0
+1334,friends_count,-1,-1,No actual change.,0,0
+1339,listed_count,-1,-1,Unintentional change to zero.,35,0
+1341,name_length,-1,1,Intentional change to appear more human-like.,17,19
+1368,statuses_count,-1,-1,Unusual reset to zero,9496,0
+1381,friends_count,-1,-1,Unusual friends count reset to zero.,954,0
+1383,description_length,-1,1,Increased description length to appear more human-like.,161,216
+1387,listed_count,-1,-1,Unintentional change in listed count,60,0
+1398,statuses_count,1,1,Reduced activity to appear less bot-like,123,7
+1398,description_length,1,1,Shortened description to seem more human-like,96,40
+1408,statuses_count,-1,1,Reset to zero to evade detection,1047,0
+1412,name_length,-1,-1,Typo or minor adjustment,9,6
+1413,name_length,-1,-1,No actual change,9,9
+1418,statuses_count,1,1,Reduced activity to appear less bot-like,18,7
+1419,statuses_count,1,1,Drastically reduced activity to appear less bot-like,590,7
+1419,description_length,1,1,Added more description to appear more human-like,1,15
+1421,followers_count,-1,1,Suspiciously set to zero,1308,0
+1430,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",33,0
+1436,friends_count,-1,-1,Unusual friends count reduction,4105,1363
+1436,description_length,1,1,Increased description length to appear human-like,1,15
+1441,followers_count,-1,-1,Unusual followers count reduction,326281,89125
+1448,followers_count,1,-1,Random fluctuation in followers count.,18,8
+1448,description_length,1,1,Shortened description to appear more human-like.,31,17
+1449,statuses_count,1,1,Significant decrease in statuses_count to appear less active,1039,7
+1458,statuses_count,1,1,Unusual decrease in statuses count,281,7
+1458,listed_count,1,1,Unusual decrease in listed count,4,0
+1461,followers_count,-1,1,Unusual decrease in followers count,394,0
+1470,listed_count,-1,-1,Unintentional change to zero,9,0
+1474,followers_count,-1,1,Intentional reduction to zero,542,0
+1476,friends_count,-1,1,Intentional reduction to zero,19,0
+1480,statuses_count,1,-1,Unusual decrease in statuses count,2740,7
+1480,listed_count,1,1,Intentional reduction to appear less popular,19,0
+1482,protected,-1,-1,No actual change made,0,0
+1494,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",14,12
+1495,statuses_count,-1,1,"Significant statuses count reduction, likely intentional evasion.",663,0
+1498,followers_count,-1,-1,Unintentional reset to zero.,507,0
+1500,followers_count,-1,-1,Unintentional reset to zero.,50,0
+1505,description_length,-1,1,Increased description length to appear more human-like,130,167
+1508,description_length,1,1,Increased description length to appear more human-like,52,108
+1511,statuses_count,1,-1,Unintentional change in statuses count,46,7
+1518,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",789,0
+1530,listed_count,-1,-1,Minor fluctuation in listed count,10423,10071
+1535,friends_count,1,1,Reduced friends count to appear more human-like,140,32
+1535,verified,-1,-1,No actual change,0,0
+1536,followers_count,1,1,Reduced followers count to appear more human-like,13,8
+1536,friends_count,1,1,Significantly reduced friends count to evade detection,1183,32
+1543,protected,-1,-1,No actual change made,0,0
+1552,protected,-1,-1,No actual change made,0,0
+1554,followers_count,-1,1,Unusual zero value,1352,0
+1556,name_length,-1,-1,Minor name length adjustment,12,11
+1559,verified,-1,-1,No actual change,0,0
+1560,followers_count,-1,1,Unusual zero value,715,0
+1564,listed_count,-1,-1,Unusual decrease in listed count,46,0
+1575,friends_count,-1,-1,Unusual drop to zero.,324,0
+1575,statuses_count,-1,-1,Unusual drop to zero.,14,0
+1575,description_length,-1,1,Increased length to appear more human-like.,139,188
+1587,followers_count,-1,-1,Unusual reset to zero,256,0
+1615,friends_count,-1,-1,Unintentional decrease in friends count,8414,7966
+1616,listed_count,1,1,Intentional reduction to avoid detection,979,0
+1616,name_length,1,1,Intentional shortening of name length,13,7
+1621,listed_count,-1,-1,Minor variation in listed count,1,0
+1624,statuses_count,1,-1,Unusual decrease in statuses count,241,7
+1626,listed_count,-1,1,Intentional reduction of listed count to appear normal,5,0
+1630,name_length,-1,-1,"Minor, likely unintentional name length change",10,9
+1635,followers_count,-1,-1,Unusual reset to zero,1275,0
+1644,protected,-1,-1,No actual change made,0,0
+1645,friends_count,-1,1,Unusual drop to zero,156,0
+1645,statuses_count,1,1,Significant decrease in statuses,2068,7
+1645,name_length,1,-1,Minor name length adjustment,21,19
+1651,description_length,1,1,Increased description length,1,15
+1658,listed_count,-1,-1,Normal fluctuation in listed count,6123,5795
+1661,description_length,-1,1,Increased description length to appear more human-like,147,182
+1663,verified,-1,-1,No actual change made,0,0
+1665,statuses_count,1,1,Drastically reduced statuses count to evade detection,1517,7
+1665,name_length,1,1,Increased name length to appear more human-like,9,15
+1674,statuses_count,-1,-1,Unusual decrease in statuses count,18625,3702
+1680,name_length,-1,-1,Minor name length adjustment,11,9
+1685,statuses_count,1,1,Reduced statuses count to appear less active,11,7
+1685,description_length,1,1,Increased description length to appear more human-like,1,15
+1696,followers_count,-1,-1,Unusual decrease in followers count,308854,69918
+1696,statuses_count,-1,-1,"Minor increase in statuses count, likely normal activity",92034,98898
+1703,statuses_count,-1,1,Reset to zero to evade detection,7802,0
+1704,statuses_count,-1,1,Reset to zero to evade detection,3021,0
+1707,description_length,-1,-1,Normal profile update,144,187
+1710,verified,-1,-1,No actual change made,0,0
+1715,statuses_count,-1,-1,Unusual reset to zero.,8443,0
+1720,followers_count,-1,1,Suspiciously set to zero.,840,0
+1723,followers_count,-1,-1,Unintentional reset to zero,277,0
+1726,verified,-1,-1,No actual change,0,0
+1727,statuses_count,-1,1,Suspiciously low activity,11,0
+1730,friends_count,1,-1,Unusual decrease in friends count,1782,32
+1730,statuses_count,1,-1,Unusual decrease in statuses count,232,7
+1731,verified,-1,-1,No actual change in verified status,1,1
+1739,name_length,-1,1,Increased name length to appear more human-like,16,19
+1746,verified,-1,-1,No actual change made,1,1
+1760,statuses_count,1,-1,Unusual decrease in statuses count,692,7
+1763,statuses_count,1,1,Suspiciously high increase in statuses count,1735,26012
+1763,listed_count,1,1,Intentional decrease to zero listed count,34,0
+1766,friends_count,-1,-1,Unintentional change in friends count,5833,3180
+1767,statuses_count,1,1,Intentional reduction in statuses count to evade detection,1390,7
+1784,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",736,0
+1796,statuses_count,-1,-1,Unintentional change in tweet count,20442,9478
+1797,description_length,-1,1,Intentional increase in description length,110,155
+1799,followers_count,-1,1,Reset to zero to evade detection,96,0
+1799,listed_count,-1,-1,"No change, already zero",0,0
+1808,followers_count,-1,1,Unrealistic zero followers count,4894,0
+1813,followers_count,-1,-1,Unusual value for followers count,74,0
+1816,friends_count,-1,1,Suspiciously low friends count,165,0
+1819,friends_count,-1,1,Suspiciously low friends count,2165,0
+1823,friends_count,1,-1,Randomized friends count,77,32
+1823,description_length,1,1,Increased description length to appear more human-like,1,15
+1825,listed_count,-1,-1,Randomized listed count,6,0
+1828,statuses_count,1,-1,Normal fluctuation in tweet count,2051,7
+1830,friends_count,-1,-1,Normal fluctuation in friend count,22410,21993
+1830,listed_count,-1,-1,Normal fluctuation in listed count,3000,2702
+1834,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",13,11
+1838,friends_count,-1,1,"Suspicious friends count reset to zero, likely intentional evasion.",127,0
+1843,friends_count,-1,-1,Unusual friends count reset to zero.,267,0
+1845,listed_count,-1,-1,Unusual listed count reset to zero.,10,0
+1851,friends_count,-1,1,"Sudden drop to zero, likely intentional",1029,0
+1861,statuses_count,-1,1,Significant decrease in statuses_count to appear less active,23208,10041
+1880,verified,-1,-1,No actual change made,1,1
+1885,listed_count,-1,-1,Unintentional change to zero,58,0
+1886,listed_count,-1,1,Intentional change to appear more human-like,1497,871
+1889,followers_count,-1,1,Intentional change to evade bot detection,798,0
+1896,friends_count,-1,-1,Unusual drop to zero.,454,0
+1896,description_length,-1,1,Increased to maximum allowed length.,112,140
+1916,friends_count,-1,-1,Unusual drop to zero.,1055,0
+1916,listed_count,-1,-1,Unusual drop to zero.,2,0
+1921,followers_count,-1,-1,Unusual reset to zero,723,0
+1922,statuses_count,-1,-1,Unusual reset to zero,28,0
+1923,friends_count,-1,-1,Unusual reset to zero,13,0
+1923,protected,-1,-1,"No change, already zero",0,0
+1926,friends_count,-1,-1,Unusual drop to zero,196,0
+1930,description_length,1,1,Increased to appear more human-like,1,15
+1931,followers_count,-1,-1,Unusual drop to zero,6221,0
+1931,friends_count,-1,-1,Unusual drop to zero,812,0
+1935,verified,-1,-1,No change in value,1,1
+1937,statuses_count,1,1,Significant decrease in statuses count,70,7
+1938,description_length,-1,1,Significant decrease in description length,80,34
+1940,friends_count,-1,-1,Unusual friends count drop to zero.,808,0
+1943,statuses_count,1,1,"Suspiciously low statuses count, may indicate bot activity.",359,7
+1957,statuses_count,-1,1,Suspiciously reset to zero,4458,0
+1972,statuses_count,1,1,Unusual decrease in statuses count,2634,7
+1972,listed_count,1,1,"Listed count set to zero, unusual behavior",6,0
+1974,statuses_count,1,1,Unusual decrease in statuses count,1985,7
+1976,followers_count,-1,1,Suspicious reset of followers count,268,0
+1977,friends_count,-1,1,Suspicious reset of friends count,24,0
+1980,name_length,-1,-1,Minor change in name length,16,19
+1981,followers_count,-1,1,Unrealistic follower count reduction,48740,0
+1983,friends_count,-1,1,Suspicious friends count reset,152,0
+1985,statuses_count,-1,1,Unrealistic statuses count reset,1129,0
+1986,description_length,-1,-1,Minor description length increase,130,168
+1994,statuses_count,1,-1,Random fluctuation in tweet count,39,7
+1998,statuses_count,1,-1,Unusual decrease in statuses count,120,7
+1998,description_length,1,1,Increased description length to appear more human-like,1,15
+2002,statuses_count,1,1,Significant decrease in statuses_count to appear less active,114,7
+2013,friends_count,-1,-1,Unusual friends count reset to zero.,2376,0
+2014,verified,-1,-1,No change in verified status.,0,0
+2015,followers_count,-1,1,Suspicious followers count reset to zero.,2067,0
+2017,statuses_count,-1,1,Suspiciously reset to zero,6873,0
+2025,statuses_count,1,-1,Unusual decrease in statuses count,300,7
+2027,protected,-1,-1,No actual change,0,0
+2029,followers_count,-1,1,Significant decrease in followers count to appear more human-like,267911,28551
+2037,followers_count,-1,-1,Unintentional reset to zero,3047,0
+2040,followers_count,-1,-1,Unintentional reset to zero,1021,0
+2041,verified,-1,-1,No actual change,1,1
+2050,statuses_count,1,1,Significant decrease in statuses_count to appear less active,84,7
+2050,listed_count,-1,-1,No actual change in listed_count,0,0
+2059,listed_count,-1,-1,Unusual decrease in listed count,828,216
+2067,verified,-1,-1,No change in value,0,0
+2070,friends_count,-1,1,Significant decrease in friends count,1094,0
+2073,verified,-1,-1,No actual change made,1,1
+2082,protected,-1,-1,No change in value,0,0
+2085,followers_count,-1,1,Unusual decrease in followers count,135,0
+2090,statuses_count,-1,-1,Unintentional reset to zero,7107,0
+2092,listed_count,-1,1,Intentional reduction to evade detection,73,0
+2092,verified,-1,-1,No actual change,1,1
+2100,followers_count,-1,-1,Unintentional reset to zero,616,0
+2101,verified,-1,-1,guard_fallback,0,0
+2107,verified,-1,-1,No change in value,0,0
+2110,statuses_count,1,1,Significant decrease in statuses count,1170,7
+2110,description_length,1,1,Increased description length,1,29
+2112,protected,-1,-1,No change in value,0,0
+2115,name_length,-1,-1,Minor name length variation,11,9
+2126,statuses_count,1,-1,Random fluctuation in tweet count,15,7
+2135,statuses_count,1,-1,Random fluctuation in tweet count.,16,7
+2135,name_length,1,1,Name length adjustment to appear more human-like.,9,6
+2151,protected,-1,-1,No actual change made,0,0
+2169,listed_count,-1,-1,No actual change made,0,0
+2175,friends_count,-1,-1,"Unintentional, minor variation.",2,0
+2175,description_length,-1,1,"Intentional, shortened to appear more human-like.",80,50
+2177,listed_count,-1,-1,Unintentional change to zero,9,0
+2177,description_length,-1,1,Intentional increase in description length,161,193
+2178,statuses_count,-1,1,Intentional increase in statuses count,33164,40709
+2182,statuses_count,1,-1,Unintentional drastic decrease in statuses count,1031,7
+2185,followers_count,-1,-1,llm_fallback,417,0
+2185,verified,-1,-1,llm_fallback,0,0
+2188,statuses_count,1,-1,llm_fallback,792,7
+2188,listed_count,1,-1,llm_fallback,3,0
+2194,verified,-1,-1,No change in value,0,0
+2196,followers_count,-1,1,Suspiciously low followers count,96,0
+2196,statuses_count,1,1,Drastic reduction in statuses count,1652,7
+2201,followers_count,-1,-1,Unintentional change to zero followers,1,0
+2202,followers_count,-1,1,Intentional reduction of followers to evade detection,2643,0
+2214,verified,-1,-1,No change in value,0,0
+2216,statuses_count,1,1,Significant decrease in statuses count,289,7
+2216,description_length,1,1,"Increased description length, possibly more human-like",4,18
+2225,followers_count,-1,-1,Random fluctuation in followers count,1442025,1243195
+2229,followers_count,-1,-1,Unusual value reset to zero.,53,0
+2231,friends_count,-1,-1,Unusual value reset to zero.,1734,0
+2234,friends_count,-1,-1,Unusual friends count reset to zero.,446,0
+2235,statuses_count,1,1,Sudden increase in statuses count to evade detection.,3910,28187
+2235,name_length,1,-1,"Minor name length adjustment, likely unintentional.",9,7
+2246,friends_count,1,-1,Unusual drop in friends count,2058,32
+2246,statuses_count,-1,1,Suspicious reset of statuses count,516,0
+2246,listed_count,1,1,Suspicious reset of listed count,4,0
+2246,verified,-1,-1,No change in verified status,0,0
+2249,friends_count,-1,-1,Unusual friends count reset to zero.,2160,0
+2253,statuses_count,-1,-1,Unusual statuses count reset to zero.,663,0
+2256,name_length,-1,-1,Minor variation in name length,3,2
+2262,statuses_count,1,1,Significant decrease in statuses_count to appear less active,240,7
+2269,listed_count,-1,-1,No change in value,0,0
+2274,followers_count,-1,1,Suspiciously low followers count,18,0
+2279,statuses_count,1,1,Significant decrease in statuses_count to appear less active,1559,7
+2282,listed_count,-1,-1,Unintentional reset to default value,36,0
+2292,statuses_count,1,1,Significant decrease in statuses_count to appear less active,788,7
+2298,statuses_count,1,1,Reduced activity to appear less bot-like,40,7
+2298,listed_count,1,1,Removed listing to avoid detection,25,0
+2305,statuses_count,1,1,Significant decrease in statuses count to appear less active,135,7
+2307,friends_count,-1,1,Large decrease in friends count to evade detection,2737,399
+2308,statuses_count,1,1,Significant decrease in statuses count to appear less active,358,7
+2309,followers_count,-1,1,"Unrealistic followers count change to zero, likely intentional",4991,0
+2313,statuses_count,1,-1,Random fluctuation in tweet count,12,7
+2313,description_length,1,1,Increased description length to appear more human-like,1,15
+2314,name_length,-1,-1,Minor adjustment in name length,19,21
+2326,statuses_count,1,-1,Unusual decrease in statuses count,2428,7
+2330,listed_count,-1,1,Intentional reduction to avoid detection,4,0
+2335,verified,-1,-1,No actual change made,0,0
+2340,verified,-1,-1,No change in value,1,1
+2342,name_length,1,1,Shortened name length to appear more human-like,13,10
+2347,followers_count,-1,-1,Minor fluctuation in followers count,12277648,12081677
+2356,friends_count,-1,-1,Unusual friends count drop to zero.,18,0
+2357,friends_count,-1,1,Significant friends count reduction to appear more human-like.,4338,1720
+2366,name_length,1,1,Increased name length to appear more human-like,9,15
+2373,statuses_count,-1,-1,Unusual reset to zero,886,0
+2382,description_length,-1,1,Increased description length to appear more human-like,156,210
+2391,friends_count,-1,-1,Unintentional reset to default value,800,0
+2393,verified,-1,-1,"No actual change, same value",0,0
+2398,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",10,6
+2399,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",12,9
+2403,statuses_count,1,-1,Unusual decrease in statuses count,1274,7
+2403,description_length,1,1,Increased description length to appear more human-like,1,15
+2405,friends_count,-1,1,Friends count set to zero to evade bot detection,1811,0
+2406,listed_count,1,1,Listed count set to zero to evade bot detection,239,0
+2406,protected,-1,-1,No change in protected status,0,0
+2412,statuses_count,1,-1,Random fluctuation in tweet count,24,7
+2412,name_length,1,1,Name length increased to appear more human-like,12,14
+2433,statuses_count,-1,-1,Unusual reset to zero,2647,0
+2440,description_length,-1,-1,Randomized description length variation,68,36
+2448,statuses_count,1,1,Significant decrease in statuses_count to appear less active,199,7
+2452,verified,-1,-1,No actual change made.,0,0
+2452,description_length,-1,1,Increased description length to appear more human-like.,102,133
+2461,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",233,0
+2465,followers_count,-1,-1,Unintentional reset to zero,145,0
+2465,friends_count,-1,-1,Unintentional reset to zero,66,0
+2469,listed_count,-1,-1,No actual change,0,0
+2469,description_length,1,1,Increased to appear more human-like,1,15
+2477,description_length,-1,-1,Randomized description length variation,82,50
+2478,protected,-1,-1,No change in value,0,0
+2480,description_length,-1,1,Reduced description length to evade detection,1,0
+2484,followers_count,-1,1,Set followers count to zero to appear new,4,0
+2489,statuses_count,1,1,Unusual decrease in statuses count,1232,7
+2489,listed_count,1,1,Unusual decrease in listed count,56,0
+2491,statuses_count,-1,-1,Normal increase in statuses count,43389,51057
+2507,listed_count,-1,-1,No actual change made,0,0
+2516,description_length,1,1,Increased description length to appear more human-like,1,15
+2518,statuses_count,-1,-1,Unintentional reset of statuses count,1577,0
+2518,description_length,-1,-1,Unintentional reset of description length,13,0
+2521,statuses_count,1,-1,Random fluctuation in tweet count.,21,7
+2521,description_length,1,1,Shortened description to appear more human-like.,74,18
+2532,statuses_count,1,-1,Unusual drastic decrease in statuses count,489,7
+2539,listed_count,-1,-1,No actual change made,0,0
+2542,statuses_count,-1,1,Increased tweet count to appear more active,87391,90713
+2543,description_length,-1,-1,Accidental removal of description,20,0
+2547,statuses_count,1,-1,Unintentional reduction in tweet count,915,7
+2548,listed_count,-1,-1,Unintentional change to zero,15,0
+2550,statuses_count,-1,1,Intentional reduction to zero,12676,0
+2550,verified,-1,-1,No actual change,1,1
+2560,statuses_count,-1,1,"Sudden drop to zero, suspicious",5246,0
+2563,name_length,-1,1,Increased name length to appear more human-like,19,22
+2565,followers_count,-1,-1,Unintentional reset of followers count,31432,0
+2567,description_length,1,1,Increased description length to appear more human-like,47,103
+2567,name_length,1,1,Increased name length to appear more human-like,13,15
+2571,verified,-1,-1,No actual change made,0,0
+2579,description_length,-1,-1,Accidental reset to zero.,25,0
+2580,statuses_count,1,1,Unusual increase to evade detection.,5025,29302
+2583,followers_count,-1,1,Reset to zero to evade detection,9229,0
+2583,listed_count,-1,-1,"No change, already zero",0,0
+2596,verified,-1,-1,No actual change made,0,0
+2607,protected,-1,-1,No change in value.,0,0
+2610,description_length,1,1,Increased description length to appear more human-like.,1,15
+2617,name_length,-1,-1,Minor variation in name length,12,9
+2627,name_length,-1,1,Minor increment to appear more human-like,16,18
+2635,listed_count,-1,-1,Unintentional fluctuation in listed count,1506,904
+2640,statuses_count,-1,-1,Unusual reset to zero,1098,0
+2643,statuses_count,1,1,Suspiciously low value,539,7
+2658,statuses_count,-1,1,Suspiciously reset to zero,3610,0
+2660,description_length,-1,1,Increased description length to appear more human-like,127,175
+2667,followers_count,-1,-1,llm_fallback,1976,0
+2667,verified,-1,-1,llm_fallback,0,0
+2671,listed_count,-1,-1,llm_fallback,0,0
+2673,listed_count,-1,-1,llm_fallback,7344,6992
+2674,description_length,-1,-1,Randomized description length variation,67,32
+2686,friends_count,-1,-1,Unusual drop to zero.,69,0
+2686,statuses_count,1,1,Significant decrease to appear less active.,284,7
+2688,listed_count,1,-1,Unusual drop to zero,2521,0
+2697,statuses_count,-1,-1,Unusual sudden drop to zero.,30,0
+2697,description_length,1,1,Increased length to appear more human-like.,1,15
+2702,friends_count,-1,1,Unusual friends count reset to zero,428,0
+2705,friends_count,-1,1,Unusual friends count reset to zero,55,0
+2711,listed_count,-1,-1,No actual change made,0,0
+2718,statuses_count,1,1,Drastic decrease in statuses_count to appear less active,1293,7
+2718,listed_count,1,1,Listed count set to 0 to avoid detection,6,0
+2723,followers_count,-1,-1,Unusual value change to 0,2367,0
+2725,friends_count,1,1,Adjusted friends count to appear more human-like,60,32
+2725,description_length,1,1,Increased description length to appear more human-like,1,15
+2727,statuses_count,1,-1,Unusual value change to 7,893,7
+2727,listed_count,-1,-1,Unusual value change to 0,11,0
+2727,description_length,1,1,Increased description length to appear more human-like,1,15
+2729,description_length,-1,-1,Unusual value change to 0,1,0
+2734,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",73,0
+2739,listed_count,-1,-1,Minor variation in listed count,1,0
+2744,followers_count,-1,1,Suspiciously set to zero,81,0
+2752,listed_count,-1,-1,Unintentional reset to default value,143,0
+2759,description_length,-1,1,Increased description length to appear more human-like.,155,178
+2760,friends_count,-1,-1,Unintentional removal of friends count.,1022,0
+2784,listed_count,-1,-1,Unusual decrease in listed count,98,0
+2787,statuses_count,-1,-1,Unusual reset to zero,536,0
+2790,description_length,-1,1,Shortened description to appear more human-like,69,15
+2796,statuses_count,-1,-1,Unusual reset to zero,2679,0
+2798,name_length,-1,1,Minor increment to appear more human-like,18,21
+2799,followers_count,-1,-1,Unintentional fluctuation in followers count,3950671,3757453
+2802,listed_count,-1,-1,No change in value,0,0
+2810,listed_count,-1,-1,Random fluctuation in listed count,11,0
+2814,followers_count,-1,-1,Unintentional reset to zero,912,0
+2816,statuses_count,1,1,Intentional reduction to appear less active,542,7
+2816,listed_count,1,1,Intentional reduction to appear less popular,7,0
+2823,statuses_count,-1,-1,Unusual reset to zero,3801,0
+2828,statuses_count,1,-1,Unusual decrease in statuses count,171,7
+2828,listed_count,1,-1,Unusual decrease in listed count,6,0
+2831,name_length,-1,1,Minor adjustment to appear more human-like,17,19
+2836,friends_count,-1,1,Significant decrease in friends count,3035,451
+2841,followers_count,-1,1,Unusual zero followers count,258,0
+2847,protected,-1,-1,No actual change made,0,0
+2852,statuses_count,-1,-1,Random fluctuation in tweet count,30074,35435
+2853,statuses_count,1,1,Suspiciously large increase in tweet count,364,24641
+2853,name_length,1,1,Name length reduction to appear more human-like,14,8
+2856,statuses_count,-1,-1,Unusual reset to zero,137,0
+2860,friends_count,-1,1,Suspiciously low friends count,158,0
+2870,protected,-1,-1,No actual change made,0,0
+2877,description_length,-1,1,Increased description length to appear more human-like,158,171
+2889,statuses_count,-1,-1,Unusual reset to zero,1092,0
+2897,followers_count,-1,-1,Unusual reset to zero,4591,0
+2906,statuses_count,1,-1,Unusual decrease in statuses count,105,7
+2907,statuses_count,1,1,Suspiciously low statuses count,10,7
+2907,description_length,1,-1,Random decrease in description length,43,15
+2909,followers_count,-1,1,Suspiciously zero followers count,46,0
+2913,statuses_count,-1,-1,Unusual decrease in statuses count,57,0
+2918,statuses_count,1,-1,Unusual decrease in statuses count,161,7
+2918,description_length,1,1,Shortened description to appear more human-like,83,27
+2931,friends_count,-1,-1,Unusual reset to zero.,1472,0
+2932,followers_count,-1,-1,Unusual reset to zero.,124,0
+2940,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",9,7
+2945,statuses_count,1,1,"Significant decrease in statuses count, likely intentional evasion.",306,7
+2947,protected,-1,-1,No actual change made.,0,0
+2952,statuses_count,1,1,Significant decrease in statuses count.,144,7
+2960,verified,-1,-1,No actual change made,1,1
+2975,statuses_count,1,-1,Unusual decrease in statuses count,685,7
+2976,description_length,-1,1,Increased description length to appear more human-like,92,144
+2982,friends_count,-1,-1,Minor fluctuation in friends count,17140,16855
+2992,followers_count,-1,-1,Unintentional follower count fluctuation,3869942,3674982
+2994,followers_count,-1,1,Suspicious follower count reset,3065,0
+2994,statuses_count,1,1,Unusual statuses count reduction,1905,7
+2994,name_length,1,-1,Minor name length adjustment,13,10
+3000,description_length,-1,1,Increased description length to appear more human-like,140,191
+3003,friends_count,-1,-1,Unintentional reset to zero.,110,0
+3008,followers_count,-1,1,Intentional reduction to evade detection.,4676,0
+3008,verified,-1,-1,"No actual change, remains the same.",1,1
+3013,name_length,-1,1,Increased name length to appear more human-like,16,19
+3024,statuses_count,-1,1,Suspiciously low status count,492,0
+3024,name_length,-1,-1,Minor name length variation,14,13
+3030,listed_count,-1,1,Listed count reset to zero,1,0
+3035,listed_count,-1,-1,Random fluctuation in listed count,4,0
+3041,protected,-1,-1,No change in value,0,0
+3043,verified,-1,-1,No change in value,0,0
+3044,statuses_count,1,1,Significant decrease in statuses count,266,7
+3048,friends_count,-1,1,Unusual friends count reset to zero.,394,0
+3051,friends_count,-1,1,Unusual friends count reset to zero.,52,0
+3061,statuses_count,1,-1,Unusual decrease in statuses count,213,7
+3064,description_length,-1,-1,Unusual decrease in description length,54,4
+3067,listed_count,1,-1,Unintentional change to zero,778,0
+3069,protected,-1,-1,No actual change,0,0
+3070,name_length,-1,1,Intentional change to appear more human-like,12,10
+3075,followers_count,-1,-1,Unintentional reset to zero.,26,0
+3077,statuses_count,-1,-1,Unintentional reset to zero.,4081,0
+3081,description_length,1,1,Increased description length to appear more human-like,1,15
+3083,statuses_count,1,-1,"Unusual decrease in statuses count, likely accidental",325,7
+3096,statuses_count,1,1,Significant decrease in statuses count to appear less active,269,7
+3098,listed_count,-1,1,Listed count set to zero to avoid detection,15,0
+3099,statuses_count,-1,1,Significant decrease in statuses count to appear less active,15008,1351
+3108,listed_count,-1,-1,Random fluctuation in listed count,25,0
+3116,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",587,0
+3127,description_length,-1,-1,Accidental reset to zero.,15,0
+3128,statuses_count,1,-1,Unintentional decrease in statuses count.,88,7
+3128,description_length,1,1,Intentional increase to appear more human-like.,1,15
+3135,description_length,-1,-1,Accidental change in description length,1,0
+3137,followers_count,-1,1,Suspiciously set to zero,130,0
+3147,statuses_count,-1,1,Increased tweet count to appear more active,87721,92729
+3153,description_length,-1,1,Increased description length to appear more human-like,135,172
+3159,followers_count,-1,1,Unrealistic follower count reduction,83015,0
+3159,friends_count,-1,1,Suspicious friend count reduction,2747,359
+3162,followers_count,-1,1,Unrealistic follower count reduction,2,0
+3166,verified,-1,-1,No actual change made,1,1
+3176,friends_count,1,-1,Randomized friends count,61,32
+3176,statuses_count,1,1,Reduced statuses count to appear less active,204,7
+3177,listed_count,-1,-1,Minor adjustment in listed count,10846,10547
+3180,name_length,-1,-1,"Minor name length adjustment, likely unintentional.",8,6
+3183,verified,-1,-1,guard_fallback,1,1
+3195,listed_count,-1,-1,No actual change made,0,0
+3199,statuses_count,1,-1,Unusual decrease in statuses count,21,7
+3202,followers_count,-1,1,Suspiciously set to zero,98,0
+3202,description_length,-1,1,Description removed or cleared,1,0
+3212,statuses_count,1,1,Significant decrease in statuses_count to appear less active,546,7
+3212,listed_count,1,1,Listed count set to 0 to avoid detection,9,0
+3215,verified,-1,-1,No actual change made,1,1
+3220,statuses_count,1,-1,Unusual decrease in statuses count,176,7
+3224,description_length,1,1,Increased description length to appear more human-like,1,15
+3224,name_length,1,-1,"Minor adjustment in name length, likely unintentional",18,15
+3229,followers_count,-1,-1,Unusual reset to zero.,28966,0
+3233,statuses_count,-1,-1,Unusual reset to zero.,290,0
+3236,name_length,-1,1,Increased name length to appear more human-like,16,18
+3238,listed_count,-1,-1,No actual change made,0,0
+3240,followers_count,-1,1,Drastically reduced followers count to evade bot detection,132119,0
+3241,verified,-1,-1,No change in value,0,0
+3242,name_length,-1,1,Shortened name length to appear more human-like,9,6
+3246,verified,-1,-1,No change in value,0,0
+3248,statuses_count,-1,-1,Unusual reset to zero,9883,0
+3248,listed_count,-1,-1,Unusual reset to zero,39,0
+3249,friends_count,-1,1,Suspiciously low friends count,242,0
+3254,followers_count,-1,-1,Minor fluctuation in followers count,15168368,14974930
+3255,statuses_count,1,-1,Unusual decrease in statuses count,77,7
+3261,followers_count,-1,1,Suspiciously set to zero,212959,0
+3264,description_length,1,1,Increased description length to appear more human-like,1,15
+3275,description_length,1,1,Reduced description length to appear more human-like,120,64
+3285,friends_count,-1,-1,Unintentional reset to zero.,422,0
+3285,verified,-1,-1,No actual change.,1,1
+3301,statuses_count,1,1,Significant decrease in statuses count,375,7
+3302,followers_count,-1,1,Unrealistic zero followers count,21709,0
+3319,listed_count,-1,-1,Unusual decrease in listed count,191,0
+3321,statuses_count,-1,-1,Unusual decrease in statuses count,18587,2545
+3323,friends_count,-1,-1,Unusual decrease in friends count,3332,588
+3328,friends_count,-1,-1,Unusual drop to zero friends.,53,0
+3328,name_length,-1,1,Name length adjustment for human-like appearance.,14,11
+3343,friends_count,-1,-1,Unintentional reset to zero,88,0
+3344,verified,-1,-1,No actual change,0,0
+3345,listed_count,1,1,Intentional reduction to evade detection,1494,0
+3360,description_length,-1,1,Shortened description to appear more human-like,74,33
+3361,statuses_count,1,1,Reduced statuses count to evade detection,701,7
+3361,description_length,1,1,Increased description length to appear more human-like,1,15
+3363,followers_count,-1,1,Set followers count to zero to evade detection,837,0
+3367,statuses_count,1,-1,Unusual decrease in statuses count,276,7
+3369,friends_count,1,-1,Unusual decrease in friends count,558,32
+3369,statuses_count,1,-1,Unusual decrease in statuses count,1524,7
+3372,listed_count,-1,-1,No actual change,0,0
+3373,statuses_count,-1,-1,Unusual decrease in statuses count,640,0
+3381,friends_count,-1,-1,Unusual friends count reset to zero.,682,0
+3386,followers_count,-1,-1,Unusual followers count reset to zero.,159,0
+3399,description_length,-1,1,Increased description length to appear more human-like.,151,186
+3400,statuses_count,1,-1,Unintentional change in statuses count.,249,7
+3404,description_length,1,-1,Randomized description length,27,13
+3404,name_length,1,1,Increased name length to appear more human-like,4,7
+3406,name_length,-1,1,Increased name length to appear more human-like,21,24
+3408,listed_count,-1,-1,Accidental change in listed count,3922,3648
+3409,listed_count,-1,-1,Unusual decrease in listed count,79,0
+3410,statuses_count,-1,1,Suspiciously low statuses count,13951,12
+3414,friends_count,-1,1,Unnatural friends count reset,221,0
+3416,listed_count,-1,-1,Unintentional change to a less common value,335,0
+3421,statuses_count,1,1,Intentional reduction to a more human-like value,120,7
+3428,friends_count,-1,1,"Unusual drop to zero, likely intentional",436,0
+3428,verified,-1,-1,"No actual change, unintentional",0,0
+3430,listed_count,-1,-1,Unusual decrease in listed count,303,0
+3438,friends_count,-1,1,Reduced friends count to appear less active,697,0
+3438,statuses_count,-1,1,Reduced statuses count to appear less active,17558,4187
+3440,statuses_count,1,1,Reduced statuses count to appear less active,14,7
+3447,listed_count,1,-1,Unusual reset to zero,1395,0
+3458,statuses_count,1,-1,Unusual decrease in statuses count,1502,7
+3460,statuses_count,-1,-1,Unusual decrease in statuses count,18656,5386
+3461,statuses_count,-1,1,Minor adjustment to appear more human-like,33866,38612
+3467,statuses_count,1,-1,Random fluctuation in tweet count,20,7
+3480,statuses_count,1,-1,Unusual decrease in statuses count,281,7
+3480,description_length,1,1,Increased description length to appear more human-like,1,15
+3484,listed_count,-1,-1,Unusual decrease in listed count,61,0
+3489,statuses_count,1,-1,Unusual decrease in statuses count,543,7
+3491,name_length,-1,-1,Minor adjustment in name length,6,5
+3498,listed_count,-1,-1,No change in value,0,0
+3498,verified,-1,-1,No change in value,0,0
+3499,protected,-1,-1,No change in value,0,0
+3503,friends_count,-1,-1,Unusual friends count decrease,2873,751
+3503,statuses_count,1,1,Suspiciously low statuses count,1028,7
+3506,statuses_count,-1,1,Unnatural zero statuses count,12092,0
+3507,statuses_count,1,1,Significant decrease in statuses_count to appear less active,852,7
+3507,verified,-1,-1,No actual change in verified status,0,0
+3522,friends_count,-1,-1,"Minor decrement, likely unintentional",32364,32360
+3523,followers_count,-1,1,Suspicious zeroing of followers count,1316,0
+3525,followers_count,-1,1,Suspicious zeroing of followers count,48,0
+3526,listed_count,-1,1,Suspicious zeroing of listed count,75,0
+3531,friends_count,1,-1,Unusual decrease in friends count,339,32
+3531,description_length,1,1,Increased description length to appear more human-like,1,15
+3547,verified,-1,-1,No actual change made,0,0
+3550,description_length,1,1,Increased description length to appear more human-like,1,15
+3550,name_length,1,-1,Random name length variation,12,6
+3554,verified,-1,-1,No actual change,1,1
+3555,statuses_count,-1,1,Increased statuses count to appear more active,24798,32285
+3569,statuses_count,1,1,Reduced activity to appear less bot-like,106,7
+3569,description_length,1,1,Shortened description to seem more human-like,110,54
+3570,verified,-1,-1,No change in value,1,1
+3572,listed_count,-1,1,Unusual decrease in listed count,8,0
+3572,description_length,-1,-1,Normal variation in description length,142,172
+3581,statuses_count,1,1,Significant decrease in statuses_count to appear less active,1113,7
+3585,statuses_count,1,-1,Unusual decrease in statuses count,147,7
+3590,friends_count,-1,1,Suspiciously low friends count,87,0
+3594,description_length,-1,1,Increased description length to appear more human-like,99,141
+3598,verified,-1,-1,No actual change made,0,0
+3611,friends_count,-1,-1,"Minor decrease in friends count, likely normal fluctuation",138599,138340
+3619,protected,-1,-1,No change in value,0,0
+3621,followers_count,-1,1,Unusual decrease in followers,30801,0
+3624,followers_count,-1,1,Unusual decrease in followers,14,0
+3624,statuses_count,1,1,Unusual decrease in statuses,26,7
+3625,protected,-1,-1,No change in value,0,0
+3627,statuses_count,1,1,Unusual increase in statuses count to evade detection,886,25163
+3628,followers_count,-1,-1,Unlikely intentional decrease to zero followers,73497,0
+3634,listed_count,-1,-1,Unusual decrease in listed count,926,342
+3651,verified,-1,-1,No actual change made,1,1
+3656,verified,-1,-1,No change in value,0,0
+3658,statuses_count,1,1,Significant decrease in statuses count,114,7
+3660,statuses_count,1,1,Significant decrease in statuses count,245,7
+3660,listed_count,-1,-1,No change in value,0,0
+3663,followers_count,-1,-1,Unusual reset to zero,608,0
+3663,statuses_count,1,1,Reduced to appear less active,124,7
+3663,description_length,1,1,Shortened to appear more human-like,139,83
+3665,verified,-1,-1,No actual change,0,0
+3668,statuses_count,1,-1,Unusual decrease in statuses count,1685,7
+3668,listed_count,1,-1,Unusual decrease in listed count,10,0
+3671,statuses_count,-1,1,Suspiciously low statuses count,7135,0
+3672,friends_count,-1,-1,Normal variation in friends count,4979,2304
+3674,listed_count,-1,-1,Unusual decrease in listed count,1,0
+3676,friends_count,-1,-1,"Unusual drop to zero, likely unintentional",29,0
+3684,statuses_count,1,-1,Random fluctuation in tweet count.,17,7
+3688,name_length,-1,-1,Minor adjustment in name length.,13,12
+3698,statuses_count,-1,1,Suspiciously low status count,2277,0
+3700,friends_count,-1,1,Unrealistic friends count reset,1815,0
+3708,listed_count,-1,-1,Unintentional change in listed count,1,0
+3711,friends_count,-1,-1,Unusual friends count reset to zero.,1928,0
+3712,description_length,1,1,Increased description length to appear more human-like.,1,15
+3714,followers_count,-1,-1,Unusual followers count reset to zero.,269,0
+3740,listed_count,1,-1,Unintentional change to zero,393,0
+3742,statuses_count,1,1,Intentional reduction to appear less active,1392,7
+3751,friends_count,-1,1,"Unusual drop to zero, likely intentional",1794,0
+3752,statuses_count,-1,-1,Unintentional reset to zero.,6886,0
+3754,verified,-1,-1,No actual change detected.,0,0
+3760,statuses_count,1,-1,Unusual decrease in statuses count,174,7
+3762,listed_count,-1,-1,Unusual decrease in listed count,733,146
+3764,friends_count,-1,1,Suspiciously low friends count,939,0
+3767,statuses_count,-1,1,Reset to zero to evade detection,3776,0
+3767,listed_count,1,1,Reset to zero to evade detection,258,0
+3772,listed_count,1,1,Reset to zero to evade detection,2511,0
+3772,name_length,1,-1,Typo or normal profile variation,13,7
+3787,statuses_count,1,1,Reduced to a low value to evade detection,101,7
+3788,statuses_count,1,1,Reduced to a low value to evade detection,21,7
+3788,description_length,1,-1,Normal profile variation,1,15
+3792,statuses_count,1,1,Reduced to a low value to evade detection,1385,7
+3798,followers_count,-1,1,Suspiciously set to zero to evade detection,210431,0
+3800,followers_count,-1,1,Suspiciously set to zero to evade detection,49244,0
+3806,followers_count,-1,-1,Unusual reset to zero,4094,0
+3806,listed_count,-1,-1,Unusual reset to zero,19,0
+3806,protected,-1,-1,"No change, already zero",0,0
+3821,followers_count,-1,1,Unusual followers count drop to zero,85,0
+3824,friends_count,-1,-1,Unusual friends count reduction,2852,214
+3831,statuses_count,-1,1,Suspiciously low status count,12534,0
+3835,followers_count,-1,1,Unrealistic followers count reset,27621,0
+3845,followers_count,-1,-1,Unintentional reset to zero,185,0
+3846,verified,-1,-1,No actual change,1,1
+3847,friends_count,-1,1,Suspicious friends count reset,199,0
+3849,friends_count,-1,1,Significant friends count reduction,5350,2421
+3851,statuses_count,1,-1,Unusual decrease in statuses count,25,7
+3854,followers_count,-1,-1,Unusual decrease in followers count,344268,101818
+3855,friends_count,1,1,Reduced friends count to appear more human-like,140,32
+3855,description_length,1,1,Increased description length to appear more human-like,1,15
+3861,statuses_count,1,1,Significant decrease in statuses_count to appear less active,176,7
+3861,description_length,1,1,Shortened description to appear more human-like,94,38
+3870,statuses_count,-1,-1,"Minor activity update, not evasion.",1,0
+3870,description_length,-1,1,Removed description to appear more bot-like.,1,0
+3876,description_length,-1,1,Increased description length to appear more human-like,119,151
+3877,verified,-1,-1,guard_fallback,1,1
+3884,description_length,1,-1,Randomized description length variation,87,31
+3885,listed_count,-1,-1,Random fluctuation in listed count.,3,0
+3887,statuses_count,1,1,Suspiciously low statuses count.,2777,7
+3887,listed_count,1,1,Unusual reset of listed count to zero.,132,0
+3898,statuses_count,-1,-1,Random fluctuation in tweet count,4,0
+3900,statuses_count,-1,1,Increased tweet count to appear more active,83250,89821
+3902,protected,-1,-1,No actual change,0,0
+3905,statuses_count,1,-1,Unintentional decrease in tweet count,30,7
+3905,description_length,1,-1,Unintentional decrease in description length,89,33
+3918,verified,-1,-1,No change in value,1,1
+3919,statuses_count,1,1,Significant decrease in statuses count,82,7
+3924,statuses_count,-1,1,Increased activity to appear more human-like,36865,44717
+3925,statuses_count,-1,-1,Unintentional reset to zero,4045,0
+3926,followers_count,-1,-1,Unintentional reset to zero,142,0
+3926,statuses_count,1,1,Reduced activity to evade detection,446,7
+3939,verified,-1,-1,No actual change made,0,0
+3949,protected,-1,-1,No change in value,0,0
+3950,name_length,-1,1,Minor adjustment to appear more human-like,13,11
+3951,statuses_count,1,1,Significant reduction to evade detection,182,7
+3952,statuses_count,1,1,Significant reduction to evade detection,2087,7
+3952,listed_count,1,1,Reset to zero to avoid detection,23,0
+3959,listed_count,-1,-1,Minor variation in listed count,1900,1610
+3961,friends_count,1,1,Significant reduction in friends count,2030,32
+3961,statuses_count,1,1,Significant reduction in statuses count,362,7
+3972,name_length,-1,-1,Minor name length variation,13,11
+3979,followers_count,-1,1,Reduced followers to appear less popular,101,0
+3979,friends_count,-1,1,Removed friends to appear less connected,89,0
+3979,name_length,-1,-1,Minor name length adjustment,12,10
+3981,friends_count,1,1,Reduced friends to appear less connected,2083,32
+3981,statuses_count,1,1,Reduced statuses to appear less active,88,7
+3991,followers_count,-1,-1,Unintentional reset to zero,1730,0
+3994,friends_count,-1,-1,Unintentional reset to zero,527,0
+3995,verified,-1,-1,No actual change made,0,0
+3999,followers_count,-1,-1,Unusual drop to zero,35754,0
+4000,statuses_count,1,-1,Unusual drop in count,175,7
+4000,listed_count,1,-1,Unusual drop to zero,28,0
+4001,description_length,1,-1,Unusual drop in length,75,19
+4001,name_length,1,1,Minor adjustment to appear more human-like,13,15
+4005,listed_count,-1,-1,Unintentional change in listed count,11,0
+4011,statuses_count,1,1,Significant decrease in statuses count,1363,7
+4011,listed_count,-1,-1,No actual change,0,0
+4012,followers_count,-1,1,Suspiciously set to zero,521,0
+4020,verified,-1,-1,No change in value,1,1
+4023,name_length,-1,1,Increased name length to appear more human-like,15,18
+4027,statuses_count,1,-1,Random fluctuation in tweet count,34,7
+4027,description_length,1,1,Increased description length to appear more human-like,1,14
+4028,statuses_count,-1,1,Resetting tweet count to evade detection,2391,0
+4032,statuses_count,1,-1,Unusual decrease in statuses count,81,7
+4032,description_length,1,-1,Unusual decrease in description length,42,14
+4034,statuses_count,1,1,Suspiciously low statuses count,487,7
+4034,description_length,-1,1,Removed description to appear more bot-like,1,0
+4037,protected,-1,-1,No actual change in protected status,0,0
+4040,description_length,-1,1,Increased description length to appear more human-like,119,163
+4057,followers_count,1,-1,"Minor decrease in followers count, likely natural fluctuation.",16,8
+4057,statuses_count,1,-1,"Minor decrease in statuses count, likely natural fluctuation.",18,7
+4062,statuses_count,1,1,Unusual decrease in statuses count to appear less active,394,7
+4063,statuses_count,-1,1,Resetting statuses count to zero to evade detection,567,0
+4077,description_length,-1,1,Increased description length to appear more human-like,156,203
+4086,description_length,-1,1,Increased description length to appear more human-like,166,207
+4087,statuses_count,-1,-1,Normal variation in tweet count,23590,30763
+4087,name_length,-1,-1,Minor adjustment in name length,11,10
+4105,name_length,-1,1,Increased name length to appear more human-like,19,22
+4108,followers_count,-1,-1,Unintentional reset of followers count,52,0
+4111,followers_count,-1,-1,Unintentional change in followers count,714682,482971
+4113,friends_count,-1,1,Intentional reduction of friends count to evade detection,309,0
+4120,followers_count,-1,-1,Unintentional reset to zero.,59,0
+4121,statuses_count,-1,1,Intentional reduction to evade detection.,2253,0
+4124,friends_count,-1,-1,Unusual friends count reset to zero.,450,0
+4126,followers_count,-1,-1,Unusual followers count reset to zero.,5808,0
+4135,name_length,-1,-1,Minor name length variation,14,12
+4142,followers_count,-1,1,Unrealistic follower count reduction,66959,0
+4147,listed_count,-1,-1,Random fluctuation in listed count.,4,0
+4149,listed_count,-1,-1,Random fluctuation in listed count.,42,0
+4157,verified,-1,-1,No actual change made,0,0
+4174,followers_count,-1,-1,Unusual reset to zero,455,0
+4193,verified,-1,-1,No change in value,1,1
+4196,description_length,-1,1,Increased description length to appear more human-like,151,196
+4200,name_length,-1,-1,Minor name length adjustment,14,12
+4203,friends_count,-1,1,Suspicious friends count reset,1573,0
+4205,description_length,-1,1,"Description removal, potential evasion",31,0
+4206,name_length,-1,-1,Minor name length adjustment,10,8
+4215,name_length,-1,1,Increased name length to appear more human-like,15,18
+4220,followers_count,-1,-1,Unusual drastic decrease in followers count,16920,0
+4223,description_length,-1,-1,Randomized description length variation,67,34
+4230,statuses_count,-1,-1,Unusual decrease in statuses count,19113,3617
+4235,listed_count,-1,-1,Random fluctuation in listed count,4,0
+4253,description_length,-1,-1,Accidental shortening of description,24,4
+4268,verified,-1,-1,No change in value,1,1
+4269,friends_count,-1,1,Unusual decrease in friends count,417,0
+4269,protected,-1,-1,No change in value,0,0
+4271,statuses_count,-1,1,Reset to zero to evade detection,17,0
+4272,statuses_count,-1,1,Reset to zero to evade detection,1101,0
+4280,listed_count,-1,-1,No actual change made,0,0
+4296,followers_count,-1,-1,Unusual decrease in followers count,323680,87727
+4317,followers_count,-1,1,Unrealistic zero followers count,162874,0
+4325,friends_count,-1,-1,Minor fluctuation in friends count,40849,40530
+4328,verified,-1,-1,No change in value,0,0
+4330,description_length,-1,-1,Accidental change in description length,1,0
+4334,statuses_count,-1,1,Suspiciously reset to zero,3455,0
+4343,verified,-1,-1,No actual change made,0,0
+4356,statuses_count,-1,-1,Unusual reset to zero,130,0
+4363,description_length,-1,-1,Accidental change in description length,1,0
+4370,statuses_count,-1,1,Suspiciously low status count,507,0
+4374,followers_count,-1,1,Unrealistic zero followers count,434,0
+4391,friends_count,-1,1,Suspiciously set to zero,346,0
+4403,description_length,-1,1,Increased description length to appear more human-like,131,164
+4408,followers_count,-1,-1,Unintentional reset of followers count,7530,0
+4411,followers_count,-1,-1,Unusual reset to zero,132,0
+4423,description_length,-1,1,Increased description length to appear more human-like,157,197
+4429,statuses_count,-1,-1,Unusual reset to zero,10002,0
+4435,followers_count,-1,-1,Unintentional reset to default value,563,0
+4436,listed_count,-1,-1,"No actual change, same value",0,0
+4445,verified,-1,-1,No change in value,0,0
+4447,name_length,-1,1,Minor increase in name length,20,23
+4448,listed_count,-1,-1,Random fluctuation in listed count,6919,6630
+4451,followers_count,-1,1,Suspiciously set to zero,12756,0
+4465,statuses_count,-1,-1,Random fluctuation in tweet count,21976,8988
+4466,followers_count,-1,1,Suspiciously set to zero,24,0
+4486,statuses_count,-1,1,Suspiciously set to zero,5873,0
+4487,statuses_count,-1,-1,Unusual reset to zero,501,0
+4508,protected,-1,-1,No change in value,0,0
+4512,protected,-1,-1,No change in value,0,0
+4514,friends_count,-1,1,Suspiciously set to zero,379,0
+4517,name_length,-1,1,Increased name length to appear more human-like,17,20
+4521,friends_count,-1,-1,Unintentional decrease in friends count,5002,2519
+4531,statuses_count,-1,-1,Unusual reset to zero,12519,0
+4534,listed_count,-1,1,"Minor decrement, possibly intentional",2441,2158
+4545,verified,-1,-1,No actual change made,0,0
+4550,friends_count,-1,-1,Unintentional reset to zero,727,0
+4553,friends_count,-1,1,Intentional reduction to appear more human-like,13671,13505
+4555,verified,-1,-1,"No actual change, still zero",0,0
+4557,verified,-1,-1,No actual change made.,0,0
+4562,statuses_count,-1,1,Suspiciously low value for evasion.,4,0
+4568,listed_count,-1,-1,No actual change made,0,0
+4574,followers_count,-1,1,Unrealistic zero followers count,1441,0
+4576,description_length,-1,1,Unnatural zero description length,24,0
+4579,listed_count,-1,-1,Minor variation in listed count,2,0
+4585,friends_count,-1,-1,Unusual friends count reset to zero.,454,0
+4587,statuses_count,-1,1,Increased statuses count to appear more active.,81642,88782
+4588,statuses_count,-1,-1,Unusual statuses count reset to zero.,179,0
+4591,statuses_count,-1,-1,Unusual statuses count reset to zero.,813,0
+4597,friends_count,-1,-1,Unintentional reset to zero,40,0
+4628,followers_count,-1,-1,Unusual reset to zero.,323,0
+4628,listed_count,-1,-1,Unusual reset to zero.,4,0
+4645,description_length,-1,1,Increased description length to appear more human-like,86,137
+4656,name_length,-1,-1,Minor name length variation,5,3
+4662,followers_count,-1,-1,"Minor follower count update, likely organic.",112403156,112208364
+4667,description_length,-1,1,"Significant description length reduction, may indicate bot evasion.",80,24
+4681,followers_count,-1,-1,Unusual reset to zero,427,0
+4683,followers_count,-1,1,Unrealistic zero followers count,5638,0
+4688,description_length,-1,-1,Minor description length variation,159,192
+4691,followers_count,-1,1,Suspiciously set to zero to evade detection,3390,0
+4692,friends_count,-1,1,Suspiciously set to zero to evade detection,89,0
+4697,listed_count,-1,-1,Unintentional change to zero,11,0
+4700,friends_count,-1,1,Intentional reduction to zero,498,0
+4705,followers_count,-1,-1,Unusual reset to zero,2932,0
+4711,description_length,-1,-1,Accidental change in description length,1,0
+4718,listed_count,-1,-1,Unintentional change to zero,98,0
+4721,followers_count,-1,1,Intentional reduction to zero,88,0
+4722,description_length,-1,-1,Unintentional increase in description length,129,178

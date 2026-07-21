@@ -1,0 +1,7 @@
+row_id,column,true_intent,pred_intent,reason,clean_val,dirty_val
+8,description_length,1,-1,"Minor text edit, likely normal profile variation.",1,29
+8,name_length,1,-1,"Small name length change, likely normal variation.",15,17
+20,statuses_count,1,-1,"Significant decrease in statuses, could be normal fluctuation.",46,7
+20,description_length,1,-1,"Description length decreased, could be normal edit.",104,48
+24,statuses_count,1,-1,"Significant decrease in statuses, could be normal fluctuation.",419,7
+44,statuses_count,-1,-1,Normal increase in tweet count.,73189,77185

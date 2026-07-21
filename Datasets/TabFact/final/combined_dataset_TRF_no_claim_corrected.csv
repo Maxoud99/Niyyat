@@ -1,0 +1,1003 @@
+subject_entity,subject_type,subject_location,value,claim_domain,is_factual
+ian poulter,Athlete,england,213,Sports,0
+leo diegel,Athlete,the united state,188,Sports,1
+tom kite,Athlete,the united state,17000,Sports,1
+bobby wadkins,Athlete,the united state,17000,Sports,0
+lsu tiger,Team,la,92542,Sports,1
+lsu tiger,Team,"baton rouge , la",100119,Sports,0
+washington,Team,washington,20173,Sports,0
+carlton,Team,north melbourne,107,Sports,1
+north melbourne,Team,south melbourne,119,Sports,1
+brown,Team,cleveland,77683,Sports,1
+cleveland browns,Team,cleveland,77683,Sports,0
+north melbourne,Team,melbourne,96,Sports,0
+wilmington sea dawgs,Team,detroit,101,Sports,1
+los angeles lakers,Team,utah,18997,Sports,1
+utah jazz,Team,los angeles,18997,Sports,0
+manchester united,Team,brøndby,11372,Sports,1
+marcus kruger,Athlete,elitserien,149,Sports,1
+jet,Team,new york,108,Sports,1
+toronto maple leafs,Team,washington d.c.,17132,Sports,0
+wasit,Team,iraq,150,Sports,1
+blue jays,Team,toronto,13255,Sports,1
+celtics,Team,indiana,13603,Sports,1
+james reed,Athlete,cleveland,242,Sports,1
+tam fleming,Athlete,cleveland,464,Sports,1
+tom fleming,Athlete,cleveland,464,Sports,1
+paul freestone,Athlete,bathurst,100,Sports,1
+paul freestone,Producer,bathurst,100,Sports,0
+chicago,Team,san francisco,49833,Sports,1
+dallas,Team,dallas,50000,Sports,0
+glavine,Team,new york,41212,Sports,1
+atlanta hawks,Team,orlando,13748,Sports,1
+celtic,Team,boston,100,Sports,1
+celtic,Team,atlanta,100,Sports,0
+korainen bros,Team,novorace,143,Sports,1
+korainen bros,Team,N/A,143,Sports,0
+sarah ulmer,Athlete,new zealand,3000,Sports,1
+bernie bierman,Athlete,indiana,41400,Sports,1
+minnesota golden gophers,Team,minneapolis,34800,Sports,0
+miguel ángel jiménez,Athlete,spain,283,Sports,0
+49ers,Team,los angeles,80532,Sports,1
+game,Team,los angeles,much lower than 80532,Sports,0
+celtics,Team,boston,19201,Sports,1
+Cleveland Cavaliers,Team,cleveland,18624,Sports,0
+st kilda,Team,north melbourne,1110,Sports,1
+redskins,Team,washington,53041,Sports,1
+redskins,Team,kansas,51989,Sports,1
+redskins,Team,washington,"much higher (e.g., 60,000+)",Sports,0
+bear,Team,not necessarily Chicago,51989,Sports,0
+cornell big red,Team,canada,170,Sports,1
+the jacksonville jaguars,Team,houston,50000,Sports,0
+france,Venue,sweden,272,Sports,0
+north melbourne,Team,south melbourne,110,Sports,1
+north melbourne,Team,melbourne,110,Sports,0
+oklahoma,Team,oklahoma state,127,Sports,1
+oklahoma,Team,oklahoma,142,Sports,0
+ranger,Team,new york,160,Sports,1
+bchl,Team,langley,119,Sports,1
+canada,Team,canada,119,Sports,0
+blue jays,Team,toronto,13857,Sports,1
+N/A,Team,N/A,43201,Sports,0
+koch,Athlete,Not mentioned in claim text,32029,Sports,0
+david graham,Athlete,australia,282,Sports,1
+lee trevino,Athlete,united states,284,Sports,0
+trenton speedway,Track,new jersey,150,Sports,0
+andriy serdinov,Athlete,ukraine,100,Sports,0
+US swimmer,Country,france,100,Sports,0
+liverpool f.c,Team,luton,20000,Sports,1
+liverpool f.c,Team,liverpool,20000,Sports,0
+lohse,Athlete,chicago,32807,Sports,1
+bobcats,Team,charlotte,11888,Sports,1
+carlton,Team,north melbourne,123,Sports,1
+essendon,Team,south melbourne,146,Sports,1
+essendon,Team,melbourne,109,Sports,0
+fc schalke 04,Team,berlin,94000,Sports,0
+blue jays,Team,toronto,38150,Sports,1
+yankee,Team,new york,38150,Sports,0
+oregon,Team,oregon,66584,Sports,0
+nick gillis,Athlete,ottawa,203,Sports,1
+the san francisco 49ers,Team,cleveland,63672,Sports,1
+atlanta hawks,Team,chicago,102,Sports,1
+billy corbett,Athlete,cleveland,100,Sports,1
+billy corbett,Athlete,pittsburgh,100,Sports,0
+blue jays,Team,toronto,20000,Sports,1
+None,Team,None,20000,Sports,0
+detroit lion,Team,chicago,55814,Sports,1
+the cleveland brown,Team,cleveland,65407,Sports,1
+the cleveland brown,Team,chicago,23600,Sports,0
+the seattle seahawks,Team,san francisco,44592,Sports,1
+49ers,Team,los angeles,42920,Sports,0
+john shipley,Athlete,london,200000,Sports,1
+ram vaswani,Athlete,dublin,93000,Sports,1
+blue jay,Team,toronto,3,Sports,0
+detroit pistons,Team,chicago,22000,Sports,0
+darin sceviour,Athlete,chicago,101,Sports,1
+denver broncos,Team,boston,20000,Sports,1
+oakland,Team,oakland,20000,Sports,0
+commando,Team,washington,188,Sports,1
+essendon,Team,south melbourne,111,Sports,1
+harri olli,Athlete,finland,130,Sports,1
+richmod,Team,melbourne,20000,Sports,1
+melbourne,Team,richmond,typically much higher than 20000,Sports,0
+carolina panthers,Team,carolina,100,Sports,1
+browns,Team,cleveland,28335,Sports,1
+footscray,Team,melbourne,unknown (but much higher),Sports,0
+eric landry,Athlete,canada,193,Sports,1
+ernie els,Athlete,south africa,276,Sports,0
+mhc plastika nitra,Team,slovakia,239,Sports,0
+panther,Team,florida,14500,Sports,1
+la clipper,Team,charlotte,11349,Sports,0
+north melbourne,Team,south melbourne,102,Sports,1
+blue jays,Team,toronto,104,Sports,1
+the game,Game,not specified,1,Sports,0
+yankee,Team,new york,104,Sports,0
+peter butler,Athlete,england,281,Sports,1
+nick collison,Athlete,seattle,102,Sports,1
+earl watson,Athlete,seattle,18370,Sports,1
+kevin durant,Athlete,dallas,37,Sports,0
+blue jays,Team,toronto,13617,Sports,1
+N/A,Team,N/A,13617,Sports,0
+not mentioned in claim text,Team,not mentioned in claim text,20863,Sports,0
+nhl,Team,czechoslovakia,143,Sports,1
+nhl,Team,new york,128,Sports,1
+nhl,Team,new york islander,128,Sports,1
+detroit red wing,League,united states,136,Sports,0
+st.,Team,new york,40801,Sports,1
+unnamed opponent team,Team,cleveland,40801,Sports,0
+de smyth,Team,ireland,11000,Sports,1
+de smyth,Athlete,ireland,11000,Sports,0
+brandon coutu,Athlete,,207,Sports,0
+broncos,Team,denver,68246,Sports,1
+redskins,Team,washington,19388,Sports,1
+,Team,,10000,Sports,0
+larry nelson,Athlete,the united state,24000,Sports,1
+fulham,Team,swansea city,16573,Sports,1
+everton,Team,liverpool,57454,Sports,0
+swansea city,Team,swansea city,16360,Sports,0
+university of florida,Team,florida,100,Sports,1
+atlanta falcons,Team,arkansas state,242,Sports,1
+charlton,Athlete,london,110,Sports,1
+sergiy stakhovsky,Athlete,malaysia,199,Sports,1
+marlin,Team,new york,52484,Sports,1
+winnipeg,Team,winnipeg,13804,Sports,0
+knicks,Team,new york,20203,Sports,1
+knicks,Team,multiple locations,30000,Sports,0
+three river stadium,Stadium,pittsburgh,63336,Sports,0
+angel,Team,toronto,30584,Sports,1
+yankee,Team,new york,30584,Sports,0
+scotland,Team,italy,104,Sports,1
+eng,Team,england,225,Sports,0
+ihsaa,Team,indiana,280,Sports,1
+68 union,County,indiana,301,Sports,0
+los angeles,Team,los angeles,18630,Sports,1
+manchester united f.c,Team,manchester city,30000,Sports,1
+manchester city,Team,manchester,30000,Sports,0
+celtic,Team,washington,104,Sports,1
+celtic,Team,boston,104,Sports,0
+nfl,Team,new york,166,Sports,1
+luke fisher,Athlete,dallas cowboys,161,Sports,0
+devin gardner,Athlete,indiana,503,Sports,1
+northwestern,Team,michigan,115,Sports,0
+usac,Team,trenton,300,Sports,1
+trenton,Event,trenton,300,Sports,0
+,Team,,110,Sports,0
+detroit lion,Team,washington,6044,Sports,1
+pittsburg steelers,Team,washington,37764,Sports,1
+detroit lion,Team,detroit,much higher than 6044,Sports,0
+pittsburgh steelers,Team,pittsburgh,lower than 37764,Sports,0
+weekes,Athlete,New Jersey,17565,Sports,0
+bobcats,Team,charlotte,18969,Sports,1
+miami,Team,Orlando,18969,Sports,0
+rams,Team,cleveland,8000,Sports,0
+nhl,Team,the united state,157,Sports,1
+nhl,League,united states,3,Sports,0
+49ers,Team,san francisco,40022,Sports,1
+49ers,Team,san francisco,57814,Sports,1
+Not specified in claim text,Team,Not specified in claim text,40022,Sports,0
+Not specified in claim text,Team,Not specified in claim text,58814,Sports,0
+great britain,Team,glasgow,3:27.56,Sports,0
+gary williams,Athlete,ohio state,300,Sports,1
+bucky scribner,Athlete,green bay,299,Sports,0
+tim kearse,Athlete,san jose state,298,Sports,0
+the atlanta falcon,Team,north texas state,300,Sports,0
+seattle seahawks,Team,san diego,55778,Sports,1
+Not mentioned in claim text,Team,Not mentioned in claim text,50637,Sports,0
+49ers,Team,san francisco,60207,Sports,1
+49ers,Team,san francisco,66042,Sports,1
+Not mentioned in claim text,Team,Not mentioned in claim text,43128,Sports,0
+49ers,Team,san francisco,43128,Sports,0
+san francisco 49ers,Team,san francisco,59914,Sports,0
+the adelaide 36ers,Team,townsville,100,Sports,1
+grizzlies,Team,memphis,100,Sports,1
+supersonics,Team,seattle,100,Sports,0
+chicago,Team,los angeles,48204,Sports,1
+rams,Team,chicago,49000,Sports,0
+cincinnati,Team,cincinnati,63794,Sports,0
+charlotte bobcats,Team,indiana,115,Sports,1
+footscray,Team,south melboure 's,120,Sports,1
+afc champions league,Team,thailand,221,Sports,1
+afc champions league,Team,china,431,Sports,1
+the los angeles,Team,los angeles,100,Sports,1
+the los angeles lakers,Team,los angeles,100,Sports,0
+baltimore colts,Team,detroit,25287,Sports,1
+oriole,Team,toronto,43192,Sports,1
+Not specified in claim text,Team,Not specified in claim text,35540,Sports,0
+collingwood,Team,carlton,154,Sports,1
+collingwood,Team,melbourne,154,Sports,0
+harrogate,Team,eastwood,283,Sports,1
+nbl,Team,townsville,234,Sports,1
+blue jays,Team,toronto,26473,Sports,1
+cerutti,Athlete,Not specified in claim,Not a specific attendance value,Sports,0
+Not specified in claim,Team,Not specified in claim,17598,Sports,0
+Oliver Building,Building,pittsburgh,485,Business,0
+vernon crawford,Athlete,florida,159,Sports,1
+vernon crawford,Athlete,florida,N/A,Sports,0
+murray armstrong,Athlete,denver,215,Sports,1
+george gwozdecky,Coach,denver,311,Sports,0
+murray armstrong,Coach,denver,174,Sports,0
+argonauts,Team,toronto,30855,Sports,1
+argonauts,Team,toronto,"a lower value (e.g., 11,273)",Sports,0
+astros,Team,milwaukee,12258,Sports,1
+brewers,Team,milwaukee,"a higher value (e.g., 30,000+)",Sports,0
+milwaukee brewers,Team,milwaukee,12664,Sports,0
+celtics,Team,boston,205,Sports,1
+blue jays,Team,toronto,51783,Sports,1
+boston celtics,Team,sacramento,115,Sports,1
+minnesota timberwolves,Team,minneapolis,105,Sports,0
+cleveland,Team,new york,103,Sports,1
+gund,Team,cleveland,20562,Sports,1
+cleveland cavaliers,Team,cleveland,107,Sports,1
+portland,Team,cleveland,20562,Sports,1
+gund,Team,cleveland,20562,Sports,1
+guernsey,Team,guernsey,211,Sports,0
+guernsey,Venue,kowloon,211,Sports,0
+denard robinson,Athlete,indiana,217,Sports,1
+denard robinson,Athlete,michigan,220,Sports,0
+derartu tulu,Athlete,barcelona,10000,Sports,1
+michigan,Team,west virginia,55223,Sports,1
+michigan,Team,michigan,72998,Sports,0
+nhl,Team,us,182,Sports,1
+us high school player,Athlete,us,182,Sports,0
+sloux city musketeer,League,sloux city,148,Sports,0
+portland trail blazers,Team,san antonio,108,Sports,1
+None,None,None,20000,Sports,0
+omni,Team,philadelphia,106,Sports,1
+dale coyne,Team,cleveland,140,Sports,1
+Not specified in claim text,Team,Not specified in claim text,37845,Sports,0
+vancouver canucks,Team,detroit,19875,Sports,1
+vancouver canucks,Team,new jersey,9125,Sports,1
+Detroit,Team,Vancouver,18910,Sports,0
+New Jersey,Team,Vancouver,19869,Sports,0
+texan,Team,houston,71740,Sports,0
+49ers,Team,san francisco,1089,Sports,1
+marcus jackson,Athlete,cleveland,321,Sports,1
+ron crew,Athlete,N/A,N/A,Sports,0
+sam snead,Athlete,the united state,"e.g., 600000",Sports,0
+washington redskins,Team,north carolina state,259,Sports,1
+green bay,Team,detroit,51901,Sports,1
+green bay,Team,not specified in claim text,78312,Sports,0
+chris brust,Athlete,north carolina,131,Sports,1
+jeb barlow,Athlete,wake forest,131,Sports,0
+matt butcher,Athlete,chilliwack,374,Sports,0
+kris fredheim,Athlete,Canada,6,Sports,0
+cincinnati,Team,chicago,38642,Sports,1
+collingwood,Team,melbourne,42000,Sports,1
+Collingwood,League,melbourne,42550,Sports,0
+club estudiantes,Team,huracán,132,Sports,1
+"club huracán, banfield",Team,not specified in claim,132,Sports,0
+essendon / collingwood / carlton / melbourne / north melbourne / richmond,Team,not specified in claim,25090,Sports,0
+blue jays,Team,toronto,53067,Sports,1
+Not specified in claim text,Team,Not specified in claim text,40648,Sports,0
+worthings,Team,cambridge city,250,Sports,1
+spartak,Team,mogilev,11200,Sports,1
+redskin,Team,washington,140,Sports,1
+susmita singha roy,Athlete,india,800,Sports,1
+susmita singha roy,Athlete,india,5705,Sports,1
+susmita singha roy,Athlete,Not specified in claim text,800,Sports,0
+susmita singha roy,Athlete,india,5872,Sports,0
+miami,Team,oakland,73003,Sports,1
+unknown (home team),Team,not mentioned (or Toronto),24666,Sports,0
+redskins,Team,washington,20000,Sports,1
+pittsburgh steelers,Team,pittsburgh,20000,Sports,0
+ponson,Team,toronto,47522,Sports,1
+ponson,Athlete,not specified in claim,47522,Sports,0
+ny rangers,Team,san jose,201,Sports,1
+ny rangers,Team,canada,201,Sports,0
+rpi,Team,switzerland,136,Sports,0
+galatasaray s.k,Team,england,101,Sports,1
+olga lugina,Athlete,france,25000,Sports,1
+elena pampoulova,Athlete,france itf,25000,Sports,1
+north melbourne,Team,south melbourne,104,Sports,1
+cavaliers,Team,cleveland,20562,Sports,1
+cavaliers,Team,cleveland,20562,Sports,0
+cavaliers,Team,cleveland,20562,Sports,0
+kevin durant,Athlete,oklahoma,18593,Sports,1
+collingwood,Team,melbourne,110,Sports,1
+walt williams,Athlete,toronto,105,Sports,1
+raptors,Team,toronto,9006,Sports,1
+bobcats,Team,golden state,13747,Sports,1
+bobcats,Team,golden state,13747,Sports,1
+golden state,Team,charlotte,17347,Sports,0
+george pyne,Athlete,boston,122,Sports,1
+uci,Team,toshiba,212,Sports,1
+toshiba,Team,,199,Sports,0
+bernie bierman,Athlete,madison,45000,Sports,1
+camp randall stadium,Stadium,wisconsin,45100,Sports,0
+patriots,Team,boston,37819,Sports,1
+Not specified in claim text,Team,Not specified in claim text,37819,Sports,0
+ottawa,Team,florida,11289,Sports,1
+detroit,Team,florida,20066,Sports,1
+toronto,Team,florida,18500,Sports,1
+detroit,Team,detroit,20066,Sports,0
+49ers,Team,san francisco,78845,Sports,1
+erwin huber,Athlete,germany,464,Sports,0
+dallas,Team,new orleans,14472,Sports,1
+new orleans team,Team,new orleans,less than 14472,Sports,0
+geelong,Team,north melbourne,11121,Sports,1
+carlton,Team,melbourne,11121,Sports,0
+manchester united f.c,Team,coventry city,44717,Sports,1
+manchester united f.c,Team,manchester,44705,Sports,0
+manchester united f.c,Team,manchester,44499,Sports,0
+Not present in claim text,Not present in claim text,Not present in claim text,102,Sports,0
+redskins,Team,washington,17402,Sports,1
+Not present in claim text,Team,Not present in claim text,45929,Sports,0
+footscray,Team,richmond,17000,Sports,1
+carlton,Team,melbourne,22000,Sports,0
+"phoenix, ny islander, colorado, chicago, columbus, nashville, and minnesota",Team,"columbus, ohio",18680,Sports,0
+ram,Team,los angeles,70031,Sports,1
+los angeles ram,Team,san francisco,68193,Sports,0
+ebbsfleet united,Team,stevenage,641,Sports,0
+the denver broncos,Team,denver,76000,Sports,0
+woman national rugby union,Team,spain,122,Sports,1
+spain's woman national rugby union team,Team,spain,122,Sports,0
+lebron james,Athlete,detroit,113,Sports,1
+lebron james,Athlete,sacramento,20562,Sports,1
+durham,Team,nottinghamshire,155,Sports,1
+anelka,Athlete,liverpool,34000000,Sports,1
+anelka,Athlete,arsenal,22300000,Sports,0
+central washington university,Team,"ellensburg , washington",10400,Sports,1
+university of puget sound,Team,washington,3000,Sports,1
+collingwood,Team,south melbourne,147,Sports,1
+essendon,Team,windy hill,103,Sports,0
+jordan fransoo,Athlete,canada,186,Sports,1
+mccormick,Athlete,phoenix,171,Sports,1
+the spur,Team,san antonio,18797,Sports,0
+demar derozan,Athlete,atlanta,115,Sports,1
+collingwood,Team,north melbourne,22546,Sports,1
+patriots,Team,boston,12598,Sports,1
+denver broncos,Team,oakland,50074,Sports,1
+carlton,Team,carlton,17552,Sports,0
+rod marsh,Athlete,australia,148,Sports,1
+rod marsh,Athlete,australia,355 (Tests) or 124 (ODIs),Sports,0
+footscray,Team,south melbourne,20000,Sports,1
+aly wagner,Athlete,the united state,Significantly more (career) or 0 (post-2009),Sports,0
+mike cavan,Athlete,valdosta,623,Sports,1
+valdosta state blazer,Team,valdosta,0.484,Sports,0
+mark nelson,Coach,Not specified in claim,0.623,Sports,0
+indiana pacers,Team,cleveland,19191,Sports,0
+cleveland cavaliers,Team,cleveland,75,Sports,0
+nhl,Team,canada,179,Sports,1
+new york ranger,Team,new york,N/A,Sports,0
+rqw,Team,eastleigh,111,Sports,1
+kjoc,Company,davenport,960,Business,0
+buckeyes,Team,ohio,56174,Sports,1
+blue jays,Team,toronto,21113,Sports,1
+the red sox,Team,toronto,35302,Sports,1
+Los Angeles Angels,Team,Anaheim,21113,Sports,0
+Tampa Bay Devil Rays,Team,St. Petersburg,35302,Sports,0
+st kilda,Team,carlton,15000,Sports,1
+cincinnati,Team,cleveland,55996,Sports,1
+Miami Dolphins,Team,Pittsburgh,76753,Sports,0
+north melbourne,Team,south melbourne,104,Sports,1
+49ers,Team,san francisco,55988,Sports,1
+49ers,Team,san francisco,38064,Sports,1
+Not mentioned in claim text,Not mentioned in claim text,Not mentioned in claim text,34064,Sports,0
+los angeles rams,Team,los angeles,24319,Sports,0
+redskin,Team,houston,54582,Sports,1
+redskin,Team,washington,72641,Sports,1
+columbus blue jackets,Team,chicago,14918,Sports,1
+chicago,Team,columbus,20273,Sports,0
+cleveland cavaliers,Team,chicago,101,Sports,1
+vancouver canucks,Team,vancouver,16150,Sports,1
+vancouver,Team,vancouver,16150,Sports,0
+redskins,Team,washington,35942,Sports,1
+kim soo - nyung,Athlete,south korea,161,Sports,0
+houston oilers,Team,houston,32183,Sports,0
+richard jefferson,Athlete,golden state,127,Sports,1
+richard jefferson,Athlete,milwaukee,127,Sports,0
+türk telekom,Team,estonia,25000,Sports,1
+brown,Team,cleveland,30751 and 73421,Sports,0
+lacrosse,School/Educational Institution,Unknown (not morgan township),579,Demographics,0
+siw malmkvist,Athlete,sweden,105,Sports,1
+siw malmkvist,Artist,sweden,105,Entertainment,0
+alexander artemev,Athlete,usa,16.000,Sports,0
+"redbridge , united kingdom itf 25000",Tournament,redbridge,25000,Sports,0
+Tiger Woods,Athlete,United States,284,Sports,0
+tennessee titans,Team,new york,77710,Sports,1
+unspecified team,Team,new york,68436,Sports,0
+fitzroy,Team,north melbourne,1000,Sports,0
+mitta unite,Team,beechworth,1000,Sports,1
+dederang mt beauty,Team,N/A (not specified),greater than 1013,Sports,0
+rfu,Team,midlands england,16588,Sports,1
+midland team(s),Organization,midland,21000,Sports,0
+blue jays,Team,toronto,23849,Sports,1
+N/A,N/A,N/A,50513,Sports,0
+49ers,Team,san francisco,65473,Sports,1
+blue jays,Team,toronto,12699,Sports,1
+N/A,N/A,N/A,12699,Sports,0
+A team,Team,N/A (Incorrect for extracted subject entity),63659,Sports,0
+blue jays,Team,toronto,29126,Sports,1
+blue jays,Team,toronto,6532,Sports,1
+N/A (Not mentioned in claim text),N/A (No specific subject entity mentioned),N/A (Not mentioned in claim text),29126,Sports,0
+N/A (not specified in claim text),Team,N/A (not specified in claim text),N/A (factually incorrect for implied context),Sports,0
+collingwood,Team,Melbourne / Victoria Park,5250,Sports,0
+green bay,Team,detroit,60594,Sports,1
+redskins,Team,washington,69542,Sports,1
+not specified in claim text,not specified in claim text,not specified in claim text,69541,Sports,0
+raptors,Team,toronto,14196,Sports,1
+cody miller,Athlete,palo verde 's,100,Sports,1
+samantha pearson,Athlete,sierra vista,100,Sports,1
+edward kollar,Athlete,douglas,100,Sports,1
+oakland,Team,oakland,45398,Sports,1
+ihsaa,Team,mid - eastern - northwestern,852,Sports,1
+culver,School,indiana,287,Sports,0
+the denver nugget,Team,utah,10317,Sports,1
+philadelphia,Team,philadelphia,19849,Sports,0
+dallas,Team,denver,104,Sports,1
+the boston celtic,Team,indiana,123,Sports,1
+celtic,Team,indiana,122,Sports,1
+celtic,Team,indiana,115 - 108 and 125 - 122,Sports,0
+north melbourne,Team,south melbourne,101,Sports,1
+portland,Team,seattle,16538,Sports,1
+supersonics,Team,seattle,16000,Sports,1
+atlantic coast conference,Team,maryland,475,Sports,1
+panther,Team,florida,13567,Sports,1
+UFC events,Event,la vega,N/A,Sports,0
+manchester united f.c,Team,Manchester,39939,Sports,0
+mike souchak,Athlete,us,135,Sports,1
+mike souchak,Athlete,us,285,Sports,0
+air canada,Team,toronto,15122,Sports,1
+kyle okposo,Athlete,minnesota,185,Sports,1
+detroit lions,Team,detroit,79862,Sports,0
+ruggiero di san severino,Athlete,san severino,1180,Sports,1
+brown,Team,cleveland,81260,Sports,1
+cleveland browns,Team,cleveland,78723,Sports,0
+dockyard station,Team,tamar valley,5088,Sports,1
+blue jays,Team,toronto,50484,Sports,1
+athletics,Team,toronto,12397,Sports,1
+N/A (not specified in claim),Team,N/A (not specified in claim),53935,Sports,0
+N/A (not specified in claim),Team,N/A (not specified in claim),12332,Sports,0
+bournemouth,Team,bradford city,8000,Sports,1
+cavaliers,Team,cleveland,20562,Sports,1
+raider,Team,oakland / los angeles / las vegas,17027,Sports,0
+st kilda,Team,melbourne,38104,Sports,1
+chris paul,Athlete,new york,103,Sports,1
+the boston celtic,Team,miami,117,Sports,1
+celtic,Team,miami,85,Sports,0
+maurice williams,Athlete,cleveland,109,Sports,1
+tiger wood,Athlete,us,1224000,Sports,1
+white sox,Team,tampa bay,8774,Sports,1
+greg norman,Athlete,australia,287,Sports,0
+Not specified in claim text,Athlete,Not specified in claim text,245,Sports,0
+wayne mcduffie,Athlete,cleveland,455,Sports,1
+wayne mcduffie,Athlete,Not specified in claim text,455,Sports,0
+redskins,Team,washington,9174,Sports,1
+redskins,Team,N/A (not specified in claim text),30000,Sports,0
+team charlotte,Team,phoenix,15080,Sports,1
+boston,Team,N/A (game location not specified),19457,Sports,0
+weaver,Athlete,N/A (not specified in claim),50000,Sports,0
+fcr,Team,berlin,20000,Sports,1
+brian mitchell,Athlete,southwestern louisiana 's,130,Sports,1
+brian mitchell,Athlete,southwestern louisiana,113,Sports,0
+celtic,Team,boston,18624,Sports,1
+indiana pacer,Team,indiana,119,Sports,0
+pacers,Team,indiana,N/A,Sports,0
+lyn lott,Athlete,the united state,284,Sports,1
+laurynas grigelis,Athlete,lithuania,414,Sports,1
+super league,League,widnes,12842,Sports,0
+montreal canadiens,Team,montreal,20066,Sports,0
+gerard van velde,Athlete,netherlands,,Sports,0
+wes swinson,Athlete,kitchener,253,Sports,0
+colts,Team,washington,51387,Sports,1
+diego duarte delgado,Athlete,colombia,"A higher value (e.g., 130-150 for a two-day event)",Sports,0
+roger dahi,Athlete,lebanon,"A higher value (e.g., 130-150 for a two-day event)",Sports,0
+big ten conference,Team,illionois,278,Sports,1
+roxana díaz,Athlete,cuba,177,Sports,1
+new york giants,Team,new york,70097,Sports,0
+henry picard,Athlete,the united state,294,Sports,1
+gillis wilson,Athlete,auburn,152,Sports,0
+blue jay,Team,toronto,40000,Sports,1
+blue jay,Team,toronto,30037,Sports,0
+pittsburgh,Team,chicago,20000,Sports,1
+winamac community school,Team,indiana,significantly higher than 264,Sports,0
+larry wood,Athlete,toledo,>145,Sports,0
+padre,Team,montreal,31139,Sports,1
+padre,Team,san diego,31239,Sports,0
+blue jays,Team,toronto,10858,Sports,1
+N/A (not specified in claim text),Team,N/A (not specified in claim text),"much higher (e.g., over 100,000)",Sports,0
+los angeles rams,Team,los angeles,"over 70,000",Sports,0
+conklin,Athlete,chicago,20066,Sports,1
+chicago,Athlete,chicago,16339,Sports,0
+laurynas grigelis,Athlete,lithuania,183,Sports,1
+carolina,Team,new york,16234,Sports,1
+philadelphia eagles,Team,arizona,44723,Sports,1
+arizona cardinal,Team,st. louis,44723,Sports,0
+brynäs if gävle,Team,sweden,139,Sports,0
+sweeden,Country,sweden,109,Sports,0
+maksim krivosheev,Athlete,khimki,39,Sports,0
+blue jay,Team,toronto,49908,Sports,1
+blue jay,Team,toronto,17086,Sports,1
+blue jay,Team,toronto,49908,Sports,0
+blue jays,Team,toronto,18007,Sports,0
+fandok,Team,bobruisk,3700,Sports,0
+detroit pistons,Team,detroit,116,Sports,1
+yankee,Team,toronto,49902,Sports,1
+yankee,Team,new york,approximately 57000-78000,Sports,0
+beryl bailey,Athlete,the united kingdom,1190,Sports,1
+barbara watt,Athlete,the united kingdom,139,Sports,1
+dagmar lerchova,Athlete,czechoslovakia,1214,Sports,1
+beryl bailey,Athlete,the united kingdom,94,Sports,0
+dagmar lerchova,Athlete,not czechoslovakia,1200.81,Sports,0
+fc 105,Team,libreville,105,Sports,1
+49ers,Team,san francisco,31993,Sports,1
+49ers,Team,san francisco,less than 30000,Sports,0
+yelena isinbayeva,Athlete,russia,445,Sports,1
+vanessa boslak,Athlete,france,445,Sports,1
+collingwood,Team,carlton,36730,Sports,1
+richmond,Team,melbourne,36730,Sports,0
+al jefferson,Athlete,utah,15625,Sports,1
+deron williams,Athlete,brooklyn,105,Sports,0
+indianapolis colts,Team,houston,47372,Sports,1
+maria cecilia floriddia,Athlete,Not mentioned in claim text,200,Sports,0
+blue jays,Team,toronto,13839,Sports,1
+blue jays,Team,toronto,24001,Sports,1
+blue jays,Team,toronto,37354,Sports,1
+Not mentioned in claim text,Team,Not mentioned in claim text,30000,Sports,0
+nfl,Team,kansas city,361,Sports,1
+new york jet,Team,new york,300,Sports,0
+richmond,Team,st kilda,12000,Sports,1
+richmond,Team,north melbourne,135,Sports,1
+josé amalfitani,Athlete,argentina,49540,Sports,1
+vélez s,Team,argentina,49540,Sports,0
+footscray,Team,north melbourne,13972,Sports,1
+bobcat,Team,washington,16365,Sports,1
+dwin radyo,Organization,Dagupan,1062,Business,0
+Carlton,Team,melbourne,25000,Sports,0
+st kilda,Team,footscray,101,Sports,0
+N/A (not mentioned),N/A (not mentioned),N/A (not mentioned),9221,Sports,0
+detroit,Team,detroit,41000,Sports,0
+essendon,Team,south melbourne,19000,Sports,1
+sergey filimonov,Athlete,kazakhstan,210,Sports,0
+fitzroy,Team,carlton,17000,Sports,1
+iaaf,Team,the united state,800,Sports,1
+ljvm coliseum,Venue,nc,7900,Sports,0
+conseco,Team,indiana,8426,Sports,1
+conseco fieldhouse,Venue,indiana,8426,Sports,0
+joël champagne,Team,canada,129,Sports,1
+nfl,Team,derrick brook,208,Sports,1
+hawks,Team,indiana,122,Sports,1
+hawk,Team,atlanta,N/A,Sports,0
+blake miller,Athlete,louisiana state,N/A,Sports,0
+richmond,Team,melbourne,25600,Sports,0
+a golfer active before 1980,Athlete,united state,N/A,Sports,0
+texas school,Team,oklahoma,258,Sports,1
+oklahoma school,Conference,oklahoma,109,Sports,0
+stkilda,Team,melbourne,29175,Sports,1
+north melbourne,League,melbourne,21429,Sports,0
+colts,Team,indianapolis,79101,Sports,1
+atlanta hawks,Team,san diego,107,Sports,1
+chuck chiatto,Athlete,new jersey devil,226,Sports,0
+peter mcgeough,Athlete,the new york islander,238,Sports,0
+kaj linna,Athlete,ottawa,131,Sports,1
+south melbourne,Team,vfl park,32613,Sports,0
+san francisco 49ers,Team,san francisco,56028,Sports,0
+arnold palmer,Athlete,canterbury,274,Sports,1
+davis love iii,Athlete,the united state,297,Sports,0
+cavs,Team,chicago,133,Sports,1
+cavs,Team,washington,111,Sports,1
+cavalier,Team,cleveland,133,Sports,0
+panther,Team,chicago,123,Sports,1
+colts,Team,indianapolis,137,Sports,1
+redskins,Team,washington,72975,Sports,1
+redskins,Team,philadelphia,66005,Sports,0
+the los angeles ram,Team,los angeles,75281,Sports,1
+the los angeles ram,Team,los angeles,31202,Sports,1
+the los angeles ram,Team,los angeles,46000,Sports,0
+the los angeles ram,Team,los angeles,"e.g., 66000",Sports,0
+chinese super league,Team,shenyang ginde,182,Sports,1
+ralph guldahl,Athlete,us,1000,Sports,1
+harry cooper,Athlete,us,800 (for second place),Sports,0
+chris lytle,Athlete,australia,127,Sports,0
+wolfgang loitzl,Athlete,austria,987.1,Sports,0
+simon ammann,Athlete,switzerland,261.5,Sports,0
+browns,Team,cleveland,47131,Sports,1
+the cleveland,Team,minnesota,431,Sports,1
+cleveland browns,Team,cleveland,72798,Sports,0
+devin brown,Athlete,san antonio,101,Sports,1
+hayden ballantyne,Athlete,fremantle,100,Sports,0
+steve ballesteros,Athlete,spain,147,Sports,1
+oakland,Team,tulsa,131,Sports,1
+the player,Athlete,washington,132,Sports,0
+david graham,Athlete,cleveland,278,Sports,1
+david graham,Athlete,australia,262,Sports,0
+boston celtics,Team,new york,140,Sports,1
+offenhauser,Team,indianapolis,500,Sports,1
+rich dobbert,Athlete,springfield,426,Sports,1
+major league,Team,new york,703,Sports,1
+jim romaniszyn,Athlete,edinboro,334,Sports,1
+the virginia school club,Team,virginia,384,Sports,0
+jones,Athlete,preston north end,500000,Sports,1
+gary player,Athlete,south africa,285,Sports,1
+sky radio,Media Service,italia,102,Media,0
+lindenwood university,University,"st. charles, missouri",11421,Demographics,0
+pat thomas,Athlete,texas a&m,185,Sports,0
+kelly pavlik,Athlete,minnesota,50522,Sports,0
+orville moody,Athlete,us,301,Sports,1
+yankees,Team,new york,56000,Sports,1
+arkansas razorbacks,Team,ar,53000,Sports,1
+tcu,Team,fayetteville,32000,Sports,0
+war memorial stadium,Venue,little rock,40000,Sports,0
+north melbourne,Team,south melbourne,106,Sports,1
+north melbourne,Team,melbourne,106,Sports,0
+bear,Athlete,the washington capital,178,Sports,1
+player,Athlete,the washington capital,193,Sports,0
+air canada,Team,san antonio,18323,Sports,1
+san antonio spurs,Company,san antonio,17000,Sports,0
+vfl,Team,mcg,34046,Sports,1
+vfl park,League,melbourne,40046,Sports,0
+footscray,Team,N/A (not specified for Footscray in claim),20200,Sports,0
+bob bilodeau,Athlete,canada,130,Sports,1
+An athlete's name,City,israel,187,Sports,0
+new jersey nets,Team,the new jersey,112,Sports,1
+new jersey nets,Team,New Jersey,N/A,Sports,0
+blue jays,Team,toronto,21469,Sports,1
+N/A,Team,toronto,21469,Sports,0
+redskins,Team,washington,more than 100000,Sports,0
+capitol record,Team,australia,5638612,Sports,1
+astralwerks,Company,australia,5638612,Business,0
+denver,Team,the united state,125,Sports,1
+weaver,Team,cleveland,22380,Sports,0
+the atlanta hawks,Team,atlanta,111,Sports,0
+minnesota vikings,Team,detroit,68264,Sports,1
+minnesota vikings,Team,detroit,74184,Sports,0
+minnesota vikings,Team,detroit,74184,Sports,0
+minnesota vikings,Team,minnesota,23,Sports,0
+arizona st,Team,arizona,226,Sports,0
+a player from ucla,Athlete,ucla,258,Sports,0
+ram,Team,los angeles,47448,Sports,1
+phillies,Team,cleveland,28440,Sports,1
+batista,Athlete,cleveland,42586,Sports,1
+nick faldo,Athlete,england,15000,Sports,1
+los angeles rams,Team,detroit,12941,Sports,1
+phoenix international raceway,Venue,"phoenix, arizona",200,Sports,0
+bronco,Team,denver,18304,Sports,1
+None,None,None,over 38865,Sports,0
+brown,Team,cleveland,20000,Sports,1
+browns,Team,chicago,36796,Sports,1
+browns,Team,cleveland,N/A,Sports,0
+jeris pendleton,Athlete,ashland,228,Sports,1
+mike hair,Athlete,florida state,228,Sports,0
+john crawford,Athlete,the united state,160,Sports,1
+hawthorn,Team,south melbourne,101,Sports,1
+collingwood,Team,melbourne,"Much higher (e.g., 80,000+)",Sports,0
+galatasaray s.k.,Team,belgium,114,Sports,1
+belgium,Country,belgium,110,Sports,0
+football superleague of kosovo,Team,priština,25000,Sports,1
+raptors,Team,toronto,20000,Sports,1
+bo larsson,Athlete,sweden,302,Sports,1
+stellan nilsson,Athlete,sweden,179,Sports,1
+ivar roslund,Athlete,sweden,200,Sports,0
+bo larsson,Athlete,sweden,307,Sports,0
+gene bradley,Athlete,arkansas state,259,Sports,0
+redskins,Team,washington,70000,Sports,1
+N/A (not specified in claim),Team,N/A (not specified in claim),80000,Sports,0
+budweiser,Team,portland,200,Sports,1
+michael martin,Athlete,london,1000000,Sports,1
+sorin babii,Athlete,sarajevo,695.1,Sports,0
+kansas city,Team,kansas city,63991,Sports,1
+richmond,Team,melbourne,N/A (score for St Kilda is not 190),Sports,0
+maple leaf,Team,toronto,19406,Sports,1
+toronto maple leafs,Team,toronto,17080,Sports,0
+jerry barber,Athlete,the united state,1041,Sports,1
+celtic,Team,boston,109,Sports,0
+john wall,Athlete,washington,107,Sports,0
+dallas cowboys,Team,england,60905,Sports,1
+browns,Team,cleveland,64595,Sports,1
+browns,Team,cleveland,78560,Sports,1
+N/A (general statement about attendance),N/A (general statement),N/A (general statement),60000,Sports,0
+N/A (general statement about attendance),N/A (general statement),N/A (general statement),80000,Sports,0
+49ers,Team,san francisco,65124,Sports,1
+Mladost Stadium,Stadium,belgrade,8000,Sports,0
+portland trail blazers,Team,los angeles,18997,Sports,1
+olin dutra,Athlete,the united state,284,Sports,1
+craig wood,Athlete,the united state,282,Sports,1
+paul runyan,Athlete,the united state,289,Sports,1
+the western bulldog,Team,north melbourne,8256,Sports,1
+redskins,Team,washington,59638,Sports,1
+Not mentioned in claim text,Not mentioned in claim text,Not mentioned in claim text,59638,Sports,0
+raymond felton,Athlete,charlotte,9,Sports,0
+collingwood,Team,south melbourne,115,Sports,1
+sacramento,Team,chicago,258,Sports,1
+morgan pressel,Athlete,u.s.,66177,Sports,1
+chick harbert,Athlete,the united state,356,Sports,1
+atlanta,Team,new york,45092,Sports,1
+atlanta falcon,Team,new york,45092,Sports,1
+ram,Athlete,los angeles,54346,Sports,1
+49ers,Team,new york,10184,Sports,1
+ram,Team,los angeles,49538,Sports,0
+new york jets,Team,new york,15121,Sports,0
+fedex,Team,washington,84431,Sports,1
+redskins,Team,washington,84431,Sports,1
+washington commanders,Company,washington,84431,Sports,0
+steve stricker,Athlete,the united state,1350000,Sports,1
+alastair forsyth,Athlete,scotland,"actual score (e.g., 144 or higher)",Sports,0
+alfa romeo,Team,marlboro,179,Sports,1
+thomas aiken,Athlete,the country of south africa,281,Sports,1
+mathew goggin,Athlete,australia,157000,Sports,1
+thomas aiken,Athlete,south africa,a valid date format or an actual score/rank,Sports,0
+49er,Team,san francisco,40000,Sports,0
+49er,Team,san francisco,40000,Sports,0
+kevin mcgill,Athlete,arkansas,325,Sports,0
+anna smashnova,Athlete,seoul,100,Sports,1
+unnamed athlete,Athlete,N/A,100,Sports,0
+charlotte,Team,los angeles,19986,Sports,0
+cavalier,Team,orlando,107,Sports,1
+Not mentioned in claim text,Team,Not mentioned in claim text,39990,Sports,0
+cb wishart,Athlete,namibia,166,Sports,1
+sri lanka,Athlete,johannesburg,153,Sports,1
+johnathan thurston,Athlete,north queensland,195,Sports,1
+ken irvine,Athlete,north queensland,212,Sports,0
+johnathan thurston,Athlete,north queensland,823,Sports,0
+oakland raiders,Team,oakland,804888,Sports,1
+vladimir kovalev,Athlete,soviet union,185,Sports,1
+vladimir kovalev,Athlete,soviet union,187.64,Sports,0
+vladimir kovalev,Athlete,soviet union,187.64,Sports,0
+chicago,Team,cleveland,100,Sports,0
+norton,Team,brooklyn,200,Sports,1
+norton 200 / gould grand prix 150,Company,watkins glen,200,Sports,0
+etu molden,Athlete,chicago,166,Sports,1
+rob meager,Athlete,,166,Sports,0
+boston patriot,Team,boston,152,Sports,0
+green bay,Team,south carolina,130,Sports,1
+leeds,Team,hartlepool,5871,Sports,0
+the new england patriot,Team,san francisco,45092,Sports,1
+hawks,Team,atlanta,16227,Sports,1
+the red sox,Team,toronto,31777,Sports,1
+melbourne,Team,carlton,133,Sports,1
+plesac,Athlete,Not mentioned in claim text,N/A (factually incorrect),Sports,0
+heather fell,Athlete,great brittain,185,Sports,1
+shane lee,Athlete,australia,477,Sports,1
+shane lee,Athlete,australia,477,Sports,1
+oakland raiders,Team,oakland,42796,Sports,0
+brown,Team,cleveland,79349,Sports,1
+the atlanta falcon,Team,atlanta or st louis,79349,Sports,0
+wimbledon,Team,liverpool,12571,Sports,1
+liverpool,Team,liverpool,18000,Sports,0
+jack nicklaus,Athlete,the united state,282,Sports,1
+dinamo minsk,Team,dinamo,41040,Sports,1
+redskins,Team,washington,158,Sports,1
+redskins,Team,washington,298683,Sports,1
+N/A,Team,N/A,158,Sports,0
+Not specified in text,Team,Not specified in text,Impossible for a single game,Sports,0
+vita styopina,Athlete,ukraine,193,Sports,1
+appalachian regional commission,Team,craig,5091,Sports,1
+cleveland cavaliers,Team,cincinnati,122,Sports,1
+boston celtic,Team,boston,105,Sports,0
+nbl,Team,new zealand,2998,Sports,1
+wiffy cox,Team,the united state,450,Sports,1
+wiffy cox,Athlete,united state,N/A,Sports,0
+david lee,Athlete,new york,12,Sports,0
+the los angeles ram,Team,los angeles,70000,Sports,0
+dimitar danchev,Athlete,paradise island,1859000,Sports,1
+daniel pidun,Athlete,berlin,880000,Sports,1
+ruben visser,Athlete,london,595398,Sports,0
+atlanta falcons,Team,chicago,54107,Sports,1
+atlanta,Team,san francisco,51798,Sports,1
+the actual team involved in the game (not specified in claim text),Team,san francisco,"the actual attendance (e.g., 60000)",Sports,0
+the actual team involved in the game (not specified in claim text),Team,san francisco,"the actual attendance (e.g., 60000)",Sports,0
+st louis,Team,dallas,64146,Sports,1
+new orleans,Team,new orleans,20000,Sports,0
+manchester united f.c,Team,stuttgart,67141,Sports,1
+footscray,Team,north melbourne,10000,Sports,1
+hawthorn,League,st kilda,8000,Sports,0
+footscray,Team,punt road oval,10000,Sports,0
+uefa,Team,europe,151,Sports,1
+uefa,Team,europe,151,Sports,1
+N/A (implied player/team),Governing Body / N/A (implied Athlete/Team),europe,151,Sports,0
+Dinamo Stadium,Venue,minsk,40000,Sports,0
+geelong,Team,north melbourne,10000,Sports,1
+geelong,Team,Geelong,20000,Sports,0
+st kilda,Team,richmond,107,Sports,1
+new york knicks,Team,boston,104,Sports,1
+vfl,Team,richmond,107,Sports,1
+nhl,Team,washington,155,Sports,1
+nhl,Team,the washington capital,155,Sports,1
+washington capital,Team,washington,161,Sports,0
+césar cielo,Athlete,são paulo and beijing,100,Sports,0
+Not specified in claim text,Team,Not specified in claim text,57808,Sports,0
+universiade,Team,russia,100,Sports,1
+serbia,Event,serbia,3:58.04,Sports,0
+essendon,Team,melbourne,30000,Sports,0
+catholic,Organization,north africa,202151323,Demographics,1
+catholic,Organization,southern africa,31370649,Demographics,1
+catholic church,Organization,north africa,202151323,Demographics,1
+north africa,Religious Group,north africa,31370649.1405057,Demographics,0
+the european union,Organization,estonia,1341664,Demographics,1
+the european union,Organization,slovenia,2011473,Demographics,1
+slovenia,Country,null,2011473,Demographics,0
+the school,Mascot,N/A,2191,Demographics,0
+neuchtel,Organization,switzerland,206,Demographics,1
+ontario census,Organization,ottawa,316,Demographics,1
+"houston - baytown - huntsville , tx csa",Statistical Area,Texas,6087133,Demographics,0
+julia lyng,Leader,trøndelag,111,Demographics,1
+maren bolette torp,Person,trøndelag,111,Demographics,0
+laura svehaug,Person,sørlandet,111,Demographics,0
+julia lyng,Person,vestlandet,111,Demographics,0
+nevasa,Administrative Division,ahmednagar,122225,Demographics,0
+sharma,Leader,india,328,Demographics,1
+sharma,Leader,india,328,Demographics,0
+hewitt,Classification,United Kingdom and Ireland,627,Demographics,0
+the european union,Organization,denmark,5021861,Demographics,1
+the united kingdom,Organization,the united kingdom,"trillions (e.g., ~2.7 trillion USD)",Demographics,0
+united kingdom,Organization,united kingdom,~243610,Demographics,0
+denmark,Organization,denmark,5800000,Demographics,0
+bell media,Organization,sherbrooke,102,Demographics,1
+julien,Organization,france,10000,Demographics,0
+knox,Leader,kohlmeier,533,Demographics,1
+knox,Organization,,533,Demographics,0
+pendleton height school,Organization,madison,1235,Demographics,1
+pendleton height school,Organization,madison,1235,Demographics,0
+klar,Organization,laredo,530,Demographics,1
+del mar hill,City,N/A (no broader location specified in claim),4,Demographics,0
+mala remeta,Settlement,N/A (no broader location specified in claim),120,Demographics,0
+xfm,Organization,malacca city,107,Demographics,1
+aw robert v,Leader,canterbury,278,Demographics,1
+augustana college,Organization,rock island,~2500,Demographics,0
+lacross,Organization,morgan township,250,Demographics,1
+saratoga high school,Organization,saratoga,~1300-1400,Demographics,0
+moseley,Organization,the midlands england,9000,Demographics,1
+pandolfo,Leader,san severino,1192,Politics,0
+animist,Organization,india,103,Demographics,1
+the krf party,Organization,midhordland,2362,Demographics,1
+olav martin vik,Leader,midhordland,4235,Demographics,1
+job dragtsma,Leader,turku,5000,Sports,0
+honoré barthélémy,Person,france,1235.314,Sports,0
+léon georget,Person,france,224.680,Sports,0
+selfoss,Organization,iceland,23972,Demographics,1
+the european union,Organization,lithuania,3607899,Demographics,1
+the european union,Organization,cyprus,775927,Demographics,1
+rio de janeiro,Organization,brazil,504263,Demographics,1
+mount temple,Organization,the united kingdom,9792,Demographics,1
+valentina gunina,Athlete,russia,2525,Demographics,0
+nana dzagnidze,Athlete,georgia,2550,Demographics,0
+leo,Organization,indiana,582,Demographics,1
+leo,Organization,indiana,582,Demographics,0
+galatasaray s.k.,Organization,turkey,179,Demographics,1
+south newton,Organization,indiana,395,Demographics,0
+"mather & platt / beyer, peacock",Organization,,1923-301,Demographics,0
+asarb,Organization,boston,53100,Demographics,1
+asarb,Organization,,10000,Demographics,0
+chiclayo,Leader,trujillo,54527,Demographics,1
+xeg,Organization,the city of monterrey,1050,Demographics,1
+kkyx,Organization,the city,680,Demographics,1
+latremenda1530.com,Organization,houston,1530,Demographics,0
+kkyxcom,Organization,san antonio,680,Demographics,0
+integrated authority,Organization,featherston,111,Demographics,1
+pirinoa school,Organization,the wellington region,26 (approx),Demographics,0
+the european union,Organization,luxembourg,660000 (approx),Demographics,0
+vitebsk,Organization,belarus,50377,Demographics,1
+falconer,Organization,north dakota,1037150,Demographics,1
+falconer,Organization,N/A (not specified in text),01036481,Demographics,0
+Taoism,Religion/Belief System,N/A (not a location),44305,Demographics,0
+southland girls',Organization,invercargill city,1046,Demographics,1
+harry s truman,Leader,the united states,799,Demographics,1
+qualsiasi tranne sky hd,Organization,italy,331,Demographics,1
+citizen bank,Organization,tampa,145,Demographics,1
+nb power,Organization,moncton,1000,Demographics,1
+oskar,Organization,velo,250,Demographics,1
+tokoroa north school,Organization,the waikato region,135,Demographics,0
+bellsouth,Organization,tennessee,193,Sports,0
+rosenthal,Organization,stanthorpe,1548,Demographics,1
+rosenthal,Leader,allora,2132,Demographics,1
+günther hessler,Leader,canada,3388,Demographics,1
+matatoki school,Organization,the waikato region,184,Demographics,1
+royal dutch shell,Company,netherlands,318,Business,1
+the european union,Company,malta,316,Business,1
+estonia,Country,estonia,19000,Business,0
+the canadian broadcasting corporation,Company,regina saskatchewan,102,Business,1
+cbc radio one,Company,regina,102,Business,1
+the canadian broadcasting corporation,Company,,102.4,Business,0
+petrochina,Company,china,251,Business,1
+utrecht,Company,dutch,38355,Business,1
+the european union,Company,the united kingdom,675,Business,1
+pasargad bank,Company,iran,18057,Business,1
+bank of industry,Company,iran,9432,Business,1
+pasargad bank,Company,iran,N/A (not specified for subject entity),Business,0
+bank of industry and mine,Company,iran,9432,Business,0
+goldin finance,Company,tianjin,117,Business,1
+china national offshore oil,Company,china,approximately 70-140 billion RMB (or equivalent USD),Business,0
+builder avonside engine company,Company,toronto,867,Business,1
+avonside engine company,Company,"bristol, england",867,Business,0
+appalachian regional commission,Company,lamar,16420,Business,1
+appalachian regional commission,Company,st clair,75232,Business,1
+appalachian regional commission,Company,tallapoosa,20518,Business,1
+calstock station,Station,tamar valley,5088,Business,0
+calstock station,Station,tamar valley,5088,Business,0
+iraq,Company,india,1278,Business,1
+mather & platt / beyer,Company,peacock,301,Business,1
+dzec,Company,radyo,1062,Business,1
+dyfx radyo,Company,agila,1062,Business,1
+dzec radyo agila,Company,N/A (not specified in claim text),1062,Business,0
+dyfx radyo,Company,cebu,N/A (no specific value for subject entity),Business,0
+nahete colles,Executive,venus,400,Business,1
+nahete colles,Astronomical Feature,venus,250,Astronomy,0
+fm 90.5,Radio Station,Not specified in claim,90.5,Business,0
+far east broadcasting company,Company,zamboanga,1116,Business,1
+volsawagen,Company,germany,15000,Business,1
+volkswagen,Company,germany,15000,Business,0
+the european union,Company,austria,145,Business,1
+sweden,Company,sweden,145,Business,0
+deutsche telekom,Company,germany,209628,Business,1
+edmund mordaun,Candidate,bedford,1554,Politics,1
+edmund mordaun,Candidate,england,1558,Politics,0
+t wyka,Party,essex county,1454,Politics,1
+assembly,Party,kargahar,209,Politics,1
+hillary clinton,Candidate,united states,200000000,Politics,1
+hillary clinton,Candidate,united states,6000000,Politics,1
+hillary clinton,Candidate,united states,200000000,Politics,0
+hillary clinton,Candidate,united states,60000000,Politics,0
+riverhills school,Party,the auckland region,991,Politics,1
+petlawad,Party,lok sabha,195,Politics,1
+petlawad,Constituency,Madhya Pradesh,195,Politics,0
+john wymond,Candidate,summonded,1299,Politics,1
+william costyn,Candidate,bedford,1304,Politics,1
+john wymond,Candidate,bedford,1304,Politics,0
+william costyn,Candidate,bedford,1304,Politics,0
+p ramachandran,Candidate,tamil nadu,73411,Politics,1
+p ramachandran,Candidate,N/A (not specified in claim),45103,Politics,0
+university,Publisher/Organization,N/A (not specified in claim),100,Education/Demographics,0
+kennedy junior high,Party,naperville,1,Politics,0
+bronx,Party,manhattan,77928,Politics,1
+bronx,Party,bronx,97415,Politics,0
+the conservative party,Party,south west devon,9335,Politics,1
+plymstock radford,Electorate,sutton,9335,Politics,0
+wagner,Candidate,manhattan,189524,Politics,1
+robert f wagner,Candidate,manhattan,122607,Politics,1
+wagner,Candidate,the bronx,189524,Politics,0
+wagner,Candidate,the bronx,189524,Politics,0
+mike huckabee,Candidate,united states,269,Politics,1
+mike huckabee,Candidate,united states,1117,Politics,0
+mccain,Candidate,N/A (depends on the intended value),"Approximately 5,000-10,000 (for a city)",Politics,0
+david l wei,Candidate,new york city,1019,Politics,1
+write-in,Vote Category,staten island,332,Politics,0
+the labour party,Party,N/A (not specified in claim),19739,Politics,0
+madre de dios,Electoral District,madre de dios,357124,Politics,0
+republican party,Party,new jersey bush,100,Politics,1
+obama,Party,carson city,11623,Politics,1
+mccain,Candidate,united states,39.5%,Politics,0
+joseph v mckee,Candidate,new york,234372,Politics,1
+morris hillquit,Candidate,new york city,249887,Politics,1
+republican party,Party,queens,12.6%,Politics,0
+joseph v mckee,Candidate,queen,72134,Politics,0
+john p o'brien,Candidate,queen,249887,Politics,0
+duha al - bandak,Candidate,bethlehem,1512,Politics,1
+duha al - bandak,Candidate,bethlehem,tens of millions,Politics,0
+united states senate,Party,maricopa county,500000,Politics,1
+bush,Party,united states,189605,Politics,1
+bush,Candidate,united states (or other specific state),tens of millions,Politics,0
+Leinster (as a region/constituency),Region,ireland,704873,Politics,0
+pandolfo,Candidate,lucca,1182,Politics,1
+the frp,Party,askøy,100,Politics,1
+marit a aase,Mayor,midhordland,117,Politics,0
+tarana,Constituency,N/A,214,Politics,0
+bromet,Party,watford,2385,Politics,1
+bushey,Party,watford,2117,Politics,1
+richard brent,Candidate,virginia,100,Politics,1
+richard brent,Candidate,virginia,N/A,Politics,0
+ulster unionist party,Party,fermanagh,224,Politics,1
+radcliffe,Candidate,heywood,137,Politics,1
+ulster unionist party,Party,fermanagh and south tyrone,2242,Politics,0
+vlado janevski,Candidate,macedonia,38642,Politics,1
+monika sokolovska,Candidate,macedonia,181,Politics,1
+vlado janevski,Candidate,macedonia,38642,Politics,1
+marjan necak,Artist,slovenia,8866,Entertainment,0
+mahmoud ahmadinejad,Candidate,hamadan,765723,Politics,1
+research 2000,Party,florida,600,Politics,1
+cortina elementary,Party,"gilbert , arizona",19680,Politics,1
+aycliffe drive,Party,brockswood,2337,Politics,1
+ofsted,Party,haywood grove 's,131319,Politics,1
+ofsted,Party,dacorum,135222,Politics,1
+"aycliffe drive, brockswood, maple grove, and yewtree",Party,N/A,N/A,Politics,0
+holtsmere end,Party,holtsmere,131319,Politics,0
+ben - tahir,Candidate,ottawa,326,Politics,1
+osgoode,Party,N/A (not specified for osgoode),13,Politics,0
+meas,Party,oregon,312680,Politics,1
+union station,Party,washington,4850685,Politics,1
+union station,Party,washington,4850685,Politics,0
+bjp,Party,india,200,Politics,1
+bjp,Candidate,india,200,Politics,1
+bjp,Candidate,rajasthan,200,Politics,1
+Mizoram State Assembly,Legislative Body,mizoram,40,Politics,0
+inc,Party,india,Greater than 200,Politics,0
+j l pilcher,Candidate,united states,100,Politics,1

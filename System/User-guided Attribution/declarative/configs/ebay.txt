@@ -1,0 +1,112 @@
+The eBay dataset contains 10,336 real product listings scraped from four
+eBay marketplaces (EBAY_US, EBAY_GB, EBAY_DE, EBAY_AU). Each row is one
+listing. Unlike the other datasets, this is real scraped data, not a
+synthetic corruption of a known-clean original -- there is no oracle
+"correct value" to recover. Every cell described below has ALREADY been
+flagged as erroneous or anomalous by an upstream detector; the question is
+whether the flagged value reflects an ACCIDENTAL data/parsing/scraping
+defect, or a DELIBERATE choice by the seller (e.g. to mislead buyers about
+authenticity, returns policy, or item condition).
+
+Important scope limitation: deliberate seller manipulation on this dataset
+is established mainly through cross-listing behavioural evidence (seller
+feedback patterns, rare categorical values, near-duplicate listings, price
+extremes for the category) that is NOT visible from a single row in
+isolation. A constraint evaluated against one row's values can reliably
+catch ACCIDENTAL/parsing-style defects (the rules below), but cannot, by
+itself, establish that a seller chose a value deliberately -- do not invent
+single-row constraints that claim to detect deliberate intent unless the
+rule below says so explicitly.
+
+Known signals of ACCIDENTAL/parsing defects (unintentional):
+  - HTML tags, encoding artifacts (mojibake), truncation markers, or
+    invisible/control Unicode characters inside title, category, condition,
+    spec_brand, spec_model, spec_type, or spec_style.
+  - A placeholder string (e.g. "N/A", "TBD", "unknown", empty-but-non-null)
+    used as the actual value of a structured field.
+  - spec_upc not matching the UPC-A format (12 digits with a valid GS1 check
+    digit), or spec_ean not matching the EAN-13 format (13 digits with a
+    valid GS1 check digit), when the field is non-empty.
+  - description_length negative, or implausibly large (over ~20,000
+    characters) for a listing description.
+  - title length under 5 characters or over 80 characters (eBay's listing
+    title limit is 80 characters).
+  - The same item_id appearing on more than one row with different
+    dataset_source/search_query (a crawler re-scraping the same listing
+    under a different category pass, not seller action).
+  - seller_feedback_pct inconsistent across rows for the exact same
+    seller_username (feedback percentage is a seller-level property and
+    should not vary row to row for one seller).
+  - spec_brand differing only in letter case from the dominant spelling used
+    elsewhere for the same brand (eBay's own search/filtering is
+    case-insensitive, so a case-only variant is a scraping/normalisation
+    slip, not a deliberate misspelling).
+  - return_period_days holding a value outside eBay's standard return
+    window options {7, 14, 30, 60} days when returns_accepted is True.
+  - seller_feedback_score (a count) holding a negative value -- impossible
+    on eBay and indicates a sign/parsing error upstream.
+
+Known signal of a POSSIBLE deliberate choice (ambiguous; do not assume
+either direction unless other evidence in the row supports it):
+  - returns_accepted = True together with return_period_days missing/null:
+    on most listings this is a seller's incomplete form submission
+    (accidental), but it can also be a seller deliberately advertising a
+    buyer-friendly return policy while leaving the window undefined to
+    avoid an enforceable commitment. Prefer ACCIDENTAL unless the listing
+    shows other independent signs of being a low-trust / counterfeit-prone
+    listing (e.g. brand name absent from the title while a specific UPC/EAN
+    is present, or a price far below the typical price for that
+    category+condition).
+  - returns_accepted = False together with return_period_days present
+    (a non-null window number when returns are not accepted): same
+    reasoning as above -- prefer ACCIDENTAL (a stale field left over from a
+    template) unless other low-trust signals are present in the same row.
+
+There is no placeholder/null-surrogate numeric convention (e.g. -1 or 9999)
+documented for this dataset's numeric columns; do not invent an obfuscation
+rule that this description does not support.
+
+Column descriptions and validity rules (for reference; use these together
+with the intent signals above, not as a separate error-detection pass):
+
+- price: Listing price in the listed currency. Must be a positive number.
+  Implausibly low (under 0.50) or implausibly high (over 50,000) values for
+  consumer goods are suspicious but not, by themselves, proof of deliberate
+  manipulation.
+
+- currency: Three-letter currency code, expected to match the listing's
+  marketplace (USD for EBAY_US, GBP for EBAY_GB, EUR for EBAY_DE, AUD for
+  EBAY_AU).
+
+- seller_feedback_pct: Seller's positive-feedback percentage. Must be
+  between 0 and 100 inclusive.
+
+- seller_feedback_score: Seller's total feedback count. Must be a
+  non-negative integer.
+
+- n_images: Number of photos on the listing. Must be a non-negative
+  integer; a value of 0 or 1 on an otherwise detailed listing is unusual
+  but valid.
+
+- description_length: Length of the listing description in characters.
+  Must be a non-negative integer.
+
+- returns_accepted: Whether the seller accepts returns. Must be boolean
+  (True/False).
+
+- return_period_days: Number of days allowed for a return, only meaningful
+  when returns_accepted is True. When present, should be one of eBay's
+  standard options: 7, 14, 30, or 60.
+
+- spec_upc / spec_ean / spec_mpn: Manufacturer product identifiers. When
+  present, spec_upc must be 12 digits (valid GS1 checksum) and spec_ean
+  must be 13 digits (valid GS1 checksum). spec_mpn has no fixed format.
+
+- spec_brand / spec_model / spec_type / spec_style: Free-text product
+  specification fields populated from the listing's item-specifics table.
+  spec_brand should normally also appear, case-insensitively, somewhere in
+  the listing title.
+
+- condition: Listing condition (e.g. "New", "Used", "New with box"). Should
+  be broadly consistent with words appearing in the title (e.g. a title
+  containing "BNIB"/"sealed" should not have condition = "Used").

@@ -1,0 +1,9 @@
+{
+  "n_cells": 8026,
+  "n_parse_fail_chunks": 0,
+  "n_chunks": 808,
+  "accuracy": 0.6399202591577373,
+  "f1_weighted": 0.6653984143569935,
+  "f1_intentional": 0.14648552864737152,
+  "f1_unintentional": 0.771830096320859
+}

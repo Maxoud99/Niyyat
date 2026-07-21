@@ -1,0 +1,25 @@
+{
+  "model": "gemini-2.5-pro",
+  "clean_rows": 6513,
+  "manip_rows": 19539,
+  "groups": 6513,
+  "total_time_sec": 101672.61125750002,
+  "avg_group_time_sec": 15.604006233611958,
+  "median_group_time_sec": 15.241431164555252,
+  "total_llm_time_sec": 97838.55876031052,
+  "avg_llm_time_sec": 15.022041879365965,
+  "llm_success_groups": 2695,
+  "fallback_groups": 3818,
+  "llm_status_hist": {
+    "ok_decisions_list": 1442,
+    "ok_simple_map": 226,
+    "ok_array": 1027,
+    "api_error": 0,
+    "parse_error": 0
+  },
+  "outputs": {
+    "generated_mask_csv": "/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/results/model_outputs/local-llms/first-trial-gemini-pro_v2/intent_labels.csv",
+    "explanations_csv": "/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/results/model_outputs/local-llms/first-trial-gemini-pro_v2/intent_explanations.csv",
+    "per_group_times_csv": "/home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/results/model_outputs/local-llms/first-trial-gemini-pro_v2/per_group_times.csv"
+  }
+}

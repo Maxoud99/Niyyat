@@ -1,0 +1,86 @@
+[
+  {
+    "method": "LabelPropagation",
+    "algorithm": "K-Means",
+    "accuracy": 0.9778401360544218,
+    "f1_weighted": 0.9687594895105481,
+    "f1_error": 0.1365142478462558,
+    "f1_correct": 0.9887760463774108,
+    "runtime": 1.6782851219177246,
+    "n_labeled": 1200,
+    "n_test": 58800
+  },
+  {
+    "method": "LabelSpreading",
+    "algorithm": "K-Means",
+    "accuracy": 0.9778231292517007,
+    "f1_weighted": 0.9687221494530307,
+    "f1_error": 0.13527851458885942,
+    "f1_correct": 0.9887675292009785,
+    "runtime": 1.659229040145874,
+    "n_labeled": 1200,
+    "n_test": 58800
+  },
+  {
+    "method": "ClusterConstrained",
+    "algorithm": "K-Means",
+    "accuracy": 0.9765136054421769,
+    "f1_weighted": 0.9649099495071263,
+    "f1_error": 0.0,
+    "f1_correct": 0.9881172613772274,
+    "runtime": 0,
+    "n_test": 58800
+  },
+  {
+    "method": "RandomForest",
+    "algorithm": "K-Means",
+    "accuracy": 0.9744387755102041,
+    "f1_weighted": 0.9742227559516945,
+    "f1_error": 0.44640883977900553,
+    "f1_correct": 0.9869173521347434,
+    "runtime": 0.3525390625,
+    "n_test": 58800
+  },
+  {
+    "method": "LabelPropagation",
+    "algorithm": "DBSCAN",
+    "accuracy": 0.9781292517006803,
+    "f1_weighted": 0.971920521366913,
+    "f1_error": 0.2659817351598174,
+    "f1_correct": 0.9888992472895518,
+    "runtime": 1.734877109527588,
+    "n_labeled": 1200,
+    "n_test": 58800
+  },
+  {
+    "method": "LabelSpreading",
+    "algorithm": "DBSCAN",
+    "accuracy": 0.9781462585034013,
+    "f1_weighted": 0.9719520892141642,
+    "f1_error": 0.2669709070165431,
+    "f1_correct": 0.9889077835420856,
+    "runtime": 1.6695163249969482,
+    "n_labeled": 1200,
+    "n_test": 58800
+  },
+  {
+    "method": "ClusterConstrained",
+    "algorithm": "DBSCAN",
+    "accuracy": 0.9765136054421769,
+    "f1_weighted": 0.9649099495071263,
+    "f1_error": 0.0,
+    "f1_correct": 0.9881172613772274,
+    "runtime": 0,
+    "n_test": 58800
+  },
+  {
+    "method": "RandomForest",
+    "algorithm": "DBSCAN",
+    "accuracy": 0.9650340136054422,
+    "f1_weighted": 0.9675933724449116,
+    "f1_error": 0.3677736777367774,
+    "f1_correct": 0.9820197992094308,
+    "runtime": 0.3935058116912842,
+    "n_test": 58800
+  }
+]

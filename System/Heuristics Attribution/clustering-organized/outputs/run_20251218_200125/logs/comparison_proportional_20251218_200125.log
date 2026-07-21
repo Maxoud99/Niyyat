@@ -1,0 +1,45 @@
+
+======================================================================
+EXECUTION STARTED: 2025-12-18 20:01:25
+Log file: /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/clustering-organized/outputs/run_20251218_200125/logs/comparison_proportional_20251218_200125.log
+Output directory: /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/clustering-organized/outputs/run_20251218_200125
+======================================================================
+
+
+======================================================================
+CLUSTERING ALGORITHM COMPARISON
+PROPORTIONAL SAMPLING (NO DATA LEAKAGE)
+======================================================================
+Target samples: Auto (1% of dataset)
+Random state: 42
+
+Proportional Sampling Strategy:
+  1. Cluster data using aggregate features (NO intent labels)
+  2. Proportional allocation to clusters based on size
+  3. Random selection within each cluster
+
+⚠️  NO DATA LEAKAGE: Intent labels only used for evaluation
+
+======================================================================
+LOADING DATA
+======================================================================
+Starting data loading process...
+Using custom data paths:
+  Mask: //home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/adult-income-dataset/attacks/low_to_high/mask_n2000_successful.csv
+  Clean: /home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/adult-income-dataset/attacks/low_to_high/original_low_n2000_successful.csv
+  Dirty: /home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/adult-income-dataset/attacks/low_to_high/adversarial_low_to_high_n2000_successful.csv
+Using custom data paths:
+  Mask: //home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/adult-income-dataset/attacks/low_to_high/mask_n2000_successful.csv
+  Clean: /home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/adult-income-dataset/attacks/low_to_high/original_low_n2000_successful.csv
+  Dirty: /home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/adult-income-dataset/attacks/low_to_high/adversarial_low_to_high_n2000_successful.csv
+Loaded masks: (976, 16)
+Loaded manipulated records: (976, 15)
+Loaded correct records: (976, 15)
+✓ Loaded masks: (976, 16)
+✓ Loaded manipulated records: (976, 15)
+✓ Loaded correct records: (976, 15)
+
+Processing 976 variant records into feature changes...
+Features to process: 16
+
+Processing 976 variant records...

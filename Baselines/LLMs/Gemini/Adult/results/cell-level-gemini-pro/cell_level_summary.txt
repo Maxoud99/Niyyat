@@ -1,0 +1,16 @@
+Cell-level Evaluation (W6 fix) — rerun 2026-06-30 with gemini-2.5-flash-lite (fallback: gemini-2.5-flash)
+Ground truth: /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/data/raw/run_v2_20260617_173016/masks.csv
+Predictions:  /home/mohamed/error_injector/llms_baseline/adult_income_dataset/tenth-trial/results/model_outputs/local-llms/cell-level-gemini-pro/intent_labels.csv
+
+Note: supersedes the 2026-06-18 gemini-2.5-pro run (backed up alongside this
+directory as cell-level-gemini-pro_BACKUP_pro_run_20260618), which produced a
+degenerate all-unintentional prediction (Intentional F1 = 0.0000). 0 fallback
+groups this run (vs. 20/6513 previously) and a near-true-prevalence prediction
+split (3615 predicted intentional vs. 3721 true), so the prior run's failure
+was a genuine gemini-2.5-pro model-behavior issue, not fallback contamination.
+
+Cells evaluated:   9702
+Intentional  F1:   0.4597  (n=3721)
+Unintentional F1:  0.6715  (n=5981)
+Accuracy:          0.5914
+Macro F1:          0.5656

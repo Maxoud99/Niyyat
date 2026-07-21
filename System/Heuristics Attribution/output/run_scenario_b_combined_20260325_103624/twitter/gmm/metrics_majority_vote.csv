@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,n_components,bic,aic,converged,noise_count,silhouette
+ClusterMajorityVote,0.8943,0.8968,0.759,0.8222,0.8917,0.8588,0.25,68,1031,6.19,gmm,15,-156689.08,-179193.78,True,0,0.3855

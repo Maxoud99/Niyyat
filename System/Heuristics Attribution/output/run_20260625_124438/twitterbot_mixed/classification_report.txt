@@ -1,0 +1,8 @@
+               precision    recall  f1-score   support
+
+Unintentional       0.95      0.95      0.95       756
+  Intentional       0.90      0.89      0.89       343
+
+     accuracy                           0.93      1099
+    macro avg       0.92      0.92      0.92      1099
+ weighted avg       0.93      0.93      0.93      1099

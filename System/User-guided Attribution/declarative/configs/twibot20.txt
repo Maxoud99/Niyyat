@@ -1,0 +1,128 @@
+The TwiBot-20 dataset contains Twitter user profile features used for
+automated bot detection (the "label" column: 0 = human, 1 = bot). Each row
+represents one Twitter user account. Every cell described below has ALREADY
+been flagged as erroneous by an upstream detector; the question is not
+whether a flagged value is valid, but whether it was changed DELIBERATELY
+by the bot operator to evade detection, or by ACCIDENT (data corruption,
+encoding glitch, random noise).
+
+Known intent signals (gain-targeted manipulation = bot-evasion direction):
+
+A bot operator's goal is to make the account LOOK MORE LIKE A GENUINE HUMAN
+ACCOUNT to a bot classifier. This is general platform domain knowledge,
+independent of this specific dataset's statistics:
+  - Increasing followers_count, friends_count, favourites_count,
+    statuses_count, or listed_count is evasion-directed: more network
+    activity and engagement history looks more like an established human
+    account.
+  - Changing default_profile from 1 to 0 is evasion-directed: moving away
+    from the unconfigured system default looks more like a real,
+    customized account.
+  - Changing default_profile_image from 1 to 0 is evasion-directed: having
+    a real avatar instead of the default placeholder image looks more
+    human.
+  - Changing geo_enabled, profile_use_background_image, or has_location
+    from 0 to 1 is evasion-directed: a more complete, personalised profile
+    looks more human.
+  - Changing has_description from 0 to 1, together with a description_length
+    that increases to a substantial positive value (up to 160), is
+    evasion-directed: having a real biography looks more human.
+  - Changing verified from 0 to 1 is NOT evasion-directed: claiming a
+    verified badge that was not genuinely granted is implausible and would
+    invite more scrutiny, not less, so this column has no clear gain
+    direction.
+  - Changing protected from 0 to 1 is NOT evasion-directed for a bot seeking
+    reach (making the account private reduces visibility, which works
+    against most bot objectives such as spam or amplification), so this
+    column also has no clear gain direction.
+
+Known intent signals (no plausible motive / noise):
+
+A flagged cell whose value serves none of the evasion directions above and
+is also implausible given the platform's known limits is evidence of
+accidental corruption rather than deliberate evasion, because it does not
+make the account look more human and would itself invite scrutiny:
+  - A negative value for followers_count, friends_count, favourites_count,
+    statuses_count, or listed_count.
+  - A description_length outside [0, 160] (Twitter's biography limit).
+  - A screen_name_length outside [1, 15] (Twitter's username limit).
+  - A name_length outside [1, 50] (Twitter's display-name limit).
+  - has_description = 1 together with description_length = 0, or
+    has_description = 0 together with description_length > 0: this
+    mismatch serves no evasion purpose (a bot gains nothing from claiming a
+    description while leaving the recorded length at 0, or vice versa) and
+    most likely reflects an accidental edit to one field without updating
+    the other, not a deliberate evasion strategy.
+  - Any of the binary flags (verified, protected, default_profile,
+    default_profile_image, geo_enabled, profile_use_background_image,
+    has_created_date, has_description, has_location, label) taking a value
+    other than 0 or 1.
+
+There is no placeholder/null-surrogate convention (no "Unknown" or "?"
+sentinel) documented for this dataset's columns; do not invent an
+obfuscation rule that the description does not support.
+
+Column descriptions and validity rules (for reference; use these together
+with the intent signals above, not as a separate error-detection pass):
+
+- followers_count: Number of followers the account has. Must be a
+  non-negative integer (zero or greater). There is no upper bound enforced,
+  but values in the billions are implausible for real accounts.
+
+- friends_count: Number of accounts this user follows (following count).
+  Must be a non-negative integer (zero or greater).
+
+- favourites_count: Total number of tweets the user has liked. Must be a
+  non-negative integer (zero or greater).
+
+- statuses_count: Total number of tweets (and retweets) posted by the user.
+  Must be a non-negative integer (zero or greater).
+
+- listed_count: Number of public lists the user appears on. Must be a
+  non-negative integer (zero or greater).
+
+- verified: Whether the account holds a Twitter blue verified badge.
+  Must be a binary value: 0 (not verified) or 1 (verified).
+
+- protected: Whether the account's tweets are protected (private).
+  Must be a binary value: 0 (public) or 1 (protected).
+
+- default_profile: Whether the account still uses the default profile
+  settings applied at account creation. Must be binary: 0 or 1.
+
+- default_profile_image: Whether the account is using the default profile
+  image (no custom avatar set). Must be binary: 0 or 1.
+
+- geo_enabled: Whether the account has geo-tagging enabled. Must be binary:
+  0 (disabled) or 1 (enabled).
+
+- profile_use_background_image: Whether the profile uses a background image.
+  Must be binary: 0 or 1.
+
+- has_created_date: Whether the account creation date is available in the
+  data. Must be binary: 0 or 1.
+
+- description_length: Length of the user's bio/description in characters.
+  Must be a non-negative integer between 0 and 160 inclusive, because Twitter
+  limits biographies to 160 characters. If has_description is 1, then
+  description_length must be greater than 0.
+
+- screen_name_length: Length of the account's @username (screen name) in
+  characters. Must be a positive integer between 1 and 15 inclusive, because
+  Twitter usernames are between 1 and 15 characters long.
+
+- name_length: Length of the account's display name in characters. Must be
+  a positive integer between 1 and 50 inclusive, because Twitter display
+  names are limited to 50 characters.
+
+- has_description: Whether the user has written a biography. Must be binary:
+  0 (no description) or 1 (has description). If has_description is 1, then
+  description_length must be greater than 0. If has_description is 0, then
+  description_length should be 0.
+
+- has_location: Whether the user has set a location on their profile. Must
+  be binary: 0 (no location) or 1 (has location).
+
+- label: Ground truth bot classification label. Must be 0 (human account)
+  or 1 (bot account). No other values are valid. This is the prediction
+  target referenced by the bot-evasion signals above.

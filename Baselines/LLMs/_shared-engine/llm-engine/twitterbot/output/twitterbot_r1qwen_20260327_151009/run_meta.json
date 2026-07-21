@@ -1,0 +1,11 @@
+{
+  "run_timestamp": "2026-03-27T15:59:32.852756",
+  "model": "DeepSeek-R1-Distill-Qwen-32B (TGI port 6800)",
+  "n_records": 4731,
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "total_wall_time": 2905.8
+}

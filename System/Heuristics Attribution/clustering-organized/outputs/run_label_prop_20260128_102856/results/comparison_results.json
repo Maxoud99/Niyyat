@@ -1,0 +1,10 @@
+[
+  {
+    "method": "LabelPropagation",
+    "algorithm": "K-Means",
+    "accuracy": 0.9775084175084175,
+    "f1_weighted": 0.9676514459009434,
+    "f1_error": 0.09607577807848444,
+    "f1_correct": 0.9886125364381787,
+    "runtime": 2.239581346511841,
+    "n_labeled": 

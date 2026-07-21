@@ -1,0 +1,43 @@
+================================================================================
+KMEANS LOG
+Started: 2025-12-10 13:51:03
+================================================================================
+
+
+======================================================================
+K-MEANS CLUSTERING STARTED
+======================================================================
+Parameters:
+  n_clusters: 15
+  random_state: 42
+  n_init: 10
+Feature matrix shape: (18207, 15)
+Fitting K-Means model...
+Computing metrics...
+
+Cluster distribution:
+  Cluster 0: 2981 points (16.4%)
+  Cluster 1: 2629 points (14.4%)
+  Cluster 2: 644 points (3.5%)
+  Cluster 3: 1 points (0.0%)
+  Cluster 4: 1 points (0.0%)
+  Cluster 5: 1140 points (6.3%)
+  Cluster 6: 2874 points (15.8%)
+  Cluster 7: 1649 points (9.1%)
+  Cluster 8: 1217 points (6.7%)
+  Cluster 9: 2 points (0.0%)
+  Cluster 10: 763 points (4.2%)
+  Cluster 11: 1021 points (5.6%)
+  Cluster 12: 1632 points (9.0%)
+  Cluster 13: 1641 points (9.0%)
+  Cluster 14: 12 points (0.1%)
+
+Results:
+  Silhouette Score: 0.5293
+  Runtime: 2.83s
+  Clusters found: 15
+  Inertia: 17982.39
+
+================================================================================
+Completed: 2025-12-10 13:52:23
+================================================================================

@@ -1,0 +1,22 @@
+{
+  "strategy": "constant_always_intentional",
+  "overall": {
+    "accuracy": 0.15802869042110135,
+    "macro_f1": 0.13646353646353646,
+    "macro_precision": 0.07901434521055067,
+    "macro_recall": 0.5,
+    "total_changes": 8644,
+    "intentional_count": 1366,
+    "unintentional_count": 7278
+  },
+  "intentional": {
+    "precision": 0.15802869042110135,
+    "recall": 1.0,
+    "f1": 0.2729270729270729
+  },
+  "unintentional": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  }
+}

@@ -1,0 +1,297 @@
+row_id,true_intent,pred_intent,reason,llm_time_s,raw_response
+5,-1,-1,single unknown value in race,0.671,"```json
+{""decision"": -1, ""reason"": ""single unknown value in race""}
+```"
+7,-1,-1,capital-loss changed from 0 to -26,0.639,"```json
+{""decision"":-1,""reason"":""capital-loss changed from 0 to -26""}
+```"
+11,-1,-1,"age decreased by 10, could be unintentional",0.685,"```json
+{""decision"": -1, ""reason"": ""age decreased by 10, could be unintentional""}
+```"
+13,1,1,education-num upgrade >= 2,0.67,"```json
+{""decision"": 1, ""reason"": ""education-num upgrade >= 2""}
+```"
+22,-1,-1,workclass '?' to '?' is a no-op,0.741,"```json
+{""decision"": -1, ""reason"": ""workclass '?' to '?' is a no-op""}
+```"
+42,-1,1,age reduction is a utility upgrade,0.743,"```json
+{""decision"":1,""reason"":""age reduction is a utility upgrade""}
+```"
+45,-1,-1,minor typo in native-country,0.629,"```json
+{""decision"": -1, ""reason"": ""minor typo in native-country""}
+```"
+59,-1,-1,single innocuous edit: native-country to unknown,0.742,"```json
+{""decision"":-1,""reason"":""single innocuous edit: native-country to unknown""}
+```"
+60,1,1,"marital-status changed, likely intentional for some reason",0.68,"```json
+{""decision"": 1, ""reason"": ""marital-status changed, likely intentional for some reason""}
+```"
+61,1,1,relationship changed to Husband,0.742,"```json
+{""decision"": 1, ""reason"": ""relationship changed to Husband""}
+```"
+63,-1,-1,single small capital-loss change,0.619,"```json
+{""decision"": -1, ""reason"": ""single small capital-loss change""}
+```"
+66,-1,1,Privacy masking of native-country,0.685,"```json
+{""decision"": 1, ""reason"": ""Privacy masking of native-country""}
+```"
+77,-1,1,workclass changed to missing value,0.632,"```json
+{""decision"":1, ""reason"":""workclass changed to missing value""}
+```"
+81,1,1,age jump and marital status change suggest intentional update,0.628,"```json
+{""decision"": 1, ""reason"": ""age jump and marital status change suggest intentional update""}
+```"
+83,-1,1,workclass changed to missing value,0.624,"```json
+{""decision"":1, ""reason"":""workclass changed to missing value""}
+```"
+90,-1,1,age +13 is large; occupation to ? is suspicious,0.68,"```json
+{""decision"": 1, ""reason"": ""age +13 is large; occupation to ? is suspicious""}
+```"
+92,-1,1,"education-num +2, native-country typo: utility upgrade",0.843,"```json
+{""decision"": 1, ""reason"": ""education-num +2, native-country typo: utility upgrade""}
+```"
+93,-1,-1,minor typos in education and native-country,0.62,"```json
+{""decision"": -1, ""reason"": ""minor typos in education and native-country""}
+```"
+101,1,1,marital-status and relationship edited to Wife,0.681,"```json
+{""decision"": 1, ""reason"": ""marital-status and relationship edited to Wife""}
+```"
+104,-1,-1,single unknown value introduced,0.672,"```json
+{""decision"":-1,""reason"":""single unknown value introduced""}
+```"
+118,-1,-1,minor typo in education,0.615,"{""decision"": -1, ""reason"": ""minor typo in education""}"
+119,-1,1,Coordinated occupation/relationship edits suggest intentional change.,0.732,"```json
+{""decision"": 1, ""reason"": ""Coordinated occupation/relationship edits suggest intentional change.""}
+```"
+120,1,1,relationship status changed to Husband,0.626,"```json
+{""decision"": 1, ""reason"": ""relationship status changed to Husband""}
+```"
+130,-1,-1,minor education-num decrease,0.61,"```json
+{""decision"": -1, ""reason"": ""minor education-num decrease""}
+```"
+133,-1,-1,single unknown value replacement,0.698,"```json
+{""decision"": -1, ""reason"": ""single unknown value replacement""}
+```"
+135,1,1,marital status and relationship changed to Wife,0.734,"```json
+{""decision"": 1, ""reason"": ""marital status and relationship changed to Wife""}
+```"
+160,1,1,education upgrade and significant hours-per-week increase,0.694,"```json
+{""decision"": 1, ""reason"": ""education upgrade and significant hours-per-week increase""}
+```"
+161,-1,-1,minor hours-per-week change (-1),0.682,"```json
+{""decision"": -1, ""reason"": ""minor hours-per-week change (-1)""}
+```"
+162,1,1,age change is significant,0.664,"```json
+{""decision"": 1, ""reason"": ""age change is significant""}
+```"
+177,-1,-1,single unknown value replacement,0.702,"```json
+{""decision"": -1, ""reason"": ""single unknown value replacement""}
+```"
+181,-1,1,marital-status changed to unknown value,0.683,"```json
+{""decision"":1, ""reason"":""marital-status changed to unknown value""}
+```"
+186,-1,-1,small hours-per-week increase,0.696,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week increase""}
+```"
+187,-1,-1,minor typo in education,0.741,"```json
+{""decision"": -1, ""reason"": ""minor typo in education""}
+```"
+203,1,1,relationship changed to Wife,0.662,"```json
+{""decision"":1, ""reason"":""relationship changed to Wife""}
+```"
+206,-1,-1,"single, likely benign, fnlwgt change",0.688,"```json
+{""decision"": -1, ""reason"": ""single, likely benign, fnlwgt change""}
+```"
+214,1,1,age jump and capital-gain introduced,0.731,"```json
+{""decision"": 1, ""reason"": ""age jump and capital-gain introduced""}
+```"
+217,-1,1,"age significantly reduced, likely intentional obfuscation",0.683,"```json
+{""decision"": 1, ""reason"": ""age significantly reduced, likely intentional obfuscation""}
+```"
+232,1,1,"relationship changed to Husband, likely intentional utility upgrade",0.683,"```json
+{""decision"": 1, ""reason"": ""relationship changed to Husband, likely intentional utility upgrade""}
+```"
+234,1,1,education-num +3 and hours-per-week +12: utility upgrade,0.676,"```json
+{""decision"": 1, ""reason"": ""education-num +3 and hours-per-week +12: utility upgrade""}
+```"
+235,-1,1,education-num upgrade is greater than or equal to 2,0.746,"```json
+{""decision"": 1, ""reason"": ""education-num upgrade is greater than or equal to 2""}
+```"
+236,1,1,"capital-gain zeroed out, likely intentional masking",0.736,"```json
+{""decision"": 1, ""reason"": ""capital-gain zeroed out, likely intentional masking""}
+```"
+240,-1,-1,single unknown value introduced,0.678,"```json
+{""decision"":-1,""reason"":""single unknown value introduced""}
+```"
+241,1,1,education-num upgrade is greater than or equal to 2,0.684,"```json
+{""decision"": 1, ""reason"": ""education-num upgrade is greater than or equal to 2""}
+```"
+251,1,1,education-num upgrade is greater than or equal to 2,0.793,"```json
+{""decision"": 1, ""reason"": ""education-num upgrade is greater than or equal to 2""}
+```"
+255,-1,-1,minor typo in education,0.68,"```json
+{""decision"": -1, ""reason"": ""minor typo in education""}
+```"
+257,-1,-1,minor hours-per-week change (-1),0.788,"```json
+{""decision"": -1, ""reason"": ""minor hours-per-week change (-1)""}
+```"
+259,1,1,significant capital-gain introduced from zero,0.625,"```json
+{""decision"": 1, ""reason"": ""significant capital-gain introduced from zero""}
+```"
+266,-1,-1,workclass '?' to '?' is a no-op,0.897,"```json
+{""decision"":-1,""reason"":""workclass '?' to '?' is a no-op""}
+```"
+269,-1,-1,tiny numeric drift in hours-per-week,0.626,"{""decision"": -1, ""reason"": ""tiny numeric drift in hours-per-week""}
+"
+270,1,1,age change is large enough to be intentional,0.73,"```json
+{""decision"": 1, ""reason"": ""age change is large enough to be intentional""}
+```"
+271,1,-1,"single education change, num unchanged",0.738,"```json
+{""decision"": -1, ""reason"": ""single education change, num unchanged""}
+```"
+272,-1,-1,single unknown value change,0.737,"```json
+{""decision"":-1,""reason"":""single unknown value change""}
+```"
+273,1,1,hours-per-week increased by 12,0.623,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 12""}
+```"
+285,-1,-1,small hours-per-week increment,0.679,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week increment""}
+```"
+290,-1,-1,single innocuous edit: workclass changed to unknown,0.734,"```json
+{""decision"": -1, ""reason"": ""single innocuous edit: workclass changed to unknown""}
+```"
+291,1,1,"education-num upgraded by 3, a utility upgrade",0.737,"```json
+{""decision"": 1, ""reason"": ""education-num upgraded by 3, a utility upgrade""}
+```"
+294,1,1,age change is significant,0.628,"```json
+{""decision"": 1, ""reason"": ""age change is significant""}
+```"
+302,1,1,marital-status and relationship edited to Wife,0.684,"```json
+{""decision"": 1, ""reason"": ""marital-status and relationship edited to Wife""}
+```"
+307,-1,-1,minor formatting change in relationship,0.618,"```json
+{""decision"": -1, ""reason"": ""minor formatting change in relationship""}
+```"
+309,-1,-1,small hours-per-week increment,0.68,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week increment""}
+```"
+324,-1,-1,single unknown value change,0.667,"```json
+{""decision"":-1,""reason"":""single unknown value change""}
+```"
+342,-1,-1,no actual change,0.625,"{""decision"": -1, ""reason"": ""no actual change""}
+"
+344,-1,-1,minor typo in native-country,0.616,"```json
+{""decision"": -1, ""reason"": ""minor typo in native-country""}
+```"
+349,1,1,marital status and relationship changed to married/husband,0.68,"```json
+{""decision"": 1, ""reason"": ""marital status and relationship changed to married/husband""}
+```"
+350,1,1,marital-status and relationship fields changed together,0.68,"```json
+{""decision"": 1, ""reason"": ""marital-status and relationship fields changed together""}
+```"
+355,-1,-1,"single, plausibly benign occupation change",0.729,"```json
+{""decision"": -1, ""reason"": ""single, plausibly benign occupation change""}
+```"
+356,1,1,"marital status changed to married, occupation to unknown",0.68,"```json
+{""decision"": 1, ""reason"": ""marital status changed to married, occupation to unknown""}
+```"
+357,-1,1,occupation changed from professional to admin,0.678,"```json
+{""decision"": 1, ""reason"": ""occupation changed from professional to admin""}
+```"
+361,1,-1,"single, possibly benign, relationship change",0.677,"```json
+{""decision"": -1, ""reason"": ""single, possibly benign, relationship change""}
+```"
+362,-1,-1,tiny numeric drift in hours-per-week,0.559,"```json
+{""decision"": -1, ""reason"": ""tiny numeric drift in hours-per-week""}
+```"
+363,-1,-1,"age decreased by 8, likely unintentional",0.678,"```json
+{""decision"": -1, ""reason"": ""age decreased by 8, likely unintentional""}
+```"
+365,-1,1,race changed to unknown value,0.691,"```json
+{""decision"":1, ""reason"":""race changed to unknown value""}
+```"
+366,-1,-1,minor typo in sex field,0.664,"```json
+{""decision"": -1, ""reason"": ""minor typo in sex field""}
+```"
+374,1,1,marital-status and relationship edited to reflect marriage,0.738,"```json
+{""decision"": 1, ""reason"": ""marital-status and relationship edited to reflect marriage""}
+```"
+382,-1,-1,tiny numeric drift in hours-per-week,0.673,"```json
+{""decision"": -1, ""reason"": ""tiny numeric drift in hours-per-week""}
+```"
+384,-1,-1,"single, likely benign, fnlwgt change",0.625,"```json
+{""decision"": -1, ""reason"": ""single, likely benign, fnlwgt change""}
+```"
+386,1,1,coordinated marital-status and relationship changes,0.674,"```json
+{""decision"": 1, ""reason"": ""coordinated marital-status and relationship changes""}
+```"
+396,-1,-1,workclass changed to missing value,0.726,"```json
+{""decision"": -1, ""reason"": ""workclass changed to missing value""}
+```"
+400,-1,-1,minor typo in native-country,0.676,"```json
+{""decision"": -1, ""reason"": ""minor typo in native-country""}
+```"
+401,-1,1,education-num upgrade is greater than or equal to 2,0.668,"```json
+{""decision"": 1, ""reason"": ""education-num upgrade is greater than or equal to 2""}
+```"
+403,1,1,age and education-num significantly increased,0.741,"```json
+{""decision"": 1, ""reason"": ""age and education-num significantly increased""}
+```"
+404,-1,-1,single innocuous edit: native-country masked,0.778,"```json
+{""decision"":-1, ""reason"":""single innocuous edit: native-country masked""}
+```"
+406,1,1,relationship status changed to Wife,0.672,"```json
+{""decision"": 1, ""reason"": ""relationship status changed to Wife""}
+```"
+415,-1,1,age and education changed; utility-seeking,0.674,"```json
+{""decision"": 1, ""reason"": ""age and education changed; utility-seeking""}
+```"
+418,-1,-1,minor hours-per-week change (-1),0.681,"```json
+{""decision"": -1, ""reason"": ""minor hours-per-week change (-1)""}
+```"
+434,-1,-1,single small numeric change in capital-loss,0.686,"```json
+{""decision"": -1, ""reason"": ""single small numeric change in capital-loss""}
+```"
+441,-1,-1,single small negative change in capital-loss,0.724,"```json
+{""decision"": -1, ""reason"": ""single small negative change in capital-loss""}
+```"
+442,1,1,marital status and relationship changed to married/husband,0.684,"```json
+{""decision"": 1, ""reason"": ""marital status and relationship changed to married/husband""}
+```"
+444,-1,1,"age significantly reduced, likely intentional obfuscation",0.79,"```json
+{""decision"":1, ""reason"":""age significantly reduced, likely intentional obfuscation""}
+```"
+451,-1,-1,minor typo and missing occupation,0.674,"```json
+{""decision"":-1,""reason"":""minor typo and missing occupation""}
+```"
+454,1,1,age jump and marital status change suggests intentional update,0.794,"```json
+{""decision"": 1, ""reason"": ""age jump and marital status change suggests intentional update""}
+```"
+460,-1,-1,single small negative change in capital-loss,0.732,"```json
+{""decision"":-1,""reason"":""single small negative change in capital-loss""}
+```"
+468,-1,-1,single workclass change to missing,0.669,"```json
+{""decision"": -1, ""reason"": ""single workclass change to missing""}
+```"
+471,1,1,age jump and relationship change suggest intentional update,0.676,"```json
+{""decision"": 1, ""reason"": ""age jump and relationship change suggest intentional update""}
+```"
+475,-1,-1,"single fnlwgt change, likely unintentional",0.678,"```json
+{""decision"": -1, ""reason"": ""single fnlwgt change, likely unintentional""}
+```"
+484,-1,-1,tiny numeric drift in hours-per-week,0.73,"```json
+{""decision"": -1, ""reason"": ""tiny numeric drift in hours-per-week""}
+```"
+489,-1,-1,workclass changed to missing value,0.679,"```json
+{""decision"": -1, ""reason"": ""workclass changed to missing value""}
+```"
+490,-1,-1,"workclass changed to ?, likely missing value",0.676,"```json
+{""decision"": -1, ""reason"": ""workclass changed to ?, likely missing value""}
+```"
+492,-1,-1,small hours-per-week increment,0.616,"```json
+{""decision"": -1, ""reason"": ""small hours-per-week increment""}
+```"
+494,-1,-1,single unknown value in marital status,0.677,"```json
+{""decision"": -1, ""reason"": ""single unknown value in marital status""}
+```"

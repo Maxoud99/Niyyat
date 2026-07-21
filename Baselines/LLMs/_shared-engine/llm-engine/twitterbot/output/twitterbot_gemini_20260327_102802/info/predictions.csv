@@ -1,0 +1,1100 @@
+row_id,column,true_intent,pred_intent,reason,clean_val,dirty_val
+8,description_length,1,1,Increasing description length makes the profile appear more complete and human-like.,1,29
+8,name_length,1,1,Slight increase in name length to appear more human-like.,15,17
+20,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",46,7
+20,description_length,1,-1,"Description length decreased, likely due to editing or content removal.",104,48
+24,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",419,7
+44,statuses_count,-1,1,Significant increase in statuses_count suggests engagement gaming to appear active.,73189,77185
+57,listed_count,1,-1,"Decrease in listed_count could be due to list removals, normal variation.",32,0
+57,description_length,1,1,Shortening description could be an attempt to appear less bot-like.,80,24
+63,description_length,-1,-1,Description length change alone is not indicative of bot evasion.,52,21
+67,description_length,-1,-1,Description length change alone is not indicative of bot evasion.,133,176
+70,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",518,0
+71,statuses_count,1,1,"Large decrease in statuses_count, possibly to appear less active.",49,7
+71,name_length,1,1,"Increased name length, possibly to appear more human-like.",3,9
+73,protected,-1,-1,"No change in protected status, so unintentional.",0,0
+74,description_length,-1,1,"Significant decrease in description length, possibly to avoid detection.",79,31
+83,friends_count,-1,1,Drastic reduction in friends_count suggests bot trying to appear less social.,462,0
+92,followers_count,-1,1,Large decrease in followers suggests follower manipulation to evade detection.,1713,0
+92,listed_count,-1,1,Decrease in listed count suggests an attempt to reduce profile visibility.,5,0
+92,protected,-1,-1,No change in protected status; benign.,0,0
+97,followers_count,-1,1,Large decrease in followers suggests follower manipulation to evade detection.,231,0
+100,followers_count,-1,1,"Significant decrease in followers, possibly to reset and appear less bot-like.",112,0
+104,protected,-1,-1,guard_fallback,0,0
+104,name_length,-1,-1,"Minor change in name length, likely unintentional or natural variation.",6,5
+111,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",147,7
+112,friends_count,-1,-1,"Friends count decreased drastically, possibly from unfollowing many accounts.",740,0
+115,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",571,7
+115,listed_count,1,-1,"Listed count decreased, possibly from being removed from lists.",4,0
+118,followers_count,-1,-1,"Followers count decreased drastically, possibly from follower removal.",1038,0
+132,friends_count,1,-1,Large decrease in friends_count is likely normal fluctuation.,788,32
+132,statuses_count,1,-1,Significant decrease in statuses_count is likely normal fluctuation.,56,7
+135,name_length,-1,-1,Slight change in name length is likely a normal variation.,9,7
+139,listed_count,-1,-1,Small change in listed_count is likely normal list membership change.,3,0
+140,description_length,-1,-1,Description length decreasing could be normal profile editing.,1,0
+143,description_length,1,1,Increasing description length makes the profile appear more complete.,4,18
+144,statuses_count,1,-1,Statuses count decreasing could be normal profile activity.,16,7
+144,name_length,1,-1,Name length decreasing could be normal profile editing.,20,14
+147,statuses_count,1,-1,Statuses count decreasing could be normal profile activity.,39,7
+159,statuses_count,1,-1,Significant decrease in statuses_count is likely a data error or profile reset.,328,7
+159,description_length,1,1,Increasing description length makes the profile appear more complete and human-like.,1,15
+161,name_length,-1,-1,Slight change in name length is likely a normal profile variation.,12,10
+163,description_length,-1,1,Increased description length suggests an attempt to appear more legitimate.,83,140
+165,followers_count,-1,1,Drastic decrease in followers suggests manipulation or account compromise.,19738,0
+175,followers_count,-1,-1,"Small decrease in followers, likely natural fluctuation, not intentional evasion.",4,0
+182,description_length,-1,1,Increasing description length makes the profile appear more complete and human-like.,151,185
+187,name_length,-1,1,Increasing name length makes the profile appear more complete and human-like.,22,25
+201,statuses_count,1,-1,Large decrease in status count is likely due to data collection issues.,2000,7
+206,verified,-1,-1,"No change in verification status, so it's not an intentional evasion attempt.",0,0
+216,friends_count,-1,1,"Significant decrease in friends_count, likely to avoid detection based on social graph.",1996,0
+219,followers_count,-1,1,Decreasing followers_count to zero is likely an attempt to appear less bot-like.,4,0
+222,listed_count,-1,-1,Small change in listed_count is likely natural list membership variation.,2,0
+232,listed_count,-1,-1,"No change in listed_count, so it's a normal profile variation.",0,0
+234,description_length,-1,1,Increased description length to appear more human-like and informative.,171,212
+237,listed_count,-1,-1,"No change in listed_count, so it's a normal profile variation.",0,0
+237,description_length,-1,1,Increased description length to appear more human-like and informative.,128,189
+241,friends_count,-1,-1,Small decrease in friends_count is likely natural fluctuation.,13765,13487
+243,friends_count,1,1,Drastic decrease in friends_count suggests bot network takedown.,2602,32
+243,statuses_count,1,1,Significant decrease in statuses_count suggests bot activity removal.,1132,7
+249,friends_count,-1,1,Friends count dropping to zero indicates bot network disruption.,173,0
+253,statuses_count,-1,1,Statuses count dropping to 0 is likely intentional to reset bot activity.,2529,0
+257,followers_count,-1,1,Followers dropping to 0 is likely intentional to evade detection.,1204,0
+258,name_length,1,-1,Slight name length change is likely unintentional or normal variation.,5,7
+259,friends_count,1,1,Significant drop in friends count suggests intentional manipulation.,2371,32
+259,statuses_count,1,1,Statuses count dropping significantly is likely intentional bot evasion.,2566,7
+260,listed_count,-1,-1,Small change in listed_count could be due to list membership changes.,50,0
+267,description_length,-1,-1,"Minor change in description length, likely a formatting or encoding issue.",1,0
+275,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion or account reset.",243,7
+284,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",52,0
+287,statuses_count,1,1,"Drastic decrease in statuses_count, likely to evade detection based on activity.",860,7
+287,listed_count,1,1,"Decrease in listed_count, possibly to appear less associated with lists.",45,0
+290,description_length,-1,1,Increasing description length makes the profile appear more complete.,115,168
+298,verified,-1,-1,"No change in verified status, so it's not an intentional evasion attempt.",1,1
+300,statuses_count,1,1,Drastic reduction in statuses_count is likely an attempt to appear less bot-like.,2352,7
+310,followers_count,-1,-1,"Small follower count change, likely natural fluctuation or account cleanup.",7,0
+312,friends_count,-1,-1,"Slight decrease in friends_count, likely normal unfollowing activity.",13517,13452
+318,verified,-1,-1,"No change in verified status, so no bot evasion attempt.",0,0
+319,friends_count,-1,1,"Significant drop in friends_count, possibly to appear less bot-like.",1407,0
+320,followers_count,-1,1,Drastic reduction in followers suggests intentional manipulation to reset profile.,435,0
+320,statuses_count,-1,1,"Statuses count reset to zero, likely to evade detection algorithms.",115,0
+320,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+322,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",3271,786
+324,friends_count,-1,1,"Friends count set to zero, likely to evade bot detection algorithms.",1670,0
+325,statuses_count,1,1,"Statuses count significantly decreased, possibly to appear less active.",46,7
+325,description_length,1,1,"Decreasing description length, possibly to appear less bot-like.",73,17
+327,friends_count,-1,1,"Friends count set to zero, likely to evade bot detection algorithms.",2087,0
+332,statuses_count,1,1,"Drastic reduction in statuses_count, likely to evade detection based on activity.",120,7
+332,listed_count,1,1,"Reduction in listed_count, possibly to appear less bot-like in network analysis.",4,0
+343,listed_count,-1,-1,"No change in listed_count, indicating no attempt to manipulate list appearances.",0,0
+344,protected,-1,-1,"No change in protected status, so no attempt to appear more legitimate.",0,0
+353,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",88,0
+358,name_length,-1,-1,"Slight change in name length, likely a normal profile update.",18,22
+360,verified,-1,-1,No change in verification status; no evasion attempt.,0,0
+361,listed_count,-1,-1,"Small change in listed count, likely natural list membership fluctuation.",1,0
+371,protected,-1,-1,No change in protected status; likely unintentional or irrelevant.,0,0
+374,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",82,0
+376,followers_count,-1,1,"Drastic reduction in followers_count, likely an attempt to evade detection.",1792,0
+388,statuses_count,1,1,Drastic decrease in statuses_count is likely an attempt to appear less bot-like.,1084,7
+392,listed_count,-1,-1,Small change in listed_count is likely natural variation.,2,0
+396,followers_count,-1,1,Drastic decrease in followers suggests follower manipulation.,7255,0
+399,verified,-1,-1,"No change in verified status, so no evasion attempt.",0,0
+406,description_length,1,-1,Description length change is likely a normal profile edit.,57,29
+406,name_length,1,-1,Name length change is likely a normal profile edit.,10,16
+409,name_length,-1,-1,Name length change is likely a normal profile edit.,5,2
+411,statuses_count,-1,1,"Significant decrease in statuses_count, likely to mask bot activity.",116,0
+414,listed_count,-1,-1,"No change in listed_count, so it's a normal/benign variation.",0,0
+414,verified,-1,-1,"No change in verified status, so it's a normal/benign variation.",0,0
+424,protected,-1,-1,No change in protected status; likely unintentional or irrelevant.,0,0
+427,listed_count,-1,-1,Significant decrease in listed_count; could be natural list attrition.,201,0
+430,statuses_count,1,-1,Drastic status count decrease is likely an unintentional data error/truncation.,680,7
+431,statuses_count,-1,-1,Statuses count dropping to zero is likely a data error/truncation.,10609,0
+431,verified,-1,-1,No change in verification status; not an attempt to appear legitimate.,0,0
+438,verified,-1,-1,No change in verification status; not an attempt to appear legitimate.,0,0
+440,statuses_count,-1,-1,Small decrease in statuses_count could be normal fluctuation or content deletion.,2,0
+450,statuses_count,1,-1,"Statuses count decreased, likely normal fluctuation or content deletion.",25,7
+451,friends_count,-1,-1,"Friends count decreased significantly, possibly from unfollowing or account suspension.",55,0
+456,statuses_count,-1,-1,"Statuses count increased, consistent with normal account activity.",36407,40498
+466,statuses_count,-1,1,"Significant decrease in statuses_count suggests content deletion, possibly to evade detection.",1251,0
+474,listed_count,-1,-1,Decrease in listed_count is likely natural variation in list memberships.,25,0
+491,description_length,-1,1,Increasing description length makes the profile appear more complete.,156,186
+495,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,386,0
+504,protected,-1,-1,No change in protected status; likely benign.,0,0
+508,protected,-1,-1,No change in protected status; likely benign.,0,0
+509,statuses_count,-1,1,Statuses count dropping to 0 is suspicious; likely bot reset.,3653,0
+512,friends_count,-1,1,Significant decrease in friends_count could be an attempt to appear less bot-like.,4950,2480
+520,followers_count,-1,1,Large decrease in followers is likely an attempt to reset bot detection.,3164,0
+525,followers_count,-1,1,Decrease in followers is likely an attempt to reset bot detection.,52,0
+530,friends_count,1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",247,32
+530,statuses_count,1,1,"Drastic reduction in statuses_count, likely to mask bot activity.",150,7
+538,friends_count,-1,1,Setting friends_count to zero is a strong indicator of bot evasion.,635,0
+544,statuses_count,1,1,Drastic decrease in statuses_count is likely an attempt to appear less bot-like.,2338,7
+551,listed_count,-1,-1,"Small decrease in listed_count is likely natural fluctuation, not bot evasion.",17870,17563
+554,description_length,-1,1,Increasing description length makes the profile appear more complete and human-like.,143,190
+566,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+567,followers_count,-1,-1,Decrease in followers could be due to account suspensions or unfollows.,13,0
+569,statuses_count,-1,1,Significant drop in statuses_count suggests intentional content removal.,6798,0
+570,statuses_count,1,-1,"Significant decrease in status count, likely due to content deletion.",83,7
+573,followers_count,-1,-1,"Drastic decrease in followers, likely due to account suspension/deletion.",1659,0
+576,statuses_count,1,-1,"Significant decrease in status count, likely due to content deletion.",1112,7
+578,listed_count,1,-1,"Decrease in listed count, likely from removal from lists.",97,0
+578,name_length,1,-1,Name length change is likely a normal profile update.,19,13
+581,followers_count,-1,-1,"Significant decrease in followers, likely account compromise or suspension.",363267,122276
+586,followers_count,-1,-1,Follower count dropping to zero suggests account suspension or deletion.,469,0
+589,statuses_count,1,-1,"Drastic decrease in statuses_count, likely due to content removal/suspension.",972,7
+589,listed_count,1,-1,"Decrease in listed_count, likely due to account changes or list removal.",5,0
+595,friends_count,-1,1,Radically reducing friends count is likely an attempt to appear less bot-like.,1185,0
+597,verified,-1,-1,No change in verification status; benign.,0,0
+598,statuses_count,1,1,Large decrease in statuses_count suggests content removal to evade detection.,389,7
+598,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+605,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming to appear active.,27085,34780
+613,verified,-1,-1,"No change in verification status; thus, unintentional.",1,1
+613,description_length,-1,1,Increased description length to appear more human-like.,161,201
+627,description_length,1,1,Increasing description length makes the profile appear more complete and human-like.,1,15
+631,followers_count,-1,-1,"Follower count decreased, likely normal fluctuation, not bot evasion.",8049872,7854608
+632,friends_count,-1,1,"Significant drop in friends_count, possibly to appear less bot-like.",468,0
+634,friends_count,-1,1,"Significant drop in friends_count, possibly to appear less bot-like.",256,0
+634,name_length,-1,-1,"Slight name length change, could be normal profile editing.",18,22
+636,friends_count,-1,-1,"Small decrease in friends_count, likely normal fluctuation.",11611,11515
+636,name_length,-1,-1,"Slight name length change, could be normal profile editing.",11,9
+642,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming to appear active.,138122,141791
+656,statuses_count,1,-1,"Statuses count decreased, likely due to content deletion or account reset.",13,7
+657,statuses_count,1,-1,"Statuses count decreased drastically, likely due to content deletion/reset.",620,7
+668,followers_count,-1,1,Significant decrease in followers suggests follower manipulation to evade detection.,296,0
+672,followers_count,-1,1,Large decrease in followers suggests follower manipulation or account reset.,369,0
+672,description_length,-1,1,"Significant reduction in description length, possibly to evade detection.",22,4
+675,description_length,-1,1,Increased description length to appear more human-like and informative.,138,187
+695,statuses_count,-1,1,Reducing statuses_count to zero is likely an attempt to evade detection.,4615,0
+702,statuses_count,1,-1,Drastic status count decrease is likely a data error or account reset.,1077,7
+702,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+703,statuses_count,1,-1,Drastic status count decrease is likely a data error or account reset.,1435,7
+712,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,38,0
+715,statuses_count,1,1,Drastic reduction in statuses_count suggests manipulation to hide bot activity.,808,7
+723,description_length,-1,1,Increasing description length makes the profile appear more complete and human.,84,128
+725,verified,-1,-1,The verified status remained unchanged; no bot evasion attempt.,1,1
+732,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to appear less bot-like.,656,0
+733,friends_count,1,1,Drastic reduction in friends_count suggests manipulation to appear less bot-like.,3364,32
+733,statuses_count,1,1,Statuses count dropping significantly is likely an attempt to evade detection.,247,7
+739,listed_count,-1,-1,Small change in listed_count could be due to normal list membership changes.,5,0
+743,listed_count,-1,-1,Small change in listed_count can be due to list membership changes.,23,0
+746,listed_count,-1,-1,Small change in listed_count can be due to list membership changes.,46,0
+748,description_length,-1,-1,Slight change in description length is likely normal profile variation.,115,123
+750,statuses_count,-1,1,Drastic statuses_count reduction suggests manipulation to hide bot activity.,782,0
+754,statuses_count,1,1,Significant statuses_count decrease indicates potential bot activity cleanup.,189,7
+754,description_length,1,1,Description length reduction could be an attempt to evade detection.,137,81
+755,name_length,-1,-1,Slight name length increase is likely a normal profile change.,15,17
+756,protected,-1,-1,No change in protected status; feature remains unchanged.,0,0
+759,statuses_count,-1,-1,Statuses_count increase is likely normal activity for an active account.,173087,178946
+760,verified,-1,-1,No change in verification status; no impact on bot detection evasion.,0,0
+761,followers_count,-1,-1,"Decrease in followers is likely natural attrition, not intentional evasion.",201,0
+766,followers_count,-1,-1,"Decrease in followers is likely natural attrition, not intentional evasion.",28,0
+767,statuses_count,1,-1,"Decrease in statuses is likely natural attrition, not intentional evasion.",24,7
+774,verified,-1,-1,llm_fallback,1,1
+795,followers_count,-1,-1,"Small decrease in followers, likely natural fluctuation or follower removal.",2,0
+804,followers_count,-1,1,Drastic follower count reduction is likely an attempt to reset bot detection.,101889,0
+807,statuses_count,1,1,Significant status count decrease suggests content removal for bot evasion.,265,7
+812,friends_count,1,1,Drastic reduction in friends_count suggests bot trying to appear less obvious.,4999,32
+812,statuses_count,1,1,"Significant decrease in statuses_count, likely to evade detection thresholds.",1863,7
+814,friends_count,1,1,Large decrease in friends_count indicates bot trying to appear less bot-like.,2469,32
+814,statuses_count,1,1,"Substantial reduction in statuses_count, likely an attempt to evade detection.",413,7
+817,followers_count,-1,-1,"Follower count decreased, which is a natural fluctuation, not bot evasion.",3750357,3553693
+826,followers_count,-1,1,Significant decrease in followers suggests follower manipulation to evade detection.,557,0
+831,statuses_count,1,1,Large increase in statuses_count suggests engagement gaming to appear active.,1294,25571
+845,description_length,-1,1,Increasing description length makes the profile appear more complete and human-like.,118,164
+849,name_length,1,-1,Shortening name length is likely unintentional or a normal profile variation.,12,6
+852,verified,-1,-1,No change in verification status; benign.,0,0
+853,description_length,-1,-1,Description length decreasing could be normal profile editing.,15,0
+856,statuses_count,1,-1,"Statuses count decreasing is unusual, but could be due to deletion.",267,7
+856,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+856,name_length,-1,-1,Name length decreasing is a normal profile variation.,13,11
+863,friends_count,-1,1,Large decrease in friends_count suggests follower manipulation to appear less bot-like.,1238,0
+868,statuses_count,1,-1,Decrease in statuses_count could be due to tweet deletion or account inactivity.,26,7
+882,friends_count,-1,1,Significant decrease in friends_count suggests follower manipulation for bot evasion.,202,0
+883,description_length,1,1,Increasing description length makes the profile appear more complete and human-like.,1,15
+883,name_length,1,-1,Slight decrease in name length is a normal profile variation.,17,11
+889,listed_count,-1,-1,Decrease in listed_count is likely a natural fluctuation in list memberships.,770,172
+890,statuses_count,-1,1,Substantial increase in statuses_count suggests engagement gaming to appear active.,33150,39086
+894,verified,-1,-1,No change in verified status; no impact on bot detection evasion.,0,0
+909,protected,-1,-1,llm_fallback,0,0
+913,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",3760,1127
+914,verified,-1,-1,No change in verification status; remains unverified. No evasion attempt.,0,0
+918,friends_count,-1,1,"Drastic reduction in friends_count, likely to avoid bot detection thresholds.",391,0
+924,name_length,-1,-1,"Slight name length change is likely a normal profile variation, not bot evasion.",13,11
+932,friends_count,-1,-1,Slight decrease in friends_count is within natural fluctuation range.,8101,7997
+938,verified,-1,-1,No change in verified status; remains unverified.,0,0
+948,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",92,7
+948,description_length,1,-1,"Description length decreased, likely due to editing or shortening the bio.",113,57
+951,followers_count,-1,1,Radical drop in followers suggests follower manipulation to evade detection.,3070,0
+953,followers_count,-1,-1,"Follower count decreased, which could be normal fluctuation or account cleanup.",2147844,1945917
+954,friends_count,-1,1,Significant drop in friends_count suggests manipulation to appear less bot-like.,39,0
+964,description_length,-1,-1,Description length change is likely a normal profile variation.,73,33
+966,name_length,-1,-1,Name length change is likely a normal profile variation.,11,9
+971,listed_count,-1,-1,"Small change in listed count, likely due to list membership changes.",16,0
+973,description_length,-1,1,Shortening description could be an attempt to appear less bot-like.,67,14
+974,protected,-1,-1,"No change in protected status, so it's unintentional/no change.",0,0
+986,statuses_count,1,1,"Significant decrease in statuses_count, likely to evade detection.",201,7
+986,name_length,-1,-1,"Slight change in name length, could be a normal profile variation.",12,10
+987,followers_count,-1,1,"Drastic decrease in followers_count, likely to evade detection.",3501,0
+990,listed_count,-1,-1,Small change in listed_count is likely natural variation.,2,0
+991,statuses_count,1,-1,Large decrease in statuses_count could be normal fluctuation.,164,7
+991,listed_count,1,-1,Small change in listed_count is likely natural variation.,2,0
+998,followers_count,-1,1,Drastic decrease in followers_count suggests manipulation.,4331,0
+1007,listed_count,-1,-1,Small change in listed_count is likely natural list membership variation.,4702,4389
+1009,followers_count,-1,1,Significant decrease in followers suggests follower manipulation or account reset.,93,0
+1010,listed_count,-1,-1,Listed count variations are natural changes from list membership changes.,1510,933
+1021,name_length,1,-1,"Name length change is likely a normal profile edit, not bot evasion.",13,7
+1024,name_length,-1,-1,"Name length change is likely a normal profile edit, not bot evasion.",14,13
+1035,listed_count,-1,-1,"Decrease in listed_count is a normal fluctuation, not bot evasion.",13,0
+1040,name_length,-1,-1,Name length change is likely a normal profile variation.,13,11
+1041,statuses_count,1,-1,Statuses count decrease is likely normal activity fluctuation.,30,7
+1051,statuses_count,1,-1,"Statuses count decreased, likely normal fluctuation or content deletion.",20,7
+1051,description_length,1,1,Increased description length suggests an attempt to appear more legitimate.,1,15
+1052,protected,-1,-1,No change in protected status; feature remains the same.,0,0
+1053,followers_count,-1,-1,"Follower count decreased, likely normal fluctuation or follower loss.",87031814,86835520
+1053,name_length,-1,-1,"Name length decreased, could be a normal profile adjustment.",13,10
+1060,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to reset bot activity.,4013,0
+1061,listed_count,-1,-1,Small decrease in listed_count is likely due to normal list membership changes.,12008,11666
+1062,listed_count,-1,-1,Decrease in listed_count is likely due to normal list membership changes.,1518,946
+1063,verified,-1,-1,No change in verified status; no bot evasion attempt related to verification.,0,0
+1072,verified,-1,-1,No change in verified status; no impact on bot detection evasion.,0,0
+1072,protected,-1,-1,No change in protected status; no impact on bot detection evasion.,0,0
+1076,statuses_count,1,-1,"Statuses count decreased, unlikely to be intentional evasion.",19,7
+1076,description_length,1,-1,"Description length decreased, unlikely to be intentional evasion.",66,10
+1078,statuses_count,-1,-1,"Statuses count decreased drastically, unlikely intentional evasion.",8557,0
+1083,friends_count,1,-1,Significant decrease in friends_count is likely unintentional or account cleanup.,144,32
+1083,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+1086,followers_count,-1,-1,Drastic drop in followers is likely due to account suspension/cleanup.,1310,0
+1100,description_length,-1,1,Increasing description length makes the profile appear more complete.,116,151
+1104,friends_count,-1,-1,Decrease in friends count could be due to unfollowing or account suspension.,4306,1454
+1105,friends_count,1,-1,Large decrease in friends count could be due to unfollowing or suspensions.,457,32
+1105,statuses_count,1,-1,Significant drop in statuses_count suggests content removal or account reset.,316,7
+1108,statuses_count,-1,-1,Statuses count dropping to 0 indicates content deletion or account reset.,1109,0
+1109,statuses_count,-1,-1,Statuses count dropping to 0 indicates content deletion or account reset.,794,0
+1112,statuses_count,1,-1,Significant decrease in statuses_count is likely unintentional or data error.,212,7
+1112,description_length,1,-1,Change in description length is likely unintentional or data error.,1,15
+1114,statuses_count,1,-1,Significant decrease in statuses_count is likely unintentional or data error.,237,7
+1114,name_length,1,-1,Change in name length is likely unintentional or data error.,21,15
+1120,statuses_count,1,1,Drastic reduction in statuses_count is likely an attempt to appear less bot-like.,1267,7
+1129,followers_count,-1,-1,"Slight decrease in followers is normal fluctuation, not necessarily bot evasion.",39975735,39778662
+1130,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion or account reset.",170,7
+1130,description_length,1,1,Increased description length suggests an attempt to appear more legitimate.,2,16
+1142,statuses_count,-1,-1,Significant decrease in statuses_count could be due to data issues.,291,0
+1145,name_length,-1,-1,Slight change in name length is likely a normal profile variation.,10,7
+1148,statuses_count,1,-1,Decrease in statuses_count could be due to data issues.,33,7
+1148,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+1149,statuses_count,1,-1,Significant decrease in statuses_count could be due to data issues.,127,7
+1151,followers_count,-1,1,Drastic follower count reduction; likely bot purge or suspension evasion attempt.,3673,0
+1159,followers_count,-1,1,Drastic follower count reduction; likely bot purge or suspension evasion attempt.,532,0
+1168,followers_count,-1,1,Significant decrease in followers suggests follower manipulation to evade detection.,177,0
+1168,statuses_count,1,1,Drastic reduction in statuses_count indicates potential engagement gaming evasion.,2441,7
+1168,name_length,1,-1,Slight name length change is likely a normal profile variation.,9,6
+1183,followers_count,-1,-1,"Small decrease in followers, could be normal churn.",3,0
+1189,description_length,1,1,Increased description length to appear more legitimate.,1,15
+1190,statuses_count,1,1,Large increase in statuses_count suggests engagement gaming to appear active.,609,24886
+1190,name_length,1,-1,Name length change is likely a normal profile variation.,15,9
+1193,name_length,-1,-1,Name length change is likely a normal profile variation.,10,7
+1194,protected,-1,-1,"No change in protected status, so it's unintentional.",0,0
+1194,description_length,-1,-1,Description length change is likely a normal profile variation.,160,209
+1201,friends_count,-1,1,Large decrease in friends_count suggests intentional manipulation of social connections.,236,0
+1205,statuses_count,1,1,Significant decrease in statuses_count indicates content removal or account reset.,1136,7
+1205,listed_count,1,1,listed_count dropping to 0 suggests list membership manipulation.,47,0
+1207,friends_count,-1,1,Large decrease in friends_count suggests intentional manipulation of social connections.,580,0
+1212,statuses_count,-1,1,"Significant decrease in statuses_count suggests content removal, possibly evasion.",32,0
+1217,statuses_count,1,1,"Large decrease in statuses_count indicates content removal, likely evasion.",192,7
+1217,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+1226,listed_count,1,-1,Small change in listed_count could be from natural list membership changes.,17,0
+1230,listed_count,-1,-1,llm_fallback,0,0
+1244,statuses_count,1,-1,Significant decrease in statuses_count is likely due to data issues.,123,7
+1244,name_length,1,-1,Slight decrease in name length is likely a normal profile variation.,21,15
+1245,name_length,-1,-1,Minor change in name length is likely a normal profile variation.,14,13
+1246,statuses_count,1,-1,Significant decrease in statuses_count is likely due to data issues.,249,7
+1246,listed_count,1,-1,Small decrease in listed_count is likely a normal profile variation.,3,0
+1247,statuses_count,1,-1,Significant decrease in statuses_count is likely due to data issues.,72,7
+1247,description_length,1,-1,Decrease in description length is likely a normal profile variation.,93,37
+1255,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",4444,1908
+1256,friends_count,-1,1,"Drastic reduction in friends_count, likely an attempt to evade detection.",382,0
+1261,listed_count,-1,-1,Small decrease in listed_count is likely natural variation.,3,0
+1264,listed_count,-1,-1,Small decrease in listed_count is likely natural variation.,1,0
+1265,description_length,-1,1,Increased description length makes the profile appear more complete.,145,191
+1268,statuses_count,1,-1,Large decrease in statuses_count is likely due to data collection issues.,449,7
+1282,statuses_count,1,-1,Large decrease in statuses_count is likely due to data issues.,227,7
+1282,name_length,1,-1,Name length change is likely due to data issues.,17,11
+1284,statuses_count,1,-1,Large decrease in statuses_count is likely due to data issues.,336,7
+1284,description_length,1,-1,Description length change is likely due to data issues.,110,82
+1286,description_length,-1,-1,Description length change is likely due to data issues.,35,0
+1291,followers_count,-1,1,Large decrease in followers suggests follower manipulation or account reset.,316,0
+1292,protected,-1,-1,"No change in protected status, so it's a neutral/unintentional event.",0,0
+1294,followers_count,-1,1,Significant drop in followers_count indicates follower manipulation or account reset.,468,0
+1296,statuses_count,1,1,Large increase in statuses_count suggests engagement gaming or bot activity.,3920,28197
+1296,verified,-1,-1,"No change in verified status, so it's a neutral/unintentional event.",0,0
+1297,followers_count,1,1,Decrease in followers_count suggests follower manipulation or account reset.,15,8
+1297,friends_count,1,1,Large decrease in friends_count suggests friend manipulation or account reset.,135,32
+1300,description_length,-1,1,Increased description length makes the profile appear more complete/human.,153,193
+1308,description_length,-1,1,Increased description length makes the profile appear more complete/human.,157,199
+1312,statuses_count,1,-1,Significant decrease in statuses_count is likely due to data collection issues.,2506,7
+1313,statuses_count,1,-1,Significant decrease in statuses_count is likely due to data collection issues.,92,7
+1314,statuses_count,-1,-1,Minor decrease in statuses_count is likely due to data collection issues.,1,0
+1332,statuses_count,-1,1,Drastic reduction in statuses_count is likely an attempt to evade detection.,3503,0
+1334,friends_count,-1,-1,"No change in friends_count, so it's a normal profile variation.",0,0
+1339,listed_count,-1,1,Reducing listed_count could be an attempt to appear less bot-like.,35,0
+1341,name_length,-1,-1,Slight name length change is likely unintentional and normal profile variation.,17,19
+1368,statuses_count,-1,1,Drastic statuses_count decrease suggests content deletion to evade detection.,9496,0
+1381,friends_count,-1,1,Drastic reduction in friends_count suggests an attempt to appear less bot-like.,954,0
+1383,description_length,-1,1,Increased description length makes the profile appear more complete and human.,161,216
+1387,listed_count,-1,-1,"Decrease in listed_count is likely a natural fluctuation, not evasion.",60,0
+1398,statuses_count,1,-1,"Significant decrease in statuses_count is likely unintentional, possibly data corruption.",123,7
+1398,description_length,1,-1,"Description length decreasing is likely unintentional, perhaps a profile edit.",96,40
+1408,statuses_count,-1,1,"Significant decrease in statuses_count suggests content deletion, possibly for evasion.",1047,0
+1412,name_length,-1,-1,Name length change is likely unintentional; could be a simple edit.,9,6
+1413,name_length,-1,-1,guard_fallback,9,9
+1418,statuses_count,1,-1,"Statuses count decreased, likely due to tweet deletion or account reset.",18,7
+1419,statuses_count,1,-1,"Statuses count decreased significantly, likely due to tweet deletion.",590,7
+1419,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+1421,followers_count,-1,1,Large decrease in followers suggests follower manipulation to evade detection.,1308,0
+1430,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,33,0
+1436,friends_count,-1,1,Decreasing friends_count suggests an attempt to appear less bot-like.,4105,1363
+1436,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+1441,followers_count,-1,-1,"Significant decrease in followers, likely due to account suspension/removal.",326281,89125
+1448,followers_count,1,-1,"Small decrease in followers, likely due to natural attrition.",18,8
+1448,description_length,1,-1,"Description length decreased, possibly from editing or content removal.",31,17
+1449,statuses_count,1,-1,"Drastic decrease in statuses, likely due to tweet deletion or account reset.",1039,7
+1458,statuses_count,1,1,Drastic decrease in statuses_count is likely an attempt to appear less bot-like.,281,7
+1458,listed_count,1,-1,Small decrease in listed_count could be natural fluctuation.,4,0
+1461,followers_count,-1,1,Drastic reduction in followers suggests follower manipulation to evade detection.,394,0
+1470,listed_count,-1,-1,Small change in listed count is likely natural list membership variation.,9,0
+1474,followers_count,-1,1,Drastic reduction in followers suggests manipulation or account compromise.,542,0
+1476,friends_count,-1,1,Significant reduction in friends count suggests bot is unfollowing strategically.,19,0
+1480,statuses_count,1,1,Drastic reduction in statuses_count suggests intentional manipulation of activity.,2740,7
+1480,listed_count,1,1,Significant decrease in listed_count may indicate bot trying to hide connections.,19,0
+1482,protected,-1,-1,No change in protected status; this is a no-op and thus unintentional.,0,0
+1494,name_length,-1,-1,Slight name length change is likely a normal profile variation.,14,12
+1495,statuses_count,-1,1,Statuses count dropping to 0 is likely intentional to appear inactive.,663,0
+1498,followers_count,-1,1,Followers dropping to 0 is likely intentional to evade detection.,507,0
+1500,followers_count,-1,1,Large decrease in followers is likely an attempt to reset profile.,50,0
+1505,description_length,-1,1,Increasing description length makes the profile appear more complete.,130,167
+1508,description_length,1,1,Increasing description length makes the profile appear more complete.,52,108
+1511,statuses_count,1,-1,"Statuses count decreased, likely due to content deletion or account suspension.",46,7
+1518,friends_count,-1,-1,"Friends count decreased drastically, possibly due to account cleanup/suspension.",789,0
+1530,listed_count,-1,-1,Small decrease in listed_count is likely natural variation.,10423,10071
+1535,friends_count,1,-1,Decrease in friends_count could be normal unfollowing activity.,140,32
+1535,verified,-1,-1,No change in verified status; no evasion attempt.,0,0
+1536,followers_count,1,-1,Decrease in followers_count is likely natural fluctuation.,13,8
+1536,friends_count,1,-1,Large decrease in friends_count could be normal unfollowing activity.,1183,32
+1543,protected,-1,-1,llm_fallback,0,0
+1552,protected,-1,-1,No change in protected status; likely benign.,0,0
+1554,followers_count,-1,1,Drastic decrease in followers suggests manipulation or account reset.,1352,0
+1556,name_length,-1,-1,Slight change in name length; could be a normal profile edit.,12,11
+1559,verified,-1,-1,No change in verification status; likely benign.,0,0
+1560,followers_count,-1,1,Large decrease in followers is likely an attempt to reset profile metrics.,715,0
+1564,listed_count,-1,1,Significant decrease in listed count suggests manipulation to appear less bot-like.,46,0
+1575,friends_count,-1,1,Radical reduction in friends_count suggests an attempt to appear less bot-like.,324,0
+1575,statuses_count,-1,1,Reducing statuses_count to zero is likely an attempt to hide bot activity.,14,0
+1575,description_length,-1,1,Increasing description length makes the profile appear more complete/human.,139,188
+1587,followers_count,-1,1,"Significant decrease in followers suggests follower manipulation, likely intentional.",256,0
+1615,friends_count,-1,-1,"Slight decrease in friends_count, could be normal churn.",8414,7966
+1616,listed_count,1,-1,"Significant drop in listed_count, could be list removal.",979,0
+1616,name_length,1,-1,Name length change is likely a normal profile edit.,13,7
+1621,listed_count,-1,-1,Small decrease in listed_count is likely natural variation.,1,0
+1624,statuses_count,1,-1,Large decrease in statuses_count is likely a data error.,241,7
+1626,listed_count,-1,-1,Small decrease in listed_count is likely natural variation.,5,0
+1630,name_length,-1,-1,Slight change in name length is likely unintentional.,10,9
+1635,followers_count,-1,1,Large decrease in followers suggests follower manipulation or account reset.,1275,0
+1644,protected,-1,-1,"No change in protected status, so it's unintentional.",0,0
+1645,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",156,0
+1645,statuses_count,1,1,"Drastic reduction in statuses_count, likely to evade detection.",2068,7
+1645,name_length,1,-1,"Slight change in name length, likely unintentional or normal variation.",21,19
+1651,description_length,1,1,Increasing description length makes the profile appear more complete and human.,1,15
+1658,listed_count,-1,-1,Slight decrease in listed count is likely natural list membership fluctuation.,6123,5795
+1661,description_length,-1,1,Increasing description length makes the profile appear more complete.,147,182
+1663,verified,-1,-1,No change in verification status; remains unverified.,0,0
+1665,statuses_count,1,1,"Drastic decrease in statuses_count, likely to evade detection.",1517,7
+1665,name_length,1,1,Increasing name length makes the profile appear more human-like.,9,15
+1674,statuses_count,-1,-1,"Significant decrease in statuses_count, likely due to content deletion or account reset.",18625,3702
+1680,name_length,-1,-1,Slight name length change is likely unintentional.,11,9
+1685,statuses_count,1,-1,Small decrease in status count is likely normal fluctuation.,11,7
+1685,description_length,1,1,Increasing description length makes profile appear more complete.,1,15
+1696,followers_count,-1,1,Drastic decrease in followers suggests manipulation or account compromise.,308854,69918
+1696,statuses_count,-1,1,"Increase in statuses could be engagement gaming, exceeding natural growth.",92034,98898
+1703,statuses_count,-1,1,"Significant decrease in statuses_count suggests content deletion, possibly evasion.",7802,0
+1704,statuses_count,-1,1,"Significant decrease in statuses_count suggests content deletion, possibly evasion.",3021,0
+1707,description_length,-1,1,Increased description length makes profile appear more complete/human-like.,144,187
+1710,verified,-1,-1,No change in verification status; no impact on bot detection.,0,0
+1715,statuses_count,-1,1,Drastic reduction in statuses_count; likely an attempt to appear less active.,8443,0
+1720,followers_count,-1,1,Large decrease in followers_count is likely an attempt to evade detection.,840,0
+1723,followers_count,-1,1,Large decrease in followers_count is likely an attempt to evade detection.,277,0
+1726,verified,-1,-1,No change in verified status; no impact on bot detection evasion.,0,0
+1727,statuses_count,-1,1,Significant decrease in statuses_count is likely an attempt to evade detection.,11,0
+1730,friends_count,1,1,Drastic decrease in friends_count could be an attempt to appear less bot-like.,1782,32
+1730,statuses_count,1,1,Significant decrease in statuses_count suggests profile manipulation.,232,7
+1731,verified,-1,-1,No change in verified status; benign.,1,1
+1739,name_length,-1,-1,Slight change in name length; could be a normal profile update.,16,19
+1746,verified,-1,-1,llm_fallback,1,1
+1760,statuses_count,1,1,Drastic decrease in statuses_count is likely an attempt to appear less bot-like.,692,7
+1763,statuses_count,1,1,Large increase in statuses_count suggests engagement gaming to appear active.,1735,26012
+1763,listed_count,1,1,Decrease in listed_count could be an attempt to appear less bot-like.,34,0
+1766,friends_count,-1,1,Significant decrease in friends_count could be an attempt to appear less bot-like.,5833,3180
+1767,statuses_count,1,1,Drastic decrease in statuses_count is likely an attempt to appear less bot-like.,1390,7
+1784,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,736,0
+1796,statuses_count,-1,-1,"Statuses count decreased significantly, likely due to content deletion.",20442,9478
+1797,description_length,-1,1,Increased description length to appear more complete and human-like.,110,155
+1799,followers_count,-1,-1,"Followers count decreased to 0, possibly due to account suspension/removal.",96,0
+1799,listed_count,-1,-1,"Listed count remains unchanged at 0, indicating no list membership change.",0,0
+1808,followers_count,-1,1,Drastic reduction in followers suggests manipulation to appear less bot-like initially.,4894,0
+1813,followers_count,-1,1,Significant decrease in followers suggests follower manipulation to evade detection.,74,0
+1816,friends_count,-1,1,Reducing friends_count to zero is likely an attempt to appear less bot-like.,165,0
+1819,friends_count,-1,1,Reducing friends_count to zero is likely an attempt to appear less bot-like.,2165,0
+1823,friends_count,1,-1,"Friends count decreased, which is not indicative of bot evasion.",77,32
+1823,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+1825,listed_count,-1,-1,Decrease in listed_count is a normal fluctuation.,6,0
+1828,statuses_count,1,-1,Significant decrease in statuses_count is not bot evasion.,2051,7
+1830,friends_count,-1,-1,"Small decrease in friends count, likely normal fluctuation.",22410,21993
+1830,listed_count,-1,-1,"Small decrease in listed count, likely normal fluctuation.",3000,2702
+1834,name_length,-1,-1,"Slight change in name length, likely unintentional or normal variation.",13,11
+1838,friends_count,-1,1,"Significant decrease in friends count, could be an attempt to appear less bot-like.",127,0
+1843,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,267,0
+1845,listed_count,-1,-1,Small change in listed_count is likely a natural fluctuation.,10,0
+1851,friends_count,-1,1,Drastic reduction in friends_count suggests an attempt to appear less bot-like.,1029,0
+1861,statuses_count,-1,-1,Statuses count decreased significantly; could be normal account activity/deletion.,23208,10041
+1880,verified,-1,-1,The verified status remained unchanged; no bot evasion attempt.,1,1
+1885,listed_count,-1,-1,Decrease in listed_count is likely natural list membership fluctuation.,58,0
+1886,listed_count,-1,-1,Decrease in listed_count is likely natural list membership fluctuation.,1497,871
+1889,followers_count,-1,1,Follower count dropping to zero is suspicious and likely evasion.,798,0
+1896,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,454,0
+1896,description_length,-1,1,Increasing description length makes the profile appear more complete.,112,140
+1916,friends_count,-1,1,Reducing friends_count significantly is likely an attempt to appear less bot-like.,1055,0
+1916,listed_count,-1,-1,Small change in listed_count could be due to natural list membership changes.,2,0
+1921,followers_count,-1,1,Large decrease in followers suggests follower manipulation to evade detection.,723,0
+1922,statuses_count,-1,1,Statuses count dropping to 0 is suspicious and likely intentional evasion.,28,0
+1923,friends_count,-1,1,Significant decrease in friends_count suggests manipulation to evade detection.,13,0
+1923,protected,-1,-1,"No change in protected status, so it's unintentional/normal.",0,0
+1926,friends_count,-1,1,Large decrease in friends_count suggests manipulation to evade detection.,196,0
+1930,description_length,1,1,Adding more content to the description makes the profile appear more complete.,1,15
+1931,followers_count,-1,1,Drastic follower count reduction suggests manipulation or account reset.,6221,0
+1931,friends_count,-1,1,Drastic friend count reduction suggests manipulation or account reset.,812,0
+1935,verified,-1,-1,The verified status remained unchanged; no bot evasion attempt.,1,1
+1937,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",70,7
+1938,description_length,-1,-1,"Description length decreased, possibly due to content removal or editing.",80,34
+1940,friends_count,-1,1,Large decrease in friends_count suggests an attempt to appear less bot-like.,808,0
+1943,statuses_count,1,1,Significant decrease in statuses_count suggests manipulation of activity levels.,359,7
+1957,statuses_count,-1,1,"Significant decrease in statuses_count suggests content deletion, possibly evasion.",4458,0
+1972,statuses_count,1,1,"Drastic reduction in statuses_count suggests content removal, possibly evasion.",2634,7
+1972,listed_count,1,1,Reduction in listed_count may indicate an attempt to appear less bot-like.,6,0
+1974,statuses_count,1,1,"Significant decrease in statuses_count, likely to evade detection.",1985,7
+1976,followers_count,-1,1,Complete removal of followers is suspicious and likely intentional evasion.,268,0
+1977,friends_count,-1,1,Reducing friends_count to zero is a deliberate attempt to appear less social.,24,0
+1980,name_length,-1,-1,"Slight name length change, likely normal profile variation.",16,19
+1981,followers_count,-1,1,Drastic follower count decrease suggests manipulation or account compromise.,48740,0
+1983,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",152,0
+1985,statuses_count,-1,1,"Statuses count dropping to zero is highly unusual, likely manipulation.",1129,0
+1986,description_length,-1,-1,"Slight description length change, likely normal profile variation.",130,168
+1994,statuses_count,1,-1,"Statuses count decreased significantly, likely due to data error/removal.",39,7
+1998,statuses_count,1,-1,"Statuses count decreased significantly, likely due to data error/removal.",120,7
+1998,description_length,1,1,Increased description length suggests an attempt to appear more legitimate.,1,15
+2002,statuses_count,1,-1,"Significant decrease in status count, likely due to content deletion or account compromise.",114,7
+2013,friends_count,-1,1,"Large decrease in friends_count, likely to avoid detection based on friend ratio.",2376,0
+2014,verified,-1,-1,No change in verified status; remains unverified. No evasion attempt.,0,0
+2015,followers_count,-1,1,"Significant decrease in followers_count, possibly to evade follower-based detection.",2067,0
+2017,statuses_count,-1,1,"Drastic reduction in statuses_count, possibly to appear less bot-like.",6873,0
+2025,statuses_count,1,-1,"Statuses count decreased significantly, likely due to data error/profile reset.",300,7
+2027,protected,-1,-1,"No change in protected status, so it's a normal profile variation.",0,0
+2029,followers_count,-1,-1,"Followers count decreased drastically, likely due to data error/profile reset.",267911,28551
+2037,followers_count,-1,1,Drastic follower count reduction; likely an attempt to reset profile metrics.,3047,0
+2040,followers_count,-1,1,Drastic follower count reduction is likely an attempt to reset bot detection metrics.,1021,0
+2041,verified,-1,-1,No change in verified status; benign.,1,1
+2050,statuses_count,1,-1,Large decrease in statuses_count is likely due to data error/truncation.,84,7
+2050,listed_count,-1,-1,"No change in listed_count, so it's a neutral/unintentional event.",0,0
+2059,listed_count,-1,-1,Decrease in listed_count is likely a natural fluctuation.,828,216
+2067,verified,-1,-1,llm_fallback,0,0
+2070,friends_count,-1,1,Drastic reduction in friends_count suggests an attempt to appear less bot-like.,1094,0
+2073,verified,-1,-1,The 'verified' status remained unchanged; no bot evasion attempt detected.,1,1
+2082,protected,-1,-1,"No change in protected status, so it's unintentional.",0,0
+2085,followers_count,-1,1,"Significant decrease in followers, possibly to reset and appear more organic.",135,0
+2090,statuses_count,-1,1,"Drastic reduction in statuses_count suggests content deletion, possibly to evade detection.",7107,0
+2092,listed_count,-1,1,Significant drop in listed_count may indicate an attempt to appear less bot-like.,73,0
+2092,verified,-1,-1,The 'verified' status remained unchanged; no bot evasion attempt here.,1,1
+2100,followers_count,-1,1,Drastic follower count reduction; likely an attempt to reset/re-engage.,616,0
+2101,verified,-1,-1,No change in verification status; feature remains unverified.,0,0
+2107,verified,-1,-1,No change in verification status; feature remains unverified.,0,0
+2110,statuses_count,1,-1,Significant decrease in status count is likely unintentional data corruption.,1170,7
+2110,description_length,1,1,Adding description content to appear more human-like is intentional.,1,29
+2112,protected,-1,-1,"No change in protected status, so it's unintentional/no effect.",0,0
+2115,name_length,-1,-1,Slight change in name length is likely unintentional or normal variation.,11,9
+2126,statuses_count,1,-1,"Decrease in statuses_count is likely normal fluctuation, not intentional evasion.",15,7
+2135,statuses_count,1,-1,"Statuses count decreased, likely normal fluctuation or content deletion.",16,7
+2135,name_length,1,-1,Name length decreased; could be a normal user edit.,9,6
+2151,protected,-1,-1,llm_fallback,0,0
+2169,listed_count,-1,-1,llm_fallback,0,0
+2175,friends_count,-1,-1,"Small decrease in friends count, likely normal fluctuation.",2,0
+2175,description_length,-1,-1,"Description length decreased, could be normal profile editing.",80,50
+2177,listed_count,-1,-1,"Small decrease in listed count, likely normal list membership change.",9,0
+2177,description_length,-1,-1,"Description length increased, could be normal profile editing.",161,193
+2178,statuses_count,-1,-1,"Statuses count increased, likely from normal bot activity.",33164,40709
+2182,statuses_count,1,1,Drastic reduction in statuses_count is likely an attempt to appear less bot-like.,1031,7
+2185,followers_count,-1,1,Reducing followers_count to zero is likely an attempt to evade detection.,417,0
+2185,verified,-1,-1,"No change in verified status; remains unverified, so unintentional.",0,0
+2188,statuses_count,1,1,Large decrease in statuses_count suggests manipulation to appear less active.,792,7
+2188,listed_count,1,-1,Small change in listed_count could be natural variation in list memberships.,3,0
+2194,verified,-1,-1,guard_fallback,0,0
+2196,followers_count,-1,-1,Sudden drop in followers is likely account suspension or follower removal.,96,0
+2196,statuses_count,1,-1,Drastic status count reduction suggests content deletion or account reset.,1652,7
+2201,followers_count,-1,-1,"Small follower count change, likely natural fluctuation or account cleanup.",1,0
+2202,followers_count,-1,1,Large decrease in followers suggests bot activity cleanup or suspension.,2643,0
+2214,verified,-1,-1,guard_fallback,0,0
+2216,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",289,7
+2216,description_length,1,1,Increased description length makes the profile appear more complete.,4,18
+2225,followers_count,-1,-1,"Decrease in followers is likely natural churn, not intentional bot behavior.",1442025,1243195
+2229,followers_count,-1,1,Reducing followers to zero is likely an attempt to appear less bot-like.,53,0
+2231,friends_count,-1,1,"Large decrease in friends_count, possibly to appear less bot-like.",1734,0
+2234,friends_count,-1,1,"Significant decrease in friends_count, possibly to evade detection.",446,0
+2235,statuses_count,1,1,"Large increase in statuses_count, likely engagement gaming.",3910,28187
+2235,name_length,1,-1,"Slight change in name length, could be normal variation.",9,7
+2246,friends_count,1,1,"Drastic reduction in friends_count, likely to evade detection.",2058,32
+2246,statuses_count,-1,1,Statuses count dropping to zero is a strong evasion indicator.,516,0
+2246,listed_count,1,1,Reduction in listed_count suggests an attempt to appear less bot-like.,4,0
+2246,verified,-1,-1,No change in verification status; no impact on bot detection.,0,0
+2249,friends_count,-1,1,Friends count dropping to zero is a strong evasion indicator.,2160,0
+2253,statuses_count,-1,1,"Significant decrease in statuses_count suggests content removal, possibly to evade detection.",663,0
+2256,name_length,-1,-1,Slight change in name length is likely unintentional or a minor profile edit.,3,2
+2262,statuses_count,1,1,"Significant decrease in statuses_count, likely to evade detection based on activity.",240,7
+2269,listed_count,-1,-1,"No change in listed_count, so it's a neutral/unintentional event.",0,0
+2274,followers_count,-1,1,Drastic follower count decrease; likely bot trying to appear less obvious.,18,0
+2279,statuses_count,1,1,Significant status count decrease; likely bot trying to appear less active.,1559,7
+2282,listed_count,-1,-1,"Decrease in listed_count could be due to list removals, normal fluctuation.",36,0
+2292,statuses_count,1,-1,Large decrease in statuses_count is likely due to content deletion.,788,7
+2298,statuses_count,1,-1,Decrease in statuses_count is likely due to content deletion.,40,7
+2298,listed_count,1,-1,Decrease in listed_count is likely due to list membership changes.,25,0
+2305,statuses_count,1,-1,Large decrease in statuses_count is likely due to data collection issues.,135,7
+2307,friends_count,-1,-1,Significant decrease in friends_count is likely due to data collection issues.,2737,399
+2308,statuses_count,1,-1,Large decrease in statuses_count is likely due to data collection issues.,358,7
+2309,followers_count,-1,-1,Large decrease in followers_count is likely due to data collection issues.,4991,0
+2313,statuses_count,1,-1,"Statuses count decreased, likely normal fluctuation or content deletion.",12,7
+2313,description_length,1,1,Increased description length suggests an attempt to appear more legitimate.,1,15
+2314,name_length,-1,-1,"Slight name length change, likely a normal profile update.",19,21
+2326,statuses_count,1,1,Drastic reduction in statuses_count is likely an attempt to appear less bot-like.,2428,7
+2330,listed_count,-1,-1,Small change in listed_count is likely natural list membership variation.,4,0
+2335,verified,-1,-1,"No change in verified status, so no intentional manipulation detected.",0,0
+2340,verified,-1,-1,The 'verified' status remained unchanged; no bot evasion attempt.,1,1
+2342,name_length,1,-1,"Name length change is likely a normal profile update, not bot evasion.",13,10
+2347,followers_count,-1,-1,"Follower count decreased, inconsistent with bot-driven follower inflation.",12277648,12081677
+2356,friends_count,-1,1,Large decrease in friends_count suggests bot is unfollowing strategically.,18,0
+2357,friends_count,-1,1,Significant decrease in friends_count suggests strategic unfollowing behavior.,4338,1720
+2366,name_length,1,1,Increased name length makes the profile appear more human-like.,9,15
+2373,statuses_count,-1,1,Statuses dropping to 0 is likely intentional to appear less bot-like.,886,0
+2382,description_length,-1,1,Increased description length makes the profile appear more complete and human-like.,156,210
+2391,friends_count,-1,1,Reducing friends_count to zero is likely an attempt to appear less bot-like.,800,0
+2393,verified,-1,-1,No change in verification status; benign.,0,0
+2398,name_length,-1,-1,"Slight change in name length, likely unintentional or normal variation.",10,6
+2399,name_length,-1,-1,"Slight change in name length, likely unintentional or normal variation.",12,9
+2403,statuses_count,1,-1,Drastic decrease in statuses_count is likely unintentional data corruption.,1274,7
+2403,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+2405,friends_count,-1,1,Reducing friends_count to 0 is an attempt to appear less bot-like.,1811,0
+2406,listed_count,1,-1,Decreasing listed_count is likely a natural fluctuation or data issue.,239,0
+2406,protected,-1,-1,"No change in protected status, so it's unintentional/no change.",0,0
+2412,statuses_count,1,-1,"Statuses count decreased, likely normal fluctuation or content deletion.",24,7
+2412,name_length,1,-1,Name length change is likely a normal profile update.,12,14
+2433,statuses_count,-1,1,Statuses count dropping to 0 is likely intentional to appear less bot-like.,2647,0
+2440,description_length,-1,-1,Description length change is likely a normal profile edit.,68,36
+2448,statuses_count,1,-1,Drastic status count decrease is likely due to content deletion.,199,7
+2452,verified,-1,-1,No change in verification status; no impact on bot detection evasion.,0,0
+2452,description_length,-1,1,Increased description length suggests an attempt to appear more human-like.,102,133
+2461,friends_count,-1,1,"Large decrease in friends_count, possibly to reset bot's social connections.",233,0
+2465,followers_count,-1,1,"Significant decrease in followers_count, likely to evade detection.",145,0
+2465,friends_count,-1,1,"Significant decrease in friends_count, likely to evade detection.",66,0
+2469,listed_count,-1,-1,guard_fallback,0,0
+2469,description_length,1,1,"Increased description length, possibly to appear more human-like.",1,15
+2477,description_length,-1,-1,Description length change is likely a normal profile update.,82,50
+2478,protected,-1,-1,"No change in protected status, so it's unintentional.",0,0
+2480,description_length,-1,-1,Description length decreasing could be due to profile editing.,1,0
+2484,followers_count,-1,-1,"Followers decreasing is normal fluctuation, not necessarily bot evasion.",4,0
+2489,statuses_count,1,-1,"Statuses decreasing is normal fluctuation, not necessarily bot evasion.",1232,7
+2489,listed_count,1,-1,"Listed count decreasing is normal fluctuation, not necessarily bot evasion.",56,0
+2491,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming to appear active.,43389,51057
+2507,listed_count,-1,-1,llm_fallback,0,0
+2516,description_length,1,1,Increasing description length makes the profile appear more complete and human.,1,15
+2518,statuses_count,-1,1,Decreasing statuses_count to 0 is an attempt to reset bot activity.,1577,0
+2518,description_length,-1,1,"Removing description makes the profile less informative, possibly to evade detection.",13,0
+2521,statuses_count,1,-1,"Decrease in statuses_count could be due to tweet deletion, normal fluctuation.",21,7
+2521,description_length,1,-1,"Shortening description could be normal profile editing, not necessarily evasion.",74,18
+2532,statuses_count,1,-1,Large decrease in statuses_count is likely due to data error/reset.,489,7
+2539,listed_count,-1,-1,guard_fallback,0,0
+2542,statuses_count,-1,-1,"Statuses count increased, likely normal activity; within reasonable fluctuation.",87391,90713
+2543,description_length,-1,1,"Removing description makes the bot less detectable, intentional evasion.",20,0
+2547,statuses_count,1,1,"Drastic decrease in statuses count, likely an attempt to appear less active.",915,7
+2548,listed_count,-1,-1,"Decrease in listed_count is likely a natural fluctuation, not evasion.",15,0
+2550,statuses_count,-1,1,Drastic reduction in statuses_count is likely an attempt to appear less bot-like.,12676,0
+2550,verified,-1,-1,No change in verified status; benign.,1,1
+2560,statuses_count,-1,1,Drastic statuses_count decrease is likely an attempt to appear less bot-like.,5246,0
+2563,name_length,-1,-1,Slight name_length increase is a normal profile variation.,19,22
+2565,followers_count,-1,1,Drastic followers_count decrease is likely an attempt to evade detection.,31432,0
+2567,description_length,1,1,Increased description_length makes the profile appear more complete.,47,103
+2567,name_length,1,-1,Slight name_length increase is a normal profile variation.,13,15
+2571,verified,-1,-1,No change in verification status; benign.,0,0
+2579,description_length,-1,1,Removing description makes profile less human-like; intentional evasion.,25,0
+2580,statuses_count,1,1,Large increase in statuses_count suggests engagement gaming to appear active.,5025,29302
+2583,followers_count,-1,1,Significant drop in followers_count suggests follower manipulation or account reset.,9229,0
+2583,listed_count,-1,-1,"No change in listed_count, so it's a normal profile variation.",0,0
+2596,verified,-1,-1,llm_fallback,0,0
+2607,protected,-1,-1,llm_fallback,0,0
+2610,description_length,1,1,Increasing description length makes the profile appear more complete and human-like.,1,15
+2617,name_length,-1,-1,Slight change in name length is likely unintentional or due to a minor edit.,12,9
+2627,name_length,-1,-1,"Slight name length change is likely normal profile variation, not bot evasion.",16,18
+2635,listed_count,-1,-1,Change in listed_count likely due to natural list membership fluctuation.,1506,904
+2640,statuses_count,-1,1,Drastic reduction in statuses_count suggests intentional manipulation to hide bot activity.,1098,0
+2643,statuses_count,1,1,Significant decrease in statuses_count indicates potential bot activity concealment.,539,7
+2658,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to appear less bot-like.,3610,0
+2660,description_length,-1,1,Increased description length to appear more human-like.,127,175
+2667,followers_count,-1,1,"Drastic decrease in followers, possibly to reset and appear organic.",1976,0
+2667,verified,-1,-1,No change in verification status; remains unverified.,0,0
+2671,listed_count,-1,-1,"No change in listed_count, indicating no bot evasion attempt.",0,0
+2673,listed_count,-1,-1,"Small decrease in listed_count, likely natural variation.",7344,6992
+2674,description_length,-1,-1,"Description length decreased, not indicative of bot evasion.",67,32
+2686,friends_count,-1,-1,Significant decrease in friends_count could be normal account cleaning.,69,0
+2686,statuses_count,1,-1,Large decrease in statuses_count could be due to tweet deletion.,284,7
+2688,listed_count,1,-1,Large decrease in listed_count could be due to list removals.,2521,0
+2697,statuses_count,-1,-1,"Statuses count decreased significantly, possibly due to content deletion or account reset.",30,0
+2697,description_length,1,1,Increased description length suggests an attempt to appear more legitimate.,1,15
+2702,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,428,0
+2705,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,55,0
+2711,listed_count,-1,-1,"No change in listed_count, so it's a normal state.",0,0
+2718,statuses_count,1,1,"Drastic decrease in statuses_count suggests content deletion, possibly to evade detection.",1293,7
+2718,listed_count,1,-1,Decrease in listed_count could be normal fluctuation of list memberships.,6,0
+2723,followers_count,-1,1,Significant decrease in followers suggests follower manipulation or account reset.,2367,0
+2725,friends_count,1,-1,Decrease in friends count could be normal unfollowing activity.,60,32
+2725,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+2727,statuses_count,1,1,Drastic decrease in statuses_count suggests content deletion or account reset.,893,7
+2727,listed_count,-1,-1,Decrease in listed_count could be normal list membership changes.,11,0
+2727,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+2729,description_length,-1,-1,Removing description could be normal profile editing.,1,0
+2734,friends_count,-1,1,Large decrease in friends_count suggests an attempt to appear less bot-like.,73,0
+2739,listed_count,-1,-1,Small change in listed_count is likely a natural fluctuation.,1,0
+2744,followers_count,-1,1,Significant decrease in followers suggests manipulation to appear less bot-like.,81,0
+2752,listed_count,-1,-1,Decrease in listed_count is likely natural list membership fluctuation.,143,0
+2759,description_length,-1,-1,Slight increase in description length is likely a normal profile update.,155,178
+2760,friends_count,-1,1,Reducing friends_count suggests an attempt to appear less bot-like by limiting connections.,1022,0
+2784,listed_count,-1,-1,Listed count variations can occur naturally; this is likely benign.,98,0
+2787,statuses_count,-1,1,Reducing statuses_count to 0 is likely an attempt to appear less bot-like.,536,0
+2790,description_length,-1,-1,Shortening description length is likely a normal profile variation.,69,15
+2796,statuses_count,-1,1,"Significant decrease in statuses_count suggests content removal, possibly evasion.",2679,0
+2798,name_length,-1,-1,Slight increase in name length is likely a normal profile variation.,18,21
+2799,followers_count,-1,-1,"Decrease in followers could be normal churn, not necessarily intentional evasion.",3950671,3757453
+2802,listed_count,-1,-1,llm_fallback,0,0
+2810,listed_count,-1,-1,Small change in listed_count can be due to list membership changes.,11,0
+2814,followers_count,-1,1,Drastic reduction in followers suggests manipulation or account reset.,912,0
+2816,statuses_count,1,1,Large decrease in statuses_count suggests content removal or manipulation.,542,7
+2816,listed_count,1,-1,Small change in listed_count can be due to list membership changes.,7,0
+2823,statuses_count,-1,1,Drastic reduction in statuses_count is likely an attempt to appear less bot-like.,3801,0
+2828,statuses_count,1,1,Significant decrease in statuses_count suggests manipulation to seem more human.,171,7
+2828,listed_count,1,1,Reduction in listed_count could be an attempt to appear less bot-like.,6,0
+2831,name_length,-1,-1,Slight name length change is likely a normal profile variation.,17,19
+2836,friends_count,-1,1,Large decrease in friends_count suggests intentional manipulation of social connections.,3035,451
+2841,followers_count,-1,1,Drastic follower count reduction is likely an attempt to reset bot detection.,258,0
+2847,protected,-1,-1,No change in protected status; benign.,0,0
+2852,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming to appear active.,30074,35435
+2853,statuses_count,1,1,Massive increase in statuses_count indicates bot activity to amplify content.,364,24641
+2853,name_length,1,-1,"Name length change is likely a normal profile variation, unintentional.",14,8
+2856,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to reset bot activity.,137,0
+2860,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",158,0
+2870,protected,-1,-1,No change in protected status; benign.,0,0
+2877,description_length,-1,1,Increased description length to appear more human-like.,158,171
+2889,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to appear less bot-like.,1092,0
+2897,followers_count,-1,1,Drastic follower count reduction suggests intentional manipulation to evade detection.,4591,0
+2906,statuses_count,1,-1,"Significant decrease in status count, likely normal fluctuation/deletion.",105,7
+2907,statuses_count,1,-1,"Small decrease in status count, likely normal fluctuation/deletion.",10,7
+2907,description_length,1,-1,"Description length decreased, possibly normal profile editing.",43,15
+2909,followers_count,-1,1,"Large decrease in followers, could be bot reset or follower removal.",46,0
+2913,statuses_count,-1,1,"Significant decrease in statuses_count suggests content deletion, possibly for evasion.",57,0
+2918,statuses_count,1,1,"Large decrease in statuses_count indicates content removal, likely for evasion.",161,7
+2918,description_length,1,1,Shortening description may be an attempt to appear less bot-like.,83,27
+2931,friends_count,-1,1,Large decrease in friends_count could be an attempt to appear less bot-like.,1472,0
+2932,followers_count,-1,1,Significant decrease in followers_count could be an attempt to evade detection.,124,0
+2940,name_length,-1,-1,Slight change in name length is likely a normal profile variation.,9,7
+2945,statuses_count,1,-1,Large decrease in statuses_count could be due to content deletion.,306,7
+2947,protected,-1,-1,"No change in protected status, so it's unintentional/normal.",0,0
+2952,statuses_count,1,-1,Significant decrease in statuses_count is likely due to data error/deletion.,144,7
+2960,verified,-1,-1,llm_fallback,1,1
+2975,statuses_count,1,1,Drastic reduction in statuses_count is likely an attempt to appear less bot-like.,685,7
+2976,description_length,-1,1,Increased description length makes the profile appear more complete and human.,92,144
+2982,friends_count,-1,-1,"Slight decrease in friends_count is likely normal fluctuation, not bot evasion.",17140,16855
+2992,followers_count,-1,-1,"Follower count decreased, not an intentional attempt to appear more human.",3869942,3674982
+2994,followers_count,-1,-1,Drastic follower decrease is likely due to account suspension/deletion.,3065,0
+2994,statuses_count,1,-1,Significant status count decrease suggests account activity was removed.,1905,7
+2994,name_length,1,-1,Slight name length change is likely a normal profile variation.,13,10
+3000,description_length,-1,1,Increasing description length makes the profile appear more complete and human-like.,140,191
+3003,friends_count,-1,1,Reducing friends_count to 0 is suspicious and likely an attempt to evade detection.,110,0
+3008,followers_count,-1,1,Drastic reduction in followers is highly unusual and suggests manipulation.,4676,0
+3008,verified,-1,-1,No change in verified status; benign.,1,1
+3013,name_length,-1,-1,"Slight name length change is likely normal profile variation, not bot evasion.",16,19
+3024,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to reset bot activity.,492,0
+3024,name_length,-1,-1,Slight name length change is likely unintentional or a minor edit.,14,13
+3030,listed_count,-1,-1,Small change in listed count is likely natural list membership variation.,1,0
+3035,listed_count,-1,-1,Small change in listed count is likely natural list membership variation.,4,0
+3041,protected,-1,-1,No change in protected status; likely benign.,0,0
+3043,verified,-1,-1,No change in verification status; likely benign.,0,0
+3044,statuses_count,1,-1,Significant decrease in statuses; could be data issue or account reset.,266,7
+3048,friends_count,-1,-1,Drastic decrease in friends count; could be account cleanup or suspension.,394,0
+3051,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",52,0
+3061,statuses_count,1,-1,Significant decrease in statuses_count is likely unintentional data corruption.,213,7
+3064,description_length,-1,-1,"Description length decrease could be unintentional, or a minor edit.",54,4
+3067,listed_count,1,-1,"Large decrease in listed_count is likely unintentional, list membership changes.",778,0
+3069,protected,-1,-1,"No change in protected status, so it's unintentional/no change.",0,0
+3070,name_length,-1,-1,"Slight name length change, likely unintentional or normal profile variation.",12,10
+3075,followers_count,-1,-1,"Significant decrease in followers, likely due to account suspension/removal.",26,0
+3077,statuses_count,-1,-1,"Drastic decrease in status count, likely due to tweet deletion/account reset.",4081,0
+3081,description_length,1,1,Adding more description text makes the profile appear more complete/human.,1,15
+3083,statuses_count,1,-1,Significant decrease in statuses_count is likely a data error/normal fluctuation.,325,7
+3096,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",269,7
+3098,listed_count,-1,-1,"Listed count decreased, likely from users removing the bot from lists.",15,0
+3099,statuses_count,-1,-1,"Statuses count decreased significantly, likely due to content deletion.",15008,1351
+3108,listed_count,-1,-1,Small decrease in listed_count is likely natural list membership fluctuation.,25,0
+3116,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,587,0
+3127,description_length,-1,-1,Description length decreasing could be normal profile editing.,15,0
+3128,statuses_count,1,-1,Statuses count decreasing could be normal profile editing/deletion.,88,7
+3128,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+3135,description_length,-1,-1,Description length decreasing could be normal profile editing.,1,0
+3137,followers_count,-1,1,Drastic decrease in followers suggests follower manipulation or account issues.,130,0
+3147,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming to appear active.,87721,92729
+3153,description_length,-1,1,Increasing description length makes the profile appear more complete and human.,135,172
+3159,followers_count,-1,1,Drastic decrease in followers suggests manipulation or account compromise.,83015,0
+3159,friends_count,-1,1,Significant decrease in friends_count suggests manipulation or account compromise.,2747,359
+3162,followers_count,-1,-1,"Small decrease in followers, likely natural fluctuation or account cleanup.",2,0
+3166,verified,-1,-1,The verified status remained unchanged; no evasion attempt.,1,1
+3176,friends_count,1,-1,"Decrease in friends_count is likely normal fluctuation, not bot evasion.",61,32
+3176,statuses_count,1,-1,Significant decrease in statuses_count is likely normal fluctuation.,204,7
+3177,listed_count,-1,-1,Small decrease in listed_count is likely normal list membership variation.,10846,10547
+3180,name_length,-1,-1,Name length change is likely unintentional; normal profile variation.,8,6
+3183,verified,-1,-1,No change in verified status; no bot evasion attempt.,1,1
+3195,listed_count,-1,-1,"No change in listed_count, so it's unintentional.",0,0
+3199,statuses_count,1,-1,Decrease in statuses_count could be due to tweet deletion.,21,7
+3202,followers_count,-1,1,Decreasing followers is likely an attempt to appear less bot-like.,98,0
+3202,description_length,-1,-1,Description length decreasing could be due to profile editing.,1,0
+3212,statuses_count,1,-1,"Significant decrease in statuses_count is likely data corruption, not intentional.",546,7
+3212,listed_count,1,-1,Decrease in listed_count could be normal list membership fluctuation.,9,0
+3215,verified,-1,-1,"No change in verified status, so no intentional evasion attempt.",1,1
+3220,statuses_count,1,-1,"Statuses count decreased significantly, likely due to content deletion.",176,7
+3224,description_length,1,1,Increased description length suggests an attempt to appear more legitimate.,1,15
+3224,name_length,1,-1,Name length decreased; could be a normal profile adjustment.,18,15
+3229,followers_count,-1,-1,"Followers count dropped to zero, likely due to account suspension/deletion.",28966,0
+3233,statuses_count,-1,1,Significant decrease in statuses_count suggests manipulation of activity.,290,0
+3236,name_length,-1,-1,Slight increase in name length is likely a natural profile update.,16,18
+3238,listed_count,-1,-1,"No change in listed_count, so it's a neutral/unintentional event.",0,0
+3240,followers_count,-1,1,Large decrease in followers suggests follower manipulation to evade detection.,132119,0
+3241,verified,-1,-1,No change in verification status; no impact on bot detection.,0,0
+3242,name_length,-1,-1,"Slight change in name length, likely a normal profile variation.",9,6
+3246,verified,-1,-1,No change in verification status; no impact on bot detection.,0,0
+3248,statuses_count,-1,1,"Statuses count dropping to 0 is a significant change, likely evasion.",9883,0
+3248,listed_count,-1,1,"Listed count dropping to 0 is a significant change, likely evasion.",39,0
+3249,friends_count,-1,1,"Friends count dropping to 0 is a significant change, likely evasion.",242,0
+3254,followers_count,-1,-1,"Follower count decreased, not indicative of bot evasion; natural fluctuation.",15168368,14974930
+3255,statuses_count,1,-1,"Statuses count decreased significantly, not indicative of bot evasion.",77,7
+3261,followers_count,-1,1,Drastic follower count reduction is likely an attempt to evade detection.,212959,0
+3264,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+3275,description_length,1,-1,Description length change alone is not indicative of bot evasion; could be editing.,120,64
+3285,friends_count,-1,1,Reducing friends_count to zero is likely an attempt to appear less bot-like.,422,0
+3285,verified,-1,-1,The verified status remained unchanged; no bot evasion attempt detected.,1,1
+3301,statuses_count,1,-1,Large decrease in statuses_count is likely due to content deletion.,375,7
+3302,followers_count,-1,1,"Drastic drop in followers suggests a purge, possibly to evade detection.",21709,0
+3319,listed_count,-1,-1,Decrease in listed_count can occur naturally as users leave lists.,191,0
+3321,statuses_count,-1,-1,"Statuses count decreased significantly, likely due to content deletion.",18587,2545
+3323,friends_count,-1,-1,"Friends count decreased significantly, likely due to unfollowing activity.",3332,588
+3328,friends_count,-1,-1,"Friends count decreased to 0, likely due to unfollowing activity.",53,0
+3328,name_length,-1,-1,"Name length decreased, likely due to a normal name change.",14,11
+3343,friends_count,-1,1,Large decrease in friends_count could be an attempt to appear less bot-like.,88,0
+3344,verified,-1,-1,No change in verification status; remains unverified. No evasion attempt.,0,0
+3345,listed_count,1,1,Significant drop in listed_count; could be an attempt to appear less prominent.,1494,0
+3360,description_length,-1,-1,"Description length decreased, likely unintentional or normal profile variation.",74,33
+3361,statuses_count,1,-1,"Statuses count decreased drastically, likely unintentional data error.",701,7
+3361,description_length,1,1,"Increased description length to appear more complete, intentional evasion.",1,15
+3363,followers_count,-1,-1,"Followers count decreased to 0, likely unintentional data error.",837,0
+3367,statuses_count,1,-1,"Statuses count decreased drastically, likely unintentional data error.",276,7
+3369,friends_count,1,-1,"Friends count decreased significantly, likely unintentional data error.",558,32
+3369,statuses_count,1,-1,"Statuses count decreased drastically, likely unintentional data error.",1524,7
+3372,listed_count,-1,-1,"No change in listed_count, so it's a normal profile variation.",0,0
+3373,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to appear less bot-like.,640,0
+3381,friends_count,-1,1,Large decrease in friends_count suggests an attempt to appear less bot-like.,682,0
+3386,followers_count,-1,1,Significant decrease in followers_count suggests manipulation to evade detection.,159,0
+3399,description_length,-1,1,Increasing description length makes the profile appear more complete and human-like.,151,186
+3400,statuses_count,1,-1,Significant decrease in statuses_count is likely unintentional data corruption.,249,7
+3404,description_length,1,-1,Description length change could be normal profile editing.,27,13
+3404,name_length,1,-1,Name length change could be normal profile editing.,4,7
+3406,name_length,-1,-1,Name length change could be normal profile editing.,21,24
+3408,listed_count,-1,-1,Small decrease in listed_count is likely natural list membership fluctuation.,3922,3648
+3409,listed_count,-1,-1,Significant decrease in listed_count is likely natural list membership fluctuation.,79,0
+3410,statuses_count,-1,1,Drastic decrease in statuses_count suggests manipulation or profile reset.,13951,12
+3414,friends_count,-1,1,Significant decrease in friends_count could indicate bot behavior (unfollowing).,221,0
+3416,listed_count,-1,1,listed_count dropping to 0 is unusual and suggests bot activity.,335,0
+3421,statuses_count,1,-1,Large decrease in statuses_count could be due to content deletion.,120,7
+3428,friends_count,-1,1,Significant decrease in friends_count suggests unfollowing behavior to appear less bot-like.,436,0
+3428,verified,-1,-1,"No change in verification status; remains unverified, so no evasion attempt.",0,0
+3430,listed_count,-1,-1,Listed count variations are natural and can change without bot intervention.,303,0
+3438,friends_count,-1,1,Reducing friends_count to zero is an attempt to appear less bot-like.,697,0
+3438,statuses_count,-1,1,Significant decrease in statuses_count suggests content deletion for evasion.,17558,4187
+3440,statuses_count,1,-1,"Statuses count decreased, likely normal fluctuation or content deletion.",14,7
+3447,listed_count,1,-1,"Listed count decreased drastically, likely from list removals.",1395,0
+3458,statuses_count,1,1,Drastic reduction in statuses_count is likely an attempt to appear less bot-like.,1502,7
+3460,statuses_count,-1,-1,"Statuses count decreased, likely due to content deletion or account reset.",18656,5386
+3461,statuses_count,-1,-1,"Statuses count increased, consistent with normal account activity.",33866,38612
+3467,statuses_count,1,-1,"Statuses count decreased, likely due to content deletion or account reset.",20,7
+3480,statuses_count,1,-1,Significant decrease in statuses_count is likely unintentional data corruption.,281,7
+3480,description_length,1,-1,Change in description length is likely due to data corruption.,1,15
+3484,listed_count,-1,-1,Decrease in listed_count could be normal fluctuation of list memberships.,61,0
+3489,statuses_count,1,-1,Significant decrease in statuses_count is likely unintentional data corruption.,543,7
+3491,name_length,-1,-1,Slight change in name length is likely a normal profile variation.,6,5
+3498,listed_count,-1,-1,"No change in listed_count, so it's a normal profile state.",0,0
+3498,verified,-1,-1,"No change in verification status, so it's a normal profile state.",0,0
+3499,protected,-1,-1,"No change in protected status, so it's a normal profile state.",0,0
+3503,friends_count,-1,1,Large decrease in friends_count could be an attempt to appear less bot-like.,2873,751
+3503,statuses_count,1,1,Significant decrease in statuses_count suggests content deletion for evasion.,1028,7
+3506,statuses_count,-1,1,Statuses count dropping to 0 is likely content removal for evasion.,12092,0
+3507,statuses_count,1,1,Significant decrease in statuses_count suggests content deletion for evasion.,852,7
+3507,verified,-1,-1,No change in verified status; benign.,0,0
+3522,friends_count,-1,-1,Small decrease in friends_count is likely natural fluctuation.,32364,32360
+3523,followers_count,-1,1,"Significant drop in followers suggests follower removal, possibly bot detection evasion.",1316,0
+3525,followers_count,-1,1,Complete removal of followers suggests bot detection evasion.,48,0
+3526,listed_count,-1,1,"Large drop in listed_count suggests removal from lists, possibly evasion.",75,0
+3531,friends_count,1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",339,32
+3531,description_length,1,1,Increasing description length makes the profile appear more complete/human.,1,15
+3547,verified,-1,-1,llm_fallback,0,0
+3550,description_length,1,1,Adding description content to appear more human-like.,1,15
+3550,name_length,1,-1,Name length change is likely a normal profile variation.,12,6
+3554,verified,-1,-1,"No change in verified status, so no evasion attempt.",1,1
+3555,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming.,24798,32285
+3569,statuses_count,1,1,Drastic decrease in statuses_count suggests manipulation to appear less bot-like.,106,7
+3569,description_length,1,1,"Significant reduction in description length, possibly to avoid detection.",110,54
+3570,verified,-1,-1,No change in verification status; benign.,1,1
+3572,listed_count,-1,-1,Slight decrease in listed count; normal fluctuation.,8,0
+3572,description_length,-1,1,Increased description length; attempting profile completeness.,142,172
+3581,statuses_count,1,-1,Significant decrease in status count; likely data error or account reset.,1113,7
+3585,statuses_count,1,-1,Significant decrease in status count; likely data error or account reset.,147,7
+3590,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",87,0
+3594,description_length,-1,1,"Increased description length, making the profile appear more complete.",99,141
+3598,verified,-1,-1,"No change in verified status, so no bot evasion attempt.",0,0
+3611,friends_count,-1,-1,Slight decrease in friends_count is likely normal fluctuation.,138599,138340
+3619,protected,-1,-1,"No change in protected status, so no bot evasion attempt.",0,0
+3621,followers_count,-1,1,Drastic follower count reduction; likely bot detection evasion by reducing visibility.,30801,0
+3624,followers_count,-1,1,"Follower count set to zero, likely to evade detection by reducing visibility.",14,0
+3624,statuses_count,1,1,"Significant decrease in statuses_count, possibly to appear less bot-like.",26,7
+3625,protected,-1,-1,No change in protected status; feature remains unchanged.,0,0
+3627,statuses_count,1,1,Large increase in statuses_count; likely engagement gaming to appear active.,886,25163
+3628,followers_count,-1,1,Drastic follower count reduction; likely bot detection evasion by reducing visibility.,73497,0
+3634,listed_count,-1,-1,Listed count variations are natural and don't indicate bot evasion.,926,342
+3651,verified,-1,-1,No change in verified status; no bot evasion attempt.,1,1
+3656,verified,-1,-1,No change in verified status; no bot evasion attempt.,0,0
+3658,statuses_count,1,-1,"Statuses count decreased significantly, unlikely bot evasion.",114,7
+3660,statuses_count,1,-1,Large decrease in statuses_count is likely due to data corruption/error.,245,7
+3660,listed_count,-1,-1,"No change in listed_count, so it's unintentional.",0,0
+3663,followers_count,-1,-1,Drastic decrease in followers_count is likely a data error.,608,0
+3663,statuses_count,1,-1,Large decrease in statuses_count is likely due to data corruption/error.,124,7
+3663,description_length,1,-1,Description length change could be normal profile editing.,139,83
+3665,verified,-1,-1,"No change in verified status, so it's unintentional.",0,0
+3668,statuses_count,1,-1,Large decrease in statuses_count is likely due to data corruption/error.,1685,7
+3668,listed_count,1,-1,Decrease in listed_count is likely due to data corruption/error.,10,0
+3671,statuses_count,-1,1,"Significant decrease in statuses_count suggests content deletion, possibly for evasion.",7135,0
+3672,friends_count,-1,1,"Large decrease in friends_count suggests unfollowing, possibly to appear less bot-like.",4979,2304
+3674,listed_count,-1,-1,Small change in listed_count is likely a natural fluctuation.,1,0
+3676,friends_count,-1,1,Reducing friends_count to zero could be an attempt to appear less bot-like.,29,0
+3684,statuses_count,1,-1,Decrease in status count is likely normal fluctuation or content deletion.,17,7
+3688,name_length,-1,-1,Slight change in name length is likely a normal profile edit.,13,12
+3698,statuses_count,-1,1,Drastic reduction in statuses_count suggests content deletion to evade detection.,2277,0
+3700,friends_count,-1,1,Drastic reduction in friends_count suggests intentional manipulation of social connections.,1815,0
+3708,listed_count,-1,-1,Small change in listed_count is likely a natural fluctuation in list memberships.,1,0
+3711,friends_count,-1,1,Large decrease in friends_count suggests intentional manipulation to appear less bot-like.,1928,0
+3712,description_length,1,1,Increasing description length makes the profile appear more complete and human-like.,1,15
+3714,followers_count,-1,1,Significant decrease in followers_count suggests manipulation to evade detection.,269,0
+3740,listed_count,1,-1,Significant decrease in listed_count is likely a normal fluctuation.,393,0
+3742,statuses_count,1,1,"Drastic decrease in statuses_count suggests content deletion, possibly evasion.",1392,7
+3751,friends_count,-1,1,Radically reducing friends_count is likely an attempt to appear less bot-like.,1794,0
+3752,statuses_count,-1,1,Reducing statuses_count to zero is likely an attempt to evade detection.,6886,0
+3754,verified,-1,-1,No change in verified status; no bot evasion attempt here.,0,0
+3760,statuses_count,1,1,"Significant decrease in statuses_count, likely to evade detection.",174,7
+3762,listed_count,-1,1,"Large decrease in listed_count, possibly to appear less bot-like.",733,146
+3764,friends_count,-1,1,"Drastic reduction in friends_count, likely to evade detection.",939,0
+3767,statuses_count,-1,1,"Complete removal of statuses, likely an attempt to evade detection.",3776,0
+3767,listed_count,1,1,"Complete removal of listed count, likely an attempt to evade detection.",258,0
+3772,listed_count,1,-1,Decrease in listed_count is likely natural list membership fluctuation.,2511,0
+3772,name_length,1,-1,Change in name length is likely a normal profile variation.,13,7
+3787,statuses_count,1,-1,Statuses count decreased significantly; could be normal content deletion.,101,7
+3788,statuses_count,1,-1,Statuses count decreased; could be normal content deletion or pruning.,21,7
+3788,description_length,1,1,Increasing description length makes the profile appear more complete.,1,15
+3792,statuses_count,1,1,"Drastic decrease in statuses_count suggests content deletion, possibly to evade detection.",1385,7
+3798,followers_count,-1,1,"Significant drop in followers_count indicates follower removal, likely for evasion.",210431,0
+3800,followers_count,-1,1,Large decrease in followers suggests follower manipulation or account reset.,49244,0
+3806,followers_count,-1,1,Significant drop in followers_count indicates potential manipulation or reset.,4094,0
+3806,listed_count,-1,1,listed_count dropping to 0 could indicate an attempt to appear less bot-like.,19,0
+3806,protected,-1,-1,"No change in protected status; remains unprotected, normal variation.",0,0
+3821,followers_count,-1,1,Drastic follower count reduction is likely an attempt to evade detection.,85,0
+3824,friends_count,-1,1,Significant friend count decrease suggests bot is trying to appear less bot-like.,2852,214
+3831,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to appear less bot-like.,12534,0
+3835,followers_count,-1,1,Drastic follower count reduction suggests manipulation to evade detection.,27621,0
+3845,followers_count,-1,1,Large decrease in followers suggests follower manipulation or account reset.,185,0
+3846,verified,-1,-1,"No change in verified status, so it's a normal profile state.",1,1
+3847,friends_count,-1,1,Significant decrease in friends_count suggests friend manipulation or account reset.,199,0
+3849,friends_count,-1,1,Large decrease in friends_count suggests friend manipulation or account reset.,5350,2421
+3851,statuses_count,1,-1,"Statuses count decreased, likely normal fluctuation or content removal.",25,7
+3854,followers_count,-1,-1,"Followers count decreased, likely due to bot detection/removal.",344268,101818
+3855,friends_count,1,-1,"Friends count decreased, likely due to bot detection/removal.",140,32
+3855,description_length,1,1,Increased description length to appear more human-like.,1,15
+3861,statuses_count,1,1,"Significant decrease in statuses_count, likely to evade detection based on activity.",176,7
+3861,description_length,1,1,"Shortening description length, possibly to appear less bot-like or avoid keyword detection.",94,38
+3870,statuses_count,-1,-1,Small decrease in status count is likely normal fluctuation.,1,0
+3870,description_length,-1,-1,Description length decreasing could be normal profile editing.,1,0
+3876,description_length,-1,-1,Description length increasing is likely normal profile editing.,119,151
+3877,verified,-1,-1,"No change in verified status, so it's unintentional.",1,1
+3884,description_length,1,-1,Description length change is likely a normal profile variation.,87,31
+3885,listed_count,-1,-1,Small change in listed_count is likely natural list membership variation.,3,0
+3887,statuses_count,1,1,Large decrease in statuses_count suggests manipulation or profile reset.,2777,7
+3887,listed_count,1,1,Large decrease in listed_count suggests manipulation or profile reset.,132,0
+3898,statuses_count,-1,-1,Decrease in status count could be due to tweet deletion or account cleaning.,4,0
+3900,statuses_count,-1,1,Substantial increase in statuses_count suggests engagement gaming to appear active.,83250,89821
+3902,protected,-1,-1,No change in protected status; no impact on bot evasion.,0,0
+3905,statuses_count,1,-1,"Decrease in statuses_count is likely normal fluctuation, not evasion.",30,7
+3905,description_length,1,-1,"Description length decrease is likely normal profile editing, not evasion.",89,33
+3918,verified,-1,-1,No change in verified status; likely a data consistency check.,1,1
+3919,statuses_count,1,-1,Significant decrease in statuses_count; could be data error or deletion.,82,7
+3924,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming to appear active.,36865,44717
+3925,statuses_count,-1,1,Statuses count dropping to 0 is likely intentional to reset bot activity.,4045,0
+3926,followers_count,-1,1,Followers dropping to 0 suggests a purge to evade detection.,142,0
+3926,statuses_count,1,1,Statuses count dropping significantly suggests bot reset/activity purge.,446,7
+3939,verified,-1,-1,llm_fallback,0,0
+3949,protected,-1,-1,llm_fallback,0,0
+3950,name_length,-1,-1,Slight name length change is likely unintentional or normal profile variation.,13,11
+3951,statuses_count,1,-1,Drastic decrease in statuses_count is likely unintentional data error.,182,7
+3952,statuses_count,1,-1,Drastic decrease in statuses_count is likely unintentional data error.,2087,7
+3952,listed_count,1,-1,Decrease in listed_count is likely unintentional or normal list membership change.,23,0
+3959,listed_count,-1,-1,Decrease in listed_count is likely unintentional or normal list membership change.,1900,1610
+3961,friends_count,1,1,"Drastic reduction in friends_count, possibly to appear less bot-like initially.",2030,32
+3961,statuses_count,1,1,"Significant decrease in statuses_count, possibly to appear less bot-like initially.",362,7
+3972,name_length,-1,-1,Slight change in name length is likely a normal profile variation.,13,11
+3979,followers_count,-1,1,Drastic follower count reduction suggests bot is trying to reset its profile.,101,0
+3979,friends_count,-1,1,Drastic friend count reduction suggests bot is trying to reset its profile.,89,0
+3979,name_length,-1,-1,Slight change in name length is likely a normal profile variation.,12,10
+3981,friends_count,1,1,"Drastic decrease in friends_count, possibly to appear less bot-like initially.",2083,32
+3981,statuses_count,1,1,"Significant decrease in statuses_count, possibly to appear less active.",88,7
+3991,followers_count,-1,1,Large decrease in followers suggests an attempt to appear less bot-like.,1730,0
+3994,friends_count,-1,1,"Significant decrease in friends_count suggests bot evasion, less social connections.",527,0
+3995,verified,-1,-1,"No change in verification status, so no impact on bot detection.",0,0
+3999,followers_count,-1,1,Large decrease in followers suggests an attempt to appear less bot-like.,35754,0
+4000,statuses_count,1,1,"Significant decrease in statuses_count suggests content deletion, possibly evasion.",175,7
+4000,listed_count,1,1,"Large decrease in listed_count suggests list removal, possibly evasion.",28,0
+4001,description_length,1,1,"Significant decrease in description length, possibly to avoid detection.",75,19
+4001,name_length,1,-1,"Small change in name length, likely a normal profile variation.",13,15
+4005,listed_count,-1,1,"Decrease in listed_count suggests list removal, possibly evasion.",11,0
+4011,statuses_count,1,-1,Significant decrease in statuses_count could be due to data error.,1363,7
+4011,listed_count,-1,-1,"No change in listed_count, so it's a neutral event.",0,0
+4012,followers_count,-1,-1,Large decrease in followers_count could be due to data error.,521,0
+4020,verified,-1,-1,No change in verified status; benign.,1,1
+4023,name_length,-1,-1,Slight increase in name length; could be normal profile change.,15,18
+4027,statuses_count,1,-1,Significant decrease in statuses_count; could be normal fluctuation.,34,7
+4027,description_length,1,1,Adding description content to appear more human-like.,1,14
+4028,statuses_count,-1,-1,Significant decrease in statuses_count; could be normal fluctuation.,2391,0
+4032,statuses_count,1,-1,Large decrease in statuses_count is likely due to data issues.,81,7
+4032,description_length,1,-1,Description length decrease is likely due to data issues.,42,14
+4034,statuses_count,1,-1,Large decrease in statuses_count is likely due to data issues.,487,7
+4034,description_length,-1,-1,Description length decrease is likely due to data issues.,1,0
+4037,protected,-1,-1,"No change in protected status, so unintentional.",0,0
+4040,description_length,-1,1,Increased description length makes the profile appear more complete and human.,119,163
+4057,followers_count,1,-1,"Decrease in followers is a normal fluctuation, not intentional evasion.",16,8
+4057,statuses_count,1,-1,"Decrease in status count is a normal fluctuation, not intentional evasion.",18,7
+4062,statuses_count,1,1,Drastic decrease in statuses_count is likely an attempt to appear less bot-like.,394,7
+4063,statuses_count,-1,1,Statuses_count dropping to 0 is likely an attempt to appear less bot-like.,567,0
+4077,description_length,-1,1,Increasing description length makes the profile appear more complete and human-like.,156,203
+4086,description_length,-1,1,Increasing description length makes the profile appear more complete and human.,166,207
+4087,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming to appear active.,23590,30763
+4087,name_length,-1,-1,Slight decrease in name length is likely a normal profile variation.,11,10
+4105,name_length,-1,-1,"Slight name length change is likely normal profile variation, not bot evasion.",19,22
+4108,followers_count,-1,-1,"Decrease in followers could be due to account closures, not bot evasion.",52,0
+4111,followers_count,-1,-1,"Follower count decreased, not an intentional attempt to appear more human.",714682,482971
+4113,friends_count,-1,1,Significant decrease in friends_count could be an attempt to appear less bot-like.,309,0
+4120,followers_count,-1,1,Large decrease in followers suggests manipulation to appear less bot-like.,59,0
+4121,statuses_count,-1,1,Significant decrease in statuses_count suggests content removal for evasion.,2253,0
+4124,friends_count,-1,1,Large decrease in friends_count suggests manipulation to appear less bot-like.,450,0
+4126,followers_count,-1,1,Large decrease in followers suggests manipulation to appear less bot-like.,5808,0
+4135,name_length,-1,-1,Slight name length change is likely unintentional; normal profile variation.,14,12
+4142,followers_count,-1,1,Drastic follower count reduction; likely an attempt to reset profile metrics.,66959,0
+4147,listed_count,-1,-1,"Small listed count change, likely due to list membership changes.",4,0
+4149,listed_count,-1,-1,"Listed count change, likely due to list membership changes.",42,0
+4157,verified,-1,-1,llm_fallback,0,0
+4174,followers_count,-1,1,Large decrease in followers suggests follower manipulation to evade detection.,455,0
+4193,verified,-1,-1,No change in verification status; benign.,1,1
+4196,description_length,-1,1,Increased description length to appear more human-like.,151,196
+4200,name_length,-1,-1,Slight change in name length is likely unintentional or normal variation.,14,12
+4203,friends_count,-1,1,Drastic reduction in friends_count suggests intentional manipulation to appear less bot-like.,1573,0
+4205,description_length,-1,1,"Removing description makes the profile less human-like, possibly to evade detection.",31,0
+4206,name_length,-1,-1,Slight change in name length is likely unintentional or normal variation.,10,8
+4215,name_length,-1,-1,Slight name length change is likely unintentional; normal profile variation.,15,18
+4220,followers_count,-1,1,Drastic reduction in followers suggests follower manipulation or account reset.,16920,0
+4223,description_length,-1,1,Shortening description could be an attempt to appear less bot-like.,67,34
+4230,statuses_count,-1,-1,Significant decrease in statuses_count could be due to content deletion.,19113,3617
+4235,listed_count,-1,-1,Small decrease in listed_count is likely natural list membership change.,4,0
+4253,description_length,-1,-1,Description length change is likely unintentional; could be normal profile editing.,24,4
+4268,verified,-1,-1,"No change in verified status, so it's unintentional.",1,1
+4269,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",417,0
+4269,protected,-1,-1,"No change in protected status, so it's unintentional.",0,0
+4271,statuses_count,-1,-1,"Statuses count decreasing could be due to content deletion, normal fluctuation.",17,0
+4272,statuses_count,-1,-1,"Statuses count decreasing could be due to content deletion, normal fluctuation.",1101,0
+4280,listed_count,-1,-1,llm_fallback,0,0
+4296,followers_count,-1,-1,Follower count decreased significantly; not indicative of bot evasion.,323680,87727
+4317,followers_count,-1,1,Drastic follower count reduction suggests intentional manipulation to appear less bot-like.,162874,0
+4325,friends_count,-1,-1,Slight decrease in friends_count is likely normal fluctuation.,40849,40530
+4328,verified,-1,-1,No change in verified status; benign.,0,0
+4330,description_length,-1,-1,Description length decreasing could be normal profile editing behavior.,1,0
+4334,statuses_count,-1,1,Statuses count dropping to 0 is likely intentional bot behavior to reset activity.,3455,0
+4343,verified,-1,-1,llm_fallback,0,0
+4356,statuses_count,-1,-1,Statuses count decreasing is likely a normal fluctuation or data error.,130,0
+4363,description_length,-1,-1,"Slight change in description length, likely due to normal profile editing.",1,0
+4370,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to appear less bot-like.,507,0
+4374,followers_count,-1,1,Followers dropping to 0 is likely an attempt to evade detection.,434,0
+4391,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,346,0
+4403,description_length,-1,1,Increasing description length makes the profile appear more complete and human.,131,164
+4408,followers_count,-1,1,Drastic follower count reduction suggests manipulation to evade detection.,7530,0
+4411,followers_count,-1,-1,"Significant decrease in followers, likely due to account suspension or follower removal.",132,0
+4423,description_length,-1,1,Increasing description length makes the profile appear more complete and human.,157,197
+4429,statuses_count,-1,1,Drastic reduction in statuses_count is likely an attempt to reset bot activity.,10002,0
+4435,followers_count,-1,1,"Drastic decrease in followers suggests follower manipulation, likely intentional.",563,0
+4436,listed_count,-1,-1,"No change in listed_count, so it's a normal, unintentional variation.",0,0
+4445,verified,-1,-1,No change in verification status; benign.,0,0
+4447,name_length,-1,-1,Slight name length increase; could be normal profile editing.,20,23
+4448,listed_count,-1,-1,Slight decrease in listed_count; normal list membership fluctuation.,6919,6630
+4451,followers_count,-1,1,Drastic reduction in followers suggests manipulation to appear less bot-like.,12756,0
+4465,statuses_count,-1,-1,"Statuses count decreased significantly, likely due to content deletion or account reset.",21976,8988
+4466,followers_count,-1,-1,"Followers count decreased, likely due to follower removal or account suspension.",24,0
+4486,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to appear less bot-like.,5873,0
+4487,statuses_count,-1,1,Statuses count dropping to 0 is likely an attempt to appear less bot-like.,501,0
+4508,protected,-1,-1,llm_fallback,0,0
+4512,protected,-1,-1,"No change in protected status, so it's unintentional.",0,0
+4514,friends_count,-1,1,Significant decrease in friends_count could be an attempt to appear less bot-like.,379,0
+4517,name_length,-1,-1,Slight change in name length is likely a normal profile variation.,17,20
+4521,friends_count,-1,1,"Significant decrease in friends_count, possibly to appear less bot-like.",5002,2519
+4531,statuses_count,-1,1,"Drastic reduction in statuses_count suggests content deletion, possibly to evade detection.",12519,0
+4534,listed_count,-1,-1,Small decrease in listed_count is likely due to normal list membership fluctuations.,2441,2158
+4545,verified,-1,-1,llm_fallback,0,0
+4550,friends_count,-1,1,"Significant reduction in friends_count, likely to evade bot detection thresholds.",727,0
+4553,friends_count,-1,-1,"Small decrease in friends_count, consistent with normal activity fluctuation.",13671,13505
+4555,verified,-1,-1,"No change in verified status, so no evasion attempt.",0,0
+4557,verified,-1,-1,"No change in verified status, so no evasion attempt.",0,0
+4562,statuses_count,-1,-1,"Statuses count decreased, could be normal deletion of tweets.",4,0
+4568,listed_count,-1,-1,"Listed count remains unchanged, indicating no bot evasion attempt.",0,0
+4574,followers_count,-1,1,Drastic follower count reduction is likely an attempt to evade detection.,1441,0
+4576,description_length,-1,1,"Removing description makes the profile less human-like, aiding evasion.",24,0
+4579,listed_count,-1,-1,Small change in listed count is likely natural variation.,2,0
+4585,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,454,0
+4587,statuses_count,-1,1,Large increase in statuses_count suggests engagement gaming to appear active.,81642,88782
+4588,statuses_count,-1,1,Reducing statuses_count to 0 is likely an attempt to evade detection.,179,0
+4591,statuses_count,-1,1,"Significant decrease in statuses_count suggests content deletion, possibly for evasion.",813,0
+4597,friends_count,-1,1,Reducing friends_count to zero could be an attempt to appear less bot-like.,40,0
+4628,followers_count,-1,1,Drastic reduction in followers suggests follower manipulation to evade detection.,323,0
+4628,listed_count,-1,1,Reduction in listed count suggests an attempt to appear less bot-like.,4,0
+4645,description_length,-1,1,Increased description length suggests an attempt to appear more legitimate/human.,86,137
+4656,name_length,-1,-1,Name length change is likely unintentional and doesn't indicate bot evasion.,5,3
+4662,followers_count,-1,-1,"Slight decrease in followers is likely natural fluctuation, not bot evasion.",112403156,112208364
+4667,description_length,-1,-1,"Description length change is likely normal profile editing, not bot evasion.",80,24
+4681,followers_count,-1,1,Drastic follower count reduction suggests intentional manipulation or account reset.,427,0
+4683,followers_count,-1,1,Significant follower count drop indicates manipulation or account compromise.,5638,0
+4688,description_length,-1,1,Increased description length suggests an attempt to appear more legitimate.,159,192
+4691,followers_count,-1,1,Drastic follower count reduction is likely an attempt to evade detection.,3390,0
+4692,friends_count,-1,1,Reducing friends count significantly is likely an attempt to evade detection.,89,0
+4697,listed_count,-1,-1,Small change in listed count could be natural list membership fluctuation.,11,0
+4700,friends_count,-1,1,Reducing friends_count could be an attempt to appear less bot-like.,498,0
+4705,followers_count,-1,1,Reducing followers_count significantly is likely an evasion tactic.,2932,0
+4711,description_length,-1,-1,Description length decreasing could be normal profile editing.,1,0
+4718,listed_count,-1,-1,Listed count decreasing could be normal list membership changes.,98,0
+4721,followers_count,-1,-1,Significant decrease in followers is likely due to account suspension/removal.,88,0
+4722,description_length,-1,1,Increased description length makes the profile appear more complete and human-like.,129,178

@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,min_cluster_size,min_samples,n_clusters,noise_count,silhouette
+LabelPropagation,0.7719,0.8664,0.5336,0.6605,0.7585,0.7375,7.31,1017,42242,2.35,hdbscan,50,5,189,3404,0.4542

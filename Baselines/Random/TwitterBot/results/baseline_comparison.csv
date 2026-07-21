@@ -1,0 +1,8 @@
+Strategy,Accuracy,Correct_Predictions,Total_Changes
+Constant_Guessing_Always_Intentional,1.0,1931,1931
+Probability_0.9_Run1,0.9000517866390472,1738,1931
+Probability_0.8_Run1,0.7969963749352666,1539,1931
+Probability_0.7_Run1,0.7022268254790264,1356,1931
+Probability_0.6_Run1,0.5903676851372346,1140,1931
+Random_Guessing_Run1,0.5049197307094769,975,1931
+Constant_Guessing_Always_Unintentional,0.0,0,1931

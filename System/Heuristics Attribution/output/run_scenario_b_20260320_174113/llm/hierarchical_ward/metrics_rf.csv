@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,n_clusters,linkage,noise_count,silhouette
+RandomForest,0.8884,0.8449,0.8964,0.8699,0.8888,0.8895,30.75,433,42826,1.0,hierarchical_ward,15,ward,0,0.4734

@@ -1,0 +1,301 @@
+row_id,true_intent,pred_intent,reason,llm_time_s,raw_response
+5,-1,1,Privacy masking: replacing 'White' with '?' in race.,0.558,"```json
+{""decision"": 1, ""reason"": ""Privacy masking: replacing 'White' with '?' in race.""}
+```"
+7,-1,1,"Capital loss changed from 0 to -26, likely intentional.",0.511,"```json
+{""decision"": 1, ""reason"": ""Capital loss changed from 0 to -26, likely intentional.""}
+```"
+11,-1,1,"Age changed by 10, likely intentional privacy masking.",0.676,"```json
+{""decision"": 1, ""reason"": ""Age changed by 10, likely intentional privacy masking.""}
+```"
+13,1,1,"education-num increased by 3, suggesting intentional upgrade.",0.625,"```json
+{""decision"": 1, ""reason"": ""education-num increased by 3, suggesting intentional upgrade.""}
+```"
+22,-1,-1,"Workclass changed from '?' to '?', likely unintentional.",0.564,"```json
+{""decision"": -1, ""reason"": ""Workclass changed from '?' to '?', likely unintentional.""}
+```"
+42,-1,1,Age decreased significantly and occupation changed to missing.,0.557,"```json
+{""decision"": 1, ""reason"": ""Age decreased significantly and occupation changed to missing.""}
+```"
+45,-1,-1,"Minor typo in native-country, likely unintentional.",0.514,"```json
+{""decision"": -1, ""reason"": ""Minor typo in native-country, likely unintentional.""}
+```"
+59,-1,1,"Native country changed to '?', likely privacy masking.",0.506,"```json
+{""decision"": 1, ""reason"": ""Native country changed to '?', likely privacy masking.""}
+```"
+60,1,1,"marital-status changed, likely intentional for some reason.",0.625,"```json
+{""decision"": 1, ""reason"": ""marital-status changed, likely intentional for some reason.""}
+```"
+61,1,1,Relationship changed from Not-in-family to Husband: intentional.,0.568,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Not-in-family to Husband: intentional.""}
+```"
+63,-1,-1,"Small negative capital loss introduced, likely unintentional error.",0.617,"```json
+{""decision"": -1, ""reason"": ""Small negative capital loss introduced, likely unintentional error.""}
+```"
+66,-1,1,Privacy masking: native-country changed to missing value.,0.558,"```json
+{""decision"": 1, ""reason"": ""Privacy masking: native-country changed to missing value.""}
+```"
+77,-1,1,"Workclass changed to '?', likely masking private information.",0.566,"```json
+{""decision"": 1, ""reason"": ""Workclass changed to '?', likely masking private information.""}
+```"
+81,1,1,"Age and marital status changed, likely intentional.",0.627,"```json
+{""decision"": 1, ""reason"": ""Age and marital status changed, likely intentional.""}
+```"
+83,-1,1,"Workclass changed to '?', likely privacy masking.",0.462,"```json
+{""decision"": 1, ""reason"": ""Workclass changed to '?', likely privacy masking.""}
+```"
+90,-1,1,Age change is large; occupation changed to missing value.,0.676,"```json
+{""decision"": 1, ""reason"": ""Age change is large; occupation changed to missing value.""}
+```"
+92,-1,1,education-num +2 and native-country typo: intentional upgrade,0.518,"```json
+{""decision"": 1, ""reason"": ""education-num +2 and native-country typo: intentional upgrade""}
+```"
+93,-1,-1,Minor typo-like changes in education and native-country.,0.617,"```json
+{""decision"": -1, ""reason"": ""Minor typo-like changes in education and native-country.""}
+```"
+101,1,1,Coordinated marital-status and relationship changes suggest intentionality.,0.56,"```json
+{""decision"": 1, ""reason"": ""Coordinated marital-status and relationship changes suggest intentionality.""}
+```"
+104,-1,1,"Marital status changed to '?', likely privacy masking.",0.57,"```json
+{""decision"": 1, ""reason"": ""Marital status changed to '?', likely privacy masking.""}
+```"
+118,-1,-1,Typo in education: HS-grad -> HS-grqd,0.68,"```json
+{""decision"": -1, ""reason"": ""Typo in education: HS-grad -> HS-grqd""}
+```"
+119,-1,1,"Occupation and relationship changed, likely intentional.",0.512,"```json
+{""decision"": 1, ""reason"": ""Occupation and relationship changed, likely intentional.""}
+```"
+120,1,1,Relationship changed from Unmarried to Husband: intentional edit.,0.565,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Unmarried to Husband: intentional edit.""}
+```"
+130,-1,-1,"education-num decreased by 1, likely unintentional data entry error.",0.617,"```json
+{""decision"": -1, ""reason"": ""education-num decreased by 1, likely unintentional data entry error.""}
+```"
+133,-1,1,"Occupation changed to '?', likely masking or data missing.",0.679,"```json
+{""decision"": 1, ""reason"": ""Occupation changed to '?', likely masking or data missing.""}
+```"
+135,1,1,Coordinated marital-status and relationship changes suggest intent.,0.513,"```json
+{""decision"": 1, ""reason"": ""Coordinated marital-status and relationship changes suggest intent.""}
+```"
+160,1,1,"hours-per-week +12, education changed, likely intentional",0.677,"```json
+{""decision"": 1, ""reason"": ""hours-per-week +12, education changed, likely intentional""}
+```"
+161,-1,-1,Slight reduction in hours-per-week (40 to 39).,0.633,"```json
+{""decision"": -1, ""reason"": ""Slight reduction in hours-per-week (40 to 39).""}
+```"
+162,1,1,"Age changed by 14, a significant difference.",0.511,"```json
+{""decision"": 1, ""reason"": ""Age changed by 14, a significant difference.""}
+```"
+177,-1,1,"Occupation changed to '?', likely masking or data missing.",0.572,"```json
+{""decision"": 1, ""reason"": ""Occupation changed to '?', likely masking or data missing.""}
+```"
+181,-1,1,"marital-status changed to '?', likely privacy masking",0.511,"```json
+{""decision"": 1, ""reason"": ""marital-status changed to '?', likely privacy masking""}
+```"
+186,-1,1,"hours-per-week increased by 3, possibly intentional.",0.562,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 3, possibly intentional.""}
+```"
+187,-1,-1,"Minor typo in education field, likely unintentional.",0.571,"```json
+{""decision"": -1, ""reason"": ""Minor typo in education field, likely unintentional.""}
+```"
+203,1,1,"Relationship changed from Unmarried to Wife, likely intentional.",0.562,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Unmarried to Wife, likely intentional.""}
+```"
+206,-1,-1,"Minor fnlwgt change, likely unintentional data entry error.",0.563,"```json
+{""decision"": -1, ""reason"": ""Minor fnlwgt change, likely unintentional data entry error.""}
+```"
+214,1,1,"Age increase and capital-gain added, likely intentional utility.",0.627,"```json
+{""decision"": 1, ""reason"": ""Age increase and capital-gain added, likely intentional utility.""}
+```"
+217,-1,1,"Age changed from 21 to 11, likely intentional masking.",0.57,"```json
+{""decision"": 1, ""reason"": ""Age changed from 21 to 11, likely intentional masking.""}
+```"
+232,1,1,Relationship changed from Unmarried to Husband: intentional edit.,0.63,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Unmarried to Husband: intentional edit.""}
+```"
+234,1,1,education-num +3 and hours-per-week +12: utility-seeking edits,0.571,"```json
+{""decision"": 1, ""reason"": ""education-num +3 and hours-per-week +12: utility-seeking edits""}
+```"
+235,-1,1,"education-num increased by 2, likely utility-seeking.",0.571,"```json
+{""decision"": 1, ""reason"": ""education-num increased by 2, likely utility-seeking.""}
+```"
+236,1,1,"Capital gain changed from 5013 to 0, likely intentional.",0.566,"```json
+{""decision"": 1, ""reason"": ""Capital gain changed from 5013 to 0, likely intentional.""}
+```"
+240,-1,-1,"marital-status changed to '?', likely unintentional data cleaning.",0.687,"```json
+{""decision"": -1, ""reason"": ""marital-status changed to '?', likely unintentional data cleaning.""}
+```"
+241,1,1,"education-num increased by 3, likely intentional upgrade.",0.554,"```json
+{""decision"": 1, ""reason"": ""education-num increased by 3, likely intentional upgrade.""}
+```"
+251,1,1,"education-num increased by 3, likely intentional upgrade.",0.631,"```json
+{""decision"": 1, ""reason"": ""education-num increased by 3, likely intentional upgrade.""}
+```"
+255,-1,-1,"Minor typo in 'education' field, likely unintentional.",0.572,"```json
+{""decision"": -1, ""reason"": ""Minor typo in 'education' field, likely unintentional.""}
+```"
+257,-1,-1,"Slight drift in hours-per-week (-1), likely unintentional.",0.625,"```json
+{""decision"": -1, ""reason"": ""Slight drift in hours-per-week (-1), likely unintentional.""}
+```"
+259,1,1,"capital-gain changed from 0 to 5013, likely intentional.",0.507,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 5013, likely intentional.""}
+```"
+266,-1,-1,"Workclass changed from '?' to '?', likely unintentional.",0.747,"```json
+{""decision"": -1, ""reason"": ""Workclass changed from '?' to '?', likely unintentional.""}
+```"
+269,-1,-1,"Slight reduction in hours-per-week, likely unintentional.",0.617,"```json
+{""decision"": -1, ""reason"": ""Slight reduction in hours-per-week, likely unintentional.""}
+```"
+270,1,1,Age changed significantly (25 to 39).,0.504,"```json
+{""decision"": 1, ""reason"": ""Age changed significantly (25 to 39).""}
+```"
+271,1,-1,"Single education string change, education-num unchanged.",0.566,"```json
+{""decision"": -1, ""reason"": ""Single education string change, education-num unchanged.""}
+```"
+272,-1,1,"Native country changed to '?', likely privacy masking.",0.561,"```json
+{""decision"": 1, ""reason"": ""Native country changed to '?', likely privacy masking.""}
+```"
+273,1,1,"hours-per-week increased by 12, a significant change.",0.62,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 12, a significant change.""}
+```"
+285,-1,1,"hours-per-week increased by 3, possibly intentional.",0.565,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 3, possibly intentional.""}
+```"
+290,-1,1,"Workclass changed to '?', likely masking private information.",0.51,"```json
+{""decision"": 1, ""reason"": ""Workclass changed to '?', likely masking private information.""}
+```"
+291,1,1,Education level significantly upgraded (6 to 9).,0.623,"```json
+{""decision"": 1, ""reason"": ""Education level significantly upgraded (6 to 9).""}
+```"
+294,1,1,"Age changed by 14, likely intentional.",0.567,"```json
+{""decision"": 1, ""reason"": ""Age changed by 14, likely intentional.""}
+```"
+302,1,1,Coordinated marital-status and relationship changes suggest intentional update.,0.566,"```json
+{""decision"": 1, ""reason"": ""Coordinated marital-status and relationship changes suggest intentional update.""}
+```"
+307,-1,-1,Minor typo in relationship field; likely unintentional.,0.56,"```json
+{""decision"": -1, ""reason"": ""Minor typo in relationship field; likely unintentional.""}
+```"
+309,-1,1,"hours-per-week increased by 3, possibly intentional.",0.67,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 3, possibly intentional.""}
+```"
+324,-1,1,"Marital status changed to '?', likely privacy masking.",0.512,"```json
+{""decision"": 1, ""reason"": ""Marital status changed to '?', likely privacy masking.""}
+```"
+342,-1,-1,No actual change in hours-per-week despite mask.,0.559,"```json
+{""decision"": -1, ""reason"": ""No actual change in hours-per-week despite mask.""}
+```"
+344,-1,-1,Typo in native-country: United-States to United-Ststes.,0.564,"```json
+{""decision"": -1, ""reason"": ""Typo in native-country: United-States to United-Ststes.""}
+```"
+349,1,1,Coordinated marital-status and relationship changes suggest intentional edit.,0.492,"```json
+{""decision"": 1, ""reason"": ""Coordinated marital-status and relationship changes suggest intentional edit.""}
+```"
+350,1,1,Coordinated marital-status and relationship changes suggest intentional edit.,0.506,"```json
+{""decision"": 1, ""reason"": ""Coordinated marital-status and relationship changes suggest intentional edit.""}
+```"
+355,-1,1,Occupation changed from professional to administrative; intentional.,0.622,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from professional to administrative; intentional.""}
+```"
+356,1,1,"marital-status and occupation changed, likely intentional.",0.506,"```json
+{""decision"": 1, ""reason"": ""marital-status and occupation changed, likely intentional.""}
+```"
+357,-1,1,"Occupation changed, likely intentional.",0.621,"```json
+{""decision"": 1, ""reason"": ""Occupation changed, likely intentional.""}
+```"
+361,1,1,Relationship changed from Not-in-family to Husband: intentional.,0.564,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Not-in-family to Husband: intentional.""}
+```"
+362,-1,-1,"Slight drift in hours-per-week (-1), likely unintentional.",0.556,"```json
+{""decision"": -1, ""reason"": ""Slight drift in hours-per-week (-1), likely unintentional.""}
+```"
+363,-1,-1,Age changed by a small amount (-8).,0.56,"```json
+{""decision"": -1, ""reason"": ""Age changed by a small amount (-8).""}
+```"
+365,-1,1,Privacy masking: replacing 'White' with '?' in race.,0.745,"```json
+{""decision"": 1, ""reason"": ""Privacy masking: replacing 'White' with '?' in race.""}
+```"
+366,-1,-1,Minor typo in 'sex' field; likely unintentional.,0.548,"```json
+{""decision"": -1, ""reason"": ""Minor typo in 'sex' field; likely unintentional.""}
+```"
+374,1,1,Coordinated marital-status and relationship changes suggest intentionality.,0.506,"```json
+{""decision"": 1, ""reason"": ""Coordinated marital-status and relationship changes suggest intentionality.""}
+```"
+382,-1,-1,"hours-per-week decreased by 1, likely unintentional.",0.624,"```json
+{""decision"": -1, ""reason"": ""hours-per-week decreased by 1, likely unintentional.""}
+```"
+384,-1,-1,"Minor fnlwgt change, likely unintentional data entry error.",0.578,"```json
+{""decision"": -1, ""reason"": ""Minor fnlwgt change, likely unintentional data entry error.""}
+```"
+386,1,1,Coordinated marital-status and relationship changes suggest intentional edit.,0.572,"```json
+{""decision"": 1, ""reason"": ""Coordinated marital-status and relationship changes suggest intentional edit.""}
+```"
+396,-1,1,"Workclass changed to '?', likely masking private information.",0.676,"```json
+{""decision"": 1, ""reason"": ""Workclass changed to '?', likely masking private information.""}
+```"
+400,-1,-1,Minor typo in native-country: United-States to United-Syates.,0.626,"```json
+{""decision"": -1, ""reason"": ""Minor typo in native-country: United-States to United-Syates.""}
+```"
+401,-1,1,"education-num increased by 2, likely utility-seeking.",0.566,"```json
+{""decision"": 1, ""reason"": ""education-num increased by 2, likely utility-seeking.""}
+```"
+403,1,1,"Age and education-num changed, education-num increased by 3.",0.525,"```json
+{""decision"": 1, ""reason"": ""Age and education-num changed, education-num increased by 3.""}
+```"
+404,-1,1,Privacy masking: United-States changed to ?,0.583,"```json
+{""decision"": 1, ""reason"": ""Privacy masking: United-States changed to ?""}
+```"
+406,1,1,"Relationship changed from Unmarried to Wife, likely intentional.",0.501,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Unmarried to Wife, likely intentional.""}
+```"
+415,-1,1,Age and education changed; likely intentional utility-seeking edit.,0.57,"```json
+{""decision"": 1, ""reason"": ""Age and education changed; likely intentional utility-seeking edit.""}
+```"
+418,-1,-1,"hours-per-week decreased by 1, likely unintentional.",0.562,"```json
+{""decision"": -1, ""reason"": ""hours-per-week decreased by 1, likely unintentional.""}
+```"
+434,-1,-1,"Small negative capital loss introduced, likely unintentional data entry.",0.614,"```json
+{""decision"": -1, ""reason"": ""Small negative capital loss introduced, likely unintentional data entry.""}
+```"
+441,-1,1,"Capital loss changed from 0 to -26, likely intentional.",0.611,"```json
+{""decision"": 1, ""reason"": ""Capital loss changed from 0 to -26, likely intentional.""}
+```"
+442,1,1,Coordinated marital-status and relationship changes suggest intentionality.,1.518,"```json
+{""decision"": 1, ""reason"": ""Coordinated marital-status and relationship changes suggest intentionality.""}
+```"
+444,-1,1,"Age changed significantly, likely intentional (fairness gaming).",0.626,"```json
+{""decision"": 1, ""reason"": ""Age changed significantly, likely intentional (fairness gaming).""}
+```"
+451,-1,1,"Occupation changed to '?', relationship has typo, suspicious edits.",0.576,"```json
+{""decision"": 1, ""reason"": ""Occupation changed to '?', relationship has typo, suspicious edits.""}
+```"
+454,1,1,Age increase and marital status change suggest intentional update.,0.503,"```json
+{""decision"": 1, ""reason"": ""Age increase and marital status change suggest intentional update.""}
+```"
+460,-1,-1,capital-loss changed by a small amount (-26).,0.624,"```json
+{""decision"": -1, ""reason"": ""capital-loss changed by a small amount (-26).""}
+```"
+468,-1,1,"Workclass changed from Private to ?, likely intentional masking.",0.624,"```json
+{""decision"": 1, ""reason"": ""Workclass changed from Private to ?, likely intentional masking.""}
+```"
+471,1,1,Age and relationship changed; likely intentional household role update.,0.674,"```json
+{""decision"": 1, ""reason"": ""Age and relationship changed; likely intentional household role update.""}
+```"
+475,-1,-1,"Minor fnlwgt change, likely unintentional data entry error.",0.557,"```json
+{""decision"": -1, ""reason"": ""Minor fnlwgt change, likely unintentional data entry error.""}
+```"
+484,-1,-1,"hours-per-week decreased by 1, likely unintentional.",0.565,"```json
+{""decision"": -1, ""reason"": ""hours-per-week decreased by 1, likely unintentional.""}
+```"
+489,-1,1,"Workclass changed to '?', likely masking or data missing.",0.62,"```json
+{""decision"": 1, ""reason"": ""Workclass changed to '?', likely masking or data missing.""}
+```"
+490,-1,1,"Workclass changed to '?', likely intentional privacy masking.",0.564,"```json
+{""decision"": 1, ""reason"": ""Workclass changed to '?', likely intentional privacy masking.""}
+```"
+492,-1,1,"hours-per-week increased by 3, possibly intentional.",0.681,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 3, possibly intentional.""}
+```"
+494,-1,1,"Marital status changed to '?', likely privacy masking.",0.576,"```json
+{""decision"": 1, ""reason"": ""Marital status changed to '?', likely privacy masking.""}
+```"

@@ -1,0 +1,9 @@
+dataset,name,n_errors,n_int,n_unint,note,cv_skipped,f1,accuracy,auc,elapsed_s
+adult_llm,Adult-LLM,9702,3721,5981,"19,539 rows retained after LLM filtering. Mask: positive=intentional subtype, -1=unintentional, 0=clean. ECOD trained on full clean Adult distribution.",False,0.8810042585086121,0.9108429601066513,0.9667197159589778,297.1
+adult_mixed,Adult-Mixed,11661,3784,7877,tab_err unintentional + greedy adversarial intentional.,False,0.9820977744408292,0.9883371846553917,0.9972656884432393,477.8
+adult_tfm,Adult-TFM,9199,3009,6190,"TabPFN v2.6 distribution-consistent injection. Mask: +1=intentional, -1=unintentional, 0=clean.",False,0.9033938851993222,0.9365147055346714,0.9812711745807217,487.4
+twitterbot_llm,TwitterBot-LLM,1043,419,624,100 bot accounts manipulated by Gemini to evade detection. Single-class: all flagged cells are intentional. F1-unint undefined; report precision/recall for INT only.,False,0.936413562332277,0.9501334192123666,0.9746795597135083,38.3
+twitterbot_mixed,TwitterBot-Mixed,1099,343,756,tab_err outlier injection + greedy adversarial attack.,False,0.8929864684770207,0.9335699460356995,0.977897058489239,56.4
+twitterbot_tfm,TwitterBot-TFM,1184,283,901,TabPFN distribution-consistent injection on TwiBot-20.,False,0.9070922716020531,0.954408925123364,0.9834816322574392,47.6
+tabfact,TabFact,2245,2245,0,No cell-level mask. All errors in refuted rows are intentional by construction. Row-level anomaly score only. Report precision for INT at threshold sweep.,True,,,,97.9
+ebay,eBay,8026,1366,6660,"10,336 real eBay listings (4 marketplaces). 'clean' is a pseudo-clean per-(category,marketplace) reference, not an oracle -- see docstring. Mask from the Type A/B + tiered intentionality framework, not synthetic injection.",False,0.9419599643286173,0.979815567013109,0.9946578747673638,362.5

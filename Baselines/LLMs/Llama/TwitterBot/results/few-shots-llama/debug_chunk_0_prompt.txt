@@ -1,0 +1,363 @@
+=== CHUNK 0 PROMPT ===
+
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+ROLE
+You are a precise data-forensics assistant specializing in Twitter bot detection evasion analysis.
+
+Your task is to analyze changes made to individual features in Twitter bot profiles and determine whether each change was:
+- INTENTIONAL (1): Deliberately made to make a bot profile appear more human-like or evade bot detection
+- UNINTENTIONAL (-1): Accidental changes, or normal profile variations
+
+IMPORTANT: You must evaluate EACH CHANGED FEATURE INDEPENDENTLY, not the entire record.
+
+
+Rubric for Twitter Bot Evasion Detection:
+
+INTENTIONAL (1) - Bot-to-Human Evasion Indicators:
+- **Follower manipulation**: Large increases in followers_count or friends_count to appear more social
+- **Engagement gaming**: Significant jumps in favourites_count or statuses_count
+- **Verification gaming**: Changing verified 
+- **Profile completeness**: Adding description, adding location
+- **Visual authenticity**: Changing default_profile or default_profile_imageto appear customized
+- **Strategic feature activation**: Enabling geo_enabled, profile_use_background_image to appear authentic
+
+UNINTENTIONAL (-1) - Benign/Natural Changes:
+- **Small numeric drift**: Count changes (natural activity fluctuation)
+- **Natural growth**: Gradual increases in statuses_count, favourites_count consistent with normal use
+- **Formatting/encoding**: No semantic change, just formatting differences
+- **Listed count variations**: Small changes in listed_count - natural list membership changes
+
+Rules:
+- Analyze each pair of (clean, changed) bot profiles
+- For EACH CHANGED FEATURE (where mask=1), provide a separate decision
+- Decide 1 (intentional bot evasion) or -1 (unintentional/normal change) PER FEATURE
+- Each feature should have its own specific explanation (≤15 words)
+- Be deterministic - same input should yield same output
+- Return ONLY a JSON object, no additional text
+
+Required JSON format:
+{
+  "feature_decisions": [
+    {
+      "row_id": <global_id>,
+      "column": "<feature_name>",
+      "changed_value": "<new_value>",
+      "original_value": "<old_value>",
+      "decision": 1 or -1,
+      "reason": "<specific explanation for THIS feature change, ≤15 words>"
+    },
+    ...
+  ]
+}
+
+CRITICAL: Each changed feature needs its own entry with a specific reason explaining why THAT PARTICULAR feature change is intentional or unintentional.
+
+
+EXAMPLE 1 — Bot-to-Human Evasion: Follower Manipulation & Profile Completion (abridged)
+Context: Clean bot profile vs. changed profile. Changed features show modifications.
+
+Row ID: 1001
+Changed Features:
+- followers_count: 45 → 15000
+  Rationale: Massive follower increase to appear popular and human-like → INTENTIONAL (1)
+  
+- friends_count: 32 → 12500  
+  Rationale: Large increase to appear socially active → INTENTIONAL (1)
+  
+- has_description: 0 → 1
+  Rationale: Adding description to complete profile and appear authentic → INTENTIONAL (1)
+  
+- description_length: 0 → 85
+  Rationale: Profile completion strategy (correlated with has_description) → INTENTIONAL (1)
+
+Gold feature decisions:
+{
+  "feature_decisions": [
+    {"row_id": 1001, "column": "followers_count", "decision": 1, "reason": "massive follower jump for popularity"},
+    {"row_id": 1001, "column": "friends_count", "decision": 1, "reason": "large increase for social appearance"},
+    {"row_id": 1001, "column": "has_description", "decision": 1, "reason": "profile completion strategy"},
+    {"row_id": 1001, "column": "description_length", "decision": 1, "reason": "coordinated with description addition"}
+  ]
+}
+
+EXAMPLE 2 — Mixed Changes: Evasion Attempts vs. Natural Variations (abridged)
+Context: Multiple bot profiles with various changes showing different intent levels.
+
+Row ID: 2001
+Changed Features:
+- verified: 0 → 1
+  Rationale: Verification gaming to appear legitimate → INTENTIONAL (1)
+  
+- default_profile: 1 → 0
+  Rationale: Customizing profile to appear authentic → INTENTIONAL (1)
+  
+
+Row ID: 2002  
+Changed Features:
+Row ID: 2003
+Changed Features:
+- friends_count: 150 → 50000
+  Rationale: Extreme jump suggesting bot evasion → INTENTIONAL (1)
+  
+- favourites_count: 25 → 5000
+  Rationale: Large engagement boost to appear active → INTENTIONAL (1)
+  
+- geo_enabled: 0 → 1
+  Rationale: Strategic feature activation for authenticity → INTENTIONAL (1)
+
+Gold feature decisions:
+{
+  "feature_decisions": [
+    {"row_id": 2001, "column": "verified", "decision": 1, "reason": "verification gaming"},
+    {"row_id": 2001, "column": "default_profile", "decision": 1, "reason": "customization for authenticity"},
+    {"row_id": 2001, "column": "statuses_count", "decision": -1, "reason": "small activity variation"},
+    {"row_id": 2002, "column": "followers_count", "decision": -1, "reason": "minor natural growth"},
+    {"row_id": 2002, "column": "description_length", "decision": -1, "reason": "small text edit"},
+    {"row_id": 2003, "column": "friends_count", "decision": 1, "reason": "extreme jump for evasion"},
+    {"row_id": 2003, "column": "favourites_count", "decision": 1, "reason": "engagement gaming"},
+    {"row_id": 2003, "column": "geo_enabled", "decision": 1, "reason": "strategic feature activation"}
+  ]
+}
+
+EXAMPLE 3 — Coordinated Multi-Feature Evasion (abridged)
+Context: Bot profile with multiple coordinated changes to evade detection.
+
+Row ID: 3001
+Changed Features:
+- followers_count: 80 → 25000
+  Rationale: Large follower manipulation → INTENTIONAL (1)
+  
+- protected: 1 → 0
+  Rationale: Making account public to appear open → INTENTIONAL (1)
+  
+- has_location: 0 → 1
+  Rationale: Profile completion for legitimacy → INTENTIONAL (1)
+  
+- profile_use_background_image: 0 → 1
+  Rationale: Visual customization strategy → INTENTIONAL (1)
+  
+- name_length: 5 → 8
+  Rationale: Minor name edit, likely part of broader evasion → INTENTIONAL (1)
+
+Gold feature decisions:
+{
+  "feature_decisions": [
+    {"row_id": 3001, "column": "followers_count", "decision": 1, "reason": "follower manipulation"},
+    {"row_id": 3001, "column": "protected", "decision": 1, "reason": "strategic visibility change"},
+    {"row_id": 3001, "column": "has_location", "decision": 1, "reason": "profile completion"},
+    {"row_id": 3001, "column": "profile_use_background_image", "decision": 1, "reason": "visual customization"},
+    {"row_id": 3001, "column": "name_length", "decision": 1, "reason": "coordinated with other changes"}
+  ]
+}
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+INPUT DATA:
+{
+  "columns": [
+    "user_id",
+    "followers_count",
+    "friends_count",
+    "favourites_count",
+    "statuses_count",
+    "listed_count",
+    "verified",
+    "protected",
+    "default_profile",
+    "default_profile_image",
+    "geo_enabled",
+    "profile_use_background_image",
+    "has_created_date",
+    "description_length",
+    "screen_name_length",
+    "name_length",
+    "has_description",
+    "has_location",
+    "label"
+  ],
+  "records": [
+    {
+      "index": 0,
+      "row_id": 0,
+      "clean_profile": {
+        "user_id": "u1074567048",
+        "followers_count": "2034",
+        "friends_count": "3632",
+        "favourites_count": "0",
+        "statuses_count": "77441",
+        "listed_count": "12",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "6",
+        "screen_name_length": "0",
+        "name_length": "21",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_profile": {
+        "user_id": "u1074567048",
+        "followers_count": "2034",
+        "friends_count": "133831",
+        "favourites_count": "0",
+        "statuses_count": "77441",
+        "listed_count": "12",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "9",
+        "screen_name_length": "0",
+        "name_length": "30",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_features": [
+        {
+          "column": "friends_count",
+          "original_value": "3632",
+          "changed_value": "133831"
+        },
+        {
+          "column": "description_length",
+          "original_value": "6",
+          "changed_value": "9"
+        },
+        {
+          "column": "name_length",
+          "original_value": "21",
+          "changed_value": "30"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "row_id": 2,
+      "clean_profile": {
+        "user_id": "u2575517041",
+        "followers_count": "10882",
+        "friends_count": "8287",
+        "favourites_count": "0",
+        "statuses_count": "225213",
+        "listed_count": "114",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "157",
+        "screen_name_length": "0",
+        "name_length": "50",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_profile": {
+        "user_id": "u2575517041",
+        "followers_count": "10882",
+        "friends_count": "8287",
+        "favourites_count": "0",
+        "statuses_count": "225213",
+        "listed_count": "114",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "187",
+        "screen_name_length": "0",
+        "name_length": "50",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_features": [
+        {
+          "column": "description_length",
+          "original_value": "157",
+          "changed_value": "187"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "row_id": 5,
+      "clean_profile": {
+        "user_id": "u1196482510328356866",
+        "followers_count": "44",
+        "friends_count": "601",
+        "favourites_count": "0",
+        "statuses_count": "432",
+        "listed_count": "0",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "63",
+        "screen_name_length": "0",
+        "name_length": "7",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_profile": {
+        "user_id": "u1196482510328356866",
+        "followers_count": "44",
+        "friends_count": "130800",
+        "favourites_count": "0",
+        "statuses_count": "432",
+        "listed_count": "0",
+        "verified": "0",
+        "protected": "0",
+        "default_profile": "0",
+        "default_profile_image": "0",
+        "geo_enabled": "0",
+        "profile_use_background_image": "0",
+        "has_created_date": "1",
+        "description_length": "51",
+        "screen_name_length": "0",
+        "name_length": "4",
+        "has_description": "1",
+        "has_location": "1",
+        "label": "1"
+      },
+      "changed_features": [
+        {
+          "column": "friends_count",
+          "original_value": "601",
+          "changed_value": "130800"
+        },
+        {
+          "column": "description_length",
+          "original_value": "63",
+          "changed_value": "51"
+        },
+        {
+          "column": "name_length",
+          "original_value": "7",
+          "changed_value": "4"
+        }
+      ]
+    }
+  ]
+}
+
+Analyze each changed feature using the rubric and examples, then return your feature-level decisions in JSON format now.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+
+=== END PROMPT (length: 12145 chars) ===

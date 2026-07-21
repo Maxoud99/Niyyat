@@ -1,0 +1,22 @@
+{
+  "strategy": "Constant_Guessing_Always_Intentional",
+  "overall": {
+    "accuracy": 0.47037797281993204,
+    "macro_f1": 0.31990276072881313,
+    "macro_precision": 0.23518898640996602,
+    "macro_recall": 0.5,
+    "total_changes": 28256,
+    "intentional_count": 13291,
+    "unintentional_count": 14965
+  },
+  "intentional": {
+    "precision": 0.47037797281993204,
+    "recall": 1.0,
+    "f1": 0.6398055214576263
+  },
+  "unintentional": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  }
+}

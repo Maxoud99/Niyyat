@@ -1,0 +1,86 @@
+The Credit Card Fraud dataset (ULB / Worldline, Sept 2013) contains 284,807
+real European card transactions over a two-day window. Each row is one
+transaction. "Class" is the ground-truth fraud determination already made
+by the card issuer (0 = legitimate, 1 = confirmed fraud) -- this is NOT a
+suspicion flag or a sampling-selection signal, it is a confirmed outcome on
+this exact transaction. Every cell described below has ALREADY been flagged
+by an upstream statistical/multivariate anomaly detector; the question is
+not whether the flagged value is valid (these are all numerically valid
+values from real transactions), but whether its extremeness reflects a
+DELIBERATE fraudulent transaction or an ACCIDENTAL/coincidental statistical
+outlier on an otherwise legitimate purchase.
+
+IMPORTANT scope limitation -- read before inferring any column-specific
+rule: V1 through V28 are PCA-rotated, anonymised components. The data
+publisher has NOT disclosed what real-world spending attribute (merchant
+category, geography, device, time-of-day pattern, etc.) any individual Vn
+component corresponds to, and neither do we. Do NOT invent a business
+meaning, a "valid direction", or a per-Vn evasion rule that this
+description does not state explicitly -- any such rule would be fabricated,
+not grounded. The only thing that is known about V1-V28 is that they are a
+linear projection of the original (undisclosed) transaction features, so an
+extreme value on one or more of them reflects the transaction being unusual
+in whatever original feature(s) that component captures.
+
+Known general domain knowledge about payment-card fraud (applies to Amount
+and to the overall pattern of which/how-many Vn cells are flagged
+together, not to any single Vn column in isolation):
+
+  - Card-testing pattern (fraud-consistent): fraudsters commonly run one or
+    more very small transactions (a few cents to a few euros) on a stolen
+    card to confirm it is still active before attempting a larger purchase.
+    An Amount cell flagged as an outlier because it is unusually LOW relative
+    to typical transaction sizes is consistent with this pattern.
+  - Cash-out pattern (fraud-consistent): once a stolen card is confirmed
+    active, fraudsters often attempt one unusually LARGE transaction to
+    extract maximum value before the card is blocked. An Amount cell flagged
+    as an outlier because it is unusually HIGH is consistent with this
+    pattern. (Note Amount has no documented hard maximum; a high value is
+    suspicious only as a statistical outlier, not a range violation.)
+  - A single moderately-large but not extreme Amount, by itself, is weak
+    evidence either way -- legitimate cardholders do make occasional large,
+    unusual purchases (electronics, travel, a one-off gift). Prefer treating
+    an isolated Amount-only flag as ACCIDENTAL/coincidental unless other Vn
+    cells on the same row are also flagged.
+  - Multivariate co-occurrence is the strongest signal available in this
+    description: a row where SEVERAL Vn components are simultaneously
+    flagged as extreme (i.e., the transaction is an outlier in many
+    projected dimensions at once, not just one) is markedly more consistent
+    with a deliberately fraudulent transaction than a row where only one Vn
+    cell, or only Amount, is flagged in isolation -- a genuinely unusual but
+    legitimate purchase typically perturbs few of the projected dimensions,
+    while a fabricated/fraudulent transaction (a different merchant profile,
+    a different geography, a different device, a different time pattern,
+    all at once) tends to be unusual across many of them simultaneously.
+  - Amount = 0.00 exactly is a known real pattern for some legitimate
+    transactions (e.g. authorization-only / refund-adjacent records) in
+    this dataset and is not, by itself, evidence of either class.
+
+There is no placeholder/null-surrogate numeric convention (e.g. -1 or 9999)
+documented for this dataset's columns; do not invent an obfuscation rule
+that this description does not support. There is also no disclosed
+per-Vn "valid range" -- do not invent one; treat all Vn extremeness purely
+through the multivariate co-occurrence reasoning above.
+
+Column descriptions and validity rules (for reference; use these together
+with the intent signals above, not as a separate error-detection pass):
+
+- Time: Seconds elapsed between this transaction and the first transaction
+  in the dataset. Non-negative. This is a sequence index, not a
+  fraud-relevant value in itself; do not treat Time-column flags (if any)
+  as evidence of intent.
+
+- V1 through V28: Anonymised, PCA-rotated transaction features (original
+  features undisclosed for confidentiality). Each is a real-valued number,
+  roughly centred near zero across the full population, with no documented
+  valid range or business meaning. Extremeness is only interpretable in
+  the multivariate-co-occurrence sense described above.
+
+- Amount: Transaction amount in Euros. Must be non-negative. No documented
+  upper bound. See the card-testing / cash-out reasoning above for how its
+  direction of extremeness (low vs. high) relates to fraud likelihood.
+
+- Class: Ground-truth fraud determination, 0 (legitimate) or 1 (confirmed
+  fraud). This is the prediction target the intent labels are derived
+  from; it is never available to the detectors that produced the flags
+  above, and must not be treated as an input feature.

@@ -1,0 +1,27 @@
+{
+  "variant": "bareminimum",
+  "model": "gemini-2.5-pro",
+  "dataset": "tabfact",
+  "records": 984,
+  "chunk_size": 10,
+  "n_chunks": 99,
+  "total_time_sec": 2003.9516494259988,
+  "avg_chunk_sec": 20.241255974787798,
+  "avg_llm_sec": 20.239625844030517,
+  "status_hist": {
+    "ok": 94,
+    "parse_error": 4,
+    "api_error": 1
+  },
+  "successful_chunks": 94,
+  "decision_counts": {
+    "intentional (1)": 514,
+    "unintentional (-1)": 209,
+    "unchanged (0)": 4197
+  },
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/bareminimum-gemini/intent_labels.csv",
+    "intent_explanations_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/bareminimum-gemini/intent_explanations.csv",
+    "per_chunk_times_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/bareminimum-gemini/per_chunk_times.csv"
+  }
+}

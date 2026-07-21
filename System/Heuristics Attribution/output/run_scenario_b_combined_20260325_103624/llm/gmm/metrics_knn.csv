@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,n_components,bic,aic,converged,noise_count,silhouette
+KNN_k7,0.8821,0.8308,0.9003,0.8642,0.8827,0.8847,5.7,433,42826,1.0,gmm,15,-6528417.04,-6567445.69,True,0,0.3785

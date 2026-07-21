@@ -1,0 +1,17 @@
+{
+  "run_timestamp": "2026-03-25T12:26:20.249131",
+  "model": "gemini-2.0-flash",
+  "n_records_requested": 100,
+  "n_total_rows": 48842,
+  "n_error_rows": 9423,
+  "dirty_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_phase2_final.csv",
+  "clean_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_clean.csv",
+  "mask_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/mask_combined.csv",
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "total_wall_time_s": 197.4,
+  "out_dir": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/output/mixed_sota_gemini_20260325_122302"
+}

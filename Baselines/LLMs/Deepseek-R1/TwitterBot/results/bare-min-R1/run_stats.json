@@ -1,0 +1,16 @@
+{
+  "model": "DeepSeek-R1",
+  "endpoint": "http://127.0.0.1:6800/generate",
+  "total_records": 4000,
+  "chunk_size": 7,
+  "total_chunks": 572,
+  "llm_success_chunks": 296,
+  "llm_fail_chunks": 276,
+  "features_evaluated": 1193,
+  "parse_errors_total": 738,
+  "parse_error_rate": 0.6186085498742665,
+  "total_time_seconds": 1974.9222905850038,
+  "avg_chunk_time_seconds": 3.4522720043803075,
+  "avg_llm_time_seconds": 3.450389001079692,
+  "throughput_records_per_second": 2.0253961480252145
+}

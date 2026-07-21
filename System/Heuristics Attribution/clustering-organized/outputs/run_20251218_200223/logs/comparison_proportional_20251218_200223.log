@@ -1,0 +1,95 @@
+
+======================================================================
+EXECUTION STARTED: 2025-12-18 20:02:23
+Log file: /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/clustering-organized/outputs/run_20251218_200223/logs/comparison_proportional_20251218_200223.log
+Output directory: /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/clustering-organized/outputs/run_20251218_200223
+======================================================================
+
+
+======================================================================
+CLUSTERING ALGORITHM COMPARISON
+PROPORTIONAL SAMPLING (NO DATA LEAKAGE)
+======================================================================
+Target samples: 10
+Random state: 42
+
+Proportional Sampling Strategy:
+  1. Cluster data using aggregate features (NO intent labels)
+  2. Proportional allocation to clusters based on size
+  3. Random selection within each cluster
+
+⚠️  NO DATA LEAKAGE: Intent labels only used for evaluation
+
+======================================================================
+LOADING DATA
+======================================================================
+Starting data loading process...
+Using custom data paths:
+  Mask: datasets/adult-income-dataset/attacks/low_to_high/clustering_format/masks.csv
+  Clean: datasets/adult-income-dataset/attacks/low_to_high/clustering_format/correct_records.csv
+  Dirty: datasets/adult-income-dataset/attacks/low_to_high/clustering_format/manipulated_records.csv
+Using custom data paths:
+  Mask: datasets/adult-income-dataset/attacks/low_to_high/clustering_format/masks.csv
+  Clean: datasets/adult-income-dataset/attacks/low_to_high/clustering_format/correct_records.csv
+  Dirty: datasets/adult-income-dataset/attacks/low_to_high/clustering_format/manipulated_records.csv
+Loaded masks: (976, 14)
+Loaded manipulated records: (976, 14)
+Loaded correct records: (976, 14)
+✓ Loaded masks: (976, 14)
+✓ Loaded manipulated records: (976, 14)
+✓ Loaded correct records: (976, 14)
+
+Processing 976 variant records into feature changes...
+Features to process: 14
+
+Processing 976 variant records...
+
+✓ Created dataset with 2956 feature changes
+  Intentional (1): 2956
+  Unintentional (-1): 0
+  Unique variant records: 811
+
+✓ Created dataset with 2956 feature changes
+  Intentional (1): 2956
+  Unintentional (-1): 0
+  Unique variant records: 811
+Data loading complete!
+
+
+Total dataset:
+  Total variants: 811
+  Total samples: 2956
+  Target samples for training: 10 (1.23% of variants)
+  Intentional: 2956
+  Unintentional: 0
+
+======================================================================
+CREATING AGGREGATE FEATURES FROM ALL DATA
+======================================================================
+
+✓ Created 811 aggregate feature vectors
+  Feature dimension: 10
+✓ Created 811 aggregate feature vectors
+  Feature dimension: 10
+
+======================================================================
+ALGORITHM 1/6: K-Means
+======================================================================
+
+======================================================================
+K-MEANS CLUSTERING (BASELINE)
+======================================================================
+
+======================================================================
+✓ K-Means with K=15
+  Silhouette Score: 0.4441
+  Runtime: 0.15s
+  Clusters found: 15
+
+──────────────────────────────────────────────────────────────────────
+Testing K-Means with PROPORTIONAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+======================================================================
+PROPORTIONAL SAMPLING: K-Means
+======================================================================

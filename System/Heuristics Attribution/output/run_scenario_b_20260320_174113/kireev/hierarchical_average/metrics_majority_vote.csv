@@ -1,0 +1,2 @@
+method,accuracy,precision,recall,f1_intentional,f1_weighted,auc,runtime,n_labeled,n_test,pct_labeled,algorithm,n_clusters,linkage,noise_count,silhouette
+ClusterMajorityVote,0.809,0.9724,0.4341,0.6002,0.784,0.714,1.84,130,11531,1.11,hierarchical_average,15,average,0,0.3682

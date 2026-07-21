@@ -1,0 +1,17 @@
+{
+  "model": "Mixtral",
+  "variant": "info-enhanced",
+  "endpoint": "http://127.0.0.1:6000/generate",
+  "total_records": 4000,
+  "chunk_size": 7,
+  "total_chunks": 572,
+  "llm_success_chunks": 349,
+  "llm_fail_chunks": 223,
+  "features_evaluated": 1304,
+  "parse_errors_total": 627,
+  "parse_error_rate": 0.4808282208588957,
+  "total_time_seconds": 2063.3847349756397,
+  "avg_chunk_time_seconds": 3.6068501072501036,
+  "avg_llm_time_seconds": 3.6047796134827204,
+  "throughput_records_per_second": 1.938562369003483
+}

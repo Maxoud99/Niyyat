@@ -1,0 +1,16 @@
+dataset,ds_key,scenario,n_cells,n_int,n_unint,n_seed,n_clusters,f1_weighted,f1_int,f1_unint,accuracy,elapsed_s
+Adult-LLM,adult_llm,B,9702,3721,5981,189,140,0.8959,0.8624,0.9167,0.8962,0.6
+Adult-LLM,adult_llm,Bplus,9702,3721,5981,165,119,0.899,0.8666,0.9192,0.8993,0.5
+Adult-Mixed,adult_mixed,B,11661,3784,7877,243,183,0.9807,0.9702,0.9857,0.9806,0.7
+Adult-Mixed,adult_mixed,Bplus,11661,3784,7877,213,152,0.9928,0.9888,0.9946,0.9927,0.4
+Adult-TFM,adult_tfm,B,9199,3009,6190,173,122,0.931,0.8994,0.9464,0.9301,0.6
+Adult-TFM,adult_tfm,Bplus,9199,3009,6190,157,111,0.9224,0.8784,0.9438,0.9231,0.4
+TwitterBot-LLM V2,twitterbot_llm,B,1043,419,624,25,23,0.7712,0.7497,0.7858,0.7692,0.4
+TwitterBot-LLM V2,twitterbot_llm,Bplus,1043,419,624,15,10,0.8411,0.8075,0.8638,0.8405,0.2
+TwitterBot-Mixed,twitterbot_mixed,B,1099,343,756,23,21,0.7737,0.5709,0.8674,0.7974,0.3
+TwitterBot-Mixed,twitterbot_mixed,Bplus,1099,343,756,24,23,0.936,0.8987,0.953,0.9358,0.2
+TwitterBot-TFM,twitterbot_tfm,B,1184,283,901,26,23,0.9415,0.8867,0.9588,0.9396,0.4
+TwitterBot-TFM,twitterbot_tfm,Bplus,1184,283,901,17,15,0.8755,0.729,0.9215,0.8783,0.3
+TabFact,tabfact,B,2245,2245,0,56,46,1.0,1.0,,1.0,0.2
+TabFact,tabfact,Bplus,2245,2245,0,26,16,1.0,1.0,,1.0,0.2
+eBay,ebay,B,8026,1366,6660,147,101,0.9637,0.8892,0.9788,0.9645,0.5

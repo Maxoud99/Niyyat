@@ -1,0 +1,10 @@
+{
+  "algorithm": "gmm",
+  "n_components": 15,
+  "bic": -111551.28,
+  "aic": -119424.67,
+  "converged": true,
+  "noise_count": 0,
+  "silhouette": 0.5684,
+  "runtime": 0.22
+}

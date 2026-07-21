@@ -1,0 +1,19 @@
+{
+  "run_timestamp": "2026-03-25T12:52:19.168068",
+  "model": "Qwen/Qwen2.5-32B-Instruct (TGI)",
+  "server_url": "http://127.0.0.1:6300/generate",
+  "compose_file": "/home/mohamed/error_injector/llms_baseline/docker-compose/docker-compose-qwen.yml",
+  "n_records_requested": 100,
+  "n_total_rows": 48842,
+  "n_error_rows": 9423,
+  "dirty_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_phase2_final.csv",
+  "clean_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_clean.csv",
+  "mask_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/mask_combined.csv",
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "total_wall_time_s": 63.5,
+  "out_dir": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/output/mixed_sota_qwen_20260325_125017"
+}

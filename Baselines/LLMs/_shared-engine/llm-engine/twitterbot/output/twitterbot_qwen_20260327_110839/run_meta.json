@@ -1,0 +1,11 @@
+{
+  "run_timestamp": "2026-03-27T12:24:35.243484",
+  "model": "Qwen2.5-32B-Instruct (TGI port 6300)",
+  "n_records": 4731,
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "total_wall_time": 4497.8
+}

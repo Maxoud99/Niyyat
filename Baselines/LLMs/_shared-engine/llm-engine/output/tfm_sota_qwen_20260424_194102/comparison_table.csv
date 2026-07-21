@@ -1,0 +1,4 @@
+n_records,accuracy,precision_int,recall_int,f1_intentional,precision_unint,recall_unint,f1_unintentional,f1_weighted,tp,tn,fp,fn,pred_counts,true_counts,variant,fallback_count,status_hist,avg_llm_time_s,total_llm_time_s
+6051,0.41,0.2383,0.9693,0.3826,0.9752,0.28,0.4351,0.4252,1106,1375,3535,35,"{-1: 1410, 1: 4641}","{-1: 4910, 1: 1141}",zero_shot,0,"{'ok': 6051, 'http_error': 0, 'parse_error': 0, 'fallback': 0}",0.325,1966.68
+6051,0.8288,0.5261,0.9281,0.6715,0.9797,0.8057,0.8842,0.8441,1059,3956,954,82,"{-1: 4038, 1: 2013}","{-1: 4910, 1: 1141}",info,0,"{'ok': 6051, 'http_error': 0, 'parse_error': 0, 'fallback': 0}",0.089,541.3
+6051,0.7776,0.457,0.9535,0.6178,0.9856,0.7367,0.8431,0.8006,1088,3617,1293,53,"{-1: 3670, 1: 2381}","{-1: 4910, 1: 1141}",few_shot,0,"{'ok': 6051, 'http_error': 0, 'parse_error': 0, 'fallback': 0}",0.084,510.11

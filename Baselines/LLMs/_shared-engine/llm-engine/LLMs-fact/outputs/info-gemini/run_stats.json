@@ -1,0 +1,27 @@
+{
+  "variant": "info",
+  "model": "gemini-2.5-pro",
+  "dataset": "tabfact",
+  "records": 984,
+  "chunk_size": 10,
+  "n_chunks": 99,
+  "total_time_sec": 1455.2049783950024,
+  "avg_chunk_sec": 14.698260741060471,
+  "avg_llm_sec": 14.696614219303026,
+  "status_hist": {
+    "ok": 99,
+    "parse_error": 0,
+    "api_error": 0
+  },
+  "successful_chunks": 99,
+  "decision_counts": {
+    "intentional (1)": 577,
+    "unintentional (-1)": 146,
+    "unchanged (0)": 4197
+  },
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-gemini/intent_labels.csv",
+    "intent_explanations_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-gemini/intent_explanations.csv",
+    "per_chunk_times_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-gemini/per_chunk_times.csv"
+  }
+}

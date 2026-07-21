@@ -1,0 +1,14 @@
+,feature,importance
+1,h4_coherence_score,0.245135593356619
+2,h3_distribution_score,0.2365507845402017
+3,h6_column_importance,0.18778760978293307
+4,h7_comprehensibility,0.0997966241032601
+5,h5_error_count,0.07241914212324654
+6,h5_codependent_flag,0.0604515279133837
+7,h1_plausible,0.05417402298285299
+8,h8_is_sensitive,0.04368469519750293
+9,h2_is_obfuscation,0.0
+10,h2_min_edit_distance,0.0
+11,h7_mutability,0.0
+12,h7_gain_direction,0.0
+13,h8_is_majority_value,0.0

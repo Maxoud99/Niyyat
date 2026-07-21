@@ -1,0 +1,18 @@
+{
+  "run_timestamp": "2026-04-17T16:48:15.175898",
+  "dataset": "TFM-Inject Adult Income (TabPFN, v3)",
+  "model": "gemini-2.0-flash",
+  "n_records_requested": 100,
+  "n_total_rows": 48842,
+  "n_error_rows": 6051,
+  "dirty_path": "/home/mohamed/error_injector/llms_baseline/tfm_error_injection/output/adult/tabpfn/dirty.csv",
+  "clean_path": "/home/mohamed/error_injector/llms_baseline/error-paper/data/adult_clean.csv",
+  "mask_path": "/home/mohamed/error_injector/llms_baseline/tfm_error_injection/output/adult/tabpfn/mask.csv",
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "total_wall_time_s": 198.6,
+  "out_dir": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/output/tfm_sota_gemini_20260417_164456"
+}

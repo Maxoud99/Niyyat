@@ -1,0 +1,19 @@
+{
+  "run_timestamp": "2026-03-25T21:36:03.829295",
+  "model": "meta-llama/Meta-Llama-3-70B-Instruct (TGI)",
+  "server_url": "http://127.0.0.1:6100/generate",
+  "compose_file": "/home/mohamed/error_injector/llms_baseline/docker-compose/docker-compose-llama.yml",
+  "n_records_requested": 9423,
+  "n_total_rows": 48842,
+  "n_error_rows": 9423,
+  "dirty_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_phase2_final.csv",
+  "clean_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_clean.csv",
+  "mask_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/mask_combined.csv",
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "total_wall_time_s": 13538.1,
+  "out_dir": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/output/mixed_sota_llama_20260325_175025"
+}

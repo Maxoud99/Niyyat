@@ -1,0 +1,29 @@
+{
+  "variant": "info",
+  "model_key": "qwen",
+  "model": "Qwen-2.5",
+  "endpoint": "http://127.0.0.1:6300/generate",
+  "dataset": "tabfact",
+  "records": 984,
+  "chunk_size": 10,
+  "n_chunks": 99,
+  "total_time_sec": 380.16876573300397,
+  "avg_chunk_sec": 3.839366518161518,
+  "avg_llm_sec": 3.8380000296152006,
+  "status_hist": {
+    "ok": 99,
+    "parse_error": 0,
+    "api_error": 0
+  },
+  "successful_chunks": 99,
+  "decision_counts": {
+    "intentional (1)": 557,
+    "unintentional (-1)": 166,
+    "unchanged (0)": 4197
+  },
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-qwen/intent_labels.csv",
+    "intent_explanations_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-qwen/intent_explanations.csv",
+    "per_chunk_times_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/info-qwen/per_chunk_times.csv"
+  }
+}

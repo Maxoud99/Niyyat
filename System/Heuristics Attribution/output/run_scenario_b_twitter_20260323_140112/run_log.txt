@@ -1,0 +1,178 @@
+Scenario B — Twitter only
+Run dir: /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_scenario_b_twitter_20260323_140112
+
+======================================================================
+DATASET: TWITTER
+======================================================================
+
+[1] Loading data...
+  Dirty shape : (4731, 19)
+  Error cells : 1099
+  Intentional : 346 (31.5%)
+  Unintentional: 753 (68.5%)
+
+[2] Fitting AttributionPipeline (unsupervised)...
+  Pipeline fitted in 38.34s
+
+[3] Computing 13-feature matrix...
+  Feature matrix shape: (1099, 13)
+  After alignment: 1099 cells
+
+[4] Scaling features...
+
+[5] Running 6 clustering algorithms × 5 label methods...
+
+  ────────────────────────────────────────────────────────────
+  Clustering: KMEANS
+  ────────────────────────────────────────────────────────────
+  KMeans: 15 clusters, sil=0.6200, t=0.07s
+  Cells total : 1099
+  Labeled     : 75 (6.82%)
+  Test (99%)  : 1024
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9229  Prec=0.9379  Rec=0.8168  F1=0.8732  F1w=0.9214  AUC=0.8954
+
+  [B] Cluster Majority Vote
+    Acc=0.8438  Prec=0.8986  Rec=0.5856  F1=0.7091  F1w=0.8333  AUC=0.7769
+
+  [C] KNN (k=7)
+    Acc=0.9287  Prec=0.8652  Rec=0.9249  F1=0.8940  F1w=0.9293  AUC=0.9277
+
+  [D] Label Propagation
+    Acc=0.9102  Prec=0.8951  Rec=0.8198  F1=0.8558  F1w=0.9091  AUC=0.8868
+
+  [E] Label Spreading
+    Acc=0.9014  Prec=0.9085  Rec=0.7748  F1=0.8363  F1w=0.8991  AUC=0.8686
+
+  ────────────────────────────────────────────────────────────
+  Clustering: DBSCAN
+  ────────────────────────────────────────────────────────────
+  DBSCAN: eps=0.617, 21 clusters, noise=89, sil=0.7245, t=0.02s
+  Cells total : 1099
+  Labeled     : 105 (9.55%)
+  Test (99%)  : 994
+  Clusters    : 21
+
+  [A] Random Forest
+    Acc=0.8924  Prec=0.8511  Rec=0.8117  F1=0.8310  F1w=0.8917  AUC=0.8715
+
+  [B] Cluster Majority Vote
+    Acc=0.9155  Prec=0.8593  Rec=0.8858  F1=0.8723  F1w=0.9158  AUC=0.9078
+
+  [C] KNN (k=7)
+    Acc=0.8753  Prec=0.7793  Rec=0.8611  F1=0.8182  F1w=0.8767  AUC=0.8716
+
+  [D] Label Propagation
+    Acc=0.8592  Prec=0.8067  Rec=0.7469  F1=0.7756  F1w=0.8577  AUC=0.8302
+
+  [E] Label Spreading
+    Acc=0.8511  Prec=0.8284  Rec=0.6852  F1=0.7500  F1w=0.8471  AUC=0.8083
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HIERARCHICAL_WARD
+  ────────────────────────────────────────────────────────────
+  Hierarchical-Ward: 15 clusters, sil=0.6061, t=0.01s
+  Cells total : 1099
+  Labeled     : 75 (6.82%)
+  Test (99%)  : 1024
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.8740  Prec=0.8467  Rec=0.7409  F1=0.7902  F1w=0.8716  AUC=0.8388
+
+  [B] Cluster Majority Vote
+    Acc=0.8203  Prec=0.7432  Rec=0.6707  F1=0.7051  F1w=0.8177  AUC=0.7808
+
+  [C] KNN (k=7)
+    Acc=0.8818  Prec=0.7949  Rec=0.8506  F1=0.8218  F1w=0.8828  AUC=0.8736
+
+  [D] Label Propagation
+    Acc=0.8477  Prec=0.8874  Rec=0.6006  F1=0.7164  F1w=0.8384  AUC=0.7823
+
+  [E] Label Spreading
+    Acc=0.7998  Prec=0.8727  Rec=0.4390  F1=0.5842  F1w=0.7772  AUC=0.7044
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HIERARCHICAL_AVERAGE
+  ────────────────────────────────────────────────────────────
+  Hierarchical-Average: 15 clusters, sil=0.3710, t=0.01s
+  Cells total : 1099
+  Labeled     : 59 (5.37%)
+  Test (99%)  : 1040
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.8538  Prec=0.8690  Rec=0.6479  F1=0.7424  F1w=0.8474  AUC=0.8005
+
+  [B] Cluster Majority Vote
+    Acc=0.8183  Prec=0.7411  Rec=0.6775  F1=0.7079  F1w=0.8160  AUC=0.7818
+
+  [C] KNN (k=7)
+    Acc=0.8058  Prec=0.7252  Rec=0.6479  F1=0.6844  F1w=0.8027  AUC=0.7648
+
+  [D] Label Propagation
+    Acc=0.8471  Prec=0.8653  Rec=0.6272  F1=0.7273  F1w=0.8397  AUC=0.7901
+
+  [E] Label Spreading
+    Acc=0.7327  Prec=0.7273  Rec=0.2840  F1=0.4085  F1w=0.6912  AUC=0.6164
+
+  ────────────────────────────────────────────────────────────
+  Clustering: GMM
+  ────────────────────────────────────────────────────────────
+  GMM: 15 components, converged=True, sil=0.5684, t=0.22s
+  Cells total : 1099
+  Labeled     : 75 (6.82%)
+  Test (99%)  : 1024
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9082  Prec=0.8217  Rec=0.9077  F1=0.8626  F1w=0.9093  AUC=0.9081
+
+  [B] Cluster Majority Vote
+    Acc=0.8662  Prec=0.7541  Rec=0.8585  F1=0.8029  F1w=0.8683  AUC=0.8641
+
+  [C] KNN (k=7)
+    Acc=0.8516  Prec=0.6918  Rec=0.9600  F1=0.8041  F1w=0.8563  AUC=0.8806
+
+  [D] Label Propagation
+    Acc=0.8740  Prec=0.8006  Rec=0.8031  F1=0.8018  F1w=0.8741  AUC=0.855
+
+  [E] Label Spreading
+    Acc=0.8662  Prec=0.7749  Rec=0.8154  F1=0.7946  F1w=0.8671  AUC=0.8526
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HDBSCAN
+  ────────────────────────────────────────────────────────────
+  HDBSCAN: 10 clusters, noise=195, sil=0.6474, t=0.03s
+  Cells total : 1099
+  Labeled     : 50 (4.55%)
+  Test (99%)  : 1049
+  Clusters    : 10
+
+  [A] Random Forest
+    Acc=0.8932  Prec=0.8411  Rec=0.8157  F1=0.8282  F1w=0.8928  AUC=0.8723
+
+  [B] Cluster Majority Vote
+    Acc=0.8970  Prec=0.8832  Rec=0.7764  F1=0.8264  F1w=0.8951  AUC=0.8645
+
+  [C] KNN (k=7)
+    Acc=0.8236  Prec=0.6553  Rec=0.9305  F1=0.7690  F1w=0.8295  AUC=0.8524
+
+  [D] Label Propagation
+    Acc=0.8875  Prec=0.8424  Rec=0.7915  F1=0.8162  F1w=0.8865  AUC=0.8616
+
+  [E] Label Spreading
+    Acc=0.8799  Prec=0.8571  Rec=0.7432  F1=0.7961  F1w=0.8774  AUC=0.843
+
+[6] Summary — best F1-weighted per clustering:
+  kmeans                  best=KNN_k7                  F1w=0.9293
+  dbscan                  best=ClusterMajorityVote     F1w=0.9158
+  hierarchical_ward       best=KNN_k7                  F1w=0.8828
+  hierarchical_average    best=RandomForest            F1w=0.8474
+  gmm                     best=RandomForest            F1w=0.9093
+  hdbscan                 best=ClusterMajorityVote     F1w=0.8951
+  Plot saved: twitter_f1_weighted.png
+  Plot saved: twitter_accuracy.png
+  Plot saved: twitter_f1_intentional.png

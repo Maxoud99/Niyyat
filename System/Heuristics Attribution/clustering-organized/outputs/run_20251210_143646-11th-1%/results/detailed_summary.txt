@@ -1,0 +1,63 @@
+
+==============================================================================================================
+FINAL SUMMARY - NORMAL vs SMART SAMPLING
+==============================================================================================================
+
+Ranking by F1 Score:
+--------------------------------------------------------------------------------------------------------------
+Algorithm                           | Strategy | F1     | Variants | %Vars   | Samples | %Smpls   | Test   
+--------------------------------------------------------------------------------------------------------------
+HDBSCAN (Normal)                    | Normal   | 0.9932 |     1385 |   1.00% |    2527 |    1.32% |  188591
+GMM (Normal)                        | Normal   | 0.9921 |     1385 |   1.00% |    1909 |    1.00% |  189209
+HDBSCAN (Smart)                     | Smart    | 0.9918 |     1385 |   1.00% |    2447 |    1.28% |  188671
+Hierarchical-Average (Normal)       | Normal   | 0.9910 |     1385 |   1.00% |    1912 |    1.00% |  189206
+K-Means (Normal)                    | Normal   | 0.9880 |     1385 |   1.00% |    1912 |    1.00% |  189206
+Hierarchical-Ward (Normal)          | Normal   | 0.9871 |     1385 |   1.00% |    1910 |    1.00% |  189208
+Hierarchical-Average (Smart)        | Smart    | 0.9424 |     1385 |   1.00% |    1454 |    0.76% |  189664
+Hierarchical-Ward (Smart)           | Smart    | 0.9423 |     1385 |   1.00% |    1468 |    0.77% |  189650
+GMM (Smart)                         | Smart    | 0.9377 |     1385 |   1.00% |    1459 |    0.76% |  189659
+K-Means (Smart)                     | Smart    | 0.8931 |     1385 |   1.00% |    1468 |    0.77% |  189650
+
+==============================================================================================================
+🏆 BEST OVERALL RESULT
+==============================================================================================================
+Algorithm: HDBSCAN (Normal)
+Sampling Strategy: Normal
+F1 Score: 0.9932
+F1 Intentional: 0.9925
+F1 Unintentional: 0.9937
+Silhouette Score: 0.9958
+Number of Clusters: 575
+Variants Selected: 1385 / 138534 (1.00%)
+Training Samples: 2527 / 191118 (1.32%)
+Test Samples: 188591 (98.68%)
+Runtime: 103.36s
+
+==============================================================================================================
+📊 NORMAL vs SMART SAMPLING COMPARISON
+==============================================================================================================
+
+GMM:
+  Normal:  0.9921 F1 (1385 variants [1.00%], 1909 samples [1.00%])
+  Smart:   0.9377 F1 (1385 variants [1.00%], 1459 samples [0.76%])
+  Diff:    -0.0544 (-5.48%) - ⚡ NORMAL
+
+HDBSCAN:
+  Normal:  0.9932 F1 (1385 variants [1.00%], 2527 samples [1.32%])
+  Smart:   0.9918 F1 (1385 variants [1.00%], 2447 samples [1.28%])
+  Diff:    -0.0014 (-0.14%) - ⚡ NORMAL
+
+Hierarchical-Average:
+  Normal:  0.9910 F1 (1385 variants [1.00%], 1912 samples [1.00%])
+  Smart:   0.9424 F1 (1385 variants [1.00%], 1454 samples [0.76%])
+  Diff:    -0.0486 (-4.91%) - ⚡ NORMAL
+
+Hierarchical-Ward:
+  Normal:  0.9871 F1 (1385 variants [1.00%], 1910 samples [1.00%])
+  Smart:   0.9423 F1 (1385 variants [1.00%], 1468 samples [0.77%])
+  Diff:    -0.0448 (-4.54%) - ⚡ NORMAL
+
+K-Means:
+  Normal:  0.9880 F1 (1385 variants [1.00%], 1912 samples [1.00%])
+  Smart:   0.8931 F1 (1385 variants [1.00%], 1468 samples [0.77%])
+  Diff:    -0.0949 (-9.61%) - ⚡ NORMAL

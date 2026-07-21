@@ -1,0 +1,8 @@
+{
+  "n_records": 4314,
+  "n_parse_fail_groups": 0,
+  "n_groups": 6513,
+  "accuracy": 0.39777468706536856,
+  "macro_f1": 0.2845771144278607,
+  "f1_intentional": 0.5691542288557214
+}

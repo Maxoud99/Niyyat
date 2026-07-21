@@ -1,0 +1,724 @@
+row_id,column,dirty_value,correct_value,mask,decision,reason
+0,subject_location,usa,england,1,1,"Changed the subject's country from England to USA, a significant factual alteration."
+0,value,214,213,1,-1,"Minor numeric drift of +1, likely a typo."
+5,subject_location,"austin , tx ,","baton rouge , la",1,1,Changed the team's location to a completely different city and state.
+6,subject_entity,miami,washington,1,1,Swapped the subject entity from one team (Washington) to a different one (Miami).
+10,subject_entity,cleveland browns,cleveland browns,1,-1,"The correct and dirty values are identical, indicating a data processing error rather than a factual change."
+11,subject_location,melbourne,melbourne,1,-1,"The correct and dirty values are identical, indicating a data processing error rather than a factual change."
+11,value,104,96,1,1,"The numeric value changed from 96 to 104, a significant alteration of the statistic beyond a minor drift."
+17,subject_entity,toronto maple leafs,toronto maple leafs,1,-1,"The correct and dirty values are identical, indicating a data processing error rather than a factual change."
+17,subject_location,washington,washington d.c.,1,-1,"The value 'washington' is a common and acceptable abbreviation for 'washington d.c.', preserving the factual claim."
+26,subject_location,dallas,dallas,1,-1,The correct and dirty values are identical.
+30,subject_location,boston,atlanta,1,1,"Swapped one major city for another, altering the factual context."
+32,subject_location,finland,N/A,1,1,Added a specific location where the correct value was N/A.
+35,subject_entity,minnesota golden gophers,minnesota golden gophers,1,-1,No change in value.
+35,subject_type,Team,Team,1,-1,No change in value.
+35,subject_location,minneapolis,minneapolis,1,-1,No change in value.
+38,subject_entity,los angeles rams,game,1,1,Replaced a generic subject ('game') with a specific team.
+38,value,least 80532,much lower than 80532,1,1,Inverted the claim's meaning from 'much lower than' to 'least'.
+40,subject_entity,boston celtics,Cleveland Cavaliers,1,1,Swapped one team for a completely different one.
+40,subject_location,quicken loan arena,cleveland,1,-1,"Changed the city to a specific arena within that city, which is a specificity error, not a factual swap."
+44,value,5304,"much higher (e.g., 60,000+)",1,1,"The value is drastically different from the correct one by an order of magnitude, substantially changing the claim."
+45,subject_location,chicago,not necessarily Chicago,1,1,"Asserted a specific location ('chicago') where the ground truth states it was not necessarily there, altering the claim's certainty."
+47,subject_location,florida,houston,1,1,"Swapped the correct event location ('houston') with the team's home state ('florida'), which is a different location."
+48,subject_entity,david patrick,france,1,1,"Swapped a country ('france') for a person's name ('david patrick'), a completely different entity."
+48,subject_type,Team,Venue,1,1,"Changed the entity type from 'Venue' to 'Team', which alters the fundamental nature of the claim."
+48,subject_location,bokskogens,sweden,1,-1,"Changed the country ('sweden') to a specific venue ('bokskogens') within that country, which is a specificity error."
+50,subject_location,melbourne,melbourne,1,-1,Values are identical.
+52,subject_location,oklahoma,oklahoma,1,-1,Values are identical.
+55,subject_location,ottawa,canada,1,1,"Changed location from a country to a specific city within it, which is a substantial change."
+57,subject_entity,blue jays,N/A,1,1,Invented a subject entity where none existed (N/A).
+57,subject_location,toronto,N/A,1,1,Invented a location where none existed (N/A).
+58,subject_type,Team,Athlete,1,1,Incorrectly changed the subject type from an individual (Athlete) to a group (Team).
+58,subject_location,toronto,Not mentioned in claim text,1,1,Invented a location where the correct value stated none was mentioned.
+60,subject_location,australia,united states,1,1,"Changed the athlete's country from 'united states' to 'australia', a significant factual error."
+61,subject_entity,trenton speedway,trenton speedway,1,-1,"The value is identical to the correct value, indicating a mask error rather than a data error."
+61,subject_type,Event,Track,1,1,"Changed the subject's type from 'Track' (a place) to 'Event', which alters the core meaning."
+61,subject_location,new jersey,new jersey,1,-1,"The value is identical to the correct value, indicating a mask error rather than a data error."
+62,subject_location,serbia,ukraine,1,1,"Changed the athlete's country from 'ukraine' to 'serbia', a significant factual error."
+63,subject_entity,michael phelps,US swimmer,1,1,"Replaced a generic description 'US swimmer' with a specific person 'michael phelps', changing the claim's scope."
+63,subject_type,Athlete,Country,1,1,"Changed the subject type from 'Country' to 'Athlete', altering the nature of the claim."
+63,subject_location,usa,france,1,1,"Changed the location from 'france' to 'usa', a completely different country."
+65,subject_location,birmingham,liverpool,1,1,"Changed the team's home city from 'liverpool' to 'birmingham', a significant factual error."
+70,subject_location,essendon victoria,melbourne,1,-1,"The dirty value is a more specific, but factually related, location (Essendon is a suburb of Melbourne)."
+70,value,109,109,1,-1,The correct and dirty values are identical.
+71,value,100000,94000,1,1,"The numeric value has been changed substantially from 94000 to 100000, which is not a minor drift."
+73,subject_type,Team,Team,1,-1,The correct and dirty values are identical.
+73,subject_location,toronto,new york,1,1,The location has been changed from the correct city (New York) to a completely different one (Toronto).
+74,subject_location,tennessee,oregon,1,1,The location has been changed from the correct state (Oregon) to a completely different one (Tennessee).
+79,subject_location,cleveland,pittsburgh,1,1,The location has been changed from the correct city (Pittsburgh) to a completely different one (Cleveland).
+81,subject_entity,blue jays,None,1,1,"Added a specific entity where none existed, fundamentally changing the claim."
+81,subject_location,toronto,None,1,1,"Added a specific location where none existed, fundamentally changing the claim."
+84,value,65407,23600,1,1,"The numeric value is substantially different, not a minor drift."
+86,subject_location,san francisco,los angeles,1,1,Changed the location to a completely different city.
+86,value,920,42920,1,1,"The numeric value is substantially different, not a minor drift."
+89,value,3,3,1,-1,Values are identical; no factual change.
+90,subject_entity,detroit pistons,detroit pistons,1,-1,The values are identical.
+90,subject_location,atlanta,chicago,1,1,"The location was changed from one major city to another, a substantial factual change."
+93,subject_entity,new york titans,oakland,1,1,The subject entity was completely changed from one team to another.
+93,subject_location,Oakland,oakland,1,-1,Trivial capitalization change.
+98,value,exact 20000,typically much higher than 20000,1,1,"The meaning of the value was inverted from ""much higher than 20000"" to ""exact 20000""."
+101,subject_type,Team,Team,1,-1,llm_fallback
+101,subject_location,melbourne,melbourne,1,-1,llm_fallback
+101,value,10680,unknown (but much higher),1,-1,llm_fallback
+103,subject_entity,ernie el,ernie els,1,-1,llm_fallback
+104,subject_entity,mhc plastika,mhc plastika nitra,1,-1,llm_fallback
+106,subject_location,north carolina,charlotte,1,-1,llm_fallback
+109,subject_entity,blue jays,the game,1,-1,llm_fallback
+109,subject_type,Team,Game,1,-1,llm_fallback
+109,subject_location,toronto,not specified,1,-1,llm_fallback
+109,value,103,1,1,-1,llm_fallback
+110,subject_location,toronto,new york,1,1,"Changed the location from 'new york' to 'toronto', which is a different city and home to a different team."
+114,subject_location,dallas,dallas,1,-1,"The correct and dirty values are identical, indicating a data processing error in the mask rather than a data error."
+114,value,20228,37,1,1,"The numeric value was changed drastically from '37' to '20228', which is a substantial alteration of the fact."
+116,subject_entity,blue jays,N/A,1,1,"A specific entity ('blue jays') was introduced where the correct value was 'N/A', fundamentally changing the claim."
+116,subject_location,toronto,N/A,1,1,"A specific location ('toronto') was introduced where the correct value was 'N/A', fundamentally changing the claim."
+117,subject_entity,blue jays,not mentioned in claim text,1,1,A specific entity ('blue jays') was introduced where the original claim did not mention one.
+117,subject_location,toronto,not mentioned in claim text,1,1,A specific location ('toronto') was introduced where the original claim did not mention one.
+120,subject_entity,detroit red wings,detroit red wing,1,-1,Trivial pluralization typo ('wing' vs 'wings').
+120,subject_type,Team,League,1,1,"Changed entity type from 'League' to 'Team', altering the claim's meaning."
+120,subject_location,new york,united states,1,1,Replaced correct country 'united states' with an incorrect location 'new york'.
+122,subject_entity,cleveland brown,unnamed opponent team,1,1,Replaced a generic placeholder 'unnamed opponent team' with a specific entity 'cleveland brown'.
+124,subject_type,Team,Athlete,1,1,"Changed entity type from 'Athlete' to 'Team', which is a substantial factual change."
+125,subject_location,tennessee,None,1,1,Added a specific location 'tennessee' where the correct value was 'None'.
+128,subject_entity,manchester united f.c,None,1,1,Added a specific entity 'manchester united f.c' where the correct value was 'None'.
+128,subject_location,lincoln city,None,1,1,Added a specific location 'lincoln city' where the correct value was 'None'.
+131,subject_location,everton,liverpool,1,1,"The correct location 'liverpool' was replaced with the team's name 'everton', which is a factually incorrect location."
+132,subject_entity,fulham,swansea city,1,1,"The subject entity 'swansea city' was replaced with a completely different team, 'fulham'."
+138,subject_entity,winnipeg jets,winnipeg,1,-1,"The dirty value 'winnipeg jets' is a more specific name for the same team 'winnipeg', which is a trivial variation."
+140,subject_location,dallas,multiple locations,1,1,"Changed location from 'multiple locations' to a specific, incorrect city 'dallas'."
+141,subject_entity,pittsburgh steelers,three river stadium,1,1,Swapped a stadium entity ('three river stadium') with a team entity ('pittsburgh steelers').
+141,subject_type,Team,Stadium,1,1,"Changed the subject type from 'Stadium' to 'Team', which is a fundamental change."
+141,subject_location,pennsylvania,pittsburgh,1,-1,"Changed a specific city 'pittsburgh' to its containing state 'pennsylvania', which is a loss of precision but not a factual error."
+143,subject_type,Athlete,Team,1,1,Incorrectly changed the subject type from 'Team' to 'Athlete'.
+143,subject_location,california,new york,1,1,Changed the location from the correct state 'new york' to an incorrect state 'california'.
+145,subject_location,australia,england,1,1,Changed the team's location from the correct country 'england' to an incorrect one 'australia'.
+147,subject_type,Team,County,1,1,Incorrectly changed the subject type from 'County' to 'Team'.
+150,subject_entity,manchester united f.c,manchester city,1,1,Swapped one major football team for its direct rival.
+150,subject_location,manchester,manchester,1,-1,guard_fallback
+152,subject_location,washington,boston,1,1,Changed the team's home city from the correct one (Boston) to an incorrect one.
+154,subject_location,minnesota,dallas cowboys,1,1,Changed the athlete's associated team from 'dallas cowboys' to 'minnesota'.
+154,value,210,161,1,1,The numeric value change from 161 to 210 is substantial and not a minor drift.
+156,subject_entity,devin gardner,northwestern,1,1,Changed the subject from a team ('northwestern') to an athlete ('devin gardner').
+156,subject_type,Athlete,Team,1,1,"Changed the entity type from 'Team' to 'Athlete' to match the new, incorrect subject."
+156,subject_location,northwestern,michigan,1,1,"Swapped entities between columns, fundamentally changing the claim's context."
+158,subject_type,Event,Event,1,-1,guard_fallback
+159,subject_entity,raptors,None,1,1,Added a specific team ('raptors') where none existed.
+159,subject_location,toronto,None,1,1,Added a specific location ('toronto') where none existed.
+162,subject_location,washington,detroit,1,1,Changed location from the correct city 'detroit' to an incorrect one 'washington'.
+162,value,highest 6044,much higher than 6044,1,1,Changed the claim's meaning from a relative comparison ('much higher than') to an absolute superlative ('highest').
+163,subject_location,washington,pittsburgh,1,1,Changed location from the correct city 'pittsburgh' to an incorrect one 'washington'.
+163,value,lowest 37764,lower than 37764,1,1,Changed the claim's meaning from a relative comparison ('lower than') to an absolute superlative ('lowest').
+164,subject_type,Team,Athlete,1,1,"Incorrectly changed the subject type from 'Athlete' to 'Team', a significant categorical error."
+164,subject_location,new jersey,New Jersey,1,-1,Trivial capitalization change from 'New Jersey' to 'new jersey'.
+167,subject_type,Tournament,League,1,1,Incorrectly changed the subject type from 'League' to 'Tournament'.
+167,subject_location,canada,united states,1,1,Changed the location from one country ('united states') to another ('canada').
+167,value,157,3,1,1,"Substantial numeric change from '3' to '157', which is not a minor drift."
+170,subject_entity,san francisco,Not specified in claim text,1,1,"Added a specific entity where none was specified, fundamentally changing the claim."
+170,subject_location,san francisco,Not specified in claim text,1,1,"Added a specific location where none was specified, fundamentally changing the claim's context."
+171,subject_entity,san francisco,Not specified in claim text,1,1,"Added a specific entity where none was specified, fundamentally changing the claim."
+171,subject_location,san francisco,Not specified in claim text,1,1,"Added a specific location where none was specified, fundamentally changing the claim's context."
+172,subject_entity,european athletics indoor championships,great britain,1,1,"Swapped the subject from a country ('great britain') to an event ('european athletics indoor championships'), which is a meaning-altering change."
+172,value,march 3rd,3:27.56,1,1,"Changed the value from a performance time ('3:27.56') to a date ('march 3rd'), altering the claim's domain."
+174,subject_location,new york,green bay,1,1,"Swapped the location from 'green bay' to a completely different city, 'new york'."
+175,subject_location,clemson,san jose state,1,1,Swapped the location/affiliation from one university ('san jose state') to a different one ('clemson').
+176,subject_location,north texas,north texas state,1,-1,"Changed 'north texas state' to 'north texas', which is a common and correct abbreviation for the same entity."
+178,subject_entity,chargers,Not mentioned in claim text,1,1,"Added a specific entity ('chargers') where none was specified, fundamentally changing the claim."
+178,subject_location,san diego,Not mentioned in claim text,1,1,"Added a specific location ('san diego') where none was specified, fundamentally changing the claim's context."
+181,subject_entity,san francisco,Not mentioned in claim text,1,1,Added a specific entity where none was mentioned in the source.
+181,subject_location,san francisco,Not mentioned in claim text,1,1,Added a specific location where none was mentioned in the source.
+182,value,lowest 66042,43128,1,1,The numeric value was substantially changed and a qualifier ('lowest') was added.
+183,subject_location,san francisco,san francisco,1,-1,"The correct and dirty values are identical, indicating no factual change."
+186,subject_location,memphis,seattle,1,1,The location was changed from the correct 'seattle' to an incorrect city 'memphis'.
+189,subject_location,detroit,cincinnati,1,1,The location was changed from the correct 'cincinnati' to an incorrect city 'detroit'.
+198,subject_entity,redskins,Not specified in claim text,1,1,"Added a specific entity where none was specified, fundamentally changing the claim's subject."
+198,subject_location,washington,Not specified in claim text,1,1,"Added a specific location where none was specified, fundamentally changing the claim's context."
+200,subject_location,melbourne,melbourne,1,-1,"The correct and dirty values are identical, so the factual claim is preserved."
+204,subject_location,toronto,Not specified in claim,1,1,Fabricating a specific location where none was specified in the original claim.
+204,value,30542,Not a specific attendance value,1,1,"Fabricating a specific numeric value where none existed, changing the nature of the claim."
+205,subject_entity,blue jays,Not specified in claim,1,1,"Adding a specific entity where none was specified, fundamentally changing the subject of the claim."
+205,subject_location,toronto,Not specified in claim,1,1,Fabricating a specific location where none was specified in the original claim.
+206,subject_entity,oliver,Oliver Building,1,-1,The change from 'Oliver Building' to 'oliver' is a simple abbreviation or capitalization change.
+206,subject_type,Team,Building,1,1,"Changing the entity type from 'Building' to 'Team' is a fundamental, meaning-altering swap."
+206,claim_domain,Sports,Business,1,1,Changing the claim domain from 'Business' to 'Sports' fundamentally alters the context of the claim.
+208,value,<=159,N/A,1,1,Fabricating a specific numerical constraint where the original value was 'N/A'.
+210,subject_type,Athlete,Coach,1,1,Changing the role from 'Coach' to 'Athlete' is a significant factual alteration that misrepresents the person's role in the context of the claim.
+211,subject_type,Athlete,Coach,1,1,Changing the role from 'Coach' to 'Athlete' is a significant factual alteration that misrepresents the person's role in the context of the claim.
+213,value,17000,"a lower value (e.g., 11,273)",1,1,"The value '17000' is substantially different from the correct value of '11,273', which significantly alters the factual claim."
+215,subject_entity,milwaukee brewers,brewers,1,-1,"Adding the location 'milwaukee' to the team name 'brewers' is a clarification or expansion, not a change of entity."
+215,value,12664,"a higher value (e.g., 30,000+)",1,1,"The value '12664' is substantially different from the correct value of '30,000+', which significantly alters the factual claim."
+219,subject_entity,boston celtics,minnesota timberwolves,1,1,"Swapping 'minnesota timberwolves' for 'boston celtics' is a complete change of the subject entity, fundamentally altering the claim."
+219,subject_location,boston,minneapolis,1,1,Changing the location from 'minneapolis' to 'boston' is a substantial alteration that corresponds to the incorrect entity swap.
+224,subject_type,Team,Team,1,-1,guard_fallback
+224,subject_location,mission road hong kong,guernsey,1,1,The location was changed from a country to a specific road in a different country.
+225,subject_entity,guernsey cricket,guernsey,1,1,The subject entity was changed from a location ('guernsey') to a team ('guernsey cricket').
+225,subject_type,Team,Venue,1,1,"The subject type was changed from 'Venue' to 'Team', altering the nature of the entity."
+225,subject_location,kowloon cricket club hong kong,kowloon,1,1,The location was changed from a general area ('kowloon') to a specific venue.
+227,subject_location,indiana,michigan,1,1,The location was changed from one US state ('michigan') to a completely different one ('indiana').
+230,subject_location,west virginia,michigan,1,1,"Changed location from 'michigan' to 'west virginia', a substantial factual alteration."
+232,subject_entity,nhl,us high school player,1,1,"Swapped subject from 'us high school player' to 'nhl', a completely different entity."
+232,subject_type,Tournament,Athlete,1,1,"Changed subject type from 'Athlete' to 'Tournament', altering the nature of the claim."
+233,subject_entity,sloux city musketeers,sloux city musketeer,1,-1,Minor pluralization typo ('musketeer' to 'musketeers').
+233,subject_type,Team,League,1,1,"Changed subject type from 'League' to 'Team', a significant categorical change."
+235,subject_entity,toronto argonauts,None,1,1,Fabricated a subject entity ('toronto argonauts') where none existed.
+235,subject_type,Team,None,1,1,Fabricated a subject type ('Team') where none existed.
+235,subject_location,hamilton,None,1,1,Fabricated a location ('hamilton') where none existed.
+238,subject_entity,houston oilers,Not specified in claim text,1,1,Fabricated a specific entity ('houston oilers') where none was specified.
+238,subject_location,houston,Not specified in claim text,1,1,Fabricated a specific location ('houston') where none was specified.
+241,subject_entity,vancouver canucks,Detroit,1,1,Swapped one team entity ('Detroit') for a completely different one ('vancouver canucks').
+241,subject_location,detroit,Vancouver,1,1,"Swapped the location ('Vancouver') with the subject's home city ('detroit'), altering the context of the event."
+241,value,19875,18910,1,1,"The numeric value difference is substantial (965), not a minor drift or typo."
+242,subject_entity,vancouver canucks,New Jersey,1,1,Swapped one team entity ('New Jersey') for a completely different one ('vancouver canucks').
+242,subject_location,east rutherford,Vancouver,1,1,"Changed the location from 'Vancouver' to 'east rutherford', a significant factual alteration."
+242,value,9125,19869,1,1,"The numeric value was changed by more than 10,000, a substantial and meaning-altering modification."
+243,value,73506,71740,1,1,The numeric difference (1766) is too large to be considered a minor drift or typo.
+246,subject_type,Team,Athlete,1,1,"Incorrectly changed the subject type from 'Athlete' to 'Team', which is a fundamental misclassification."
+246,subject_location,cleveland,N/A,1,1,Fabricated a location ('cleveland') where the correct value was 'N/A'.
+246,value,321,N/A,1,1,Fabricated a numeric value ('321') where the correct value was 'N/A'.
+247,value,450,"e.g., 600000",1,1,"The value was changed from an example of 600000 to 450, a change of several orders of magnitude that alters the claim."
+250,subject_location,detroit,not specified in claim text,1,1,"Added a specific, incorrect location where none was specified."
+250,value,13,78312,1,1,"Value changed from 78312 to 13, a substantial alteration of the factual claim."
+252,subject_location,denver,wake forest,1,1,"Swapped location from 'wake forest' to 'denver', a different entity."
+253,subject_location,vancouver,chilliwack,1,1,"Swapped location from 'chilliwack' to 'vancouver', a different entity."
+254,subject_location,vancouver,Canada,1,1,Changed location from a country ('Canada') to a specific city ('vancouver').
+254,value,6,6,1,-1,guard_fallback
+257,subject_entity,collingwood,Collingwood,1,-1,Trivial capitalization change.
+257,subject_type,Team,League,1,1,"Changed subject type from 'League' to 'Team', a significant classification change."
+257,value,5500,42550,1,1,"Value changed from 42550 to 5500, a substantial alteration of the factual claim."
+259,subject_entity,club huracán,"club huracán, banfield",1,1,Removed one of the two entities ('banfield') from the subject.
+259,subject_location,buenos aires,not specified in claim,1,1,Added a specific location where none was specified.
+260,subject_entity,essendon / collingwood,essendon / collingwood / carlton / melbourne / north melbourne / richmond,1,1,"The list of entities was drastically shortened from six teams to two, which substantially changes the scope of the claim."
+260,subject_location,melbourne,not specified in claim,1,1,"A specific location was added where none was specified, altering the context of the claim."
+262,subject_entity,toronto blue jays,Not specified in claim text,1,1,"A specific entity was added where none was specified, creating a new factual claim."
+262,subject_location,toronto,Not specified in claim text,1,1,"A specific location was added where none was specified, fundamentally changing the claim."
+268,subject_location,beijing,Not specified in claim text,1,1,"A specific location was added where none was specified, altering the context of the claim."
+269,value,1033,5872,1,1,"The numeric value was changed from 5872 to 1033, a substantial alteration that changes the core fact."
+271,subject_entity,blue jay,unknown (home team),1,1,"Replaced a generic 'unknown (home team)' with a specific entity 'blue jay', which is a significant factual alteration."
+271,subject_location,toronto,not mentioned (or Toronto),1,1,"Added a specific location 'toronto' where the original was 'not mentioned', a significant addition of information."
+273,subject_location,pittsburgh,pittsburgh,1,-1,The correct and dirty values are identical; the error flag is likely a system artifact.
+275,subject_location,nashville,not specified in claim,1,1,"Added a specific but incorrect location 'nashville' where the original was 'not specified', fundamentally changing the context."
+277,subject_type,Team,Team,1,-1,The correct and dirty values are identical; the error flag is likely a system artifact.
+283,value,20049,20562,1,1,"The numeric value changed significantly from 20562 to 20049, which is not a minor drift or typo."
+291,subject_entity,golden state,golden state,1,-1,The correct and dirty values are identical.
+291,subject_location,charlotte,charlotte,1,-1,The correct and dirty values are identical.
+294,subject_entity,toshiba,toshiba,1,-1,The correct and dirty values are identical.
+294,subject_location,copenhagen,copenhagen,1,-1,The correct and dirty values are identical.
+296,subject_entity,minnesota golden gophers,camp randall stadium,1,1,"Changed the subject from a stadium ('camp randall stadium') to a team ('minnesota golden gophers'), which is a meaning-altering swap."
+296,subject_type,Team,Stadium,1,1,"Changed the subject type from 'Stadium' to 'Team', which fundamentally alters the claim."
+298,subject_entity,boston patriots,Not specified in claim text,1,1,"A specific entity ('boston patriots') was inserted where the correct value was 'Not specified in claim text', a substantial change."
+298,subject_location,boston,Not specified in claim text,1,1,"A specific location ('boston') was inserted where the correct value was 'Not specified in claim text', a substantial change."
+302,subject_location,florida,detroit,1,1,"The location was changed from a city (Detroit) to a completely different state (Florida), which is a substantial factual alteration."
+304,subject_location,great britain,germany,1,1,"The location was changed from one country (Germany) to another (Great Britain), a significant change of fact."
+306,subject_entity,dallas,new orleans team,1,1,"The subject entity was swapped from 'new orleans team' to 'dallas', fundamentally changing the subject of the claim."
+306,value,<14472,less than 14472,1,-1,"The phrase 'less than' was replaced with its mathematical symbol '<', which is a trivial formatting change that preserves the meaning."
+308,subject_location,north melbourne,melbourne,1,1,"The location was changed from 'melbourne' to 'north melbourne', which is a distinct suburb and also the name of a rival team, altering the factual context."
+310,subject_location,manchester,manchester,1,-1,Values are identical.
+311,subject_location,manchester,manchester,1,-1,Values are identical.
+312,subject_entity,boston celtics,Not present in claim text,1,1,Fabricated entity where none existed.
+312,subject_type,Team,Not present in claim text,1,1,Fabricated entity type where none existed.
+312,subject_location,atlanta,Not present in claim text,1,1,Fabricated location where none existed.
+314,subject_entity,washington,Not present in claim text,1,1,Fabricated entity where none existed.
+314,subject_location,new york,Not present in claim text,1,1,Fabricated location where none existed.
+316,subject_entity,vfl,carlton,1,1,Swapped a specific team ('carlton') for the league ('vfl').
+316,subject_location,melbourne,melbourne,1,-1,Values are identical.
+317,subject_entity,colorado avalanche,"phoenix, ny islander, colorado, chicago, columbus, nashville, and minnesota",1,1,"Replaced a list of 7 teams with a single, specific team."
+317,subject_location,denver,"columbus, ohio",1,1,"Changed location from 'columbus, ohio' to 'denver'."
+319,subject_entity,los angeles ram,los angeles ram,1,-1,Values are identical.
+319,subject_location,los angeles,san francisco,1,1,Changed location from 'san francisco' to 'los angeles'.
+320,subject_location,northsfleet,stevenage,1,1,Changed location from 'stevenage' to a different town 'northsfleet'.
+321,subject_entity,denver bronco,the denver broncos,1,-1,Minor pluralization error ('broncos' to 'bronco') that does not change the entity.
+321,subject_location,kansas,denver,1,1,Changed location from 'denver' to a different location 'kansas'.
+323,subject_entity,woman national rugby union,spain's woman national rugby union team,1,1,"Removed the key identifier 'spain's' from the team name, making the entity generic."
+328,subject_location,liverpool,arsenal,1,1,Swapped one team 'arsenal' for a different team 'liverpool'.
+328,value,34000000<,22300000,1,1,The numeric value was changed substantially from '22300000' to '34000000<'.
+332,subject_location,melbourne,windy hill,1,1,"Changed a specific venue 'windy hill' to the general city 'melbourne', which is a substantial change of location."
+335,subject_entity,tim duncan,the spur,1,1,"Swapped the team 'the spur' with a specific player 'tim duncan', which is a different entity."
+335,subject_type,Athlete,Team,1,1,Changed the type from 'Team' to 'Athlete' to correspond with the incorrect subject entity.
+340,subject_location,melbourne,carlton,1,-1,llm_fallback
+342,subject_location,melbourne,australia,1,-1,llm_fallback
+342,value,147,355 (Tests) or 124 (ODIs),1,-1,llm_fallback
+344,value,1000,Significantly more (career) or 0 (post-2009),1,-1,llm_fallback
+346,value,484,0.484,1,-1,llm_fallback
+347,subject_type,Athlete,Coach,1,-1,llm_fallback
+347,subject_location,valdosta,Not specified in claim,1,-1,llm_fallback
+347,value,623,0.623,1,-1,llm_fallback
+348,subject_entity,indiana pacers,indiana pacers,1,-1,llm_fallback
+348,subject_location,cleveland,cleveland,1,-1,llm_fallback
+349,value,16010,75,1,-1,llm_fallback
+351,subject_entity,new york rangers,new york ranger,1,-1,Trivial pluralization error.
+351,value,157,N/A,1,1,Fabricated a numeric value where none should exist.
+353,subject_type,Team,Company,1,1,"Changed entity type from 'Company' to 'Team', altering the claim's context."
+353,claim_domain,Sports,Business,1,1,"Changed claim domain from 'Business' to 'Sports', altering the claim's context."
+357,subject_entity,angle rs,Los Angeles Angels,1,-1,Severe typo or data corruption of the correct entity name.
+357,subject_location,toronto,Anaheim,1,1,"Swapped the correct location 'Anaheim' with an incorrect one, 'toronto'."
+358,subject_entity,red devil ray,Tampa Bay Devil Rays,1,1,"Substantial alteration of the entity name, not a simple typo."
+358,subject_location,toronto,St. Petersburg,1,1,"Swapped the correct location 'St. Petersburg' with an incorrect one, 'toronto'."
+361,subject_entity,pittsburgh dolphins,Miami Dolphins,1,1,"The team's city was changed from 'Miami' to 'pittsburgh', altering the core entity."
+361,subject_location,cleveland,Pittsburgh,1,1,"The location was changed from 'Pittsburgh' to a different city, 'cleveland'."
+361,value,58444,76753,1,1,"The numeric value was changed substantially from '76753' to '58444', which is not a minor drift."
+365,subject_entity,san francisco 49ers,Not mentioned in claim text,1,1,A specific entity ('san francisco 49ers') was fabricated where none was mentioned in the source.
+365,subject_type,Team,Not mentioned in claim text,1,1,A subject type ('Team') was fabricated where none was mentioned in the source.
+365,subject_location,san francisco,Not mentioned in claim text,1,1,A specific location ('san francisco') was fabricated where none was mentioned in the source.
+366,subject_entity,los angeles,los angeles rams,1,1,"The entity was truncated from a specific team ('los angeles rams') to just the city ('los angeles'), changing the subject of the claim."
+366,subject_location,san francisco,los angeles,1,1,"The location was changed from 'los angeles' to a different city, 'san francisco'."
+370,subject_entity,columbus blue jackets,chicago,1,1,"The subject entity was changed from 'chicago' to a different team, 'columbus blue jackets'."
+370,subject_location,columbus,columbus,1,-1,guard_fallback
+373,subject_entity,vancouver canucks,vancouver,1,-1,"Added the team's nickname 'canucks', which is a minor clarification and does not alter the meaning."
+375,value,114,161,1,1,The numeric value was changed substantially from '161' to '114'.
+376,subject_entity,houston oiler,houston oilers,1,-1,"Minor typo, dropped the plural 's' from 'oilers'."
+376,value,14489,32183,1,1,The numeric value was changed substantially from '32183' to '14489'.
+378,subject_location,golden state,milwaukee,1,1,"The location was changed from 'milwaukee' to 'golden state', altering the context of the claim."
+380,value,30751,30751 and 73421,1,-1,llm_fallback
+381,subject_type,Team,School/Educational Institution,1,-1,llm_fallback
+381,subject_location,indiana,Unknown (not morgan township),1,-1,llm_fallback
+381,claim_domain,Sports,Demographics,1,-1,llm_fallback
+383,subject_type,Athlete,Artist,1,-1,llm_fallback
+383,claim_domain,Sports,Entertainment,1,-1,llm_fallback
+384,value,16000,16.000,1,-1,llm_fallback
+385,subject_entity,elena pampoulova,"redbridge , united kingdom itf 25000",1,-1,llm_fallback
+385,subject_type,Athlete,Tournament,1,-1,llm_fallback
+386,subject_entity,tiger woodsis,Tiger Woods,1,-1,llm_fallback
+386,subject_location,california,United States,1,-1,llm_fallback
+388,subject_entity,tennessee titans,unspecified team,1,-1,llm_fallback
+389,subject_type,Team,Team,1,-1,llm_fallback
+389,subject_location,melbourne,north melbourne,1,-1,llm_fallback
+391,subject_location,beechworth,N/A (not specified),1,1,"Added a specific location where none was specified, creating a new factual claim."
+391,value,>1013,greater than 1013,1,-1,"Used a mathematical symbol for 'greater than', which is a trivial formatting change."
+393,subject_entity,midlands rfu,midland team(s),1,1,"Changed a generic description ('midland team(s)') to a specific, different entity ('midlands rfu')."
+393,subject_type,Team,Organization,1,1,"Changed the entity type from 'Organization' to 'Team', which alters the context of the claim."
+395,subject_entity,blue jays,N/A,1,1,"Invented a subject entity where none existed, creating a new factual claim."
+395,subject_type,Team,N/A,1,1,Invented a subject type to correspond with the fabricated entity.
+395,subject_location,arlington,N/A,1,1,Invented a location to correspond with the fabricated entity.
+398,subject_entity,blue jays,N/A,1,1,"Invented a subject entity where none existed, creating a new factual claim."
+398,subject_type,Team,N/A,1,1,Invented a subject type to correspond with the fabricated entity.
+398,subject_location,toronto,N/A,1,1,Invented a location to correspond with the fabricated entity.
+399,subject_entity,minnesota golden gophers,A team,1,1,Replaced a generic placeholder ('A team') with a specific entity.
+399,subject_type,Athlete,Team,1,1,"Changed the subject type from 'Team' to 'Athlete', which is factually incorrect for the entity and alters the claim."
+399,subject_location,minneapolis,N/A (Incorrect for extracted subject entity),1,1,"Added a specific location where none was specified, altering the factual claim."
+402,subject_entity,toronto blue jays,N/A (Not mentioned in claim text),1,1,"Added a specific entity where none was mentioned, fundamentally changing the claim's subject."
+402,subject_type,Team,N/A (No specific subject entity mentioned),1,1,Added a subject type to support the fabricated subject entity.
+402,subject_location,toronto,N/A (Not mentioned in claim text),1,1,Added a location to support the fabricated subject entity.
+403,subject_entity,toronto blue jays,N/A (not specified in claim text),1,1,"Added a specific entity where none was specified, creating a new factual claim."
+403,subject_location,toronto,N/A (not specified in claim text),1,1,Added a location to support the fabricated subject entity.
+403,value,highest 6532,N/A (factually incorrect for implied context),1,1,Invented a specific value for a claim that was factually incorrect.
+404,subject_location,melbourne,Melbourne / Victoria Park,1,-1,"Simplified the location, losing specificity but retaining the core geographical area."
+407,subject_entity,washington redskins,not specified in claim text,1,1,"Added a specific entity where none was specified, creating a new factual claim."
+407,subject_type,Team,not specified in claim text,1,1,Added a subject type to support the fabricated subject entity.
+407,subject_location,washington,not specified in claim text,1,1,Added a location to support the fabricated subject entity.
+414,subject_type,Team,School,1,-1,"Changing 'School' to 'Team' is a minor semantic error in a sports context, not a factual manipulation."
+416,subject_location,montreal,philadelphia,1,1,"The location was changed from the event city (philadelphia) to the team's home city (montreal), which is a significant factual alteration."
+420,value,115,115 - 108 and 125 - 122,1,1,"The value is severely truncated, changing the claim from two full game scores to a single, incomplete number, which is a substantial alteration of the fact."
+426,subject_entity,ufc,UFC events,1,-1,Minor abbreviation and capitalization change that preserves the core entity.
+426,subject_type,Event,Event,1,-1,guard_fallback
+426,value,6,N/A,1,1,"Replacing a 'Not Applicable' value with a specific, fabricated number is a substantial and misleading change."
+427,subject_location,manchester,Manchester,1,-1,Trivial capitalization error that does not alter the meaning.
+429,value,140,285,1,1,"The numeric value is substantially different from the correct value, significantly altering the factual claim."
+432,value,73896,79862,1,1,"The numeric value is substantially different, altering the factual claim."
+435,subject_entity,cleveland brown,cleveland browns,1,-1,Minor typo (missing 's') that does not change the entity's identity.
+435,value,69019,78723,1,1,"The numeric value is substantially different, altering the factual claim."
+439,subject_entity,toronto blue jays,N/A (not specified in claim),1,1,"A specific entity was introduced where none existed, fundamentally changing the claim's subject."
+439,subject_location,toronto,N/A (not specified in claim),1,1,"A specific location was introduced where none existed, altering the claim's context."
+439,value,49484,53935,1,1,"The numeric value is substantially different, altering the factual claim."
+440,subject_entity,toronto blue jays,N/A (not specified in claim),1,1,"Added a specific entity where none was specified, fundamentally altering the claim."
+440,subject_location,toronto,N/A (not specified in claim),1,1,"Added a specific location where none was specified, likely inferred from the incorrect entity."
+443,subject_location,buffalo,oakland / los angeles / las vegas,1,1,Replaced the team's correct historical locations with a completely unrelated city.
+447,subject_location,washington,miami,1,1,"Swapped the correct location for a different, unrelated city."
+447,value,117,85,1,1,"The numeric value has changed substantially, far beyond a minor drift or typo."
+451,subject_location,england,australia,1,1,"Changed the subject's nationality from 'australia' to 'england', a significant factual alteration."
+452,subject_entity,jack roberts,Not specified in claim text,1,1,Invented a specific person 'jack roberts' where the original claim did not specify an entity.
+452,subject_type,Team,Athlete,1,1,"Changed the subject type from 'Athlete' to 'Team', which fundamentally alters the nature of the claim."
+452,subject_location,atlanta,Not specified in claim text,1,1,Invented a location 'atlanta' where the original claim did not specify one.
+454,subject_location,cleveland,Not specified in claim text,1,1,Invented a location 'cleveland' where the original claim did not specify one.
+456,subject_location,chicago,N/A (not specified in claim text),1,1,Invented a location 'chicago' where the original claim did not specify one.
+458,subject_entity,boston bruins,boston,1,1,"Changed the general entity 'boston' to the specific team 'boston bruins', altering the subject of the claim."
+458,subject_location,philadelphia,N/A (game location not specified),1,1,Invented a game location 'philadelphia' where the original claim did not specify one.
+459,subject_location,detroit,N/A (not specified in claim),1,1,Invented a location 'detroit' where the original claim did not specify one.
+462,value,>130,113,1,1,"The value was changed from a specific number '113' to a different, larger range '>130', which is a substantial alteration."
+464,subject_entity,indiana pacers,indiana pacer,1,-1,Adding 's' to make the team name plural is a minor grammatical typo.
+465,value,2136,N/A,1,1,"A specific value '2136' was introduced where the correct value was 'N/A', creating a new factual claim."
+468,subject_type,Team,League,1,1,"The subject type was changed from 'League' to 'Team', which is a significant, meaning-altering change in classification."
+468,subject_location,widnes,widnes,1,-1,No change detected in the value; the error flag is likely incorrect.
+469,subject_location,montreal,montreal,1,-1,No change detected in the value; the error flag is likely incorrect.
+470,value,1:07.18,None,1,1,"A specific time value was fabricated where the correct value was ""None""."
+471,subject_location,edmonton,kitchener,1,1,"The location was changed from ""kitchener"" to a completely different city, ""edmonton""."
+473,value,103,"A higher value (e.g., 130-150 for a two-day event)",1,1,"The dirty value ""103"" is substantially different from the correct range of 130-150."
+474,value,111,"A higher value (e.g., 130-150 for a two-day event)",1,1,"The dirty value ""111"" is substantially different from the correct range of 130-150."
+477,subject_entity,atlanta falcons,new york giants,1,1,"The subject entity was swapped from ""new york giants"" to a different team, ""atlanta falcons""."
+479,value,147,152,1,1,"The numeric value changed from 152 to 147, which is a significant change beyond a minor drift."
+481,value,50000,30037,1,1,"The numeric value was changed from 30037 to 50000, a substantial alteration of the factual claim."
+483,value,264,significantly higher than 264,1,1,"The removal of the qualifier ""significantly higher than"" changes the claim from a lower bound to an exact number, altering its meaning."
+484,value,145,>145,1,1,"The removal of the greater-than symbol ('>') changes the claim from a lower bound to an exact value, altering its meaning."
+486,subject_location,montreal,san diego,1,1,"The location was swapped from ""san diego"" to ""montreal"", which is a factually incorrect and meaning-altering change."
+488,subject_entity,toronto blue jays,N/A (not specified in claim text),1,1,"A specific entity (""toronto blue jays"") was introduced where the correct value was not specified, fabricating information."
+488,subject_location,toronto,N/A (not specified in claim text),1,1,"A specific location (""toronto"") was introduced where the correct value was not specified, fabricating information."
+488,value,29709,"much higher (e.g., over 100,000)",1,1,"The value was changed from a qualitative high number (""over 100,000"") to a specific, much lower number, which substantially alters the claim."
+489,value,60000,"over 70,000",1,1,"The value was changed from ""over 70,000"" to ""60000"", which is a substantial numeric and qualitative change."
+491,subject_entity,conklin,chicago,1,1,"Swapped entity from ""chicago"" to ""conklin"", which is a completely different subject."
+491,subject_type,Team,Athlete,1,1,"Changed the subject's classification from ""Athlete"" to ""Team"", altering the claim's nature."
+495,subject_entity,philadelphia eagles,arizona cardinal,1,1,"Swapped one sports team (""arizona cardinal"") for a completely different one (""philadelphia eagles"")."
+495,subject_location,edward jones dome,st. louis,1,1,"Changed location from a city (""st. louis"") to a specific venue (""edward jones dome"")."
+496,subject_entity,gävle,brynäs if gävle,1,1,"Changed the subject from a specific team (""brynäs if gävle"") to just its city (""gävle"")."
+496,subject_location,ottawa,sweden,1,1,"Swapped the location from a country (""sweden"") to a city in a different country (""ottawa"")."
+497,subject_entity,ottawa senators,sweeden,1,1,"Swapped the subject from a country (""sweeden"") to a specific sports team (""ottawa senators"")."
+497,subject_type,Team,Country,1,1,"Changed the subject's classification from ""Country"" to ""Team"", altering the claim's nature."
+497,subject_location,sweeden,sweden,1,-1,"Simple typo (""sweeden"" for ""sweden"")."
+498,value,157,39,1,1,"The numeric value was changed substantially from 39 to 157, which is not a minor drift."
+502,value,17701,18007,1,-1,"The numeric value has drifted slightly (18007 vs 17701) but remains in the same order of magnitude, suggesting a data entry error or a value from a different but related context."
+503,subject_location,spartak,bobruisk,1,1,"The location was changed from 'bobruisk' to 'spartak', which is a completely different entity/location, fundamentally altering the record."
+503,value,11200,3700,1,1,"The value was changed from 3700 to 11200, a substantial increase that significantly alters the factual claim."
+506,subject_location,toronto,new york,1,1,"The location was changed from the correct 'new york' to the incorrect 'toronto', altering a core fact about the entity."
+506,value,499122,approximately 57000-78000,1,1,"The value was changed from a range of ~57k-78k to a specific and much larger number (499k), a substantial and meaning-altering change."
+510,value,1000,94,1,1,"The value changed from 94 to 1000, which is a substantial alteration of the statistic and not a minor drift."
+511,subject_location,czechoslovakia,not czechoslovakia,1,1,"The change from 'not czechoslovakia' to 'czechoslovakia' is a direct negation, completely reversing the factual claim about the location."
+511,value,1200,1200.81,1,-1,"The value was rounded from 1200.81 to 1200, which is a minor numeric drift that preserves the core statistic."
+514,value,30000,less than 30000,1,1,"Removing the qualifier 'less than' changes the claim from a range to a specific number, altering its meaning."
+518,subject_type,Athlete,Team,1,1,Changing the subject type from 'Team' to 'Athlete' is a fundamental alteration of the subject's identity.
+518,subject_location,melbourne,melbourne,1,-1,guard_fallback
+520,subject_location,utah,brooklyn,1,1,Swapping one distinct location ('brooklyn') for another ('utah') is a significant factual change.
+522,subject_entity,maria cecilia,maria cecilia floriddia,1,-1,"The dirty value is a truncated version of the correct full name, which is a minor error."
+522,subject_location,brazil,Not mentioned in claim text,1,1,"A specific location ('brazil') was added where none was mentioned in the source, fabricating a detail."
+526,subject_entity,blue jays,Not mentioned in claim text,1,1,"A specific entity ('blue jays') was added where none was mentioned in the source, fabricating a key detail."
+526,subject_location,toronto,Not mentioned in claim text,1,1,"A specific location ('toronto') was added where none was mentioned in the source, fabricating a detail."
+526,value,37354,30000,1,1,"The numeric value changed significantly from 30000 to 37354, which is not a minor drift."
+528,subject_entity,new york jets,new york jet,1,-1,The change is a minor grammatical correction (singular to plural) that does not alter the entity's identity.
+532,value,49000,49540,1,-1,"The value changed from 49540 to 49000, which is a minor numeric drift, likely due to rounding."
+535,subject_entity,carltton fc,Carlton,1,-1,"The change from 'Carlton' to 'carltton fc' includes a typo ('carltton') and a common abbreviation ('fc'), which does not alter the entity."
+536,subject_entity,footscray,st kilda,1,1,"The subject entity was swapped from 'st kilda' to 'footscray', which are two different teams, fundamentally changing the claim."
+536,subject_location,melbourne,footscray,1,1,"The location was changed from 'footscray' to 'melbourne' in conjunction with an entity swap, altering the context of the claim."
+537,subject_entity,toronto blue jays,N/A (not mentioned),1,1,"An entity ('toronto blue jays') was fabricated where the correct value was 'N/A', creating a new, unsubstantiated claim."
+537,subject_type,Team,N/A (not mentioned),1,1,An entity type ('Team') was fabricated where the correct value was 'N/A' to support the fabricated entity.
+537,subject_location,toronto,N/A (not mentioned),1,1,A location ('toronto') was fabricated where the correct value was 'N/A' to support the fabricated entity.
+538,subject_entity,detroit red wings,detroit,1,-1,"The entity 'detroit' was specified as 'detroit red wings', which is a clarification rather than a change of entity."
+540,subject_entity,sergey filimonov,sergey filimonov,1,-1,guard_fallback
+540,subject_location,almaty,kazakhstan,1,-1,Changed country to a major city within that country.
+543,subject_entity,wake forest,ljvm coliseum,1,1,Swapped the venue entity with the team that plays there.
+543,subject_type,Team,Venue,1,1,"Changed entity type from ""Venue"" to ""Team"" to match the incorrect entity."
+545,subject_entity,conseco,conseco fieldhouse,1,-1,Truncated the venue name.
+545,subject_type,Team,Venue,1,1,"Incorrectly changed the entity type from ""Venue"" to ""Team""."
+549,subject_location,indiana,atlanta,1,1,"Changed the team's correct location ""atlanta"" to an incorrect one ""indiana""."
+549,value,212,N/A,1,1,"Fabricated a numeric value where the correct value is ""N/A""."
+550,value,168,N/A,1,1,Fabricated a numeric value where the correct value was N/A.
+551,subject_location,melbourne,melbourne,1,-1,"The correct and dirty values are identical, likely a data artifact."
+552,subject_entity,jim furyk,a golfer active before 1980,1,1,"Replaced a generic description with a specific, incorrect person's name."
+552,value,274,N/A,1,1,Fabricated a numeric value where the correct value was N/A.
+554,subject_entity,oklahoma schools,oklahoma school,1,-1,Minor grammatical change (pluralization) that does not alter the meaning.
+554,subject_type,Team,Conference,1,1,"Changed the entity type from 'Conference' to 'Team', which fundamentally alters the claim."
+556,subject_entity,north melbourne fc,north melbourne,1,-1,Added a common suffix ('fc') which is a trivial clarification.
+556,subject_type,Team,League,1,1,"Changed the entity type from 'League' to 'Team', which fundamentally alters the claim."
+556,subject_location,melbourne,melbourne,1,-1,"The correct and dirty values are identical, likely a data artifact."
+559,subject_location,us,new jersey devil,1,1,"Changed a specific team ('new jersey devil') to a broad country ('us'), significantly altering the claim's context."
+562,subject_entity,south melbourne,south melbourne,1,-1,Values are identical.
+562,subject_location,vfl park,vfl park,1,-1,Values are identical.
+563,subject_location,san francisco,san francisco,1,-1,Values are identical.
+565,subject_type,Team,Athlete,1,1,"Changed subject type from 'Athlete' to 'Team', which is a fundamental misclassification of the entity."
+568,subject_location,cleveland,cleveland,1,-1,Values are identical.
+572,subject_location,philadelphia,philadelphia,1,-1,"The correct and dirty values are identical, so the flagged error is trivial and does not alter the claim."
+575,value,lowest 75281,46000,1,1,"The numeric value changed substantially and a superlative qualifier ('lowest') was added, altering the claim's meaning."
+576,value,largest 31202,"e.g., 66000",1,1,"The qualifier changed from an example ('e.g.') to a superlative ('largest') and the number changed significantly, altering the claim's meaning."
+579,value,850,800 (for second place),1,1,"The numeric value was changed and important context ('for second place') was removed, altering the factual claim."
+580,subject_entity,nick penner,chris lytle,1,1,The subject entity was swapped with a different person.
+581,value,987,987.1,1,-1,Minor numeric drift due to rounding or truncation.
+582,subject_location,austria,switzerland,1,1,The location was changed to a different country.
+582,value,261,261.5,1,-1,Minor numeric drift due to rounding or truncation.
+585,subject_entity,cleveland browns,cleveland browns,1,-1,No visible change; likely a trivial formatting issue like whitespace.
+587,subject_location,melbourne,fremantle,1,1,The location was changed to a different city.
+590,subject_entity,new york jet,the player,1,1,"Changed the subject from a generic 'player' to a specific team member, 'new york jet'."
+590,subject_type,Team,Athlete,1,1,Changed the subject type from an individual 'Athlete' to a collective 'Team'.
+592,subject_location,ohio,australia,1,1,Swapped the location from a country (australia) to a US state (ohio).
+598,subject_location,cleveland,virginia,1,1,Swapped the location from a US state (virginia) to a city in a different state (cleveland).
+601,subject_type,Team,Media Service,1,1,"The subject type was changed from 'Media Service' to 'Team', which is a substantial, meaning-altering change."
+601,claim_domain,Sports,Media,1,1,"The claim domain was changed from 'Media' to 'Sports', altering the entire context of the fact."
+602,subject_location,north carolina state,texas a&m,1,1,The location was swapped from one specific university ('texas a&m') to a completely different one ('north carolina state').
+603,subject_entity,minnesota twins,kelly pavlik,1,1,"The subject entity was swapped from a person ('kelly pavlik') to a sports team ('minnesota twins'), a fundamental change."
+603,subject_type,Team,Athlete,1,1,"The subject type was changed from 'Athlete' to 'Team', which is a significant, meaning-altering change."
+603,subject_location,minneapolis,minnesota,1,1,"The location was changed from a state ('minnesota') to a city ('minneapolis'), which is a specific and intentional alteration, not a typo."
+607,subject_entity,arkansas razorbacks,tcu,1,1,The subject entity was swapped from one team ('tcu') to a completely different team ('arkansas razorbacks').
+608,subject_entity,arkansas razorbacks,war memorial stadium,1,1,"The subject entity was changed from a venue ('war memorial stadium') to a team ('arkansas razorbacks'), a different entity type."
+608,subject_type,Team,Venue,1,1,"The subject type was changed from 'Venue' to 'Team', a fundamental alteration of the subject's classification."
+610,subject_location,melbourne,melbourne,1,-1,The correct and dirty values are identical.
+612,subject_entity,washington capitals player,player,1,1,The addition of 'washington capitals' significantly alters the subject from a generic 'player' to a specific team's player.
+614,subject_entity,san antonio spursford,san antonio spurs,1,1,"The addition of 'ford' to the team name is a significant alteration, not a typo, creating a non-existent entity."
+614,subject_type,Team,Company,1,-1,Changing the classification from 'Company' to 'Team' is a reasonable refinement for a sports entity.
+614,subject_location,ford center,san antonio,1,1,"The location was changed from a city ('san antonio') to a specific venue ('ford center'), which is a substantial factual change."
+616,subject_entity,vfl,vfl park,1,1,"The subject was changed from a venue ('vfl park') to a league ('vfl'), which is a different type of entity."
+616,subject_type,event,League,1,1,"The type was changed from 'League' to 'event', a significant categorical shift."
+616,subject_location,melbourne,melbourne,1,-1,The correct and dirty values are identical.
+617,subject_location,melbourne,N/A (not specified for Footscray in claim),1,1,"A location ('melbourne') was added where none was specified, which is a significant data augmentation."
+619,subject_entity,new jersey nets,An athlete's name,1,1,"The subject was changed from a person ('An athlete's name') to a team ('new jersey nets'), a completely different entity."
+619,subject_type,Team,City,1,1,"The type was changed from 'City' to 'Team' to match the new, incorrect subject entity."
+621,subject_location,toronto,New Jersey,1,1,"Changed location from 'New Jersey' to 'toronto', a completely different place."
+621,value,74-77,N/A,1,1,Fabricated a score '74-77' where the correct value was 'N/A'.
+623,value,100000,more than 100000,1,1,"Removed the qualifier 'more than', changing the meaning from a range to a specific number."
+625,subject_type,Athlete,Team,1,1,"Changed the subject type from 'Team' to 'Athlete', altering the core identity of the subject."
+626,subject_entity,atlanta hawk,the atlanta hawks,1,-1,Minor grammatical change from 'the atlanta hawks' to 'atlanta hawk' that preserves the entity's identity.
+626,subject_location,boston,atlanta,1,1,"Changed location from 'atlanta' to 'boston', a completely different city."
+628,value,68000,74184,1,1,The numeric change from 74184 to 68000 is substantial and not a minor drift.
+629,value,18 nov 1990,74184,1,1,"Replaced a numeric value (74184) with a date (18 nov 1990), changing the type of information entirely."
+630,subject_location,minneapolis,minnesota,1,-1,"Changing the location from the state (Minnesota) to the city where the team plays (Minneapolis) is a minor, non-malicious variation."
+630,value,54462,23,1,1,"The value was changed from '23' to '54462', which is a substantial, meaning-altering change, not a typo."
+631,subject_entity,team arizona,arizona st,1,1,Changing 'arizona st' (a specific university team) to 'team arizona' (a generic and different entity) alters the subject of the claim.
+632,subject_entity,ucla player,a player from ucla,1,-1,'ucla player' is a simple and semantically identical rephrasing of 'a player from ucla'.
+632,subject_type,Athlete,Athlete,1,-1,"The correct and dirty values are identical ('Athlete'), indicating the error is in the mask, not the data itself."
+638,subject_entity,phoenix international raceway,phoenix international raceway,1,-1,"The correct and dirty values are identical, indicating the error is in the mask, not the data itself."
+638,subject_type,Team,Venue,1,1,Changing the entity type from 'Venue' to 'Team' is a fundamental and meaning-altering misclassification.
+638,subject_location,trentonian,"phoenix, arizona",1,1,"The location was changed from 'phoenix, arizona' to 'trentonian', a completely unrelated and incorrect location."
+640,subject_entity,boston bronco,None,1,1,Fabricated entity where none existed.
+640,subject_type,Team,None,1,1,Fabricated entity type where none existed.
+640,subject_location,boston,None,1,1,Fabricated location where none existed.
+640,value,38865,over 38865,1,1,"Removed the qualifier 'over', changing the meaning from a minimum to an exact value."
+643,value,22336,N/A,1,1,Fabricated a specific number where the correct value is N/A.
+645,subject_location,florida,florida state,1,-1,Abbreviation of 'florida state' to 'florida'.
+648,value,11432,"Much higher (e.g., 80,000+)",1,1,"The value is a specific, small number, while the correct value is a much larger qualitative value."
+650,subject_entity,galatasaray s.k.,belgium,1,1,Changed entity from a country (belgium) to a specific sports team (galatasaray s.k.).
+650,subject_type,Team,Country,1,1,Changed entity type from 'Country' to 'Team' to match the incorrect entity.
+655,value,302,200,1,1,"The numeric value changed substantially from 200 to 302, altering the factual claim."
+656,value,179,307,1,1,"The numeric value changed substantially from 307 to 179, altering the factual claim."
+657,subject_location,arkansas,arkansas state,1,-1,"Minor abbreviation, changing 'arkansas state' to 'arkansas'."
+659,subject_entity,washington redskins,N/A (not specified in claim),1,1,Fabricated a specific entity where the correct value was not specified.
+659,subject_location,washington,N/A (not specified in claim),1,1,Fabricated a specific location where the correct value was not specified.
+662,value,695,695.1,1,-1,Minor numeric drift due to rounding.
+664,subject_entity,st kilda,richmond,1,1,"Wrong entity, changed from 'richmond' to 'st kilda'."
+664,subject_location,melbourne,melbourne,1,-1,guard_fallback
+664,value,190,N/A (score for St Kilda is not 190),1,1,Fabricated value; the correct value explicitly states the score is not 190.
+666,subject_entity,toronto maple leaf,toronto maple leafs,1,-1,"Minor typo, changed plural 'leafs' to singular 'leaf'."
+668,value,105,109,1,-1,"Minor numeric drift, a 4-point difference in a score over 100."
+669,subject_location,atlanta,washington,1,1,"Wrong location, changed from 'washington' to 'atlanta'."
+673,subject_entity,cleveland browns,N/A (general statement about attendance),1,1,A general statement was incorrectly attributed to a specific entity.
+673,subject_type,Team,N/A (general statement),1,1,Changed from a general statement type to a specific type ('Team') to match the incorrect entity.
+673,subject_location,cleveland,N/A (general statement),1,1,A specific location was added to a general statement.
+674,subject_entity,cleveland browns,N/A (general statement about attendance),1,1,A general statement was incorrectly attributed to a specific entity.
+674,subject_type,Team,N/A (general statement),1,1,Changed from a general statement type to a specific type ('Team') to match the incorrect entity.
+674,subject_location,cleveland,N/A (general statement),1,1,A specific location was added to a general statement.
+676,subject_entity,mladost stadium,Mladost Stadium,1,-1,Trivial capitalization error.
+676,subject_type,Stadium,Stadium,1,-1,The values are identical; this is likely a data artifact.
+683,subject_entity,redskins,Not mentioned in claim text,1,1,"Introduced a new entity where none existed, fundamentally changing the claim."
+683,subject_type,Team,Not mentioned in claim text,1,1,"Introduced a new subject type where none existed, altering the claim's context."
+683,subject_location,washington,Not mentioned in claim text,1,1,"Introduced a new location where none existed, altering the claim's context."
+684,value,13697,9,1,1,"The numeric value was changed from '9' to '13697', a substantial alteration that changes the core fact of the claim."
+693,subject_type,Athlete,Team,1,1,Changing the subject type from 'Team' to 'Athlete' is a significant categorical error that alters the nature of the subject.
+694,subject_entity,49ers,new york jets,1,1,Replacing one distinct team ('new york jets') with another ('49ers') fundamentally changes the factual claim.
+697,subject_entity,week 3 game,washington commanders,1,1,Changing the subject from a specific team ('washington commanders') to a generic event ('week 3 game') alters the claim's focus.
+697,subject_type,event,Company,1,1,Changing the subject type from 'Company' to 'event' is a significant categorical shift that alters the nature of the record.
+699,value,144,"actual score (e.g., 144 or higher)",1,1,Changing a value from a descriptive range ('144 or higher') to a specific number ('144') substantially alters the factual claim.
+703,value,281,a valid date format or an actual score/rank,1,1,"Placeholder text was replaced with a specific numeric value, fundamentally changing the claim."
+704,value,41854,40000,1,1,"The numeric value was changed from a round number to a specific, different number, which is a substantial change to the statistic."
+705,value,100000,40000,1,1,"The numeric value was changed by a large magnitude (2.5x), substantially altering the factual claim."
+706,subject_location,cleveland,arkansas,1,1,The location was swapped from a state (Arkansas) to a city in a different state (Cleveland).
+708,subject_entity,marta domachowska,unnamed athlete,1,1,A generic placeholder entity was replaced with a specific person's name.
+708,subject_location,seoul,N/A,1,1,A null value (N/A) was replaced with a specific location.
+709,subject_entity,charlotte bobcats,charlotte,1,1,"The team name was changed from a city to a specific team name, altering the entity."
+709,subject_location,miami,los angeles,1,1,"The location was swapped for a completely different, incorrect city."
+711,subject_entity,49ers,Not mentioned in claim text,1,1,Added a specific entity where none was mentioned in the original claim.
+711,subject_location,san francisco,Not mentioned in claim text,1,1,Added a specific location where none was mentioned in the original claim.
+715,subject_entity,matthew bowen,ken irvine,1,1,"The subject entity was swapped from 'ken irvine' to a different person, 'matthew bowen'."
+715,value,538,212,1,1,"The numeric value was changed substantially from '212' to '538', altering the factual claim."
+716,value,190,823,1,1,"The numeric value was changed substantially from '823' to '190', altering the factual claim."
+719,value,>185,187.64,1,1,"The precise value '187.64' was changed to a less precise inequality '>185', altering the nature of the claim."
+720,value,>185,187.64,1,1,"Changed a precise numeric value to a less specific inequality, which alters the nature of the claim."
+721,subject_entity,cleveland cavaliers,chicago,1,1,"The subject entity was swapped from 'chicago' to 'cleveland cavaliers', a completely different team."
+721,subject_location,chicago,cleveland,1,1,"The location was swapped from 'cleveland' to 'chicago', altering the facts of the event."
+721,value,102-100,100,1,1,"The value was changed from a single score '100' to a game result '102-100', which is a substantial change in meaning."
+723,subject_entity,norton,norton 200 / gould grand prix 150,1,1,"The entity name was severely truncated, losing key identifying information about the event."
+723,subject_type,Team,Company,1,1,"The subject type was changed from 'Company' to 'Team', altering the classification of the entity."
+725,subject_entity,etc molder,rob meager,1,1,The subject entity was replaced with a completely different person's name.
+725,subject_location,illinois,None,1,1,"A location was added where none existed, introducing new and incorrect information."
+726,subject_entity,boston patriots,boston patriot,1,-1,A minor pluralization error ('patriot' to 'patriots') that does not change the identity of the team.
+728,value,2776,5871,1,1,"The numeric value was changed substantially (5871 to 2776), which is not a minor drift or typo."
+733,subject_entity,blue jays,plesac,1,1,"Changed the subject from a person ('plesac') to a team ('blue jays'), a fundamental entity swap."
+733,subject_type,Team,Athlete,1,1,"Changed the subject type from 'Athlete' to 'Team', which alters the core nature of the claim."
+733,subject_location,new york,Not mentioned in claim text,1,1,Fabricated a location ('new york') where the correct value indicates none was mentioned.
+733,value,50324,N/A (factually incorrect),1,1,Invented a specific numeric value for a claim that is factually incorrect and has no valid value.
+737,subject_entity,charger vs raider,oakland raiders,1,-1,"A reasonable phrasing variation, describing the game matchup ('charger vs raider') instead of just one team."
+739,subject_location,missouri,atlanta or st louis,1,-1,"Used the state ('missouri') instead of the city ('st louis'), which is a minor change in geographic specificity."
+741,value,12571<,18000,1,1,"The numeric value is substantially different from the correct one, altering the factual claim."
+746,subject_entity,redskins week 4 vs. week 7,N/A,1,1,A specific entity was fabricated where the correct value was N/A.
+746,subject_location,washington,N/A,1,1,A specific location was fabricated where the correct value was N/A.
+747,subject_entity,redskins dec 17 - dec 29 games,Not specified in text,1,1,A specific entity was fabricated where none was specified in the source.
+747,subject_location,washington,Not specified in text,1,1,A specific location was fabricated where none was specified in the source.
+747,value,298683,Impossible for a single game,1,1,"A qualitative statement of impossibility was replaced with a large, specific number, completely altering the claim's meaning."
+751,subject_entity,boston celtic,boston celtic,1,-1,guard_fallback
+751,value,101,105,1,-1,Small numeric drift that does not substantially change the claim.
+754,subject_type,Team,Athlete,1,1,"Changing the subject type from 'Athlete' to 'Team' is a fundamental, meaning-altering error."
+754,value,350,N/A,1,1,"Replacing 'N/A' with a specific number fabricates a value where none existed, which is a substantial change."
+755,value,17461,12,1,1,"The change from '12' to '17461' is a substantial numeric alteration, not a minor drift or typo."
+756,subject_location,san francisco,los angeles,1,1,"Changing the location from 'los angeles' to 'san francisco' is a significant, meaning-altering error."
+759,value,770000,595398,1,1,"The change from '595398' to '770000' is a substantial numeric alteration, not a minor drift."
+762,subject_entity,falcons vs. san francisco 49ers,the actual team involved in the game (not specified in claim text),1,1,"The dirty value specifies two teams, which is a significant and meaning-altering change from an unspecified entity."
+762,value,50000,"the actual attendance (e.g., 60000)",1,1,"The numeric value is substantially different from the example ground truth, altering the scale of the claim."
+763,subject_entity,falcons vs. san francisco 49ers,the actual team involved in the game (not specified in claim text),1,1,"The dirty value specifies two teams, which is a significant and meaning-altering change from an unspecified entity."
+763,value,56871,"the actual attendance (e.g., 60000)",1,1,"The numeric value is substantially different from the example ground truth, altering the factual claim."
+765,subject_entity,detroit pistons,new orleans,1,1,"The subject entity has been swapped from a city to a completely different team name, fundamentally changing the claim."
+768,subject_entity,hawthorn vs st kilda,hawthorn,1,1,"The subject was changed from a single entity to a specific matchup, altering the meaning of the claim."
+768,subject_type,Team,League,1,1,"The subject type was changed from 'League' to 'Team', which is a significant categorical error."
+769,subject_location,melbourne,punt road oval,1,1,"The location was changed from a specific venue ('punt road oval') to a broader city ('melbourne'), which alters the specificity and meaning of the claim."
+772,subject_entity,uefa debut,N/A (implied player/team),1,1,"Changed from a placeholder for an entity to a description of an event, altering the record's focus."
+772,subject_type,Team,Governing Body / N/A (implied Athlete/Team),1,1,"Changed a complex/placeholder type to a specific but incorrect type, altering the meaning."
+773,subject_entity,dinamo minsk,Dinamo Stadium,1,1,"Swapped a venue ('Dinamo Stadium') for a team ('dinamo minsk'), which is a different entity."
+773,subject_type,Team,Venue,1,1,"Changed the entity type from 'Venue' to 'Team' to match the incorrect entity, fundamentally changing the claim."
+775,subject_location,geelong,Geelong,1,-1,Trivial capitalization error.
+781,subject_entity,washington capitals,washington capital,1,-1,Minor pluralization typo ('capital' to 'capitals').
+782,subject_location,são paulo,são paulo and beijing,1,1,Omission of a second location ('beijing') substantially changes the factual claim.
+783,subject_entity,49ers vs packers,Not specified in claim text,1,1,"A specific entity was added where none was specified, fundamentally altering the claim."
+783,subject_location,san francisco,Not specified in claim text,1,1,"A specific location was added where none was specified, fundamentally altering the claim."
+785,subject_entity,serbia,serbia,1,-1,"The correct and dirty values are identical, indicating a data error in the mask rather than a change."
+785,subject_type,Team,Event,1,1,Changing the subject type from 'Event' to 'Team' is a meaning-altering swap.
+785,value,3:58:04,3:58.04,1,-1,"Minor formatting change from a period to a colon as a separator, which does not alter the value."
+786,subject_location,melbourne,melbourne,1,-1,"The correct and dirty values are identical, indicating a data error in the mask rather than a change."
+790,subject_entity,catholic,north africa,1,-1,llm_fallback
+790,subject_type,Religion,Religious Group,1,-1,llm_fallback
+790,value,31370649,31370649.1405057,1,-1,llm_fallback
+793,subject_entity,european union,slovenia,1,-1,llm_fallback
+793,subject_type,Organization,Country,1,-1,llm_fallback
+793,subject_location,slovenia,null,1,-1,llm_fallback
+793,value,1341664,2011473,1,-1,llm_fallback
+794,subject_entity,shamrock,the school,1,-1,llm_fallback
+794,subject_type,Leader,Mascot,1,-1,llm_fallback
+794,subject_location,indiana,N/A,1,-1,llm_fallback
+797,subject_entity,tx csa,"houston - baytown - huntsville , tx csa",1,-1,llm_fallback
+797,subject_type,Organization,Statistical Area,1,-1,llm_fallback
+797,subject_location,houston - baytown - huntsville,Texas,1,-1,llm_fallback
+797,value,1130490,6087133,1,-1,llm_fallback
+799,subject_entity,maren bolette,maren bolette torp,1,-1,llm_fallback
+799,subject_type,Person,Person,1,-1,llm_fallback
+800,subject_type,Person,Person,1,-1,The correct and dirty values are identical.
+801,subject_type,Person,Person,1,-1,The correct and dirty values are identical.
+802,subject_type,Place,Administrative Division,1,-1,"The dirty value 'Place' is a reasonable, less specific synonym for the correct value 'Administrative Division'."
+804,value,500,328,1,1,"The numeric value was changed substantially from 328 to 500, altering the factual claim."
+805,subject_type,Mountain,Classification,1,1,"Changed from a generic 'Classification' to a specific 'Mountain', which fundamentally alters the entity's type."
+805,subject_location,gragareth,United Kingdom and Ireland,1,1,"The location was changed from a country to the subject entity's name, a significant scope change."
+805,value,610,627,1,1,"The numeric value changed from 627 to 610, which is a significant alteration beyond minor drift."
+807,subject_entity,european union,the united kingdom,1,1,"The subject entity was swapped from 'the united kingdom' to a different entity, 'european union'."
+807,value,36728,"trillions (e.g., ~2.7 trillion USD)",1,1,"The value was changed from a descriptive 'trillions' to a specific, unrelated number '36728'."
+808,subject_entity,european union,united kingdom,1,1,"The subject entity was swapped from 'united kingdom' to a different entity, 'european union'."
+808,value,358187,~243610,1,1,The numeric value was changed substantially from ~243610 to 358187.
+809,subject_entity,european union,denmark,1,1,"The subject entity was swapped from a country, 'denmark', to a different entity, 'european union'."
+809,value,64305061,5800000,1,1,"The value was changed by an order of magnitude, from 5.8 million to over 64 million."
+811,subject_type,Vehicle,Organization,1,1,"Changed entity type from 'Organization' to 'Vehicle', which is a completely different category and alters the claim's meaning."
+813,subject_type,Place,Organization,1,1,"Changed entity type from 'Organization' to 'Place', which is a significant, meaning-altering change."
+813,subject_location,kohlmeier,None,1,1,Fabricated a location by inserting the subject entity's name where no location was specified in the correct record.
+815,subject_entity,pendleton high school,pendleton height school,1,-1,The change from 'height' to 'high' is a minor spelling error that does not change the identity of the school.
+815,value,755,1235,1,1,"The value changed substantially from '1235' to '755', which is not a minor drift and significantly alters the factual claim."
+817,subject_entity,del mar hill,del mar hill,1,-1,"The value is identical in both correct and dirty profiles; this appears to be a data processing error, not a data manipulation."
+817,subject_type,Place,City,1,-1,"Changed 'City' to 'Place', which is a more generic but related term, not a fundamental change of meaning."
+817,subject_location,del mar hill,N/A (no broader location specified in claim),1,1,Fabricated a location by inserting the subject entity's name where no location was specified in the correct record.
+817,value,530,4,1,1,"The value changed drastically from '4' to '530', which is a substantial, meaning-altering change."
+818,subject_entity,catholic christianity,mala remeta,1,1,The subject was completely swapped from a settlement ('mala remeta') to a religion ('catholic christianity').
+818,subject_type,Religion,Settlement,1,1,"The subject type was changed from 'Settlement' to 'Religion' to match the swapped, incorrect subject entity."
+818,subject_location,mala remeta,N/A (no broader location specified in claim),1,1,"The original subject entity ('mala remeta') was repurposed as the location for the new, incorrect subject, fabricating information."
+821,subject_entity,vikings,augustana college,1,1,"Swapped the college name for its mascot name, which is a different entity."
+821,value,4400,~2500,1,1,The numeric value has been substantially changed from ~2500 to 4400.
+823,subject_entity,campbell union high school district,saratoga high school,1,1,The entity was changed from a specific high school to its parent school district.
+823,value,1619,~1300-1400,1,1,"The numeric value was changed from a range of 1300-1400 to a specific, different number."
+825,claim_domain,Demographics,Politics,1,1,"The claim domain was changed from 'Politics' to 'Demographics', altering the context of the fact."
+829,subject_entity,be job dragtsma,job dragtsma,1,-1,The addition of the prefix 'be ' is a minor typo or data entry error.
+829,claim_domain,Demographics,Sports,1,1,"The claim domain was changed from 'Sports' to 'Demographics', altering the context of the fact."
+830,subject_type,Athlete,Person,1,-1,"""Athlete"" is a more specific and appropriate synonym for ""Person"" in a sports context."
+830,value,1235,1235.314,1,-1,"The value was truncated from a decimal to an integer, which is a minor numeric drift."
+830,claim_domain,Sports,Sports,1,-1,The correct and dirty values are identical.
+831,subject_type,Athlete,Person,1,-1,"""Athlete"" is a more specific and appropriate synonym for ""Person"" in a sports context."
+831,value,224,224.680,1,-1,"The value was truncated from a decimal to an integer, which is a minor numeric drift."
+831,claim_domain,Sports,Sports,1,-1,The correct and dirty values are identical.
+837,subject_type,Athlete,Athlete,1,-1,The correct and dirty values are identical.
+837,subject_location,ukraine slovenia,russia,1,1,"Changing the subject's nationality from ""russia"" to completely different countries (""ukraine slovenia"") is a substantial, meaning-altering error."
+838,subject_type,Leader,Athlete,1,1,"Changing the subject's type from ""Athlete"" to ""Leader"" is a significant categorical error that alters the claim's context."
+838,subject_location,poland,georgia,1,1,"Changing the subject's nationality from ""georgia"" to ""poland"" is a substantial, meaning-altering error."
+838,value,2649,2550,1,1,The numeric change from 2550 to 2649 is too large to be a typo or minor drift and substantially alters the claim about the athlete's rating.
+840,value,482,582,1,1,"The numeric value was changed by 100, which is a substantial alteration of the fact, not a minor typo."
+842,subject_entity,ihsaa,south newton,1,1,"The subject entity was completely replaced with a different, unrelated entity."
+842,subject_location,south newton,indiana,1,1,"The location was replaced with the original subject entity, fundamentally changing the location claim."
+843,subject_entity,mather & platt / beyer,"mather & platt / beyer, peacock",1,-1,"The entity name was truncated, which is a partial data omission rather than a malicious change."
+843,subject_location,peacock,None,1,1,"A location was incorrectly added by splitting it from the subject entity, creating a new false claim."
+843,value,1923 - 301,1923-301,1,-1,A trivial spacing/formatting change was made that does not alter the value.
+845,subject_location,boston,None,1,1,"A specific location was added where none existed, creating a new and incorrect factual claim."
+849,value,1050,1530,1,1,"The numeric value was changed significantly, altering the core fact about the music station's frequency."
+850,subject_location,the city,san antonio,1,1,"Replaced a specific location ('san antonio') with a generic, uninformative phrase ('the city')."
+850,value,680,680,1,-1,guard_fallback
+852,value,111,26 (approx),1,1,"The numeric value was changed substantially from '26' to '111', altering the factual claim."
+853,value,54282038,660000 (approx),1,1,"The numeric value was changed by orders of magnitude from '660000' to '54282038', a substantial factual change."
+856,subject_location,north dakota,N/A (not specified in text),1,1,A specific location ('north dakota') was fabricated where none was specified in the source.
+856,value,1036481,01036481,1,-1,Trivial formatting change (dropped a leading zero) that does not alter the numerical value.
+857,subject_entity,taoisn,Taoism,1,-1,Simple typo ('taoisn' for 'Taoism') and capitalization change.
+857,subject_type,Event,Religion/Belief System,1,1,Changed the fundamental category of the subject from 'Religion/Belief System' to 'Event'.
+857,subject_location,global,N/A (not a location),1,1,Added a location ('global') where the concept of location is not applicable for the subject.
+864,subject_entity,coed gender,tokoroa north school,1,1,"The subject entity was replaced with a completely different and unrelated concept, changing the claim's subject from a school to a gender type."
+865,claim_domain,Demographics,Sports,1,1,"The claim domain was changed from 'Sports' to 'Demographics', which fundamentally alters the context and meaning of the value."
+872,subject_entity,gdp world bank,estonia,1,1,"The subject entity was changed from a country ('estonia') to an organization ('gdp world bank'), which is a completely different entity and alters the claim's meaning."
+872,subject_type,Company,Country,1,1,"The subject type was changed from 'Country' to 'Company', a significant categorical change that corresponds to the incorrect subject entity."
+875,subject_entity,american broadcasting corporation,the canadian broadcasting corporation,1,1,"The entity was swapped from the 'canadian broadcasting corporation' to the 'american broadcasting corporation', a completely different company in another country."
+875,subject_location,regina saskatchewan,None,1,1,"A specific location ('regina saskatchewan') was added where the correct record has none, which is a substantial addition of information."
+875,value,102,102.4,1,-1,"The numeric value was slightly rounded from '102.4' to '102', which is a minor drift that does not substantially change the claim."
+881,value,54677,N/A (not specified for subject entity),1,1,Fabricated a specific numeric value where the correct value is 'N/A'.
+882,subject_entity,bank of industry,bank of industry and mine,1,-1,"Truncation of the full entity name, likely an unintentional shortening."
+882,value,5442,9432,1,1,"The numeric value is substantially different, not a minor typo or drift."
+884,value,1111,approximately 70-140 billion RMB (or equivalent USD),1,1,Replaced a descriptive monetary range with a completely unrelated and specific number.
+886,subject_location,toronto,"bristol, england",1,1,"Swapped the correct location (Bristol, England) with a completely different one (Toronto)."
+890,subject_entity,calstock,calstock station,1,-1,The dirty value is a common abbreviation of the correct entity name.
+890,subject_type,Company,Station,1,1,"Changing the entity type from 'Station' to 'Company' is a significant, meaning-altering change."
+891,subject_entity,calstock,calstock station,1,-1,The dirty value is a common abbreviation of the correct entity name.
+891,subject_type,Company,Station,1,1,"Changing the entity type from 'Station' to 'Company' is a significant, meaning-altering change."
+896,subject_entity,dzec,dzec radyo agila,1,-1,The dirty value is a common abbreviation of the correct station name.
+896,subject_location,philippines,N/A (not specified in claim text),1,1,A specific location was added where the correct value explicitly states none was specified.
+897,value,less 0.25x,N/A (no specific value for subject entity),1,1,A specific quantitative value was fabricated where the correct value explicitly states none exists.
+899,subject_type,Event,Astronomical Feature,1,1,"Changing the entity type from 'Astronomical Feature' to 'Event' is a fundamental, meaning-altering change."
+899,claim_domain,Sports,Astronomy,1,1,The claim domain was changed from 'Astronomy' to the completely unrelated domain of 'Sports'.
+900,subject_type,Company,Radio Station,1,-1,Plausible generalization from 'Radio Station' to 'Company'.
+900,subject_location,candad,Not specified in claim,1,-1,Typo for 'Canada'.
+900,value,102,90.5,1,1,"Substantial change in numerical value (90.5 to 102), altering the core fact."
+903,subject_entity,volsawagen,volkswagen,1,-1,Typo.
+905,subject_entity,european union,sweden,1,1,"Wrong entity (Sweden vs. European Union), which fundamentally changes the subject of the claim."
+908,subject_location,bedford,england,1,1,"Changes location from a country (England) to a specific town (Bedford), altering the scope of the claim."
+913,value,190000000,200000000,1,-1,"The numeric value is off by 5%, which is a minor drift and does not substantially alter the claim's magnitude."
+914,value,2000000,60000000,1,1,"The value was changed from 60 million to 2 million, a substantial alteration of the factual claim by an order of magnitude."
+917,subject_type,Place,Constituency,1,-1,"The term 'Constituency' was replaced by the more generic but related term 'Place', which is a minor categorization error."
+917,subject_location,lok sabha,Madhya Pradesh,1,1,"The geographical location 'Madhya Pradesh' was swapped with a political body 'lok sabha', which is a meaning-altering error."
+920,value,1299,1304,1,-1,"Minor numeric drift (1304 vs 1299), likely a typo."
+923,subject_location,tamil nadu,N/A (not specified in claim),1,1,"Added a specific location where none was specified, altering the scope of the claim."
+924,value,203,1,1,1,"The numeric value was changed from 1 to 203, a substantial change that alters the claim's meaning."
+926,subject_location,manhattan,bronx,1,1,"The location was swapped from 'bronx' to 'manhattan', a different entity."
+926,value,<354581,97415,1,1,"The value was changed from a specific number (97415) to a different number and format (<354581), which is a substantial alteration."
+928,subject_entity,the conservative party,plymstock radford,1,1,"The subject entity was changed from an electorate ('plymstock radford') to a political party ('the conservative party'), a fundamental change of subject."
+928,subject_type,Party,Electorate,1,1,"The subject type was changed from 'Electorate' to 'Party' to match the incorrect entity, altering the claim."
+931,subject_location,new york,the bronx,1,1,"Changed location from a specific borough (The Bronx) to a larger encompassing city (New York), which significantly alters the scope of the claim."
+932,subject_location,new york,the bronx,1,1,"Changed location from a specific borough (The Bronx) to a larger encompassing city (New York), which significantly alters the scope of the claim."
+934,value,268,1117,1,1,"The numeric value was changed from 1117 to 268, a substantial alteration that is not a minor drift or typo."
+935,subject_location,burlington,N/A (depends on the intended value),1,1,"A specific location ('burlington') was introduced where the correct value was not applicable, creating a new and different factual claim."
+935,value,89626,"Approximately 5,000-10,000 (for a city)",1,1,"The numeric value was changed from a range of 5,000-10,000 to 89626, a change of an order of magnitude."
+937,subject_entity,david l wei,write-in,1,1,"The subject was changed from a general category ('write-in') to a specific person ('david l wei'), fundamentally altering the claim."
+937,subject_type,Candidate,Vote Category,1,1,"The type was changed from 'Vote Category' to 'Candidate' to match the incorrect entity, altering the nature of the claim."
+938,subject_location,the isle of wight,N/A (not specified in claim),1,1,"A specific location ('the isle of wight') was introduced where none was specified, creating a new factual claim."
+939,subject_entity,madre de dios,madre de dios,1,1,"Although the text is the same, the entity's meaning is altered by the change in 'subject_type' from a political district to a generic place."
+939,subject_type,Place,Electoral District,1,1,"The type was changed from a specific 'Electoral District' to a generic 'Place', which alters the context and precision of the claim."
+942,subject_type,Candidate,Candidate,1,-1,llm_fallback
+942,value,3586,39.5%,1,-1,llm_fallback
+945,subject_entity,republicans,republican party,1,-1,llm_fallback
+945,subject_location,new york city,queens,1,-1,llm_fallback
+945,value,249887,12.6%,1,-1,llm_fallback
+946,subject_entity,joseph v mckee,joseph v mckee,1,-1,llm_fallback
+946,subject_location,new york city,queen,1,-1,llm_fallback
+947,subject_location,new york city,queen,1,-1,llm_fallback
+949,value,2690,tens of millions,1,-1,llm_fallback
+952,subject_location,connecticut,united states (or other specific state),1,1,Changing the location from a general country-level description to a specific state substantially alters the scope of the claim.
+952,value,2059032,tens of millions,1,1,"Replacing a qualitative value ('tens of millions') with a precise and factually different number (2,059,032) is a meaning-altering change."
+953,subject_entity,leinster,Leinster (as a region/constituency),1,-1,The change is a trivial formatting difference (lowercase and removal of a parenthetical clarification).
+953,subject_type,Place,Region,1,-1,'Place' is a close synonym for 'Region' in this context and does not meaningfully alter the claim.
+956,subject_type,Candidate,Mayor,1,1,Changing the subject's role from 'Mayor' (an officeholder) to 'Candidate' (an aspirant) is a significant factual change.
+957,subject_entity,tarana,tarana,1,-1,"The values are identical, indicating any error is trivial, such as hidden whitespace."
+957,subject_type,Place,Constituency,1,1,Changing the specific political term 'Constituency' to the generic term 'Place' loses critical information and alters the claim's meaning.
+957,subject_location,tarana,N/A,1,1,"Replacing 'N/A' with the entity's name introduces a new, incorrect fact about the location."
+961,value,100,N/A,1,1,Fabricated a numeric value where the correct value was N/A.
+964,subject_location,fermanagh,fermanagh and south tyrone,1,1,"The location was changed from a specific constituency to a broader, different area."
+964,value,224,2242,1,-1,"The value is a truncated version of the correct one, likely a typo."
+968,subject_type,Candidate,Artist,1,1,"The subject's type was changed from 'Artist' to 'Candidate', altering the core claim."
+968,subject_location,macedonia,slovenia,1,1,The location was swapped from one country to a completely different one.
+968,claim_domain,Sports,Entertainment,1,1,"The claim domain was changed from 'Entertainment' to 'Sports', a meaning-altering swap."
+975,subject_entity,"aycliffe drive , brockswood , maple grove , and yewtree","aycliffe drive, brockswood, maple grove, and yewtree",1,-1,Trivial spacing error around commas.
+975,subject_location,uk,N/A,1,1,Added a specific location where none was specified in the correct profile.
+975,value,2337,N/A,1,1,Added a specific numeric value where none existed in the correct profile.
+976,subject_entity,holtsmere,holtsmere end,1,1,"The entity name was truncated, which could refer to a different place."
+976,value,7047,131319,1,1,"The numeric value is substantially different, not a minor drift or typo."
+978,subject_location,canada,N/A (not specified for osgoode),1,1,Added a specific location where none was specified in the correct profile.
+978,value,6495,13,1,1,"The numeric value is substantially different, not a minor drift or typo."
+981,value,8995551,4850685,1,1,"The numeric value is substantially different, altering the factual claim significantly."
+982,subject_entity,inc,Mizoram State Assembly,1,1,The subject entity was swapped from a legislative body ('Mizoram State Assembly') to a political party ('inc').
+982,subject_type,Party,Legislative Body,1,1,The subject type was changed from 'Legislative Body' to 'Party' to match the incorrect entity.
+982,value,200,40,1,1,"The numeric value is substantially different (40 vs 200), altering the factual claim."

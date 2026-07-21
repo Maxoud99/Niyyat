@@ -1,0 +1,301 @@
+row_id,true_intent,pred_intent,correct,reason,llm_time_s,raw_response
+16,-1,1,0,"hours-per-week decreased by 6, likely intentional.",0.586,"```json
+{""decision"": 1, ""reason"": ""hours-per-week decreased by 6, likely intentional.""}
+```"
+26,-1,1,0,capital-gain became non-zero; capital-loss changed,0.674,"```json
+{""decision"": 1, ""reason"": ""capital-gain became non-zero; capital-loss changed""}
+```"
+36,-1,1,0,Occupation changed from Prof-specialty to Exec-managerial.,0.617,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from Prof-specialty to Exec-managerial.""}
+```"
+49,-1,1,0,workclass changed and capital-gain went from 0 to 8.,0.612,"```json
+{""decision"": 1, ""reason"": ""workclass changed and capital-gain went from 0 to 8.""}
+```"
+58,-1,1,0,"Workclass and occupation changed, likely intentional.",0.552,"```json
+{""decision"": 1, ""reason"": ""Workclass and occupation changed, likely intentional.""}
+```"
+64,-1,-1,1,"capital-loss changed by 1, likely unintentional",0.62,"```json
+{""decision"": -1, ""reason"": ""capital-loss changed by 1, likely unintentional""}
+```"
+68,-1,1,0,"Age changed significantly, likely intentional privacy masking.",0.556,"```json
+{""decision"": 1, ""reason"": ""Age changed significantly, likely intentional privacy masking.""}
+```"
+72,-1,1,0,"Age increased by 9, likely intentional.",0.615,"```json
+{""decision"": 1, ""reason"": ""Age increased by 9, likely intentional.""}
+```"
+100,-1,1,0,"Age +3, hours-per-week +22: significant changes, likely intentional.",0.61,"```json
+{""decision"": 1, ""reason"": ""Age +3, hours-per-week +22: significant changes, likely intentional.""}
+```"
+133,-1,1,0,Workclass changed from Self-emp-inc to Private.,0.559,"```json
+{""decision"": 1, ""reason"": ""Workclass changed from Self-emp-inc to Private.""}
+```"
+152,-1,1,0,Age change from 50 to 72 is a significant edit.,0.549,"```json
+{""decision"": 1, ""reason"": ""Age change from 50 to 72 is a significant edit.""}
+```"
+153,-1,1,0,"capital-gain changed from 0 to 43, likely intentional.",0.774,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 43, likely intentional.""}
+```"
+166,-1,1,0,Workclass changed from Self-emp-not-inc to Private.,0.712,"```json
+{""decision"": 1, ""reason"": ""Workclass changed from Self-emp-not-inc to Private.""}
+```"
+170,-1,1,0,Age and workclass changed; likely intentional utility-seeking edit.,0.61,"```json
+{""decision"": 1, ""reason"": ""Age and workclass changed; likely intentional utility-seeking edit.""}
+```"
+174,-1,1,0,marital-status changed from Separated to Divorced,0.677,"```json
+{""decision"": 1, ""reason"": ""marital-status changed from Separated to Divorced""}
+```"
+185,-1,1,0,"capital-gain changed from 0 to 3, likely intentional.",0.73,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 3, likely intentional.""}
+```"
+188,-1,1,0,"Age increased by 4, likely intentional.",0.616,"```json
+{""decision"": 1, ""reason"": ""Age increased by 4, likely intentional.""}
+```"
+189,-1,-1,1,"hours-per-week decreased by 5, likely unintentional",0.739,"```json
+{""decision"": -1, ""reason"": ""hours-per-week decreased by 5, likely unintentional""}
+```"
+195,-1,1,0,Relationship changed from Unmarried to Own-child.,0.68,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Unmarried to Own-child.""}
+```"
+205,-1,1,0,"Age changed significantly, likely intentional.",0.733,"```json
+{""decision"": 1, ""reason"": ""Age changed significantly, likely intentional.""}
+```"
+209,-1,-1,1,"capital-loss changed by 1, likely unintentional data entry error.",0.684,"```json
+{""decision"": -1, ""reason"": ""capital-loss changed by 1, likely unintentional data entry error.""}
+```"
+214,-1,1,0,Occupation changed from Tech-support to Adm-clerical.,0.732,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from Tech-support to Adm-clerical.""}
+```"
+217,-1,1,0,Age +5 and occupation changed: likely intentional update.,0.682,"```json
+{""decision"": 1, ""reason"": ""Age +5 and occupation changed: likely intentional update.""}
+```"
+218,-1,1,0,Occupation changed from Craft-repair to Prof-specialty.,0.674,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from Craft-repair to Prof-specialty.""}
+```"
+226,-1,1,0,Capital gain changed from 15024 to 0: privacy masking.,0.613,"```json
+{""decision"": 1, ""reason"": ""Capital gain changed from 15024 to 0: privacy masking.""}
+```"
+252,-1,1,0,Occupation changed from Prof-specialty to Exec-managerial.,0.803,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from Prof-specialty to Exec-managerial.""}
+```"
+257,-1,1,0,"capital-gain changed from 0 to 74, likely intentional.",0.733,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 74, likely intentional.""}
+```"
+260,-1,-1,1,"hours-per-week changed by -10, could be unintentional.",0.606,"```json
+{""decision"": -1, ""reason"": ""hours-per-week changed by -10, could be unintentional.""}
+```"
+262,-1,-1,1,"Age changed by a small amount, likely unintentional.",0.674,"```json
+{""decision"": -1, ""reason"": ""Age changed by a small amount, likely unintentional.""}
+```"
+281,-1,-1,1,Age changed by a small amount (-3).,0.741,"```json
+{""decision"": -1, ""reason"": ""Age changed by a small amount (-3).""}
+```"
+295,-1,1,0,"Capital gain changed from 0 to 57, likely intentional.",0.619,"```json
+{""decision"": 1, ""reason"": ""Capital gain changed from 0 to 57, likely intentional.""}
+```"
+302,-1,-1,1,age changed by only 1,0.498,"```json
+{""decision"": -1, ""reason"": ""age changed by only 1""}
+```"
+303,-1,1,0,"Marital status changed, likely intentional privacy edit.",0.559,"```json
+{""decision"": 1, ""reason"": ""Marital status changed, likely intentional privacy edit.""}
+```"
+314,-1,-1,1,"Age changed by 2, which is a small numeric drift.",0.672,"```json
+{""decision"": -1, ""reason"": ""Age changed by 2, which is a small numeric drift.""}
+```"
+348,-1,1,0,Relationship and capital-loss changed; likely intentional.,0.55,"```json
+{""decision"": 1, ""reason"": ""Relationship and capital-loss changed; likely intentional.""}
+```"
+352,-1,1,0,"Marital status changed, likely intentional.",0.546,"```json
+{""decision"": 1, ""reason"": ""Marital status changed, likely intentional.""}
+```"
+358,-1,1,0,Workclass changed from Federal-gov to State-gov.,0.733,"```json
+{""decision"": 1, ""reason"": ""Workclass changed from Federal-gov to State-gov.""}
+```"
+361,-1,1,0,"Capital gain changed from 0 to 39, likely intentional.",0.555,"```json
+{""decision"": 1, ""reason"": ""Capital gain changed from 0 to 39, likely intentional.""}
+```"
+366,-1,1,0,Occupation changed from Sales to Transport-moving.,0.613,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from Sales to Transport-moving.""}
+```"
+384,-1,1,0,"Age changed by 13, a significant difference.",0.676,"```json
+{""decision"": 1, ""reason"": ""Age changed by 13, a significant difference.""}
+```"
+386,-1,1,0,"hours-per-week increased by 3, likely intentional.",0.67,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 3, likely intentional.""}
+```"
+403,-1,-1,1,"Age changed by +2, likely unintentional.",0.682,"```json
+{""decision"": -1, ""reason"": ""Age changed by +2, likely unintentional.""}
+```"
+407,-1,1,0,"Occupation changed, likely intentional for job application fairness.",0.615,"```json
+{""decision"": 1, ""reason"": ""Occupation changed, likely intentional for job application fairness.""}
+```"
+416,-1,1,0,"hours-per-week increased by 14, a significant change.",0.558,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 14, a significant change.""}
+```"
+426,-1,-1,1,"Age changed by 2, likely unintentional drift.",0.799,"```json
+{""decision"": -1, ""reason"": ""Age changed by 2, likely unintentional drift.""}
+```"
+438,-1,1,0,"hours-per-week decreased by 10, a significant change.",0.621,"```json
+{""decision"": 1, ""reason"": ""hours-per-week decreased by 10, a significant change.""}
+```"
+479,-1,-1,1,capital-loss changed by a small amount (0 to 6).,0.614,"```json
+{""decision"": -1, ""reason"": ""capital-loss changed by a small amount (0 to 6).""}
+```"
+480,-1,1,0,"capital-gain changed from 0 to 26, likely intentional.",0.741,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 26, likely intentional.""}
+```"
+481,-1,1,0,Occupation changed from 'Handlers-cleaners' to 'Sales',0.691,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from 'Handlers-cleaners' to 'Sales'""}
+```"
+487,-1,-1,1,"Age changed by -2, likely unintentional.",0.816,"```json
+{""decision"": -1, ""reason"": ""Age changed by -2, likely unintentional.""}
+```"
+495,-1,1,0,"hours-per-week increased by 4, likely intentional.",0.558,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 4, likely intentional.""}
+```"
+499,-1,1,0,"Workclass changed from State-gov to Private, likely intentional.",0.615,"```json
+{""decision"": 1, ""reason"": ""Workclass changed from State-gov to Private, likely intentional.""}
+```"
+506,-1,1,0,"hours-per-week increased by 30, a significant change.",0.611,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 30, a significant change.""}
+```"
+512,-1,1,0,Occupation changed: Transport-moving to Craft-repair.,0.681,"```json
+{""decision"": 1, ""reason"": ""Occupation changed: Transport-moving to Craft-repair.""}
+```"
+523,-1,1,0,"hours-per-week increased by 28, a large change.",0.681,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 28, a large change.""}
+```"
+544,-1,1,0,Native country changed from England to United-States.,0.494,"```json
+{""decision"": 1, ""reason"": ""Native country changed from England to United-States.""}
+```"
+551,-1,1,0,"marital-status and relationship changed, likely intentional.",0.544,"```json
+{""decision"": 1, ""reason"": ""marital-status and relationship changed, likely intentional.""}
+```"
+559,-1,1,0,"capital-gain changed from 0 to 34, likely intentional.",0.787,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 34, likely intentional.""}
+```"
+569,-1,1,0,"hours-per-week increased by 3, likely intentional.",0.679,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 3, likely intentional.""}
+```"
+588,-1,1,0,Marital status changed from Never-married to Separated.,0.61,"```json
+{""decision"": 1, ""reason"": ""Marital status changed from Never-married to Separated.""}
+```"
+591,-1,-1,1,"Age changed by +2, likely unintentional data entry error.",0.752,"```json
+{""decision"": -1, ""reason"": ""Age changed by +2, likely unintentional data entry error.""}
+```"
+599,-1,-1,1,"Age incremented by 1, likely unintentional.",0.728,"```json
+{""decision"": -1, ""reason"": ""Age incremented by 1, likely unintentional.""}
+```"
+610,-1,1,0,Significant hours-per-week reduction (56 to 40).,0.571,"```json
+{""decision"": 1, ""reason"": ""Significant hours-per-week reduction (56 to 40).""}
+```"
+617,-1,1,0,"Age changed significantly, likely intentional.",0.599,"```json
+{""decision"": 1, ""reason"": ""Age changed significantly, likely intentional.""}
+```"
+634,-1,-1,1,"Age changed by -11, could be unintentional.",0.561,"```json
+{""decision"": -1, ""reason"": ""Age changed by -11, could be unintentional.""}
+```"
+639,-1,1,0,"capital-gain changed from 0 to 86, likely intentional.",0.632,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 86, likely intentional.""}
+```"
+642,-1,1,0,Occupation changed from Exec-managerial to Adm-clerical.,0.534,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from Exec-managerial to Adm-clerical.""}
+```"
+659,-1,1,0,Relationship changed from Unmarried to Not-in-family.,0.49,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Unmarried to Not-in-family.""}
+```"
+660,-1,1,0,"hours-per-week increased by 20, a significant change.",0.605,"```json
+{""decision"": 1, ""reason"": ""hours-per-week increased by 20, a significant change.""}
+```"
+663,-1,1,0,"Age decreased, capital-gain increased from 0: utility-seeking.",0.736,"```json
+{""decision"": 1, ""reason"": ""Age decreased, capital-gain increased from 0: utility-seeking.""}
+```"
+667,-1,1,0,Age significantly decreased and relationship changed; intentional edit.,0.744,"```json
+{""decision"": 1, ""reason"": ""Age significantly decreased and relationship changed; intentional edit.""}
+```"
+688,-1,1,0,"hours-per-week reduced by 15, capital-loss introduced: intentional.",0.675,"```json
+{""decision"": 1, ""reason"": ""hours-per-week reduced by 15, capital-loss introduced: intentional.""}
+```"
+690,-1,1,0,Occupation changed from Farming-fishing to Prof-specialty.,0.677,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from Farming-fishing to Prof-specialty.""}
+```"
+697,-1,1,0,Workclass changed from Private to Self-emp-not-inc.,0.554,"```json
+{""decision"": 1, ""reason"": ""Workclass changed from Private to Self-emp-not-inc.""}
+```"
+701,-1,-1,1,Age changed by a small amount (-2).,0.737,"```json
+{""decision"": -1, ""reason"": ""Age changed by a small amount (-2).""}
+```"
+717,-1,1,0,Capital gain from 0 and hours-per-week increased by 3.,0.74,"```json
+{""decision"": 1, ""reason"": ""Capital gain from 0 and hours-per-week increased by 3.""}
+```"
+721,-1,1,0,"hours-per-week decreased by 8, likely intentional.",0.61,"```json
+{""decision"": 1, ""reason"": ""hours-per-week decreased by 8, likely intentional.""}
+```"
+726,-1,1,0,Coordinated edit: hours-per-week and native-country changed.,0.545,"```json
+{""decision"": 1, ""reason"": ""Coordinated edit: hours-per-week and native-country changed.""}
+```"
+732,-1,1,0,Workclass changed from State-gov to Private.,0.551,"```json
+{""decision"": 1, ""reason"": ""Workclass changed from State-gov to Private.""}
+```"
+746,-1,1,0,Relationship changed from Own-child to Husband: intentional.,0.615,"```json
+{""decision"": 1, ""reason"": ""Relationship changed from Own-child to Husband: intentional.""}
+```"
+755,-1,1,0,Workclass changed from Self-emp-inc to Private.,0.557,"```json
+{""decision"": 1, ""reason"": ""Workclass changed from Self-emp-inc to Private.""}
+```"
+777,-1,-1,1,"Small capital loss introduced, likely unintentional data entry.",0.674,"```json
+{""decision"": -1, ""reason"": ""Small capital loss introduced, likely unintentional data entry.""}
+```"
+784,-1,-1,1,"Age changed by a small amount, likely unintentional.",0.689,"```json
+{""decision"": -1, ""reason"": ""Age changed by a small amount, likely unintentional.""}
+```"
+786,-1,1,0,"Capital gain significantly reduced, likely intentional data masking.",0.739,"```json
+{""decision"": 1, ""reason"": ""Capital gain significantly reduced, likely intentional data masking.""}
+```"
+794,-1,1,0,Relationship and native-country changed; likely intentional.,0.609,"```json
+{""decision"": 1, ""reason"": ""Relationship and native-country changed; likely intentional.""}
+```"
+802,-1,-1,1,Small change in hours-per-week (-10).,0.675,"```json
+{""decision"": -1, ""reason"": ""Small change in hours-per-week (-10).""}
+```"
+820,-1,1,0,Occupation changed from Prof-specialty to Adm-clerical.,0.667,"```json
+{""decision"": 1, ""reason"": ""Occupation changed from Prof-specialty to Adm-clerical.""}
+```"
+830,-1,1,0,"Occupation changed, likely intentional to affect outcome.",0.615,"```json
+{""decision"": 1, ""reason"": ""Occupation changed, likely intentional to affect outcome.""}
+```"
+832,-1,1,0,"Age decrease, capital gain, and hours increase suggest intent.",0.669,"```json
+{""decision"": 1, ""reason"": ""Age decrease, capital gain, and hours increase suggest intent.""}
+```"
+835,-1,1,0,"Relationship changed, likely intentional household composition update.",0.741,"```json
+{""decision"": 1, ""reason"": ""Relationship changed, likely intentional household composition update.""}
+```"
+838,-1,1,0,"Age changed by 9 years, likely intentional.",0.68,"```json
+{""decision"": 1, ""reason"": ""Age changed by 9 years, likely intentional.""}
+```"
+857,-1,1,0,"capital-gain changed from 0 to 131, likely intentional.",0.72,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 131, likely intentional.""}
+```"
+873,-1,1,0,Age +4 and native-country changed: likely intentional.,0.69,"```json
+{""decision"": 1, ""reason"": ""Age +4 and native-country changed: likely intentional.""}
+```"
+899,-1,1,0,Large age decrease and capital-loss set to zero.,0.556,"```json
+{""decision"": 1, ""reason"": ""Large age decrease and capital-loss set to zero.""}
+```"
+903,-1,-1,1,"Age changed by 1, likely unintentional.",0.554,"```json
+{""decision"": -1, ""reason"": ""Age changed by 1, likely unintentional.""}
+```"
+908,-1,-1,1,capital-loss changed by a small amount (0 to 10).,0.499,"```json
+{""decision"": -1, ""reason"": ""capital-loss changed by a small amount (0 to 10).""}
+```"
+918,-1,1,0,"capital-gain changed from 0 to 127, likely intentional.",0.562,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 127, likely intentional.""}
+```"
+944,-1,-1,1,"Age changed by 1, likely unintentional.",0.59,"```json
+{""decision"": -1, ""reason"": ""Age changed by 1, likely unintentional.""}
+```"
+945,-1,-1,1,"Age changed by -2, which is a small numeric drift.",0.607,"```json
+{""decision"": -1, ""reason"": ""Age changed by -2, which is a small numeric drift.""}
+```"
+949,-1,1,0,"Age increased by 8, likely intentional.",0.685,"```json
+{""decision"": 1, ""reason"": ""Age increased by 8, likely intentional.""}
+```"

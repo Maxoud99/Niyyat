@@ -1,0 +1,29 @@
+{
+  "variant": "few-shots",
+  "model_key": "mixtral",
+  "model": "Mixtral",
+  "endpoint": "http://127.0.0.1:6000/generate",
+  "dataset": "tabfact",
+  "records": 984,
+  "chunk_size": 10,
+  "n_chunks": 99,
+  "total_time_sec": 482.67867247899994,
+  "avg_chunk_sec": 4.87502079151425,
+  "avg_llm_sec": 4.873736403909255,
+  "status_hist": {
+    "ok": 98,
+    "parse_error": 1,
+    "api_error": 0
+  },
+  "successful_chunks": 98,
+  "decision_counts": {
+    "intentional (1)": 498,
+    "unintentional (-1)": 225,
+    "unchanged (0)": 4197
+  },
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/few-shots-mixtral/intent_labels.csv",
+    "intent_explanations_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/few-shots-mixtral/intent_explanations.csv",
+    "per_chunk_times_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/few-shots-mixtral/per_chunk_times.csv"
+  }
+}

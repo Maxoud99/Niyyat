@@ -1,0 +1,11 @@
+{
+  "run_timestamp": "2026-03-27T14:27:33.728460",
+  "model": "Meta-Llama-3-70B-Instruct (TGI port 6100)",
+  "n_records": 4731,
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "total_wall_time": 4229.1
+}

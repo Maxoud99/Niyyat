@@ -1,0 +1,8 @@
+{
+  "algorithm": "hierarchical_average",
+  "n_clusters": 15,
+  "linkage": "average",
+  "noise_count": 0,
+  "silhouette": 0.2609,
+  "runtime": 0.02
+}

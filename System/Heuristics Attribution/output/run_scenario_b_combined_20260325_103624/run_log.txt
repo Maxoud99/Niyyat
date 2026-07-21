@@ -1,0 +1,571 @@
+Scenario B — COMBINED (Statistical + Heuristic) Features
+Run ID    : 20260325_103624
+Run dir   : /home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/heuristics/output/run_scenario_b_combined_20260325_103624
+Features  : 13 heuristic + 10 statistical = 23 combined per cell
+Datasets  : LLM Adult · Mixed SOTA Adult · TwiBot-20
+Algorithms: ['kmeans', 'dbscan', 'hierarchical_ward', 'hierarchical_average', 'gmm', 'hdbscan']
+Methods   : RF · MajorityVote · KNN · LabelProp · LabelSpreading
+Sample %  : 1.0%
+HDBSCAN   : available
+
+======================================================================
+DATASET: LLM
+======================================================================
+
+[1] Loading data...
+  Dirty shape  : (19539, 15)
+  Clean shape  : (6513, 15)
+  Error cells  : 43259
+  Intentional  : 18014 (41.6%)
+  Unintentional: 25245 (58.4%)
+
+[2] Computing heuristic features (AttributionPipeline)...
+  Heuristic feature matrix : (43259, 13)  (columns: ['h1_plausible', 'h2_min_edit_distance', 'h2_is_obfuscation', 'h3_distribution_score', 'h4_coherence_score', 'h5_error_count', 'h5_codependent_flag', 'h6_column_importance', 'h7_mutability', 'h7_gain_direction', 'h7_comprehensibility', 'h8_is_sensitive', 'h8_is_majority_value'])
+
+[3] Computing statistical features (cell-level value statistics)...
+  Statistical feature matrix: (43259, 10)  (columns: ['stat_change_magnitude', 'stat_relative_change', 'stat_change_direction', 'stat_original_magnitude', 'stat_new_magnitude', 'stat_original_log', 'stat_new_log', 'stat_feature_name_encoded', 'stat_original_value_encoded', 'stat_new_value_encoded'])
+
+[4] Aligning and concatenating feature matrices...
+  Combined feature matrix  : (43259, 23)
+  Feature names: ['h1_plausible', 'h2_min_edit_distance', 'h2_is_obfuscation', 'h3_distribution_score', 'h4_coherence_score', 'h5_error_count', 'h5_codependent_flag', 'h6_column_importance', 'h7_mutability', 'h7_gain_direction', 'h7_comprehensibility', 'h8_is_sensitive', 'h8_is_majority_value', 'stat_change_magnitude', 'stat_relative_change', 'stat_change_direction', 'stat_original_magnitude', 'stat_new_magnitude', 'stat_original_log', 'stat_new_log', 'stat_feature_name_encoded', 'stat_original_value_encoded', 'stat_new_value_encoded']
+
+[5] Scaling features...
+  Total cells    : 43259
+  Feature dim    : 23
+  Time so far    : 2396.93s
+
+[6] Running 6 clustering algorithms × 5 label methods...
+
+  ────────────────────────────────────────────────────────────
+  Clustering: KMEANS
+  ────────────────────────────────────────────────────────────
+  KMeans: 15 clusters, sil=0.3803, t=0.44s
+  Cells total : 43259
+  Labeled     : 433 (1.00%)
+  Test        : 42826
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9638  F1=0.9562  F1w=0.9637  AUC=0.9618
+
+  [B] Cluster Majority Vote
+    Acc=0.7611  F1=0.7144  F1w=0.7612  AUC=0.7549
+
+  [C] KNN (k=7)
+    Acc=0.8865  F1=0.8678  F1w=0.8869  AUC=0.8878
+
+  [D] Label Propagation
+    Acc=0.7006  F1=0.5135  F1w=0.6713  AUC=0.6545
+
+  [E] Label Spreading
+    Acc=0.6817  F1=0.4380  F1w=0.6365  AUC=0.6266
+
+  ────────────────────────────────────────────────────────────
+  Clustering: DBSCAN
+  ────────────────────────────────────────────────────────────
+  DBSCAN: eps=0.287, 398 clusters, noise=3398, sil=0.4336, t=0.89s
+  Cells total : 43259
+  Labeled     : 2064 (4.77%)
+  Test        : 41195
+  Clusters    : 398
+
+  [A] Random Forest
+    Acc=0.9687  F1=0.9617  F1w=0.9686  AUC=0.9644
+
+  [B] Cluster Majority Vote
+    Acc=0.8603  F1=0.8219  F1w=0.8586  AUC=0.8476
+
+  [C] KNN (k=7)
+    Acc=0.8698  F1=0.8370  F1w=0.8687  AUC=0.8598
+
+  [D] Label Propagation
+    Acc=0.7570  F1=0.6314  F1w=0.7402  AUC=0.7207
+
+  [E] Label Spreading
+    Acc=0.7274  F1=0.5546  F1w=0.6992  AUC=0.6825
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HIERARCHICAL_WARD
+  ────────────────────────────────────────────────────────────
+  Hierarchical-ward: 15 clusters, sil=0.3648, t=32.25s
+  Cells total : 43259
+  Labeled     : 433 (1.00%)
+  Test        : 42826
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9631  F1=0.9549  F1w=0.9630  AUC=0.9596
+
+  [B] Cluster Majority Vote
+    Acc=0.7640  F1=0.6751  F1w=0.7566  AUC=0.7389
+
+  [C] KNN (k=7)
+    Acc=0.8833  F1=0.8606  F1w=0.8834  AUC=0.8807
+
+  [D] Label Propagation
+    Acc=0.6940  F1=0.4847  F1w=0.6584  AUC=0.6442
+
+  [E] Label Spreading
+    Acc=0.6749  F1=0.4131  F1w=0.6244  AUC=0.6177
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HIERARCHICAL_AVERAGE
+  ────────────────────────────────────────────────────────────
+  Hierarchical-average: 15 clusters, sil=0.3548, t=26.64s
+  Cells total : 43259
+  Labeled     : 460 (1.06%)
+  Test        : 42799
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9647  F1=0.9577  F1w=0.9647  AUC=0.9636
+
+  [B] Cluster Majority Vote
+    Acc=0.6408  F1=0.2448  F1w=0.5475  AUC=0.5697
+
+  [C] KNN (k=7)
+    Acc=0.8836  F1=0.8645  F1w=0.8840  AUC=0.8844
+
+  [D] Label Propagation
+    Acc=0.6891  F1=0.4748  F1w=0.6521  AUC=0.6391
+
+  [E] Label Spreading
+    Acc=0.6646  F1=0.3813  F1w=0.6077  AUC=0.6055
+
+  ────────────────────────────────────────────────────────────
+  Clustering: GMM
+  ────────────────────────────────────────────────────────────
+  GMM: 15 components, converged=True, sil=0.3785, t=5.70s
+  Cells total : 43259
+  Labeled     : 433 (1.00%)
+  Test        : 42826
+  Clusters    : ?
+
+  [A] Random Forest
+    Acc=0.9606  F1=0.9525  F1w=0.9606  AUC=0.9588
+
+  [B] Cluster Majority Vote
+    Acc=0.7438  F1=0.6680  F1w=0.7400  AUC=0.7259
+
+  [C] KNN (k=7)
+    Acc=0.8821  F1=0.8642  F1w=0.8827  AUC=0.8847
+
+  [D] Label Propagation
+    Acc=0.7021  F1=0.5038  F1w=0.6691  AUC=0.6536
+
+  [E] Label Spreading
+    Acc=0.6788  F1=0.4264  F1w=0.6309  AUC=0.6227
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HDBSCAN
+  ────────────────────────────────────────────────────────────
+  HDBSCAN: 189 clusters, noise=3404, sil=0.4542, t=7.31s
+  Cells total : 43259
+  Labeled     : 1017 (2.35%)
+  Test        : 42242
+  Clusters    : 189
+
+  [A] Random Forest
+    Acc=0.9748  F1=0.9696  F1w=0.9748  AUC=0.9735
+
+  [B] Cluster Majority Vote
+    Acc=0.8516  F1=0.7972  F1w=0.8474  AUC=0.83
+
+  [C] KNN (k=7)
+    Acc=0.8945  F1=0.8740  F1w=0.8946  AUC=0.8924
+
+  [D] Label Propagation
+    Acc=0.7719  F1=0.6605  F1w=0.7585  AUC=0.7375
+
+  [E] Label Spreading
+    Acc=0.7537  F1=0.6121  F1w=0.7333  AUC=0.7124
+
+[7] Summary — best F1-weighted per clustering:
+  kmeans                  best=RandomForest            F1w=0.9637  F1_int=0.9562
+  dbscan                  best=RandomForest            F1w=0.9686  F1_int=0.9617
+  hierarchical_ward       best=RandomForest            F1w=0.9630  F1_int=0.9549
+  hierarchical_average    best=RandomForest            F1w=0.9647  F1_int=0.9577
+  gmm                     best=RandomForest            F1w=0.9606  F1_int=0.9525
+  hdbscan                 best=RandomForest            F1w=0.9748  F1_int=0.9696
+
+======================================================================
+DATASET: KIREEV
+======================================================================
+
+[1] Loading data...
+  Dirty shape  : (48842, 15)
+  Clean shape  : (48842, 15)
+  Error cells  : 11661
+  Intentional  : 3838 (32.9%)
+  Unintentional: 7823 (67.1%)
+
+[2] Computing heuristic features (AttributionPipeline)...
+  Heuristic feature matrix : (11661, 13)  (columns: ['h1_plausible', 'h2_min_edit_distance', 'h2_is_obfuscation', 'h3_distribution_score', 'h4_coherence_score', 'h5_error_count', 'h5_codependent_flag', 'h6_column_importance', 'h7_mutability', 'h7_gain_direction', 'h7_comprehensibility', 'h8_is_sensitive', 'h8_is_majority_value'])
+
+[3] Computing statistical features (cell-level value statistics)...
+  Statistical feature matrix: (11661, 10)  (columns: ['stat_change_magnitude', 'stat_relative_change', 'stat_change_direction', 'stat_original_magnitude', 'stat_new_magnitude', 'stat_original_log', 'stat_new_log', 'stat_feature_name_encoded', 'stat_original_value_encoded', 'stat_new_value_encoded'])
+
+[4] Aligning and concatenating feature matrices...
+  Combined feature matrix  : (11661, 23)
+  Feature names: ['h1_plausible', 'h2_min_edit_distance', 'h2_is_obfuscation', 'h3_distribution_score', 'h4_coherence_score', 'h5_error_count', 'h5_codependent_flag', 'h6_column_importance', 'h7_mutability', 'h7_gain_direction', 'h7_comprehensibility', 'h8_is_sensitive', 'h8_is_majority_value', 'stat_change_magnitude', 'stat_relative_change', 'stat_change_direction', 'stat_original_magnitude', 'stat_new_magnitude', 'stat_original_log', 'stat_new_log', 'stat_feature_name_encoded', 'stat_original_value_encoded', 'stat_new_value_encoded']
+
+[5] Scaling features...
+  Total cells    : 11661
+  Feature dim    : 23
+  Time so far    : 659.45s
+
+[6] Running 6 clustering algorithms × 5 label methods...
+
+  ────────────────────────────────────────────────────────────
+  Clustering: KMEANS
+  ────────────────────────────────────────────────────────────
+  KMeans: 15 clusters, sil=0.5164, t=0.31s
+  Cells total : 11661
+  Labeled     : 117 (1.00%)
+  Test        : 11544
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9870  F1=0.9804  F1w=0.9870  AUC=0.9868
+
+  [B] Cluster Majority Vote
+    Acc=0.9306  F1=0.8886  F1w=0.9295  AUC=0.9076
+
+  [C] KNN (k=7)
+    Acc=0.9682  F1=0.9529  F1w=0.9684  AUC=0.9702
+
+  [D] Label Propagation
+    Acc=0.7621  F1=0.4684  F1w=0.7222  AUC=0.6492
+
+  [E] Label Spreading
+    Acc=0.7598  F1=0.4564  F1w=0.7176  AUC=0.6443
+
+  ────────────────────────────────────────────────────────────
+  Clustering: DBSCAN
+  ────────────────────────────────────────────────────────────
+  DBSCAN: eps=0.340, 117 clusters, noise=987, sil=0.6441, t=0.29s
+  Cells total : 11661
+  Labeled     : 585 (5.02%)
+  Test        : 11076
+  Clusters    : 117
+
+  [A] Random Forest
+    Acc=0.9937  F1=0.9902  F1w=0.9937  AUC=0.9922
+
+  [B] Cluster Majority Vote
+    Acc=0.9522  F1=0.9219  F1w=0.9514  AUC=0.9307
+
+  [C] KNN (k=7)
+    Acc=0.9740  F1=0.9609  F1w=0.9742  AUC=0.9768
+
+  [D] Label Propagation
+    Acc=0.8634  F1=0.7415  F1w=0.8534  AUC=0.796
+
+  [E] Label Spreading
+    Acc=0.8573  F1=0.7254  F1w=0.8458  AUC=0.7855
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HIERARCHICAL_WARD
+  ────────────────────────────────────────────────────────────
+  Hierarchical-ward: 15 clusters, sil=0.5070, t=2.04s
+  Cells total : 11661
+  Labeled     : 117 (1.00%)
+  Test        : 11544
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9796  F1=0.9680  F1w=0.9794  AUC=0.9694
+
+  [B] Cluster Majority Vote
+    Acc=0.9069  F1=0.8378  F1w=0.9028  AUC=0.8619
+
+  [C] KNN (k=7)
+    Acc=0.9680  F1=0.9509  F1w=0.9679  AUC=0.9609
+
+  [D] Label Propagation
+    Acc=0.7734  F1=0.4873  F1w=0.7336  AUC=0.6598
+
+  [E] Label Spreading
+    Acc=0.7578  F1=0.4289  F1w=0.7088  AUC=0.6353
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HIERARCHICAL_AVERAGE
+  ────────────────────────────────────────────────────────────
+  Hierarchical-average: 15 clusters, sil=0.3443, t=1.78s
+  Cells total : 11661
+  Labeled     : 141 (1.21%)
+  Test        : 11520
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9688  F1=0.9526  F1w=0.9687  AUC=0.9646
+
+  [B] Cluster Majority Vote
+    Acc=0.7642  F1=0.5983  F1w=0.7557  AUC=0.7054
+
+  [C] KNN (k=7)
+    Acc=0.9430  F1=0.9172  F1w=0.9435  AUC=0.9467
+
+  [D] Label Propagation
+    Acc=0.7522  F1=0.4485  F1w=0.7109  AUC=0.6388
+
+  [E] Label Spreading
+    Acc=0.7477  F1=0.4167  F1w=0.6997  AUC=0.6273
+
+  ────────────────────────────────────────────────────────────
+  Clustering: GMM
+  ────────────────────────────────────────────────────────────
+  GMM: 15 components, converged=True, sil=0.5126, t=1.11s
+  Cells total : 11661
+  Labeled     : 117 (1.00%)
+  Test        : 11544
+  Clusters    : ?
+
+  [A] Random Forest
+    Acc=0.9351  F1=0.9061  F1w=0.9359  AUC=0.9393
+
+  [B] Cluster Majority Vote
+    Acc=0.8976  F1=0.8585  F1w=0.8996  AUC=0.9095
+
+  [C] KNN (k=7)
+    Acc=0.9100  F1=0.8738  F1w=0.9116  AUC=0.9196
+
+  [D] Label Propagation
+    Acc=0.7555  F1=0.4512  F1w=0.7140  AUC=0.6408
+
+  [E] Label Spreading
+    Acc=0.7526  F1=0.4267  F1w=0.7056  AUC=0.6321
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HDBSCAN
+  ────────────────────────────────────────────────────────────
+  HDBSCAN: 90 clusters, noise=1005, sil=0.6170, t=0.96s
+  Cells total : 11661
+  Labeled     : 450 (3.86%)
+  Test        : 11211
+  Clusters    : 90
+
+  [A] Random Forest
+    Acc=0.9911  F1=0.9863  F1w=0.9911  AUC=0.9872
+
+  [B] Cluster Majority Vote
+    Acc=0.9408  F1=0.9061  F1w=0.9401  AUC=0.9223
+
+  [C] KNN (k=7)
+    Acc=0.9742  F1=0.9613  F1w=0.9743  AUC=0.9735
+
+  [D] Label Propagation
+    Acc=0.8623  F1=0.7522  F1w=0.8545  AUC=0.8044
+
+  [E] Label Spreading
+    Acc=0.8584  F1=0.7355  F1w=0.8481  AUC=0.7921
+
+[7] Summary — best F1-weighted per clustering:
+  kmeans                  best=RandomForest            F1w=0.9870  F1_int=0.9804
+  dbscan                  best=RandomForest            F1w=0.9937  F1_int=0.9902
+  hierarchical_ward       best=RandomForest            F1w=0.9794  F1_int=0.9680
+  hierarchical_average    best=RandomForest            F1w=0.9687  F1_int=0.9526
+  gmm                     best=RandomForest            F1w=0.9359  F1_int=0.9061
+  hdbscan                 best=RandomForest            F1w=0.9911  F1_int=0.9863
+
+======================================================================
+DATASET: TWITTER
+======================================================================
+
+[1] Loading data...
+  Dirty shape  : (4731, 19)
+  Clean shape  : (4731, 19)
+  Error cells  : 1099
+  Intentional  : 346 (31.5%)
+  Unintentional: 753 (68.5%)
+
+[2] Computing heuristic features (AttributionPipeline)...
+  Heuristic feature matrix : (1099, 13)  (columns: ['h1_plausible', 'h2_min_edit_distance', 'h2_is_obfuscation', 'h3_distribution_score', 'h4_coherence_score', 'h5_error_count', 'h5_codependent_flag', 'h6_column_importance', 'h7_mutability', 'h7_gain_direction', 'h7_comprehensibility', 'h8_is_sensitive', 'h8_is_majority_value'])
+
+[3] Computing statistical features (cell-level value statistics)...
+  Statistical feature matrix: (1099, 10)  (columns: ['stat_change_magnitude', 'stat_relative_change', 'stat_change_direction', 'stat_original_magnitude', 'stat_new_magnitude', 'stat_original_log', 'stat_new_log', 'stat_feature_name_encoded', 'stat_original_value_encoded', 'stat_new_value_encoded'])
+
+[4] Aligning and concatenating feature matrices...
+  Combined feature matrix  : (1099, 23)
+  Feature names: ['h1_plausible', 'h2_min_edit_distance', 'h2_is_obfuscation', 'h3_distribution_score', 'h4_coherence_score', 'h5_error_count', 'h5_codependent_flag', 'h6_column_importance', 'h7_mutability', 'h7_gain_direction', 'h7_comprehensibility', 'h8_is_sensitive', 'h8_is_majority_value', 'stat_change_magnitude', 'stat_relative_change', 'stat_change_direction', 'stat_original_magnitude', 'stat_new_magnitude', 'stat_original_log', 'stat_new_log', 'stat_feature_name_encoded', 'stat_original_value_encoded', 'stat_new_value_encoded']
+
+[5] Scaling features...
+  Total cells    : 1099
+  Feature dim    : 23
+  Time so far    : 74.75s
+
+[6] Running 6 clustering algorithms × 5 label methods...
+
+  ────────────────────────────────────────────────────────────
+  Clustering: KMEANS
+  ────────────────────────────────────────────────────────────
+  KMeans: 15 clusters, sil=0.4031, t=0.04s
+  Cells total : 1099
+  Labeled     : 70 (6.37%)
+  Test        : 1029
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9184  F1=0.8688  F1w=0.9179  AUC=0.9001
+
+  [B] Cluster Majority Vote
+    Acc=0.8299  F1=0.6562  F1w=0.8137  AUC=0.7447
+
+  [C] KNN (k=7)
+    Acc=0.9135  F1=0.8576  F1w=0.9124  AUC=0.8884
+
+  [D] Label Propagation
+    Acc=0.9223  F1=0.8697  F1w=0.9208  AUC=0.894
+
+  [E] Label Spreading
+    Acc=0.8707  F1=0.7629  F1w=0.8640  AUC=0.813
+
+  ────────────────────────────────────────────────────────────
+  Clustering: DBSCAN
+  ────────────────────────────────────────────────────────────
+  DBSCAN: eps=1.787, 22 clusters, noise=79, sil=0.4843, t=0.02s
+  Cells total : 1099
+  Labeled     : 110 (10.01%)
+  Test        : 989
+  Clusters    : 22
+
+  [A] Random Forest
+    Acc=0.9181  F1=0.8700  F1w=0.9178  AUC=0.9021
+
+  [B] Cluster Majority Vote
+    Acc=0.9181  F1=0.8601  F1w=0.9159  AUC=0.8836
+
+  [C] KNN (k=7)
+    Acc=0.9373  F1=0.8977  F1w=0.9366  AUC=0.917
+
+  [D] Label Propagation
+    Acc=0.9282  F1=0.8815  F1w=0.9271  AUC=0.9036
+
+  [E] Label Spreading
+    Acc=0.8827  F1=0.8000  F1w=0.8796  AUC=0.8433
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HIERARCHICAL_WARD
+  ────────────────────────────────────────────────────────────
+  Hierarchical-ward: 15 clusters, sil=0.4040, t=0.03s
+  Cells total : 1099
+  Labeled     : 70 (6.37%)
+  Test        : 1029
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.9495  F1=0.9148  F1w=0.9484  AUC=0.9238
+
+  [B] Cluster Majority Vote
+    Acc=0.8882  F1=0.8112  F1w=0.8858  AUC=0.8527
+
+  [C] KNN (k=7)
+    Acc=0.9261  F1=0.8805  F1w=0.9256  AUC=0.9075
+
+  [D] Label Propagation
+    Acc=0.9145  F1=0.8533  F1w=0.9122  AUC=0.8793
+
+  [E] Label Spreading
+    Acc=0.8912  F1=0.8095  F1w=0.8875  AUC=0.8475
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HIERARCHICAL_AVERAGE
+  ────────────────────────────────────────────────────────────
+  Hierarchical-average: 15 clusters, sil=0.2609, t=0.02s
+  Cells total : 1099
+  Labeled     : 39 (3.55%)
+  Test        : 1060
+  Clusters    : 15
+
+  [A] Random Forest
+    Acc=0.7934  F1=0.7280  F1w=0.8004  AUC=0.8176
+
+  [B] Cluster Majority Vote
+    Acc=0.4349  F1=0.5257  F1w=0.3714  AUC=0.5886
+
+  [C] KNN (k=7)
+    Acc=0.5755  F1=0.5953  F1w=0.5666  AUC=0.6901
+
+  [D] Label Propagation
+    Acc=0.8189  F1=0.6336  F1w=0.8026  AUC=0.7321
+
+  [E] Label Spreading
+    Acc=0.7953  F1=0.5580  F1w=0.7701  AUC=0.6912
+
+  ────────────────────────────────────────────────────────────
+  Clustering: GMM
+  ────────────────────────────────────────────────────────────
+  GMM: 15 components, converged=True, sil=0.3855, t=0.25s
+  Cells total : 1099
+  Labeled     : 68 (6.19%)
+  Test        : 1031
+  Clusters    : ?
+
+  [A] Random Forest
+    Acc=0.9166  F1=0.8604  F1w=0.9147  AUC=0.8855
+
+  [B] Cluster Majority Vote
+    Acc=0.8943  F1=0.8222  F1w=0.8917  AUC=0.8588
+
+  [C] KNN (k=7)
+    Acc=0.9350  F1=0.8942  F1w=0.9341  AUC=0.9133
+
+  [D] Label Propagation
+    Acc=0.9146  F1=0.8576  F1w=0.9128  AUC=0.8841
+
+  [E] Label Spreading
+    Acc=0.8729  F1=0.7722  F1w=0.8669  AUC=0.8193
+
+  ────────────────────────────────────────────────────────────
+  Clustering: HDBSCAN
+  ────────────────────────────────────────────────────────────
+  HDBSCAN: 8 clusters, noise=159, sil=0.3420, t=0.08s
+  Cells total : 1099
+  Labeled     : 40 (3.64%)
+  Test        : 1059
+  Clusters    : 8
+
+  [A] Random Forest
+    Acc=0.8669  F1=0.8117  F1w=0.8703  AUC=0.8801
+
+  [B] Cluster Majority Vote
+    Acc=0.8640  F1=0.7262  F1w=0.8521  AUC=0.7856
+
+  [C] KNN (k=7)
+    Acc=0.9037  F1=0.8607  F1w=0.9058  AUC=0.9159
+
+  [D] Label Propagation
+    Acc=0.8848  F1=0.7932  F1w=0.8804  AUC=0.8359
+
+  [E] Label Spreading
+    Acc=0.8810  F1=0.7828  F1w=0.8757  AUC=0.8274
+
+[7] Summary — best F1-weighted per clustering:
+  kmeans                  best=LabelPropagation        F1w=0.9208  F1_int=0.8697
+  dbscan                  best=KNN_k7                  F1w=0.9366  F1_int=0.8977
+  hierarchical_ward       best=RandomForest            F1w=0.9484  F1_int=0.9148
+  hierarchical_average    best=LabelPropagation        F1w=0.8026  F1_int=0.6336
+  gmm                     best=KNN_k7                  F1w=0.9341  F1_int=0.8942
+  hdbscan                 best=KNN_k7                  F1w=0.9058  F1_int=0.8607
+
+======================================================================
+GLOBAL BEST — Combined features, F1-weighted per dataset × algorithm:
+======================================================================
+  llm      kmeans                 → RandomForest           F1w=0.9637
+  llm      dbscan                 → RandomForest           F1w=0.9686
+  llm      hierarchical_ward      → RandomForest           F1w=0.9630
+  llm      hierarchical_average   → RandomForest           F1w=0.9647
+  llm      gmm                    → RandomForest           F1w=0.9606
+  llm      hdbscan                → RandomForest           F1w=0.9748
+  kireev   kmeans                 → RandomForest           F1w=0.9870
+  kireev   dbscan                 → RandomForest           F1w=0.9937
+  kireev   hierarchical_ward      → RandomForest           F1w=0.9794
+  kireev   hierarchical_average   → RandomForest           F1w=0.9687
+  kireev   gmm                    → RandomForest           F1w=0.9359
+  kireev   hdbscan                → RandomForest           F1w=0.9911
+  twitter  kmeans                 → LabelPropagation       F1w=0.9208
+  twitter  dbscan                 → KNN_k7                 F1w=0.9366
+  twitter  hierarchical_ward      → RandomForest           F1w=0.9484
+  twitter  hierarchical_average   → LabelPropagation       F1w=0.8026
+  twitter  gmm                    → KNN_k7                 F1w=0.9341
+  twitter  hdbscan                → KNN_k7                 F1w=0.9058

@@ -1,0 +1,421 @@
+
+======================================================================
+CLUSTERING ALGORITHM COMPARISON
+NORMAL vs SMART SAMPLING
+======================================================================
+Target samples: 127
+Random state: 42
+
+Testing TWO strategies for EACH clustering algorithm:
+
+  NORMAL SAMPLING:
+    1. Cluster the data
+    2. Proportional allocation to clusters
+    3. Random selection within clusters
+
+  SMART SAMPLING (User's Idea):
+    1. Cluster the data
+    2. Proportional allocation (1-10 reps per cluster)
+    3. Stratified sampling within clusters (by intent)
+
+======================================================================
+LOADING DATA
+======================================================================
+Using data from: data/raw/run_20251031_211812
+✓ Loaded masks: (19539, 15)
+✓ Loaded manipulated records: (19539, 15)
+✓ Loaded correct records: (6513, 15)
+
+Processing 19539 variant records...
+Processing records:   0%|          | 0/19539 [00:00<?, ?record/s]Processing records:   3%|▎         | 510/19539 [00:00<00:03, 5099.71record/s]Processing records:   5%|▌         | 1020/19539 [00:00<00:03, 5080.38record/s]Processing records:   8%|▊         | 1536/19539 [00:00<00:03, 5113.59record/s]Processing records:  11%|█         | 2057/19539 [00:00<00:03, 5151.39record/s]Processing records:  13%|█▎        | 2573/19539 [00:00<00:03, 5126.81record/s]Processing records:  16%|█▌        | 3088/19539 [00:00<00:03, 5133.45record/s]Processing records:  18%|█▊        | 3602/19539 [00:00<00:03, 5120.18record/s]Processing records:  21%|██        | 4129/19539 [00:00<00:02, 5166.09record/s]Processing records:  24%|██▍       | 4648/19539 [00:00<00:02, 5172.58record/s]Processing records:  26%|██▋       | 5166/19539 [00:01<00:02, 5146.78record/s]Processing records:  29%|██▉       | 5681/19539 [00:01<00:02, 5103.73record/s]Processing records:  32%|███▏      | 6194/19539 [00:01<00:02, 5108.88record/s]Processing records:  34%|███▍      | 6713/19539 [00:01<00:02, 5132.41record/s]Processing records:  38%|███▊      | 7417/19539 [00:01<00:02, 5704.11record/s]Processing records:  42%|████▏     | 8133/19539 [00:01<00:01, 6140.16record/s]Processing records:  45%|████▌     | 8839/19539 [00:01<00:01, 6413.89record/s]Processing records:  49%|████▉     | 9562/19539 [00:01<00:01, 6656.26record/s]Processing records:  53%|█████▎    | 10278/19539 [00:01<00:01, 6807.32record/s]Processing records:  56%|█████▋    | 10996/19539 [00:01<00:01, 6918.00record/s]Processing records:  60%|█████▉    | 11713/19539 [00:02<00:01, 6991.50record/s]Processing records:  64%|██████▎   | 12431/19539 [00:02<00:01, 7046.57record/s]Processing records:  67%|██████▋   | 13139/19539 [00:02<00:00, 7053.02record/s]Processing records:  71%|███████   | 13858/19539 [00:02<00:00, 7092.69record/s]Processing records:  75%|███████▍  | 14584/19539 [00:02<00:00, 7142.72record/s]Processing records:  78%|███████▊  | 15316/19539 [00:02<00:00, 7195.06record/s]Processing records:  82%|████████▏ | 16036/19539 [00:02<00:00, 7178.70record/s]Processing records:  86%|████████▌ | 16754/19539 [00:02<00:00, 7131.17record/s]Processing records:  89%|████████▉ | 17482/19539 [00:02<00:00, 7173.69record/s]Processing records:  93%|█████████▎| 18200/19539 [00:02<00:00, 7158.05record/s]Processing records:  97%|█████████▋| 18928/19539 [00:03<00:00, 7194.20record/s]Processing records: 100%|██████████| 19539/19539 [00:03<00:00, 6300.88record/s]
+
+✓ Created dataset with 28256 feature changes
+  Intentional (1): 13291
+  Unintentional (-1): 14965
+  Unique variant records: 18207
+
+Total dataset:
+  Total variants: 18207
+  Total samples: 28256
+  Intentional: 13291
+  Unintentional: 14965
+
+======================================================================
+CREATING AGGREGATE FEATURES FROM ALL DATA
+======================================================================
+Aggregating features:   0%|          | 0/18207 [00:00<?, ?it/s]Aggregating features:   1%|          | 167/18207 [00:00<00:10, 1665.43it/s]Aggregating features:   2%|▏         | 337/18207 [00:00<00:10, 1682.50it/s]Aggregating features:   3%|▎         | 508/18207 [00:00<00:10, 1693.93it/s]Aggregating features:   4%|▎         | 679/18207 [00:00<00:10, 1697.49it/s]Aggregating features:   5%|▍         | 850/18207 [00:00<00:10, 1699.00it/s]Aggregating features:   6%|▌         | 1020/18207 [00:00<00:10, 1696.27it/s]Aggregating features:   7%|▋         | 1190/18207 [00:00<00:10, 1696.66it/s]Aggregating features:   7%|▋         | 1360/18207 [00:00<00:09, 1696.65it/s]Aggregating features:   8%|▊         | 1530/18207 [00:00<00:09, 1693.81it/s]Aggregating features:   9%|▉         | 1700/18207 [00:01<00:09, 1690.26it/s]Aggregating features:  10%|█         | 1870/18207 [00:01<00:09, 1692.70it/s]Aggregating features:  11%|█         | 2040/18207 [00:01<00:09, 1692.66it/s]Aggregating features:  12%|█▏        | 2210/18207 [00:01<00:09, 1690.13it/s]Aggregating features:  13%|█▎        | 2380/18207 [00:01<00:09, 1688.15it/s]Aggregating features:  14%|█▍        | 2549/18207 [00:01<00:09, 1684.96it/s]Aggregating features:  15%|█▍        | 2718/18207 [00:01<00:09, 1685.60it/s]Aggregating features:  16%|█▌        | 2887/18207 [00:01<00:09, 1685.57it/s]Aggregating features:  17%|█▋        | 3056/18207 [00:01<00:09, 1682.74it/s]Aggregating features:  18%|█▊        | 3225/18207 [00:01<00:08, 1677.22it/s]Aggregating features:  19%|█▊        | 3393/18207 [00:02<00:08, 1677.25it/s]Aggregating features:  20%|█▉        | 3562/18207 [00:02<00:08, 1678.96it/s]Aggregating features:  20%|██        | 3732/18207 [00:02<00:08, 1682.40it/s]Aggregating features:  21%|██▏       | 3901/18207 [00:02<00:08, 1683.09it/s]Aggregating features:  22%|██▏       | 4070/18207 [00:02<00:08, 1683.05it/s]Aggregating features:  23%|██▎       | 4239/18207 [00:02<00:08, 1682.58it/s]Aggregating features:  24%|██▍       | 4408/18207 [00:02<00:08, 1682.97it/s]Aggregating features:  25%|██▌       | 4577/18207 [00:02<00:08, 1682.16it/s]Aggregating features:  26%|██▌       | 4746/18207 [00:02<00:08, 1681.66it/s]Aggregating features:  27%|██▋       | 4915/18207 [00:02<00:07, 1683.50it/s]Aggregating features:  28%|██▊       | 5084/18207 [00:03<00:07, 1684.70it/s]Aggregating features:  29%|██▉       | 5253/18207 [00:03<00:07, 1684.38it/s]Aggregating features:  30%|██▉       | 5422/18207 [00:03<00:07, 1669.51it/s]Aggregating features:  31%|███       | 5589/18207 [00:03<00:07, 1669.14it/s]Aggregating features:  32%|███▏      | 5756/18207 [00:03<00:07, 1668.59it/s]Aggregating features:  33%|███▎      | 5924/18207 [00:03<00:07, 1671.29it/s]Aggregating features:  33%|███▎      | 6093/18207 [00:03<00:07, 1674.92it/s]Aggregating features:  34%|███▍      | 6262/18207 [00:03<00:07, 1678.83it/s]Aggregating features:  35%|███▌      | 6431/18207 [00:03<00:07, 1679.34it/s]Aggregating features:  36%|███▋      | 6601/18207 [00:03<00:06, 1684.92it/s]Aggregating features:  37%|███▋      | 6770/18207 [00:04<00:06, 1683.59it/s]Aggregating features:  38%|███▊      | 6939/18207 [00:04<00:06, 1681.14it/s]Aggregating features:  39%|███▉      | 7108/18207 [00:04<00:06, 1681.18it/s]Aggregating features:  40%|███▉      | 7277/18207 [00:04<00:06, 1681.12it/s]Aggregating features:  41%|████      | 7446/18207 [00:04<00:06, 1681.92it/s]Aggregating features:  42%|████▏     | 7615/18207 [00:04<00:06, 1681.24it/s]Aggregating features:  43%|████▎     | 7784/18207 [00:04<00:06, 1678.60it/s]Aggregating features:  44%|████▎     | 7952/18207 [00:04<00:06, 1668.91it/s]Aggregating features:  45%|████▍     | 8119/18207 [00:04<00:06, 1668.90it/s]Aggregating features:  46%|████▌     | 8288/18207 [00:04<00:05, 1673.94it/s]Aggregating features:  46%|████▋     | 8457/18207 [00:05<00:05, 1677.31it/s]Aggregating features:  47%|████▋     | 8626/18207 [00:05<00:05, 1680.96it/s]Aggregating features:  48%|████▊     | 8795/18207 [00:05<00:05, 1680.26it/s]Aggregating features:  49%|████▉     | 8964/18207 [00:05<00:05, 1678.93it/s]Aggregating features:  50%|█████     | 9132/18207 [00:05<00:05, 1677.71it/s]Aggregating features:  51%|█████     | 9300/18207 [00:05<00:05, 1677.22it/s]Aggregating features:  52%|█████▏    | 9469/18207 [00:05<00:05, 1678.06it/s]Aggregating features:  53%|█████▎    | 9637/18207 [00:05<00:05, 1678.20it/s]Aggregating features:  54%|█████▍    | 9805/18207 [00:05<00:05, 1678.62it/s]Aggregating features:  55%|█████▍    | 9973/18207 [00:05<00:04, 1678.51it/s]Aggregating features:  56%|█████▌    | 10142/18207 [00:06<00:04, 1679.85it/s]Aggregating features:  57%|█████▋    | 10310/18207 [00:06<00:04, 1676.65it/s]Aggregating features:  58%|█████▊    | 10478/18207 [00:06<00:04, 1675.74it/s]Aggregating features:  58%|█████▊    | 10646/18207 [00:06<00:04, 1676.53it/s]Aggregating features:  59%|█████▉    | 10814/18207 [00:06<00:04, 1675.07it/s]Aggregating features:  60%|██████    | 10982/18207 [00:06<00:04, 1674.67it/s]Aggregating features:  61%|██████    | 11150/18207 [00:06<00:04, 1675.42it/s]Aggregating features:  62%|██████▏   | 11319/18207 [00:06<00:04, 1678.56it/s]Aggregating features:  63%|██████▎   | 11488/18207 [00:06<00:04, 1679.09it/s]Aggregating features:  64%|██████▍   | 11656/18207 [00:06<00:03, 1675.19it/s]Aggregating features:  65%|██████▍   | 11824/18207 [00:07<00:03, 1673.47it/s]Aggregating features:  66%|██████▌   | 11992/18207 [00:07<00:03, 1674.36it/s]Aggregating features:  67%|██████▋   | 12161/18207 [00:07<00:03, 1676.12it/s]Aggregating features:  68%|██████▊   | 12329/18207 [00:07<00:03, 1676.62it/s]Aggregating features:  69%|██████▊   | 12497/18207 [00:07<00:03, 1675.07it/s]Aggregating features:  70%|██████▉   | 12666/18207 [00:07<00:03, 1677.25it/s]Aggregating features:  70%|███████   | 12834/18207 [00:07<00:03, 1677.13it/s]Aggregating features:  71%|███████▏  | 13002/18207 [00:07<00:03, 1676.91it/s]Aggregating features:  72%|███████▏  | 13170/18207 [00:07<00:03, 1675.80it/s]Aggregating features:  73%|███████▎  | 13339/18207 [00:07<00:02, 1677.53it/s]Aggregating features:  74%|███████▍  | 13507/18207 [00:08<00:02, 1676.79it/s]Aggregating features:  75%|███████▌  | 13675/18207 [00:08<00:02, 1676.32it/s]Aggregating features:  76%|███████▌  | 13844/18207 [00:08<00:02, 1678.36it/s]Aggregating features:  77%|███████▋  | 14013/18207 [00:08<00:02, 1681.10it/s]Aggregating features:  78%|███████▊  | 14182/18207 [00:08<00:02, 1681.01it/s]Aggregating features:  79%|███████▉  | 14351/18207 [00:08<00:02, 1682.11it/s]Aggregating features:  80%|███████▉  | 14520/18207 [00:08<00:02, 1679.51it/s]Aggregating features:  81%|████████  | 14689/18207 [00:08<00:02, 1680.20it/s]Aggregating features:  82%|████████▏ | 14858/18207 [00:08<00:01, 1676.69it/s]Aggregating features:  83%|████████▎ | 15027/18207 [00:08<00:01, 1677.92it/s]Aggregating features:  83%|████████▎ | 15195/18207 [00:09<00:01, 1667.41it/s]Aggregating features:  84%|████████▍ | 15362/18207 [00:09<00:01, 1620.37it/s]Aggregating features:  85%|████████▌ | 15525/18207 [00:09<00:01, 1599.08it/s]Aggregating features:  86%|████████▌ | 15693/18207 [00:09<00:01, 1619.97it/s]Aggregating features:  87%|████████▋ | 15861/18207 [00:09<00:01, 1636.51it/s]Aggregating features:  88%|████████▊ | 16029/18207 [00:09<00:01, 1647.56it/s]Aggregating features:  89%|████████▉ | 16194/18207 [00:09<00:01, 1576.02it/s]Aggregating features:  90%|████████▉ | 16363/18207 [00:09<00:01, 1607.07it/s]Aggregating features:  91%|█████████ | 16531/18207 [00:09<00:01, 1627.06it/s]Aggregating features:  92%|█████████▏| 16698/18207 [00:09<00:00, 1638.69it/s]Aggregating features:  93%|█████████▎| 16865/18207 [00:10<00:00, 1646.33it/s]Aggregating features:  94%|█████████▎| 17032/18207 [00:10<00:00, 1652.51it/s]Aggregating features:  94%|█████████▍| 17200/18207 [00:10<00:00, 1658.90it/s]Aggregating features:  95%|█████████▌| 17368/18207 [00:10<00:00, 1665.18it/s]Aggregating features:  96%|█████████▋| 17536/18207 [00:10<00:00, 1667.29it/s]Aggregating features:  97%|█████████▋| 17703/18207 [00:10<00:00, 1665.67it/s]Aggregating features:  98%|█████████▊| 17870/18207 [00:10<00:00, 1666.68it/s]Aggregating features:  99%|█████████▉| 18037/18207 [00:10<00:00, 1661.76it/s]Aggregating features: 100%|█████████▉| 18204/18207 [00:10<00:00, 1662.40it/s]Aggregating features: 100%|██████████| 18207/18207 [00:10<00:00, 1672.90it/s]
+
+✓ Created 18207 aggregate feature vectors
+  Feature dimension: 15
+✓ Created 18207 aggregate feature vectors
+  Feature dimension: 15
+
+======================================================================
+K-MEANS CLUSTERING (BASELINE)
+======================================================================
+✓ K-Means with K=15
+  Silhouette Score: 0.5293
+  Runtime: 2.86s
+  Clusters found: 15
+
+──────────────────────────────────────────────────────────────────────
+Testing K-Means with NORMAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 127 variants from 15 clusters
+  Total samples: 200
+  Intentional: 92, Unintentional: 108
+
+======================================================================
+EVALUATION: K-Means (Normal)
+======================================================================
+  Training variants: 127 (0.70% of 18207)
+  Training samples: 200 (0.71% of 28256)
+  Test samples: 28056 (99.29% of 28256)
+  Accuracy: 0.8623
+  F1 Weighted: 0.8623
+  F1 Intentional: 0.8538
+  F1 Unintentional: 0.8699
+
+──────────────────────────────────────────────────────────────────────
+Testing K-Means with SMART SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 127 variants from 15 clusters
+  Total samples: 197
+  Intentional: 86, Unintentional: 111
+
+======================================================================
+EVALUATION: K-Means (Smart)
+======================================================================
+  Training variants: 127 (0.70% of 18207)
+  Training samples: 197 (0.70% of 28256)
+  Test samples: 28059 (99.30% of 28256)
+  Accuracy: 0.8373
+  F1 Weighted: 0.8374
+  F1 Intentional: 0.8318
+  F1 Unintentional: 0.8424
+
+======================================================================
+DBSCAN CLUSTERING
+======================================================================
+  Auto-tuned eps: 0.0534
+✓ DBSCAN with eps=0.0534, min_samples=5
+  Clusters found: 266
+  Noise points: 1743 (9.6%)
+  Silhouette Score: 0.8423
+  Runtime: 3.08s
+
+──────────────────────────────────────────────────────────────────────
+Testing DBSCAN with NORMAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 266 variants from 266 clusters
+  Total samples: 514
+  Intentional: 315, Unintentional: 199
+
+======================================================================
+EVALUATION: DBSCAN (Normal)
+======================================================================
+  Training variants: 266 (1.46% of 18207)
+  Training samples: 514 (1.82% of 28256)
+  Test samples: 27742 (98.18% of 28256)
+  Accuracy: 0.8946
+  F1 Weighted: 0.8947
+  F1 Intentional: 0.8934
+  F1 Unintentional: 0.8959
+
+──────────────────────────────────────────────────────────────────────
+Testing DBSCAN with SMART SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 266 variants from 266 clusters
+  Total samples: 514
+  Intentional: 315, Unintentional: 199
+
+======================================================================
+EVALUATION: DBSCAN (Smart)
+======================================================================
+  Training variants: 266 (1.46% of 18207)
+  Training samples: 514 (1.82% of 28256)
+  Test samples: 27742 (98.18% of 28256)
+  Accuracy: 0.8800
+  F1 Weighted: 0.8800
+  F1 Intentional: 0.8787
+  F1 Unintentional: 0.8812
+
+======================================================================
+HIERARCHICAL CLUSTERING
+======================================================================
+✓ Hierarchical Clustering with ward linkage
+  Clusters: 15
+  Silhouette Score: 0.5239
+  Runtime: 6.47s
+  Creating dendrogram with sample of 1000 points...
+  ✓ Saved dendrogram to dendrogram_ward.png
+
+──────────────────────────────────────────────────────────────────────
+Testing Hierarchical-Ward with NORMAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 127 variants from 15 clusters
+  Total samples: 203
+  Intentional: 94, Unintentional: 109
+
+======================================================================
+EVALUATION: Hierarchical-Ward (Normal)
+======================================================================
+  Training variants: 127 (0.70% of 18207)
+  Training samples: 203 (0.72% of 28256)
+  Test samples: 28053 (99.28% of 28256)
+  Accuracy: 0.8645
+  F1 Weighted: 0.8645
+  F1 Intentional: 0.8552
+  F1 Unintentional: 0.8727
+
+──────────────────────────────────────────────────────────────────────
+Testing Hierarchical-Ward with SMART SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 127 variants from 15 clusters
+  Total samples: 201
+  Intentional: 93, Unintentional: 108
+
+======================================================================
+EVALUATION: Hierarchical-Ward (Smart)
+======================================================================
+  Training variants: 127 (0.70% of 18207)
+  Training samples: 201 (0.71% of 28256)
+  Test samples: 28055 (99.29% of 28256)
+  Accuracy: 0.8364
+  F1 Weighted: 0.8365
+  F1 Intentional: 0.8294
+  F1 Unintentional: 0.8429
+
+======================================================================
+HIERARCHICAL CLUSTERING
+======================================================================
+✓ Hierarchical Clustering with average linkage
+  Clusters: 15
+  Silhouette Score: 0.4547
+  Runtime: 7.33s
+  Creating dendrogram with sample of 1000 points...
+  ✓ Saved dendrogram to dendrogram_average.png
+
+──────────────────────────────────────────────────────────────────────
+Testing Hierarchical-Average with NORMAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 127 variants from 15 clusters
+  Total samples: 222
+  Intentional: 99, Unintentional: 123
+
+======================================================================
+EVALUATION: Hierarchical-Average (Normal)
+======================================================================
+  Training variants: 127 (0.70% of 18207)
+  Training samples: 222 (0.79% of 28256)
+  Test samples: 28034 (99.21% of 28256)
+  Accuracy: 0.8631
+  F1 Weighted: 0.8626
+  F1 Intentional: 0.8493
+  F1 Unintentional: 0.8745
+
+──────────────────────────────────────────────────────────────────────
+Testing Hierarchical-Average with SMART SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 127 variants from 15 clusters
+  Total samples: 188
+  Intentional: 52, Unintentional: 136
+
+======================================================================
+EVALUATION: Hierarchical-Average (Smart)
+======================================================================
+  Training variants: 127 (0.70% of 18207)
+  Training samples: 188 (0.67% of 28256)
+  Test samples: 28068 (99.33% of 28256)
+  Accuracy: 0.8093
+  F1 Weighted: 0.8091
+  F1 Intentional: 0.7946
+  F1 Unintentional: 0.8220
+
+======================================================================
+GAUSSIAN MIXTURE MODELS
+======================================================================
+✓ Gaussian Mixture Model with 15 components
+  Silhouette Score: 0.4492
+  BIC: -2432071.28
+  AIC: -2447994.97
+  Runtime: 7.17s
+  Converged: True
+
+──────────────────────────────────────────────────────────────────────
+Testing GMM with NORMAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 127 variants from 15 clusters
+  Total samples: 198
+  Intentional: 91, Unintentional: 107
+
+======================================================================
+EVALUATION: GMM (Normal)
+======================================================================
+  Training variants: 127 (0.70% of 18207)
+  Training samples: 198 (0.70% of 28256)
+  Test samples: 28058 (99.30% of 28256)
+  Accuracy: 0.8613
+  F1 Weighted: 0.8611
+  F1 Intentional: 0.8499
+  F1 Unintentional: 0.8710
+
+──────────────────────────────────────────────────────────────────────
+Testing GMM with SMART SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 127 variants from 15 clusters
+  Total samples: 197
+  Intentional: 89, Unintentional: 108
+
+======================================================================
+EVALUATION: GMM (Smart)
+======================================================================
+  Training variants: 127 (0.70% of 18207)
+  Training samples: 197 (0.70% of 28256)
+  Test samples: 28059 (99.30% of 28256)
+  Accuracy: 0.8405
+  F1 Weighted: 0.8405
+  F1 Intentional: 0.8391
+  F1 Unintentional: 0.8418
+
+======================================================================
+HDBSCAN CLUSTERING
+======================================================================
+✓ HDBSCAN
+  Clusters found: 600
+  Noise points: 1167 (6.4%)
+  Silhouette Score: 0.9305
+  Runtime: 4.06s
+  Cluster persistence scores available: 600
+
+──────────────────────────────────────────────────────────────────────
+Testing HDBSCAN with NORMAL SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 600 variants from 600 clusters
+  Total samples: 1060
+  Intentional: 544, Unintentional: 516
+
+======================================================================
+EVALUATION: HDBSCAN (Normal)
+======================================================================
+  Training variants: 600 (3.30% of 18207)
+  Training samples: 1060 (3.75% of 28256)
+  Test samples: 27196 (96.25% of 28256)
+  Accuracy: 0.8967
+  F1 Weighted: 0.8968
+  F1 Intentional: 0.8939
+  F1 Unintentional: 0.8994
+
+──────────────────────────────────────────────────────────────────────
+Testing HDBSCAN with SMART SAMPLING
+──────────────────────────────────────────────────────────────────────
+
+  Selected 600 variants from 600 clusters
+  Total samples: 1060
+  Intentional: 544, Unintentional: 516
+
+======================================================================
+EVALUATION: HDBSCAN (Smart)
+======================================================================
+  Training variants: 600 (3.30% of 18207)
+  Training samples: 1060 (3.75% of 28256)
+  Test samples: 27196 (96.25% of 28256)
+  Accuracy: 0.9249
+  F1 Weighted: 0.9250
+  F1 Intentional: 0.9212
+  F1 Unintentional: 0.9283
+
+✓ Saved results to results/clustering_comparison/algorithm_comparison.csv
+
+======================================================================
+CREATING VISUALIZATIONS
+======================================================================
+✓ Saved comparison plot to algorithm_comparison.png
+
+==============================================================================================================
+FINAL SUMMARY - NORMAL vs SMART SAMPLING
+==============================================================================================================
+
+Ranking by F1 Score:
+--------------------------------------------------------------------------------------------------------------
+Algorithm                           | Strategy | F1     | Variants | %Vars   | Samples | %Smpls   | Test   
+--------------------------------------------------------------------------------------------------------------
+HDBSCAN (Smart)                     | Smart    | 0.9250 |      600 |   3.30% |    1060 |    3.75% |   27196
+HDBSCAN (Normal)                    | Normal   | 0.8968 |      600 |   3.30% |    1060 |    3.75% |   27196
+DBSCAN (Normal)                     | Normal   | 0.8947 |      266 |   1.46% |     514 |    1.82% |   27742
+DBSCAN (Smart)                      | Smart    | 0.8800 |      266 |   1.46% |     514 |    1.82% |   27742
+Hierarchical-Ward (Normal)          | Normal   | 0.8645 |      127 |   0.70% |     203 |    0.72% |   28053
+Hierarchical-Average (Normal)       | Normal   | 0.8626 |      127 |   0.70% |     222 |    0.79% |   28034
+K-Means (Normal)                    | Normal   | 0.8623 |      127 |   0.70% |     200 |    0.71% |   28056
+GMM (Normal)                        | Normal   | 0.8611 |      127 |   0.70% |     198 |    0.70% |   28058
+GMM (Smart)                         | Smart    | 0.8405 |      127 |   0.70% |     197 |    0.70% |   28059
+K-Means (Smart)                     | Smart    | 0.8374 |      127 |   0.70% |     197 |    0.70% |   28059
+Hierarchical-Ward (Smart)           | Smart    | 0.8365 |      127 |   0.70% |     201 |    0.71% |   28055
+Hierarchical-Average (Smart)        | Smart    | 0.8091 |      127 |   0.70% |     188 |    0.67% |   28068
+
+==============================================================================================================
+🏆 BEST OVERALL RESULT
+==============================================================================================================
+Algorithm: HDBSCAN (Smart)
+Sampling Strategy: Smart
+F1 Score: 0.9250
+F1 Intentional: 0.9212
+F1 Unintentional: 0.9283
+Silhouette Score: 0.9305
+Number of Clusters: 600
+Variants Selected: 600 / 18207 (3.30%)
+Training Samples: 1060 / 28256 (3.75%)
+Test Samples: 27196 (96.25%)
+Runtime: 4.06s
+
+==============================================================================================================
+📊 NORMAL vs SMART SAMPLING COMPARISON
+==============================================================================================================
+
+DBSCAN:
+  Normal:  0.8947 F1 (266 variants [1.46%], 514 samples [1.82%])
+  Smart:   0.8800 F1 (266 variants [1.46%], 514 samples [1.82%])
+  Diff:    -0.0147 (-1.64%) - ⚡ NORMAL
+
+GMM:
+  Normal:  0.8611 F1 (127 variants [0.70%], 198 samples [0.70%])
+  Smart:   0.8405 F1 (127 variants [0.70%], 197 samples [0.70%])
+  Diff:    -0.0206 (-2.39%) - ⚡ NORMAL
+
+HDBSCAN:
+  Normal:  0.8968 F1 (600 variants [3.30%], 1060 samples [3.75%])
+  Smart:   0.9250 F1 (600 variants [3.30%], 1060 samples [3.75%])
+  Diff:    +0.0282 (+3.14%) - 🔥 SMART
+
+Hierarchical-Average:
+  Normal:  0.8626 F1 (127 variants [0.70%], 222 samples [0.79%])
+  Smart:   0.8091 F1 (127 variants [0.70%], 188 samples [0.67%])
+  Diff:    -0.0536 (-6.21%) - ⚡ NORMAL
+
+Hierarchical-Ward:
+  Normal:  0.8645 F1 (127 variants [0.70%], 203 samples [0.72%])
+  Smart:   0.8365 F1 (127 variants [0.70%], 201 samples [0.71%])
+  Diff:    -0.0279 (-3.23%) - ⚡ NORMAL
+
+K-Means:
+  Normal:  0.8623 F1 (127 variants [0.70%], 200 samples [0.71%])
+  Smart:   0.8374 F1 (127 variants [0.70%], 197 samples [0.70%])
+  Diff:    -0.0249 (-2.89%) - ⚡ NORMAL
+
+✓ Detailed summary saved to: results/clustering_comparison/detailed_summary.txt
+
+======================================================================
+✓ COMPARISON COMPLETE!
+======================================================================
+Results saved to: results/clustering_comparison

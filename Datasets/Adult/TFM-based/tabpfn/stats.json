@@ -1,0 +1,26 @@
+{
+  "n_rows_total": 48842,
+  "n_rows_clean": 42791,
+  "n_rows_error": 6051,
+  "n_rows_unintentional": 4910,
+  "n_rows_intentional": 1141,
+  "n_cells_unintentional": 6190,
+  "yield_unintentional": 0.7369,
+  "temperature_unintentional": 0.7,
+  "tabpfn_version": "6.4.1",
+  "rf_accuracy": 0.8674,
+  "seed": 42,
+  "total_runtime_s": 400.9,
+  "n_intentional_target_rows": 1368,
+  "n_intentional_rows_actual": 1141,
+  "n_intentional_cells": 3009,
+  "flip_rate": 0.8341,
+  "temperature_intentional": 1.0,
+  "k_candidates": 50,
+  "mask_cols_intentional": [
+    "capital-gain",
+    "relationship",
+    "age"
+  ],
+  "generated_at": "2026-04-16T12:47:55.799581+00:00"
+}

@@ -1,0 +1,83 @@
+The TabFact dataset contains factual claims about entities paired with evidence tables.
+Each row represents one claim. Refuted claims (is_factual=0) contain DELIBERATELY
+incorrect values crafted to look plausible while contradicting the evidence; entailed
+claims (is_factual=1) are factually correct. Every cell described below has ALREADY
+been flagged as erroneous by an upstream detector; the question is whether the change
+was a deliberate factual manipulation (intentional) or an accidental data artefact
+(unintentional).
+
+Known intent signals (deceptive manipulation = gain-targeted, in the sense of making a
+false claim that still reads as plausible):
+
+A claim author who wants a refuted (false) claim to still look credible chooses a
+replacement value that is internally plausible but breaks the claim's link to the
+correct evidence:
+  - A flagged subject_type that is inconsistent with the claim's true domain (e.g. an
+    Athlete or Team subject paired with claim_domain "Politics" or "Business" instead
+    of "Sports") indicates the entity category was deliberately swapped to manufacture
+    a false-but-plausible-sounding claim.
+  - A flagged claim_domain that is inconsistent with subject_type for the same reason
+    (e.g. a "Party" subject_type paired with a claim_domain other than "Politics").
+  - A flagged value whose magnitude is inconsistent with its claim_domain (e.g. a
+    Sports value far outside typical game-score/ranking magnitudes, or a Demographics
+    value far outside typical population-count magnitudes) indicates the quantity was
+    deliberately altered to misstate the claim while remaining a plausible-looking
+    number.
+  - A flagged subject_location that does not correspond to any real geographic place
+    plausible for the subject indicates the location was deliberately altered to
+    misstate the claim.
+
+Known intent signals (no plausible motive / noise):
+
+A flagged cell whose value is empty, null, or a numeric placeholder (e.g. 0 or a
+blank string in subject_entity, or a non-positive value in value) serves no
+plausible deception goal, since a credible false claim requires a plausible-looking
+replacement, not an empty or degenerate one. Such values are more consistent with an
+accidental data artefact than a deliberate claim manipulation. In this corpus, the
+deception motive is expected to dominate, since every flagged cell originates from a
+deliberate claim-refutation process; rules in this class exist mainly as a safety net
+and may rarely or never fire.
+
+Column descriptions and validity rules (for reference; use these together with the
+intent signals above, not as a separate error-detection pass):
+
+- subject_entity: The name of the primary entity the claim is about (a person,
+  team, company, country, etc.). Must be a non-empty string. Cannot be blank,
+  null, or a numeric placeholder.
+
+- subject_type: The category of the subject entity. Must be exactly one of:
+  Athlete, Team, Organization, Leader, Company, Executive, Candidate, Party.
+  No other values are valid.
+
+- subject_location: The geographic location associated with the subject entity
+  (city, country, or region). Must be a non-empty string. A subject_entity
+  that is a Team or Athlete should have a valid location that corresponds to
+  a real geographic place.
+
+- value: A numeric quantity referenced in the claim (e.g., a score, count,
+  amount, or measurement). Must be a positive integer greater than 0.
+  Values below 100 are implausible given the dataset scale. Values above
+  500,000,000 are implausible for most domain-relevant statistics.
+
+- claim_domain: The subject-matter domain of the claim. Must be exactly one of:
+  Sports, Demographics, Business, Politics. No other values are valid. This is
+  the field most directly targeted by the deceptive cross-domain swaps
+  described above.
+
+Cross-column rules:
+
+- If subject_type is "Athlete" or "Team", claim_domain should be "Sports".
+  Other combinations (e.g., Team in "Politics") are unusual and likely a
+  deliberate cross-domain swap.
+
+- If subject_type is "Leader", "Executive", or "Candidate", claim_domain
+  should be "Politics" or "Business". A Leader or Candidate in "Sports" is
+  implausible and likely a deliberate cross-domain swap.
+
+- If subject_type is "Party", claim_domain must be "Politics".
+
+- The value column must be consistent with the claim_domain: Sports values
+  are typically game scores, counts, or rankings (rarely above 10,000,000);
+  Demographics values can be large population counts (millions are plausible);
+  Business values can be revenues or profits (billions are plausible);
+  Politics values are typically vote counts, percentages, or seat counts.

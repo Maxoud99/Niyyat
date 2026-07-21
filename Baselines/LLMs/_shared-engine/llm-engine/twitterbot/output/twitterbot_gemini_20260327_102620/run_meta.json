@@ -1,0 +1,17 @@
+{
+  "run_timestamp": "2026-03-27T10:26:44.892180",
+  "model": "gemini-2.0-flash",
+  "n_records": 50,
+  "n_total_rows": 4731,
+  "dirty_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/twibot20_phase2_final.csv",
+  "clean_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/twibot20_clean.csv",
+  "mask_path": "/home/mohamed/error_injector/llms_baseline/mixed_error_pipeline_twitter/output/mask_combined.csv",
+  "variants_run": [
+    "zero_shot",
+    "info",
+    "few_shot"
+  ],
+  "chunk_size": 10,
+  "total_wall_time": 24.3,
+  "out_dir": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/twitterbot/output/twitterbot_gemini_20260327_102620"
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "TabFact",
+  "n_cells": 2245,
+  "n_int": 2245,
+  "n_unint": 0,
+  "accuracy": 0.9898,
+  "f1_int": 0.9949,
+  "f1_unint": 0.0,
+  "f1_weighted": 0.9949,
+  "precision_int": 1.0,
+  "recall_int": 0.9898,
+  "auc": NaN,
+  "best_threshold": -2.8127,
+  "elapsed_sec": 1.0
+}

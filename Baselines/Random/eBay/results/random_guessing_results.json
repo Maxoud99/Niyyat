@@ -1,0 +1,22 @@
+{
+  "strategy": "Random_Guessing_Run1",
+  "overall": {
+    "accuracy": 0.491670522906062,
+    "macro_f1": 0.4266962810741922,
+    "macro_precision": 0.4953096677254769,
+    "macro_recall": 0.491188269909879,
+    "total_changes": 8644,
+    "intentional_count": 1366,
+    "unintentional_count": 7278
+  },
+  "intentional": {
+    "precision": 0.1533882783882784,
+    "recall": 0.4904831625183016,
+    "f1": 0.2336937565399372
+  },
+  "unintentional": {
+    "precision": 0.8372310570626754,
+    "recall": 0.49189337730145644,
+    "f1": 0.6196988056084473
+  }
+}

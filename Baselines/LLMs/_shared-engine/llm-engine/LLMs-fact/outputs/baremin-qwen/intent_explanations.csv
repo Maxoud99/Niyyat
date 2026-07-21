@@ -1,0 +1,724 @@
+row_id,column,dirty_value,correct_value,mask,decision,reason
+0,subject_location,usa,england,1,1,wrong location
+0,value,214,213,1,-1,numeric drift
+5,subject_location,"austin , tx ,","baton rouge , la",1,1,wrong location
+6,subject_entity,miami,washington,1,1,wrong entity
+10,subject_entity,cleveland browns,cleveland browns,1,-1,guard_fallback
+11,subject_location,melbourne,melbourne,1,-1,guard_fallback
+11,value,104,96,1,1,substantial numeric change
+17,subject_entity,toronto maple leafs,toronto maple leafs,1,-1,guard_fallback
+17,subject_location,washington,washington d.c.,1,-1,minor textual drift
+26,subject_location,dallas,dallas,1,-1,"No actual discrepancy found, likely a false positive"
+30,subject_location,boston,atlanta,1,1,wrong location
+32,subject_location,finland,N/A,1,1,wrong location
+35,subject_entity,minnesota golden gophers,minnesota golden gophers,1,-1,guard_fallback
+35,subject_type,Team,Team,1,-1,guard_fallback
+35,subject_location,minneapolis,minneapolis,1,-1,guard_fallback
+38,subject_entity,los angeles rams,game,1,1,wrong entity
+38,value,least 80532,much lower than 80532,1,1,substantially changes the factual claim
+40,subject_entity,boston celtics,Cleveland Cavaliers,1,1,wrong entity
+40,subject_location,quicken loan arena,cleveland,1,1,wrong location
+44,value,5304,"much higher (e.g., 60,000+)",1,1,substantially changes the factual claim
+45,subject_location,chicago,not necessarily Chicago,1,-1,trivial drift
+47,subject_location,florida,houston,1,-1,trivial drift
+48,subject_entity,david patrick,france,1,1,wrong entity
+48,subject_type,Team,Venue,1,1,wrong claim domain
+48,subject_location,bokskogens,sweden,1,1,wrong location
+50,subject_location,melbourne,melbourne,1,-1,guard_fallback
+52,subject_location,oklahoma,oklahoma,1,-1,guard_fallback
+55,subject_location,ottawa,canada,1,1,wrong location
+57,subject_entity,blue jays,N/A,1,1,wrong entity
+57,subject_location,toronto,N/A,1,1,wrong location
+58,subject_type,Team,Athlete,1,1,wrong type
+58,subject_location,toronto,Not mentioned in claim text,1,1,wrong location
+60,subject_location,australia,united states,1,1,wrong location
+61,subject_entity,trenton speedway,trenton speedway,1,-1,guard_fallback
+61,subject_type,Event,Track,1,1,wrong type
+61,subject_location,new jersey,new jersey,1,-1,guard_fallback
+62,subject_location,serbia,ukraine,1,1,wrong location
+63,subject_entity,michael phelps,US swimmer,1,1,wrong entity
+63,subject_type,Athlete,Country,1,1,wrong type
+63,subject_location,usa,france,1,1,wrong location
+65,subject_location,birmingham,liverpool,1,1,wrong location
+70,subject_location,essendon victoria,melbourne,1,1,wrong location
+70,value,109,109,1,-1,guard_fallback
+71,value,100000,94000,1,1,substantial numeric change
+73,subject_type,Team,Team,1,-1,unchanged value
+73,subject_location,toronto,new york,1,1,wrong location
+74,subject_location,tennessee,oregon,1,1,wrong location
+79,subject_location,cleveland,pittsburgh,1,1,wrong location
+81,subject_entity,blue jays,None,1,1,wrong entity
+81,subject_location,toronto,None,1,1,wrong location
+84,value,65407,23600,1,1,substantially changes the factual claim
+86,subject_location,san francisco,los angeles,1,1,wrong location
+86,value,920,42920,1,1,substantially changes the factual claim
+89,value,3,3,1,-1,guard_fallback
+90,subject_entity,detroit pistons,detroit pistons,1,-1,guard_fallback
+90,subject_location,atlanta,chicago,1,1,wrong location
+93,subject_entity,new york titans,oakland,1,1,wrong entity
+93,subject_location,Oakland,oakland,1,-1,capitalization difference
+98,value,exact 20000,typically much higher than 20000,1,1,substantially changes the factual claim
+101,subject_type,Team,Team,1,-1,guard_fallback
+101,subject_location,melbourne,melbourne,1,-1,guard_fallback
+101,value,10680,unknown (but much higher),1,1,substantially changes the factual claim
+103,subject_entity,ernie el,ernie els,1,-1,typo
+104,subject_entity,mhc plastika,mhc plastika nitra,1,-1,abbreviation
+106,subject_location,north carolina,charlotte,1,1,wrong location
+109,subject_entity,blue jays,the game,1,1,wrong entity
+109,subject_type,Team,Game,1,1,wrong entity type
+109,subject_location,toronto,not specified,1,1,wrong location
+109,value,103,1,1,1,substantially changes the factual claim
+110,subject_location,toronto,new york,1,1,wrong location
+114,subject_location,dallas,dallas,1,-1,guard_fallback
+114,value,20228,37,1,1,substantially wrong value
+116,subject_entity,blue jays,N/A,1,1,wrong entity
+116,subject_location,toronto,N/A,1,1,wrong location
+117,subject_entity,blue jays,not mentioned in claim text,1,1,wrong entity
+117,subject_location,toronto,not mentioned in claim text,1,1,wrong location
+120,subject_entity,detroit red wings,detroit red wing,1,-1,pluralization
+120,subject_type,Team,League,1,1,entity type change
+120,subject_location,new york,united states,1,1,location change
+122,subject_entity,cleveland brown,unnamed opponent team,1,1,entity name change
+124,subject_type,Team,Athlete,1,1,entity type change
+125,subject_location,tennessee,None,1,1,location added
+128,subject_entity,manchester united f.c,None,1,1,entity name change
+128,subject_location,lincoln city,None,1,1,location change
+131,subject_location,everton,liverpool,1,1,wrong location
+132,subject_entity,fulham,swansea city,1,1,wrong entity
+138,subject_entity,winnipeg jets,winnipeg,1,-1,abbreviation or alias
+140,subject_location,dallas,multiple locations,1,1,wrong location
+141,subject_entity,pittsburgh steelers,three river stadium,1,1,wrong entity
+141,subject_type,Team,Stadium,1,1,wrong type
+141,subject_location,pennsylvania,pittsburgh,1,1,wrong location
+143,subject_type,Athlete,Team,1,1,wrong type
+143,subject_location,california,new york,1,1,wrong location
+145,subject_location,australia,england,1,1,wrong location
+147,subject_type,Team,County,1,1,wrong type
+150,subject_entity,manchester united f.c,manchester city,1,1,wrong entity
+150,subject_location,manchester,manchester,1,-1,guard_fallback
+152,subject_location,washington,boston,1,1,wrong location
+154,subject_location,minnesota,dallas cowboys,1,1,wrong location
+154,value,210,161,1,1,substantially different value
+156,subject_entity,devin gardner,northwestern,1,1,wrong entity
+156,subject_type,Athlete,Team,1,1,wrong type
+156,subject_location,northwestern,michigan,1,1,wrong location
+158,subject_type,Event,Event,1,-1,guard_fallback
+159,subject_entity,raptors,None,1,1,wrong entity
+159,subject_location,toronto,None,1,1,wrong location
+162,subject_location,washington,detroit,1,1,wrong location
+162,value,highest 6044,much higher than 6044,1,1,meaning-altering swap
+163,subject_location,washington,pittsburgh,1,1,wrong location
+163,value,lowest 37764,lower than 37764,1,1,meaning-altering swap
+164,subject_type,Team,Athlete,1,1,wrong entity type
+164,subject_location,new jersey,New Jersey,1,-1,capitalization
+167,subject_type,Tournament,League,1,1,wrong entity type
+167,subject_location,canada,united states,1,1,wrong location
+167,value,157,3,1,1,meaning-altering swap
+170,subject_entity,san francisco,Not specified in claim text,1,1,Wrong entity
+170,subject_location,san francisco,Not specified in claim text,1,1,Wrong location
+171,subject_entity,san francisco,Not specified in claim text,1,1,Wrong entity
+171,subject_location,san francisco,Not specified in claim text,1,1,Wrong location
+172,subject_entity,european athletics indoor championships,great britain,1,1,Wrong entity
+172,value,march 3rd,3:27.56,1,1,Substantially changes the factual claim
+174,subject_location,new york,green bay,1,1,Wrong location
+175,subject_location,clemson,san jose state,1,1,Wrong location
+176,subject_location,north texas,north texas state,1,-1,Trivial drift
+178,subject_entity,chargers,Not mentioned in claim text,1,1,Wrong entity
+178,subject_location,san diego,Not mentioned in claim text,1,1,Wrong location
+181,subject_entity,san francisco,Not mentioned in claim text,1,1,Wrong entity
+181,subject_location,san francisco,Not mentioned in claim text,1,1,Wrong location
+182,value,lowest 66042,43128,1,1,Substantially changes the factual claim
+183,subject_location,san francisco,san francisco,1,-1,"Trivial drift, preserves factual claim"
+186,subject_location,memphis,seattle,1,1,Wrong location
+189,subject_location,detroit,cincinnati,1,1,Wrong location
+198,subject_entity,redskins,Not specified in claim text,1,1,Wrong entity
+198,subject_location,washington,Not specified in claim text,1,1,Wrong location
+200,subject_location,melbourne,melbourne,1,-1,guard_fallback
+204,subject_location,toronto,Not specified in claim,1,1,wrong location
+204,value,30542,Not a specific attendance value,1,1,wrong value
+205,subject_entity,blue jays,Not specified in claim,1,1,wrong entity
+205,subject_location,toronto,Not specified in claim,1,1,wrong location
+206,subject_entity,oliver,Oliver Building,1,1,wrong entity
+206,subject_type,Team,Building,1,1,wrong type
+206,claim_domain,Sports,Business,1,1,wrong domain
+208,value,<=159,N/A,1,1,wrong value
+210,subject_type,Athlete,Coach,1,1,wrong entity type
+211,subject_type,Athlete,Coach,1,1,wrong entity type
+213,value,17000,"a lower value (e.g., 11,273)",1,1,substantially different value
+215,subject_entity,milwaukee brewers,brewers,1,1,wrong entity
+215,value,12664,"a higher value (e.g., 30,000+)",1,1,substantially different value
+219,subject_entity,boston celtics,minnesota timberwolves,1,1,wrong entity
+219,subject_location,boston,minneapolis,1,1,wrong location
+224,subject_type,Team,Team,1,-1,guard_fallback
+224,subject_location,mission road hong kong,guernsey,1,1,wrong location
+225,subject_entity,guernsey cricket,guernsey,1,1,wrong entity
+225,subject_type,Team,Venue,1,1,wrong type
+225,subject_location,kowloon cricket club hong kong,kowloon,1,1,wrong location
+227,subject_location,indiana,michigan,1,1,wrong location
+230,subject_location,west virginia,michigan,1,1,wrong location
+232,subject_entity,nhl,us high school player,1,1,wrong entity
+232,subject_type,Tournament,Athlete,1,1,wrong type
+233,subject_entity,sloux city musketeers,sloux city musketeer,1,-1,plural form
+233,subject_type,Team,League,1,1,wrong type
+235,subject_entity,toronto argonauts,None,1,1,wrong entity
+235,subject_type,Team,None,1,1,wrong type
+235,subject_location,hamilton,None,1,1,wrong location
+238,subject_entity,houston oilers,Not specified in claim text,1,1,wrong entity
+238,subject_location,houston,Not specified in claim text,1,1,wrong location
+241,subject_entity,vancouver canucks,Detroit,1,1,wrong entity
+241,subject_location,detroit,Vancouver,1,1,wrong location
+241,value,19875,18910,1,-1,numeric drift
+242,subject_entity,vancouver canucks,New Jersey,1,1,wrong entity
+242,subject_location,east rutherford,Vancouver,1,1,wrong location
+242,value,9125,19869,1,-1,numeric drift
+243,value,73506,71740,1,-1,numeric drift
+246,subject_type,Team,Athlete,1,1,wrong claim domain
+246,subject_location,cleveland,N/A,1,1,wrong location
+246,value,321,N/A,1,-1,numeric drift
+247,value,450,"e.g., 600000",1,1,wrong value
+250,subject_location,detroit,not specified in claim text,1,1,wrong location
+250,value,13,78312,1,1,substantially different value
+252,subject_location,denver,wake forest,1,1,wrong location
+253,subject_location,vancouver,chilliwack,1,1,wrong location
+254,subject_location,vancouver,Canada,1,1,wrong location
+254,value,6,6,1,-1,guard_fallback
+257,subject_entity,collingwood,Collingwood,1,-1,case sensitivity
+257,subject_type,Team,League,1,1,wrong entity type
+257,value,5500,42550,1,1,substantially different value
+259,subject_entity,club huracán,"club huracán, banfield",1,1,wrong entity
+259,subject_location,buenos aires,not specified in claim,1,1,wrong location
+260,subject_entity,essendon / collingwood,essendon / collingwood / carlton / melbourne / north melbourne / richmond,1,1,deliberate removal of entities
+260,subject_location,melbourne,not specified in claim,1,1,wrong location specified
+262,subject_entity,toronto blue jays,Not specified in claim text,1,1,wrong entity specified
+262,subject_location,toronto,Not specified in claim text,1,1,wrong location specified
+268,subject_location,beijing,Not specified in claim text,1,1,wrong location specified
+269,value,1033,5872,1,1,substantially different value
+271,subject_entity,blue jay,unknown (home team),1,1,wrong entity
+271,subject_location,toronto,not mentioned (or Toronto),1,-1,capitalization
+273,subject_location,pittsburgh,pittsburgh,1,1,wrong location
+275,subject_location,nashville,not specified in claim,1,1,wrong location
+277,subject_type,Team,Team,1,-1,guard_fallback
+283,value,20049,20562,1,-1,numeric drift
+291,subject_entity,golden state,golden state,1,-1,"No change, mask error"
+291,subject_location,charlotte,charlotte,1,-1,"No change, mask error"
+294,subject_entity,toshiba,toshiba,1,-1,"No change, mask error"
+294,subject_location,copenhagen,copenhagen,1,-1,"No change, mask error"
+296,subject_entity,minnesota golden gophers,camp randall stadium,1,1,Wrong entity
+296,subject_type,Team,Stadium,1,1,Wrong type
+298,subject_entity,boston patriots,Not specified in claim text,1,1,Wrong entity
+298,subject_location,boston,Not specified in claim text,1,1,Wrong location
+302,subject_location,florida,detroit,1,1,wrong location
+304,subject_location,great britain,germany,1,1,wrong location
+306,subject_entity,dallas,new orleans team,1,1,wrong entity
+306,value,<14472,less than 14472,1,-1,trivial drift in value format
+308,subject_location,north melbourne,melbourne,1,1,wrong location
+310,subject_location,manchester,manchester,1,-1,guard_fallback
+311,subject_location,manchester,manchester,1,-1,guard_fallback
+312,subject_entity,boston celtics,Not present in claim text,1,1,wrong entity
+312,subject_type,Team,Not present in claim text,1,1,wrong entity type
+312,subject_location,atlanta,Not present in claim text,1,1,wrong location
+314,subject_entity,washington,Not present in claim text,1,1,wrong entity
+314,subject_location,new york,Not present in claim text,1,1,wrong location
+316,subject_entity,vfl,carlton,1,1,wrong entity
+316,subject_location,melbourne,melbourne,1,-1,unchanged value
+317,subject_entity,colorado avalanche,"phoenix, ny islander, colorado, chicago, columbus, nashville, and minnesota",1,1,wrong entity
+317,subject_location,denver,"columbus, ohio",1,1,wrong location
+319,subject_entity,los angeles ram,los angeles ram,1,-1,guard_fallback
+319,subject_location,los angeles,san francisco,1,1,wrong location
+320,subject_location,northsfleet,stevenage,1,1,wrong location
+321,subject_entity,denver bronco,the denver broncos,1,1,wrong entity
+321,subject_location,kansas,denver,1,1,wrong location
+323,subject_entity,woman national rugby union,spain's woman national rugby union team,1,1,wrong entity
+328,subject_location,liverpool,arsenal,1,1,wrong location
+328,value,34000000<,22300000,1,1,substantially different value
+332,subject_location,melbourne,windy hill,1,1,wrong location
+335,subject_entity,tim duncan,the spur,1,1,wrong entity
+335,subject_type,Athlete,Team,1,1,wrong type
+340,subject_location,melbourne,carlton,1,1,wrong location
+342,subject_location,melbourne,australia,1,1,wrong location
+342,value,147,355 (Tests) or 124 (ODIs),1,1,substantially different value
+344,value,1000,Significantly more (career) or 0 (post-2009),1,1,substantially different value
+346,value,484,0.484,1,-1,numeric drift
+347,subject_type,Athlete,Coach,1,1,wrong entity type
+347,subject_location,valdosta,Not specified in claim,1,1,wrong location
+347,value,623,0.623,1,-1,numeric drift
+348,subject_entity,indiana pacers,indiana pacers,1,-1,unchanged
+348,subject_location,cleveland,cleveland,1,-1,unchanged
+349,value,16010,75,1,1,substantially different value
+351,subject_entity,new york rangers,new york ranger,1,-1,typo
+351,value,157,N/A,1,1,meaning-altering swap
+353,subject_type,Team,Company,1,1,wrong claim domain
+353,claim_domain,Sports,Business,1,1,wrong claim domain
+357,subject_entity,angle rs,Los Angeles Angels,1,1,wrong entity
+357,subject_location,toronto,Anaheim,1,1,wrong location
+358,subject_entity,red devil ray,Tampa Bay Devil Rays,1,1,wrong entity
+358,subject_location,toronto,St. Petersburg,1,1,wrong location
+361,subject_entity,pittsburgh dolphins,Miami Dolphins,1,1,Wrong entity
+361,subject_location,cleveland,Pittsburgh,1,1,Wrong location
+361,value,58444,76753,1,1,Substantially different value
+365,subject_entity,san francisco 49ers,Not mentioned in claim text,1,1,Wrong entity
+365,subject_type,Team,Not mentioned in claim text,1,1,Wrong type
+365,subject_location,san francisco,Not mentioned in claim text,1,1,Wrong location
+366,subject_entity,los angeles,los angeles rams,1,1,Wrong entity
+366,subject_location,san francisco,los angeles,1,1,Wrong location
+370,subject_entity,columbus blue jackets,chicago,1,1,wrong entity
+370,subject_location,columbus,columbus,1,-1,unchanged value
+373,subject_entity,vancouver canucks,vancouver,1,1,wrong entity
+375,value,114,161,1,1,substantially changes the factual claim
+376,subject_entity,houston oiler,houston oilers,1,-1,typo
+376,value,14489,32183,1,1,substantially changes the factual claim
+378,subject_location,golden state,milwaukee,1,1,wrong location
+380,value,30751,30751 and 73421,1,-1,numeric drift
+381,subject_type,Team,School/Educational Institution,1,1,wrong entity type
+381,subject_location,indiana,Unknown (not morgan township),1,1,wrong location
+381,claim_domain,Sports,Demographics,1,1,wrong claim domain
+383,subject_type,Athlete,Artist,1,1,wrong entity type
+383,claim_domain,Sports,Entertainment,1,1,wrong claim domain
+384,value,16000,16.000,1,-1,numeric formatting
+385,subject_entity,elena pampoulova,"redbridge , united kingdom itf 25000",1,1,wrong entity
+385,subject_type,Athlete,Tournament,1,1,wrong entity type
+386,subject_entity,tiger woodsis,Tiger Woods,1,-1,typo
+386,subject_location,california,United States,1,1,wrong location
+388,subject_entity,tennessee titans,unspecified team,1,1,wrong entity
+389,subject_type,Team,Team,1,-1,guard_fallback
+389,subject_location,melbourne,north melbourne,1,-1,minor location change
+391,subject_location,beechworth,N/A (not specified),1,1,wrong location
+391,value,>1013,greater than 1013,1,-1,trivial numeric formatting change
+393,subject_entity,midlands rfu,midland team(s),1,1,wrong entity
+393,subject_type,Team,Organization,1,1,wrong type
+395,subject_entity,blue jays,N/A,1,1,wrong entity
+395,subject_type,Team,N/A,1,1,wrong type
+395,subject_location,arlington,N/A,1,1,wrong location
+398,subject_entity,blue jays,N/A,1,1,wrong entity
+398,subject_type,Team,N/A,1,1,wrong type
+398,subject_location,toronto,N/A,1,1,wrong location
+399,subject_entity,minnesota golden gophers,A team,1,1,wrong entity
+399,subject_type,Athlete,Team,1,1,wrong type
+399,subject_location,minneapolis,N/A (Incorrect for extracted subject entity),1,1,wrong location
+402,subject_entity,toronto blue jays,N/A (Not mentioned in claim text),1,1,Wrong entity mentioned
+402,subject_type,Team,N/A (No specific subject entity mentioned),1,1,Wrong type specified
+402,subject_location,toronto,N/A (Not mentioned in claim text),1,1,Wrong location mentioned
+403,subject_entity,toronto blue jays,N/A (not specified in claim text),1,1,Wrong entity mentioned
+403,subject_location,toronto,N/A (not specified in claim text),1,1,Wrong location mentioned
+403,value,highest 6532,N/A (factually incorrect for implied context),1,1,Substantially different value
+404,subject_location,melbourne,Melbourne / Victoria Park,1,-1,Typo or minor spelling difference
+407,subject_entity,washington redskins,not specified in claim text,1,1,Wrong entity mentioned
+407,subject_type,Team,not specified in claim text,1,1,Wrong type specified
+407,subject_location,washington,not specified in claim text,1,1,Wrong location mentioned
+414,subject_type,Team,School,1,1,meaning-altering swap from School to Team
+416,subject_location,montreal,philadelphia,1,1,meaning-altering swap from philadelphia to montreal
+420,value,115,115 - 108 and 125 - 122,1,1,substantially changes the factual claim
+426,subject_entity,ufc,UFC events,1,1,meaning-altering swap
+426,subject_type,Event,Event,1,-1,trivial drift
+426,value,6,N/A,1,1,substantially changes the factual claim
+427,subject_location,manchester,Manchester,1,-1,trivial drift
+429,value,140,285,1,1,substantially changes the factual claim
+432,value,73896,79862,1,-1,numeric drift
+435,subject_entity,cleveland brown,cleveland browns,1,1,wrong entity
+435,value,69019,78723,1,-1,numeric drift
+439,subject_entity,toronto blue jays,N/A (not specified in claim),1,1,wrong entity
+439,subject_location,toronto,N/A (not specified in claim),1,1,wrong location
+439,value,49484,53935,1,-1,numeric drift
+440,subject_entity,toronto blue jays,N/A (not specified in claim),1,1,wrong entity
+440,subject_location,toronto,N/A (not specified in claim),1,1,wrong location
+443,subject_location,buffalo,oakland / los angeles / las vegas,1,1,wrong location
+447,subject_location,washington,miami,1,1,wrong location
+447,value,117,85,1,1,substantially changes the factual claim
+451,subject_location,england,australia,1,1,wrong location
+452,subject_entity,jack roberts,Not specified in claim text,1,1,wrong entity
+452,subject_type,Team,Athlete,1,1,wrong type
+452,subject_location,atlanta,Not specified in claim text,1,1,wrong location
+454,subject_location,cleveland,Not specified in claim text,1,1,wrong location
+456,subject_location,chicago,N/A (not specified in claim text),1,1,wrong location
+458,subject_entity,boston bruins,boston,1,1,wrong entity
+458,subject_location,philadelphia,N/A (game location not specified),1,1,wrong location
+459,subject_location,detroit,N/A (not specified in claim),1,1,wrong location
+462,value,>130,113,1,1,substantially changes the factual claim
+464,subject_entity,indiana pacers,indiana pacer,1,-1,trivial drift (pluralization)
+465,value,2136,N/A,1,1,substantially changes the factual claim
+468,subject_type,Team,League,1,1,meaning-altering swap (League to Team)
+468,subject_location,widnes,widnes,1,-1,unchanged (no error)
+469,subject_location,montreal,montreal,1,-1,guard_fallback
+470,value,1:07.18,None,1,1,Substantially changes the factual claim
+471,subject_location,edmonton,kitchener,1,1,Wrong location
+473,value,103,"A higher value (e.g., 130-150 for a two-day event)",1,1,Substantially changes the factual claim
+474,value,111,"A higher value (e.g., 130-150 for a two-day event)",1,1,Substantially changes the factual claim
+477,subject_entity,atlanta falcons,new york giants,1,1,Wrong entity
+479,value,147,152,1,-1,±1–2 numeric drift
+481,value,50000,30037,1,1,substantial numeric change
+483,value,264,significantly higher than 264,1,1,substantial numeric change
+484,value,145,>145,1,-1,minor numeric drift
+486,subject_location,montreal,san diego,1,1,wrong location
+488,subject_entity,toronto blue jays,N/A (not specified in claim text),1,1,wrong entity
+488,subject_location,toronto,N/A (not specified in claim text),1,1,wrong location
+488,value,29709,"much higher (e.g., over 100,000)",1,1,substantial numeric change
+489,value,60000,"over 70,000",1,1,substantial numeric change
+491,subject_entity,conklin,chicago,1,1,wrong entity
+491,subject_type,Team,Athlete,1,1,wrong type
+495,subject_entity,philadelphia eagles,arizona cardinal,1,1,wrong entity
+495,subject_location,edward jones dome,st. louis,1,1,wrong location
+496,subject_entity,gävle,brynäs if gävle,1,1,wrong entity
+496,subject_location,ottawa,sweden,1,1,wrong location
+497,subject_entity,ottawa senators,sweeden,1,1,wrong entity
+497,subject_type,Team,Country,1,1,wrong type
+497,subject_location,sweeden,sweden,1,1,wrong location
+498,value,157,39,1,1,substantially different value
+502,value,17701,18007,1,-1,numeric drift
+503,subject_location,spartak,bobruisk,1,1,wrong location
+503,value,11200,3700,1,1,substantially different value
+506,subject_location,toronto,new york,1,1,wrong location
+506,value,499122,approximately 57000-78000,1,1,substantially different value
+510,value,1000,94,1,1,substantial numeric change
+511,subject_location,czechoslovakia,not czechoslovakia,1,1,wrong location
+511,value,1200,1200.81,1,-1,minor numeric drift
+514,value,30000,less than 30000,1,-1,minor numeric drift
+518,subject_type,Athlete,Team,1,1,wrong entity type
+518,subject_location,melbourne,melbourne,1,-1,guard_fallback
+520,subject_location,utah,brooklyn,1,1,wrong location
+522,subject_entity,maria cecilia,maria cecilia floriddia,1,1,wrong entity
+522,subject_location,brazil,Not mentioned in claim text,1,1,wrong location
+526,subject_entity,blue jays,Not mentioned in claim text,1,1,wrong entity
+526,subject_location,toronto,Not mentioned in claim text,1,1,wrong location
+526,value,37354,30000,1,-1,numeric drift
+528,subject_entity,new york jets,new york jet,1,-1,typo
+532,value,49000,49540,1,-1,numeric drift
+535,subject_entity,carltton fc,Carlton,1,1,wrong entity
+536,subject_entity,footscray,st kilda,1,1,wrong entity
+536,subject_location,melbourne,footscray,1,1,wrong location
+537,subject_entity,toronto blue jays,N/A (not mentioned),1,1,wrong entity
+537,subject_type,Team,N/A (not mentioned),1,1,wrong entity type
+537,subject_location,toronto,N/A (not mentioned),1,1,wrong location
+538,subject_entity,detroit red wings,detroit,1,1,wrong entity
+540,subject_entity,sergey filimonov,sergey filimonov,1,-1,guard_fallback
+540,subject_location,almaty,kazakhstan,1,1,wrong location
+543,subject_entity,wake forest,ljvm coliseum,1,1,wrong entity
+543,subject_type,Team,Venue,1,1,wrong type
+545,subject_entity,conseco,conseco fieldhouse,1,1,wrong entity
+545,subject_type,Team,Venue,1,1,wrong type
+549,subject_location,indiana,atlanta,1,1,wrong location
+549,value,212,N/A,1,1,wrong value
+550,value,168,N/A,1,1,substantial change in factual claim
+551,subject_location,melbourne,melbourne,1,-1,trivial drift preserving factual claim
+552,subject_entity,jim furyk,a golfer active before 1980,1,1,wrong entity
+552,value,274,N/A,1,1,substantial change in factual claim
+554,subject_entity,oklahoma schools,oklahoma school,1,1,meaning-altering swap
+554,subject_type,Team,Conference,1,1,wrong claim domain
+556,subject_entity,north melbourne fc,north melbourne,1,1,meaning-altering swap
+556,subject_type,Team,League,1,1,wrong claim domain
+556,subject_location,melbourne,melbourne,1,-1,trivial drift preserving factual claim
+559,subject_location,us,new jersey devil,1,1,wrong location
+562,subject_entity,south melbourne,south melbourne,1,-1,"no change, mask error"
+562,subject_location,vfl park,vfl park,1,-1,"no change, mask error"
+563,subject_location,san francisco,san francisco,1,-1,"no change, mask error"
+565,subject_type,Team,Athlete,1,1,meaning-altering swap
+568,subject_location,cleveland,cleveland,1,-1,"no change, mask error"
+572,subject_location,philadelphia,philadelphia,1,-1,guard_fallback
+575,value,lowest 75281,46000,1,1,substantially changes the factual claim
+576,value,largest 31202,"e.g., 66000",1,1,substantially changes the factual claim
+579,value,850,800 (for second place),1,-1,numeric drift preserves the factual claim
+580,subject_entity,nick penner,chris lytle,1,1,wrong entity
+581,value,987,987.1,1,-1,numeric drift
+582,subject_location,austria,switzerland,1,1,wrong location
+582,value,261,261.5,1,-1,numeric drift
+585,subject_entity,cleveland browns,cleveland browns,1,-1,guard_fallback
+587,subject_location,melbourne,fremantle,1,1,wrong location
+590,subject_entity,new york jet,the player,1,1,wrong entity
+590,subject_type,Team,Athlete,1,1,wrong type
+592,subject_location,ohio,australia,1,1,wrong location
+598,subject_location,cleveland,virginia,1,1,wrong location
+601,subject_type,Team,Media Service,1,1,wrong entity type
+601,claim_domain,Sports,Media,1,1,wrong claim domain
+602,subject_location,north carolina state,texas a&m,1,1,wrong location
+603,subject_entity,minnesota twins,kelly pavlik,1,1,wrong entity
+603,subject_type,Team,Athlete,1,1,wrong entity type
+603,subject_location,minneapolis,minnesota,1,1,wrong location
+607,subject_entity,arkansas razorbacks,tcu,1,1,wrong entity
+608,subject_entity,arkansas razorbacks,war memorial stadium,1,1,wrong entity
+608,subject_type,Team,Venue,1,1,wrong entity type
+610,subject_location,melbourne,melbourne,1,-1,guard_fallback
+612,subject_entity,washington capitals player,player,1,1,meaning-altering swap
+614,subject_entity,san antonio spursford,san antonio spurs,1,1,meaning-altering swap
+614,subject_type,Team,Company,1,1,meaning-altering swap
+614,subject_location,ford center,san antonio,1,1,meaning-altering swap
+616,subject_entity,vfl,vfl park,1,1,meaning-altering swap
+616,subject_type,event,League,1,1,meaning-altering swap
+616,subject_location,melbourne,melbourne,1,-1,guard_fallback
+617,subject_location,melbourne,N/A (not specified for Footscray in claim),1,1,meaning-altering swap
+619,subject_entity,new jersey nets,An athlete's name,1,1,meaning-altering swap
+619,subject_type,Team,City,1,1,meaning-altering swap
+621,subject_location,toronto,New Jersey,1,1,wrong location
+621,value,74-77,N/A,1,1,wrong value
+623,value,100000,more than 100000,1,-1,numeric drift
+625,subject_type,Athlete,Team,1,1,wrong entity type
+626,subject_entity,atlanta hawk,the atlanta hawks,1,1,wrong entity
+626,subject_location,boston,atlanta,1,1,wrong location
+628,value,68000,74184,1,-1,numeric drift
+629,value,18 nov 1990,74184,1,1,wrong claim domain
+630,subject_location,minneapolis,minnesota,1,1,substantial change in location
+630,value,54462,23,1,1,substantial numeric change
+631,subject_entity,team arizona,arizona st,1,1,substantial change in entity name
+632,subject_entity,ucla player,a player from ucla,1,-1,"minor rephrasing, preserves factual claim"
+632,subject_type,Athlete,Athlete,1,1,substantial change in type
+638,subject_entity,phoenix international raceway,phoenix international raceway,1,-1,guard_fallback
+638,subject_type,Team,Venue,1,1,substantial change in type
+638,subject_location,trentonian,"phoenix, arizona",1,1,substantial change in location
+640,subject_entity,boston bronco,None,1,1,wrong entity
+640,subject_type,Team,None,1,1,wrong type
+640,subject_location,boston,None,1,1,wrong location
+640,value,38865,over 38865,1,-1,numeric drift
+643,value,22336,N/A,1,1,substantially changes the factual claim
+645,subject_location,florida,florida state,1,1,wrong location
+648,value,11432,"Much higher (e.g., 80,000+)",1,1,substantially changes the factual claim
+650,subject_entity,galatasaray s.k.,belgium,1,1,wrong entity
+650,subject_type,Team,Country,1,1,wrong type
+655,value,302,200,1,-1,guard_fallback
+656,value,179,307,1,1,substantially different value
+657,subject_location,arkansas,arkansas state,1,-1,minor location drift
+659,subject_entity,washington redskins,N/A (not specified in claim),1,1,wrong entity
+659,subject_location,washington,N/A (not specified in claim),1,1,wrong location
+662,value,695,695.1,1,-1,numeric drift
+664,subject_entity,st kilda,richmond,1,1,wrong entity
+664,subject_location,melbourne,melbourne,1,-1,guard_fallback
+664,value,190,N/A (score for St Kilda is not 190),1,1,substantially changes the factual claim
+666,subject_entity,toronto maple leaf,toronto maple leafs,1,-1,typo
+668,value,105,109,1,-1,numeric drift
+669,subject_location,atlanta,washington,1,1,wrong location
+673,subject_entity,cleveland browns,N/A (general statement about attendance),1,1,wrong entity
+673,subject_type,Team,N/A (general statement),1,1,wrong type
+673,subject_location,cleveland,N/A (general statement),1,1,wrong location
+674,subject_entity,cleveland browns,N/A (general statement about attendance),1,1,wrong entity
+674,subject_type,Team,N/A (general statement),1,1,wrong type
+674,subject_location,cleveland,N/A (general statement),1,1,wrong location
+676,subject_entity,mladost stadium,Mladost Stadium,1,-1,capitalization
+676,subject_type,Stadium,Stadium,1,-1,unchanged
+683,subject_entity,redskins,Not mentioned in claim text,1,1,Wrong entity
+683,subject_type,Team,Not mentioned in claim text,1,1,Wrong type
+683,subject_location,washington,Not mentioned in claim text,1,1,Wrong location
+684,value,13697,9,1,-1,guard_fallback
+693,subject_type,Athlete,Team,1,1,wrong claim domain
+694,subject_entity,49ers,new york jets,1,1,wrong entity
+697,subject_entity,week 3 game,washington commanders,1,1,wrong entity
+697,subject_type,event,Company,1,1,wrong claim domain
+699,value,144,"actual score (e.g., 144 or higher)",1,-1,numeric drift
+703,value,281,a valid date format or an actual score/rank,1,1,substantially changes the factual claim
+704,value,41854,40000,1,-1,"±1–2 numeric drift, preserves the factual claim"
+705,value,100000,40000,1,1,substantially changes the factual claim
+706,subject_location,cleveland,arkansas,1,1,"wrong location, changes the factual claim"
+708,subject_entity,marta domachowska,unnamed athlete,1,1,"wrong entity, changes the factual claim"
+708,subject_location,seoul,N/A,1,1,"wrong location, changes the factual claim"
+709,subject_entity,charlotte bobcats,charlotte,1,1,"wrong entity, changes the factual claim"
+709,subject_location,miami,los angeles,1,1,"wrong location, changes the factual claim"
+711,subject_entity,49ers,Not mentioned in claim text,1,1,Wrong entity
+711,subject_location,san francisco,Not mentioned in claim text,1,1,Wrong location
+715,subject_entity,matthew bowen,ken irvine,1,1,Wrong entity
+715,value,538,212,1,1,Substantially different value
+716,value,190,823,1,1,Substantially different value
+719,value,>185,187.64,1,-1,Minor numeric drift
+720,value,>185,187.64,1,-1,numeric drift
+721,subject_entity,cleveland cavaliers,chicago,1,1,wrong entity
+721,subject_location,chicago,cleveland,1,1,wrong location
+721,value,102-100,100,1,1,substantially changes the factual claim
+723,subject_entity,norton,norton 200 / gould grand prix 150,1,1,wrong entity
+723,subject_type,Team,Company,1,1,wrong type
+725,subject_entity,etc molder,rob meager,1,1,wrong entity
+725,subject_location,illinois,None,1,1,wrong location
+726,subject_entity,boston patriots,boston patriot,1,-1,typo
+728,value,2776,5871,1,1,substantially changes the factual claim
+733,subject_entity,blue jays,plesac,1,1,Wrong entity
+733,subject_type,Team,Athlete,1,1,Wrong type
+733,subject_location,new york,Not mentioned in claim text,1,1,Wrong location
+733,value,50324,N/A (factually incorrect),1,1,Substantially changes factual claim
+737,subject_entity,charger vs raider,oakland raiders,1,1,Wrong entity
+739,subject_location,missouri,atlanta or st louis,1,1,Wrong location
+741,value,12571<,18000,1,-1,numeric drift
+746,subject_entity,redskins week 4 vs. week 7,N/A,1,1,wrong entity
+746,subject_location,washington,N/A,1,1,wrong location
+747,subject_entity,redskins dec 17 - dec 29 games,Not specified in text,1,1,wrong entity
+747,subject_location,washington,Not specified in text,1,1,wrong location
+747,value,298683,Impossible for a single game,1,1,substantially changes factual claim
+751,subject_entity,boston celtic,boston celtic,1,-1,guard_fallback
+751,value,101,105,1,1,substantial numeric change
+754,subject_type,Team,Athlete,1,1,wrong entity type
+754,value,350,N/A,1,1,substantial numeric change
+755,value,17461,12,1,1,substantial numeric change
+756,subject_location,san francisco,los angeles,1,1,wrong location
+759,value,770000,595398,1,1,substantial numeric change
+762,subject_entity,falcons vs. san francisco 49ers,the actual team involved in the game (not specified in claim text),1,1,wrong entity
+762,value,50000,"the actual attendance (e.g., 60000)",1,1,substantially different attendance
+763,subject_entity,falcons vs. san francisco 49ers,the actual team involved in the game (not specified in claim text),1,1,wrong entity
+763,value,56871,"the actual attendance (e.g., 60000)",1,-1,minor numeric drift
+765,subject_entity,detroit pistons,new orleans,1,1,wrong entity
+768,subject_entity,hawthorn vs st kilda,hawthorn,1,1,wrong entity
+768,subject_type,Team,League,1,1,wrong type
+769,subject_location,melbourne,punt road oval,1,1,wrong location
+772,subject_entity,uefa debut,N/A (implied player/team),1,1,wrong entity
+772,subject_type,Team,Governing Body / N/A (implied Athlete/Team),1,1,wrong type
+773,subject_entity,dinamo minsk,Dinamo Stadium,1,1,wrong entity
+773,subject_type,Team,Venue,1,1,wrong type
+775,subject_location,geelong,Geelong,1,-1,capitalization
+781,subject_entity,washington capitals,washington capital,1,-1,pluralization typo
+782,subject_location,são paulo,são paulo and beijing,1,1,wrong location
+783,subject_entity,49ers vs packers,Not specified in claim text,1,1,wrong entity
+783,subject_location,san francisco,Not specified in claim text,1,1,wrong location
+785,subject_entity,serbia,serbia,1,-1,guard_fallback
+785,subject_type,Team,Event,1,1,wrong type
+785,value,3:58:04,3:58.04,1,-1,format typo
+786,subject_location,melbourne,melbourne,1,-1,guard_fallback
+790,subject_entity,catholic,north africa,1,1,wrong entity
+790,subject_type,Religion,Religious Group,1,1,wrong type
+790,value,31370649,31370649.1405057,1,-1,numeric drift
+793,subject_entity,european union,slovenia,1,1,wrong entity
+793,subject_type,Organization,Country,1,1,wrong type
+793,subject_location,slovenia,null,1,1,wrong location
+793,value,1341664,2011473,1,1,substantially different value
+794,subject_entity,shamrock,the school,1,1,wrong entity
+794,subject_type,Leader,Mascot,1,1,wrong type
+794,subject_location,indiana,N/A,1,1,wrong location
+797,subject_entity,tx csa,"houston - baytown - huntsville , tx csa",1,1,wrong entity
+797,subject_type,Organization,Statistical Area,1,1,wrong type
+797,subject_location,houston - baytown - huntsville,Texas,1,1,wrong location
+797,value,1130490,6087133,1,1,substantially different value
+799,subject_entity,maren bolette,maren bolette torp,1,-1,abbreviation
+799,subject_type,Person,Person,1,-1,unchanged
+800,subject_type,Person,Person,1,-1,guard_fallback
+801,subject_type,Person,Person,1,-1,guard_fallback
+802,subject_type,Place,Administrative Division,1,1,wrong entity type
+804,value,500,328,1,1,substantial numeric change
+805,subject_type,Mountain,Classification,1,1,wrong entity type
+805,subject_location,gragareth,United Kingdom and Ireland,1,1,wrong location
+805,value,610,627,1,1,substantial numeric change
+807,subject_entity,european union,the united kingdom,1,1,wrong entity
+807,value,36728,"trillions (e.g., ~2.7 trillion USD)",1,1,substantial numeric change
+808,subject_entity,european union,united kingdom,1,1,wrong entity
+808,value,358187,~243610,1,1,substantial numeric change
+809,subject_entity,european union,denmark,1,1,wrong entity
+809,value,64305061,5800000,1,1,substantial numeric change
+811,subject_type,Vehicle,Organization,1,1,wrong entity type
+813,subject_type,Place,Organization,1,1,wrong entity type
+813,subject_location,kohlmeier,None,1,1,wrong location
+815,subject_entity,pendleton high school,pendleton height school,1,-1,typo
+815,value,755,1235,1,1,substantially different value
+817,subject_entity,del mar hill,del mar hill,1,-1,guard_fallback
+817,subject_type,Place,City,1,1,wrong entity type
+817,subject_location,del mar hill,N/A (no broader location specified in claim),1,1,wrong location
+817,value,530,4,1,1,substantially different value
+818,subject_entity,catholic christianity,mala remeta,1,1,wrong entity
+818,subject_type,Religion,Settlement,1,1,wrong entity type
+818,subject_location,mala remeta,N/A (no broader location specified in claim),1,-1,guard_fallback
+821,subject_entity,vikings,augustana college,1,1,wrong entity
+821,value,4400,~2500,1,1,substantially changes the factual claim
+823,subject_entity,campbell union high school district,saratoga high school,1,1,wrong entity
+823,value,1619,~1300-1400,1,1,substantially changes the factual claim
+825,claim_domain,Demographics,Politics,1,1,wrong claim domain
+829,subject_entity,be job dragtsma,job dragtsma,1,-1,capitalization
+829,claim_domain,Demographics,Sports,1,1,wrong claim domain
+830,subject_type,Athlete,Person,1,1,meaning-altering swap
+830,value,1235,1235.314,1,-1,numeric drift
+830,claim_domain,Sports,Sports,1,-1,guard_fallback
+831,subject_type,Athlete,Person,1,1,meaning-altering swap
+831,value,224,224.680,1,-1,numeric drift
+831,claim_domain,Sports,Sports,1,-1,guard_fallback
+837,subject_type,Athlete,Athlete,1,-1,guard_fallback
+837,subject_location,ukraine slovenia,russia,1,1,wrong location
+838,subject_type,Leader,Athlete,1,1,meaning-altering swap
+838,subject_location,poland,georgia,1,1,wrong location
+838,value,2649,2550,1,1,substantial change
+840,value,482,582,1,1,substantial numeric change
+842,subject_entity,ihsaa,south newton,1,1,wrong entity
+842,subject_location,south newton,indiana,1,1,wrong location
+843,subject_entity,mather & platt / beyer,"mather & platt / beyer, peacock",1,-1,abbreviation typo
+843,subject_location,peacock,None,1,1,wrong location
+843,value,1923 - 301,1923-301,1,-1,spacing typo
+845,subject_location,boston,None,1,1,wrong location
+849,value,1050,1530,1,1,substantial numeric change
+850,subject_location,the city,san antonio,1,1,meaning-altering swap
+850,value,680,680,1,-1,guard_fallback
+852,value,111,26 (approx),1,1,substantially changes the factual claim
+853,value,54282038,660000 (approx),1,1,substantially changes the factual claim
+856,subject_location,north dakota,N/A (not specified in text),1,1,meaning-altering swap
+856,value,1036481,01036481,1,1,substantially changes the factual claim
+857,subject_entity,taoisn,Taoism,1,1,meaning-altering swap
+857,subject_type,Event,Religion/Belief System,1,1,meaning-altering swap
+857,subject_location,global,N/A (not a location),1,1,meaning-altering swap
+864,subject_entity,coed gender,tokoroa north school,1,1,wrong entity
+865,claim_domain,Demographics,Sports,1,1,wrong claim domain
+872,subject_entity,gdp world bank,estonia,1,1,wrong entity
+872,subject_type,Company,Country,1,1,wrong type
+875,subject_entity,american broadcasting corporation,the canadian broadcasting corporation,1,1,wrong entity
+875,subject_location,regina saskatchewan,None,1,1,wrong location
+875,value,102,102.4,1,-1,numeric drift
+881,value,54677,N/A (not specified for subject entity),1,1,substantially changes the factual claim
+882,subject_entity,bank of industry,bank of industry and mine,1,1,wrong entity
+882,value,5442,9432,1,1,substantially changes the factual claim
+884,value,1111,approximately 70-140 billion RMB (or equivalent USD),1,1,substantially changes the factual claim
+886,subject_location,toronto,"bristol, england",1,1,wrong location
+890,subject_entity,calstock,calstock station,1,1,meaning-altering swap
+890,subject_type,Company,Station,1,1,meaning-altering swap
+891,subject_entity,calstock,calstock station,1,1,meaning-altering swap
+891,subject_type,Company,Station,1,1,meaning-altering swap
+896,subject_entity,dzec,dzec radyo agila,1,1,meaning-altering swap
+896,subject_location,philippines,N/A (not specified in claim text),1,1,meaning-altering swap
+897,value,less 0.25x,N/A (no specific value for subject entity),1,-1,guard_fallback
+899,subject_type,Event,Astronomical Feature,1,1,meaning-altering swap
+899,claim_domain,Sports,Astronomy,1,1,meaning-altering swap
+900,subject_type,Company,Radio Station,1,1,substantially changes factual claim
+900,subject_location,candad,Not specified in claim,1,1,substantially changes factual claim
+900,value,102,90.5,1,1,substantially changes factual claim
+903,subject_entity,volsawagen,volkswagen,1,-1,typo
+905,subject_entity,european union,sweden,1,1,substantially changes factual claim
+908,subject_location,bedford,england,1,-1,minor location specification
+913,value,190000000,200000000,1,-1,numeric drift
+914,value,2000000,60000000,1,-1,numeric drift
+917,subject_type,Place,Constituency,1,1,meaning-altering swap
+917,subject_location,lok sabha,Madhya Pradesh,1,1,meaning-altering swap
+920,value,1299,1304,1,-1,numeric drift
+923,subject_location,tamil nadu,N/A (not specified in claim),1,1,wrong location
+924,value,203,1,1,1,substantially different value
+926,subject_location,manhattan,bronx,1,1,wrong location
+926,value,<354581,97415,1,1,substantially different value
+928,subject_entity,the conservative party,plymstock radford,1,1,wrong entity
+928,subject_type,Party,Electorate,1,1,wrong type
+931,subject_location,new york,the bronx,1,1,changed from specific to general location
+932,subject_location,new york,the bronx,1,1,changed from specific to general location
+934,value,268,1117,1,1,substantially different value
+935,subject_location,burlington,N/A (depends on the intended value),1,1,changed from unspecified to specific location
+935,value,89626,"Approximately 5,000-10,000 (for a city)",1,1,substantially different value
+937,subject_entity,david l wei,write-in,1,1,changed from generic to specific entity
+937,subject_type,Candidate,Vote Category,1,1,changed from vote category to candidate
+938,subject_location,the isle of wight,N/A (not specified in claim),1,1,changed from unspecified to specific location
+939,subject_entity,madre de dios,madre de dios,1,1,changed from electoral district to place
+939,subject_type,Place,Electoral District,1,1,changed from electoral district to place
+942,subject_type,Candidate,Candidate,1,-1,guard_fallback
+942,value,3586,39.5%,1,1,substantially changes the factual claim
+945,subject_entity,republicans,republican party,1,-1,abbreviation
+945,subject_location,new york city,queens,1,1,wrong location
+945,value,249887,12.6%,1,1,substantially changes the factual claim
+946,subject_entity,joseph v mckee,joseph v mckee,1,-1,guard_fallback
+946,subject_location,new york city,queen,1,1,wrong location
+947,subject_location,new york city,queen,1,1,wrong location
+949,value,2690,tens of millions,1,1,substantially changes the factual claim
+952,subject_location,connecticut,united states (or other specific state),1,1,wrong location
+952,value,2059032,tens of millions,1,1,substantially different value
+953,subject_entity,leinster,Leinster (as a region/constituency),1,-1,case sensitivity
+953,subject_type,Place,Region,1,1,wrong entity type
+956,subject_type,Candidate,Mayor,1,1,wrong entity type
+957,subject_entity,tarana,tarana,1,1,wrong entity
+957,subject_type,Place,Constituency,1,1,wrong entity type
+957,subject_location,tarana,N/A,1,1,wrong location
+961,value,100,N/A,1,1,substantial factual change
+964,subject_location,fermanagh,fermanagh and south tyrone,1,1,wrong location
+964,value,224,2242,1,1,substantial factual change
+968,subject_type,Candidate,Artist,1,1,wrong entity type
+968,subject_location,macedonia,slovenia,1,1,wrong location
+968,claim_domain,Sports,Entertainment,1,1,wrong claim domain
+975,subject_entity,"aycliffe drive , brockswood , maple grove , and yewtree","aycliffe drive, brockswood, maple grove, and yewtree",1,-1,trivial spacing differences
+975,subject_location,uk,N/A,1,1,intentional location addition
+975,value,2337,N/A,1,1,intentional numeric value change
+976,subject_entity,holtsmere,holtsmere end,1,1,intentional entity truncation
+976,value,7047,131319,1,1,intentional numeric value change
+978,subject_location,canada,N/A (not specified for osgoode),1,1,intentional location change
+978,value,6495,13,1,1,intentional numeric value change
+981,value,8995551,4850685,1,1,substantial numeric change
+982,subject_entity,inc,Mizoram State Assembly,1,1,wrong entity
+982,subject_type,Party,Legislative Body,1,1,wrong type
+982,value,200,40,1,1,substantial numeric change

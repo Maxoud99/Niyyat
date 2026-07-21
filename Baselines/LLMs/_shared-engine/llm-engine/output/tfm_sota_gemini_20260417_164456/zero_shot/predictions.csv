@@ -1,0 +1,165 @@
+row_id,true_intent,pred_intent,correct,reason,llm_time_s,raw_response
+16,-1,1,0,"hours-per-week changed, likely intentional to reflect a different work schedule",0.994,"{""decision"": 1, ""reason"": ""hours-per-week changed, likely intentional to reflect a different work schedule""}
+"
+26,-1,1,0,capital-gain and capital-loss changed together,0.671,"{""decision"": 1, ""reason"": ""capital-gain and capital-loss changed together""}"
+36,-1,1,0,Occupation changed to a different but plausible value.,0.559,"{""decision"": 1, ""reason"": ""Occupation changed to a different but plausible value.""}
+"
+49,-1,1,0,"Workclass and capital-gain changed, suggesting intentional manipulation.",0.693,"{""decision"": 1, ""reason"": ""Workclass and capital-gain changed, suggesting intentional manipulation.""}
+"
+58,-1,1,0,"workclass and occupation changed, suggesting intentional manipulation",0.794,"{""decision"": 1, ""reason"": ""workclass and occupation changed, suggesting intentional manipulation""}
+"
+64,-1,1,0,capital-loss changed from 0 to 1,0.611,"{""decision"": 1, ""reason"": ""capital-loss changed from 0 to 1""}"
+68,-1,1,0,Age changed to a plausible value.,0.55,"{""decision"": 1, ""reason"": ""Age changed to a plausible value.""}
+"
+72,-1,1,0,"Age changed, likely intentional.",0.736,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+100,-1,1,0,"Age and hours-per-week changed, suggesting an update to reflect life changes.",0.568,"{""decision"": 1, ""reason"": ""Age and hours-per-week changed, suggesting an update to reflect life changes.""}"
+133,-1,1,0,"Workclass changed, likely intentional.",0.561,"{""decision"": 1, ""reason"": ""Workclass changed, likely intentional.""}
+"
+152,-1,1,0,Age change is likely intentional.,0.738,"{""decision"": 1, ""reason"": ""Age change is likely intentional.""}
+"
+153,-1,1,0,"Capital gain changed from 0 to 43, likely intentional.",0.73,"{""decision"": 1, ""reason"": ""Capital gain changed from 0 to 43, likely intentional.""}
+"
+166,-1,1,0,Workclass changed to a more common category.,0.601,"{""decision"": 1, ""reason"": ""Workclass changed to a more common category.""}
+"
+170,-1,1,0,"Age and workclass changed, suggesting intentional modification.",0.551,"{""decision"": 1, ""reason"": ""Age and workclass changed, suggesting intentional modification.""}
+"
+174,-1,1,0,marital-status changed to a different valid status,0.66,"{""decision"": 1, ""reason"": ""marital-status changed to a different valid status""}"
+185,-1,1,0,capital-gain changed from 0 to 3,0.673,"{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 3""}"
+188,-1,1,0,"Age changed, likely intentional.",0.722,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+189,-1,1,0,hours-per-week changed to a common value,0.599,"{""decision"": 1, ""reason"": ""hours-per-week changed to a common value""}"
+195,-1,1,0,"Relationship changed, likely intentional.",0.604,"{""decision"": 1, ""reason"": ""Relationship changed, likely intentional.""}
+"
+205,-1,1,0,Age change is plausible.,0.606,"{""decision"": 1, ""reason"": ""Age change is plausible.""}"
+209,-1,1,0,capital-loss changed to 1,0.546,"{""decision"": 1, ""reason"": ""capital-loss changed to 1""}"
+214,-1,1,0,"Occupation changed, likely intentional.",0.542,"{""decision"": 1, ""reason"": ""Occupation changed, likely intentional.""}"
+217,-1,1,0,"Age and occupation changed, suggesting intentional modification.",0.483,"{""decision"": 1, ""reason"": ""Age and occupation changed, suggesting intentional modification.""}"
+218,-1,1,0,"Occupation changed, likely intentional.",0.655,"{""decision"": 1, ""reason"": ""Occupation changed, likely intentional.""}"
+226,-1,1,0,Capital gain changed to zero.,0.507,"{""decision"": 1, ""reason"": ""Capital gain changed to zero.""}
+"
+252,-1,1,0,Occupation changed to a higher-status job.,0.691,"{""decision"": 1, ""reason"": ""Occupation changed to a higher-status job.""}
+"
+257,-1,1,0,"capital-gain changed from 0 to 74, likely intentional",0.596,"{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 74, likely intentional""}"
+260,-1,1,0,hours-per-week changed to a common value,0.49,"{""decision"": 1, ""reason"": ""hours-per-week changed to a common value""}"
+262,-1,1,0,Age changed to a plausible but different value.,0.611,"{""decision"": 1, ""reason"": ""Age changed to a plausible but different value.""}
+"
+281,-1,1,0,Age changed to a plausible value.,0.55,"{""decision"": 1, ""reason"": ""Age changed to a plausible value.""}"
+295,-1,1,0,capital-gain changed from 0 to 57,0.553,"{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 57""}"
+302,-1,-1,1,Age change of 1 year is likely unintentional.,0.556,"{""decision"": -1, ""reason"": ""Age change of 1 year is likely unintentional.""}
+"
+303,-1,1,0,"Marital status changed, likely intentional.",0.672,"{""decision"": 1, ""reason"": ""Marital status changed, likely intentional.""}
+"
+314,-1,1,0,"Age changed, likely intentional.",0.561,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}"
+348,-1,1,0,"Relationship and capital loss changed, suggesting intentional manipulation.",0.691,"{""decision"": 1, ""reason"": ""Relationship and capital loss changed, suggesting intentional manipulation.""}
+"
+352,-1,1,0,marital-status changed to a valid but different category,0.74,"```json
+{""decision"": 1, ""reason"": ""marital-status changed to a valid but different category""}
+```"
+358,-1,1,0,"workclass changed, likely intentional",0.676,"{""decision"": 1, ""reason"": ""workclass changed, likely intentional""}"
+361,-1,1,0,capital-gain changed from 0 to 39,0.493,"{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 39""}"
+366,-1,1,0,Occupation changed to a different valid category.,0.493,"{""decision"": 1, ""reason"": ""Occupation changed to a different valid category.""}"
+384,-1,1,0,"Age changed, likely intentional.",0.664,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+386,-1,1,0,Hours per week is often intentionally adjusted.,0.687,"{""decision"": 1, ""reason"": ""Hours per week is often intentionally adjusted.""}
+"
+403,-1,1,0,"Age changed by a small, plausible amount.",0.549,"{""decision"": 1, ""reason"": ""Age changed by a small, plausible amount.""}
+"
+407,-1,1,0,"Occupation changed, likely intentional data entry error.",0.672,"{""decision"": 1, ""reason"": ""Occupation changed, likely intentional data entry error.""}"
+416,-1,1,0,"hours-per-week changed, likely intentional to reflect actual work hours",0.553,"{""decision"": 1, ""reason"": ""hours-per-week changed, likely intentional to reflect actual work hours""}"
+426,-1,1,0,"Age changed by a small, plausible amount.",0.552,"{""decision"": 1, ""reason"": ""Age changed by a small, plausible amount.""}
+"
+438,-1,1,0,Hours per week changed to a more standard value.,0.546,"{""decision"": 1, ""reason"": ""Hours per week changed to a more standard value.""}"
+479,-1,1,0,Specific value changed in isolation.,0.568,"{""decision"": 1, ""reason"": ""Specific value changed in isolation.""}
+"
+480,-1,1,0,capital-gain changed to a non-zero value,0.684,"{""decision"": 1, ""reason"": ""capital-gain changed to a non-zero value""}"
+481,-1,1,0,"Occupation changed to Sales, a plausible alternative.",0.62,"{""decision"": 1, ""reason"": ""Occupation changed to Sales, a plausible alternative.""}
+"
+487,-1,-1,1,Age change is likely unintentional.,0.614,"{""decision"": -1, ""reason"": ""Age change is likely unintentional.""}
+"
+495,-1,1,0,Hours worked changed to a common value.,0.554,"{""decision"": 1, ""reason"": ""Hours worked changed to a common value.""}"
+499,-1,1,0,"Workclass changed, likely intentional.",0.557,"{""decision"": 1, ""reason"": ""Workclass changed, likely intentional.""}
+"
+506,-1,1,0,"hours-per-week changed from 10 to 40, a common full-time value",0.556,"{""decision"": 1, ""reason"": ""hours-per-week changed from 10 to 40, a common full-time value""}"
+512,-1,1,0,"Occupation changed, likely intentional.",0.487,"{""decision"": 1, ""reason"": ""Occupation changed, likely intentional.""}
+"
+523,-1,1,0,hours-per-week changed to a standard full-time value,0.7,"{""decision"": 1, ""reason"": ""hours-per-week changed to a standard full-time value""}"
+544,-1,1,0,Native country changed to US,0.544,"{""decision"": 1, ""reason"": ""Native country changed to US""}"
+551,-1,1,0,marital-status and relationship are changed together,0.757,"{""decision"": 1, ""reason"": ""marital-status and relationship are changed together""}"
+559,-1,1,0,capital-gain changed from 0 to 34,0.551,"{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 34""}"
+569,-1,1,0,Hours per week is often intentionally adjusted.,0.624,"{""decision"": 1, ""reason"": ""Hours per week is often intentionally adjusted.""}
+"
+588,-1,1,0,"marital-status changed, likely intentional",0.549,"{""decision"": 1, ""reason"": ""marital-status changed, likely intentional""}"
+591,-1,1,0,"Age changed, likely intentional.",0.679,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+599,-1,1,0,Age changed by one year.,0.738,"{""decision"": 1, ""reason"": ""Age changed by one year.""}
+"
+610,-1,1,0,hours-per-week changed to a common value,0.488,"{""decision"": 1, ""reason"": ""hours-per-week changed to a common value""}
+"
+617,-1,1,0,"Age changed, likely intentional.",0.614,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+634,-1,1,0,"Age changed, likely intentional.",0.674,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+639,-1,1,0,capital-gain changed from 0 to 86,0.61,"{""decision"": 1, ""reason"": ""capital-gain changed from 0 to 86""}"
+642,-1,1,0,Occupation changed to a different category.,0.624,"{""decision"": 1, ""reason"": ""Occupation changed to a different category.""}
+"
+659,-1,1,0,"Relationship changed, likely intentional.",0.5,"{""decision"": 1, ""reason"": ""Relationship changed, likely intentional.""}"
+660,-1,1,0,hours-per-week changed to a common full-time value,0.73,"{""decision"": 1, ""reason"": ""hours-per-week changed to a common full-time value""}"
+663,-1,1,0,Age and capital gain changed simultaneously.,0.683,"{""decision"": 1, ""reason"": ""Age and capital gain changed simultaneously.""}"
+667,-1,1,0,"Age and relationship changed, suggesting intentional modification.",0.607,"{""decision"": 1, ""reason"": ""Age and relationship changed, suggesting intentional modification.""}
+"
+688,-1,1,0,capital-loss and hours-per-week changed together,0.568,"{""decision"": 1, ""reason"": ""capital-loss and hours-per-week changed together""}"
+690,-1,1,0,Occupation changed to a more common value.,0.682,"{""decision"": 1, ""reason"": ""Occupation changed to a more common value.""}"
+697,-1,1,0,"Workclass changed, suggesting intentional modification of employment status.",0.746,"{""decision"": 1, ""reason"": ""Workclass changed, suggesting intentional modification of employment status.""}
+"
+701,-1,-1,1,Age is a common error.,0.496,"{""decision"": -1, ""reason"": ""Age is a common error.""}
+"
+717,-1,1,0,capital-gain and hours-per-week changed,0.612,"{""decision"": 1, ""reason"": ""capital-gain and hours-per-week changed""}"
+721,-1,1,0,Hours per week are often intentionally modified.,0.611,"{""decision"": 1, ""reason"": ""Hours per week are often intentionally modified.""}
+"
+726,-1,1,0,"Two fields changed, likely intentional.",0.803,"{""decision"": 1, ""reason"": ""Two fields changed, likely intentional.""}
+"
+732,-1,1,0,"Workclass changed, likely intentional.",0.608,"{""decision"": 1, ""reason"": ""Workclass changed, likely intentional.""}
+"
+746,-1,1,0,"Relationship changed from 'Own-child' to 'Husband', implying a deliberate alteration to reflect a different family role.",0.736,"{""decision"": 1, ""reason"": ""Relationship changed from 'Own-child' to 'Husband', implying a deliberate alteration to reflect a different family role.""}
+"
+755,-1,1,0,Workclass changed to a more common category.,0.62,"{""decision"": 1, ""reason"": ""Workclass changed to a more common category.""}"
+777,-1,1,0,Specific value changed in 'capital-loss' suggests intentionality.,0.562,"{""decision"": 1, ""reason"": ""Specific value changed in 'capital-loss' suggests intentionality.""}
+"
+784,-1,1,0,"Age changed, likely intentional.",0.499,"{""decision"": 1, ""reason"": ""Age changed, likely intentional.""}
+"
+786,-1,1,0,capital-gain changed significantly,0.556,"```json
+{""decision"": 1, ""reason"": ""capital-gain changed significantly""}
+```"
+794,-1,1,0,Relationship and native-country changed to be internally consistent with marital status and sex.,0.617,"{""decision"": 1, ""reason"": ""Relationship and native-country changed to be internally consistent with marital status and sex.""}
+"
+802,-1,1,0,Hours per week is often intentionally adjusted.,0.749,"{""decision"": 1, ""reason"": ""Hours per week is often intentionally adjusted.""}
+"
+820,-1,1,0,"Occupation changed, likely intentional to misrepresent employment.",0.684,"{""decision"": 1, ""reason"": ""Occupation changed, likely intentional to misrepresent employment.""}
+"
+830,-1,1,0,"Occupation changed, likely intentional.",0.641,"{""decision"": 1, ""reason"": ""Occupation changed, likely intentional.""}
+"
+832,-1,1,0,"Age, capital-gain, and hours-per-week changed, suggesting intentional manipulation.",0.609,"{""decision"": 1, ""reason"": ""Age, capital-gain, and hours-per-week changed, suggesting intentional manipulation.""}
+"
+835,-1,1,0,"Relationship changed, likely intentional.",0.501,"{""decision"": 1, ""reason"": ""Relationship changed, likely intentional.""}
+"
+838,-1,-1,1,Age change is likely unintentional.,0.625,"{""decision"": -1, ""reason"": ""Age change is likely unintentional.""}
+"
+857,-1,1,0,"Capital gain changed from 0 to 131, likely intentional.",0.705,"{""decision"": 1, ""reason"": ""Capital gain changed from 0 to 131, likely intentional.""}"
+873,-1,1,0,Age and native-country changed; likely intentional to fit US context.,0.693,"{""decision"": 1, ""reason"": ""Age and native-country changed; likely intentional to fit US context.""}
+"
+899,-1,1,0,Age and capital loss changed simultaneously.,0.678,"{""decision"": 1, ""reason"": ""Age and capital loss changed simultaneously.""}
+"
+903,-1,1,0,Age increment is likely intentional.,0.607,"{""decision"": 1, ""reason"": ""Age increment is likely intentional.""}
+"
+908,-1,1,0,"Single, non-zero change to capital-loss suggests intentional manipulation.",0.629,"{""decision"": 1, ""reason"": ""Single, non-zero change to capital-loss suggests intentional manipulation.""}
+"
+918,-1,1,0,Capital gain changed to a non-zero value.,0.632,"```json
+{""decision"": 1, ""reason"": ""Capital gain changed to a non-zero value.""}
+```"
+944,-1,1,0,Age incremented by one.,0.611,"{""decision"": 1, ""reason"": ""Age incremented by one.""}
+"
+945,-1,-1,1,Age change is likely unintentional.,0.618,"{""decision"": -1, ""reason"": ""Age change is likely unintentional.""}
+"
+949,-1,1,0,Age change alone suggests intentional manipulation.,0.667,"{""decision"": 1, ""reason"": ""Age change alone suggests intentional manipulation.""}
+"

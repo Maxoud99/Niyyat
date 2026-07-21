@@ -1,0 +1,30 @@
+{
+  "model": "gemini-2.5-pro",
+  "dataset": "twitter_bot",
+  "total_records": 4000,
+  "chunk_size": 10,
+  "num_chunks": 400,
+  "max_records_limit": 4000,
+  "total_time_sec": 8403.564728736877,
+  "avg_chunk_time_sec": 21.00849429518683,
+  "median_chunk_time_sec": 20.54884510836564,
+  "total_llm_time_sec": 8401.092891391832,
+  "avg_llm_time_sec": 21.00273222847958,
+  "llm_success_chunks": 347,
+  "fallback_chunks": 53,
+  "llm_status_hist": {
+    "ok_feature_decisions": 347,
+    "api_error": 0,
+    "parse_error": 53
+  },
+  "decision_counts": {
+    "intentional (1)": 1088,
+    "unintentional (-1)": 843,
+    "unchanged (0)": 74069
+  },
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/twitter-bot/intent-attribution/outputs/bare-min-gemini/intent_labels.csv",
+    "intent_explanations_csv": "/home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/twitter-bot/intent-attribution/outputs/bare-min-gemini/intent_explanations.csv",
+    "per_chunk_times_csv": "/home/mohamed/error_injector/llms_baseline/klim-kireev/datasets/twitter-bot/intent-attribution/outputs/bare-min-gemini/per_chunk_times.csv"
+  }
+}

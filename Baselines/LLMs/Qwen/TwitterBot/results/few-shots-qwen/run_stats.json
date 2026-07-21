@@ -1,0 +1,18 @@
+{
+  "model": "Qwen-2.5",
+  "endpoint": "http://127.0.0.1:6300/generate",
+  "version": "few_shot_enhanced_with_rubric",
+  "few_shot_enabled": true,
+  "total_records": 4000,
+  "chunk_size": 7,
+  "total_chunks": 572,
+  "llm_success_chunks": 429,
+  "llm_fail_chunks": 143,
+  "features_evaluated": 1508,
+  "parse_errors_total": 423,
+  "parse_error_rate": 0.28050397877984085,
+  "total_time_seconds": 2469.205299037043,
+  "avg_chunk_time_seconds": 4.316331669178602,
+  "avg_llm_time_seconds": 4.314361836577251,
+  "throughput_records_per_second": 1.6199544045851297
+}

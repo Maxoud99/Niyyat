@@ -1,0 +1,69 @@
+================================================================================
+EVALUATION LOG
+Started: 2025-12-10 13:51:03
+================================================================================
+
+
+======================================================================
+EVALUATING: K-Means (Normal)
+======================================================================
+Results: {'algorithm': 'K-Means (Normal)', 'n_variants': 50, 'n_train_samples': 81, 'n_test_samples': 28175, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 0.27461965178228154, 'pct_train_samples': 0.28666477916194794, 'pct_test_samples': 99.71333522083805, 'accuracy': 0.780656610470275, 'f1_weighted': 0.7803847136085728, 'f1_intentional': 0.7627457002457002, 'f1_unintentional': 0.7960530658042373}
+
+======================================================================
+EVALUATING: K-Means (Smart)
+======================================================================
+Results: {'algorithm': 'K-Means (Smart)', 'n_variants': 50, 'n_train_samples': 79, 'n_test_samples': 28177, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 0.27461965178228154, 'pct_train_samples': 0.27958663646659115, 'pct_test_samples': 99.72041336353341, 'accuracy': 0.7999077261596338, 'f1_weighted': 0.8000222149668803, 'f1_intentional': 0.7974565311107917, 'f1_unintentional': 0.8023003015639245}
+
+======================================================================
+EVALUATING: DBSCAN (Normal)
+======================================================================
+Results: {'algorithm': 'DBSCAN (Normal)', 'n_variants': 266, 'n_train_samples': 514, 'n_test_samples': 27742, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 1.4609765474817378, 'pct_train_samples': 1.8190826727066818, 'pct_test_samples': 98.18091732729332, 'accuracy': 0.894456059404513, 'f1_weighted': 0.8945644229543941, 'f1_intentional': 0.8904929314084823, 'f1_unintentional': 0.8981423502400334}
+
+======================================================================
+EVALUATING: DBSCAN (Smart)
+======================================================================
+Results: {'algorithm': 'DBSCAN (Smart)', 'n_variants': 266, 'n_train_samples': 514, 'n_test_samples': 27742, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 1.4609765474817378, 'pct_train_samples': 1.8190826727066818, 'pct_test_samples': 98.18091732729332, 'accuracy': 0.8860572417273448, 'f1_weighted': 0.8861007825929152, 'f1_intentional': 0.8853006277441127, 'f1_unintentional': 0.88680393912265}
+
+======================================================================
+EVALUATING: Hierarchical-Ward (Normal)
+======================================================================
+Results: {'algorithm': 'Hierarchical-Ward (Normal)', 'n_variants': 50, 'n_train_samples': 78, 'n_test_samples': 28178, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 0.27461965178228154, 'pct_train_samples': 0.27604756511891276, 'pct_test_samples': 99.72395243488108, 'accuracy': 0.7993470083043509, 'f1_weighted': 0.7995127109098761, 'f1_intentional': 0.7946837097828455, 'f1_unintentional': 0.80380317856895}
+
+======================================================================
+EVALUATING: Hierarchical-Ward (Smart)
+======================================================================
+Results: {'algorithm': 'Hierarchical-Ward (Smart)', 'n_variants': 50, 'n_train_samples': 81, 'n_test_samples': 28175, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 0.27461965178228154, 'pct_train_samples': 0.28666477916194794, 'pct_test_samples': 99.71333522083805, 'accuracy': 0.7387755102040816, 'f1_weighted': 0.7378198966466261, 'f1_intentional': 0.7482727956768589, 'f1_unintentional': 0.7285334907052228}
+
+======================================================================
+EVALUATING: Hierarchical-Average (Normal)
+======================================================================
+Results: {'algorithm': 'Hierarchical-Average (Normal)', 'n_variants': 50, 'n_train_samples': 90, 'n_test_samples': 28166, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 0.27461965178228154, 'pct_train_samples': 0.31851642129105323, 'pct_test_samples': 99.68148357870895, 'accuracy': 0.7424909465312789, 'f1_weighted': 0.7356756958339732, 'f1_intentional': 0.7729677277991673, 'f1_unintentional': 0.702563051055977}
+
+======================================================================
+EVALUATING: Hierarchical-Average (Smart)
+======================================================================
+Results: {'algorithm': 'Hierarchical-Average (Smart)', 'n_variants': 50, 'n_train_samples': 92, 'n_test_samples': 28164, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 0.27461965178228154, 'pct_train_samples': 0.32559456398640996, 'pct_test_samples': 99.67440543601359, 'accuracy': 0.7870330918903565, 'f1_weighted': 0.7867777853613602, 'f1_intentional': 0.7696974351098141, 'f1_unintentional': 0.8019416193369436}
+
+======================================================================
+EVALUATING: GMM (Normal)
+======================================================================
+Results: {'algorithm': 'GMM (Normal)', 'n_variants': 50, 'n_train_samples': 78, 'n_test_samples': 28178, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 0.27461965178228154, 'pct_train_samples': 0.27604756511891276, 'pct_test_samples': 99.72395243488108, 'accuracy': 0.7976435517070055, 'f1_weighted': 0.7972398316465019, 'f1_intentional': 0.8023844181049421, 'f1_unintentional': 0.7926696240273434}
+
+======================================================================
+EVALUATING: GMM (Smart)
+======================================================================
+Results: {'algorithm': 'GMM (Smart)', 'n_variants': 50, 'n_train_samples': 76, 'n_test_samples': 28180, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 0.27461965178228154, 'pct_train_samples': 0.26896942242355604, 'pct_test_samples': 99.73103057757643, 'accuracy': 0.79513839602555, 'f1_weighted': 0.7946785605563078, 'f1_intentional': 0.7760580317312541, 'f1_unintentional': 0.811222654589451}
+
+======================================================================
+EVALUATING: HDBSCAN (Normal)
+======================================================================
+Results: {'algorithm': 'HDBSCAN (Normal)', 'n_variants': 600, 'n_train_samples': 1060, 'n_test_samples': 27196, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 3.2954358213873784, 'pct_train_samples': 3.751415628539071, 'pct_test_samples': 96.24858437146094, 'accuracy': 0.9109795558170319, 'f1_weighted': 0.9110282946365171, 'f1_intentional': 0.9060863493541255, 'f1_unintentional': 0.9153881102995142}
+
+======================================================================
+EVALUATING: HDBSCAN (Smart)
+======================================================================
+Results: {'algorithm': 'HDBSCAN (Smart)', 'n_variants': 600, 'n_train_samples': 1060, 'n_test_samples': 27196, 'total_variants': 18207, 'total_samples': 28256, 'pct_train_variants': 3.2954358213873784, 'pct_train_samples': 3.751415628539071, 'pct_test_samples': 96.24858437146094, 'accuracy': 0.9316443594646272, 'f1_weighted': 0.9316826164018565, 'f1_intentional': 0.9279094117190833, 'f1_unintentional': 0.9350113616500612}
+
+================================================================================
+Completed: 2025-12-10 13:52:23
+================================================================================

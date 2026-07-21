@@ -1,0 +1,51 @@
+Mixed Error Pipeline — Run Report
+============================================================
+Dataset            : Adult Income (clean)
+Rows used          : 48,842  (full dataset)
+Feature columns    : 14
+Total feature cells: 683,788
+
+Phase 1 — Unintentional (tab_err / Felix Biessmann)
+  Cells changed    : 7,877
+  Error types      : Typo, MissingValue, Outlier, CategorySwap
+  Mechanism        : ECAR (random), EAR (conditional), ENAR (not-at-random)
+
+Phase 2 — Intentional (Kireev adversarial attack)
+  Cells changed    : 3,838
+  Attack           : Universal Greedy Search (cost-bounded)
+  Goal             : Flip prediction  <=50K → >50K
+  Cost bound/row   : 20.0
+
+Combined mask  (last-writer-wins semantics)
+   0 — clean        :  672,127  (98.29%)
+  -1 — unintentional:    7,823  (1.14%)  ← tab_err noise not overwritten
+   1 — intentional  :    3,838  (0.56%)  ← adversarial (last-writer-wins)
+
+Per-column breakdown
+  Column                  clean  unint(-1)  intent(1)
+  -------------------- -------- ---------- ----------
+  age                    47,896        520        426
+  workclass              48,092        745          5
+  fnlwgt                 48,523        319          0
+  education              48,103        514        225
+  education-num          48,012        423        407
+  marital-status         47,434        521        887
+  occupation             47,505      1,278         59
+  relationship           47,197        424      1,221
+  race                   48,523        319          0
+  sex                    48,629        213          0
+  capital-gain           47,753        633        456
+  capital-loss           48,405        426         11
+  hours-per-week         48,175        530        137
+  native-country         47,880        958          4
+
+Elapsed            : 11288.0 s
+
+Output files
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_clean.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_phase1_unintentional.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/adult_phase2_final.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/mask_unintentional.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/mask_intentional.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/mask_combined.csv
+  /home/mohamed/error_injector/llms_baseline/mixed_error_pipeline/output/comparison_report.csv

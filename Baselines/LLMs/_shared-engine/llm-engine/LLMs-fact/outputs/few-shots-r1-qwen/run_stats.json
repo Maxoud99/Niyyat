@@ -1,0 +1,29 @@
+{
+  "variant": "few-shots",
+  "model_key": "r1-qwen",
+  "model": "DeepSeek-R1-Qwen",
+  "endpoint": "http://127.0.0.1:6800/generate",
+  "dataset": "tabfact",
+  "records": 984,
+  "chunk_size": 10,
+  "n_chunks": 99,
+  "total_time_sec": 1062.6012391169934,
+  "avg_chunk_sec": 10.732831493020205,
+  "avg_llm_sec": 10.731464141464912,
+  "status_hist": {
+    "ok": 95,
+    "parse_error": 3,
+    "api_error": 1
+  },
+  "successful_chunks": 95,
+  "decision_counts": {
+    "intentional (1)": 497,
+    "unintentional (-1)": 226,
+    "unchanged (0)": 4197
+  },
+  "outputs": {
+    "intent_labels_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/few-shots-r1-qwen/intent_labels.csv",
+    "intent_explanations_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/few-shots-r1-qwen/intent_explanations.csv",
+    "per_chunk_times_csv": "/home/mohamed/error_injector/llms_baseline/error_detection_system/src/attribution/llm-based/LLMs-fact/outputs/few-shots-r1-qwen/per_chunk_times.csv"
+  }
+}

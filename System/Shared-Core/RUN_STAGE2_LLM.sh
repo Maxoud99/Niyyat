@@ -1,0 +1,23 @@
+#!/bin/bash
+# Quick reference for running Stage 2 LLM evaluation
+
+echo "==============================================="
+echo "Stage 2: LLM-Based Cell Attribution"
+echo "==============================================="
+echo ""
+echo "Available commands:"
+echo ""
+echo "1. Test run (10 records):"
+echo "   python src/run_stage2_llm.py --chunk-size 5 --num-records 10"
+echo ""
+echo "2. Medium test (50 records):"
+echo "   python src/run_stage2_llm.py --chunk-size 5 --num-records 50"
+echo ""
+echo "3. Full evaluation (999 records - ~65 minutes):"
+echo "   python src/run_stage2_llm.py --chunk-size 5"
+echo ""
+echo "4. Custom configuration:"
+echo "   python src/run_stage2_llm.py --chunk-size 10 --num-records 100 --n-clean-refs 20"
+echo ""
+echo "Results will be saved to: outputs/stage2/LLMs/"
+echo "==============================================="

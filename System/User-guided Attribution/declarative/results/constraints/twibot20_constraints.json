@@ -1,0 +1,258 @@
+{
+  "constraints": [
+    {
+      "id": "C1",
+      "description": "A default_profile value of 0 suggests a deliberate change to make the account look more like a customized human account (gain-targeted).",
+      "columns": [
+        "default_profile"
+      ],
+      "expression": "str(row['default_profile']) == '0'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C2",
+      "description": "A default_profile_image value of 0 suggests a deliberate change to make the account look more like a human with a custom avatar (gain-targeted).",
+      "columns": [
+        "default_profile_image"
+      ],
+      "expression": "str(row['default_profile_image']) == '0'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C3",
+      "description": "A geo_enabled value of 1 suggests a deliberate change to make the profile look more complete and human-like (gain-targeted).",
+      "columns": [
+        "geo_enabled"
+      ],
+      "expression": "str(row['geo_enabled']) == '1'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C4",
+      "description": "A profile_use_background_image value of 1 suggests a deliberate change to make the profile look more personalized and human-like (gain-targeted).",
+      "columns": [
+        "profile_use_background_image"
+      ],
+      "expression": "str(row['profile_use_background_image']) == '1'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C5",
+      "description": "A has_location value of 1 suggests a deliberate change to make the profile look more complete and human-like (gain-targeted).",
+      "columns": [
+        "has_location"
+      ],
+      "expression": "str(row['has_location']) == '1'",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C6",
+      "description": "A has_description value of 1 with a positive description_length suggests a deliberate change to add a biography and look more human (gain-targeted).",
+      "columns": [
+        "has_description",
+        "description_length"
+      ],
+      "expression": "str(row['has_description']) == '1' and (lambda v: int(float(v)))(row['description_length']) > 0",
+      "intent_signal": 1,
+      "motive": "gain_targeted"
+    },
+    {
+      "id": "C7",
+      "description": "A negative followers_count is physically impossible and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "followers_count"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['followers_count']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C8",
+      "description": "A negative friends_count is physically impossible and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "friends_count"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['friends_count']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C9",
+      "description": "A negative favourites_count is physically impossible and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "favourites_count"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['favourites_count']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C10",
+      "description": "A negative statuses_count is physically impossible and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "statuses_count"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['statuses_count']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C11",
+      "description": "A negative listed_count is physically impossible and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "listed_count"
+      ],
+      "expression": "(lambda v: int(float(v)))(row['listed_count']) < 0",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C12",
+      "description": "A description_length outside the valid Twitter range [0, 160] is nonsensical and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "description_length"
+      ],
+      "expression": "not (0 <= (lambda v: int(float(v)))(row['description_length']) <= 160)",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C13",
+      "description": "A screen_name_length outside the valid Twitter range [1, 15] is nonsensical and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "screen_name_length"
+      ],
+      "expression": "not (1 <= (lambda v: int(float(v)))(row['screen_name_length']) <= 15)",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C14",
+      "description": "A name_length outside the valid Twitter range [1, 50] is nonsensical and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "name_length"
+      ],
+      "expression": "not (1 <= (lambda v: int(float(v)))(row['name_length']) <= 50)",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C15",
+      "description": "A mismatch between has_description and description_length serves no evasion purpose and suggests accidental, inconsistent edits (noise).",
+      "columns": [
+        "has_description",
+        "description_length"
+      ],
+      "expression": "(str(row['has_description']) == '1' and (lambda v: int(float(v)))(row['description_length']) == 0) or (str(row['has_description']) == '0' and (lambda v: int(float(v)))(row['description_length']) > 0)",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C16",
+      "description": "A verified flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "verified"
+      ],
+      "expression": "str(row['verified']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C17",
+      "description": "A protected flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "protected"
+      ],
+      "expression": "str(row['protected']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C18",
+      "description": "A default_profile flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "default_profile"
+      ],
+      "expression": "str(row['default_profile']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C19",
+      "description": "A default_profile_image flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "default_profile_image"
+      ],
+      "expression": "str(row['default_profile_image']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C20",
+      "description": "A geo_enabled flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "geo_enabled"
+      ],
+      "expression": "str(row['geo_enabled']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C21",
+      "description": "A profile_use_background_image flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "profile_use_background_image"
+      ],
+      "expression": "str(row['profile_use_background_image']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C22",
+      "description": "A has_created_date flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "has_created_date"
+      ],
+      "expression": "str(row['has_created_date']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C23",
+      "description": "A has_description flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "has_description"
+      ],
+      "expression": "str(row['has_description']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C24",
+      "description": "A has_location flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "has_location"
+      ],
+      "expression": "str(row['has_location']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    },
+    {
+      "id": "C25",
+      "description": "A label flag with a value other than 0 or 1 is invalid and serves no evasion goal, indicating accidental corruption (noise).",
+      "columns": [
+        "label"
+      ],
+      "expression": "str(row['label']) not in ['0', '1']",
+      "intent_signal": -1,
+      "motive": "noise"
+    }
+  ],
+  "source": "configs/twibot20.txt",
+  "model": "gemini-2.5-pro"
+}
