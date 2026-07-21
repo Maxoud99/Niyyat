@@ -9,7 +9,7 @@ sensor noise), with no clean reference values required.
 This is the artifact repository for:
 
 > Mohamed Abdelmaksoud, Konrad Rieck, and Ziawasch Abedjan. **NIYYAT:
-> Towards Intent Attribution for Erroneous Cells in Tabular Data.**
+> Intent Attribution for Erroneous Cells in Tabular Data.**
 > PVLDB, Vol. 20 (target), 2027. *(paper under preparation; DOI and public
 > preprint link to follow.)*
 
